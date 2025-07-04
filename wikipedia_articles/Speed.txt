@@ -1,0 +1,283 @@
+In kinematics, the speed (commonly referred to as v) of an object is the magnitude of the change of its position over time or the magnitude of the change of its position per unit of time; it is thus a non-negative scalar quantity. The average speed of an object in an interval of time is the distance travelled by the object divided by the duration of the interval; the instantaneous speed is the limit of the average speed as the duration of the time interval approaches zero. Speed is the magnitude of velocity (a vector), which indicates additionally the direction of motion.
+Speed has the dimensions of distance divided by time. The SI unit of speed is the metre per second (m/s), but the most common unit of speed in everyday usage is the kilometre per hour (km/h) or, in the US and the UK, miles per hour (mph). For air and marine travel, the knot is commonly used.
+The fastest possible speed at which energy or information can travel, according to special relativity, is the speed of light in vacuum c = 299792458 metres per second (approximately 1079000000 km/h or 671000000 mph). Matter cannot quite reach the speed of light, as this would require an infinite amount of energy. In relativity physics, the concept of rapidity replaces the classical idea of speed.
+
+
+== Definition ==
+
+
+=== Historical definition ===
+Italian physicist Galileo Galilei is usually credited with being the first to measure speed by considering the distance covered and the time it takes. Galileo defined speed as the distance covered per unit of time. In equation form, that is
+
+  
+    
+      
+        v
+        =
+        
+          
+            d
+            t
+          
+        
+        ,
+      
+    
+    {\displaystyle v={\frac {d}{t}},}
+  
+
+where 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ is speed, 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ is distance, and 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ is time. A cyclist who covers 30 metres in a time of 2 seconds, for example, has a speed of 15 metres per second. Objects in motion often have variations in speed (a car might travel along a street at 50 km/h, slow to 0 km/h, and then reach 30 km/h).
+
+
+=== Instantaneous speed ===
+Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m.
+In mathematical terms, the instantaneous speed 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ is defined as the magnitude of the instantaneous velocity 
+  
+    
+      
+        
+          v
+        
+      
+    
+    {\displaystyle {\boldsymbol {v}}}
+  
+, that is, the derivative of the position 
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle {\boldsymbol {r}}}
+  
+ with respect to time:
+
+  
+    
+      
+        v
+        =
+        
+          |
+          
+            v
+          
+          |
+        
+        =
+        
+          |
+          
+            
+              
+                r
+                ˙
+              
+            
+          
+          |
+        
+        =
+        
+          |
+          
+            
+              
+                d
+                
+                  r
+                
+              
+              
+                d
+                t
+              
+            
+          
+          |
+        
+        
+        .
+      
+    
+    {\displaystyle v=\left|{\boldsymbol {v}}\right|=\left|{\dot {\boldsymbol {r}}}\right|=\left|{\frac {d{\boldsymbol {r}}}{dt}}\right|\,.}
+  
+
+If 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+ is the length of the path (also known as the distance) travelled until time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+, the speed equals the time derivative of 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+:
+
+  
+    
+      
+        v
+        =
+        
+          
+            
+              d
+              s
+            
+            
+              d
+              t
+            
+          
+        
+        .
+      
+    
+    {\displaystyle v={\frac {ds}{dt}}.}
+  
+
+In the special case where the velocity is constant (that is, constant speed in a straight line), this can be simplified to 
+  
+    
+      
+        v
+        =
+        s
+        
+          /
+        
+        t
+      
+    
+    {\displaystyle v=s/t}
+  
+.  The average speed over a finite time interval is the total distance travelled divided by the time duration.
+
+
+=== Average speed ===
+
+Different from instantaneous speed, average speed is defined as the total distance covered divided by the time interval. For example, if a distance of 80 kilometres is driven in 1 hour, the average speed is 80 kilometres per hour. Likewise, if 320 kilometres are travelled in 4 hours, the average speed is also 80 kilometres per hour. When a distance in kilometres (km) is divided by a time in hours (h), the result is in kilometres per hour (km/h).
+Average speed does not describe the speed variations that may have taken place during shorter time intervals (as it is the entire distance covered divided by the total time of travel), and so average speed is often quite different from a value of instantaneous speed. If the average speed and the time of travel are known, the distance travelled can be calculated by rearranging the definition to
+
+  
+    
+      
+        d
+        =
+        
+          
+            
+              v
+              ¯
+            
+          
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle d={\boldsymbol {\bar {v}}}t\,.}
+  
+
+Using this equation for an average speed of 80 kilometres per hour on a 4-hour trip, the distance covered is found to be 320 kilometres.
+Expressed in graphical language, the slope of a tangent line at any point of a distance-time graph is the instantaneous speed at this point, while the slope of a chord line of the same graph is the average speed during the time interval covered by the chord. Average speed of an object is
+Vav = s÷t
+
+
+=== Difference between speed and velocity ===
+Speed denotes only how fast an object is moving, whereas velocity describes both how fast and in which direction the object is moving. If a car is said to travel at 60 km/h, its speed has been specified. However, if the car is said to move at 60 km/h to the north, its velocity has now been specified.
+The big difference can be discerned when considering movement around a circle. When something moves in a circular path and returns to its starting point, its average velocity is zero, but its average speed is found by dividing the circumference of the circle by the time taken to move around the circle. This is because the average velocity is calculated by considering only the displacement between the starting and end points, whereas the average speed considers only the total distance travelled.
+
+
+=== Tangential speed ===
+
+
+== Units ==
+
+Units of speed include:
+
+metres per second (symbol m s−1 or m/s), the SI derived unit;
+kilometres per hour (symbol km/h);
+miles per hour (symbol mi/h or mph);
+knots (nautical miles per hour, symbol kn or kt);
+feet per second (symbol fps or ft/s);
+Mach number (dimensionless), speed divided by the speed of sound;
+in natural units (dimensionless), speed divided by the speed of light in vacuum (symbol c = 299792458 m/s).
+ (* = approximate values)
+
+
+== Examples of different speeds ==
+
+
+== Psychology ==
+According to Jean Piaget, the intuition for the notion of speed in humans precedes that of duration, and is based on the notion of outdistancing. Piaget studied this subject inspired by a question asked to him in 1928 by Albert Einstein: "In what order do children acquire the concepts of time and speed?" Children's early concept of speed is based on "overtaking", taking only temporal and spatial orders into consideration, specifically: "A moving object is judged to be more rapid than another when at a given moment the first object is behind and a moment or so later ahead of the other object."
+
+
+== See also ==
+Air speed
+List of vehicle speed records
+Typical projectile speeds
+Speedometer
+V speeds
+
+
+== References ==
