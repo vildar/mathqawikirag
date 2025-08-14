@@ -7009,14 +7009,14 @@ In modern (20th century) theoretical physics, angular momentum (not including an
         
           g
           
-            μ
             ϕ
+            μ
           
         
         
           p
           
-            ϕ
+            μ
           
         
         =
@@ -7042,7 +7042,7 @@ In modern (20th century) theoretical physics, angular momentum (not including an
         τ
       
     
-    {\displaystyle p_{\phi }=g_{\mu \phi }p^{\phi }=mg_{\mu \phi }dX^{\mu }/d\tau }
+    {\displaystyle p_{\phi }=g_{\phi \mu }p^{\mu }=mg_{\mu \phi }dX^{\mu }/d\tau }
   
  where 
   
@@ -7538,7 +7538,7 @@ The classical definition of angular momentum as
     
     {\displaystyle \mathbf {L} =\mathbf {r} \times \mathbf {p} }
   
- can be carried over to quantum mechanics, by reinterpreting r as the quantum position operator and p as the quantum momentum operator. L is then an operator, specifically called the orbital angular momentum operator. The components of the angular momentum operator satisfy the commutation relations of the Lie algebra so(3). Indeed, these operators are precisely the infinitesimal action of the rotation group on the quantum Hilbert space. (See also the discussion below of the angular momentum operators as the generators of rotations.)
+ can be carried over to quantum mechanics, by reinterpreting r as the quantum position operator and p as the quantum momentum operator. L is then an operator, specifically called the orbital angular momentum operator. The components of the angular momentum operator satisfy the commutation relations of the Lie algebra SO(3). Indeed, these operators are precisely the infinitesimal action of the rotation group on the quantum Hilbert space. (See also the discussion below of the angular momentum operators as the generators of rotations.)
 However, in quantum physics, there is another type of angular momentum, called spin angular momentum, represented by the spin operator S. Spin is often depicted as a particle literally spinning around an axis, but this is a misleading and inaccurate picture: spin is an intrinsic property of a particle, unrelated to any sort of motion in space and fundamentally different from orbital angular momentum. All elementary particles have a characteristic spin (possibly zero), and almost all elementary particles have nonzero spin. For example electrons have "spin 1/2" (this actually means "spin ħ/2"), photons have "spin 1" (this actually means "spin ħ"), and pi-mesons have spin 0.
 Finally, there is total angular momentum J, which combines both the spin and orbital angular momentum of all particles and fields. (For one particle, J = L + S.) Conservation of angular momentum applies to J, but not to L or S; for example, the spin–orbit interaction allows angular momentum to transfer back and forth between L and S, with the total remaining constant. Electrons and photons need not have integer-based values for total angular momentum, but can also have half-integer values.
 In molecules the total angular momentum F is the sum of the rovibronic (orbital) angular momentum N, the electron spin angular momentum S, and the nuclear spin angular momentum I. For electronic singlet states the rovibronic angular momentum is denoted J rather than N. As explained by Van Vleck, the components of the molecular rovibronic angular momentum referred to molecule-fixed axes have different commutation relations from those for the components about space-fixed axes.

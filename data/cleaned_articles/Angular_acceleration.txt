@@ -8,64 +8,64 @@ Angular acceleration has physical dimensions of angle per time squared, measured
 === Particle in two dimensions ===
 In two dimensions, the orbital angular acceleration is the rate at which the two-dimensional orbital angular velocity of the particle about the origin changes. The instantaneous angular velocity ω at any point in time is given by
 
-ω = v ⊥ r, {\displaystyle \omega ={\frac {v_{\perp}}{r}},}
+ω = v ⊥ r, \omega ={\frac {v_{\perp}{r}},}
   
 
- {\displaystyle r}where r {\displaystyle r} is the distance from the origin and v ⊥ {\displaystyle v_{\perp}}
+ rwhere r {\displaystyle r} is the distance from the origin and v ⊥ v_{\perp}
   
  is the cross-radial component of the instantaneous velocity (i.e. the component perpendicular to the position vector), which by convention is positive for counter-clockwise motion and negative for clockwise motion.
 Therefore, the instantaneous angular acceleration α of the particle is given by
 
-α = d d t (v ⊥ r). {\displaystyle \alpha ={\frac {d}{dt}}\left({\frac {v_{\perp }}{r}}\right).}
+α = d d t (v ⊥ r). \alpha ={\frac {d{dt}}\left({\frac {v_{\perp }}{r}}\right).}
   
 
 Expanding the right-hand-side using the product rule from differential calculus, this becomes
 
-α = 1 r d v ⊥ d t − v ⊥ r 2 d r d t. {\displaystyle \alpha ={\frac {1}{r}}{\frac {dv_{\perp }}{dt}}-{\frac {v_{\perp }}{r^{2}}}{\frac {dr}{dt}}.}
+α = 1 r d v ⊥ d t − v ⊥ r 2 d r d t. \alpha ={\frac {1{r}}{\frac {dv_{\perp }}{dt}}-{\frac {v_{\perp }}{r^{2}}}{\frac {dr}{dt}}.}
   
 
-In the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\displaystyle {\frac {dv_{\perp}In the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\displaystyle {\frac {dv_{\perp}}{dt}}} becomes just the tangential acceleration a ⊥ {\displaystyle a_{\perp}In the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\displaystyle {\frac {dv_{\perp}}{dt}}} becomes just the tangential acceleration a ⊥ {\displaystyle a_{\perp}}, and d r d t {\displaystyle {\frac {dr}{dt}}}
+In the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\frac {dv_{\perpIn the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\displaystyle {\frac {dv_{\perp}}{dt}}} becomes just the tangential acceleration a ⊥ a_{\perpIn the special case where the particle undergoes circular motion about the origin, d v ⊥ d t {\displaystyle {\frac {dv_{\perp}}{dt}}} becomes just the tangential acceleration a ⊥ {\displaystyle a_{\perp}}, and d r d t {\frac {dr{dt}}}
   
  vanishes (since the distance from the origin stays constant), so the above equation simplifies to
 
-α = a ⊥ r. {\displaystyle \alpha ={\frac {a_{\perp}}{r}}.}
+α = a ⊥ r. \alpha ={\frac {a_{\perp}{r}}.}
   
 
 In two dimensions, angular acceleration is a number with plus or minus sign indicating orientation, but not pointing in a direction. The sign is conventionally taken to be positive if the angular speed increases in the counter-clockwise direction or decreases in the clockwise direction, and the sign is taken negative if the angular speed increases in the clockwise direction or decreases in the counter-clockwise direction. Angular acceleration then may be termed a pseudoscalar, a numerical quantity which changes sign under a parity inversion, such as inverting one axis or switching the two axes.
 
 
- {\displaystyle {\boldsymbol {\omega}}}
+ {\boldsymbol {\omega}}
   
  at any point in time is given by
 
-ω = r × v r 2, {\displaystyle {\boldsymbol {\omega}}={\frac {\mathbf {r} \times \mathbf {v} }{r^{2}}},}
+ω = r × v r 2, {\boldsymbol {\omega}={\frac {\mathbf {r} \times \mathbf {v} }{r^{2}}},}
   
 
- {\displaystyle \mathbf {r}where r {\displaystyle \mathbf {r}} is the particle's position vector, r {\displaystyle r}where r {\displaystyle \mathbf {r}} is the particle's position vector, r {\displaystyle r} its distance from the origin, and v {\displaystyle \mathbf {v}where r {\displaystyle \mathbf {r}} is the particle's position vector, r {\displaystyle r} its distance from the origin, and v {\displaystyle \mathbf {v}} its velocity vector. Therefore, the orbital angular acceleration is the vector α {\displaystyle {\boldsymbol {\alpha}}}
+ \mathbf {rwhere r {\displaystyle \mathbf {r}} is the particle's position vector, r rwhere r {\displaystyle \mathbf {r}} is the particle's position vector, r {\displaystyle r} its distance from the origin, and v \mathbf {vwhere r {\displaystyle \mathbf {r}} is the particle's position vector, r {\displaystyle r} its distance from the origin, and v {\displaystyle \mathbf {v}} its velocity vector. Therefore, the orbital angular acceleration is the vector α {\boldsymbol {\alpha}}
   
  defined by
 
-α = d d t (r × v r 2). {\displaystyle {\boldsymbol {\alpha}}={\frac {d}{dt}}\left({\frac {\mathbf {r} \times \mathbf {v} }{r^{2}}}\right).}
+α = d d t (r × v r 2). {\boldsymbol {\alpha}={\frac {d}{dt}}\left({\frac {\mathbf {r} \times \mathbf {v} }{r^{2}}}\right).}
   
 
 Expanding this derivative using the product rule for cross-products and the ordinary quotient rule, one gets:
 
-α = 1 r 2 (r × d v d t + d r d t × v) − 2 r 3 d r d t (r × v) = 1 r 2 (r × a + v × v) − 2 r 3 d r d t (r × v) = r × a r 2 − 2 r 3 d r d t (r × v). {\displaystyle {\begin{aligned}{\boldsymbol {\alpha }}&={\frac {1}{r^{2}}}\left(\mathbf {r} \times {\frac {d\mathbf {v} }{dt}}+{\frac {d\mathbf {r} }{dt}}\times \mathbf {v} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right)\\\\&={\frac {1}{r^{2}}}\left(\mathbf {r} \times \mathbf {a} +\mathbf {v} \times \mathbf {v} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right)\\\\&={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right).\end{aligned}}}
+α = 1 r 2 (r × d v d t + d r d t × v) − 2 r 3 d r d t (r × v) = 1 r 2 (r × a + v × v) − 2 r 3 d r d t (r × v) = r × a r 2 − 2 r 3 d r d t (r × v). {\begin{aligned{\boldsymbol {\alpha }}&={\frac {1}{r^{2}}}\left(\mathbf {r} \times {\frac {d\mathbf {v} }{dt}}+{\frac {d\mathbf {r} }{dt}}\times \mathbf {v} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right)\\\\&={\frac {1}{r^{2}}}\left(\mathbf {r} \times \mathbf {a} +\mathbf {v} \times \mathbf {v} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right)\\\\&={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {v} \right).\end{aligned}}}
   
 
-Since r × v {\displaystyle \mathbf {r}Since r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω {\displaystyle r^{2}Since r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω {\displaystyle r^{2}{\boldsymbol {\omega}}}, the second term may be rewritten as − 2 r d r d t ω {\displaystyle -{\frac {2}Since r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω {\displaystyle r^{2}{\boldsymbol {\omega}}}, the second term may be rewritten as − 2 r d r d t ω {\displaystyle -{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega}}}. In the case where the distance r {\displaystyle r}
+Since r × v \mathbf {rSince r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω r^{2Since r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω {\displaystyle r^{2}{\boldsymbol {\omega}}}, the second term may be rewritten as − 2 r d r d t ω -{\frac {2Since r × v {\displaystyle \mathbf {r} \times \mathbf {v}} is just r 2 ω {\displaystyle r^{2}{\boldsymbol {\omega}}}, the second term may be rewritten as − 2 r d r d t ω {\displaystyle -{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega}}}. In the case where the distance r r
   
  of the particle from the origin does not change with time (which includes circular motion as a subcase), the second term vanishes and the above formula simplifies to
 
-α = r × a r 2. {\displaystyle {\boldsymbol {\alpha}}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}.}
+α = r × a r 2. {\boldsymbol {\alpha}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}.}
   
 
 From the above equation, one can recover the cross-radial acceleration in this special case as:
 
-a ⊥ = α × r. {\displaystyle \mathbf {a} _{\perp }={\boldsymbol {\alpha }}\times \mathbf {r} .}
+a ⊥ = α × r. \mathbf {a _{\perp }={\boldsymbol {\alpha }}\times \mathbf {r} .}
   
 
-Unlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | {\displaystyle \omega =|{\boldsymbol {\omega}Unlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | {\displaystyle \omega =|{\boldsymbol {\omega}}|}: If the particle's position vector "twists" in space, changing its instantaneous plane of angular displacement, the change in the direction of the angular velocity ω {\displaystyle {\boldsymbol {\omega}Unlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | {\displaystyle \omega =|{\boldsymbol {\omega}}|}: If the particle's position vector "twists" in space, changing its instantaneous plane of angular displacement, the change in the direction of the angular velocity ω {\displaystyle {\boldsymbol {\omega}}} will still produce a nonzero angular acceleration. This cannot not happen if the position vector is restricted to a fixed plane, in which case ω {\displaystyle {\boldsymbol {\omega}}}
+Unlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | \omega =|{\boldsymbol {\omegaUnlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | {\displaystyle \omega =|{\boldsymbol {\omega}}|}: If the particle's position vector "twists" in space, changing its instantaneous plane of angular displacement, the change in the direction of the angular velocity ω {\boldsymbol {\omegaUnlike in two dimensions, the angular acceleration in three dimensions need not be associated with a change in the angular speed ω = | ω | {\displaystyle \omega =|{\boldsymbol {\omega}}|}: If the particle's position vector "twists" in space, changing its instantaneous plane of angular displacement, the change in the direction of the angular velocity ω {\displaystyle {\boldsymbol {\omega}}} will still produce a nonzero angular acceleration. This cannot not happen if the position vector is restricted to a fixed plane, in which case ω {\boldsymbol {\omega}}
   
  has a fixed direction perpendicular to the plane.
 The angular acceleration vector is more properly called a pseudovector: It has three components which transform under rotations in the same way as the Cartesian coordinates of a point do, but which do not transform like Cartesian coordinates under reflections.
@@ -74,34 +74,36 @@ The angular acceleration vector is more properly called a pseudovector: It has t
 === Relation to torque ===
 The net torque on a point particle is defined to be the pseudovector
 
-τ = r × F, {\displaystyle {\boldsymbol {\tau}}=\mathbf {r} \times \mathbf {F} ,}
+τ = r × F, {\boldsymbol {\tau}=\mathbf {r} \times \mathbf {F} ,}
   
 
- {\displaystyle \mathbf {F}where F {\displaystyle \mathbf {F}} is the net force on the particle. Torque is the rotational analogue of force: it induces change in the rotational state of a system, just as force induces change in the translational state of a system. As force on a particle is connected to acceleration by the equation F = m a {\displaystyle \mathbf {F}where F {\displaystyle \mathbf {F}} is the net force on the particle. Torque is the rotational analogue of force: it induces change in the rotational state of a system, just as force induces change in the translational state of a system. As force on a particle is connected to acceleration by the equation F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, one may write a similar equation connecting torque on a particle to angular acceleration, though this relation is necessarily more complicated. First, substituting F = m a {\displaystyle \mathbf {F} =m\mathbf {a} }
+ \mathbf {Fwhere F {\displaystyle \mathbf {F}} is the net force on the particle. Torque is the rotational analogue of force: it induces change in the rotational state of a system, just as force induces change in the translational state of a system. As force on a particle is connected to acceleration by the equation F = m a \mathbf {Fwhere F {\displaystyle \mathbf {F}} is the net force on the particle. Torque is the rotational analogue of force: it induces change in the rotational state of a system, just as force induces change in the translational state of a system. As force on a particle is connected to acceleration by the equation F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, one may write a similar equation connecting torque on a particle to angular acceleration, though this relation is necessarily more complicated. First, substituting F = m a \mathbf {F =m\mathbf {a} }
   
  into the above equation for torque, one gets
 
-τ = m (r × a) = m r 2 (r × a r 2). {\displaystyle {\boldsymbol {\tau}}=m\left(\mathbf {r} \times \mathbf {a} \right)=mr^{2}\left({\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}\right).}
+τ = m (r × a) = m r 2 (r × a r 2). {\boldsymbol {\tau}=m\left(\mathbf {r} \times \mathbf {a} \right)=mr^{2}\left({\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}\right).}
   
 
 From the previous section:
 
-α = r × a r 2 − 2 r d r d t ω, {\displaystyle {\boldsymbol {\alpha}}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }},}
+α = r × a r 2 − 2 r d r d t ω, {\boldsymbol {\alpha}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }},}
   
 
- {\displaystyle {\boldsymbol {\alpha}where α {\displaystyle {\boldsymbol {\alpha}}} is orbital angular acceleration and ω {\displaystyle {\boldsymbol {\omega}}}
+ {\boldsymbol {\alphawhere α {\displaystyle {\boldsymbol {\alpha}}} is orbital angular acceleration and ω {\boldsymbol {\omega}}
   
  is orbital angular velocity. Therefore:
 
-τ = m r 2 (α + 2 r d r d t ω) = m r 2 α + 2 m r d r d t ω. {\displaystyle {\boldsymbol {\tau}}=mr^{2}\left({\boldsymbol {\alpha }}+{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}\right)=mr^{2}{\boldsymbol {\alpha }}+2mr{\frac {dr}{dt}}{\boldsymbol {\omega }}.}
+τ = m r 2 (α + 2 r d r d t ω) = m r 2 α + 2 m r d r d t ω. {\boldsymbol {\tau}=mr^{2}\left({\boldsymbol {\alpha }}+{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}\right)=mr^{2}{\boldsymbol {\alpha }}+2mr{\frac {dr}{dt}}{\boldsymbol {\omega }}.}
   
 
- {\displaystyle r}In the special case of constant distance r {\displaystyle r} of the particle from the origin ( {\displaystyle {\tfrac {dr}{dt}}=0}), the second term in the above equation vanishes and the above equation simplifies to
+ r
+  
+ of the particle from the origin ( {\tfrac {dr{dt}}=0}), the second term in the above equation vanishes and the above equation simplifies to
 
- {\displaystyle {\boldsymbol {\tau}}=mr^{2}{\boldsymbol {\alpha }},}
+ {\boldsymbol {\tau}=mr^{2}{\boldsymbol {\alpha }},}
   
 
-which can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F}which can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 {\displaystyle mr^{2}which can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 {\displaystyle mr^{2}} (known as the moment of inertia of the particle) plays the role of the mass m {\displaystyle m}which can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 {\displaystyle mr^{2}} (known as the moment of inertia of the particle) plays the role of the mass m {\displaystyle m}. However, unlike F = m a {\displaystyle \mathbf {F} =m\mathbf {a} }
+which can be interpreted as a "rotational analogue" to F = m a \mathbf {Fwhich can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 mr^{2which can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 {\displaystyle mr^{2}} (known as the moment of inertia of the particle) plays the role of the mass m mwhich can be interpreted as a "rotational analogue" to F = m a {\displaystyle \mathbf {F} =m\mathbf {a}}, where the quantity m r 2 {\displaystyle mr^{2}} (known as the moment of inertia of the particle) plays the role of the mass m {\displaystyle m}. However, unlike F = m a \mathbf {F =m\mathbf {a} }
   
 , this equation does not apply to an arbitrary trajectory, only to a trajectory contained within a spherical shell about the origin.
 

@@ -1,19 +1,16 @@
 import re
-
-# Helper: compact spaces inside a tiny chunk (no paragraph shaping!)
+from sympy.parsing.latex import parse_latex
+from sympy.printing import pretty
 
 
 def _compact(s: str) -> str:
     s = re.sub(r'\s+', ' ', s)
-    s = re.sub(r'\s+([,.;:])', r'\1', s)         # no space before punctuation
-    # no space right after opening bracket
+    s = re.sub(r'\s+([,.;:])', r'\1', s)
     s = re.sub(r'([(\[{])\s+', r'\1', s)
-    # no space right before closing bracket
     s = re.sub(r'\s+([)\]}])', r'\1', s)
     return s.strip()
 
 
-# Heuristic: does a block look like the stacked ASCII “formula” (lots of newlines, only mathy chars)?
 _MATHY_CHARS = r'[\s\w\-=+\/*^.,;:⋅ΔδμνπθλωΩαβγ¯]'
 
 
@@ -24,10 +21,20 @@ def _looks_like_stacked_ascii(block: str) -> bool:
     return re.fullmatch(_MATHY_CHARS + r'+', b, flags=re.UNICODE) is not None
 
 
+def latex_to_ascii(latex: str) -> str:
+    r"""Convert LaTeX inside {\displaystyle ...} to normalized ASCII/Unicode."""
+    latex = re.sub(r'^\{\s*\\?displaystyle\s*', '', latex)
+    latex = re.sub(r'\}$', '', latex)
+    try:
+        expr = parse_latex(latex)
+        return pretty(expr, use_unicode=True)
+    except Exception:
+        # If SymPy fails, just compact the raw LaTeX as fallback
+        return _compact(latex)
+
+
 def clean_wiki_math(text: str) -> str:
-    # --- Pass 1: Parentheses that contain a {\displaystyle ...} block ---
-    # Keep the short inline text at the start of the parentheses, drop any stacked ASCII in-between,
-    # and compact the LaTeX block + trailing bits.
+    # Pass 1: Parentheses with LaTeX inside
     paren_pat = re.compile(
         r'\((?:(?!\)).)*?\{\s*\\?displaystyle.*?\)', re.DOTALL)
 
@@ -40,13 +47,12 @@ def clean_wiki_math(text: str) -> str:
         latex = disp.group(0)
         tail = chunk[disp.end():]
 
-        # In the lead, keep only the part before any blank-line block (that’s where the stacked ASCII begins)
         dbl = re.search(r'\n\s*\n', lead)
         if dbl:
             lead = lead[:dbl.start()]
 
         lead = _compact(lead)
-        latex = _compact(latex)
+        latex = latex_to_ascii(latex)
         tail = _compact(tail)
 
         out = f"{lead} {latex}{tail}"
@@ -59,13 +65,12 @@ def clean_wiki_math(text: str) -> str:
 
     text = paren_pat.sub(_fix_paren, text)
 
-    # --- Pass 2: Standalone LaTeX blocks. Optionally drop a stacked ASCII block right before them. ---
+    # Pass 2: Standalone LaTeX blocks
     disp_pat = re.compile(r'\{\s*\\?displaystyle.*?\}', re.DOTALL)
     parts = []
     last = 0
     for m in disp_pat.finditer(text):
         s, e = m.span()
-        # previous paragraph boundary
         b = text.rfind('\n\n', 0, s)
         b = (b + 2) if b != -1 else last
         pre = text[b:s]
@@ -73,30 +78,28 @@ def clean_wiki_math(text: str) -> str:
         parts.append(text[last:b])
 
         if 0 < len(pre.strip()) < 800 and _looks_like_stacked_ascii(pre):
-            # Drop the stacked ASCII entirely
             pass
         else:
-            # Keep prose or non-stacked content, but compact it lightly
             parts.append(_compact(pre))
 
-        # Always compact inside the LaTeX block
-        parts.append(' ' + _compact(m.group(0)))
+        parts.append(' ' + latex_to_ascii(m.group(0)))
         last = e
 
     parts.append(text[last:])
     return ''.join(parts)
 
 
+# Example usage
 articles = [
     "Acceleration", "Angular_acceleration", "Angular_frequency", "Angular_momentum",
     "Angular_velocity", "Center_of_mass", "Centrifugal_force", "Centripetal_force",
     "Circular_motion", "Coriolis_force", "Equations_of_motion", "Force", "Frequency",
     "Harmonic_oscillator", "Jerk_(physics)", "Mass", "Moment_of_inertia", "Momentum",
-    "Motion", "Newton's_laws_of_motion", "Rotation", "Speed", "Torque", "Velocity", "Work_(physics)"
+    "Motion", r"Newton's_laws_of_motion", "Rotation", "Speed", "Torque", "Velocity", "Work_(physics)"
 ]
 
 for article in articles:
-    with open(f"wikipedia_articles/{article}.txt", "r") as file:
+    with open(f"wikipedia_articles/{article}.txt", "r", encoding="utf-8") as file:
         cleaned = clean_wiki_math(file.read())
-        with open(f"data/cleaned_articles/{article}.txt", "w") as cleaned_file:
-            cleaned_file.write(cleaned)
+    with open(f"data/cleaned_articles/{article}.txt", "w", encoding="utf-8") as cleaned_file:
+        cleaned_file.write(cleaned)

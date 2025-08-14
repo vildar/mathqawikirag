@@ -111,7 +111,7 @@ Here,
     
     {\displaystyle t+\Delta {t}}
   
- and  
+ and 
   
     
       
@@ -121,7 +121,7 @@ Here,
     {\displaystyle t}
   
 .
-By Newton's second law, the cause of acceleration is a net force acting on the object, which is proportional to its mass m and its acceleration. The force, usually referred to as a centripetal force, has a  magnitude
+By Newton's second law, the cause of acceleration is a net force acting on the object, which is proportional to its mass m and its acceleration. The force, usually referred to as a centripetal force, has a magnitude
 
   
     

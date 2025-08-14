@@ -500,6 +500,7 @@ Q is related to the damping ratio by
 
 
 == Driven harmonic oscillators ==
+
 Driven harmonic oscillators are damped oscillators further affected by an externally applied force F(t).
 Newton's second law takes the form
 
@@ -3517,7 +3518,7 @@ When the spring is stretched or compressed, kinetic energy of the mass gets conv
 
 == References ==
 Fowles, Grant R.; Cassiday, George L. (1986), Analytic Mechanics (5th ed.), Fort Worth: Saunders College Publishing, ISBN 0-03-089725-4, LCCN 93085193
-Hayek, Sabih I. (15 Apr 2003). "Mechanical Vibration and Damping". Encyclopedia of Applied Physics. WILEY-VCH Verlag GmbH & Co KGaA. doi:10.1002/3527600434.eap231. ISBN 9783527600434.
+Hayek, Sabih I. (15 Apr 2003). "Mechanical Vibration and Damping". Encyclopedia of Applied Physics. Wiley. doi:10.1002/3527600434.eap231. ISBN 9783527600434.
 Kreyszig, Erwin (1972), Advanced Engineering Mathematics (3rd ed.), New York: Wiley, ISBN 0-471-50728-8
 Serway, Raymond A.; Jewett, John W. (2003). Physics for Scientists and Engineers. Brooks/Cole. ISBN 0-534-40842-7.
 Tipler, Paul (1998). Physics for Scientists and Engineers: Vol. 1 (4th ed.). W. H. Freeman. ISBN 1-57259-492-6.

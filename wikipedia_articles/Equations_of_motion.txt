@@ -2064,7 +2064,7 @@ In the case of a constant φ this reduces to the planar equations above.
 
 === Newtonian mechanics ===
 
-The first general equation of motion developed was Newton's second law of motion.  In its most general form it states the rate of change of momentum p = p(t) = mv(t) of an object equals the force F = F(x(t), v(t), t) acting on it,: 1112 
+The first general equation of motion developed was Newton's second law of motion.  In its most general form it states the rate of change of momentum p = p(t) = mv(t) of an object equals the force F = F(x(t), v(t), t) acting on it,
 
   
     
@@ -2113,7 +2113,7 @@ The force in the equation is not the force the object exerts. Replacing momentum
 since m is a constant in Newtonian mechanics.
 Newton's second law applies to point-like particles, and to all points in a rigid body. They also apply to each point in a mass continuum, like deformable solids or fluids, but the motion of the system must be accounted for; see material derivative. In the case the mass is not constant, it is not sufficient to use the product rule for the time derivative on the mass and velocity, and Newton's second law requires some modification consistent with conservation of momentum; see variable-mass system.
 It may be simple to write down the equations of motion in vector form using Newton's laws of motion, but the components may vary in complicated ways with spatial coordinates and time, and solving them is not easy. Often there is an excess of variables to solve for the problem completely, so Newton's laws are not always the most efficient way to determine the motion of a system. In simple cases of rectangular geometry, Newton's laws work fine in Cartesian coordinates, but in other coordinate systems can become dramatically complex.
-The momentum form is preferable since this is readily generalized to more complex systems, such as special and general relativity (see four-momentum).: 112  It can also be used with the momentum conservation. However, Newton's laws are not more fundamental than momentum conservation, because Newton's laws are merely consistent with the fact that zero resultant force acting on an object implies constant momentum, while a resultant force implies the momentum is not constant. Momentum conservation is always true for an isolated system not subject to resultant forces.
+The momentum form is preferable since this is readily generalized to more complex systems, such as special and general relativity (see four-momentum). It can also be used with the momentum conservation. However, Newton's laws are not more fundamental than momentum conservation, because Newton's laws are merely consistent with the fact that zero resultant force acting on an object implies constant momentum, while a resultant force implies the momentum is not constant. Momentum conservation is always true for an isolated system not subject to resultant forces.
 For a number of particles (see many body problem), the equation of motion for one particle i influenced by other particles is
 
   
@@ -3458,7 +3458,7 @@ can derive the Lorentz force equation.
 
 === Geodesic equation of motion ===
 
-The above equations are valid in flat spacetime. In curved spacetime, things become mathematically more complicated since there is no straight line; this is generalized and replaced by a geodesic of the curved spacetime (the shortest length of curve between two points). For curved manifolds with a metric tensor g, the metric provides the notion of arc length (see line element for details).  The differential arc length is given by:: 1199 
+The above equations are valid in flat spacetime. In curved spacetime, things become mathematically more complicated since there is no straight line; this is generalized and replaced by a geodesic of the curved spacetime (the shortest length of curve between two points). For curved manifolds with a metric tensor g, the metric provides the notion of arc length (see line element for details).  The differential arc length is given by:
 
   
     
@@ -3496,7 +3496,7 @@ The above equations are valid in flat spacetime. In curved spacetime, things bec
     {\displaystyle ds={\sqrt {g_{\alpha \beta }dx^{\alpha }dx^{\beta }}}}
   
 
-and the geodesic equation is a second-order differential equation in the coordinates.  The general solution is a family of geodesics:: 1200 
+and the geodesic equation is a second-order differential equation in the coordinates.  The general solution is a family of geodesics:
 
   
     
@@ -3680,7 +3680,7 @@ Given the mass-energy distribution provided by the stress–energy tensor T α
     {\displaystyle {\frac {D^{2}\xi ^{\alpha }}{ds^{2}}}=-R^{\alpha }{}_{\beta \gamma \delta }{\frac {dx^{\alpha }}{ds}}\xi ^{\gamma }{\frac {dx^{\delta }}{ds}}}
   
 
-where ξα = x2α − x1α is the separation vector between two geodesics, ⁠D/ds⁠ (not just ⁠d/ds⁠) is the covariant derivative, and Rαβγδ is the Riemann curvature tensor, containing the Christoffel symbols. In other words, the geodesic deviation equation is the equation of motion for masses in curved spacetime, analogous to the Lorentz force equation for charges in an electromagnetic field.: 34–35 
+where ξα = x2α − x1α is the separation vector between two geodesics, ⁠D/ds⁠ (not just ⁠d/ds⁠) is the covariant derivative, and Rαβγδ is the Riemann curvature tensor, containing the Christoffel symbols. In other words, the geodesic deviation equation is the equation of motion for masses in curved spacetime, analogous to the Lorentz force equation for charges in an electromagnetic field.
 For flat spacetime, the metric is a constant tensor so the Christoffel symbols vanish, and the geodesic equation has the solutions of straight lines. This is also the limiting case when masses move according to Newton's law of gravity.
 
 

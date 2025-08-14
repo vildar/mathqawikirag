@@ -23,7 +23,7 @@ In the UK and in US mechanical engineering, torque is referred to as moment of f
 
 == Definition and relation to other physical quantities ==
 
-A force applied perpendicularly to a lever multiplied by its distance from the lever's fulcrum (the length of the lever arm) is its torque. Therefore, torque is defined as the product of the magnitude of the perpendicular component of the force and the distance of the line of action of a force from the point around which it is being determined. In three dimensions, the torque is a pseudovector; for point particles, it is given by the cross product of the displacement vector and the force vector. The direction of the torque can be determined by using the right hand grip rule: if the fingers of the right hand are curled from the direction of the lever arm to the direction of the force, then the thumb points in the direction of the torque. It follows that the torque vector is perpendicular to both the position and force vectors and defines the plane in which the two vectors lie. The resulting torque vector direction is determined by the right-hand rule. Therefore any force directed parallel to the particle's position vector does not produce a torque. The magnitude of torque applied to a rigid body depends on three quantities: the force applied, the lever arm vector connecting the point about which the torque is being measured to the point of force application, and the angle between the force and lever arm vectors. In symbols:
+A force applied perpendicularly to a lever multiplied by its distance from the lever's fulcrum (the length of the lever arm) is its torque. Therefore, torque is defined as the product of the magnitude of the perpendicular component of the force and the distance of the line of action of a force from the point around which it is being determined. In three dimensions, the torque is a pseudovector; for point particles, it is given by the cross product of the displacement vector and the force vector. The direction of the torque can be determined by using the right-hand grip rule: if the fingers of the right hand are curled from the direction of the lever arm to the direction of the force, then the thumb points in the direction of the torque. It follows that the torque vector is perpendicular to both the position and force vectors, and defines the plane in which the two vectors lie. The resulting torque vector direction is determined by the right-hand rule. Therefore any force directed parallel to the particle's position vector does not produce a torque. The magnitude of torque applied to a rigid body depends on three quantities: the force applied, the lever arm vector connecting the point about which the torque is being measured to the point of force application, and the angle between the force and lever arm vectors. In symbols:
 
   
     
@@ -83,7 +83,7 @@ where
     
     {\displaystyle \tau }
   
- is the magnitude of the torque,
+ is the magnitude of the torque;
 
   
     
@@ -95,7 +95,7 @@ where
     
     {\displaystyle \mathbf {r} }
   
- is the position vector (a vector from the point about which the torque is being measured to the point where the force is applied), and r is the magnitude of the position vector,
+ is the position vector (a vector from the point about which the torque is being measured to the point where the force is applied), and r is the magnitude of the position vector;
 
   
     
@@ -107,7 +107,7 @@ where
     
     {\displaystyle \mathbf {F} }
   
- is the force vector, F is the magnitude of the force vector and F⊥ is the amount of force directed perpendicularly to the position of the particle,
+ is the force vector, F is the magnitude of the force vector, and F⊥ is the amount of force directed perpendicularly to the position of the particle;
 
   
     
@@ -117,7 +117,7 @@ where
     
     {\displaystyle \times }
   
- denotes the cross product, which produces a vector that is perpendicular both to r and to F following the right-hand rule,
+ denotes the cross product, which produces a vector that is perpendicular both to r and to F following the right-hand rule;
 
   
     
@@ -539,7 +539,7 @@ where
     
     {\displaystyle {\boldsymbol {\alpha }}={\dot {\boldsymbol {\omega }}}}
   
-. 
+.
 
 
 ==== Proof of the equivalence of definitions ====
@@ -1147,7 +1147,7 @@ However, the infinitesimal linear displacement
     
     {\displaystyle \mathbf {r} }
   
- as 
+ as
 
   
     

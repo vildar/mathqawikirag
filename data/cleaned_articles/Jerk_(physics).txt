@@ -4,7 +4,7 @@ Jerk (also known as jolt) is the rate of change of an object's acceleration over
 == Expressions ==
 As a vector, jerk j can be expressed as the first time derivative of acceleration, second time derivative of velocity, and third time derivative of position:
 
-j (t) = d a (t) d t = d 2 v (t) d t 2 = d 3 r (t) d t 3 {\displaystyle \mathbf {j} (t)={\frac {\mathrm {d} \mathbf {a} (t)}{\mathrm {d} t}}={\frac {\mathrm {d} ^{2}\mathbf {v} (t)}{\mathrm {d} t^{2}}}={\frac {\mathrm {d} ^{3}\mathbf {r} (t)}{\mathrm {d} t^{3}}}}
+j (t) = d a (t) d t = d 2 v (t) d t 2 = d 3 r (t) d t 3 \mathbf {j (t)={\frac {\mathrm {d} \mathbf {a} (t)}{\mathrm {d} t}}={\frac {\mathrm {d} ^{2}\mathbf {v} (t)}{\mathrm {d} t^{2}}}={\frac {\mathrm {d} ^{3}\mathbf {r} (t)}{\mathrm {d} t^{3}}}}
   
 
 Where:
@@ -15,7 +15,7 @@ r is position
 t is time.
 Third-order differential equations of the form
 
-J (x..., x ¨, x ˙, x) = 0 {\displaystyle J\left({\overset {\mathbf {...} }{x}},{\ddot {x}},{\dot {x}},x\right)=0}
+J (x..., x ¨, x ˙, x) = 0 J\left({\overset {\mathbf {... }{x}},{\ddot {x}},{\dot {x}},x\right)=0}
   
 
 are sometimes called jerk equations. When converted to an equivalent system of three ordinary first-order non-linear differential equations, jerk equations are the minimal setting for solutions showing chaotic behaviour. This condition generates mathematical interest in jerk systems. Systems involving fourth-order derivatives or higher are accordingly called hyperjerk systems.
@@ -36,7 +36,7 @@ To minimize the jerk, curves along roads are designed to be clothoids as are rai
 == Force, acceleration, and jerk ==
 For a constant mass m, acceleration a is directly proportional to force F according to Newton's second law of motion:
 
- {\displaystyle \mathbf {F} =m\mathbf {a} }
+ \mathbf {F =m\mathbf {a} }
   
 
 In classical mechanics of rigid bodies, there are no forces associated with the derivatives of acceleration; however, physical systems experience oscillations and deformations as a result of jerk. In designing the Hubble Space Telescope, NASA set limits on both jerk and jounce.
@@ -56,45 +56,45 @@ Another example of significant jerk, analogous to the first example, is the cutt
 
 Consider a rigid body rotating about a fixed axis in an inertial reference frame. If its angular position as a function of time is θ(t), the angular velocity, acceleration, and jerk can be expressed as follows:
 
-Angular velocity, ω (t) = θ ˙ (t) = d θ (t) d t {\displaystyle \omega (t)={\dot {\theta}Angular velocity, ω (t) = θ ˙ (t) = d θ (t) d t {\displaystyle \omega (t)={\dot {\theta}}(t)={\frac {\mathrm {d} \theta (t)}{\mathrm {d} t}}}, is the time derivative of θ(t). Angular acceleration, α (t) = ω ˙ (t) = d ω (t) d t {\displaystyle \alpha (t)={\dot {\omega}Angular velocity, ω (t) = θ ˙ (t) = d θ (t) d t {\displaystyle \omega (t)={\dot {\theta}}(t)={\frac {\mathrm {d} \theta (t)}{\mathrm {d} t}}}, is the time derivative of θ(t). Angular acceleration, α (t) = ω ˙ (t) = d ω (t) d t {\displaystyle \alpha (t)={\dot {\omega}}(t)={\frac {\mathrm {d} \omega (t)}{\mathrm {d} t}}}, is the time derivative of ω(t). Angular jerk, ζ (t) = α ˙ (t) = ω ¨ (t) = θ... (t) {\displaystyle \zeta (t)={\dot {\alpha}}(t)={\ddot {\omega }}(t)={\overset {...}{\theta }}(t)}
+Angular velocity, ω (t) = θ ˙ (t) = d θ (t) d t \omega (t)={\dot {\thetaAngular velocity, ω (t) = θ ˙ (t) = d θ (t) d t {\displaystyle \omega (t)={\dot {\theta}}(t)={\frac {\mathrm {d} \theta (t)}{\mathrm {d} t}}}, is the time derivative of θ(t). Angular acceleration, α (t) = ω ˙ (t) = d ω (t) d t \alpha (t)={\dot {\omegaAngular velocity, ω (t) = θ ˙ (t) = d θ (t) d t {\displaystyle \omega (t)={\dot {\theta}}(t)={\frac {\mathrm {d} \theta (t)}{\mathrm {d} t}}}, is the time derivative of θ(t). Angular acceleration, α (t) = ω ˙ (t) = d ω (t) d t {\displaystyle \alpha (t)={\dot {\omega}}(t)={\frac {\mathrm {d} \omega (t)}{\mathrm {d} t}}}, is the time derivative of ω(t). Angular jerk, ζ (t) = α ˙ (t) = ω ¨ (t) = θ... (t) \zeta (t)={\dot {\alpha}(t)={\ddot {\omega }}(t)={\overset {...}{\theta }}(t)}
   
 , is the time derivative of α(t).
 Angular acceleration equals the torque acting on the body, divided by the body's moment of inertia with respect to the momentary axis of rotation. A change in torque results in angular jerk.
 The general case of a rotating rigid body can be modeled using kinematic screw theory, which includes one axial vector, angular velocity Ω(t), and one polar vector, linear velocity v(t). From this, the angular acceleration is defined as
 
-α (t) = d d t ω (t) = ω ˙ (t) {\displaystyle {\boldsymbol {\alpha}}(t)={\frac {\mathrm {d} }{\mathrm {d} t}}{\boldsymbol {\omega }}(t)={\dot {\boldsymbol {\omega }}}(t)}
+α (t) = d d t ω (t) = ω ˙ (t) {\boldsymbol {\alpha}(t)={\frac {\mathrm {d} }{\mathrm {d} t}}{\boldsymbol {\omega }}(t)={\dot {\boldsymbol {\omega }}}(t)}
   
 
 and the angular jerk is given by
 
-ζ (t) = d d t α (t) = α ˙ (t) = ω ¨ (t) {\displaystyle {\boldsymbol {\zeta}}(t)={\frac {\mathrm {d} }{\mathrm {d} t}}{\boldsymbol {\alpha }}(t)={\dot {\boldsymbol {\alpha }}}(t)={\ddot {\boldsymbol {\omega }}}(t)}
+ζ (t) = d d t α (t) = α ˙ (t) = ω ¨ (t) {\boldsymbol {\zeta}(t)={\frac {\mathrm {d} }{\mathrm {d} t}}{\boldsymbol {\alpha }}(t)={\dot {\boldsymbol {\alpha }}}(t)={\ddot {\boldsymbol {\omega }}}(t)}
   
 
 taking the angular acceleration from Angular acceleration#Particle in three dimensions as
 
-α = d ω d t = r × a r 2 − 2 r d r d t ω {\displaystyle {\boldsymbol {\alpha}}={\frac {d{\boldsymbol {\omega }}}{dt}}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}}
+α = d ω d t = r × a r 2 − 2 r d r d t ω {\boldsymbol {\alpha}={\frac {d{\boldsymbol {\omega }}}{dt}}={\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}}
   
 , we obtain
 
-ζ = d α d t = 1 r 2 (r × d a d t + d r d t × a) − 2 r 3 d r d t (r × a) + 2 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω − 2 r d r d t d ω d t {\displaystyle {\begin{aligned}{\boldsymbol {\zeta }}={\frac {d{\boldsymbol {\alpha }}}{dt}}={\frac {1}{r^{2}}}\left(\mathbf {r} \times {\frac {d\mathbf {a} }{dt}}+{\frac {d\mathbf {r} }{dt}}\times \mathbf {a} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)\\\\+{\frac {2}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {dr}{dt}}{\frac {d{\boldsymbol {\omega }}}{dt}}\end{aligned}}}
+ζ = d α d t = 1 r 2 (r × d a d t + d r d t × a) − 2 r 3 d r d t (r × a) + 2 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω − 2 r d r d t d ω d t {\begin{aligned{\boldsymbol {\zeta }}={\frac {d{\boldsymbol {\alpha }}}{dt}}={\frac {1}{r^{2}}}\left(\mathbf {r} \times {\frac {d\mathbf {a} }{dt}}+{\frac {d\mathbf {r} }{dt}}\times \mathbf {a} \right)-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)\\\\+{\frac {2}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {dr}{dt}}{\frac {d{\boldsymbol {\omega }}}{dt}}\end{aligned}}}
   
 
- {\displaystyle {\frac {d{\boldsymbol {\omega}}}{dt}}}
+ {\frac {d{\boldsymbol {\omega}}{dt}}}
   
  we can have the last item as
 
-− 2 r d r d t d ω d t = − 2 r d r d t (r × a r 2 − 2 r d r d t ω) = − 2 r 3 d r d t (r × a) + 4 r 2 (d r d t) 2 ω {\displaystyle {\begin{aligned}-{\frac {2}{r}}{\frac {dr}{dt}}{\frac {d{\boldsymbol {\omega }}}{dt}}&=-{\frac {2}{r}}{\frac {dr}{dt}}\left({\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}\right)\\\\&=-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)+{\frac {4}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}\end{aligned}}}
+− 2 r d r d t d ω d t = − 2 r d r d t (r × a r 2 − 2 r d r d t ω) = − 2 r 3 d r d t (r × a) + 4 r 2 (d r d t) 2 ω {\begin{aligned-{\frac {2}{r}}{\frac {dr}{dt}}{\frac {d{\boldsymbol {\omega }}}{dt}}&=-{\frac {2}{r}}{\frac {dr}{dt}}\left({\frac {\mathbf {r} \times \mathbf {a} }{r^{2}}}-{\frac {2}{r}}{\frac {dr}{dt}}{\boldsymbol {\omega }}\right)\\\\&=-{\frac {2}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)+{\frac {4}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}\end{aligned}}}
   
 , and we finally get
 
-ζ = r × j r 2 + v × a r 2 − 4 r 3 d r d t (r × a) + 6 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω {\displaystyle {\begin{aligned}{\boldsymbol {\zeta }}={\frac {\mathbf {r} \times \mathbf {j} }{r^{2}}}+{\frac {\mathbf {v} \times \mathbf {a} }{r^{2}}}-{\frac {4}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)+{\frac {6}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}\end{aligned}}}
+ζ = r × j r 2 + v × a r 2 − 4 r 3 d r d t (r × a) + 6 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω {\begin{aligned{\boldsymbol {\zeta }}={\frac {\mathbf {r} \times \mathbf {j} }{r^{2}}}+{\frac {\mathbf {v} \times \mathbf {a} }{r^{2}}}-{\frac {4}{r^{3}}}{\frac {dr}{dt}}\left(\mathbf {r} \times \mathbf {a} \right)+{\frac {6}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}\end{aligned}}}
   
 
-or vice versa, replacing (r × a) {\displaystyle \left(\mathbf {r}or vice versa, replacing (r × a) {\displaystyle \left(\mathbf {r} \times \mathbf {a} \right)} with α {\displaystyle {\boldsymbol {\alpha}}}
+or vice versa, replacing (r × a) \left(\mathbf {ror vice versa, replacing (r × a) {\displaystyle \left(\mathbf {r} \times \mathbf {a} \right)} with α {\boldsymbol {\alpha}}
   
 :
 
-ζ = r × j r 2 + v × a r 2 − 4 r d r d t α − 2 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω {\displaystyle {\begin{aligned}{\boldsymbol {\zeta }}={\frac {\mathbf {r} \times \mathbf {j} }{r^{2}}}+{\frac {\mathbf {v} \times \mathbf {a} }{r^{2}}}-{\frac {4}{r}}{\frac {dr}{dt}}{\boldsymbol {\alpha }}-{\frac {2}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}\end{aligned}}}
+ζ = r × j r 2 + v × a r 2 − 4 r d r d t α − 2 r 2 (d r d t) 2 ω − 2 r d 2 r d t 2 ω {\begin{aligned{\boldsymbol {\zeta }}={\frac {\mathbf {r} \times \mathbf {j} }{r^{2}}}+{\frac {\mathbf {v} \times \mathbf {a} }{r^{2}}}-{\frac {4}{r}}{\frac {dr}{dt}}{\boldsymbol {\alpha }}-{\frac {2}{r^{2}}}\left({\frac {dr}{dt}}\right)^{2}{\boldsymbol {\omega }}-{\frac {2}{r}}{\frac {d^{2}r}{dt^{2}}}{\boldsymbol {\omega }}\end{aligned}}}
   
 
 For example, consider a Geneva drive, a device used for creating intermittent rotation of a driven wheel (the blue wheel in the animation) by continuous rotation of a driving wheel (the red wheel in the animation). During one cycle of the driving wheel, the driven wheel's angular position θ changes by 90 degrees and then remains constant. Because of the finite thickness of the driving wheel's fork (the slot for the driving pin), this device generates a discontinuity in the angular acceleration α, and an unbounded angular jerk ζ in the driven wheel.
@@ -145,7 +145,7 @@ Jerk is often considered when vibration is a concern. A device that measures jer
 
 == Further derivatives ==
 
-Further time derivatives have also been named, as snap or jounce (fourth derivative), crackle (fifth derivative), and pop (sixth derivative). The seventh derivative is known as "Lock", as it is a logical continuation to the cycle. The eighth derivative has been referred to as "Drop". Even though, the seventh and eighth derivative are not officially recognized and thus no reliable source is found. Time derivatives of position of higher order than four appear rarely.
+Further time derivatives have also been named, as snap or jounce (fourth derivative), crackle (fifth derivative), and pop (sixth derivative). Time derivatives of position of higher order than four appear rarely.
 The terms snap, crackle, and pop‍—‌for the fourth, fifth, and sixth derivatives of position‍—‌were inspired by the advertising mascots Snap, Crackle, and Pop.
 
 

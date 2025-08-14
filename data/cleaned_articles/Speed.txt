@@ -9,29 +9,29 @@ The fastest possible speed at which energy or information can travel, according 
 === Historical definition ===
 Italian physicist Galileo Galilei is usually credited with being the first to measure speed by considering the distance covered and the time it takes. Galileo defined speed as the distance covered per unit of time. In equation form, that is
 
- {\displaystyle v={\frac {d}{t}},}
+ v={\frac {d{t}},}
   
 
- {\displaystyle v}where v {\displaystyle v} is speed, d {\displaystyle d}where v {\displaystyle v} is speed, d {\displaystyle d} is distance, and t {\displaystyle t}
+ vwhere v {\displaystyle v} is speed, d dwhere v {\displaystyle v} is speed, d {\displaystyle d} is distance, and t t
   
  is time. A cyclist who covers 30 metres in a time of 2 seconds, for example, has a speed of 15 metres per second. Objects in motion often have variations in speed (a car might travel along a street at 50 km/h, slow to 0 km/h, and then reach 30 km/h).
 
 
-=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v {\displaystyle v}=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v {\displaystyle v} is defined as the magnitude of the instantaneous velocity v {\displaystyle {\boldsymbol {v}=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v {\displaystyle v} is defined as the magnitude of the instantaneous velocity v {\displaystyle {\boldsymbol {v}}}, that is, the derivative of the position r {\displaystyle {\boldsymbol {r}}}
+=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v v=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v {\displaystyle v} is defined as the magnitude of the instantaneous velocity v {\boldsymbol {v=== Instantaneous speed === Speed at some instant, or assumed constant during a very short period of time, is called instantaneous speed. By looking at a speedometer, one can read the instantaneous speed of a car at any instant. A car travelling at 50 km/h generally goes for less than one hour at a constant speed, but if it did go at that speed for a full hour, it would travel 50 km. If the vehicle continued at that speed for half an hour, it would cover half that distance (25 km). If it continued for only one minute, it would cover about 833 m. In mathematical terms, the instantaneous speed v {\displaystyle v} is defined as the magnitude of the instantaneous velocity v {\displaystyle {\boldsymbol {v}}}, that is, the derivative of the position r {\boldsymbol {r}}
   
  with respect to time:
 
-v = | v | = | r ˙ | = | d r d t |. {\displaystyle v=\left|{\boldsymbol {v}}\right|=\left|{\dot {\boldsymbol {r}}}\right|=\left|{\frac {d{\boldsymbol {r}}}{dt}}\right|\,.}
+v = | v | = | r ˙ | = | d r d t |. v=\left|{\boldsymbol {v}\right|=\left|{\dot {\boldsymbol {r}}}\right|=\left|{\frac {d{\boldsymbol {r}}}{dt}}\right|\,.}
   
 
- {\displaystyle s}If s {\displaystyle s} is the length of the path (also known as the distance) travelled until time t {\displaystyle t}If s {\displaystyle s} is the length of the path (also known as the distance) travelled until time t {\displaystyle t}, the speed equals the time derivative of s {\displaystyle s}
+ sIf s {\displaystyle s} is the length of the path (also known as the distance) travelled until time t tIf s {\displaystyle s} is the length of the path (also known as the distance) travelled until time t {\displaystyle t}, the speed equals the time derivative of s s
   
 :
 
- {\displaystyle v={\frac {ds}{dt}}.}
+ v={\frac {ds{dt}}.}
   
 
-In the special case where the velocity is constant (that is, constant speed in a straight line), this can be simplified to v = s / t {\displaystyle v=s/t}
+In the special case where the velocity is constant (that is, constant speed in a straight line), this can be simplified to v = s / t v=s/t
   
 .  The average speed over a finite time interval is the total distance travelled divided by the time duration.
 
@@ -41,7 +41,7 @@ In the special case where the velocity is constant (that is, constant speed in a
 Different from instantaneous speed, average speed is defined as the total distance covered divided by the time interval. For example, if a distance of 80 kilometres is driven in 1 hour, the average speed is 80 kilometres per hour. Likewise, if 320 kilometres are travelled in 4 hours, the average speed is also 80 kilometres per hour. When a distance in kilometres (km) is divided by a time in hours (h), the result is in kilometres per hour (km/h).
 Average speed does not describe the speed variations that may have taken place during shorter time intervals (as it is the entire distance covered divided by the total time of travel), and so average speed is often quite different from a value of instantaneous speed. If the average speed and the time of travel are known, the distance travelled can be calculated by rearranging the definition to
 
- {\displaystyle d={\boldsymbol {\bar {v}}}t\,.}
+ d={\boldsymbol {\bar {v}}t\,.}
   
 
 Using this equation for an average speed of 80 kilometres per hour on a 4-hour trip, the distance covered is found to be 320 kilometres.

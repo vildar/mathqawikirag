@@ -1,4 +1,4 @@
-The moment of inertia, otherwise known as the mass moment of inertia, angular/rotational mass, second moment of mass, or most accurately, rotational inertia, of a rigid body is defined relatively to a rotational axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis.: 279 : 261  It plays the same role in rotational motion as mass does in linear motion. A body's moment of inertia about a particular axis depends both on the mass and its distribution relative to the axis, increasing with mass and distance from the axis.
+The moment of inertia, otherwise known as the mass moment of inertia, angular/rotational mass, second moment of mass, or most accurately, rotational inertia, of a rigid body is defined relatively to a rotational axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis. It plays the same role in rotational motion as mass does in linear motion. A body's moment of inertia about a particular axis depends both on the mass and its distribution relative to the axis, increasing with mass and distance from the axis.
 It is an extensive (additive) property: for a point mass the moment of inertia is simply the mass times the square of the perpendicular distance to the axis of rotation. The moment of inertia of a rigid composite system is the sum of the moments of inertia of its component subsystems (all taken about the same axis). Its simplest definition is the second moment of mass with respect to distance from an axis.
 For bodies constrained to rotate in a plane, only their moment of inertia about an axis perpendicular to the plane, a scalar value, matters. For bodies free to rotate in three dimensions, their moments can be described by a symmetric 3-by-3 matrix, with a set of mutually perpendicular principal axes for which this matrix is diagonal and torques around the axes act independently of each other.
 
@@ -68,7 +68,7 @@ The moment of inertia I is also defined as the ratio of the net angular momentum
   
 
 If the angular momentum of a system is constant, then as the moment of inertia gets smaller, the angular velocity must increase. This occurs when spinning figure skaters pull in their outstretched arms or divers curl their bodies into a tuck position during a dive, to spin faster.
-If the shape of the body does not change, then its moment of inertia appears in Newton's law of motion as the ratio of an applied torque τ on a body to the angular acceleration α around a principal axis, that is: 279 : 261, eq.9-19 
+If the shape of the body does not change, then its moment of inertia appears in Newton's law of motion as the ratio of an applied torque τ on a body to the angular acceleration α around a principal axis, that is
 
   
     
@@ -721,7 +721,7 @@ This shows that the quantity
 
 === Compound pendulums ===
 
-A compound pendulum is a body formed from an assembly of particles of continuous shape that rotates rigidly around a pivot. Its moment of inertia is the sum of the moments of inertia of each of the particles that it is composed of.: 395–396 : 51–53  The natural frequency (
+A compound pendulum is a body formed from an assembly of particles of continuous shape that rotates rigidly around a pivot. Its moment of inertia is the sum of the moments of inertia of each of the particles that it is composed of. The natural frequency (
   
     
       
@@ -811,7 +811,7 @@ where
     
     {\displaystyle r}
   
- is the distance from the pivot point to the center of mass of the object. Measuring this frequency of oscillation over small angular displacements provides an effective way of measuring moment of inertia of a body.: 516–517 
+ is the distance from the pivot point to the center of mass of the object. Measuring this frequency of oscillation over small angular displacements provides an effective way of measuring moment of inertia of a body.
 Thus, to determine the moment of inertia of the body, simply suspend it from a convenient pivot point 
   
     
@@ -1425,7 +1425,7 @@ Consider the kinetic energy of an assembly of
     
     {\displaystyle P}
   
-, which is the nearest point on the axis of rotation. It is the sum of the kinetic energy of the individual masses,: 516–517 : 1084–1085 : 1296–1300 
+, which is the nearest point on the axis of rotation. It is the sum of the kinetic energy of the individual masses,
 
   
     
@@ -1858,7 +1858,7 @@ The moment of inertia of a thin rod with constant cross-section
     
     {\displaystyle \ell }
   
- about a perpendicular axis through its center of mass is determined by integration.: 1301   Align the 
+ about a perpendicular axis through its center of mass is determined by integration.  Align the 
   
     
       
@@ -1867,7 +1867,7 @@ The moment of inertia of a thin rod with constant cross-section
     
     {\displaystyle x}
   
--axis with the rod and locate the origin its center of mass at the center of the rod, then 
+-axis with the rod and locate the origin at its center of mass at the center of the rod, then 
   
     
       
@@ -2067,7 +2067,7 @@ The moment of inertia of a thin disc of constant thickness
     
     {\displaystyle \rho }
   
- about an axis through its center and perpendicular to its face (parallel to its axis of rotational symmetry) is determined by integration.: 1301   Align the 
+ about an axis through its center and perpendicular to its face (parallel to its axis of rotational symmetry) is determined by integration.  Align the 
   
     
       
@@ -2314,7 +2314,7 @@ The moment of inertia of the compound pendulum is now obtained by adding the mom
  is the length of the pendulum.  Notice that the parallel axis theorem is used to shift the moment of inertia from the center of mass to the pivot point of the pendulum.
 A list of moments of inertia formulas for standard body shapes provides a way to obtain the moment of inertia of a complex body as an assembly of simpler shaped bodies. The parallel axis theorem is used to shift the reference point of the individual bodies to the reference point of the assembly.
 
-As one more example, consider the moment of inertia of a solid sphere of constant density about an axis through its center of mass. This is determined by summing the moments of inertia of the thin discs that can form the sphere whose centers are along the axis chosen for consideration. If the surface of the sphere is defined by the equation: 1301 
+As one more example, consider the moment of inertia of a solid sphere of constant density about an axis through its center of mass. This is determined by summing the moments of inertia of the thin discs that can form the sphere whose centers are along the axis chosen for consideration. If the surface of the sphere is defined by the equation
 
   
     
@@ -3653,7 +3653,7 @@ and define the moment of inertia relative to the center of mass
     {\displaystyle I_{\mathbf {C} }=\sum _{i}m_{i}\,\Delta r_{i}^{2},}
   
 
-then the equation for angular momentum simplifies to: 1028 
+then the equation for angular momentum simplifies to
 
   
     
@@ -4067,7 +4067,7 @@ Let the reference point be the center of mass
     
     {\displaystyle I_{\mathbf {C} }}
   
- so the kinetic energy is given by: 1084 
+ so the kinetic energy is given by
 
   
     
@@ -5031,7 +5031,7 @@ Use the center of mass
     
     {\displaystyle I_{\mathbf {C} }}
   
-, then the equation for the resultant torque simplifies to: 1029 
+, then the equation for the resultant torque simplifies to
 
   
     
@@ -12767,7 +12767,7 @@ The distance
     
     {\displaystyle \mathbf {\hat {n}} }
   
- is unit vector. The moment of inertia on the axis is
+ is a unit vector. The moment of inertia on the axis is
 
   
     

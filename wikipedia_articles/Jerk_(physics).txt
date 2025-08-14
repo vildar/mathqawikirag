@@ -1387,7 +1387,7 @@ Jerk is often considered when vibration is a concern. A device that measures jer
 
 == Further derivatives ==
 
-Further time derivatives have also been named, as snap or jounce (fourth derivative), crackle (fifth derivative), and pop (sixth derivative). The seventh derivative is known as "Lock", as it is a logical continuation to the cycle. The eighth derivative has been referred to as "Drop". Even though, the seventh and eighth derivative are not officially recognized and thus no reliable source is found. Time derivatives of position of higher order than four appear rarely.
+Further time derivatives have also been named, as snap or jounce (fourth derivative), crackle (fifth derivative), and pop (sixth derivative). Time derivatives of position of higher order than four appear rarely.
 The terms snap, crackle, and pop‍—‌for the fourth, fifth, and sixth derivatives of position‍—‌were inspired by the advertising mascots Snap, Crackle, and Pop.
 
 

@@ -5,7 +5,7 @@ articles = [
     "Angular_velocity", "Center_of_mass", "Centrifugal_force", "Centripetal_force",
     "Circular_motion", "Coriolis_force", "Equations_of_motion", "Force", "Frequency",
     "Harmonic_oscillator", "Jerk_(physics)", "Mass", "Moment_of_inertia", "Momentum",
-    "Motion", "Newton%27s_laws_of_motion", "Rotation", "Speed", "Torque", "Velocity", "Work_(physics)"
+    "Motion", r"Newton's_laws_of_motion", "Rotation", "Speed", "Torque", "Velocity", "Work_(physics)"
 ]
 
 

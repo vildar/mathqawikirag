@@ -3434,7 +3434,7 @@ Further transformations may involve
 
 
 == Applications ==
-Solving applications dealing with non-uniform circular motion involves force analysis. With a uniform circular motion, the only force acting upon an object traveling in a circle is the centripetal force. In a non-uniform circular motion, there are additional forces acting on the object due to a non-zero tangential acceleration. Although there are additional forces acting upon the object, the sum of all the forces acting on the object will have to be equal to the centripetal force.
+Solving applications dealing with non-uniform circular motion involves force analysis. With a uniform circular motion, the only force acting upon an object traveling in a circle is the centripetal force. In a non-uniform circular motion, there are additional forces acting on the object due to a non-zero tangential acceleration. Although there are forces acting upon the object, the sum of all the forces acting on the object will have to be equal to the centripetal force.
 
   
     

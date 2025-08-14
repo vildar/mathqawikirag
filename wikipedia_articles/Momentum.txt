@@ -1319,16 +1319,17 @@ If one body is motionless to begin with (e.g.
     
       
         
-          u
+          v
           
-            2
+            B
+            1
           
         
         =
         0
       
     
-    {\displaystyle u_{2}=0}
+    {\displaystyle v_{B1}=0}
   
 ), the equation for conservation of momentum is
 
@@ -2579,7 +2580,7 @@ In Maxwell's equations, the forces between particles are mediated by electric an
     {\displaystyle \mathbf {F} =q(\mathbf {E} +\mathbf {v} \times \mathbf {B} ).}
   
 
-(in SI units).: 2 
+(in SI units).
 It has an electric potential φ(r, t) and magnetic vector potential A(r, t).
 In the non-relativistic regime, its generalized momentum is
 

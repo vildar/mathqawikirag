@@ -17,24 +17,24 @@ The center of mass is the unique point at the center of a distribution of mass i
 === A system of particles ===
 In the case of a system of particles Pi, i = 1, ..., n , each with mass mi that are located in space with coordinates ri, i = 1, ..., n , the coordinates R of the center of mass satisfy  
 
-∑ i = 1 n m i (r i − R) = 0. {\displaystyle \sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )=\mathbf {0} .}
+∑ i = 1 n m i (r i − R) = 0. \sum _{i=1^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )=\mathbf {0} .}
   
 
 Solving this equation for R yields the formula
 
-R = ∑ i = 1 n m i r i ∑ i = 1 n m i. {\displaystyle \mathbf {R} ={\sum _{i=1}^{n}m_{i}\mathbf {r} _{i} \over \sum _{i=1}^{n}m_{i}}.}
+R = ∑ i = 1 n m i r i ∑ i = 1 n m i. \mathbf {R ={\sum _{i=1}^{n}m_{i}\mathbf {r} _{i} \over \sum _{i=1}^{n}m_{i}}.}
   
 
 
 === A continuous volume ===
 If the mass distribution is continuous with the density ρ(r) within a solid Q, then the integral of the weighted position coordinates of the points in this volume relative to the center of mass R over the volume V is zero, that is
 
-∭ Q ρ (r) (r − R) d V = 0. {\displaystyle \iiint _{Q}\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV=\mathbf {0} .}
+∭ Q ρ (r) (r − R) d V = 0. \iiint _{Q\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV=\mathbf {0} .}
   
 
 Solve this equation for the coordinates R to obtain
 
-R = 1 M ∭ Q ρ (r) r d V, {\displaystyle \mathbf {R} ={\frac {1}{M}}\iiint _{Q}\rho (\mathbf {r} )\mathbf {r} \,dV,}
+R = 1 M ∭ Q ρ (r) r d V, \mathbf {R ={\frac {1}{M}}\iiint _{Q}\rho (\mathbf {r} )\mathbf {r} \,dV,}
   
 
 where M is the total mass in the volume.
@@ -45,7 +45,7 @@ If a continuous mass distribution has uniform density, which means that ρ is co
 
 The coordinates R of the center of mass of a two-particle system, P1 and P2, with masses m1 and m2 is given by
 
-R = m 1 r 1 + m 2 r 2 m 1 + m 2. {\displaystyle \mathbf {R} ={{m_{1}\mathbf {r} _{1}+m_{2}\mathbf {r} _{2}} \over m_{1}+m_{2}}.}
+R = m 1 r 1 + m 2 r 2 m 1 + m 2. \mathbf {R ={{m_{1}\mathbf {r} _{1}+m_{2}\mathbf {r} _{2}} \over m_{1}+m_{2}}.}
   
 
 Let the percentage of the total mass divided between these two particles vary from 100% P1 and 0% P2 through 50% P1 and 50% P2 to 0% P1 and 100% P2, then the center of mass R moves along the line from P1 to P2.  The percentages of mass at each point can be viewed as projective coordinates of the point R on this line, and are termed barycentric coordinates. Another way of interpreting the process here is the mechanical balancing of moments about an arbitrary point. The numerator gives the total moment that is then balanced by an equivalent total force at the center of mass. This can be generalized to three points and four points to define projective coordinates in the plane, and in space, respectively.
@@ -198,11 +198,11 @@ The process can be repeated for all dimensions of the system to determine the co
 == Center of gravity ==
 
 A body's center of gravity is the point around which the resultant torque due to gravity forces vanishes. Where a gravity field can be considered to be uniform, the mass-center and the center-of-gravity will be the same. However, for satellites in orbit around a planet, in the absence of other torques being applied to a satellite, the slight variation (gradient) in gravitational field between closer-to and further-from the planet (stronger and weaker gravity respectively) can lead to a torque that will tend to align the satellite such that its long axis is vertical. In such a case, it is important to make the distinction between the center-of-gravity and the mass-center. Any horizontal offset between the two will result in an applied torque.
-The mass-center is a fixed property for a given rigid body (e.g. with no slosh or articulation), whereas the center-of-gravity may, in addition, depend upon its orientation in a non-uniform gravitational field. In the latter case, the center-of-gravity will always be located somewhat closer to the main attractive body as compared to the mass-center, and thus will change its position in the body of interest as its orientation is changed.
+The mass-center is a fixed property for a given rigid body (e.g., with no slosh or articulation), whereas the center-of-gravity may, in addition, depend upon its orientation in a non-uniform gravitational field. In the latter case, the center-of-gravity will always be located somewhat closer to the main attractive body as compared to the mass-center, and thus will change its position in the body of interest as its orientation is changed.
 In the study of the dynamics of aircraft, vehicles and vessels, forces and moments need to be resolved relative to the mass center. That is true independent of whether gravity itself is a consideration. Referring to the mass-center as the center-of-gravity is something of a colloquialism, but it is in common usage and when gravity gradient effects are negligible, center-of-gravity and mass-center are the same and are used interchangeably.
 In physics the benefits of using the center of mass to model a mass distribution can be seen by considering the resultant of the gravity forces on a continuous body. Consider a body Q of volume V with density ρ(r) at each point r in the volume. In a parallel gravity field the force f at each point r is given by,
 
-f (r) = − d m g k ^ = − ρ (r) d V g k ^, {\displaystyle \mathbf {f} (\mathbf {r} )=-dm\,g\mathbf {\hat {k}} =-\rho (\mathbf {r} )\,dV\,g\mathbf {\hat {k}} ,}
+f (r) = − d m g k ^ = − ρ (r) d V g k ^, \mathbf {f (\mathbf {r} )=-dm\,g\mathbf {\hat {k}} =-\rho (\mathbf {r} )\,dV\,g\mathbf {\hat {k}} ,}
   
 
 where dm is the mass at the point r, g is the acceleration of gravity, and 
@@ -224,17 +224,17 @@ where dm is the mass at the point r, g is the acceleration of gravity, and
  is a unit vector defining the vertical direction.
 Choose a reference point R in the volume and compute the resultant force and torque at this point,
 
-F = ∭ Q f (r) d V = ∭ Q ρ (r) d V (− g k ^) = − M g k ^, {\displaystyle \mathbf {F} =\iiint _{Q}\mathbf {f} (\mathbf {r} )\,dV=\iiint _{Q}\rho (\mathbf {r} )\,dV\left(-g\mathbf {\hat {k}} \right)=-Mg\mathbf {\hat {k}} ,}
+F = ∭ Q f (r) d V = ∭ Q ρ (r) d V (− g k ^) = − M g k ^, \mathbf {F =\iiint _{Q}\mathbf {f} (\mathbf {r} )\,dV=\iiint _{Q}\rho (\mathbf {r} )\,dV\left(-g\mathbf {\hat {k}} \right)=-Mg\mathbf {\hat {k}} ,}
   
 
 and
 
-T = ∭ Q (r − R) × f (r) d V = ∭ Q (r − R) × (− g ρ (r) d V k ^) = (∭ Q ρ (r) (r − R) d V) × (− g k ^). {\displaystyle \mathbf {T} =\iiint _{Q}(\mathbf {r} -\mathbf {R} )\times \mathbf {f} (\mathbf {r} )\,dV=\iiint _{Q}(\mathbf {r} -\mathbf {R} )\times \left(-g\rho (\mathbf {r} )\,dV\,\mathbf {\hat {k}} \right)=\left(\iiint _{Q}\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV\right)\times \left(-g\mathbf {\hat {k}} \right).}
+T = ∭ Q (r − R) × f (r) d V = ∭ Q (r − R) × (− g ρ (r) d V k ^) = (∭ Q ρ (r) (r − R) d V) × (− g k ^). \mathbf {T =\iiint _{Q}(\mathbf {r} -\mathbf {R} )\times \mathbf {f} (\mathbf {r} )\,dV=\iiint _{Q}(\mathbf {r} -\mathbf {R} )\times \left(-g\rho (\mathbf {r} )\,dV\,\mathbf {\hat {k}} \right)=\left(\iiint _{Q}\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV\right)\times \left(-g\mathbf {\hat {k}} \right).}
   
 
 If the reference point R is chosen so that it is the center of mass, then
 
-∭ Q ρ (r) (r − R) d V = 0, {\displaystyle \iiint _{Q}\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV=0,}
+∭ Q ρ (r) (r − R) d V = 0, \iiint _{Q\rho (\mathbf {r} )\left(\mathbf {r} -\mathbf {R} \right)dV=0,}
   
 
 which means the resultant torque T = 0. Because the resultant torque is zero the body will move as though it is a particle with its mass concentrated at the center of mass.
@@ -244,22 +244,22 @@ By selecting the center of gravity as the reference point for a rigid body, the 
 == Linear and angular momentum ==
 The linear and angular momentum of a collection of particles can be simplified by measuring the position and velocity of the particles relative to the center of mass.  Let the system of particles Pi, i = 1, ..., n of masses mi be located at the coordinates ri with velocities vi.  Select a reference point R and compute the relative position and velocity vectors,
 
-r i = (r i − R) + R, v i = d d t (r i − R) + v. {\displaystyle \mathbf {r} _{i}=(\mathbf {r} _{i}-\mathbf {R} )+\mathbf {R} ,\quad \mathbf {v} _{i}={\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\mathbf {v} .}
+r i = (r i − R) + R, v i = d d t (r i − R) + v. \mathbf {r _{i}=(\mathbf {r} _{i}-\mathbf {R} )+\mathbf {R} ,\quad \mathbf {v} _{i}={\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\mathbf {v} .}
   
 
 The total linear momentum and angular momentum of the system are
 
-p = d d t (∑ i = 1 n m i (r i − R)) + (∑ i = 1 n m i) v, {\displaystyle \mathbf {p} ={\frac {d}{dt}}\left(\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\right)+\left(\sum _{i=1}^{n}m_{i}\right)\mathbf {v} ,}
+p = d d t (∑ i = 1 n m i (r i − R)) + (∑ i = 1 n m i) v, \mathbf {p ={\frac {d}{dt}}\left(\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\right)+\left(\sum _{i=1}^{n}m_{i}\right)\mathbf {v} ,}
   
 
 and
 
-L = ∑ i = 1 n m i (r i − R) × d d t (r i − R) + (∑ i = 1 n m i) [R × d d t (r i − R) + (r i − R) × v] + (∑ i = 1 n m i) R × v {\displaystyle \mathbf {L} =\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\left(\sum _{i=1}^{n}m_{i}\right)\left[\mathbf {R} \times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+(\mathbf {r} _{i}-\mathbf {R} )\times \mathbf {v} \right]+\left(\sum _{i=1}^{n}m_{i}\right)\mathbf {R} \times \mathbf {v} }
+L = ∑ i = 1 n m i (r i − R) × d d t (r i − R) + (∑ i = 1 n m i) [R × d d t (r i − R) + (r i − R) × v] + (∑ i = 1 n m i) R × v \mathbf {L =\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\left(\sum _{i=1}^{n}m_{i}\right)\left[\mathbf {R} \times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+(\mathbf {r} _{i}-\mathbf {R} )\times \mathbf {v} \right]+\left(\sum _{i=1}^{n}m_{i}\right)\mathbf {R} \times \mathbf {v} }
   
 
 If R is chosen as the center of mass these equations simplify to
 
-p = m v, L = ∑ i = 1 n m i (r i − R) × d d t (r i − R) + ∑ i = 1 n m i R × v {\displaystyle \mathbf {p} =m\mathbf {v} ,\quad \mathbf {L} =\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\sum _{i=1}^{n}m_{i}\mathbf {R} \times \mathbf {v} }
+p = m v, L = ∑ i = 1 n m i (r i − R) × d d t (r i − R) + ∑ i = 1 n m i R × v \mathbf {p =m\mathbf {v} ,\quad \mathbf {L} =\sum _{i=1}^{n}m_{i}(\mathbf {r} _{i}-\mathbf {R} )\times {\frac {d}{dt}}(\mathbf {r} _{i}-\mathbf {R} )+\sum _{i=1}^{n}m_{i}\mathbf {R} \times \mathbf {v} }
   
 
 where m is the total mass of all the particles, p is the linear momentum, and L is the angular momentum.
@@ -278,24 +278,26 @@ The shape of an object might already be mathematically determined, but it may be
 A direct development of the planimeter known as an integraph, or integerometer, can be used to establish the position of the centroid or center of mass of an irregular two-dimensional shape. This method can be applied to a shape with an irregular, smooth or complex boundary where other methods are too difficult. It was regularly used by ship builders to compare with the required displacement and center of buoyancy of a ship, and ensure it would not capsize.
 
 
-=== In three dimensions === An experimental method to locate the three-dimensional coordinates of the center of mass begins by supporting the object at three points and measuring the forces, F1, F2, and F3 that resist the weight of the object, W = − W k ^ {\displaystyle \mathbf {W}=== In three dimensions === An experimental method to locate the three-dimensional coordinates of the center of mass begins by supporting the object at three points and measuring the forces, F1, F2, and F3 that resist the weight of the object, W = − W k ^ {\displaystyle \mathbf {W} =-W\mathbf {\hat {k}}} ( {\displaystyle \mathbf {\hat {k}}} is the unit vector in the vertical direction).  Let r1, r2, and r3 be the position coordinates of the support points, then the coordinates R of the center of mass satisfy the condition that the resultant torque is zero,
+=== In three dimensions === An experimental method to locate the three-dimensional coordinates of the center of mass begins by supporting the object at three points and measuring the forces, F1, F2, and F3 that resist the weight of the object, W = − W k ^ \mathbf {W =-W\mathbf {\hat {k}} }
+  
+ ( \mathbf {\hat {k}} is the unit vector in the vertical direction).  Let r1, r2, and r3 be the position coordinates of the support points, then the coordinates R of the center of mass satisfy the condition that the resultant torque is zero,
 
-T = (r 1 − R) × F 1 + (r 2 − R) × F 2 + (r 3 − R) × F 3 = 0, {\displaystyle \mathbf {T} =(\mathbf {r} _{1}-\mathbf {R} )\times \mathbf {F} _{1}+(\mathbf {r} _{2}-\mathbf {R} )\times \mathbf {F} _{2}+(\mathbf {r} _{3}-\mathbf {R} )\times \mathbf {F} _{3}=0,}
+T = (r 1 − R) × F 1 + (r 2 − R) × F 2 + (r 3 − R) × F 3 = 0, \mathbf {T =(\mathbf {r} _{1}-\mathbf {R} )\times \mathbf {F} _{1}+(\mathbf {r} _{2}-\mathbf {R} )\times \mathbf {F} _{2}+(\mathbf {r} _{3}-\mathbf {R} )\times \mathbf {F} _{3}=0,}
   
 
 or
 
-R × (− W k ^) = r 1 × F 1 + r 2 × F 2 + r 3 × F 3. {\displaystyle \mathbf {R} \times \left(-W\mathbf {\hat {k}} \right)=\mathbf {r} _{1}\times \mathbf {F} _{1}+\mathbf {r} _{2}\times \mathbf {F} _{2}+\mathbf {r} _{3}\times \mathbf {F} _{3}.}
+R × (− W k ^) = r 1 × F 1 + r 2 × F 2 + r 3 × F 3. \mathbf {R \times \left(-W\mathbf {\hat {k}} \right)=\mathbf {r} _{1}\times \mathbf {F} _{1}+\mathbf {r} _{2}\times \mathbf {F} _{2}+\mathbf {r} _{3}\times \mathbf {F} _{3}.}
   
 
 This equation yields the coordinates of the center of mass R* in the horizontal plane as,
 
-R ∗ = − 1 W k ^ × (r 1 × F 1 + r 2 × F 2 + r 3 × F 3). {\displaystyle \mathbf {R} ^{*}=-{\frac {1}{W}}\mathbf {\hat {k}} \times (\mathbf {r} _{1}\times \mathbf {F} _{1}+\mathbf {r} _{2}\times \mathbf {F} _{2}+\mathbf {r} _{3}\times \mathbf {F} _{3}).}
+R ∗ = − 1 W k ^ × (r 1 × F 1 + r 2 × F 2 + r 3 × F 3). \mathbf {R ^{*}=-{\frac {1}{W}}\mathbf {\hat {k}} \times (\mathbf {r} _{1}\times \mathbf {F} _{1}+\mathbf {r} _{2}\times \mathbf {F} _{2}+\mathbf {r} _{3}\times \mathbf {F} _{3}).}
   
 
 The center of mass lies on the vertical line L, given by
 
-L (t) = R ∗ + t k ^. {\displaystyle \mathbf {L} (t)=\mathbf {R} ^{*}+t\mathbf {\hat {k}} .}
+L (t) = R ∗ + t k ^. \mathbf {L (t)=\mathbf {R} ^{*}+t\mathbf {\hat {k}} .}
   
 
 The three-dimensional coordinates of the center of mass are determined by performing this experiment twice with the object positioned so that these forces are measured for two different horizontal planes through the object.  The center of mass will be the intersection of the two lines L1 and L2 obtained from the two experiments.
@@ -330,7 +332,7 @@ Knowing the location of the center of gravity when rigging is crucial, possibly 
 
 === Body motion ===
 
-The center of mass of the adult human body vertically is 10 cm above the trochanter (the femur joins the hip), with it in horizontally being located 1.4 cm forward of the knee, and 1.0 behind the trochanter. In kinesiology and biomechanics, the center of mass is an important parameter that assists people in understanding their human locomotion. Typically, a human's center of mass is detected with one of two methods: the reaction board method is a static analysis that involves the person lying down on that instrument, and use of their static equilibrium equation to find their center of mass; the segmentation method relies on a mathematical solution based on the physical principle that the summation of the torques of individual body sections, relative to a specified axis, must equal the torque of the whole system that constitutes the body, measured relative to the same axis.
+The center of mass of the adult human body vertically is 10 cm above the trochanter (where the femur joins the hip), 1.4 cm forward of the knee and 1.0 cm behind the trochanter. In kinesiology and biomechanics, the center of mass is an important parameter that assists people in understanding their human locomotion. Typically, a human's center of mass is detected with one of two methods: the reaction board method is a static analysis that involves the person lying down on that instrument, and use of their static equilibrium equation to find their center of mass; the segmentation method relies on a mathematical solution based on the physical principle that the summation of the torques of individual body sections, relative to a specified axis, must equal the torque of the whole system that constitutes the body, measured relative to the same axis.
 
 
 === Optimization ===

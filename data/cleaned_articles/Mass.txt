@@ -58,17 +58,17 @@ Although inertial mass, passive gravitational mass and active gravitational mass
 Albert Einstein developed his general theory of relativity starting with the assumption that the inertial and passive gravitational masses are the same.  This is known as the equivalence principle.
 The particular equivalence often referred to as the "Galilean equivalence principle" or the "weak equivalence principle" has the most important consequence for freely falling objects. Suppose an object has inertial and gravitational masses m and M, respectively. If the only force acting on the object comes from a gravitational field g, the force on the object is:
 
- {\displaystyle F=Mg.}
+ F=Mg.
   
 
 Given this force, the acceleration of the object can be determined by Newton's second law:
 
- {\displaystyle F=ma.}
+ F=ma.
   
 
 Putting these together, the gravitational acceleration is given by:
 
- {\displaystyle a={\frac {M}{m}}g.}
+ a={\frac {M{m}}g.}
   
 
 This says that the ratio of gravitational to inertial mass of any object is equal to some constant K if and only if all objects fall at the same rate in a given gravitational field. This phenomenon is referred to as the "universality of free-fall". In addition, the constant K can be taken as 1 by defining our units appropriately.
@@ -93,18 +93,18 @@ The concept of amount is very old and predates recorded history. The concept of 
 What we now know as mass was until the time of Newton called “weight.” ... A goldsmith believed that an ounce of gold was a quantity of gold. ... But the ancients believed that a beam balance also measured “heaviness” which they recognized through their muscular senses. ... Mass and its associated downward force were believed to be the same thing.
 Humans, at some early era, realized that the weight of a collection of similar objects was directly proportional to the number of objects in the collection:
 
-W n ∝ n, {\displaystyle W_{n}\propto n,}
+W n ∝ n, W_{n\propto n,}
   
 
 where W is the weight of the collection of similar objects and n is the number of objects in the collection. Proportionality, by definition, implies that two values have a constant ratio:
 
- {\displaystyle {\frac {W_{n}W n n = W m m {\displaystyle {\frac {W_{n}}{n}}={\frac {W_{m}}{m}}}, or equivalently W n W m = n m. {\displaystyle {\frac {W_{n}}{W_{m}}}={\frac {n}{m}}.}
+ {\frac {W_{nW n n = W m m {\displaystyle {\frac {W_{n}}{n}}={\frac {W_{m}}{m}}}, or equivalently W n W m = n m. {\frac {W_{n}{W_{m}}}={\frac {n}{m}}.}
   
 
 An early use of this relationship is a balance scale, which balances the force of one object's weight against the force of another object's weight. The two sides of a balance scale are close enough that the objects experience similar gravitational fields.  Hence, if they have similar masses then their weights will also be similar.  This allows the scale, by comparing weights, to also compare masses.
 Consequently, historical weight standards were often defined in terms of amounts.  The Romans, for example, used the carob seed (carat or siliqua) as a measurement standard.  If an object's weight was equivalent to 1728 carob seeds, then the object was said to weigh one Roman pound.  If, on the other hand, the object's weight was equivalent to 144 carob seeds then the object was said to weigh one Roman ounce (uncia).  The Roman pound and ounce were both defined in terms of different sized collections of the same common mass standard, the carob seed.  The ratio of a Roman ounce (144 carob seeds) to a Roman pound (1728 carob seeds) was:
 
- {\displaystyle {\frac {\mathrm {ounce} }{\mathrm {pound} }}={\frac {W_{144}}{W_{1728}}}={\frac {144}{1728}}={\frac {1}{12}}.}
+ {\frac {\mathrm {ounce }{\mathrm {pound} }}={\frac {W_{144}}{W_{1728}}}={\frac {144}{1728}}={\frac {1}{12}}.}
   
 
 
@@ -122,7 +122,7 @@ A later experiment was described in Galileo's Two New Sciences published in 1638
 a large vessel of water placed in an elevated position; to the bottom of this vessel was soldered a pipe of small diameter giving a thin jet of water, which we collected in a small glass during the time of each descent, whether for the whole length of the channel or for a part of its length; the water thus collected was weighed, after each descent, on a very accurate balance; the differences and ratios of these weights gave us the differences and ratios of the times, and this with such accuracy that although the operation was repeated many, many times, there was no appreciable discrepancy in the results.
 Galileo found that for an object in free fall, the distance that the object has fallen is always proportional to the square of the elapsed time:
 
-Distance ∝ Time 2 {\displaystyle {\text{Distance}}\propto {{\text{Time}}^{2}}}
+Distance ∝ Time 2 {\text{Distance}\propto {{\text{Time}}^{2}}}
   
 
 Galileo had shown that objects in free fall under the influence of the Earth's gravitational field have a constant acceleration, and Galileo's contemporary, Johannes Kepler, had shown that the planets follow elliptical paths under the influence of the Sun's gravitational mass.  However, Galileo's free fall motions and Kepler's planetary motions remained distinct during Galileo's lifetime.
@@ -134,10 +134,10 @@ According to K. M. Browne: "Kepler formed a [distinct] concept of mass ('amount 
 
 == Newtonian mass ==
 
-Robert Hooke had published his concept of gravitational forces in 1674, stating that all celestial bodies have an attraction or gravitating power towards their own centers, and also attract all the other celestial bodies that are within the sphere of their activity. He further stated that gravitational attraction increases by how much nearer the body wrought upon is to its own center. In correspondence with Isaac Newton from 1679 and 1680, Hooke conjectured that gravitational forces might decrease according to the double of the distance between the two bodies. Hooke urged Newton, who was a pioneer in the development of calculus, to work through the mathematical details of Keplerian orbits to determine if Hooke's hypothesis was correct.  Newton's own investigations verified that Hooke was correct, but due to personal differences between the two men, Newton chose not to reveal this to Hooke.  Isaac Newton kept quiet about his discoveries until 1684, at which time he told a friend, Edmond Halley, that he had solved the problem of gravitational orbits, but had misplaced the solution in his office. After being encouraged by Halley, Newton decided to develop his ideas about gravity and publish all of his findings.  In November 1684, Isaac Newton sent a document to Edmund Halley, now lost but presumed to have been titled De motu corporum in gyrum (Latin for "On the motion of bodies in an orbit"). Halley presented Newton's findings to the Royal Society of London, with a promise that a fuller presentation would follow.  Newton later recorded his ideas in a three-book set, entitled Philosophiæ Naturalis Principia Mathematica (English: Mathematical Principles of Natural Philosophy).  The first was received by the Royal Society on 28 April 1685–86; the second on 2 March 1686–87; and the third on 6 April 1686–87.  The Royal Society published Newton's entire collection at their own expense in May 1686–87.: 31 
+Robert Hooke had published his concept of gravitational forces in 1674, stating that all celestial bodies have an attraction or gravitating power towards their own centers, and also attract all the other celestial bodies that are within the sphere of their activity. He further stated that gravitational attraction increases by how much nearer the body wrought upon is to its own center. In correspondence with Isaac Newton from 1679 and 1680, Hooke conjectured that gravitational forces might decrease according to the double of the distance between the two bodies. Hooke urged Newton, who was a pioneer in the development of calculus, to work through the mathematical details of Keplerian orbits to determine if Hooke's hypothesis was correct.  Newton's own investigations verified that Hooke was correct, but due to personal differences between the two men, Newton chose not to reveal this to Hooke.  Isaac Newton kept quiet about his discoveries until 1684, at which time he told a friend, Edmond Halley, that he had solved the problem of gravitational orbits, but had misplaced the solution in his office. After being encouraged by Halley, Newton decided to develop his ideas about gravity and publish all of his findings.  In November 1684, Isaac Newton sent a document to Edmund Halley, now lost but presumed to have been titled De motu corporum in gyrum (Latin for "On the motion of bodies in an orbit"). Halley presented Newton's findings to the Royal Society of London, with a promise that a fuller presentation would follow.  Newton later recorded his ideas in a three-book set, entitled Philosophiæ Naturalis Principia Mathematica (English: Mathematical Principles of Natural Philosophy).  The first was received by the Royal Society on 28 April 1685–86; the second on 2 March 1686–87; and the third on 6 April 1686–87.  The Royal Society published Newton's entire collection at their own expense in May 1686–87.
 Isaac Newton had bridged the gap between Kepler's gravitational mass and Galileo's gravitational acceleration, resulting in the discovery of the following relationship which governed both of these:
 
-g = − μ R ^ | R | 2 {\displaystyle \mathbf {g} =-\mu {\frac {\hat {\mathbf {R} }}{|\mathbf {R} |^{2}}}}
+g = − μ R ^ | R | 2 \mathbf {g =-\mu {\frac {\hat {\mathbf {R} }}{|\mathbf {R} |^{2}}}}
   
 
 where g is the apparent acceleration of a body as it passes through a region of space where gravitational fields exist, μ is the gravitational mass (standard gravitational parameter) of the body causing gravitational fields, and R is the radial coordinate (the distance between the centers of the two bodies).
@@ -146,23 +146,23 @@ By finding the exact relationship between a body's gravitational mass and its gr
 
 === Newton's cannonball ===
 
-Newton's cannonball was a thought experiment used to bridge the gap between Galileo's gravitational acceleration and Kepler's elliptical orbits.  It appeared in Newton's 1728 book A Treatise of the System of the World.  According to Galileo's concept of gravitation, a dropped stone falls with constant acceleration down towards the Earth.  However, Newton explains that when a stone is thrown horizontally (meaning sideways or perpendicular to Earth's gravity) it follows a curved path.  "For a stone projected is by the pressure of its own weight forced out of the rectilinear path, which by the projection alone it should have pursued, and made to describe a curve line in the air; and through that crooked way is at last brought down to the ground.  And the greater the velocity is with which it is projected, the farther it goes before it falls to the Earth.": 513  Newton further reasons that if an object were "projected in an horizontal direction from the top of a high mountain" with sufficient velocity, "it would reach at last quite beyond the circumference of the Earth, and return to the mountain from which it was projected."
+Newton's cannonball was a thought experiment used to bridge the gap between Galileo's gravitational acceleration and Kepler's elliptical orbits.  It appeared in Newton's 1728 book A Treatise of the System of the World.  According to Galileo's concept of gravitation, a dropped stone falls with constant acceleration down towards the Earth.  However, Newton explains that when a stone is thrown horizontally (meaning sideways or perpendicular to Earth's gravity) it follows a curved path.  "For a stone projected is by the pressure of its own weight forced out of the rectilinear path, which by the projection alone it should have pursued, and made to describe a curve line in the air; and through that crooked way is at last brought down to the ground.  And the greater the velocity is with which it is projected, the farther it goes before it falls to the Earth." Newton further reasons that if an object were "projected in an horizontal direction from the top of a high mountain" with sufficient velocity, "it would reach at last quite beyond the circumference of the Earth, and return to the mountain from which it was projected."
 
 
 === Universal gravitational mass ===
 
-In contrast to earlier theories (e.g. celestial spheres) which stated that the heavens were made of entirely different material, Newton's theory of mass was groundbreaking partly because it introduced universal gravitational mass: every object has gravitational mass, and therefore, every object generates a gravitational field.  Newton further assumed that the strength of each object's gravitational field would decrease according to the square of the distance to that object. If a large collection of small objects were formed into a giant spherical body such as the Earth or Sun, Newton calculated the collection would create a gravitational field proportional to the total mass of the body,: 397  and inversely proportional to the square of the distance to the body's center.: 221 
+In contrast to earlier theories (e.g. celestial spheres) which stated that the heavens were made of entirely different material, Newton's theory of mass was groundbreaking partly because it introduced universal gravitational mass: every object has gravitational mass, and therefore, every object generates a gravitational field.  Newton further assumed that the strength of each object's gravitational field would decrease according to the square of the distance to that object. If a large collection of small objects were formed into a giant spherical body such as the Earth or Sun, Newton calculated the collection would create a gravitational field proportional to the total mass of the body, and inversely proportional to the square of the distance to the body's center.
 For example, according to Newton's theory of universal gravitation, each carob seed produces a gravitational field.  Therefore, if one were to gather an immense number of carob seeds and form them into an enormous sphere, then the gravitational field of the sphere would be proportional to the number of carob seeds in the sphere.  Hence, it should be theoretically possible to determine the exact number of carob seeds that would be required to produce a gravitational field similar to that of the Earth or Sun.  In fact, by unit conversion it is a simple matter of abstraction to realize that any traditional mass unit can theoretically be used to measure gravitational mass.
 
-Measuring gravitational mass in terms of traditional mass units is simple in principle, but extremely difficult in practice.  According to Newton's theory, all objects produce gravitational fields and it is theoretically possible to collect an immense number of small objects and form them into an enormous gravitating sphere.  However, from a practical standpoint, the gravitational fields of small objects are extremely weak and difficult to measure. Newton's books on universal gravitation were published in the 1680s, but the first successful measurement of the Earth's mass in terms of traditional mass units, the Cavendish experiment, did not occur until 1797, over a hundred years later. Henry Cavendish found that the Earth's density was 5.448 ± 0.033 times that of water.  As of 2009, the Earth's mass in kilograms is only known to around five digits of accuracy, whereas its gravitational mass is known to over nine significant figures.
+Measuring gravitational mass in terms of traditional mass units is simple in principle, but extremely difficult in practice.  According to Newton's theory, all objects produce gravitational fields and it is theoretically possible to collect an immense number of small objects and form them into an enormous gravitating sphere.  However, from a practical standpoint, the gravitational fields of small objects are extremely weak and difficult to measure. Newton's books on universal gravitation were published in the 1680s, but the first successful measurement of the Earth's mass in terms of traditional mass units, the Cavendish experiment, did not occur until 1797, over a hundred years later. Henry Cavendish found that the Earth's density was 5.448 ± 0.033 times that of water.  As of 2025, the Earth's mass is only known to around five significant figures, whereas GM🜨, the product of Earth's mass and the universal gravitational constant, is known to over nine significant figures.
 Given two objects A and B, of masses MA and MB, separated by a displacement RAB, Newton's law of gravitation states that each object exerts a gravitational force on the other, of magnitude
 
-F AB = − G M A M B R ^ AB | R AB | 2 {\displaystyle \mathbf {F} _{\text{AB}}=-GM_{\text{A}}M_{\text{B}}{\frac {{\hat {\mathbf {R} }}_{\text{AB}}}{|\mathbf {R} _{\text{AB}}|^{2}}}\ }
+F AB = − G M A M B R ^ AB | R AB | 2 \mathbf {F _{\text{AB}}=-GM_{\text{A}}M_{\text{B}}{\frac {{\hat {\mathbf {R} }}_{\text{AB}}}{|\mathbf {R} _{\text{AB}}|^{2}}}\ }
   
 ,
 where G is the universal gravitational constant. The above statement may be reformulated in the following way: if g is the magnitude at a given location in a gravitational field, then the gravitational force on an object with gravitational mass M is
 
- {\displaystyle F=Mg}
+ F=Mg
   
 .
 This is the basis by which masses are determined by weighing. In simple spring scales, for example, the force F is proportional to the displacement of the spring beneath the weighing pan, as per Hooke's law, and the scales are calibrated to take g into account, allowing the mass M to be read off. Assuming the gravitational field is equivalent on both sides of the balance, a balance measures relative weight, giving the relative gravitation mass of each object.
@@ -174,35 +174,35 @@ Mass was traditionally believed to be a measure of the quantity of matter in a p
 Inertial mass is the mass of an object measured by its resistance to acceleration. This definition has been championed by Ernst Mach and has since been developed into the notion of operationalism by Percy W. Bridgman. The simple classical mechanics definition of mass differs slightly from the definition in the theory of special relativity, but the essential meaning is the same.
 In classical mechanics, according to Newton's second law, we say that a body has a mass m if, at any instant of time, it obeys the equation of motion
 
- {\displaystyle \mathbf {F} =m\mathbf {a} ,}
+ \mathbf {F =m\mathbf {a} ,}
   
 
 where F is the resultant force acting on the body and a is the acceleration of the body's centre of mass. For the moment, we will put aside the question of what "force acting on the body" actually means.
 This equation illustrates how mass relates to the inertia of a body. Consider two objects with different masses. If we apply an identical force to each, the object with a bigger mass will experience a smaller acceleration, and the object with a smaller mass will experience a bigger acceleration. We might say that the larger mass exerts a greater "resistance" to changing its state of motion in response to the force.
 However, this notion of applying "identical" forces to different objects brings us back to the fact that we have not really defined what a force is. We can sidestep this difficulty with the help of Newton's third law, which states that if one object exerts a force on a second object, it will experience an equal and opposite force. To be precise, suppose we have two objects of constant inertial masses m1 and m2. We isolate the two objects from all other physical influences, so that the only forces present are the force exerted on m1 by m2, which we denote F12, and the force exerted on m2 by m1, which we denote F21. Newton's second law states that
 
-F 12 = m 1 a 1, F 21 = m 2 a 2, {\displaystyle {\begin{aligned}\mathbf {F_{12}} &=m_{1}\mathbf {a} _{1},\\\mathbf {F_{21}} &=m_{2}\mathbf {a} _{2},\end{aligned}}}
+F 12 = m 1 a 1, F 21 = m 2 a 2, {\begin{aligned\mathbf {F_{12}} &=m_{1}\mathbf {a} _{1},\\\mathbf {F_{21}} &=m_{2}\mathbf {a} _{2},\end{aligned}}}
   
 
 where a1 and a2 are the accelerations of m1 and m2, respectively. Suppose that these accelerations are non-zero, so that the forces between the two objects are non-zero. This occurs, for example, if the two objects are in the process of colliding with one another. Newton's third law then states that
 
-F 12 = − F 21; {\displaystyle \mathbf {F} _{12}=-\mathbf {F} _{21};}
+F 12 = − F 21; \mathbf {F _{12}=-\mathbf {F} _{21};}
   
 
 and thus
 
-m 1 = m 2 | a 2 | | a 1 |. {\displaystyle m_{1}=m_{2}{\frac {|\mathbf {a} _{2}|}{|\mathbf {a} _{1}|}}\!.}
+m 1 = m 2 | a 2 | | a 1 |. m_{1=m_{2}{\frac {|\mathbf {a} _{2}|}{|\mathbf {a} _{1}|}}\!.}
   
 
 If |a1| is non-zero, the fraction is well-defined, which allows us to measure the inertial mass of m1. In this case, m2 is our "reference" object, and we can define its mass m as (say) 1 kilogram. Then we can measure the mass of any other object in the universe by colliding it with the reference object and measuring the accelerations.
 Additionally, mass relates a body's momentum p to its linear velocity v:
 
- {\displaystyle \mathbf {p} =m\mathbf {v} }
+ \mathbf {p =m\mathbf {v} }
   
 ,
 and the body's kinetic energy K to its velocity:
 
-K = 1 2 m | v | 2 {\displaystyle K={\dfrac {1}{2}}m|\mathbf {v} |^{2}}
+K = 1 2 m | v | 2 K={\dfrac {1{2}}m|\mathbf {v} |^{2}}
   
 .
 The primary difficulty with Mach's definition of mass is that it fails to take into account the potential energy (or binding energy) needed to bring two masses sufficiently close to one another to perform the measurement of mass. This is most vividly demonstrated by comparing the mass of the proton in the nucleus of deuterium, to the mass of the proton in free space (which is greater by about 0.239%—this is due to the binding energy of deuterium). Thus, for example, if the reference weight m2 is taken to be the mass of the neutron in free space, and the relative accelerations for the proton and neutron in deuterium are computed, then the above formula over-estimates the mass m1 (by 0.239%) for the proton in deuterium.  At best, Mach's formula can only be used to obtain ratios of masses, that is, as m1 / m2 = |a2| / |a1|.  An additional difficulty was pointed out by Henri Poincaré, which is that the measurement of instantaneous acceleration is impossible: unlike the measurement of time or distance, there is no way to measure acceleration with a single measurement; one must make multiple measurements (of position, time, etc.) and perform a computation to obtain the acceleration.  Poincaré termed this to be an "insurmountable flaw" in the Mach definition of mass.
@@ -220,28 +220,28 @@ Typically, the mass of objects is measured in terms of the kilogram, which since
 
 In some frameworks of special relativity, physicists have used different definitions of the term. In these frameworks, two kinds of mass are defined: rest mass (invariant mass), and relativistic mass (which increases with velocity). Rest mass is the Newtonian mass as measured by an observer moving along with the object.  Relativistic mass is the total quantity of energy in a body or system divided by c2. The two are related by the following equation:
 
-m r e l a t i v e = γ (m r e s t) {\displaystyle m_{\mathrm {relative} }=\gamma (m_{\mathrm {rest} })\!}
+m r e l a t i v e = γ (m r e s t) m_{\mathrm {relative }=\gamma (m_{\mathrm {rest} })\!}
   
 
- {\displaystyle \gamma}
+ \gamma
   
  is the Lorentz factor:
 
-γ = 1 1 − v 2 / c 2 {\displaystyle \gamma ={\frac {1}{\sqrt {1-v^{2}/c^{2}}}}}
+γ = 1 1 − v 2 / c 2 \gamma ={\frac {1{\sqrt {1-v^{2}/c^{2}}}}}
   
 
 The invariant mass of systems is the same for observers in all inertial frames, while the relativistic mass depends on the observer's frame of reference. In order to formulate the equations of physics such that mass values do not change between observers, it is convenient to use rest mass. The rest mass of a body is also related to its energy E and the magnitude of its momentum p by the relativistic energy-momentum equation:
 
-(m r e s t) c 2 = E t o t a l 2 − (| p | c) 2. {\displaystyle (m_{\mathrm {rest} })c^{2}={\sqrt {E_{\mathrm {total} }^{2}-(|\mathbf {p} |c)^{2}}}.\!}
+(m r e s t) c 2 = E t o t a l 2 − (| p | c) 2. (m_{\mathrm {rest })c^{2}={\sqrt {E_{\mathrm {total} }^{2}-(|\mathbf {p} |c)^{2}}}.\!}
   
 
 So long as the system is closed with respect to mass and energy, both kinds of mass are conserved in any given frame of reference. The conservation of mass holds even as some types of particles are converted to others. Matter particles (such as atoms) may be converted to non-matter particles (such as photons of light), but this does not affect the total amount of mass or energy. Although things like heat may not be matter, all types of energy still continue to exhibit mass. Thus, mass and energy do not change into one another in relativity; rather, both are names for the same thing, and neither mass nor energy appear without the other.
 Both rest and relativistic mass can be expressed as an energy by applying the well-known relationship E = mc2, yielding rest energy and "relativistic energy" (total system energy) respectively:
 
-E r e s t = (m r e s t) c 2 {\displaystyle E_{\mathrm {rest} }=(m_{\mathrm {rest} })c^{2}\!}
+E r e s t = (m r e s t) c 2 E_{\mathrm {rest }=(m_{\mathrm {rest} })c^{2}\!}
   
 
-E t o t a l = (m r e l a t i v e) c 2 {\displaystyle E_{\mathrm {total} }=(m_{\mathrm {relative} })c^{2}\!}
+E t o t a l = (m r e l a t i v e) c 2 E_{\mathrm {total }=(m_{\mathrm {relative} })c^{2}\!}
   
 
 The "relativistic" mass and energy concepts are related to their "rest" counterparts, but they do not have the same value as their rest counterparts in systems where there is a net momentum. Because the relativistic mass is proportional to the energy, it has gradually fallen into disuse among physicists. There is disagreement over whether the concept remains useful pedagogically.
@@ -258,20 +258,20 @@ However, it turns out that it is impossible to find an objective general definit
 == In quantum physics ==
 In classical mechanics, the inert mass of a particle appears in the Euler–Lagrange equation as a parameter m:
 
-d d t (∂ L ∂ x ˙ i) = m x ¨ i. {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}\ \left(\,{\frac {\partial L}{\partial {\dot {x}}_{i}}}\,\right)\ =\ m\,{\ddot {x}}_{i}.}
+d d t (∂ L ∂ x ˙ i) = m x ¨ i. {\frac {\mathrm {d }{\mathrm {d} t}}\ \left(\,{\frac {\partial L}{\partial {\dot {x}}_{i}}}\,\right)\ =\ m\,{\ddot {x}}_{i}.}
   
 
 After quantization, replacing the position vector x with a wave function, the parameter m appears in the kinetic energy operator:
 
-i ℏ ∂ ∂ t Ψ (r, t) = (− ℏ 2 2 m ∇ 2 + V (r)) Ψ (r, t). {\displaystyle i\hbar {\frac {\partial}{\partial t}}\Psi (\mathbf {r} ,\,t)=\left(-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V(\mathbf {r} )\right)\Psi (\mathbf {r} ,\,t).}
+i ℏ ∂ ∂ t Ψ (r, t) = (− ℏ 2 2 m ∇ 2 + V (r)) Ψ (r, t). i\hbar {\frac {\partial{\partial t}}\Psi (\mathbf {r} ,\,t)=\left(-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V(\mathbf {r} )\right)\Psi (\mathbf {r} ,\,t).}
   
 
 In the ostensibly covariant (relativistically invariant) Dirac equation, and in natural units, this becomes:
 
-(− i γ μ ∂ μ + m) ψ = 0 {\displaystyle (-i\gamma ^{\mu}\partial _{\mu }+m)\psi =0}
+(− i γ μ ∂ μ + m) ψ = 0 (-i\gamma ^{\mu\partial _{\mu }+m)\psi =0}
   
 
-where the "mass" parameter m is now simply a constant associated with the quantum described by the wave function ψ. In the Standard Model of particle physics as developed in the 1960s, this term arises from the coupling of the field ψ to an additional field Φ, the Higgs field. In the case of fermions, the Higgs mechanism results in the replacement of the term mψ in the Lagrangian with G ψ ψ ¯ ϕ ψ {\displaystyle G_{\psi}{\overline {\psi }}\phi \psi }
+where the "mass" parameter m is now simply a constant associated with the quantum described by the wave function ψ. In the Standard Model of particle physics as developed in the 1960s, this term arises from the coupling of the field ψ to an additional field Φ, the Higgs field. In the case of fermions, the Higgs mechanism results in the replacement of the term mψ in the Lagrangian with G ψ ψ ¯ ϕ ψ G_{\psi{\overline {\psi }}\phi \psi }
   
 . This shifts the explanandum of the value for the mass of each elementary particle to the value of the unknown coupling constant Gψ.
 
@@ -284,12 +284,12 @@ Although the notion of a tachyonic imaginary mass might seem troubling because t
 This is a special case of the general rule, where unstable massive particles are formally described as having a complex mass, with the real part being their mass in the usual sense, and the imaginary part being the decay rate in natural units. However, in quantum field theory, a particle (a "one-particle state") is roughly defined as a state which is constant over time; i.e., an eigenvalue of the Hamiltonian. An unstable particle is a state which is only approximately constant over time; If it exists long enough to be measured, it can be formally described as having a complex mass, with the real part of the mass greater than its imaginary part. If both parts are of the same magnitude, this is interpreted as a resonance appearing in a scattering process rather than a particle, as it is considered not to exist long enough to be measured independently of the scattering process. In the case of a tachyon, the real part of the mass is zero, and hence no concept of a particle can be attributed to it.
 In a Lorentz invariant theory, the same formulas that apply to ordinary slower-than-light particles (sometimes called "bradyons" in discussions of tachyons) must also apply to tachyons. In particular the energy–momentum relation:
 
- {\displaystyle E^{2}=p^{2}c^{2}+m^{2}c^{4}\;}
+ E^{2=p^{2}c^{2}+m^{2}c^{4}\;}
   
 
 (where p is the relativistic momentum of the bradyon and m is its rest mass) should still apply, along with the formula for the total energy of a particle:
 
-E = m c 2 1 − v 2 c 2. {\displaystyle E={\frac {mc^{2}}{\sqrt {1-{\frac {v^{2}}{c^{2}}}}}}.}
+E = m c 2 1 − v 2 c 2. E={\frac {mc^{2}{\sqrt {1-{\frac {v^{2}}{c^{2}}}}}}.}
   
 
 This equation shows that the total energy of a particle (bradyon or tachyon) contains a contribution from its rest mass (the "rest mass–energy") and a contribution from its motion, the kinetic energy.

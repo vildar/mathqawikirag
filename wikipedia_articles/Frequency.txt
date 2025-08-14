@@ -1,6 +1,7 @@
-Frequency (symbol f), most often measured in hertz (symbol: Hz), is the number of occurrences of a repeating event per unit of time. It is also occasionally referred to as temporal frequency for clarity and to distinguish it from spatial frequency.  Ordinary frequency is related to angular frequency (symbol ω, with SI unit radian per second) by a factor of 2π.  
-The period (symbol T) is the interval of time between events, so the period is the reciprocal of the frequency: T = 1/f.  For example, if a heart beats at a frequency of 120 times per minute (2 hertz), the period—the time interval between beats—is half a second (60 seconds divided by 120).
-Frequency is an important parameter used in science and engineering to specify the rate of oscillatory and vibratory phenomena, such as mechanical vibrations, audio signals (sound), radio waves, and light.
+Frequency is the number of occurrences of a repeating event per unit of time. Frequency is an important parameter used in science and engineering to specify the rate of oscillatory and vibratory phenomena, such as mechanical vibrations, audio signals (sound), radio waves, and light.
+The interval of time between events is called the period. It is the reciprocal of the frequency.  For example, if a heart beats at a frequency of 120 times per minute (2 hertz), its period is one half of a second.
+Special definitions of frequency are used in certain contexts, such as the angular frequency in rotational or cyclical properties, when the rate of angular progress is measured. Spatial frequency is defined for properties that vary or cccur repeatedly in geometry or space.
+The unit of measurement of frequency in the International System of Units (SI) is the hertz, having the symbol Hz. 
 
 
 == Definitions and units ==
