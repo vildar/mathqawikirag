@@ -1,0 +1,144 @@
+In [[physics]], the '''center of mass''' of a distribution of [[mass]] in [[space]] (sometimes referred to as the '''barycenter''' or '''balance point''') is the unique point at any given time where the [[weight function|weighted]] relative [[position (vector)|position]] of the distributed mass sums to zero. For a rigid body containing its center of mass, this is the point to which a force may be applied to cause a [[linear acceleration]] without an [[angular acceleration]]. [[Calculation]]s in [[mechanics]] are often simplified when formulated with respect to the center of mass. It is a hypothetical point where the entire mass of an object may be assumed to be concentrated to visualise its motion. In other words, the center of mass is the particle equivalent of a given object for application of [[Newton's laws of motion]].
+
+In the case of a single [[rigid body]], the center of mass is fixed in relation to the body, and if the body has uniform [[density]], it will be located at the [[centroid]].  The center of mass may be located outside the [[Physical object|physical body]], as is sometimes the case for [[wikt:hollow|hollow]] or open-shaped objects, such as a [[horseshoe]]. In the case of a distribution of separate bodies, such as the [[planets]] of the [[Solar System]], the center of mass may not correspond to the position of any individual member of the system.
+
+The center of mass is a useful reference point for calculations in [[mechanics]] that involve masses distributed in space, such as the [[momentum|linear]] and [[angular momentum]] of planetary bodies and [[rigid body dynamics]]. In [[orbital mechanics]], the equations of motion of planets are formulated as [[point mass]]es located at the centers of mass (see [[Barycenter (astronomy)]] for details). The [[center of mass frame]] is an [[inertial frame]] in which the center of mass of a system is at rest with respect to the origin of the [[coordinate system]].
+
+==History==
+The concept of center of gravity or [[weight]] was studied extensively by [[Archimedes|Archimedes of Syracuse]], an ancient Greek [[mathematician]], [[physicist]], and [[engineer]]. He worked with simplified assumptions about gravity that amount to a uniform field, thus arriving at the mathematical properties of what we now call the center of mass. Archimedes showed that the [[torque]] exerted on a [[lever]] by weights resting at various points along the lever is the same as what it would be if all of the weights were moved to a single point—their center of mass. In his work ''[[On Floating Bodies]]'', Archimedes demonstrated that the orientation of a floating object is the one that makes its center of mass as low as possible. He developed mathematical techniques for finding the centers of mass of objects of uniform density of various well-defined shapes.
+
+Other ancient mathematicians who contributed to the theory of the center of mass include [[Hero of Alexandria]] and [[Pappus of Alexandria]]. In the [[Science in the Renaissance|Renaissance]] and [[Scientific Revolution|Early Modern]] periods, work by [[Guido Ubaldi]], [[Francesco Maurolico]], [[Federico Commandino]], [[Evangelista Torricelli]], [[Simon Stevin]], [[Luca Valerio]], [[Jean-Charles de la Faille]], [[Paul Guldin]], [[John Wallis]], [[Christiaan Huygens]], [[Louis Carré (mathematician)|Louis Carré]], [[Pierre Varignon]], and [[Alexis Clairaut]] expanded the concept further.
+
+[[Newton's second law]] is reformulated with respect to the center of mass in [[Euler's laws#Euler's first law|Euler's first law]].
+
+=={{anchor|Definition of center of mass}}Definition==
+
+The center of mass is the unique point at the center of a distribution of mass in space that has the property that the weighted position [[Vector space|vectors]] relative to this point sum to zero. In analogy to statistics, the center of mass is the mean location of a distribution of mass in space.
+
+===A system of particles===
+In the case of a system of particles {{math|1=''P<sub>i</sub>'', ''i'' = 1, ..., ''n'' }}, each with mass {{mvar|m<sub>i</sub>}} that are located in space with coordinates {{math|1='''r'''<sub>''i''</sub>, ''i'' = 1, ..., ''n'' }}, the coordinates '''R''' of the center of mass satisfy  
+<math display="block" qid=Q2945123> \sum_{i=1}^n m_i(\mathbf{r}_i - \mathbf{R}) = \mathbf{0}.</math>
+
+Solving this equation for '''R''' yields the formula
+<math display="block" qid="Q2945123">\mathbf{R}={\sum_{i=1}^n m_i \mathbf{r}_i\over\sum_{i=1}^n m_i }.</math>
+
+===A continuous volume===
+If the mass distribution is continuous with the density ρ('''r''') within a solid ''Q'', then the integral of the weighted position [[Coordinate system|coordinates]] of the points in this [[volume]] relative to the center of mass '''R''' over the volume '''V''' is zero, that is
+<math display="block">\iiint_{Q} \rho(\mathbf{r}) \left(\mathbf{r} - \mathbf{R}\right) dV = \mathbf{0}.</math>
+
+Solve this equation for the coordinates '''R''' to obtain
+<math display="block">\mathbf R = \frac 1 M \iiint_{Q}\rho(\mathbf{r}) \mathbf{r} \, dV,</math>
+where '''M''' is the total mass in the volume.
+
+If a continuous mass distribution has uniform [[density]], which means that ''ρ'' is constant, then the center of mass is the same as the [[centroid]] of the volume.
+
+===Barycentric coordinates===
+
+The coordinates '''R''' of the center of mass of a two-particle system, ''P''<sub>1</sub> and ''P''<sub>2</sub>, with masses ''m''<sub>1</sub> and ''m''<sub>2</sub> is given by
+<math display="block"> \mathbf{R} = {{m_1 \mathbf{r}_1 + m_2\mathbf{r}_2} \over m_1 + m_2}.</math>
+
+Let the [[percentage]] of the total mass divided between these two [[particle]]s vary from 100% ''P''<sub>1</sub> and 0% ''P''<sub>2</sub> through 50% ''P''<sub>1</sub> and 50% ''P''<sub>2</sub> to 0% ''P''<sub>1</sub> and 100% ''P''<sub>2</sub>, then the center of mass '''R''' moves along the line from ''P''<sub>1</sub> to ''P''<sub>2</sub>.  The percentages of mass at each point can be viewed as projective coordinates of the point '''R''' on this line, and are termed [[Barycentric coordinate system|barycentric coordinates]]. Another way of interpreting the process here is the mechanical balancing of moments about an arbitrary point. The numerator gives the total moment that is then balanced by an equivalent total force at the center of mass. This can be generalized to three points and four points to define projective coordinates in the plane, and in space, respectively.
+
+==={{anchor|Cluster straddling}}Systems with periodic boundary conditions===
+For particles in a system with [[periodic boundary conditions]] two particles can be neighbours even though they are on opposite sides of the system. This occurs often in [[molecular dynamics]] simulations, for example, in which clusters form at random locations and sometimes neighbouring atoms cross the periodic boundary. When a cluster straddles the periodic boundary, a naive calculation of the center of mass will be incorrect. A generalized method for calculating the center of mass for periodic systems is to treat each coordinate, ''x'' and ''y'' and/or ''z'', as if it were on a circle instead of a line. The calculation takes every particle's ''x'' coordinate and computes ''N '' possible centers of mass, 
+
+<math display=“block”>\bar{x}_n = \bar{x}_0+\frac{2\pi n}{N},\;\;\;n=1, 2,\ldots,N,</math>
+
+where <math display=“inline”>\bar{x}_0</math> is the naïve mass-weighted average position for all particles. The true center of mass is then the value in the vector <math display=“inline”>\bar{\mathbf{x}} = [\bar{x}_1,\bar{x}_2,\ldots,\bar{x}_n]</math>, with the lowest sum of squared arc distances between the points. 
+
+The process can be repeated for all dimensions of the system to determine the complete center of mass. The utility of the algorithm is that it allows the mathematics to determine where the "best" center of mass is, instead of guessing or using [[cluster analysis]] to "unfold" a cluster straddling the periodic boundaries. This approach computes the, so called, intrinsic center of mass. The extrinsic circular mean is a popular way to estimate the centre of mass, however this approach can be inaccurate.
+
+==Center of gravity==
+
+A body's center of gravity is the point around which the [[resultant force|resultant torque]] due to gravity forces vanishes. Where a gravity field can be considered to be uniform, the mass-center and the center-of-gravity will be the same. However, for satellites in orbit around a planet, in the absence of other torques being applied to a satellite, the slight variation (gradient) in gravitational field between closer-to and further-from the planet (stronger and weaker gravity respectively) can lead to a torque that will tend to align the satellite such that its long axis is vertical. In such a case, it is important to make the distinction between the center-of-gravity and the mass-center. Any horizontal offset between the two will result in an applied torque.
+
+The mass-center is a fixed property for a given rigid body (e.g., with no slosh or articulation), whereas the center-of-gravity may, in addition, depend upon its orientation in a non-uniform gravitational field. In the latter case, the center-of-gravity will always be located somewhat closer to the main attractive body as compared to the mass-center, and thus will change its position in the body of interest as its orientation is changed.
+
+In the study of the dynamics of aircraft, vehicles and vessels, forces and moments need to be resolved relative to the mass center. That is true independent of whether gravity itself is a consideration. Referring to the mass-center as the center-of-gravity is something of a colloquialism, but it is in common usage and when gravity gradient effects are negligible, center-of-gravity and mass-center are the same and are used interchangeably.
+
+In physics the benefits of using the center of mass to model a mass distribution can be seen by considering the [[resultant force|resultant]] of the gravity forces on a continuous body. Consider a body ''Q'' of volume ''V'' with density ''ρ''('''r''') at each point '''r''' in the volume. In a parallel gravity field the force '''f''' at each point '''r''' is given by,
+<math display="block"> \mathbf{f}(\mathbf{r}) = -dm\, g\mathbf{\hat{k}} = -\rho(\mathbf{r}) \, dV\,g\mathbf{\hat{k}},</math>
+where ''dm'' is the mass at the point '''r''', ''g'' is the acceleration of gravity, and <math display="inline">\mathbf{\hat{k}}</math> is a unit vector defining the vertical direction.
+
+Choose a reference point '''R''' in the volume and compute the [[resultant force]] and torque at this point,
+<math display="block" qid="Q11402"> \mathbf{F} = \iiint_{Q} \mathbf{f}(\mathbf{r}) \, dV = \iiint_{Q}\rho(\mathbf{r}) \, dV \left( -g \mathbf{\hat{k}}\right) = -Mg\mathbf{\hat{k}},</math>
+and
+<math display="block" qid="Q48103"> \mathbf{T} =  \iiint_{Q} (\mathbf{r} - \mathbf{R}) \times \mathbf{f}(\mathbf{r}) \, dV = \iiint_{Q} (\mathbf{r} - \mathbf{R}) \times \left(-g\rho(\mathbf{r}) \, dV \, \mathbf{\hat{k}}\right) = \left(\iiint_{Q} \rho(\mathbf{r}) \left(\mathbf{r} - \mathbf{R}\right) dV \right) \times \left(-g\mathbf{\hat{k}}\right) .</math>
+
+If the reference point '''R''' is chosen so that it is the center of mass, then
+<math display="block"> \iiint_{Q} \rho(\mathbf{r}) \left(\mathbf{r} - \mathbf{R}\right) dV = 0, </math>
+which means the resultant torque . Because the resultant torque is zero the body will move as though it is a particle with its mass concentrated at the center of mass.
+
+By selecting the center of gravity as the reference point for a rigid body, the gravity forces will not cause the body to rotate, which means the weight of the body can be considered to be concentrated at the center of mass.
+
+==Linear and angular momentum==
+The linear and angular momentum of a collection of particles can be simplified by measuring the position and velocity of the particles relative to the center of mass.  Let the system of particles ''P<sub>i</sub>'', ''i'' = 1, ..., ''n'' of masses ''m<sub>i</sub>'' be located at the coordinates '''r'''<sub>''i''</sub> with velocities '''v'''<sub>''i''</sub>.  Select a reference point '''R''' and compute the relative position and velocity vectors,
+<math display="block"> \mathbf{r}_i = (\mathbf{r}_i - \mathbf{R}) + \mathbf{R}, \quad \mathbf{v}_i = \frac{d}{dt}(\mathbf{r}_i - \mathbf{R}) + \mathbf{v}.</math>
+
+The total linear momentum and angular momentum of the system are
+<math display="block" qid=Q41273> \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i (\mathbf{r}_i - \mathbf{R})\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{v},</math>
+and
+<math display="block" qid=Q161254> \mathbf{L} = \sum_{i=1}^n m_i (\mathbf{r}_i - \mathbf{R}) \times \frac{d}{dt}(\mathbf{r}_i - \mathbf{R}) + \left(\sum_{i=1}^n m_i \right) \left[\mathbf{R} \times \frac{d}{dt}(\mathbf{r}_i - \mathbf{R}) + (\mathbf{r}_i - \mathbf{R}) \times \mathbf{v} \right] + \left(\sum_{i=1}^n m_i \right)\mathbf{R} \times \mathbf{v}</math>
+
+If '''R''' is chosen as the center of mass these equations simplify to
+<math display="block"> \mathbf{p} = m\mathbf{v},\quad \mathbf{L} = \sum_{i=1}^n m_i (\mathbf{r}_i - \mathbf{R}) \times \frac{d}{dt}(\mathbf{r}_i - \mathbf{R}) + \sum_{i=1}^n m_i \mathbf{R} \times \mathbf{v}</math>
+where ''m'' is the total mass of all the particles, '''p''' is the linear momentum, and '''L''' is the angular momentum.
+
+The [[conservation of momentum|law of conservation of momentum]] predicts that for any system not subjected to external forces the momentum of the system will remain constant, which means the center of mass will move with constant velocity.  This applies for all systems with classical internal forces, including magnetic fields, electric fields, chemical reactions, and so on.  More formally, this is true for any internal forces that cancel in accordance with [[Newton's third law]].
+
+==Determination{{anchor|Locating}}==
+
+The experimental determination of a body's center of mass makes use of gravity forces on the body and is based on the fact that the center of mass is the same as the center of gravity in the parallel gravity field near the earth's surface.
+
+The center of mass of a body with an axis of symmetry and constant density must lie on this axis.  Thus, the center of mass of a circular cylinder of constant density has its center of mass on the axis of the cylinder.  In the same way, the center of mass of a spherically symmetric body of constant density is at the center of the sphere.  In general, for any symmetry of a body, its center of mass will be a fixed point of that symmetry.
+
+===In two dimensions===
+An experimental method for locating the center of mass is to suspend the object from two locations and to drop [[plumb line]]s from the suspension points. The intersection of the two lines is the center of mass.
+
+The shape of an object might already be mathematically determined, but it may be too complex to use a known formula. In this case, one can subdivide the complex shape into simpler, more elementary shapes, whose centers of mass are easy to find. If the total mass and center of mass can be determined for each area, then the center of mass of the whole is the weighted average of the centers. This method can even work for objects with holes, which can be accounted for as negative masses.
+
+A direct development of the [[planimeter]] known as an integraph, or integerometer, can be used to establish the position of the [[centroid]] or center of mass of an irregular two-dimensional shape. This method can be applied to a shape with an irregular, smooth or complex boundary where other methods are too difficult. It was regularly used by ship builders to compare with the required [[Displacement (ship)|displacement]] and [[center of buoyancy]] of a ship, and ensure it would not capsize.
+
+===In three dimensions===
+An experimental method to locate the three-dimensional coordinates of the center of mass begins by supporting the object at three points and measuring the forces, '''F'''<sub>1</sub>, '''F'''<sub>2</sub>, and '''F'''<sub>3</sub> that resist the weight of the object, <math>\mathbf{W} = -W\mathbf{\hat{k}}</math> (<math>\mathbf{\hat{k}}</math> is the unit vector in the vertical direction).  Let '''r'''<sub>1</sub>, '''r'''<sub>2</sub>, and '''r'''<sub>3</sub> be the position coordinates of the support points, then the coordinates '''R''' of the center of mass satisfy the condition that the resultant torque is zero,
+<math display="block">\mathbf{T} = (\mathbf{r}_1 - \mathbf{R}) \times \mathbf{F}_1 + (\mathbf{r}_2 - \mathbf{R}) \times \mathbf{F}_2 + (\mathbf{r}_3 - \mathbf{R}) \times \mathbf{F}_3 = 0,</math>
+or
+<math display="block">\mathbf{R} \times \left(-W\mathbf{\hat{k}}\right) = \mathbf{r}_1 \times \mathbf{F}_1 + \mathbf{r}_2 \times \mathbf{F}_2 + \mathbf{r}_3 \times \mathbf{F}_3. </math>
+
+This equation yields the coordinates of the center of mass '''R'''* in the horizontal plane as,
+<math display="block"> \mathbf{R}^* = -\frac{1}{W} \mathbf{\hat{k}} \times (\mathbf{r}_1 \times \mathbf{F}_1 + \mathbf{r}_2 \times\mathbf{F}_2 + \mathbf{r}_3 \times \mathbf{F}_3).</math>
+
+The center of mass lies on the vertical line '''L''', given by
+<math display="block"> \mathbf{L}(t) = \mathbf{R}^* + t\mathbf{\hat{k}}.</math>
+
+The three-dimensional coordinates of the center of mass are determined by performing this experiment twice with the object positioned so that these forces are measured for two different horizontal planes through the object.  The center of mass will be the intersection of the two lines '''L'''<sub>1</sub> and '''L'''<sub>2</sub> obtained from the two experiments.
+
+== Applications ==
+
+=== Engineering designs ===
+
+==== Automotive applications ====
+
+Engineers try to design a [[sports car]] so that its center of mass is lowered to make the car [[car handling|handle]] better, which is to say, maintain traction while executing relatively sharp turns.
+
+The characteristic low profile of the U.S. military [[Humvee]] was designed in part to allow it to tilt farther than taller vehicles without [[vehicle rollover|rolling over]], by ensuring its low center of mass stays over the space bounded by the four wheels even at angles far from the [[Vertical and horizontal|horizontal]].
+
+==== Aeronautics ====
+
+The center of mass is an important point on an [[aircraft]], which significantly affects the stability of the aircraft. To ensure the aircraft is stable enough to be safe to fly, the center of mass must fall within specified limits. If the center of mass is ahead of the [[center of gravity of an aircraft|forward limit]], the aircraft will be less maneuverable, possibly to the point of being unable to rotate for takeoff or flare for landing. If the center of mass is behind the aft limit, the aircraft will be more maneuverable, but also less stable, and possibly unstable enough so as to be impossible to fly. The moment arm of the [[elevator (aircraft)|elevator]] will also be reduced, which makes it more difficult to recover from a [[stall (flight)|stalled]] condition.
+
+For [[helicopter]]s in [[hover (helicopter)|hover]], the center of mass is always directly below the [[rotorhead]]. In forward flight, the center of mass will move forward to balance the negative pitch torque produced by applying [[Helicopter flight controls#Cyclic|cyclic]] control to propel the helicopter forward; consequently a cruising helicopter flies "nose-down" in level flight.
+
+=== {{anchor|Barycenter in astronomy|Barycenter in astrophysics and astronomy|Sun-Jupiter barycenter}} Astronomy ===
+
+The center of mass plays an important role in astronomy and astrophysics, where it is commonly referred to as the ''barycenter''. The barycenter is the point between two objects where they balance each other; it is the center of mass where two or more celestial bodies [[orbit]] each other. When a [[natural satellite|moon]] orbits a [[planet]], or a planet orbits a [[star]], both bodies are actually orbiting a point that lies away from the center of the primary (larger) body. For example, the Moon does not orbit the exact center of the [[Earth]], but a point on a line between the center of the Earth and the Moon, approximately 1,710&nbsp;km (1,062&nbsp;miles) below the surface of the Earth, where their respective masses balance. This is the point about which the Earth and Moon orbit as they travel around the [[Sun]]. If the masses are more similar, e.g., [[Charon (moon)#Orbit|Pluto and Charon]], the barycenter will fall outside both bodies.
+
+=== Rigging and safety ===
+Knowing the location of the center of gravity when [[rigging (material handling)|rigging]] is crucial, possibly resulting in severe injury or death if assumed incorrectly.  A center of gravity that is at or above the lift point will most likely result in a tip-over incident.  In general, the further the center of gravity below the pick point, the safer the lift.  There are other things to consider, such as shifting loads, strength of the load and mass, distance between pick points, and number of pick points.  Specifically, when selecting lift points, it is very important to place the center of gravity at the center and well below the lift points.
+
+=== Body motion ===
+
+The center of mass of the adult human body vertically is 10&nbsp;cm above the [[trochanter]] (where the femur joins the hip), 1.4&nbsp;cm forward of the knee and 1.0&nbsp;cm behind the trochanter. In kinesiology and biomechanics, the center of mass is an important parameter that assists people in understanding their human locomotion. Typically, a human's center of mass is detected with one of two methods: the reaction board method is a static analysis that involves the person lying down on that instrument, and use of their [[static equilibrium]] equation to find their center of mass; the segmentation method relies on a mathematical solution based on the [[physical law|physical principle]] that the [[summation]] of the [[torque]]s of individual body sections, [[relative motion|relative to]] a specified [[Axis of rotation|axis]], must equal the torque of the whole system that constitutes the body, measured relative to the same axis.
+
+=== Optimization ===
+The [[Center-of-gravity method]] is a method for convex optimization, which uses the center-of-gravity of the feasible region.

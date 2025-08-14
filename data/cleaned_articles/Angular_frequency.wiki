@@ -1,0 +1,70 @@
+In [[physics]], '''angular frequency''' (symbol '''''ω'''''), also called '''angular speed''' and '''angular rate''', is a [[Scalar (physics)|scalar]] measure of the [[angle]] [[Rate (mathematics)|rate]] (the angle per unit time) or the [[temporal rate of change]] of the [[phase (waves)|phase]] [[function argument|argument]] of a [[sinusoidal waveform]] or [[sine function]] (for example, in oscillations and waves).
+Angular frequency (or angular speed) is the magnitude of the [[pseudovector]] quantity ''[[angular velocity]]''.
+
+Angular frequency can be obtained multiplying ''[[rotational frequency]]'', ''ν'' (or ordinary ''[[frequency]]'', ''f'') by a full [[turn (unit)|turn]] (2[[Pi|{{pi}}]] [[radians]]): .
+It can also be formulated as , the [[instantaneous rate of change]] of the [[angular displacement]], ''θ'', with respect to time,&nbsp;''t''.
+
+== Unit ==
+In [[SI]] [[Units of measurement|units]], angular frequency is normally presented in the unit [[radian]] per [[second]]. The unit [[hertz]] (Hz) is dimensionally equivalent, but by convention it is only used for frequency&nbsp;''f'', never for angular frequency&nbsp;''ω''. This convention is used to help avoid the confusion that arises when dealing with quantities such as frequency and angular quantities because the units of measure (such as cycle or radian) are considered to be one and hence may be omitted when expressing quantities in terms of SI units.
+
+In [[digital signal processing]], the frequency may be normalized by the [[sampling rate]], yielding the [[normalized frequency (digital signal processing)|normalized frequency]].
+
+== Examples ==
+
+=== Circular motion ===
+
+In a rotating or orbiting object, there is a relation between distance from the axis, <math>r</math>, [[tangential speed]], <math>v</math>, and the angular frequency of the rotation. During one period, <math>T</math>, a body in circular motion travels a distance <math>vT</math>. This distance is also equal to the circumference of the path traced out by the body, <math>2\pi r</math>. Setting these two quantities equal, and recalling the link between period and angular frequency we obtain: <math>\omega = v/r.</math> Circular motion on the unit circle is given by
+<math display="block">\omega = \frac{2 \pi}{T} = {2 \pi f} , </math>
+where:
+* ''ω'' is the angular frequency (SI unit: [[radians per second]]),
+* ''T'' is the [[Frequency|period]] (SI unit: [[second]]s),
+* ''f'' is the [[ordinary frequency]] (SI unit: [[hertz]]).
+
+=== Oscillations of a spring ===
+
+An object attached to a spring can [[Oscillation|oscillate]]. If the spring is assumed to be ideal and massless with no damping, then the motion is [[Harmonic oscillator|simple and harmonic]] with an angular frequency given by
+<math display="block"> \omega = \sqrt{\frac{k}{m}}, </math>
+where
+* ''k'' is the [[spring constant]],
+* ''m'' is the mass of the object.
+
+''ω'' is referred to as the natural angular frequency (sometimes be denoted as ''ω''<sub>0</sub>).
+
+As the object oscillates, its acceleration can be calculated by
+<math display="block" qid=Q11376>a = -\omega^2 x, </math>
+where ''x'' is displacement from an equilibrium position.
+
+Using standard frequency ''f'', this equation would be
+<math display="block"> a = -(2 \pi f)^2 x. </math>
+
+=== LC circuits ===
+The resonant angular frequency in a series [[LC circuit]] equals the square root of the [[multiplicative inverse|reciprocal]] of the product of the [[capacitance]] (''C'', with SI unit [[farad]]) and the [[inductance]] of the circuit (''L'', with SI unit [[Henry (unit)|henry]]):
+<math display="block">\omega = \sqrt{\frac{1}{LC}}.</math>
+
+Adding series resistance (for example, due to the resistance of the wire in a coil) does not change the resonant frequency of the series LC circuit. For a parallel tuned circuit, the above equation is often a useful approximation, but the resonant frequency does depend on the losses of parallel elements.
+
+== Terminology ==
+Although angular frequency is often loosely referred to as frequency, it differs from frequency by a factor of 2{{pi}}, which potentially leads confusion when the distinction is not made clear.
+
+== See also ==
+* [[Cycle per second]]
+* [[Radian per second]]
+* [[Degree (angle)]] 
+* [[Mean motion]]
+* [[Rotational frequency]]
+* [[Simple harmonic motion]]
+
+== References and notes ==
+
+'''Related Reading:'''
+* 
+
+
+<!--Categories-->
+
+
+
+
+
+[[ca:Freqüència angular]]
+[[he:תדירות זוויתית]]

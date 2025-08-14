@@ -1,5 +1,6 @@
 import mwparserfromhell
 import re
+import os
 
 
 def clean_wiki_text(wikitext, allowed_templates, sections_to_remove, namespace_prefixes):
@@ -91,12 +92,14 @@ namespace_prefixes = [
 ]
 
 
-with open("wikipedia_articles/Acceleration.wiki", "r") as file:
-    text = file.read()
+with os.scandir('wikipedia_articles') as entries:
+    for entry in entries:
+        if entry.is_file() and entry.name.endswith('.wiki'):
+            with open(entry.path, 'r', encoding="utf-8") as file:
+                text = file.read()
 
-cleaned_text = clean_wiki_text(
-    text, allowed_templates, sections_to_remove, namespace_prefixes)
+            cleaned_text = clean_wiki_text(
+                text, allowed_templates, sections_to_remove, namespace_prefixes)
 
-
-with open("data/cleaned_articles/Acceleration.wiki", "w") as cleaned_file:
-    cleaned_file.write(cleaned_text)
+            with open(f"data/cleaned_articles/{entry.name}", "w") as cleaned_file:
+                cleaned_file.write(cleaned_text)
