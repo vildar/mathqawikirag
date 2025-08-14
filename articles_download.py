@@ -13,8 +13,9 @@ def fetch_article_text(title):
     url = f"https://en.wikipedia.org/w/api.php"
     params = {
         "action": "query",
-        "prop": "extracts",
-        "explaintext": True,
+        "prop": "revisions",
+        "rvprop": "content",
+        "rvslots": "main",
         "titles": title,
         "format": "json"
     }
@@ -22,15 +23,20 @@ def fetch_article_text(title):
     response = requests.get(url, params=params)
     data = response.json()
 
-    # Extract the page's content
-    page = next(iter(data["query"]["pages"].values()))
-    return page.get("extract", "No content found.")
+    pages = data.get("query", {}).get("pages", {})
+    page = next(iter(pages.values()))
+
+    if "revisions" not in page:
+        print(f"Page '{title}' not found or has no revisions.")
+        return
+
+    wiki_text = page["revisions"][0]["slots"]["main"]["*"]
+
+    return wiki_text or "No content found."
 
 
 def save_to_text_file(title, content):
-    # Replace spaces and special characters in file names
-    title_filename = title.replace(" ", "_").replace("%27", "'")
-    with open(f"wikipedia_articles/{title_filename}.txt", "w", encoding="utf-8") as file:
+    with open(f"wikipedia_articles/{title}.wiki", "w", encoding="utf-8") as file:
         file.write(content)
 
 

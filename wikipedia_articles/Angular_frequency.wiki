@@ -1,0 +1,150 @@
+{{Short description|Rate of change of angle}}
+{{Infobox physical quantity
+| name = Angular frequency
+| othernames = angular speed, angular rate
+| width =
+| background =
+| image = File:AngularFrequency.gif
+| caption = {{longitem|Angular speed [[omega|''ω'']] is greater than rotational frequency [[nu (letter)|''ν'']] by a factor of 2{{pi}}.}}
+| unit = [[radian per second]] (rad/s)
+| otherunits = [[degrees per second]] (°/s)
+| symbols = ω
+| baseunits = [[Inverse second|s<sup>−1</sup>]]
+| derivations = ''ω''{{=}}2{{pi}}{{nbsp}}rad{{sdot}}''ν'', ''ω''{{=}}d''θ''/d''t''
+| dimension = wikidata
+| extensive =
+| intensive =
+| conserved =
+| transformsas =
+}}
+[[File:Rotating Sphere.gif|right|thumb|A sphere rotating around an axis. Points farther from the axis move faster, satisfying {{nowrap|1=''ω'' = ''v'' / ''r''}}.]]
+
+In [[physics]], '''angular frequency''' (symbol '''''ω'''''), also called '''angular speed''' and '''angular rate''', is a [[Scalar (physics)|scalar]] measure of the [[angle]] [[Rate (mathematics)|rate]] (the angle per unit time) or the [[temporal rate of change]] of the [[phase (waves)|phase]] [[function argument|argument]] of a [[sinusoidal waveform]] or [[sine function]] (for example, in oscillations and waves).
+Angular frequency (or angular speed) is the magnitude of the [[pseudovector]] quantity ''[[angular velocity]]''.<ref name="UP1">
+{{cite book
+  | last1 = Cummings | first1 = Karen
+  | last2 = Halliday | first2 = David
+  | title = Understanding physics
+  | publisher = John Wiley & Sons, authorized reprint to Wiley – India
+  | date = 2007
+  | location = New Delhi
+  | pages = 449, 484, 485, 487
+  | url = https://books.google.com/books?id=rAfF_X9cE0EC
+  | isbn =978-81-265-0882-2
+}}(UP1)</ref>
+
+Angular frequency can be obtained multiplying ''[[rotational frequency]]'', ''ν'' (or ordinary ''[[frequency]]'', ''f'') by a full [[turn (unit)|turn]] (2[[Pi|{{pi}}]] [[radians]]): {{nowrap|1=''ω'' = 2{{pi}} rad⋅''ν''}}.
+It can also be formulated as {{nowrap|1=''ω'' = d''θ''/d''t''}}, the [[instantaneous rate of change]] of the [[angular displacement]], ''θ'', with respect to time,&nbsp;''t''.<ref name="ISO80000-3_2019">{{cite web |title=ISO 80000-3:2019 Quantities and units — Part 3: Space and time |publisher=[[International Organization for Standardization]] |date=2019 |edition=2 |url=https://www.iso.org/standard/64974.html |access-date=2019-10-23}} [https://www.iso.org/obp/ui/#iso:std:iso:80000:-3:ed-2:v1:en] (11 pages)</ref><ref>
+{{cite book
+  | last = Holzner
+  | first = Steven
+  | title = Physics for Dummies
+  | publisher = Wiley Publishing
+  | date= 2006
+  | location = Hoboken, New Jersey
+  | pages = [https://archive.org/details/physicsfordummie00holz/page/201 201]
+  | url = https://archive.org/details/physicsfordummie00holz
+  | url-access = registration
+  | quote = angular frequency.
+  | isbn =978-0-7645-5433-9
+}}</ref>
+
+== Unit ==
+In [[SI]] [[Units of measurement|units]], angular frequency is normally presented in the unit [[radian]] per [[second]]. The unit [[hertz]] (Hz) is dimensionally equivalent, but by convention it is only used for frequency&nbsp;''f'', never for angular frequency&nbsp;''ω''. This convention is used to help avoid the confusion<ref>{{cite book| url=https://books.google.com/books?id=eJhkD0LKtJEC&pg=PA145| title= Physics for scientists and engineers| first=Lawrence S.|last= Lerner|page=145| isbn=978-0-86720-479-7| date=1996-01-01| publisher= Jones & Bartlett Learning}}</ref> that arises when dealing with quantities such as frequency and angular quantities because the units of measure (such as cycle or radian) are considered to be one and hence may be omitted when expressing quantities in terms of SI units.<ref>{{cite journal | last1 = Mohr | first1 = J. C. | last2 = Phillips | first2 = W. D. | year = 2015 | title = Dimensionless Units in the SI | journal = Metrologia | volume = 52 | issue = 1 | pages = 40–47 | doi = 10.1088/0026-1394/52/1/40 | bibcode = 2015Metro..52...40M | arxiv = 1409.2794 | s2cid = 3328342 }}</ref><ref>{{cite journal | title = SI units need reform to avoid confusion | journal = Nature | department = Editorial | date = 7 August 2011 | volume = 548 | issue = 7666 | page = 135 | doi = 10.1038/548135b| pmid = 28796224 | doi-access = free }}</ref>
+
+In [[digital signal processing]], the frequency may be normalized by the [[sampling rate]], yielding the [[normalized frequency (digital signal processing)|normalized frequency]].
+
+== Examples ==
+
+=== Circular motion ===
+{{main|Circular motion}}
+In a rotating or orbiting object, there is a relation between distance from the axis, <math>r</math>, [[tangential speed]], <math>v</math>, and the angular frequency of the rotation. During one period, <math>T</math>, a body in circular motion travels a distance <math>vT</math>. This distance is also equal to the circumference of the path traced out by the body, <math>2\pi r</math>. Setting these two quantities equal, and recalling the link between period and angular frequency we obtain: <math>\omega = v/r.</math> Circular motion on the unit circle is given by
+<math display="block">\omega = \frac{2 \pi}{T} = {2 \pi f} , </math>
+where:
+* ''ω'' is the angular frequency (SI unit: [[radians per second]]),
+* ''T'' is the [[Frequency|period]] (SI unit: [[second]]s),
+* ''f'' is the [[ordinary frequency]] (SI unit: [[hertz]]).
+
+=== Oscillations of a spring ===
+{{Classical mechanics|rotational}}
+An object attached to a spring can [[Oscillation|oscillate]]. If the spring is assumed to be ideal and massless with no damping, then the motion is [[Harmonic oscillator|simple and harmonic]] with an angular frequency given by<ref name=PoP1>
+{{cite book
+  | last = Serway
+  | first = Raymond A.
+  | author2 = Jewett, John W.
+  | title = Principles of physics
+  | edition = 4th
+  | publisher = Brooks / Cole – Thomson Learning
+  | year = 2006
+  | location = Belmont, CA
+  | pages = 375, 376, 385, 397
+  | url = https://books.google.com/books?id=1DZz341Pp50C&q=angular+frequency&pg=PA376
+  | isbn =978-0-534-46479-0 }}</ref>
+<math display="block"> \omega = \sqrt{\frac{k}{m}}, </math>
+where
+* ''k'' is the [[spring constant]],
+* ''m'' is the mass of the object.
+
+''ω'' is referred to as the natural angular frequency (sometimes be denoted as ''ω''<sub>0</sub>).
+
+As the object oscillates, its acceleration can be calculated by
+<math display="block" qid=Q11376>a = -\omega^2 x, </math>
+where ''x'' is displacement from an equilibrium position.
+
+Using standard frequency ''f'', this equation would be
+<math display="block"> a = -(2 \pi f)^2 x. </math>
+
+=== LC circuits ===
+The resonant angular frequency in a series [[LC circuit]] equals the square root of the [[multiplicative inverse|reciprocal]] of the product of the [[capacitance]] (''C'', with SI unit [[farad]]) and the [[inductance]] of the circuit (''L'', with SI unit [[Henry (unit)|henry]]):<ref name=LC1>
+{{cite book
+  | last = Nahvi
+  | first = Mahmood
+  | author2 = Edminister, Joseph
+  | title = Schaum's outline of theory and problems of electric circuits
+  | publisher = McGraw-Hill Companies (McGraw-Hill Professional)
+  | year = 2003
+  | pages = 214, 216
+  | url = https://books.google.com/books?id=nrxT9Qjguk8C&q=angular+frequency&pg=PA103
+  | isbn = 0-07-139307-2
+}} (LC1)</ref>
+<math display="block">\omega = \sqrt{\frac{1}{LC}}.</math>
+
+Adding series resistance (for example, due to the resistance of the wire in a coil) does not change the resonant frequency of the series LC circuit. For a parallel tuned circuit, the above equation is often a useful approximation, but the resonant frequency does depend on the losses of parallel elements.
+
+== Terminology ==
+Although angular frequency is often loosely referred to as frequency, it differs from frequency by a factor of 2{{pi}}, which potentially leads confusion when the distinction is not made clear.
+
+== See also ==
+* [[Cycle per second]]
+* [[Radian per second]]
+* [[Degree (angle)]] 
+* [[Mean motion]]
+* [[Rotational frequency]]
+* [[Simple harmonic motion]]
+
+== References and notes ==
+{{reflist}}
+
+'''Related Reading:'''
+* {{cite book
+  | last = Olenick | first = Richard P.
+  | author2 = Apostol, Tom M.
+  | author3 = Goodstein, David L.
+  | title = The Mechanical Universe
+  | publisher = Cambridge University Press
+  | year = 2007
+  | location = New York City
+  | pages = 383–385, 391–395
+  | url = https://books.google.com/books?id=xMWwTpn53KsC&q=angular+frequency&pg=RA1-PA383
+  | isbn = 978-0-521-71592-8
+}}
+
+{{DEFAULTSORT:Angular Frequency}}
+<!--Categories-->
+[[Category:Angle]]
+[[Category:Kinematic properties]]
+[[Category:Frequency]]
+[[Category:Quotients]]
+
+[[ca:Freqüència angular]]
+[[he:תדירות זוויתית]]
