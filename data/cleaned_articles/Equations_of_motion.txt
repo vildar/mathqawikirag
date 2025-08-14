@@ -1,0 +1,486 @@
+In physics, equations of motion are equations that describe the behavior of a physical system in terms of its motion as a function of time. More specifically, the equations of motion describe the behavior of a physical system as a set of mathematical functions in terms of dynamic variables. These variables are usually spatial coordinates and time, but may include momentum components. The most general choice are generalized coordinates which can be any convenient variables characteristic of the physical system. The functions are defined in a Euclidean space in classical mechanics, but are replaced by curved spaces in relativity. If the dynamics of a system is known, the equations are the solutions for the differential equations describing the motion of the dynamics.
+
+
+== Types ==
+There are two main descriptions of motion: dynamics and kinematics. Dynamics is general, since the momenta, forces and energy of the particles are taken into account. In this instance, sometimes the term dynamics refers to the differential equations that the system satisfies (e.g., Newton's second law or Euler–Lagrange equations), and sometimes to the solutions to those equations.
+However, kinematics is simpler. It concerns only variables derived from the positions of objects and time. In circumstances of constant acceleration, these simpler equations of motion are usually referred to as the SUVAT equations, arising from the definitions of kinematic quantities: displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t).
+A differential equation of motion, usually identified as some physical law (for example, F = ma), and applying definitions of physical quantities, is used to set up an equation to solve a kinematics problem. Solving the differential equation will lead to a general solution with arbitrary constants, the arbitrariness corresponding to a set of solutions. A particular solution can be obtained by setting the initial values, which fixes the values of the constants.
+Stated formally, in general, an equation of motion M is a function of the position r of the object, its velocity (the first time derivative of r, v = ⁠dr/dt⁠), and its acceleration (the second derivative of r, a = ⁠d2r/dt2⁠), and time t. Euclidean vectors in 3D are denoted throughout in bold. This is equivalent to saying an equation of motion in r is a second-order ordinary differential equation (ODE) in r,
+
+M [r (t), r ˙ (t), r ¨ (t), t] = 0, {\displaystyle M\left[\mathbf {r} (t),\mathbf {\dot {r}} (t),\mathbf {\ddot {r}} (t),t\right]=0\,,}
+  
+
+where t is time, and each overdot denotes one time derivative. The initial conditions are given by the constant values at t = 0,
+
+r (0), r ˙ (0). {\displaystyle \mathbf {r} (0)\,,\quad \mathbf {\dot {r}} (0)\,.}
+  
+
+The solution r(t) to the equation of motion, with specified initial values, describes the system for all times t after t = 0. Other dynamical variables like the momentum p of the object, or quantities derived from r and p like angular momentum, can be used in place of r as the quantity to solve for from some equation of motion, although the position of the object at time t is by far the most sought-after quantity.
+Sometimes, the equation will be linear and is more likely to be exactly solvable. In general, the equation will be non-linear, and cannot be solved exactly so a variety of approximations must be used. The solutions to nonlinear equations may show chaotic behavior depending on how sensitive the system is to the initial conditions.
+
+
+== History ==
+Kinematics, dynamics and the mathematical models of the universe developed incrementally over three millennia, thanks to many thinkers, only some of whose names we know. In antiquity, priests, astrologers and astronomers predicted solar and lunar eclipses, the solstices and the equinoxes of the Sun and the period of the Moon. But they had nothing other than a set of algorithms to guide them. Equations of motion were not written down for another thousand years.
+Medieval scholars in the thirteenth century — for example at the relatively new universities in Oxford and Paris — drew on ancient mathematicians (Euclid and Archimedes) and philosophers (Aristotle) to develop a new body of knowledge, now called physics.
+At Oxford, Merton College sheltered a group of scholars devoted to natural science, mainly physics, astronomy and mathematics, who were of similar stature to the intellectuals at the University of Paris. Thomas Bradwardine extended Aristotelian quantities such as distance and velocity, and assigned intensity and extension to them. Bradwardine suggested an exponential law involving force, resistance, distance, velocity and time. Nicholas Oresme further extended Bradwardine's arguments. The Merton school proved that the quantity of motion of a body undergoing a uniformly accelerated motion is equal to the quantity of a uniform motion at the speed achieved halfway through the accelerated motion.
+For writers on kinematics before Galileo, since small time intervals could not be measured, the affinity between time and motion was obscure. They used time as a function of distance, and in free fall, greater velocity as a result of greater elevation. Only Domingo de Soto, a Spanish theologian, in his commentary on Aristotle's Physics published in 1545, after defining "uniform difform" motion (which is uniformly accelerated motion) – the word velocity was not used – as proportional to time, declared correctly that this kind of motion was identifiable with freely falling bodies and projectiles, without his proving these propositions or suggesting a formula relating time, velocity and distance. De Soto's comments are remarkably correct regarding the definitions of acceleration (acceleration was a rate of change of motion (velocity) in time) and the observation that acceleration would be negative during ascent.
+Discourses such as these spread throughout Europe, shaping the work of Galileo Galilei and others, and helped in laying the foundation of kinematics. Galileo deduced the equation s = ⁠1/2⁠gt2 in his work geometrically, using the Merton rule, now known as a special case of one of the equations of kinematics.
+Galileo was the first to show that the path of a projectile is a parabola. Galileo had an understanding of centrifugal force and gave a correct definition of momentum. This emphasis of momentum as a fundamental quantity in dynamics is of prime importance. He measured momentum by the product of velocity and weight; mass is a later concept, developed by Huygens and Newton. In the swinging of a simple pendulum, Galileo says in Discourses that "every momentum acquired in the descent along an arc is equal to that which causes the same moving body to ascend through the same arc." His analysis on projectiles indicates that Galileo had grasped the first law and the second law of motion. He did not generalize and make them applicable to bodies not subject to the earth's gravitation. That step was Newton's contribution.
+The term "inertia" was used by Kepler who applied it to bodies at rest. (The first law of motion is now often called the law of inertia.)
+Galileo did not fully grasp the third law of motion, the law of the equality of action and reaction, though he corrected some errors of Aristotle. With Stevin and others Galileo also wrote on statics. He formulated the principle of the parallelogram of forces, but he did not fully recognize its scope.
+Galileo also was interested by the laws of the pendulum, his first observations of which were as a young man. In 1583, while he was praying in the cathedral at Pisa, his attention was arrested by the motion of the great lamp lighted and left swinging, referencing his own pulse for time keeping. To him the period appeared the same, even after the motion had greatly diminished, discovering the isochronism of the pendulum.
+More careful experiments carried out by him later, and described in his Discourses, revealed the period of oscillation varies with the square root of length but is independent of the mass the pendulum.
+Thus we arrive at René Descartes, Isaac Newton, Gottfried Leibniz, et al.; and the evolved forms of the equations of motion that begin to be recognized as the modern ones.
+Later the equations of motion also appeared in electrodynamics, when describing the motion of charged particles in electric and magnetic fields, the Lorentz force is the general equation which serves as the definition of what is meant by an electric field and magnetic field. With the advent of special relativity and general relativity, the theoretical modifications to spacetime meant the classical equations of motion were also modified to account for the finite speed of light, and curvature of spacetime. In all these cases the differential equations were in terms of a function describing the particle's trajectory in terms of space and time coordinates, as influenced by forces or energy transformations.
+However, the equations of quantum mechanics can also be considered "equations of motion", since they are differential equations of the wavefunction, which describes how a quantum state behaves analogously using the space and time coordinates of the particles. There are analogs of equations of motion in other areas of physics, for collections of physical phenomena that can be considered waves, fluids, or fields.
+
+
+== Kinematic equations for one particle ==
+
+
+=== Kinematic quantities ===
+
+From the instantaneous position r = r(t), instantaneous meaning at an instant value of time t, the instantaneous velocity v = v(t) and acceleration a = a(t) have the general, coordinate-independent definitions;
+
+ {\displaystyle \mathbf {v} ={\frac {d\mathbf {r} }{dt}}\,,\quad \mathbf {a} ={\frac {d\mathbf {v} }{dt}}={\frac {d^{2}\mathbf {r} }{dt^{2}}}}
+  
+
+Notice that velocity always points in the direction of motion, in other words for a curved path it is the tangent vector. Loosely speaking, first order derivatives are related to tangents of curves. Still for curved paths, the acceleration is directed towards the center of curvature of the path. Again, loosely speaking, second order derivatives are related to curvature.
+The rotational analogues are the "angular vector" (angle the particle rotates about some axis) θ = θ(t), angular velocity ω = ω(t), and angular acceleration α = α(t):
+
+ {\displaystyle {\boldsymbol {\theta}}=\theta {\hat {\mathbf {n} }}\,,\quad {\boldsymbol {\omega }}={\frac {d{\boldsymbol {\theta }}}{dt}}\,,\quad {\boldsymbol {\alpha }}={\frac {d{\boldsymbol {\omega }}}{dt}}\,,}
+  
+
+where n̂ is a unit vector in the direction of the axis of rotation, and θ is the angle the object turns through about the axis.
+The following relation holds for a point-like particle, orbiting about some axis with angular velocity ω:
+
+v = ω × r {\displaystyle \mathbf {v} ={\boldsymbol {\omega }}\times \mathbf {r} }
+  
+
+where r is the position vector of the particle (radial from the rotation axis) and v the tangential velocity of the particle. For a rotating continuum rigid body, these relations hold for each point in the rigid body.
+
+
+=== Uniform acceleration ===
+The differential equation of motion for a particle of constant or uniform acceleration in a straight line is simple: the acceleration is constant, so the second derivative of the position of the object is constant. The results of this case are summarized below.
+
+
+==== Constant translational acceleration in a straight line ====
+These equations apply to a particle moving linearly, in three dimensions in a straight line with constant acceleration. Since the position, velocity, and acceleration are collinear (parallel, and lie on the same line) – only the magnitudes of these vectors are necessary, and because the motion is along a straight line, the problem effectively reduces from three dimensions to one.
+
+v = v 0 + a t [1] r = r 0 + v 0 t + 1 2 a t 2 [2] r = r 0 + 1 2 (v + v 0) t [3] v 2 = v 0 2 + 2 a (r − r 0) [4] r = r 0 + v t − 1 2 a t 2 [5] {\displaystyle {\begin{aligned}v&=v_{0}+at&[1]\\r&=r_{0}+v_{0}t+{\tfrac {1}{2}}{a}t^{2}&[2]\\r&=r_{0}+{\tfrac {1}{2}}\left(v+v_{0}\right)t&[3]\\v^{2}&=v_{0}^{2}+2a\left(r-r_{0}\right)&[4]\\r&=r_{0}+vt-{\tfrac {1}{2}}{a}t^{2}&[5]\\\end{aligned}}}
+  
+
+where:
+
+r0 is the particle's initial position
+r is the particle's final position
+v0 is the particle's initial velocity
+v is the particle's final velocity
+a is the particle's acceleration
+t is the time interval
+
+Here a is constant acceleration, or in the case of bodies moving under the influence of gravity, the standard gravity g is used. Note that each of the equations contains four of the five variables, so in this situation it is sufficient to know three out of the five variables to calculate the remaining two.
+In some programs, such as the IGCSE Physics and IB DP Physics programs (international programs but especially popular in the UK and Europe), the same formulae would be written with a different set of preferred variables. There u replaces v0 and s replaces r - r0. They are often referred to as the SUVAT equations, where "SUVAT" is an acronym from the variables: s = displacement, u = initial velocity, v = final velocity, a = acceleration, t = time. In these variables, the equations of motion would be written
+
+v = u + a t [1] s = u t + 1 2 a t 2 [2] s = 1 2 (u + v) t [3] v 2 = u 2 + 2 a s [4] s = v t − 1 2 a t 2 [5] {\displaystyle {\begin{aligned}v&=u+at&[1]\\s&=ut+{\tfrac {1}{2}}at^{2}&[2]\\s&={\tfrac {1}{2}}(u+v)t&[3]\\v^{2}&=u^{2}+2as&[4]\\s&=vt-{\tfrac {1}{2}}at^{2}&[5]\\\end{aligned}}}
+  
+
+
+==== Constant linear acceleration in any direction ====
+
+The initial position, initial velocity, and acceleration vectors need not be collinear, and the equations of motion take an almost identical form. The only difference is that the square magnitudes of the velocities require the dot product. The derivations are essentially the same as in the collinear case,
+
+v = a t + v 0 [1] r = r 0 + v 0 t + 1 2 a t 2 [2] r = r 0 + 1 2 (v + v 0) t [3] v 2 = v 0 2 + 2 a ⋅ (r − r 0) [4] r = r 0 + v t − 1 2 a t 2 [5] {\displaystyle {\begin{aligned}\mathbf {v} &=\mathbf {a} t+\mathbf {v} _{0}&[1]\\\mathbf {r} &=\mathbf {r} _{0}+\mathbf {v} _{0}t+{\tfrac {1}{2}}\mathbf {a} t^{2}&[2]\\\mathbf {r} &=\mathbf {r} _{0}+{\tfrac {1}{2}}\left(\mathbf {v} +\mathbf {v} _{0}\right)t&[3]\\\mathbf {v} ^{2}&=\mathbf {v} _{0}^{2}+2\mathbf {a} \cdot \left(\mathbf {r} -\mathbf {r} _{0}\right)&[4]\\\mathbf {r} &=\mathbf {r} _{0}+\mathbf {v} t-{\tfrac {1}{2}}\mathbf {a} t^{2}&[5]\\\end{aligned}}}
+  
+
+although the Torricelli equation [4] can be derived using the distributive property of the dot product as follows:
+
+v 2 = v ⋅ v = (v 0 + a t) ⋅ (v 0 + a t) = v 0 2 + 2 t (a ⋅ v 0) + a 2 t 2 {\displaystyle v^{2}=\mathbf {v} \cdot \mathbf {v} =(\mathbf {v} _{0}+\mathbf {a} t)\cdot (\mathbf {v} _{0}+\mathbf {a} t)=v_{0}^{2}+2t(\mathbf {a} \cdot \mathbf {v} _{0})+a^{2}t^{2}}
+  
+
+(2 a) ⋅ (r − r 0) = (2 a) ⋅ (v 0 t + 1 2 a t 2) = 2 t (a ⋅ v 0) + a 2 t 2 = v 2 − v 0 2 {\displaystyle (2\mathbf {a} )\cdot (\mathbf {r} -\mathbf {r} _{0})=(2\mathbf {a} )\cdot \left(\mathbf {v} _{0}t+{\tfrac {1}{2}}\mathbf {a} t^{2}\right)=2t(\mathbf {a} \cdot \mathbf {v} _{0})+a^{2}t^{2}=v^{2}-v_{0}^{2}}
+  
+
+∴ v 2 = v 0 2 + 2 (a ⋅ (r − r 0)) {\displaystyle \therefore v^{2}=v_{0}^{2}+2(\mathbf {a} \cdot (\mathbf {r} -\mathbf {r} _{0}))}
+  
+
+
+==== Applications ====
+Elementary and frequent examples in kinematics involve projectiles, for example a ball thrown upwards into the air. Given initial velocity u, one can calculate how high the ball will travel before it begins to fall. The acceleration is local acceleration of gravity g. While these quantities appear to be scalars, the direction of displacement, speed and acceleration is important. They could in fact be considered as unidirectional vectors. Choosing s to measure up from the ground, the acceleration a must be in fact −g, since the force of gravity acts downwards and therefore also the acceleration on the ball due to it.
+At the highest point, the ball will be at rest: therefore v = 0. Using equation [4] in the set above, we have:
+
+s = v 2 − u 2 − 2 g. {\displaystyle s={\frac {v^{2}-u^{2}}{-2g}}.}
+  
+
+Substituting and cancelling minus signs gives:
+
+ {\displaystyle s={\frac {u^{2}}{2g}}.}
+  
+
+
+==== Constant circular acceleration ====
+The analogues of the above equations can be written for rotation. Again these axial vectors must all be parallel to the axis of rotation, so only the magnitudes of the vectors are necessary,
+
+ω = ω 0 + α t θ = θ 0 + ω 0 t + 1 2 α t 2 θ = θ 0 + 1 2 (ω 0 + ω) t ω 2 = ω 0 2 + 2 α (θ − θ 0) θ = θ 0 + ω t − 1 2 α t 2 {\displaystyle {\begin{aligned}\omega &=\omega _{0}+\alpha t\\\theta &=\theta _{0}+\omega _{0}t+{\tfrac {1}{2}}\alpha t^{2}\\\theta &=\theta _{0}+{\tfrac {1}{2}}(\omega _{0}+\omega )t\\\omega ^{2}&=\omega _{0}^{2}+2\alpha (\theta -\theta _{0})\\\theta &=\theta _{0}+\omega t-{\tfrac {1}{2}}\alpha t^{2}\\\end{aligned}}}
+  
+
+where α is the constant angular acceleration, ω is the angular velocity, ω0 is the initial angular velocity, θ is the angle turned through (angular displacement), θ0 is the initial angle, and t is the time taken to rotate from the initial state to the final state.
+
+
+=== General planar motion ===
+
+These are the kinematic equations for a particle traversing a path in a plane, described by position r = r(t). They are simply the time derivatives of the position vector in plane polar coordinates using the definitions of physical quantities above for angular velocity ω and angular acceleration α. These are instantaneous quantities which change with time.
+The position of the particle is
+
+r = r (r (t), θ (t)) = r e ^ r {\displaystyle \mathbf {r} =\mathbf {r} \left(r(t),\theta (t)\right)=r\mathbf {\hat {e}} _{r}}
+  
+
+where êr and êθ are the polar unit vectors. Differentiating with respect to time gives the velocity
+
+ {\displaystyle \mathbf {v} =\mathbf {\hat {e}} _{r}{\frac {dr}{dt}}+r\omega \mathbf {\hat {e}} _{\theta }}
+  
+
+with radial component ⁠dr/dt⁠ and an additional component rω due to the rotation. Differentiating with respect to time again obtains the acceleration 
+
+a = (d 2 r d t 2 − r ω 2) e ^ r + (r α + 2 ω d r d t) e ^ θ {\displaystyle \mathbf {a} =\left({\frac {d^{2}r}{dt^{2}}}-r\omega ^{2}\right)\mathbf {\hat {e}} _{r}+\left(r\alpha +2\omega {\frac {dr}{dt}}\right)\mathbf {\hat {e}} _{\theta }}
+  
+
+which breaks into the radial acceleration ⁠d2r/dt2⁠, centripetal acceleration –rω2, Coriolis acceleration 2ω⁠dr/dt⁠, and angular acceleration rα.
+Special cases of motion described by these equations are summarized qualitatively in the table below. Two have already been discussed above, in the cases that either the radial components or the angular components are zero, and the non-zero component of motion describes uniform acceleration.
+
+
+=== General 3D motions ===
+
+In 3D space, the equations in spherical coordinates (r, θ, φ) with corresponding unit vectors êr, êθ and êφ, the position, velocity, and acceleration generalize respectively to
+
+r = r (t) = r e ^ r v = v e ^ r + r d θ d t e ^ θ + r d φ d t sin ⁡ θ e ^ φ a = (a − r (d θ d t) 2 − r (d φ d t) 2 sin 2 ⁡ θ) e ^ r + (r d 2 θ d t 2 + 2 v d θ d t − r (d φ d t) 2 sin ⁡ θ cos ⁡ θ) e ^ θ + (r d 2 φ d t 2 sin ⁡ θ + 2 v d φ d t sin ⁡ θ + 2 r d θ d t d φ d t cos ⁡ θ) e ^ φ {\displaystyle {\begin{aligned}\mathbf {r} &=\mathbf {r} \left(t\right)=r\mathbf {\hat {e}} _{r}\\\mathbf {v} &=v\mathbf {\hat {e}} _{r}+r\,{\frac {d\theta }{dt}}\mathbf {\hat {e}} _{\theta }+r\,{\frac {d\varphi }{dt}}\,\sin \theta \mathbf {\hat {e}} _{\varphi }\\\mathbf {a} &=\left(a-r\left({\frac {d\theta }{dt}}\right)^{2}-r\left({\frac {d\varphi }{dt}}\right)^{2}\sin ^{2}\theta \right)\mathbf {\hat {e}} _{r}\\&+\left(r{\frac {d^{2}\theta }{dt^{2}}}+2v{\frac {d\theta }{dt}}-r\left({\frac {d\varphi }{dt}}\right)^{2}\sin \theta \cos \theta \right)\mathbf {\hat {e}} _{\theta }\\&+\left(r{\frac {d^{2}\varphi }{dt^{2}}}\,\sin \theta +2v\,{\frac {d\varphi }{dt}}\,\sin \theta +2r\,{\frac {d\theta }{dt}}\,{\frac {d\varphi }{dt}}\,\cos \theta \right)\mathbf {\hat {e}} _{\varphi }\end{aligned}}\,\!}
+  
+
+In the case of a constant φ this reduces to the planar equations above.
+
+
+== Dynamic equations of motion ==
+
+
+=== Newtonian mechanics ===
+
+The first general equation of motion developed was Newton's second law of motion.  In its most general form it states the rate of change of momentum p = p(t) = mv(t) of an object equals the force F = F(x(t), v(t), t) acting on it,: 1112 
+
+ {\displaystyle \mathbf {F} ={\frac {d\mathbf {p} }{dt}}}
+  
+
+The force in the equation is not the force the object exerts. Replacing momentum by mass times velocity, the law is also written more famously as
+
+ {\displaystyle \mathbf {F} =m\mathbf {a} }
+  
+
+since m is a constant in Newtonian mechanics.
+Newton's second law applies to point-like particles, and to all points in a rigid body. They also apply to each point in a mass continuum, like deformable solids or fluids, but the motion of the system must be accounted for; see material derivative. In the case the mass is not constant, it is not sufficient to use the product rule for the time derivative on the mass and velocity, and Newton's second law requires some modification consistent with conservation of momentum; see variable-mass system.
+It may be simple to write down the equations of motion in vector form using Newton's laws of motion, but the components may vary in complicated ways with spatial coordinates and time, and solving them is not easy. Often there is an excess of variables to solve for the problem completely, so Newton's laws are not always the most efficient way to determine the motion of a system. In simple cases of rectangular geometry, Newton's laws work fine in Cartesian coordinates, but in other coordinate systems can become dramatically complex.
+The momentum form is preferable since this is readily generalized to more complex systems, such as special and general relativity (see four-momentum).: 112  It can also be used with the momentum conservation. However, Newton's laws are not more fundamental than momentum conservation, because Newton's laws are merely consistent with the fact that zero resultant force acting on an object implies constant momentum, while a resultant force implies the momentum is not constant. Momentum conservation is always true for an isolated system not subject to resultant forces.
+For a number of particles (see many body problem), the equation of motion for one particle i influenced by other particles is
+
+d p i d t = F E + ∑ i ≠ j F i j {\displaystyle {\frac {d\mathbf {p} _{i}}{dt}}=\mathbf {F} _{E}+\sum _{i\neq j}\mathbf {F} _{ij}}
+  
+
+where pi is the momentum of particle i, Fij is the force on particle i by particle j, and FE is the resultant external force due to any agent not part of system. Particle i does not exert a force on itself.
+Euler's laws of motion are similar to Newton's laws, but they are applied specifically to the motion of rigid bodies. The Newton–Euler equations combine the forces and torques acting on a rigid body into a single equation.
+Newton's second law for rotation takes a similar form to the translational case,
+
+ {\displaystyle {\boldsymbol {\tau}}={\frac {d\mathbf {L} }{dt}}\,,}
+  
+
+by equating the torque acting on the body to the rate of change of its angular momentum L. Analogous to mass times acceleration, the moment of inertia tensor I depends on the distribution of mass about the axis of rotation, and the angular acceleration is the rate of change of angular velocity,
+
+ {\displaystyle {\boldsymbol {\tau}}=\mathbf {I} {\boldsymbol {\alpha }}.}
+  
+
+Again, these equations apply to point like particles, or at each point of a rigid body.
+Likewise, for a number of particles, the equation of motion for one particle i is
+
+d L i d t = τ E + ∑ i ≠ j τ i j, {\displaystyle {\frac {d\mathbf {L} _{i}}{dt}}={\boldsymbol {\tau }}_{E}+\sum _{i\neq j}{\boldsymbol {\tau }}_{ij}\,,}
+  
+
+where Li is the angular momentum of particle i, τij the torque on particle i by particle j, and τE is resultant external torque (due to any agent not part of system). Particle i does not exert a torque on itself.
+
+
+=== Applications ===
+Some examples of Newton's law include describing the motion of a simple pendulum,
+
+− m g sin ⁡ θ = m d 2 (ℓ θ) d t 2 ⇒ d 2 θ d t 2 = − g ℓ sin ⁡ θ, {\displaystyle -mg\sin \theta =m{\frac {d^{2}(\ell \theta )}{dt^{2}}}\quad \Rightarrow \quad {\frac {d^{2}\theta }{dt^{2}}}=-{\frac {g}{\ell }}\sin \theta \,,}
+  
+
+and a damped, sinusoidally driven harmonic oscillator,
+
+F 0 sin ⁡ (ω t) = m (d 2 x d t 2 + 2 ζ ω 0 d x d t + ω 0 2 x). {\displaystyle F_{0}\sin(\omega t)=m\left({\frac {d^{2}x}{dt^{2}}}+2\zeta \omega _{0}{\frac {dx}{dt}}+\omega _{0}^{2}x\right)\,.}
+  
+
+For describing the motion of masses due to gravity, Newton's law of gravity can be combined with Newton's second law. For two examples, a ball of mass m thrown in the air, in air currents (such as wind) described by a vector field of resistive forces R = R(r, t),
+
+− G m M | r | 2 e ^ r + R = m d 2 r d t 2 + 0 ⇒ d 2 r d t 2 = − G M | r | 2 e ^ r + A {\displaystyle -{\frac {GmM}{|\mathbf {r} |^{2}}}\mathbf {\hat {e}} _{r}+\mathbf {R} =m{\frac {d^{2}\mathbf {r} }{dt^{2}}}+0\quad \Rightarrow \quad {\frac {d^{2}\mathbf {r} }{dt^{2}}}=-{\frac {GM}{|\mathbf {r} |^{2}}}\mathbf {\hat {e}} _{r}+\mathbf {A} }
+  
+
+where G is the gravitational constant, M the mass of the Earth, and A = ⁠R/m⁠ is the acceleration of the projectile due to the air currents at position r and time t.
+The classical N-body problem for N particles each interacting with each other due to gravity is a set of N nonlinear coupled second order ODEs,
+
+d 2 r i d t 2 = G ∑ i ≠ j m j | r j − r i | 3 (r j − r i) {\displaystyle {\frac {d^{2}\mathbf {r} _{i}}{dt^{2}}}=G\sum _{i\neq j}{\frac {m_{j}}{|\mathbf {r} _{j}-\mathbf {r} _{i}|^{3}}}(\mathbf {r} _{j}-\mathbf {r} _{i})}
+  
+
+where i = 1, 2, ..., N labels the quantities (mass, position, etc.) associated with each particle.
+
+
+== Analytical mechanics ==
+
+Using all three coordinates of 3D space is unnecessary if there are constraints on the system. If the system has N degrees of freedom, then one can use a set of N generalized coordinates q(t) = [q1(t), q2(t) ... qN(t)], to define the configuration of the system. They can be in the form of arc lengths or angles. They are a considerable simplification to describe motion, since they take advantage of the intrinsic constraints that limit the system's motion, and the number of coordinates is reduced to a minimum. The time derivatives of the generalized coordinates are the generalized velocities
+
+q ˙ = d q d t. {\displaystyle \mathbf {\dot {q}} ={\frac {d\mathbf {q} }{dt}}\,.}
+  
+
+The Euler–Lagrange equations are
+
+d d t (∂ L ∂ q ˙) = ∂ L ∂ q, {\displaystyle {\frac {d}{dt}}\left({\frac {\partial L}{\partial \mathbf {\dot {q}} }}\right)={\frac {\partial L}{\partial \mathbf {q} }}\,,}
+  
+
+where the Lagrangian is a function of the configuration q and its time rate of change ⁠dq/dt⁠ (and possibly time t)
+
+L = L [q (t), q ˙ (t), t]. {\displaystyle L=L\left[\mathbf {q} (t),\mathbf {\dot {q}} (t),t\right]\,.}
+  
+
+Setting up the Lagrangian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled N second order ODEs in the coordinates are obtained.
+Hamilton's equations are
+
+p ˙ = − ∂ H ∂ q, q ˙ = + ∂ H ∂ p, {\displaystyle \mathbf {\dot {p}} =-{\frac {\partial H}{\partial \mathbf {q} }}\,,\quad \mathbf {\dot {q}} =+{\frac {\partial H}{\partial \mathbf {p} }}\,,}
+  
+
+where the Hamiltonian
+
+H = H [q (t), p (t), t], {\displaystyle H=H\left[\mathbf {q} (t),\mathbf {p} (t),t\right]\,,}
+  
+
+is a function of the configuration q and conjugate "generalized" momenta
+
+p = ∂ L ∂ q ˙, {\displaystyle \mathbf {p} ={\frac {\partial L}{\partial \mathbf {\dot {q}} }}\,,}
+  
+
+in which ⁠∂/∂q⁠ = (⁠∂/∂q1⁠, ⁠∂/∂q2⁠, …, ⁠∂/∂qN⁠) is a shorthand notation for a vector of partial derivatives with respect to the indicated variables (see for example matrix calculus for this denominator notation), and possibly time t,
+Setting up the Hamiltonian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled 2N first order ODEs in the coordinates qi and momenta pi are obtained.
+The Hamilton–Jacobi equation is
+
+− ∂ S (q, t) ∂ t = H (q, p, t). {\displaystyle -{\frac {\partial S(\mathbf {q} ,t)}{\partial t}}=H\left(\mathbf {q} ,\mathbf {p} ,t\right)\,.}
+  
+
+where
+
+S [q, t] = ∫ t 1 t 2 L (q, q ˙, t) d t, {\displaystyle S[\mathbf {q} ,t]=\int _{t_{1}}^{t_{2}}L(\mathbf {q} ,\mathbf {\dot {q}} ,t)\,dt\,,}
+  
+
+is Hamilton's principal function, also called the classical action is a functional of L. In this case, the momenta are given by
+
+p = ∂ S ∂ q. {\displaystyle \mathbf {p} ={\frac {\partial S}{\partial \mathbf {q} }}\,.}
+  
+
+Although the equation has a simple general form, for a given Hamiltonian it is actually a single first order non-linear PDE, in N + 1 variables. The action S allows identification of conserved quantities for mechanical systems, even when the mechanical problem itself cannot be solved fully, because any differentiable symmetry of the action of a physical system has a corresponding conservation law, a theorem due to Emmy Noether.
+All classical equations of motion can be derived from the variational principle known as Hamilton's principle of least action
+
+ {\displaystyle \delta S=0\,,}
+  
+
+stating the path the system takes through the configuration space is the one with the least action S.
+
+
+== Electrodynamics ==
+
+In electrodynamics, the force on a charged particle of charge q is the Lorentz force:
+
+F = q (E + v × B) {\displaystyle \mathbf {F} =q\left(\mathbf {E} +\mathbf {v} \times \mathbf {B} \right)}
+  
+
+Combining with Newton's second law gives a first order differential equation of motion, in terms of position of the particle:
+
+m d 2 r d t 2 = q (E + d r d t × B) {\displaystyle m{\frac {d^{2}\mathbf {r} }{dt^{2}}}=q\left(\mathbf {E} +{\frac {d\mathbf {r} }{dt}}\times \mathbf {B} \right)}
+  
+
+or its momentum:
+
+d p d t = q (E + p × B m) {\displaystyle {\frac {d\mathbf {p} }{dt}}=q\left(\mathbf {E} +{\frac {\mathbf {p} \times \mathbf {B} }{m}}\right)}
+  
+
+The same equation can be obtained using the Lagrangian (and applying Lagrange's equations above) for a charged particle of mass m and charge q:
+
+L = 1 2 m r ˙ ⋅ r ˙ + q A ⋅ r ˙ − q ϕ {\displaystyle L={\tfrac {1}{2}}m\mathbf {\dot {r}} \cdot \mathbf {\dot {r}} +q\mathbf {A} \cdot {\dot {\mathbf {r} }}-q\phi }
+  
+
+where A and ϕ are the electromagnetic scalar and vector potential fields. The Lagrangian indicates an additional detail: the canonical momentum in Lagrangian mechanics is given by:
+
+P = ∂ L ∂ r ˙ = m r ˙ + q A {\displaystyle \mathbf {P} ={\frac {\partial L}{\partial {\dot {\mathbf {r} }}}}=m{\dot {\mathbf {r} }}+q\mathbf {A} }
+  
+
+instead of just mv, implying the motion of a charged particle is fundamentally determined by the mass and charge of the particle. The Lagrangian expression was first used to derive the force equation.
+Alternatively the Hamiltonian (and substituting into the equations):
+
+H = (P − q A) 2 2 m + q ϕ {\displaystyle H={\frac {\left(\mathbf {P} -q\mathbf {A} \right)^{2}}{2m}}+q\phi }
+  
+
+can derive the Lorentz force equation.
+
+
+== General relativity ==
+
+
+=== Geodesic equation of motion ===
+
+The above equations are valid in flat spacetime. In curved spacetime, things become mathematically more complicated since there is no straight line; this is generalized and replaced by a geodesic of the curved spacetime (the shortest length of curve between two points). For curved manifolds with a metric tensor g, the metric provides the notion of arc length (see line element for details).  The differential arc length is given by:: 1199 
+
+ {\displaystyle ds={\sqrt {g_{\alpha \beta}dx^{\alpha }dx^{\beta }}}}
+  
+
+and the geodesic equation is a second-order differential equation in the coordinates.  The general solution is a family of geodesics:: 1200 
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                x
+                
+                  μ
+                
+              
+            
+            
+              d
+              
+                s
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        −
+        
+          Γ
+          
+            μ
+          
+        
+        
+          
+
+ {\displaystyle {\frac {d^{2}x^{\mu }}{ds^{2}}}=-\Gamma ^{\mu }{}_{\alpha \beta }{\frac {dx^{\alpha }}{ds}}{\frac {dx^{\beta }}{ds}}}
+  
+
+where Γ μαβ is a Christoffel symbol of the second kind, which contains the metric (with respect to the coordinate system).
+Given the mass-energy distribution provided by the stress–energy tensor T αβ, the Einstein field equations are a set of non-linear second-order partial differential equations in the metric, and imply the curvature of spacetime is equivalent to a gravitational field (see equivalence principle). Mass falling in curved spacetime is equivalent to a mass falling in a gravitational field - because gravity is a fictitious force. The relative acceleration of one geodesic to another in curved spacetime is given by the geodesic deviation equation:
+
+  
+    
+      
+        
+          
+            
+              
+                D
+                
+                  2
+                
+              
+              
+                ξ
+                
+                  α
+                
+              
+            
+            
+              d
+              
+                s
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        −
+        
+          R
+          
+            α
+          
+        
+        
+          
+
+ {\displaystyle {\frac {D^{2}\xi ^{\alpha }}{ds^{2}}}=-R^{\alpha }{}_{\beta \gamma \delta }{\frac {dx^{\alpha }}{ds}}\xi ^{\gamma }{\frac {dx^{\delta }}{ds}}}
+  
+
+where ξα = x2α − x1α is the separation vector between two geodesics, ⁠D/ds⁠ (not just ⁠d/ds⁠) is the covariant derivative, and Rαβγδ is the Riemann curvature tensor, containing the Christoffel symbols. In other words, the geodesic deviation equation is the equation of motion for masses in curved spacetime, analogous to the Lorentz force equation for charges in an electromagnetic field.: 34–35 
+For flat spacetime, the metric is a constant tensor so the Christoffel symbols vanish, and the geodesic equation has the solutions of straight lines. This is also the limiting case when masses move according to Newton's law of gravity.
+
+
+=== Spinning objects ===
+In general relativity, rotational motion is described by the relativistic angular momentum tensor, including the spin tensor, which enter the equations of motion under covariant derivatives with respect to proper time. The Mathisson–Papapetrou–Dixon equations describe the motion of spinning objects moving in a gravitational field.
+
+
+== Analogues for waves and fields ==
+Unlike the equations of motion for describing particle mechanics, which are systems of coupled ordinary differential equations, the analogous equations governing the dynamics of waves and fields are always partial differential equations, since the waves or fields are functions of space and time. For a particular solution, boundary conditions along with initial conditions need to be specified.
+Sometimes in the following contexts, the wave or field equations are also called "equations of motion".
+
+
+=== Field equations ===
+Equations that describe the spatial dependence and time evolution of fields are called field equations. These include
+
+Maxwell's equations for the electromagnetic field,
+Poisson's equation for Newtonian gravitational or electrostatic field potentials,
+the Einstein field equation for gravitation (Newton's law of gravity is a special case for weak gravitational fields and low velocities of particles).
+This terminology is not universal: for example although the Navier–Stokes equations govern the velocity field of a fluid, they are not usually called "field equations", since in this context they represent the momentum of the fluid and are called the "momentum equations" instead.
+
+
+=== Wave equations ===
+Equations of wave motion are called wave equations. The solutions to a wave equation give the time-evolution and spatial dependence of the amplitude. Boundary conditions determine if the solutions describe traveling waves or standing waves.
+From classical equations of motion and field equations; mechanical, gravitational wave, and electromagnetic wave equations can be derived. The general linear wave equation in 3D is:
+
+1 v 2 ∂ 2 X ∂ t 2 = ∇ 2 X {\displaystyle {\frac {1}{v^{2}}}{\frac {\partial ^{2}X}{\partial t^{2}}}=\nabla ^{2}X}
+  
+
+where X = X(r, t) is any mechanical or electromagnetic field amplitude, say:
+
+the transverse or longitudinal displacement of a vibrating rod, wire, cable, membrane etc.,
+the fluctuating pressure of a medium, sound pressure,
+the electric fields E or D, or the magnetic fields B or H,
+the voltage V or current I in an alternating current circuit,
+and v is the phase velocity. Nonlinear equations model the dependence of phase velocity on amplitude, replacing v by v(X). There are other linear and nonlinear wave equations for very specific applications, see for example the Korteweg–de Vries equation.
+
+
+=== Quantum theory ===
+In quantum theory, the wave and field concepts both appear.
+In quantum mechanics the analogue of the classical equations of motion (Newton's law, Euler–Lagrange equation, Hamilton–Jacobi equation, etc.) is the Schrödinger equation in its most general form:
+
+i ℏ ∂ Ψ ∂ t = H ^ Ψ, {\displaystyle i\hbar {\frac {\partial \Psi}{\partial t}}={\hat {H}}\Psi \,,}
+  
+
+where Ψ is the wavefunction of the system, Ĥ is the quantum Hamiltonian operator, rather than a function as in classical mechanics, and ħ is the Planck constant divided by 2π. Setting up the Hamiltonian and inserting it into the equation results in a wave equation, the solution is the wavefunction as a function of space and time. The Schrödinger equation itself reduces to the Hamilton–Jacobi equation when one considers the correspondence principle, in the limit that ħ becomes zero. To compare to measurements, operators for observables must be applied the quantum wavefunction according to the experiment performed, leading to either  wave-like or particle-like results.
+Throughout all aspects of quantum theory, relativistic or non-relativistic, there are various formulations alternative to the Schrödinger equation that govern the time evolution and behavior of a quantum system, for instance: 
+
+the Heisenberg equation of motion resembles the time evolution of classical observables as functions of position, momentum, and time, if one replaces dynamical observables by their quantum operators and the classical Poisson bracket by the commutator,
+the phase space formulation closely follows classical Hamiltonian mechanics, placing position and momentum on equal footing,
+the Feynman path integral formulation extends the principle of least action to quantum mechanics and field theory, placing emphasis on the use of a Lagrangians rather than Hamiltonians.
+
+
+== See also ==
+
+
+== References ==

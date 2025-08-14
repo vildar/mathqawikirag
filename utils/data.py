@@ -72,3 +72,15 @@ def generate_prompt(query, chunk):
         ### Instructions:
         - Respond ONLY with the formula (in LaTeX if possible), no explanation.
         """
+
+
+# 1. Map response to context and verify that it exists in the context
+# 2. Evaluate for 100 (4 * 25 articles) formula queries.
+#    Check across LLMs and also verify that they are repeatable. (temp hyperparam)
+# 3. Add 'whether it exists in context' column
+# 4. Evaluate the retrieval phase
+# 5. Modify the chunking mechanism and evaluate
+# 6. Have a context column. Paste the chunk
+# 7. top_k=5 for evaluation of embedders. (experiment before evaluating for 100)
+# 8. More sophisticated chunking mechanism
+# GraphRAG - clustering sentences
