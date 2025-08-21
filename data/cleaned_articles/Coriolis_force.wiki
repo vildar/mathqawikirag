@@ -4,16 +4,6 @@ In [[physics]], the '''Coriolis force''' is a [[fictitious force|pseudo force]] 
 
 In popular (non-technical) usage of the term "Coriolis effect", the rotating reference frame implied is almost always the [[Earth]]. Because the Earth spins, Earth-bound observers need to account for the Coriolis force to correctly analyze the motion of objects. The Earth completes one rotation for each [[sidereal day]], so for motions of everyday objects the Coriolis force is imperceptible; its effects become noticeable only for motions occurring over large distances and long periods of time, such as large-scale movement of air in the atmosphere or water in the ocean, or where high precision is important, such as [[artillery]] or [[Ballistic missile|missile]] trajectories. Such motions are constrained by the surface of the Earth, so only the horizontal component of the Coriolis force is generally important. This force causes moving objects on the surface of the Earth to be deflected to the right (with respect to the direction of travel) in the [[Northern Hemisphere]] and to the left in the [[Southern Hemisphere]]. The horizontal deflection effect is greater near the [[Geographical pole|poles]], since the effective rotation rate about a local vertical axis is largest there, and decreases to zero at the [[equator]]. Rather than flowing directly from areas of high pressure to low pressure, as they would in a non-rotating system, winds and currents tend to flow to the right of this direction north of the equator ("clockwise") and to the left of this direction south of it ("anticlockwise"). This effect is responsible for the rotation and thus formation of [[Cyclone#Structure|cyclones]] <!--Don't add tornadoes here; the Coriolis effect is not directly responsible for tornadoes-->.
 
-==History==
-
-Italian scientist [[Giovanni Battista Riccioli]] and his assistant [[Francesco Maria Grimaldi]] described the effect in connection with artillery in the 1651 ''Almagestum Novum'', writing that rotation of the Earth should cause a cannonball fired to the north to deflect to the east. In 1674, [[Claude François Milliet Dechales]] described in his ''Cursus seu Mundus Mathematicus'' how the rotation of the Earth should cause a deflection in the trajectories of both falling bodies and projectiles aimed toward one of the planet's poles. Riccioli, Grimaldi, and Dechales all described the effect as part of an argument against the heliocentric system of Copernicus. In other words, they argued that the Earth's rotation should create the effect, and so failure to detect the effect was evidence for an immobile Earth. The Coriolis acceleration equation was derived by [[Leonhard Euler|Euler]] in 1749, and the effect was described in the [[Theory of tides|tidal equations]] of [[Pierre-Simon Laplace]] in 1778.
-
-[[Gaspard-Gustave de Coriolis]] published a paper in 1835 on the energy yield of machines with rotating parts, such as [[waterwheel]]s. That paper considered the supplementary forces that are detected in a rotating frame of reference. Coriolis divided these supplementary forces into two categories. The second category contained a force that arises from the [[cross product]] of the [[angular velocity]] of a [[coordinate system]] and the projection of a particle's [[velocity]] into a plane [[perpendicular]] to the system's [[axis of rotation]]. Coriolis referred to this force as the "compound centrifugal force" due to its analogies with the [[centrifugal force]] already considered in category one. The effect was known in the early 20th century as the "[[acceleration]] of Coriolis", and by 1920 as "Coriolis force".
-
-In 1856, [[William Ferrel]] proposed the existence of a [[Ferrel cell|circulation cell]] in the mid-latitudes with air being deflected by the Coriolis force to create the [[westerlies|prevailing westerly winds]].
-
-The understanding of the kinematics of how exactly the rotation of the Earth affects airflow was partial at first. Late in the 19th century, the full extent of the large scale interaction of [[pressure-gradient force]] and deflecting force that in the end causes air masses to move along [[isobar (meteorology)|isobars]] was understood.
-
 ==Formula==
 
 In [[Newtonian mechanics]], the equation of motion for an object in an [[Inertial frame of reference|inertial reference frame]] is:
@@ -236,45 +226,3 @@ In moths, their antennae are known to be responsible for the ''sensing'' of Cori
 
 ===Lagrangian point stability===
 In astronomy, [[Lagrangian point]]s are five positions in the orbital plane of two large orbiting bodies where a small object affected only by gravity can maintain a stable position relative to the two large bodies. The first three Lagrangian points (L<sub>1</sub>, L<sub>2</sub>, L<sub>3</sub>) lie along the line connecting the two large bodies, while the last two points (L<sub>4</sub> and L<sub>5</sub>) each form an equilateral triangle with the two large bodies. The L<sub>4</sub> and L<sub>5</sub> points, although they correspond to maxima of the [[effective potential]] in the coordinate frame that rotates with the two large bodies, are stable due to the Coriolis effect. The stability can result in orbits around just L<sub>4</sub> or L<sub>5</sub>, known as [[tadpole orbit]]s, where [[trojan (astronomy)|trojans]] can be found. It can also result in orbits that encircle L<sub>3</sub>, L<sub>4</sub>, and L<sub>5</sub>, known as [[horseshoe orbit]]s.
-
-
-==See also==
-
-* [[Analytical mechanics]]
-* [[Applied mechanics]]
-* [[Classical mechanics]]
-* [[Earth's rotation]]
-* [[Equatorial Rossby wave]]
-* [[Frenet–Serret formulas]]
-* [[Gyroscope]]
-* [[Kinetics (physics)]]
-* [[Reactive centrifugal force]]
-* [[Secondary flow]]
-* [[Statics]]
-* [[Uniform circular motion]]
-* [[Whirlpool]]
-
-
-=== Physics and meteorology ===
-
-* Riccioli, G. B., 1651: ''Almagestum Novum'', Bologna, pp.&nbsp;425–427<br> ([http://www.e-rara.ch/zut/content/pageview/141486 Original book] [in Latin], scanned images of complete pages.)
-* Coriolis, G. G., 1832: "Mémoire sur le principe des forces vives dans les mouvements relatifs des machines." ''Journal de l'école Polytechnique'', Vol 13, pp.&nbsp;268–302.<br> ([https://web.archive.org/web/20070304082822/http://www.aos.princeton.edu/WWWPUBLIC/gkv/history/Coriolis-1831.pdf Original article] [in French], PDF file, 1.6 MB, scanned images of complete pages.)
-* Coriolis, G. G., 1835: "Mémoire sur les équations du mouvement relatif des systèmes de corps." ''Journal de l'école Polytechnique'', Vol 15, pp.&nbsp;142–154 <br> ([https://web.archive.org/web/20070927061755/http://www.aos.princeton.edu/WWWPUBLIC/gkv/history/Coriolis-1835.pdf Original article] [in French] PDF file, 400 KB, scanned images of complete pages.)
-* Gill, A. E. ''Atmosphere-Ocean dynamics'', Academic Press, 1982.
-* 
-* [http://www.atmos.washington.edu/~durrand/ Durran, D. R.], 1993: ''[http://www.atmos.washington.edu/~durrand/pdfs/Coriolis_BAMS.pdf Is the Coriolis force really responsible for the inertial oscillation?]'', Bull. Amer. Meteor. Soc., 74, pp.&nbsp;2179–2184; Corrigenda. Bulletin of the American Meteorological Society, 75, p.&nbsp;261
-* Durran, D. R., and S. K. Domonkos, 1996: ''[http://www.atmos.washington.edu/~durrand/pdfs/inertial_osc.pdf An apparatus for demonstrating the inertial oscillation]'', Bulletin of the American Meteorological Society, 77, pp.&nbsp;557–559.
-* Marion, Jerry B. 1970, ''Classical Dynamics of Particles and Systems'', Academic Press.
-* Persson, A., 1998 ''[https://web.archive.org/web/20071128105846/http://www.aos.princeton.edu/WWWPUBLIC/gkv/history/Persson98.pdf] How do we Understand the Coriolis Force?'' Bulletin of the American Meteorological Society 79, pp.&nbsp;1373–1385.
-* Symon, Keith. 1971, ''Mechanics'', Addison–Wesley
-* [https://arxiv.org/abs/physics/0509004v2 Akira Kageyama & Mamoru Hyodo: ''Eulerian derivation of the Coriolis force'']
-* [http://www.whoi.edu/science/PO/people/jprice/class/aCt.pdf James F. Price: ''A Coriolis tutorial''] Woods Hole Oceanographic Institute (2003)
-* . Elementary, non-mathematical; but well written.
-
-
-=== Historical ===
-
-* Grattan-Guinness, I., Ed., 1994: ''Companion Encyclopedia of the History and Philosophy of the Mathematical Sciences''. Vols. I and II. Routledge, 1840 pp. <br> 1997: ''The Fontana History of the Mathematical Sciences''. Fontana, 817 pp.&nbsp;710 pp.
-* Khrgian, A., 1970: ''Meteorology: A Historical Survey''. Vol. 1. Keter Press, 387 pp.
-* Kuhn, T. S., 1977: Energy conservation as an example of simultaneous discovery. ''The Essential Tension, Selected Studies in Scientific Tradition and Change'', University of Chicago Press, 66–104.
-* Kutzbach, G., 1979: ''The Thermal Theory of Cyclones. A History of Meteorological Thought in the Nineteenth Century''. Amer. Meteor. Soc., 254 pp.

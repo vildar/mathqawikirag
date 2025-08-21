@@ -19,34 +19,6 @@ The solution {{math|'''r'''(''t'')}} to the equation of motion, with specified i
 
 Sometimes, the equation will be [[linear differential equation|linear]] and is more likely to be exactly solvable. In general, the equation will be [[Non-linear differential equation|non-linear]], and cannot be solved exactly so a variety of approximations must be used. The solutions to nonlinear equations may show [[Chaos theory|chaotic]] behavior depending on how ''sensitive'' the system is to the initial conditions.
 
-==History==
-
-Kinematics, dynamics and the mathematical models of the universe developed incrementally over three millennia, thanks to many thinkers, only some of whose names we know. In antiquity, [[priest]]s, [[astrology|astrologers]] and [[astronomer]]s predicted solar and lunar [[eclipses]], the solstices and the equinoxes of the [[Sun]] and the period of the [[Moon]]. But they had nothing other than a set of algorithms to guide them. Equations of motion were not written down for another thousand years.
-
-Medieval scholars in the thirteenth century — for example at the relatively new universities in Oxford and Paris — drew on ancient mathematicians (Euclid and Archimedes) and philosophers (Aristotle) to develop a new body of knowledge, now called physics.
-
-At Oxford, [[Merton College]] sheltered a group of scholars devoted to natural science, mainly physics, astronomy and mathematics, who were of similar stature to the intellectuals at the University of Paris. [[Thomas Bradwardine#Science|Thomas Bradwardine]] extended Aristotelian quantities such as distance and velocity, and assigned intensity and extension to them. Bradwardine suggested an exponential law involving force, resistance, distance, velocity and time. [[Nicole Oresme|Nicholas Oresme]] further extended Bradwardine's arguments. The [[Oxford Calculators|Merton school]] proved that the quantity of motion of a body undergoing a uniformly accelerated motion is equal to the quantity of a uniform motion at the speed achieved halfway through the accelerated motion.
-
-For writers on kinematics before [[Galileo]], since small time intervals could not be measured, the affinity between time and motion was obscure. They used time as a function of distance, and in free fall, greater velocity as a result of greater elevation. Only [[Domingo de Soto]], a Spanish theologian, in his commentary on [[Aristotle]]'s ''[[Physics (Aristotle)|Physics]]'' published in 1545, after defining "uniform difform" motion (which is uniformly accelerated motion) – the word velocity was not used – as proportional to time, declared correctly that this kind of motion was identifiable with freely falling bodies and projectiles, without his proving these propositions or suggesting a formula relating time, velocity and distance. De Soto's comments are remarkably correct regarding the definitions of acceleration (acceleration was a rate of change of motion (velocity) in time) and the observation that acceleration would be negative during ascent.
-
-Discourses such as these spread throughout Europe, shaping the work of [[Galileo Galilei]] and others, and helped in laying the foundation of kinematics. Galileo deduced the equation {{math|''s'' {{=}} {{sfrac|1|2}}''gt''{{sup|2}}}} in his work geometrically, using the [[Mean speed theorem|Merton rule]], now known as a special case of one of the equations of kinematics.
-
-Galileo was the first to show that the path of a projectile is a [[parabola]]. Galileo had an understanding of [[centrifugal force]] and gave a correct definition of [[momentum]]. This emphasis of momentum as a fundamental quantity in dynamics is of prime importance. He measured momentum by the product of velocity and weight; mass is a later concept, developed by Huygens and Newton. In the swinging of a simple pendulum, Galileo says in ''[[Two New Sciences|Discourses]]'' that "every momentum acquired in the descent along an arc is equal to that which causes the same moving body to ascend through the same arc." His analysis on projectiles indicates that Galileo had grasped the first law and the second law of motion. He did not generalize and make them applicable to bodies not subject to the earth's gravitation. That step was Newton's contribution.
-
-The term "inertia" was used by Kepler who applied it to bodies at rest. (The first law of motion is now often called the law of inertia.)
-
-Galileo did not fully grasp the third law of motion, the law of the equality of action and reaction, though he corrected some errors of Aristotle. With [[Simon Stevin|Stevin]] and others Galileo also wrote on statics. He formulated the principle of the parallelogram of forces, but he did not fully recognize its scope.
-
-Galileo also was interested by the laws of the pendulum, his first observations of which were as a young man. In 1583, while he was praying in the cathedral at Pisa, his attention was arrested by the motion of the great lamp lighted and left swinging, referencing his own pulse for time keeping. To him the period appeared the same, even after the motion had greatly diminished, discovering the isochronism of the pendulum.
-
-More careful experiments carried out by him later, and described in his Discourses, revealed the period of oscillation varies with the square root of length but is independent of the mass the pendulum.
-
-Thus we arrive at [[René Descartes]], [[Isaac Newton]], [[Gottfried Leibniz]], et al.; and the evolved forms of the equations of motion that begin to be recognized as the modern ones.
-
-Later the equations of motion also appeared in [[electrodynamics]], when describing the motion of charged particles in electric and magnetic fields, the [[Lorentz force]] is the general equation which serves as the definition of what is meant by an [[electric field]] and [[magnetic field]]. With the advent of [[special relativity]] and [[general relativity]], the theoretical modifications to [[spacetime]] meant the classical equations of motion were also modified to account for the finite [[speed of light]], and [[curvature of spacetime]]. In all these cases the differential equations were in terms of a function describing the particle's trajectory in terms of space and time coordinates, as influenced by forces or energy transformations.
-
-However, the equations of [[quantum mechanics]] can also be considered "equations of motion", since they are differential equations of the [[wavefunction]], which describes how a quantum state behaves analogously using the space and time coordinates of the particles. There are analogs of equations of motion in other areas of physics, for collections of physical phenomena that can be considered waves, fluids, or fields.
-
 ==Kinematic equations for one particle==
 
 ===Kinematic quantities===

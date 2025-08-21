@@ -4,27 +4,6 @@ This fictitious force is often applied to rotating devices, such as [[centrifuge
 
 The term has sometimes also been used for the ''[[reactive centrifugal force]]'', a real frame-independent Newtonian force that exists as a reaction to a [[centripetal force]] in some scenarios.
 
-==History==
-
-From 1659, the [[Neo-Latin]] term ''vi centrifuga'' ("centrifugal force") is attested in [[Christiaan Huygens]]' notes and letters. Note, that in Latin  means "center" and  (from ) means "fleeing, avoiding". Thus, ''centrifugus'' means "fleeing from the center" in a [[literal translation]].
-
-In 1673, in ''[[Horologium Oscillatorium]]'', Huygens writes (as translated by [[Richard J. Blackwell]]):
-<blockquote>
-There is another kind of oscillation in addition to the one we have examined up to this point; namely, a motion in which a suspended weight is moved around through the circumference of a circle. From this we were led to the construction of another clock at about the same time we invented the first one. [...] I originally intended to publish here a lengthy description of these clocks, along with matters pertaining to circular motion and '''centrifugal force'''{{efn|In Latin: ''vim centrifugam''.}}, as it might be called, a subject about which I have more to say than I am able to do at present. But, in order that those interested in these things can sooner enjoy these new and not useless speculations, and in order that their publication not be prevented by some accident, I have decided, contrary to my plan, to add this fifth part [...].
-</blockquote>
-
-The same year, [[Isaac Newton]] received Huygens's work via [[Henry Oldenburg]] and replied "I pray you return [Mr. Huygens] my humble thanks [...] I am glad we can expect another discourse of the ''vis centrifuga'', which speculation may prove of good use in [[natural philosophy]] and [[astronomy]], as well as [[mechanics]]".
-
-In 1687, in ''[[Philosophiæ Naturalis Principia Mathematica|Principia]]'', Newton further develops ''vis centrifuga'' ("centrifugal force"). Around this time, the concept is also further evolved by Newton, [[Gottfried Wilhelm Leibniz]], and [[Robert Hooke]].
-
-In the late 18th century, the modern conception of the centrifugal force evolved as a "[[fictitious force]]" arising in a rotating reference.
-
-Centrifugal force has also played a role in debates in [[classical mechanics]] about detection of absolute motion. Newton suggested two arguments to answer the question of whether [[absolute rotation]] can be detected: the rotating [[bucket argument]], and the [[rotating spheres]] argument. According to Newton, in each scenario the centrifugal force would be observed in the object's local frame (the frame where the object is stationary) only if the frame was rotating with respect to absolute space.
-
-Around 1883, [[Mach's principle]] was proposed where, instead of absolute rotation, the motion of the distant stars relative to the local inertial frame gives rise through some (hypothetical) physical law to the centrifugal force and other inertia effects. The modern view is based upon the idea of an inertial frame of reference, which privileges observers for which the laws of physics take on their simplest form, and in particular, frames that do not use centrifugal forces in their equations of motion in order to describe motions correctly.
-
-Around 1914, the analogy between centrifugal force (sometimes used to create [[artificial gravity]]) and gravitational forces led to the [[equivalence principle]] of [[general relativity]].
-
 ==Introduction==
 
 Centrifugal force is an outward force apparent in a [[rotating reference frame]]. It does not exist when a system is described relative to an [[inertial frame of reference]].

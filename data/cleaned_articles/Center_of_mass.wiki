@@ -4,13 +4,6 @@ In the case of a single [[rigid body]], the center of mass is fixed in relation 
 
 The center of mass is a useful reference point for calculations in [[mechanics]] that involve masses distributed in space, such as the [[momentum|linear]] and [[angular momentum]] of planetary bodies and [[rigid body dynamics]]. In [[orbital mechanics]], the equations of motion of planets are formulated as [[point mass]]es located at the centers of mass (see [[Barycenter (astronomy)]] for details). The [[center of mass frame]] is an [[inertial frame]] in which the center of mass of a system is at rest with respect to the origin of the [[coordinate system]].
 
-==History==
-The concept of center of gravity or [[weight]] was studied extensively by [[Archimedes|Archimedes of Syracuse]], an ancient Greek [[mathematician]], [[physicist]], and [[engineer]]. He worked with simplified assumptions about gravity that amount to a uniform field, thus arriving at the mathematical properties of what we now call the center of mass. Archimedes showed that the [[torque]] exerted on a [[lever]] by weights resting at various points along the lever is the same as what it would be if all of the weights were moved to a single point—their center of mass. In his work ''[[On Floating Bodies]]'', Archimedes demonstrated that the orientation of a floating object is the one that makes its center of mass as low as possible. He developed mathematical techniques for finding the centers of mass of objects of uniform density of various well-defined shapes.
-
-Other ancient mathematicians who contributed to the theory of the center of mass include [[Hero of Alexandria]] and [[Pappus of Alexandria]]. In the [[Science in the Renaissance|Renaissance]] and [[Scientific Revolution|Early Modern]] periods, work by [[Guido Ubaldi]], [[Francesco Maurolico]], [[Federico Commandino]], [[Evangelista Torricelli]], [[Simon Stevin]], [[Luca Valerio]], [[Jean-Charles de la Faille]], [[Paul Guldin]], [[John Wallis]], [[Christiaan Huygens]], [[Louis Carré (mathematician)|Louis Carré]], [[Pierre Varignon]], and [[Alexis Clairaut]] expanded the concept further.
-
-[[Newton's second law]] is reformulated with respect to the center of mass in [[Euler's laws#Euler's first law|Euler's first law]].
-
 =={{anchor|Definition of center of mass}}Definition==
 
 The center of mass is the unique point at the center of a distribution of mass in space that has the property that the weighted position [[Vector space|vectors]] relative to this point sum to zero. In analogy to statistics, the center of mass is the mean location of a distribution of mass in space.

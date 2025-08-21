@@ -46,14 +46,6 @@ Adding series resistance (for example, due to the resistance of the wire in a co
 == Terminology ==
 Although angular frequency is often loosely referred to as frequency, it differs from frequency by a factor of 2{{pi}}, which potentially leads confusion when the distinction is not made clear.
 
-== See also ==
-* [[Cycle per second]]
-* [[Radian per second]]
-* [[Degree (angle)]] 
-* [[Mean motion]]
-* [[Rotational frequency]]
-* [[Simple harmonic motion]]
-
 == References and notes ==
 
 '''Related Reading:'''

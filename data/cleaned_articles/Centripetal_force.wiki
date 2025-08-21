@@ -41,14 +41,6 @@ Thus the centripetal force is given by:
 <math display="block">F_c = \gamma m v \omega</math>
 which is the rate of change of [[relativistic momentum]] <math>\gamma m v</math>.
 
-== Sources ==
-
-In the case of an object that is swinging around on the end of a rope in a horizontal plane, the centripetal force on the object is supplied by the tension of the rope. The rope example is an example involving a 'pull' force. The centripetal force can also be supplied as a 'push' force, such as in the case where the normal reaction of a wall supplies the centripetal force for a [[wall of death (motorcycle act)|wall of death]] or a [[Rotor (ride)|Rotor]] rider.
-
-[[Isaac Newton|Newton]]'s idea of a centripetal force corresponds to what is nowadays referred to as a [[central force]]. When a [[satellite]] is in [[orbit]] around a [[planet]], gravity is considered to be a centripetal force even though in the case of eccentric orbits, the gravitational force is directed towards the focus, and not towards the instantaneous center of curvature.
-
-Another example of centripetal force arises in the helix that is traced out when a charged particle moves in a uniform [[magnetic field]] in the absence of other external forces. In this case, the magnetic force is the centripetal force that acts towards the helix axis.
-
 == Analysis of several cases ==
 
 Below are three examples of increasing complexity, with derivations of the formulas governing velocity and acceleration.
@@ -321,25 +313,3 @@ where ''v''(''t'') is the speed and ''t'' is time, and ''s''(''t'' = 0) = 0. The
 : <math>\mathbf{a} = \frac{\mathrm{d}v}{\mathrm{d}t}\mathbf{u}_\mathrm{t}(s) + v\frac{\mathrm{d}}{\mathrm{d}t}\mathbf{u}_\mathrm{t}(s) = \frac{\mathrm{d}v}{\mathrm{d}t}\mathbf{u}_\mathrm{t}(s)-v\frac{1}{\alpha}\mathbf{u}_\mathrm{n}(s)\frac{\mathrm{d}s}{\mathrm{d}t} </math>
 : <math>\mathbf{a} = \frac{\mathrm{d}v}{\mathrm{d}t}\mathbf{u}_\mathrm{t}(s)-\frac{v^2}{\alpha}\mathbf{u}_\mathrm{n}(s) \ , </math>
 where it already is established that α = ρ. This acceleration is the standard result for [[non-uniform circular motion]].
-
-== See also ==
-
-* [[Analytical mechanics]]
-* [[Applied mechanics]]
-* [[Bertrand theorem]]
-* [[Central force]]
-* [[Centrifugal force]]
-* [[Circular motion]]
-* [[Classical mechanics]]
-* [[Coriolis effect|Coriolis force]]
-* [[Dynamics (physics)]]
-* [[Eskimo yo-yo]]
-* [[Time derivative#Example: circular motion|Example: circular motion]]
-* [[Fictitious force]]
-* [[Frenet-Serret formulas]]
-* [[History of centrifugal and centripetal forces]]
-* [[Kinematics]]
-* [[Kinetics (physics)|Kinetics]]
-* [[Orthogonal coordinates]]
-* [[Reactive centrifugal force]]
-* [[Statics]]
