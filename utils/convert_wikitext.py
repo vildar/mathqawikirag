@@ -70,69 +70,66 @@ def convert_latex_to_text(latex_expr: str) -> str:
     return LatexNodes2Text().latex_to_text(latex_expr).strip()
 
 
-def template_to_latex(template):
-    """Recursively convert a template to LaTeX, and handle nested templates at the lowest level."""
+def template_to_latex(template, prev_text=""):
     name = str(template.name).strip().lower()
 
-    # If template is not allowed, return as-is
     if name not in ALLOWED_TEMPLATES:
         return str(template)
 
-    # Process parameters recursively
     param_values = {}
     for i, param in enumerate(template.params):
         value = str(param.value).strip()
-
-        # Clean HTML sup/sub if present
         value = re.sub(r'<sup>(.*?)</sup>', r'^{\1}', value)
         value = re.sub(r'<sub>(.*?)</sub>', r'_{\1}', value)
 
         # Recursively convert nested templates
         try:
             nested_templates = mwparserfromhell.parse(value).filter_templates()
-            if nested_templates:
-                # Convert all nested templates
-                for nt in nested_templates:
-                    value = value.replace(str(nt), template_to_latex(nt))
+            for nt in nested_templates:
+                value = value.replace(str(nt), template_to_latex(nt))
         except Exception:
             pass
 
-        # At lowest level: check if value itself contains a key from TEMPLATE_LATEX_MAP
-        # and convert it if possible
-        for key in TEMPLATE_LATEX_MAP.keys():
-            # simple check for {{key|...}} inside value
-            pattern = re.compile(
-                rf'{{{{\s*{re.escape(key)}\s*\|(.+?)}}}}', re.DOTALL)
-
-            def repl(m):
-                inner_value = m.group(1)
-                # Wrap as template and convert
-                pseudo_template = mwparserfromhell.parse(
-                    f"{{{{{key}|{inner_value}}}}}").filter_templates()[0]
-                return template_to_latex(pseudo_template)
-            value = pattern.sub(repl, value)
-
-        # Assign parameter names based on template type
+        # Assign parameters
         if name in ["sfrac", "frac", "cfrac"]:
-            if i == 0:
-                param_values["numerator"] = value
-            elif i == 1:
-                param_values["denominator"] = value
+            param_values["numerator" if i == 0 else "denominator"] = value
+        elif name == "binom":
+            param_values["n" if i == 0 else "k"] = value
         elif name in ["sub", "sup"]:
             if i == 0:
-                param_values["base"] = value
+                param_values["base"] = value  # just use value if provided
             elif i == 1:
                 param_values[name] = value
-        elif name in ["binom"]:
-            if i == 0:
-                param_values["n"] = value
-            elif i == 1:
-                param_values["k"] = value
         else:
             param_values["content"] = value
 
-    # Finally, format using the template map
-    return TEMPLATE_LATEX_MAP[name].format(**param_values)
+    if name in ["sub", "sup"]:
+        base = param_values.get("base", "")
+        sub = param_values.get("sub", "")
+        sup = param_values.get("sup", "")
+        if base and (sub or sup):
+            latex = TEMPLATE_LATEX_MAP[name].format(
+                base=base, sub=sub, sup=sup)
+        elif base:  # Only one argument, treat as sub/sup of previous token or just output
+            if name == "sup":
+                latex = f"^{{{base}}}"
+            else:
+                latex = f"_{{{base}}}"
+        else:
+            latex = ""
+    else:
+        latex = TEMPLATE_LATEX_MAP[name].format(
+            base=param_values.get("base", ""),
+            sub=param_values.get("sub", ""),
+            sup=param_values.get("sup", ""),
+            numerator=param_values.get("numerator", ""),
+            denominator=param_values.get("denominator", ""),
+            n=param_values.get("n", ""),
+            k=param_values.get("k", ""),
+            content=param_values.get("content", "")
+        )
+
+    return latex
 
 
 def extract_math_blocks(text):

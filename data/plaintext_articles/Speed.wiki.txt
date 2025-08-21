@@ -1,0 +1,174 @@
+In kinematics, the speed (commonly referred to as v) of an object is the
+magnitude of the change of its position over time or the magnitude of
+the change of its position per unit of time; it is thus a non-negative
+scalar quantity. The average speed of an object in an interval of time
+is the distance travelled by the object divided by the duration of the
+interval; the instantaneous speed is the limit of the average speed as
+the duration of the time interval approaches zero. Speed is the
+magnitude of velocity (a vector), which indicates additionally the
+direction of motion.
+
+Speed has the dimensions of distance divided by time. The SI unit of
+speed is the metre per second (m/s), but the most common unit of speed
+in everyday usage is the kilometre per hour (km/h) or, in the US and the
+UK, miles per hour (mph). For air and marine travel, the knot is
+commonly used.
+
+The fastest possible speed at which energy or information can travel,
+according to special relativity, is the speed of light in vacuum c =
+__MATH_0__ metres per second (approximately __MATH_1__ or __MATH_2__).
+Matter cannot quite reach the speed of light, as this would require an
+infinite amount of energy. In relativity physics, the concept of
+rapidity replaces the classical idea of speed.
+
+Definition
+
+Historical definition
+
+Italian physicist Galileo Galilei is usually credited with being the
+first to measure speed by considering the distance covered and the time
+it takes. Galileo defined speed as the distance covered per unit of
+time. In equation form, that is __MATH_3__ where __MATH_4__ is speed,
+__MATH_5__ is distance, and __MATH_6__ is time. A cyclist who covers 30
+metres in a time of 2 seconds, for example, has a speed of 15 metres per
+second. Objects in motion often have variations in speed (a car might
+travel along a street at 50 km/h, slow to 0 km/h, and then reach
+30 km/h).
+
+Instantaneous speed
+
+Speed at some instant, or assumed constant during a very short period of
+time, is called instantaneous speed. By looking at a speedometer, one
+can read the instantaneous speed of a car at any instant. A car
+travelling at 50 km/h generally goes for less than one hour at a
+constant speed, but if it did go at that speed for a full hour, it would
+travel 50 km. If the vehicle continued at that speed for half an hour,
+it would cover half that distance (25 km). If it continued for only one
+minute, it would cover about 833 m.
+
+In mathematical terms, the instantaneous speed __MATH_7__ is defined as
+the magnitude of the instantaneous velocity __MATH_8__, that is, the
+derivative of the position __MATH_9__ with respect to time: __MATH_10__
+
+If __MATH_11__ is the length of the path (also known as the distance)
+travelled until time __MATH_12__, the speed equals the time derivative
+of __MATH_13__: __MATH_14__
+
+In the special case where the velocity is constant (that is, constant
+speed in a straight line), this can be simplified to __MATH_15__. The
+average speed over a finite time interval is the total distance
+travelled divided by the time duration.
+
+Average speed
+
+Different from instantaneous speed, average speed is defined as the
+total distance covered divided by the time interval. For example, if a
+distance of 80 kilometres is driven in 1 hour, the average speed is 80
+kilometres per hour. Likewise, if 320 kilometres are travelled in 4
+hours, the average speed is also 80 kilometres per hour. When a distance
+in kilometres (km) is divided by a time in hours (h), the result is in
+kilometres per hour (km/h).
+
+Average speed does not describe the speed variations that may have taken
+place during shorter time intervals (as it is the entire distance
+covered divided by the total time of travel), and so average speed is
+often quite different from a value of instantaneous speed. If the
+average speed and the time of travel are known, the distance travelled
+can be calculated by rearranging the definition to __MATH_16__
+
+Using this equation for an average speed of 80 kilometres per hour on a
+4-hour trip, the distance covered is found to be 320 kilometres.
+
+Expressed in graphical language, the slope of a tangent line at any
+point of a distance-time graph is the instantaneous speed at this point,
+while the slope of a chord line of the same graph is the average speed
+during the time interval covered by the chord. Average speed of an
+object is Vav = s÷t
+
+Difference between speed and velocity
+
+Speed denotes only how fast an object is moving, whereas velocity
+describes both how fast and in which direction the object is moving. If
+a car is said to travel at 60 km/h, its speed has been specified.
+However, if the car is said to move at 60 km/h to the north, its
+velocity has now been specified.
+
+The big difference can be discerned when considering movement around a
+circle. When something moves in a circular path and returns to its
+starting point, its average velocity is zero, but its average speed is
+found by dividing the circumference of the circle by the time taken to
+move around the circle. This is because the average velocity is
+calculated by considering only the displacement between the starting and
+end points, whereas the average speed considers only the total distance
+travelled.
+
+Units
+
+Units of speed include:
+
+-   metres per second (symbol m s⁻¹ or m/s), the SI derived unit;
+-   kilometres per hour (symbol km/h);
+-   miles per hour (symbol mi/h or mph);
+-   knots (nautical miles per hour, symbol kn or kt);
+-   feet per second (symbol fps or ft/s);
+-   Mach number (dimensionless), speed divided by the speed of sound;
+-   in natural units (dimensionless), speed divided by the speed of
+    light in vacuum (symbol c = __MATH_17__).
+
+Examples of different speeds
+
+  Speed                                                           m/s           ft/s          km/h          mph           Notes
+  --------------------------------------------------------------- ------------- ------------- ------------- ------------- ------------------------------------------------------------------------------------------------------------------------------------
+  Global average sea level rise                                   __MATH_18__   __MATH_19__   __MATH_20__   __MATH_21__   3.5 mm/year[1]
+  Approximate rate of continental drift                           __MATH_22__   __MATH_23__   __MATH_24__   __MATH_25__   4 cm/year. Varies depending on location.
+  Speed of a common snail                                         0.001         0.003         0.004         0.002         1 millimetre per second
+  A brisk walk                                                    1.7           5.5           6.1           3.8           
+  A typical road cyclist                                          4.4           14.4          16            10            Varies widely by person, terrain, bicycle, effort, weather
+  A fast martial arts kick                                        7.7           25.2          27.7          17.2          Fastest kick recorded at 130 milliseconds from floor to target at 1 meter distance. Average velocity speed across kick duration[2]
+  Sprint runners                                                  12.2          40            43.92         27            Usain Bolt's 100 metres world record.
+  Approximate average speed of road race cyclists                 12.5          41.0          45            28            On flat terrain, will vary
+  Typical suburban speed limit in most of the world               13.8          45.3          50            30            
+  Taipei 101 observatory elevator                                 16.7          54.8          60.6          37.6          1010 m/min
+  Typical rural speed limit                                       24.6          80.66         88.5          56            
+  British National Speed Limit (single carriageway)               26.8          88            96.56         60            
+  Category 1 hurricane                                            33            108           119           74            Minimum sustained speed over one minute
+  Average peak speed of a cheetah                                 33.53         110           120.7         75            
+  Speed limit on a French autoroute                               36.1          118           130           81            
+  Highest recorded human-powered speed                            37.02         121.5         133.2         82.8          Sam Whittingham in a recumbent bicycle[3]
+  Average speed of Human sneeze                                   44.44         145.82        160           99.42         
+  Muzzle velocity of a paintball marker                           90            295           320           200           
+  Cruising speed of a Boeing 747-8 passenger jet                  255           836           917           570           Mach 0.85 at __MATH_26__ (__MATH_27__) altitude
+  Speed of a .22 caliber Long Rifle bullet                        326.14        1070          1174.09       729.55        
+  The official land speed record                                  341.1         1119.1        1227.98       763           
+  The speed of sound in dry air at sea-level pressure and 20 °C   343           __MATH_28__   __MATH_29__   768           Mach 1 by definition. 20 °C = 293.15 kelvins.
+  Muzzle velocity of a 7.62×39mm cartridge                        710           __MATH_30__   __MATH_31__   __MATH_32__   The 7.62×39mm round is a rifle cartridge of Soviet origin
+  Official flight airspeed record for jet engined aircraft        980           __MATH_33__   __MATH_34__   __MATH_35__   Lockheed SR-71 Blackbird
+  Space Shuttle on re-entry                                       __MATH_36__   __MATH_37__   __MATH_38__   17,500        
+  Escape velocity on Earth                                        __MATH_39__   __MATH_40__   __MATH_41__   __MATH_42__   11.2 km·s⁻¹
+  Voyager 1 relative velocity to the Sun in 2013                  __MATH_43__   __MATH_44__   __MATH_45__   __MATH_46__   Fastest heliocentric recession speed of any humanmade object.[4] (11 mi/s)
+  Average orbital speed of planet Earth around the Sun            __MATH_47__   __MATH_48__   __MATH_49__   __MATH_50__   
+  The fastest recorded speed of the Helios probes                 70,220        230,381       252,792       157,078       Recognized as the fastest speed achieved by a man-made spacecraft, achieved in solar orbit.
+  Orbital speed of the Sun relative to the center of the galaxy   __MATH_51__   __MATH_52__   __MATH_53__   __MATH_54__   
+  Speed of the Galaxy relative to the CMB                         __MATH_55__   __MATH_56__   __MATH_57__   __MATH_58__   
+  Speed of light in vacuum (symbol c)                             __MATH_59__   __MATH_60__   __MATH_61__   __MATH_62__   Exactly __MATH_63__, by definition of the metre
+  Speed                                                           m/s           ft/s          km/h          mph           Notes
+
+Psychology
+
+According to Jean Piaget, the intuition for the notion of speed in
+humans precedes that of duration, and is based on the notion of
+outdistancing. Piaget studied this subject inspired by a question asked
+to him in 1928 by Albert Einstein: "In what order do children acquire
+the concepts of time and speed?" Children's early concept of speed is
+based on "overtaking", taking only temporal and spatial orders into
+consideration, specifically: "A moving object is judged to be more rapid
+than another when at a given moment the first object is behind and a
+moment or so later ahead of the other object."
+
+[1]
+
+[2]
+
+[3]
+
+[4]

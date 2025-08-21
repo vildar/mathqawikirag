@@ -1,0 +1,925 @@
+In Newtonian mechanics, momentum (: momenta or momentums; more
+specifically linear momentum or translational momentum) is the product
+of the mass and velocity of an object. It is a vector quantity,
+possessing a magnitude and a direction. If __MATH_0__ is an object's
+mass and __MATH_1__ is its velocity (also a vector quantity), then the
+object's momentum __MATH_2__ (from Latin pellere "push, drive") is:
+__MATH_3__ In the International System of Units (SI), the unit of
+measurement of momentum is the kilogram metre per second (kg⋅m/s), which
+is dimensionally equivalent to the newton-second.
+
+Newton's second law of motion states that the rate of change of a body's
+momentum is equal to the net force acting on it. Momentum depends on the
+frame of reference, but in any inertial frame of reference, it is a
+conserved quantity, meaning that if a closed system is not affected by
+external forces, its total momentum does not change. Momentum is also
+conserved in special relativity (with a modified formula) and, in a
+modified form, in electrodynamics, quantum mechanics, quantum field
+theory, and general relativity. It is an expression of one of the
+fundamental symmetries of space and time: translational symmetry.
+
+Advanced formulations of classical mechanics, Lagrangian and Hamiltonian
+mechanics, allow one to choose coordinate systems that incorporate
+symmetries and constraints. In these systems the conserved quantity is
+generalized momentum, and in general this is different from the kinetic
+momentum defined above. The concept of generalized momentum is carried
+over into quantum mechanics, where it becomes an operator on a wave
+function. The momentum and position operators are related by the
+Heisenberg uncertainty principle.
+
+In continuous systems such as electromagnetic fields, fluid dynamics and
+deformable bodies, a momentum density can be defined as momentum per
+volume (a volume-specific quantity). A continuum version of the
+conservation of momentum leads to equations such as the Navier–Stokes
+equations for fluids or the Cauchy momentum equation for deformable
+solids or fluids.
+
+Classical
+
+Momentum is a vector quantity: it has both magnitude and direction.
+Since momentum has a direction, it can be used to predict the resulting
+direction and speed of motion of objects after they collide. Below, the
+basic properties of momentum are described in one dimension. The vector
+equations are almost identical to the scalar equations (see multiple
+dimensions).
+
+Single particle
+
+The momentum of a particle is conventionally represented by the letter
+__MATH_4__. It is the product of two quantities, the particle's mass
+(represented by the letter __MATH_5__) and its velocity (__MATH_6__):
+__MATH_7__
+
+The unit of momentum is the product of the units of mass and velocity.
+In SI units, if the mass is in kilograms and the velocity is in meters
+per second then the momentum is in kilogram meters per second (kg⋅m/s).
+In cgs units, if the mass is in grams and the velocity in centimeters
+per second, then the momentum is in gram centimeters per second
+(g⋅cm/s).
+
+Being a vector, momentum has magnitude and direction. For example, a
+1 kg model airplane, traveling due north at 1 m/s in straight and level
+flight, has a momentum of 1 kg⋅m/s due north measured with reference to
+the ground.
+
+Many particles
+
+The momentum of a system of particles is the vector sum of their
+momenta. If two particles have respective masses __MATH_8__ and
+__MATH_9__, and velocities __MATH_10__ and __MATH_11__, the total
+momentum is __MATH_12__ The momenta of more than two particles can be
+added more generally with the following: __MATH_13__
+
+A system of particles has a center of mass, a point determined by the
+weighted sum of their positions: __MATH_14__
+
+If one or more of the particles is moving, the center of mass of the
+system will generally be moving as well (unless the system is in pure
+rotation around it). If the total mass of the particles is __MATH_15__,
+and the center of mass is moving at velocity __MATH_16__, the momentum
+of the system is:
+
+__MATH_17__
+
+This is known as Euler's first law.
+
+Relation to force
+
+If the net force __MATH_18__ applied to a particle is constant, and is
+applied for a time interval __MATH_19__, the momentum of the particle
+changes by an amount __MATH_20__
+
+In differential form, this is Newton's second law; the rate of change of
+the momentum of a particle is equal to the instantaneous force
+__MATH_21__ acting on it, __MATH_22__
+
+If the net force experienced by a particle changes as a function of
+time, __MATH_23__, the change in momentum (or impulse __MATH_24__)
+between times __MATH_25__ and __MATH_26__ is __MATH_27__
+
+Impulse is measured in the derived units of the newton second (1 N⋅s =
+1 kg⋅m/s) or dyne second (1 dyne⋅s = 1 g⋅cm/s)
+
+Under the assumption of constant mass __MATH_28__, it is equivalent to
+write
+
+__MATH_29__
+
+hence the net force is equal to the mass of the particle times its
+acceleration.
+
+Example: A model airplane of mass 1 kg accelerates from rest to a
+velocity of 6 m/s due north in 2 s. The net force required to produce
+this acceleration is 3 newtons due north. The change in momentum is
+6 kg⋅m/s due north. The rate of change of momentum is 3 (kg⋅m/s)/s due
+north which is numerically equivalent to 3 newtons.
+
+Conservation
+
+In a closed system (one that does not exchange any matter with its
+surroundings and is not acted on by external forces) the total momentum
+remains constant. This fact, known as the law of conservation of
+momentum, is implied by Newton's laws of motion. Suppose, for example,
+that two particles interact. As explained by the third law, the forces
+between them are equal in magnitude but opposite in direction. If the
+particles are numbered 1 and 2, the second law states that __MATH_30__
+and __MATH_31__. Therefore,
+
+__MATH_32__ with the negative sign indicating that the forces oppose.
+Equivalently,
+
+__MATH_33__
+
+If the velocities of the particles are __MATH_34__ and __MATH_35__
+before the interaction, and afterwards they are __MATH_36__ and
+__MATH_37__, then
+
+__MATH_38__
+
+This law holds no matter how complicated the force is between particles.
+Similarly, if there are several particles, the momentum exchanged
+between each pair of particles adds to zero, so the total change in
+momentum is zero. The conservation of the total momentum of a number of
+interacting particles can be expressed as __MATH_39__
+
+This conservation law applies to all interactions, including collisions
+(both elastic and inelastic) and separations caused by explosive forces.
+It can also be generalized to situations where Newton's laws do not
+hold, for example in the theory of relativity and in electrodynamics.
+
+Dependence on reference frame
+
+Momentum is a measurable quantity, and the measurement depends on the
+frame of reference. For example: if an aircraft of mass 1000 kg is
+flying through the air at a speed of 50 m/s its momentum can be
+calculated to be 50,000 kg.m/s. If the aircraft is flying into a
+headwind of 5 m/s its speed relative to the surface of the Earth is only
+45 m/s and its momentum can be calculated to be 45,000 kg.m/s. Both
+calculations are equally correct. In both frames of reference, any
+change in momentum will be found to be consistent with the relevant laws
+of physics.
+
+Suppose __MATH_40__ is a position in an inertial frame of reference.
+From the point of view of another frame of reference, moving at a
+constant speed __MATH_41__ relative to the other, the position
+(represented by a primed coordinate) changes with time as
+
+__MATH_42__
+
+This is called a Galilean transformation.
+
+If a particle is moving at speed __MATH_43__ in the first frame of
+reference, in the second, it is moving at speed
+
+__MATH_44__
+
+Since __MATH_45__ does not change, the second reference frame is also an
+inertial frame and the accelerations are the same:
+
+__MATH_46__
+
+Thus, momentum is conserved in both reference frames. Moreover, as long
+as the force has the same form, in both frames, Newton's second law is
+unchanged. Forces such as Newtonian gravity, which depend only on the
+scalar distance between objects, satisfy this criterion. This
+independence of reference frame is called Newtonian relativity or
+Galilean invariance.
+
+A change of reference frame can often simplify calculations of motion.
+For example, in a collision of two particles, a reference frame can be
+chosen where one particle begins at rest. Another commonly used
+reference frame is the center of mass frame – one that is moving with
+the center of mass. In this frame, the total momentum is zero.
+
+Application to collisions
+
+If two particles, each of known momentum, collide and coalesce, the law
+of conservation of momentum can be used to determine the momentum of the
+coalesced body. If the outcome of the collision is that the two
+particles separate, the law is not sufficient to determine the momentum
+of each particle. If the momentum of one particle after the collision is
+known, the law can be used to determine the momentum of the other
+particle. Alternatively if the combined kinetic energy after the
+collision is known, the law can be used to determine the momentum of
+each particle after the collision. Kinetic energy is usually not
+conserved. If it is conserved, the collision is called an elastic
+collision; if not, it is an inelastic collision.
+
+Elastic collisions
+
+An elastic collision is one in which no kinetic energy is transformed
+into heat or some other form of energy. Perfectly elastic collisions can
+occur when the objects do not touch each other, as for example in atomic
+or nuclear scattering where electric repulsion keeps the objects apart.
+A slingshot maneuver of a satellite around a planet can also be viewed
+as a perfectly elastic collision. A collision between two pool balls is
+a good example of an almost totally elastic collision, due to their high
+rigidity, but when bodies come in contact there is always some
+dissipation.
+
+A head-on elastic collision between two bodies can be represented by
+velocities in one dimension, along a line passing through the bodies. If
+the velocities are __MATH_47__ and __MATH_48__ before the collision and
+__MATH_49__ and __MATH_50__ after, the equations expressing conservation
+of momentum and kinetic energy are:
+
+__MATH_51__
+
+A change of reference frame can simplify analysis of a collision. For
+example, suppose there are two bodies of equal mass __MATH_52__, one
+stationary and one approaching the other at a speed __MATH_53__ (as in
+the figure). The center of mass is moving at speed __MATH_54__ and both
+bodies are moving towards it at speed __MATH_55__. Because of the
+symmetry, after the collision both must be moving away from the center
+of mass at the same speed. Adding the speed of the center of mass to
+both, we find that the body that was moving is now stopped and the other
+is moving away at speed __MATH_56__. The bodies have exchanged their
+velocities. Regardless of the velocities of the bodies, a switch to the
+center of mass frame leads us to the same conclusion. Therefore, the
+final velocities are given by
+
+__MATH_57__
+
+In general, when the initial velocities are known, the final velocities
+are given by
+
+__MATH_58__
+
+If one body has much greater mass than the other, its velocity will be
+little affected by a collision while the other body will experience a
+large change.
+
+Inelastic collisions
+
+In an inelastic collision, some of the kinetic energy of the colliding
+bodies is converted into other forms of energy (such as heat or sound).
+Examples include traffic collisions, in which the effect of loss of
+kinetic energy can be seen in the damage to the vehicles; electrons
+losing some of their energy to atoms (as in the Franck–Hertz
+experiment); and particle accelerators in which the kinetic energy is
+converted into mass in the form of new particles.
+
+In a perfectly inelastic collision (such as a bug hitting a windshield),
+both bodies have the same motion afterwards. A head-on inelastic
+collision between two bodies can be represented by velocities in one
+dimension, along a line passing through the bodies. If the velocities
+are __MATH_59__ and __MATH_60__ before the collision then in a perfectly
+inelastic collision both bodies will be travelling with velocity
+__MATH_61____MATH_62__ after the collision. The equation expressing
+conservation of momentum is:
+
+__MATH_63__
+
+If one body is motionless to begin with (e.g. __MATH_64__), the equation
+for conservation of momentum is
+
+__MATH_65__
+
+so
+
+__MATH_66__
+
+In a different situation, if the frame of reference is moving at the
+final velocity such that __MATH_67__, the objects would be brought to
+rest by a perfectly inelastic collision and 100% of the kinetic energy
+is converted to other forms of energy. In this instance the initial
+velocities of the bodies would be non-zero, or the bodies would have to
+be massless.
+
+One measure of the inelasticity of the collision is the coefficient of
+restitution __MATH_68__, defined as the ratio of relative velocity of
+separation to relative velocity of approach. In applying this measure to
+a ball bouncing from a solid surface, this can be easily measured using
+the following formula:
+
+__MATH_69__
+
+The momentum and energy equations also apply to the motions of objects
+that begin together and then move apart. For example, an explosion is
+the result of a chain reaction that transforms potential energy stored
+in chemical, mechanical, or nuclear form into kinetic energy, acoustic
+energy, and electromagnetic radiation. Rockets also make use of
+conservation of momentum: propellant is thrust outward, gaining
+momentum, and an equal and opposite momentum is imparted to the rocket.
+
+Multiple dimensions
+
+Real motion has both direction and velocity and must be represented by a
+vector. In a coordinate system with __MATH_70__ axes, velocity has
+components __MATH_71__ in the __MATH_72__-direction, __MATH_73__ in the
+__MATH_74__-direction, __MATH_75__ in the __MATH_76__-direction. The
+vector is represented by a boldface symbol:
+
+__MATH_77__
+
+Similarly, the momentum is a vector quantity and is represented by a
+boldface symbol:
+
+__MATH_78__
+
+The equations in the previous sections, work in vector form if the
+scalars __MATH_79__ and __MATH_80__ are replaced by vectors __MATH_81__
+and __MATH_82__. Each vector equation represents three scalar equations.
+For example,
+
+__MATH_83__
+
+represents three equations:
+
+__MATH_84__
+
+The kinetic energy equations are exceptions to the above replacement
+rule. The equations are still one-dimensional, but each scalar
+represents the magnitude of the vector, for example,
+
+__MATH_85__
+
+Each vector equation represents three scalar equations. Often
+coordinates can be chosen so that only two components are needed, as in
+the figure. Each component can be obtained separately and the results
+combined to produce a vector result.
+
+A simple construction involving the center of mass frame can be used to
+show that if a stationary elastic sphere is struck by a moving sphere,
+the two will head off at right angles after the collision (as in the
+figure).
+
+Objects of variable mass
+
+The concept of momentum plays a fundamental role in explaining the
+behavior of variable-mass objects such as a rocket ejecting fuel or a
+star accreting gas. In analyzing such an object, one treats the object's
+mass as a function that varies with time: __MATH_86__. The momentum of
+the object at time __MATH_87__ is therefore __MATH_88__. One might then
+try to invoke Newton's second law of motion by saying that the external
+force __MATH_89__ on the object is related to its momentum __MATH_90__
+by __MATH_91__, but this is incorrect, as is the related expression
+found by applying the product rule to __MATH_92__:
+
+__MATH_93__
+
+This equation does not correctly describe the motion of variable-mass
+objects. The correct equation is
+
+__MATH_94__
+
+where __MATH_95__ is the velocity of the ejected/accreted mass as seen
+in the object's rest frame. This is distinct from __MATH_96__, which is
+the velocity of the object itself as seen in an inertial frame.
+
+This equation is derived by keeping track of both the momentum of the
+object as well as the momentum of the ejected/accreted mass
+(__MATH_97__). When considered together, the object and the mass
+(__MATH_98__) constitute a closed system in which total momentum is
+conserved.
+
+__MATH_99__
+
+Generalized
+
+Newton's laws can be difficult to apply to many kinds of motion because
+the motion is limited by constraints. For example, a bead on an abacus
+is constrained to move along its wire and a pendulum bob is constrained
+to swing at a fixed distance from the pivot. Many such constraints can
+be incorporated by changing the normal Cartesian coordinates to a set of
+generalized coordinates that may be fewer in number. Refined
+mathematical methods have been developed for solving mechanics problems
+in generalized coordinates. They introduce a generalized momentum, also
+known as the canonical momentum or conjugate momentum, that extends the
+concepts of both linear momentum and angular momentum. To distinguish it
+from generalized momentum, the product of mass and velocity is also
+referred to as mechanical momentum, kinetic momentum or kinematic
+momentum. The two main methods are described below.
+
+Lagrangian mechanics
+
+In Lagrangian mechanics, a Lagrangian is defined as the difference
+between the kinetic energy __MATH_100__ and the potential energy
+__MATH_101__:
+
+__MATH_102__
+
+If the generalized coordinates are represented as a vector __MATH_103__
+and time differentiation is represented by a dot over the variable, then
+the equations of motion (known as the Lagrange or Euler–Lagrange
+equations) are a set of __MATH_104__ equations:
+
+__MATH_105__
+
+If a coordinate __MATH_106__ is not a Cartesian coordinate, the
+associated generalized momentum component __MATH_107__ does not
+necessarily have the dimensions of linear momentum. Even if __MATH_108__
+is a Cartesian coordinate, __MATH_109__ will not be the same as the
+mechanical momentum if the potential depends on velocity. Some sources
+represent the kinematic momentum by the symbol __MATH_110__.
+
+In this mathematical framework, a generalized momentum is associated
+with the generalized coordinates. Its components are defined as
+
+__MATH_111__
+
+Each component __MATH_112__ is said to be the conjugate momentum for the
+coordinate __MATH_113__.
+
+Now if a given coordinate __MATH_114__ does not appear in the Lagrangian
+(although its time derivative might appear), then __MATH_115__ is
+constant. This is the generalization of the conservation of momentum.
+
+Even if the generalized coordinates are just the ordinary spatial
+coordinates, the conjugate momenta are not necessarily the ordinary
+momentum coordinates. An example is found in the section on
+electromagnetism.
+
+Hamiltonian mechanics
+
+In Hamiltonian mechanics, the Lagrangian (a function of generalized
+coordinates and their derivatives) is replaced by a Hamiltonian that is
+a function of generalized coordinates and momentum. The Hamiltonian is
+defined as
+
+__MATH_116__
+
+where the momentum is obtained by differentiating the Lagrangian as
+above. The Hamiltonian equations of motion are
+
+__MATH_117__
+
+As in Lagrangian mechanics, if a generalized coordinate does not appear
+in the Hamiltonian, its conjugate momentum component is conserved.
+
+Symmetry and conservation
+
+Conservation of momentum is a mathematical consequence of the
+homogeneity (shift symmetry) of space (position in space is the
+canonical conjugate quantity to momentum). That is, conservation of
+momentum is a consequence of the fact that the laws of physics do not
+depend on position; this is a special case of Noether's theorem. For
+systems that do not have this symmetry, it may not be possible to define
+conservation of momentum. Examples where conservation of momentum does
+not apply include curved spacetimes in general relativity or time
+crystals in condensed matter physics.
+
+Momentum density
+
+In deformable bodies and fluids
+
+Conservation in a continuum
+
+In fields such as fluid dynamics and solid mechanics, it is not feasible
+to follow the motion of individual atoms or molecules. Instead, the
+materials must be approximated by a continuum in which, at each point,
+there is a particle or fluid parcel that is assigned the average of the
+properties of atoms in a small region nearby. In particular, it has a
+density __MATH_118__ and velocity __MATH_119__ that depend on time
+__MATH_120__ and position __MATH_121__. The momentum per unit volume is
+__MATH_122__.
+
+Consider a column of water in hydrostatic equilibrium. All the forces on
+the water are in balance and the water is motionless. On any given drop
+of water, two forces are balanced. The first is gravity, which acts
+directly on each atom and molecule inside. The gravitational force per
+unit volume is __MATH_123__, where __MATH_124__ is the gravitational
+acceleration. The second force is the sum of all the forces exerted on
+its surface by the surrounding water. The force from below is greater
+than the force from above by just the amount needed to balance gravity.
+The normal force per unit area is the pressure __MATH_125__. The average
+force per unit volume inside the droplet is the gradient of the
+pressure, so the force balance equation is
+
+__MATH_126__
+
+If the forces are not balanced, the droplet accelerates. This
+acceleration is not simply the partial derivative __MATH_127__ because
+the fluid in a given volume changes with time. Instead, the material
+derivative is needed:
+
+__MATH_128__
+
+Applied to any physical quantity, the material derivative includes the
+rate of change at a point and the changes due to advection as fluid is
+carried past the point. Per unit volume, the rate of change in momentum
+is equal to __MATH_129__. This is equal to the net force on the droplet.
+
+Forces that can change the momentum of a droplet include the gradient of
+the pressure and gravity, as above. In addition, surface forces can
+deform the droplet. In the simplest case, a shear stress __MATH_130__,
+exerted by a force parallel to the surface of the droplet, is
+proportional to the rate of deformation or strain rate. Such a shear
+stress occurs if the fluid has a velocity gradient because the fluid is
+moving faster on one side than another. If the speed in the __MATH_131__
+direction varies with __MATH_132__, the tangential force in direction
+__MATH_133__ per unit area normal to the __MATH_134__ direction is
+
+__MATH_135__
+
+where __MATH_136__ is the viscosity. This is also a flux, or flow per
+unit area, of __MATH_137__-momentum through the surface.
+
+Including the effect of viscosity, the momentum balance equations for
+the incompressible flow of a Newtonian fluid are
+
+__MATH_138__
+
+These are known as the Navier–Stokes equations.
+
+The momentum balance equations can be extended to more general
+materials, including solids. For each surface with normal in direction
+__MATH_139__ and force in direction __MATH_140__, there is a stress
+component __MATH_141__. The nine components make up the Cauchy stress
+tensor __MATH_142__, which includes both pressure and shear. The local
+conservation of momentum is expressed by the Cauchy momentum equation:
+
+__MATH_143__
+
+where __MATH_144__ is the body force.
+
+The Cauchy momentum equation is broadly applicable to deformations of
+solids and liquids. The relationship between the stresses and the strain
+rate depends on the properties of the material (see Types of viscosity).
+
+Acoustic waves
+
+A disturbance in a medium gives rise to oscillations, or waves, that
+propagate away from their source. In a fluid, small changes in pressure
+__MATH_145__ can often be described by the acoustic wave equation:
+
+__MATH_146__
+
+where __MATH_147__ is the speed of sound. In a solid, similar equations
+can be obtained for propagation of pressure (P-waves) and shear
+(S-waves).
+
+The flux, or transport per unit area, of a momentum component
+__MATH_148__ by a velocity __MATH_149__ is equal to __MATH_150__. In the
+linear approximation that leads to the above acoustic equation, the time
+average of this flux is zero. However, nonlinear effects can give rise
+to a nonzero average. It is possible for momentum flux to occur even
+though the wave itself does not have a mean momentum.
+
+In electromagnetics
+
+Particle in a field
+
+In Maxwell's equations, the forces between particles are mediated by
+electric and magnetic fields. The electromagnetic force (Lorentz force)
+on a particle with charge __MATH_151__ due to a combination of electric
+field __MATH_152__ and magnetic field __MATH_153__ is
+
+__MATH_154__
+
+(in SI units). It has an electric potential __MATH_155__ and magnetic
+vector potential __MATH_156__. In the non-relativistic regime, its
+generalized momentum is
+
+__MATH_157__
+
+while in relativistic mechanics this becomes
+
+__MATH_158__
+
+The quantity __MATH_159__ is sometimes called the potential momentum. It
+is the momentum due to the interaction of the particle with the
+electromagnetic fields. The name is an analogy with the potential energy
+__MATH_160__, which is the energy due to the interaction of the particle
+with the electromagnetic fields. These quantities form a four-vector, so
+the analogy is consistent; besides, the concept of potential momentum is
+important in explaining the so-called hidden momentum of the
+electromagnetic fields.
+
+Conservation
+
+In Newtonian mechanics, the law of conservation of momentum can be
+derived from the law of action and reaction, which states that every
+force has a reciprocating equal and opposite force. Under some
+circumstances, moving charged particles can exert forces on each other
+in non-opposite directions. Nevertheless, the combined momentum of the
+particles and the electromagnetic field is conserved.
+
+Vacuum
+
+The Lorentz force imparts a momentum to the particle, so by Newton's
+second law the particle must impart a momentum to the electromagnetic
+fields.
+
+In a vacuum, the momentum per unit volume is
+
+__MATH_161__
+
+where __MATH_162__ is the vacuum permeability and __MATH_163__ is the
+speed of light. The momentum density is proportional to the Poynting
+vector __MATH_164__ which gives the directional rate of energy transfer
+per unit area:
+
+__MATH_165__
+
+If momentum is to be conserved over the volume __MATH_166__ over a
+region __MATH_167__, changes in the momentum of matter through the
+Lorentz force must be balanced by changes in the momentum of the
+electromagnetic field and outflow of momentum. If __MATH_168__ is the
+momentum of all the particles in __MATH_169__, and the particles are
+treated as a continuum, then Newton's second law gives
+
+__MATH_170__
+
+The electromagnetic momentum is
+
+__MATH_171__
+
+and the equation for conservation of each component __MATH_172__ of the
+momentum is
+
+__MATH_173__
+
+The term on the right is an integral over the surface area __MATH_174__
+of the surface __MATH_175__ representing momentum flow into and out of
+the volume, and __MATH_176__ is a component of the surface normal of
+__MATH_177__. The quantity __MATH_178__ is called the Maxwell stress
+tensor, defined as
+
+__MATH_179__
+
+Media
+
+The above results are for the microscopic Maxwell equations, applicable
+to electromagnetic forces in a vacuum (or on a very small scale in
+media). It is more difficult to define momentum density in media because
+the division into electromagnetic and mechanical is arbitrary. The
+definition of electromagnetic momentum density is modified to
+
+__MATH_180__
+
+where the H-field __MATH_181__ is related to the B-field and the
+magnetization __MATH_182__ by
+
+__MATH_183__
+
+The electromagnetic stress tensor depends on the properties of the
+media.
+
+Non-classical
+
+Quantum mechanical
+
+In quantum mechanics, momentum is defined as a self-adjoint operator on
+the wave function. The Heisenberg uncertainty principle defines limits
+on how accurately the momentum and position of a single observable
+system can be known at once. In quantum mechanics, position and momentum
+are conjugate variables.
+
+For a single particle described in the position basis the momentum
+operator can be written as
+
+__MATH_184__
+
+where __MATH_185__ is the gradient operator, __MATH_186__ is the reduced
+Planck constant, and __MATH_187__ is the imaginary unit. This is a
+commonly encountered form of the momentum operator, though the momentum
+operator in other bases can take other forms. For example, in momentum
+space the momentum operator is represented by the eigenvalue equation
+
+__MATH_188__
+
+where the operator __MATH_189__ acting on a wave eigenfunction
+__MATH_190__ yields that wave function multiplied by the eigenvalue
+__MATH_191__, in an analogous fashion to the way that the position
+operator acting on a wave function __MATH_192__ yields that wave
+function multiplied by the eigenvalue __MATH_193__.
+
+For both massive and massless objects, relativistic momentum is related
+to the phase constant __MATH_194__ by
+
+__MATH_195__
+
+Electromagnetic radiation (including visible light, ultraviolet light,
+and radio waves) is carried by photons. Even though photons (the
+particle aspect of light) have no mass, they still carry momentum. This
+leads to applications such as the solar sail. The calculation of the
+momentum of light within dielectric media is somewhat controversial (see
+Abraham–Minkowski controversy).
+
+Relativistic
+
+Lorentz invariance
+
+Newtonian physics assumes that absolute time and space exist outside of
+any observer; this gives rise to Galilean invariance. It also results in
+a prediction that the speed of light can vary from one reference frame
+to another. This is contrary to what has been observed. In the special
+theory of relativity, Einstein keeps the postulate that the equations of
+motion do not depend on the reference frame, but assumes that the speed
+of light __MATH_196__ is invariant. As a result, position and time in
+two reference frames are related by the Lorentz transformation instead
+of the Galilean transformation.
+
+Consider, for example, one reference frame moving relative to another at
+velocity __MATH_197__ in the __MATH_198__ direction. The Galilean
+transformation gives the coordinates of the moving frame as
+
+__MATH_199__
+
+while the Lorentz transformation gives
+
+__MATH_200__
+
+where __MATH_201__ is the Lorentz factor:
+
+__MATH_202__
+
+Newton's second law, with mass fixed, is not invariant under a Lorentz
+transformation. However, it can be made invariant by making the inertial
+mass __MATH_203__ of an object a function of velocity:
+
+__MATH_204__
+
+__MATH_205__ is the object's invariant mass.
+
+The modified momentum,
+
+__MATH_206__
+
+obeys Newton's second law:
+
+__MATH_207__
+
+Within the domain of classical mechanics, relativistic momentum closely
+approximates Newtonian momentum: at low velocity, __MATH_208__ is
+approximately equal to __MATH_209__, the Newtonian expression for
+momentum.
+
+Four-vector formulation
+
+In the theory of special relativity, physical quantities are expressed
+in terms of four-vectors that include time as a fourth coordinate along
+with the three space coordinates. These vectors are generally
+represented by capital letters, for example __MATH_210__ for position.
+The expression for the four-momentum depends on how the coordinates are
+expressed. Time may be given in its normal units or multiplied by the
+speed of light so that all the components of the four-vector have
+dimensions of length. If the latter scaling is used, an interval of
+proper time, __MATH_211__, defined by
+
+__MATH_212__
+
+is invariant under Lorentz transformations (in this expression and in
+what follows the metric signature has been used, different authors use
+different conventions). Mathematically this invariance can be ensured in
+one of two ways: by treating the four-vectors as Euclidean vectors and
+multiplying time by __MATH_213__; or by keeping time a real quantity and
+embedding the vectors in a Minkowski space. In a Minkowski space, the
+scalar product of two four-vectors __MATH_214__ and __MATH_215__ is
+defined as
+
+__MATH_216__
+
+In all the coordinate systems, the (contravariant) relativistic
+four-velocity is defined by
+
+__MATH_217__
+
+and the (contravariant) four-momentum is
+
+__MATH_218__
+
+where __MATH_219__ is the invariant mass. If __MATH_220__ (in Minkowski
+space), then
+
+__MATH_221__
+
+Using Einstein's mass–energy equivalence, __MATH_222__, this can be
+rewritten as
+
+__MATH_223__
+
+Thus, conservation of four-momentum is Lorentz-invariant and implies
+conservation of both mass and energy.
+
+The magnitude of the momentum four-vector is equal to __MATH_224__:
+
+__MATH_225__
+
+and is invariant across all reference frames.
+
+The relativistic energy–momentum relationship holds even for massless
+particles such as photons; by setting __MATH_226__ it follows that
+
+__MATH_227__
+
+In a game of relativistic "billiards", if a stationary particle is hit
+by a moving particle in an elastic collision, the paths formed by the
+two afterwards will form an acute angle. This is unlike the
+non-relativistic case where they travel at right angles.
+
+The four-momentum of a planar wave can be related to a wave four-vector
+
+__MATH_228__
+
+For a particle, the relationship between temporal components,
+__MATH_229__, is the Planck–Einstein relation, and the relation between
+spatial components, __MATH_230__, describes a de Broglie matter wave.
+
+History of the concept
+
+Impetus
+
+John Philoponus
+
+In about 530 AD, John Philoponus developed a concept of momentum in On
+Physics, a commentary to Aristotle's Physics. Aristotle claimed that
+everything that is moving must be kept moving by something. For example,
+a thrown ball must be kept moving by motions of the air. Philoponus
+pointed out the absurdity in Aristotle's claim that motion of an object
+is promoted by the same air that is resisting its passage. He proposed
+instead that an impetus was imparted to the object in the act of
+throwing it.
+
+Ibn Sīnā
+
+In 1020, Ibn Sīnā (also known by his Latinized name Avicenna) read
+Philoponus and published his own theory of motion in The Book of
+Healing. He agreed that an impetus is imparted to a projectile by the
+thrower; but unlike Philoponus, who believed that it was a temporary
+virtue that would decline even in a vacuum, he viewed it as a
+persistent, requiring external forces such as air resistance to
+dissipate it.
+
+Peter Olivi, Jean Buridan
+
+In the 13th and 14th century, Peter Olivi and Jean Buridan read and
+refined the work of Philoponus, and possibly that of Ibn Sīnā. Buridan,
+who in about 1350 was made rector of the University of Paris, referred
+to impetus being proportional to the weight times the speed. Moreover,
+Buridan's theory was different from his predecessor's in that he did not
+consider impetus to be self-dissipating, asserting that a body would be
+arrested by the forces of air resistance and gravity which might be
+opposing its impetus.
+
+Quantity of motion
+
+René Descartes
+
+In Principles of Philosophy (Principia Philosophiae) from 1644, the
+French philosopher René Descartes defined "quantity of motion" (Latin:
+quantitas motus) as the product of size and speed, and claimed that the
+total quantity of motion in the universe is conserved.
+
+This should not be read as a statement of the modern law of conservation
+of momentum, since Descartes had no concept of mass as distinct from
+weight and size. (The concept of mass, as distinct from weight, was
+introduced by Newton in 1686.) More important, he believed that it is
+speed rather than velocity that is conserved. So for Descartes, if a
+moving object were to bounce off a surface, changing its direction but
+not its speed, there would be no change in its quantity of motion.
+Galileo, in his Two New Sciences (published in 1638), used the Italian
+word to similarly describe Descartes's quantity of motion.
+
+Christiaan Huygens
+
+In the 1600s, Christiaan Huygens concluded quite early that Descartes's
+laws for the elastic collision of two bodies must be wrong, and he
+formulated the correct laws. An important step was his recognition of
+the Galilean invariance of the problems. His views then took many years
+to be circulated. He passed them on in person to William Brouncker and
+Christopher Wren in London, in 1661. What Spinoza wrote to Henry
+Oldenburg about them, in 1666 during the Second Anglo-Dutch War, was
+guarded. Huygens had actually worked them out in a manuscript in the
+period 1652–1656. The war ended in 1667, and Huygens announced his
+results to the Royal Society in 1668. He published them in the in 1669.
+
+Momentum
+
+John Wallis
+
+In 1670, John Wallis, in , stated the law of conservation of momentum:
+"the initial state of the body, either of rest or of motion, will
+persist" and "If the force is greater than the resistance, motion will
+result". Wallis used momentum for quantity of motion, and for force.
+
+Gottfried Leibniz
+
+In 1686, Gottfried Wilhelm Leibniz, in Discourse on Metaphysics, gave an
+argument against Descartes' construction of the conservation of the
+"quantity of motion" using an example of dropping blocks of different
+sizes different distances. He points out that force is conserved but
+quantity of motion, construed as the product of size and speed of an
+object, is not conserved.
+
+Isaac Newton
+
+In 1687, Isaac Newton, in , just like Wallis, showed a similar casting
+around for words to use for the mathematical momentum. His Definition II
+defines , "quantity of motion", as "arising from the velocity and
+quantity of matter conjointly", which identifies it as momentum. Thus
+when in Law II he refers to , "change of motion", being proportional to
+the force impressed, he is generally taken to mean momentum and not
+motion.
+
+John Jennings
+
+In 1721, John Jennings published Miscellanea, where the momentum in its
+current mathematical sense is attested, five years before the final
+edition of Newton's . Momentum __MATH_231__ or "quantity of motion" was
+being defined for students as "a rectangle", the product of __MATH_232__
+and __MATH_233__, where __MATH_234__ is "quantity of material" and
+__MATH_235__ is "velocity", __MATH_236__.
+
+In 1728, the Cyclopedia states:
