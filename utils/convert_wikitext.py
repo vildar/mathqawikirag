@@ -70,6 +70,71 @@ def convert_latex_to_text(latex_expr: str) -> str:
     return LatexNodes2Text().latex_to_text(latex_expr).strip()
 
 
+def template_to_latex(template):
+    """Recursively convert a template to LaTeX, and handle nested templates at the lowest level."""
+    name = str(template.name).strip().lower()
+
+    # If template is not allowed, return as-is
+    if name not in ALLOWED_TEMPLATES:
+        return str(template)
+
+    # Process parameters recursively
+    param_values = {}
+    for i, param in enumerate(template.params):
+        value = str(param.value).strip()
+
+        # Clean HTML sup/sub if present
+        value = re.sub(r'<sup>(.*?)</sup>', r'^{\1}', value)
+        value = re.sub(r'<sub>(.*?)</sub>', r'_{\1}', value)
+
+        # Recursively convert nested templates
+        try:
+            nested_templates = mwparserfromhell.parse(value).filter_templates()
+            if nested_templates:
+                # Convert all nested templates
+                for nt in nested_templates:
+                    value = value.replace(str(nt), template_to_latex(nt))
+        except Exception:
+            pass
+
+        # At lowest level: check if value itself contains a key from TEMPLATE_LATEX_MAP
+        # and convert it if possible
+        for key in TEMPLATE_LATEX_MAP.keys():
+            # simple check for {{key|...}} inside value
+            pattern = re.compile(
+                rf'{{{{\s*{re.escape(key)}\s*\|(.+?)}}}}', re.DOTALL)
+
+            def repl(m):
+                inner_value = m.group(1)
+                # Wrap as template and convert
+                pseudo_template = mwparserfromhell.parse(
+                    f"{{{{{key}|{inner_value}}}}}").filter_templates()[0]
+                return template_to_latex(pseudo_template)
+            value = pattern.sub(repl, value)
+
+        # Assign parameter names based on template type
+        if name in ["sfrac", "frac", "cfrac"]:
+            if i == 0:
+                param_values["numerator"] = value
+            elif i == 1:
+                param_values["denominator"] = value
+        elif name in ["sub", "sup"]:
+            if i == 0:
+                param_values["base"] = value
+            elif i == 1:
+                param_values[name] = value
+        elif name in ["binom"]:
+            if i == 0:
+                param_values["n"] = value
+            elif i == 1:
+                param_values["k"] = value
+        else:
+            param_values["content"] = value
+
+    # Finally, format using the template map
+    return TEMPLATE_LATEX_MAP[name].format(**param_values)
+
+
 def extract_math_blocks(text):
     wikicode = mwparserfromhell.parse(text)
     math_blocks = []
@@ -79,15 +144,13 @@ def extract_math_blocks(text):
             if isinstance(node, mwparserfromhell.nodes.Tag) and node.tag.lower() == 'math':
                 index = len(math_blocks)
                 math_blocks.append(str(node.contents).strip())
-                # Correct replacement
                 wikicode_obj.replace(node, f"__MATH_{index}__")
             elif isinstance(node, mwparserfromhell.nodes.Template):
                 name = str(node.name).strip().lower()
                 if name in ALLOWED_TEMPLATES:
                     index = len(math_blocks)
-                    content = ' | '.join(str(p.value).strip()
-                                         for p in node.params)
-                    math_blocks.append(content)
+                    latex_content = template_to_latex(node)
+                    math_blocks.append(latex_content)
                     wikicode_obj.replace(node, f"__MATH_{index}__")
             # Recurse if node has child Wikicode
             if hasattr(node, 'contents') and isinstance(node.contents, mwparserfromhell.wikicode.Wikicode):
