@@ -36,8 +36,8 @@ The moment of inertia plays the role in rotational kinetics that mass
 body to changes in its motion. The moment of inertia depends on how mass
 is distributed around an axis of rotation, and will vary depending on
 the chosen axis. For a point-like mass, the moment of inertia about some
-axis is given by __MATH_0__, where __MATH_1__ is the distance of the
-point from the axis, and __MATH_2__ is the mass. For an extended rigid
+axis is given by mr^2, where r is the distance of the
+point from the axis, and m is the mass. For an extended rigid
 body, the moment of inertia is just the sum of all the small pieces of
 mass multiplied by the square of their distances from the axis in
 rotation. For an extended body of a regular shape and uniform density,
@@ -79,9 +79,9 @@ The moment of inertia is defined as the product of mass of section and
 the square of the distance between the reference axis and the centroid
 of the section.
 
-The moment of inertia __MATH_3__ is also defined as the ratio of the net
-angular momentum __MATH_4__ of a system to its angular velocity
-__MATH_5__ around a principal axis, that is __MATH_6__
+The moment of inertia I is also defined as the ratio of the net
+angular momentum L of a system to its angular velocity
+ω around a principal axis, that is I = L/ω.
 
 If the angular momentum of a system is constant, then as the moment of
 inertia gets smaller, the angular velocity must increase. This occurs
@@ -90,27 +90,27 @@ curl their bodies into a tuck position during a dive, to spin faster.
 
 If the shape of the body does not change, then its moment of inertia
 appears in Newton's law of motion as the ratio of an applied torque
-__MATH_7__ on a body to the angular acceleration __MATH_8__ around a
-principal axis, that is __MATH_9__
+τ on a body to the angular acceleration α around a
+principal axis, that is τ= I α.
 
 For a simple pendulum, this definition yields a formula for the moment
-of inertia __MATH_10__ in terms of the mass __MATH_11__ of the pendulum
-and its distance __MATH_12__ from the pivot point as, __MATH_13__
+of inertia I in terms of the mass m of the pendulum
+and its distance r from the pivot point as, I = mr^2.
 
 Thus, the moment of inertia of the pendulum depends on both the mass
-__MATH_14__ of a body and its geometry, or shape, as defined by the
-distance __MATH_15__ to the axis of rotation.
+m of a body and its geometry, or shape, as defined by the
+distance r to the axis of rotation.
 
 This simple formula generalizes to define moment of inertia for an
 arbitrarily shaped body as the sum of all the elemental point masses
-__MATH_16__ each multiplied by the square of its perpendicular distance
-__MATH_17__ to an axis __MATH_18__. An arbitrary object's moment of
+”dm” each multiplied by the square of its perpendicular distance
+r to an axis k. An arbitrary object's moment of
 inertia thus depends on the spatial distribution of its mass.
 
-In general, given an object of mass __MATH_19__, an effective radius
-__MATH_20__ can be defined, dependent on a particular axis of rotation,
+In general, given an object of mass m, an effective radius
+k can be defined, dependent on a particular axis of rotation,
 with such a value that its moment of inertia around the axis is
-__MATH_21__ where __MATH_22__ is known as the radius of gyration around
+I = m k^2, where k is known as the radius of gyration around
 the axis.
 
 Examples
@@ -120,38 +120,44 @@ Simple pendulum
 Mathematically, the moment of inertia of a simple pendulum is the ratio
 of the torque due to gravity about the pivot of a pendulum to its
 angular acceleration about that pivot point. For a simple pendulum, this
-is found to be the product of the mass of the particle __MATH_23__ with
-the square of its distance __MATH_24__ to the pivot, that is __MATH_25__
+is found to be the product of the mass of the particle m with
+the square of its distance r to the pivot, that is I = mr^2.
 
 This can be shown as follows:
 
 The force of gravity on the mass of a simple pendulum generates a torque
-__MATH_26__ around the axis perpendicular to the plane of the pendulum
-movement. Here __MATH_27__ is the distance vector from the torque axis
-to the pendulum center of mass, and __MATH_28__ is the net force on the
+τ = 𝐫 ×𝐅 around the axis perpendicular to the plane of the pendulum
+movement. Here 𝐫 is the distance vector from the torque axis
+to the pendulum center of mass, and 𝐅 is the net force on the
 mass. Associated with this torque is an angular acceleration,
-__MATH_29__, of the string and mass around this axis. Since the mass is
+α, of the string and mass around this axis. Since the mass is
 constrained to a circle the tangential acceleration of the mass is
-__MATH_30__. Since __MATH_31__ the torque equation becomes: __MATH_32__
-where __MATH_33__ is a unit vector perpendicular to the plane of the
+𝐚 = α ×𝐫. Since 𝐅 = m 𝐚 the torque equation becomes: τ
+       = 𝐫 ×𝐅
+     = 𝐫 ×(m α ×𝐫) ;    = m ((𝐫 ·𝐫) α - (𝐫 ·α) 𝐫) ;    = mr^2 α
+     = Iα𝐤̂,
+where 𝐤̂ is a unit vector perpendicular to the plane of the
 pendulum. (The second to last step uses the vector triple product
-expansion with the perpendicularity of __MATH_34__ and __MATH_35__.) The
-quantity __MATH_36__ is the moment of inertia of this single mass around
+expansion with the perpendicularity of α and 𝐫.) The
+quantity I = mr^2 is the moment of inertia of this single mass around
 the pivot point.
 
-The quantity __MATH_37__ also appears in the angular momentum of a
-simple pendulum, which is calculated from the velocity __MATH_38__ of
-the pendulum mass around the pivot, where __MATH_39__ is the angular
+The quantity I = mr^2 also appears in the angular momentum of a
+simple pendulum, which is calculated from the velocity 𝐯 = ω ×𝐫 of
+the pendulum mass around the pivot, where ω is the angular
 velocity of the mass about the pivot point. This angular momentum is
-given by __MATH_40__ using a similar derivation to the previous
+given by 𝐋
+       = 𝐫 ×𝐩
+     = 𝐫 ×(mω ×𝐫) ;     = m((𝐫 ·𝐫)ω - (𝐫 ·ω)𝐫) ;    = mr^2 ω
+     = Iω𝐤̂, using a similar derivation to the previous
 equation.
 
 Similarly, the kinetic energy of the pendulum mass is defined by the
-velocity of the pendulum around the pivot to yield __MATH_41__
+velocity of the pendulum around the pivot to yield E_K = 1/2 m 𝐯 ·𝐯 = 1/2 (mr^2)ω^2 = 1/2Iω^2.
 
-This shows that the quantity __MATH_42__ is how mass combines with the
+This shows that the quantity I = mr^2 is how mass combines with the
 shape of a body to define rotational inertia. The moment of inertia of
-an arbitrarily shaped body is the sum of the values __MATH_43__ for all
+an arbitrarily shaped body is the sum of the values mr^2 for all
 of the elements of mass in the body.
 
 Compound pendulums
@@ -159,34 +165,34 @@ Compound pendulums
 A compound pendulum is a body formed from an assembly of particles of
 continuous shape that rotates rigidly around a pivot. Its moment of
 inertia is the sum of the moments of inertia of each of the particles
-that it is composed of. The natural frequency (__MATH_44__) of a
-compound pendulum depends on its moment of inertia, __MATH_45__,
-__MATH_46__ where __MATH_47__ is the mass of the object, __MATH_48__ is
-local acceleration of gravity, and __MATH_49__ is the distance from the
+that it is composed of. The natural frequency (ω_n) of a
+compound pendulum depends on its moment of inertia, I_P,
+ω_n = √(mgr/I_P), where m is the mass of the object, g is
+local acceleration of gravity, and r is the distance from the
 pivot point to the center of mass of the object. Measuring this
 frequency of oscillation over small angular displacements provides an
 effective way of measuring moment of inertia of a body.
 
 Thus, to determine the moment of inertia of the body, simply suspend it
-from a convenient pivot point __MATH_50__ so that it swings freely in a
+from a convenient pivot point P so that it swings freely in a
 plane perpendicular to the direction of the desired moment of inertia,
 then measure its natural frequency or period of oscillation
-(__MATH_51__), to obtain __MATH_52__ where __MATH_53__ is the period
+(t), to obtain I_P = mgr/ω_n^2 = mgrt^2/4π^2, where t is the period
 (duration) of oscillation (usually averaged over multiple periods).
 
 Center of oscillation
 
 A simple pendulum that has the same natural frequency as a compound
-pendulum defines the length __MATH_54__ from the pivot to a point called
+pendulum defines the length L from the pivot to a point called
 the center of oscillation of the compound pendulum. This point also
-corresponds to the center of percussion. The length __MATH_55__ is
-determined from the formula, __MATH_56__ or __MATH_57__
+corresponds to the center of percussion. The length L is
+determined from the formula, ω_n = √(g/L) = √(mgr/I_P), or L = g/ω_n^2 = I_P/mr.
 
 The seconds pendulum, which provides the "tick" and "tock" of a
 grandfather clock, takes one second to swing from side-to-side. This is
-a period of two seconds, or a natural frequency of __MATH_58__ for the
+a period of two seconds, or a natural frequency of π rad/s for the
 pendulum. In this case, the distance to the center of oscillation,
-__MATH_59__, can be computed to be __MATH_60__
+L, can be computed to be L = g/ω_n^2 ≈9.81  m/s^2/(3.14  rad/s)^2 ≈0.99  m.
 
 Notice that the distance to the center of oscillation of the seconds
 pendulum must be adjusted to accommodate different values for the local
@@ -211,40 +217,43 @@ inertia.
 
 These calculations are commonly used in civil engineering for structural
 design of beams and columns. Cross-sectional areas calculated for
-vertical moment of the x-axis __MATH_61__ and horizontal moment of the
-y-axis __MATH_62__.
+vertical moment of the x-axis I_xx and horizontal moment of the
+y-axis I_yy.
 
 Height (h) and breadth (b) are the linear measures, except for circles,
-which are effectively half-breadth derived, __MATH_63__
+which are effectively half-breadth derived, r
 
 Sectional areas moment calculated thus
 
 Source:
 
-1.  Square: __MATH_64__
-2.  Rectangular: __MATH_65__ and; __MATH_66__
-3.  Triangular: __MATH_67__
-4.  Circular: __MATH_68__
+1.  Square: I_xx=I_yy=b^4/12
+2.  Rectangular: I_xx=bh^3/12 and; I_yy=hb^3/12
+3.  Triangular: I_xx=bh^3/36
+4.  Circular: I_xx=I_yy=1/4 π r^4=1/64 π d^4
 
 Motion in a fixed plane
 
 Point mass
 
 The moment of inertia about an axis of a body is calculated by summing
-__MATH_69__ for every particle in the body, where __MATH_70__ is the
+mr^2 for every particle in the body, where r is the
 perpendicular distance to the specified axis. To see how moment of
 inertia arises in the study of the movement of an extended body, it is
 convenient to consider a rigid assembly of point masses. (This equation
 can be used for axes that are not principal axes provided that it is
 understood that this does not fully describe the moment of inertia.)
 
-Consider the kinetic energy of an assembly of __MATH_71__ masses
-__MATH_72__ that lie at the distances __MATH_73__ from the pivot point
-__MATH_74__, which is the nearest point on the axis of rotation. It is
-the sum of the kinetic energy of the individual masses, __MATH_75__
+Consider the kinetic energy of an assembly of N masses
+m_i that lie at the distances r_i from the pivot point
+P, which is the nearest point on the axis of rotation. It is
+the sum of the kinetic energy of the individual masses, E_K =
+  ∑_i=1^N 1/2 m_i 𝐯_i ·𝐯_i =
+  ∑_i=1^N 1/2 m_i (ωr_i)^2 =
+  1/2  ω^2 ∑_i=1^N m_i r_i^2.
 
 This shows that the moment of inertia of the body is the sum of each of
-the __MATH_76__ terms, that is __MATH_77__
+the mr^2 terms, that is I_P = ∑_i=1^N m_i r_i^2.
 
 Thus, moment of inertia is a physical property that combines the mass
 and distribution of the particles around the rotation axis. Notice that
@@ -254,15 +263,15 @@ of inertia.
 The moment of inertia of a continuous body rotating about a specified
 axis is calculated in the same way, except with infinitely many point
 particles. Thus the limits of summation are removed, and the sum is
-written as follows: __MATH_78__
+written as follows: I_P = ∑_i m_i r_i^2
 
-Another expression replaces the summation with an integral, __MATH_79__
+Another expression replaces the summation with an integral, I_P = ∭_Q ρ(x, y, z) 𝐫^2 dV
 
-Here, the function __MATH_80__ gives the mass density at each point
-__MATH_81__, __MATH_82__ is a vector perpendicular to the axis of
+Here, the function ρ gives the mass density at each point
+(x, y, z), 𝐫 is a vector perpendicular to the axis of
 rotation and extending from a point on the rotation axis to a point
-__MATH_83__ in the solid, and the integration is evaluated over the
-volume __MATH_84__ of the body __MATH_85__. The moment of inertia of a
+(x, y, z) in the solid, and the integration is evaluated over the
+volume V of the body Q. The moment of inertia of a
 flat surface is similar with the mass density being replaced by its
 areal mass density with the integral evaluated over its area.
 
@@ -270,12 +279,12 @@ Note on second moment of area: The moment of inertia of a body moving in
 a plane and the second moment of area of a beam's cross-section are
 often confused. The moment of inertia of a body with the shape of the
 cross-section is the second moment of this area about the
-__MATH_86__-axis perpendicular to the cross-section, weighted by its
+z-axis perpendicular to the cross-section, weighted by its
 density. This is also called the polar moment of the area, and is the
-sum of the second moments about the __MATH_87__- and __MATH_88__-axes.
+sum of the second moments about the x- and y-axes.
 The stresses in a beam are calculated using the second moment of the
-cross-sectional area around either the __MATH_89__-axis or
-__MATH_90__-axis depending on the load.
+cross-sectional area around either the x-axis or
+y-axis depending on the load.
 
 Examples
 
@@ -286,21 +295,28 @@ inertia of the thin rod and thin disc about their respective centers of
 mass.
 
 -   The moment of inertia of a thin rod with constant cross-section
-    __MATH_91__ and density __MATH_92__ and with length __MATH_93__
+    s and density ρ and with length ℓ
     about a perpendicular axis through its center of mass is determined
-    by integration. Align the __MATH_94__-axis with the rod and locate
+    by integration. Align the x-axis with the rod and locate
     the origin at its center of mass at the center of the rod, then
-    __MATH_95__ where __MATH_96__ is the mass of the rod.
+    I_C, rod = ∭_Q ρ x^2   dV =
+  ∫_-ℓ/2^ℓ/2 ρ x^2 s  dx =
+  . ρsx^3/3|_-ℓ/2^ℓ/2 =
+  ρs/3 (ℓ^3/8 + ℓ^3/8) =
+  mℓ^2/12, where m = ρs ℓ is the mass of the rod.
 -   The moment of inertia of a thin disc of constant thickness
-    __MATH_97__, radius __MATH_98__, and density __MATH_99__ about an
+    s, radius R, and density ρ about an
     axis through its center and perpendicular to its face (parallel to
     its axis of rotational symmetry) is determined by integration. Align
-    the __MATH_100__-axis with the axis of the disc and define a volume
-    element as __MATH_101__, then __MATH_102__ where __MATH_103__ is its
+    the z-axis with the axis of the disc and define a volume
+    element as dV = sr   dr  dθ, then I_C, disc = ∭_Q ρ  r^2  dV =
+  ∫_0^2π ∫_0^R ρr^2 s r  dr  dθ=
+  2πρs R^4/4 =
+  1/2mR^2, where m = πR^2 ρs is its
     mass.
 -   The moment of inertia of the compound pendulum is now obtained by
     adding the moment of inertia of the rod and the disc around the
-    pivot point __MATH_104__ as, __MATH_105__ where __MATH_106__ is the
+    pivot point P as, I_P =  I_C, rod + M_rod(L/2)^2 + I_C, disc  + M_disc(L + R)^2, where L is the
     length of the pendulum. Notice that the parallel axis theorem is
     used to shift the moment of inertia from the center of mass to the
     pivot point of the pendulum.
@@ -316,36 +332,43 @@ constant density about an axis through its center of mass. This is
 determined by summing the moments of inertia of the thin discs that can
 form the sphere whose centers are along the axis chosen for
 consideration. If the surface of the sphere is defined by the equation
-__MATH_107__
+x^2 + y^2 + z^2 = R^2,
 
-then the square of the radius __MATH_108__ of the disc at the
-cross-section __MATH_109__ along the __MATH_110__-axis is __MATH_111__
+then the square of the radius r of the disc at the
+cross-section z along the z-axis is r(z)^2 = x^2 + y^2 = R^2 - z^2.
 
 Therefore, the moment of inertia of the sphere is the sum of the moments
-of inertia of the discs along the __MATH_112__-axis, __MATH_113__ where
-__MATH_114__ is the mass of the sphere.
+of inertia of the discs along the z-axis, I_C, sphere
+    = ∫_-R^R 12 πρr(z)^4  dz = ∫_-R^R 12 πρ(R^2 - z^2)^2 dz ; [1ex]
+    = 12 πρ[R^4z - 23 R^2 z^3 + 15 z^5]_-R^R ; [1ex]
+    = πρ(1 - 23 + 15)R^5 ; [1ex]
+    = 25 mR^2, where
+m = 4/3πR^3 ρ is the mass of the sphere.
 
 Rigid body
 
 If a mechanical system is constrained to move parallel to a fixed plane,
 then the rotation of a body in the system occurs around an axis
-__MATH_115__ parallel to this plane. In this case, the moment of inertia
+𝐤̂ parallel to this plane. In this case, the moment of inertia
 of the mass in this system is a scalar known as the polar moment of
 inertia. The definition of the polar moment of inertia can be obtained
 by considering momentum, kinetic energy and Newton's laws for the planar
 movement of a rigid system of particles.
 
-If a system of __MATH_116__ particles, __MATH_117__, are assembled into
+If a system of n particles, P_i, i = 1, …, n, are assembled into
 a rigid body, then the momentum of the system can be written in terms of
-positions relative to a reference point __MATH_118__, and absolute
-velocities __MATH_119__: __MATH_120__ where __MATH_121__ is the angular
-velocity of the system and __MATH_122__ is the velocity of __MATH_123__.
+positions relative to a reference point 𝐑, and absolute
+velocities 𝐯_i: Δ𝐫_i    = 𝐫_i - 𝐑, ; 𝐯_i    = ω ×(𝐫_i - 𝐑) + 𝐕
+                      = ω ×Δ𝐫_i + 𝐕, where ω is the angular
+velocity of the system and 𝐕 is the velocity of 𝐑.
 
 For planar movement the angular velocity vector is directed along the
-unit vector __MATH_124__ which is perpendicular to the plane of
-movement. Introduce the unit vectors __MATH_125__ from the reference
-point __MATH_126__ to a point __MATH_127__, and the unit vector
-__MATH_128__, so __MATH_129__
+unit vector 𝐤 which is perpendicular to the plane of
+movement. Introduce the unit vectors 𝐞_i from the reference
+point 𝐑 to a point 𝐫_i, and the unit vector
+𝐭̂_i = 𝐤̂ ×ê_i, so ê_i    = Δ𝐫_i/Δr_i,  𝐤̂  = ω/ω,  𝐭̂_i  = 𝐤̂ ×ê_i, ; 𝐯_i    = ω ×Δ𝐫_i + 𝐕
+                        = ω𝐤̂ ×Δr_iê_i + 𝐕
+                        = ω  Δr_i𝐭̂_i + 𝐕
 
 This defines the relative position vector and the velocity vector for
 the rigid system of the particles moving in a plane.
@@ -369,17 +392,18 @@ movement.
 Angular momentum
 
 The angular momentum vector for the planar movement of a rigid system of
-particles is given by __MATH_130__
+particles is given by 𝐋    = ∑_i=1^n m_i Δ𝐫_i ×𝐯_i ;    = ∑_i=1^n m_i  Δr_iê_i ×(ω  Δr_i𝐭̂_i + 𝐕) ;    = (∑_i=1^n m_i  Δr_i^2)ω𝐤̂ +
+                  (∑_i=1^n m_i Δr_iê_i) ×𝐕.
 
-Use the center of mass __MATH_131__ as the reference point so
-__MATH_132__
+Use the center of mass 𝐂 as the reference point so
+Δr_i ê_i    = 𝐫_i - 𝐂, ; ∑_i=1^n m_i Δr_i ê_i    = 0,
 
 and define the moment of inertia relative to the center of mass
-__MATH_133__ as __MATH_134__
+I_𝐂 as I_𝐂 = ∑_i m_i Δr_i^2,
 
-then the equation for angular momentum simplifies to __MATH_135__
+then the equation for angular momentum simplifies to 𝐋 = I_𝐂 ω𝐤̂.
 
-The moment of inertia __MATH_136__ about an axis perpendicular to the
+The moment of inertia I_𝐂 about an axis perpendicular to the
 movement of the rigid system and through the center of mass is known as
 the polar moment of inertia. Specifically, it is the second moment of
 mass with respect to the orthogonal distance from an axis (or pole).
@@ -395,44 +419,50 @@ body.
 Kinetic energy
 
 The kinetic energy of a rigid system of particles moving in the plane is
-given by __MATH_137__
+given by E_K
+       = 1/2 ∑_i=1^n m_i 𝐯_i ·𝐯_i, ;    = 1/2 ∑_i=1^n m_i
+         (ω Δr_i𝐭̂_i + 𝐕) ·(ω Δr_i𝐭̂_i + 𝐕), ;    = 1/2ω^2 (∑_i=1^n m_i  Δr_i^2 𝐭̂_i ·𝐭̂_i) +
+         ω𝐕 ·(∑_i=1^n m_i  Δr_i𝐭̂_i) +
+         1/2(∑_i=1^n m_i) 𝐕 ·𝐕.
 
-Let the reference point be the center of mass __MATH_138__ of the system
+Let the reference point be the center of mass 𝐂 of the system
 so the second term becomes zero, and introduce the moment of inertia
-__MATH_139__ so the kinetic energy is given by __MATH_140__
+I_𝐂 so the kinetic energy is given by E_K = 1/2 I_𝐂 ω^2 + 1/2 M𝐕 ·𝐕.
 
-The moment of inertia __MATH_141__ is the polar moment of inertia of the
+The moment of inertia I_𝐂 is the polar moment of inertia of the
 body.
 
 Newton's laws
 
-Newton's laws for a rigid system of __MATH_142__ particles,
-__MATH_143__, can be written in terms of a resultant force and torque at
-a reference point __MATH_144__, to yield __MATH_145__ where __MATH_146__
+Newton's laws for a rigid system of n particles,
+P_i, i = 1, …, n, can be written in terms of a resultant force and torque at
+a reference point 𝐑, to yield 𝐅    = ∑_i=1^n m_i𝐀_i, ; τ   = ∑_i=1^n Δ𝐫_i ×m_i𝐀_i, where 𝐫_i
 denotes the trajectory of each particle.
 
 The kinematics of a rigid body yields the formula for the acceleration
-of the particle __MATH_147__ in terms of the position __MATH_148__ and
-acceleration __MATH_149__ of the reference particle as well as the
-angular velocity vector __MATH_150__ and angular acceleration vector
-__MATH_151__ of the rigid system of particles as, __MATH_152__
+of the particle P_i in terms of the position 𝐑 and
+acceleration 𝐀 of the reference particle as well as the
+angular velocity vector ω and angular acceleration vector
+α of the rigid system of particles as, 𝐀_i =
+  α×Δ𝐫_i + ω ×ω ×Δ𝐫_i + 𝐀.
 
 For systems that are constrained to planar movement, the angular
 velocity and angular acceleration vectors are directed along
-__MATH_153__ perpendicular to the plane of movement, which simplifies
+𝐤̂ perpendicular to the plane of movement, which simplifies
 this acceleration equation. In this case, the acceleration vectors can
-be simplified by introducing the unit vectors __MATH_154__ from the
-reference point __MATH_155__ to a point __MATH_156__ and the unit
-vectors __MATH_157__, so __MATH_158__
+be simplified by introducing the unit vectors ê_i from the
+reference point 𝐑 to a point 𝐫_i and the unit
+vectors 𝐭̂_i = 𝐤̂ ×ê_i, so 𝐀_i
+       = α𝐤̂ ×Δr_iê_i - ω𝐤̂ ×ω𝐤̂ ×Δr_iê_i + 𝐀 ;    = αΔr_i𝐭̂_i - ω^2 Δr_iê_i + 𝐀.
 
-This yields the resultant torque on the system as __MATH_159__
+This yields the resultant torque on the system as τ    = ∑_i=1^n m_i Δr_iê_i ×(αΔr_i𝐭̂_i - ω^2Δr_iê_i + 𝐀) ;    = (∑_i=1^n m_i Δr_i^2)α𝐤̂ + (∑_i=1^n m_i Δr_iê_i) ×𝐀,
 
-where __MATH_160__, and __MATH_161__ is the unit vector perpendicular to
-the plane for all of the particles __MATH_162__.
+where ê_i ×ê_i = 0, and ê_i ×𝐭̂_i = 𝐤̂ is the unit vector perpendicular to
+the plane for all of the particles P_i.
 
-Use the center of mass __MATH_163__ as the reference point and define
-the moment of inertia relative to the center of mass __MATH_164__, then
-the equation for the resultant torque simplifies to __MATH_165__
+Use the center of mass 𝐂 as the reference point and define
+the moment of inertia relative to the center of mass I_𝐂, then
+the equation for the resultant torque simplifies to τ = I_𝐂α𝐤̂.
 
 Motion in space of a rigid body, and the inertia matrix
 
@@ -442,149 +472,214 @@ three-dimensional space. This inertia matrix appears in the calculation
 of the angular momentum, kinetic energy and resultant torque of the
 rigid system of particles.
 
-Let the system of __MATH_166__ particles, __MATH_167__ be located at the
-coordinates __MATH_168__ with velocities __MATH_169__ relative to a
+Let the system of n particles, P_i, i = 1, …, n be located at the
+coordinates 𝐫_i with velocities 𝐯_i relative to a
 fixed reference frame. For a (possibly moving) reference point
-__MATH_170__, the relative positions are __MATH_171__ and the (absolute)
-velocities are __MATH_172__ where __MATH_173__ is the angular velocity
-of the system, and __MATH_174__ is the velocity of __MATH_175__.
+𝐑, the relative positions are Δ𝐫_i = 𝐫_i - 𝐑 and the (absolute)
+velocities are 𝐯_i = ω ×Δ𝐫_i + 𝐕_𝐑 where ω is the angular velocity
+of the system, and 𝐕_𝐑 is the velocity of 𝐑.
 
 Angular momentum
 
 Note that the cross product can be equivalently written as matrix
 multiplication by combining the first operand and the operator into a
-skew-symmetric matrix, __MATH_176__, constructed from the components of
-__MATH_177__: __MATH_178__
+skew-symmetric matrix, [𝐛], constructed from the components of
+𝐛 = (b_x, b_y, b_z): 𝐛 ×𝐲
+                              ≡[𝐛] 𝐲 ; [𝐛]    ≡[           0        -b_z   b_y ; b_z           0 -b_x ; -b_y         b_x           0 ].
 
 The inertia matrix is constructed by considering the angular momentum,
-with the reference point __MATH_179__ of the body chosen to be the
-center of mass __MATH_180__: __MATH_181__ where the terms containing
-__MATH_182__ (__MATH_183__) sum to zero by the definition of center of
+with the reference point 𝐑 of the body chosen to be the
+center of mass 𝐂: 𝐋
+       = ∑_i=1^n m_i Δ𝐫_i ×𝐯_i ;    = ∑_i=1^n m_i Δ𝐫_i ×(ω ×Δ𝐫_i + 𝐕_𝐑) ;    = (-∑_i=1^n m_i Δ𝐫_i ×(Δ𝐫_i ×ω)) + (∑_i=1^n m_i  Δ𝐫_i ×𝐕_𝐑), where the terms containing
+𝐕_𝐑 (= 𝐂) sum to zero by the definition of center of
 mass.
 
-Then, the skew-symmetric matrix __MATH_184__ obtained from the relative
-position vector __MATH_185__, can be used to define, __MATH_186__ where
-__MATH_187__ defined by __MATH_188__ is the symmetric inertia matrix of
+Then, the skew-symmetric matrix [Δ𝐫_i] obtained from the relative
+position vector Δ𝐫_i = 𝐫_i - 𝐂, can be used to define, 𝐋 =
+  (-∑_i=1^n m_i [Δ𝐫_i]^2)ω =
+  𝐈_𝐂 ω, where
+𝐈_𝐂 defined by 𝐈_𝐂 = -∑_i=1^n m_i [Δ𝐫_i]^2, is the symmetric inertia matrix of
 the rigid system of particles measured relative to the center of mass
-__MATH_189__.
+𝐂.
 
 Kinetic energy
 
 The kinetic energy of a rigid system of particles can be formulated in
 terms of the center of mass and a matrix of mass moments of inertia of
-the system. Let the system of __MATH_190__ particles __MATH_191__ be
-located at the coordinates __MATH_192__ with velocities __MATH_193__,
-then the kinetic energy is __MATH_194__ where __MATH_195__ is the
+the system. Let the system of n particles P_i, i = 1, …, n be
+located at the coordinates 𝐫_i with velocities 𝐯_i,
+then the kinetic energy is E_K = 1/2 ∑_i=1^n m_i 𝐯_i ·𝐯_i =
+    1/2 ∑_i=1^n
+      m_i (ω ×Δ𝐫_i + 𝐕_𝐂) ·(ω ×Δ𝐫_i + 𝐕_𝐂), where Δ𝐫_i = 𝐫_i - 𝐂 is the
 position vector of a particle relative to the center of mass.
 
-This equation expands to yield three terms __MATH_196__
+This equation expands to yield three terms E_K =
+    1/2(∑_i=1^n m_i (ω ×Δ𝐫_i) ·(ω ×Δ𝐫_i)) +
+    (∑_i=1^n m_i 𝐕_𝐂 ·(ω ×Δ𝐫_i)) +
+    1/2(∑_i=1^n m_i 𝐕_𝐂 ·𝐕_𝐂).
 
-Since the center of mass is defined by __MATH_197__ , the second term in
-this equation is zero. Introduce the skew-symmetric matrix __MATH_198__
-so the kinetic energy becomes __MATH_199__
+Since the center of mass is defined by ∑_i=1^n m_i      Δ𝐫_i =0 , the second term in
+this equation is zero. Introduce the skew-symmetric matrix [Δ𝐫_i]
+so the kinetic energy becomes E_K
+       = 1/2(∑_i=1^n m_i ([Δ𝐫_i] ω) ·([Δ𝐫_i] ω)) +
+         1/2(∑_i=1^n m_i) 𝐕_𝐂 ·𝐕_𝐂 ;    = 1/2(∑_i=1^n m_i (ω^𝖳[Δ𝐫_i]^𝖳 [Δ𝐫_i] ω)) +
+         1/2(∑_i=1^n m_i) 𝐕_𝐂 ·𝐕_𝐂 ;    = 1/2ω ·(-∑_i=1^n m_i [Δ𝐫_i]^2) ω +
+         1/2(∑_i=1^n m_i) 𝐕_𝐂 ·𝐕_𝐂.
 
 Thus, the kinetic energy of the rigid system of particles is given by
-__MATH_200__ where __MATH_201__ is the inertia matrix relative to the
-center of mass and __MATH_202__ is the total mass.
+E_K = 1/2 ω ·𝐈_𝐂 ω + 1/2 M𝐕_𝐂^2. where 𝐈_𝐂 is the inertia matrix relative to the
+center of mass and M is the total mass.
 
 Resultant torque
 
 The inertia matrix appears in the application of Newton's second law to
 a rigid assembly of particles. The resultant torque on this system is,
-__MATH_203__ where __MATH_204__ is the acceleration of the particle
-__MATH_205__. The kinematics of a rigid body yields the formula for the
-acceleration of the particle __MATH_206__ in terms of the position
-__MATH_207__ and acceleration __MATH_208__ of the reference point, as
-well as the angular velocity vector __MATH_209__ and angular
-acceleration vector __MATH_210__ of the rigid system as, __MATH_211__
+τ = ∑_i=1^n (𝐫_𝐢 - 𝐑) ×m_i𝐚_i, where 𝐚_i is the acceleration of the particle
+P_i. The kinematics of a rigid body yields the formula for the
+acceleration of the particle P_i in terms of the position
+𝐑 and acceleration 𝐀_𝐑 of the reference point, as
+well as the angular velocity vector ω and angular
+acceleration vector α of the rigid system as, 𝐚_i = α ×(𝐫_i - 𝐑) + ω ×( ω ×(𝐫_i - 𝐑) ) + 𝐀_𝐑.
 
-Use the center of mass __MATH_212__ as the reference point, and
-introduce the skew-symmetric matrix __MATH_213__ to represent the cross
-product __MATH_214__, to obtain __MATH_215__
+Use the center of mass 𝐂 as the reference point, and
+introduce the skew-symmetric matrix [Δ𝐫_i] = [𝐫_i - 𝐂] to represent the cross
+product (𝐫_i - 𝐂) ×, to obtain τ = (-∑_i=1^n m_i[Δ𝐫_i]^2)α +
+    ω ×(-∑_i=1^n m_i [Δ𝐫_i]^2)ω
 
-The calculation uses the identity __MATH_216__ obtained from the Jacobi
+The calculation uses the identity Δ𝐫_i ×(ω ×(ω ×Δ𝐫_i)) + 
+    ω ×((ω ×Δ𝐫_i) ×Δ𝐫_i)
+ = 0, obtained from the Jacobi
 identity for the triple cross product as shown in the proof below:
 
-__MATH_217__
+<math display="block">τ
+       = ∑_i=1^n (𝐫_𝐢 - 𝐑)×(m_i𝐚_i) ;    = ∑_i=1^n Δ𝐫_i×(m_i𝐚_i) ;    = ∑_i=1^n m_i [Δ𝐫_i×𝐚_i] … cross-product scalar multiplication ;    = ∑_i=1^n m_i [Δ𝐫_i×(𝐚_tangential,i + 𝐚_centripetal,i + 𝐀_𝐑)] ;    = ∑_i=1^n m_i [Δ𝐫_i×(𝐚_tangential,i + 𝐚_centripetal,i + 0)]</math>
+In the last statement, <math>𝐀_𝐑 = 0</math> because <math>𝐑</math> is either at rest or moving at a constant velocity but not accelerated, or the origin of the fixed (world) coordinate reference system is placed at the center of mass <math>𝐂</math>. And distributing the cross product over the sum, we get
+<math display="block">τ    = ∑_i=1^n m_i [Δ𝐫_i×𝐚_tangential,i + Δ𝐫_i×𝐚_centripetal,i] ; τ     = ∑_i=1^n m_i [Δ𝐫_i×(α ×Δ𝐫_i) + Δ𝐫_i×(ω ×𝐯_tangential,i)] ; τ    = ∑_i=1^n m_i [Δ𝐫_i×(α ×Δ𝐫_i) + Δ𝐫_i ×(ω ×(ω ×Δ𝐫_i))]</math>
+
+Then, the following [[Jacobi identity]] is used on the last term:
+<math display="block">0    =
+    Δ𝐫_i×(ω×(ω×Δ𝐫_i)) + ω×((ω×Δ𝐫_i)×Δ𝐫_i) + (ω×Δ𝐫_i)×(Δ𝐫_i×ω) ;    = Δ𝐫_i×(ω×(ω×Δ𝐫_i)) + ω×((ω×Δ𝐫_i)×Δ𝐫_i) + (ω×Δ𝐫_i)×-(ω×Δ𝐫_i) … cross-product anticommutativity ;    = Δ𝐫_i ×(ω×(ω×Δ𝐫_i)) + ω×((ω×Δ𝐫_i)×Δ𝐫_i) + -[(ω×Δ𝐫_i)×(ω×Δ𝐫_i)] … cross-product scalar multiplication ;    = Δ𝐫_i×(ω×(ω×Δ𝐫_i)) + ω×((ω×Δ𝐫_i)×Δ𝐫_i) + -[0] … self cross-product ; 0    = Δ𝐫_i×(ω×(ω×Δ𝐫_i)) + ω×((ω×Δ𝐫_i)×Δ𝐫_i)</math>
+
+The result of applying [[Jacobi identity]] can then be continued as follows:
+<math display="block">Δ𝐫_i×(ω×(ω×Δ𝐫_i))
+       = -[ω×((ω×Δ𝐫_i)×Δ𝐫_i)] ;    = -[(ω×Δ𝐫_i)(ω·Δ𝐫_i) - Δ𝐫_i(ω·(ω×Δ𝐫_i))] … vector triple product ;    = -[(ω×Δ𝐫_i)(ω·Δ𝐫_i) - Δ𝐫_i(Δ𝐫_i·(ω×ω))] … scalar triple product ;    = -[(ω×Δ𝐫_i)(ω·Δ𝐫_i) - Δ𝐫_i(Δ𝐫_i·(0))] … self cross-product ;    = -[(ω×Δ𝐫_i)(ω·Δ𝐫_i)] ;    = -[ω×(Δ𝐫_i (ω·Δ𝐫_i))] … cross-product scalar multiplication ;    = ω×-(Δ𝐫_i (ω·Δ𝐫_i)) … cross-product scalar multiplication ; Δ𝐫_i×(ω×(ω×Δ𝐫_i))
+       = ω×-(Δ𝐫_i (Δ𝐫_i ·ω)) … dot-product commutativity
+</math>
+
+The final result can then be substituted to the main proof as follows:
+<math display="block">τ   = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + Δ𝐫_i×(ω×(ω×Δ𝐫_i))] ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×-(Δ𝐫_i (Δ𝐫_i ·ω))] ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{0 - Δ𝐫_i (Δ𝐫_i ·ω)}] ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{[ω(Δ𝐫_i·Δ𝐫_i) - ω(Δ𝐫_i·Δ𝐫_i)] - Δ𝐫_i (Δ𝐫_i ·ω)}] … ω(Δ𝐫_i·Δ𝐫_i) - ω(Δ𝐫_i·Δ𝐫_i) = 0 ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{[ω(Δ𝐫_i·Δ𝐫_i) - Δ𝐫_i (Δ𝐫_i ·ω)] - ω(Δ𝐫_i·Δ𝐫_i)}] … addition associativity</math>
+<math display="block">τ
+       = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{ω(Δ𝐫_i·Δ𝐫_i) - Δ𝐫_i (Δ𝐫_i ·ω)} - ω×ω(Δ𝐫_i·Δ𝐫_i)] … cross-product distributivity over addition ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{ω(Δ𝐫_i·Δ𝐫_i) - Δ𝐫_i (Δ𝐫_i ·ω)} - (Δ𝐫_i·Δ𝐫_i)(ω×ω)] … cross-product scalar multiplication ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{ω(Δ𝐫_i·Δ𝐫_i) - Δ𝐫_i (Δ𝐫_i ·ω)} - (Δ𝐫_i·Δ𝐫_i)(0)] … self cross-product ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{ω(Δ𝐫_i·Δ𝐫_i) - Δ𝐫_i (Δ𝐫_i ·ω)}] ;    = ∑_i=1^n m_i [Δ𝐫_i×(α×Δ𝐫_i) + ω×{Δ𝐫_i ×(ω×Δ𝐫_i)}] … vector triple product ;    = ∑_i=1^n m_i [Δ𝐫_i×-(Δ𝐫_i ×α) + ω×{Δ𝐫_i ×-(Δ𝐫_i ×ω)}] … cross-product anticommutativity ;    = -∑_i=1^n m_i [Δ𝐫_i×(Δ𝐫_i ×α) + ω×{Δ𝐫_i ×(Δ𝐫_i ×ω)}] … cross-product scalar multiplication ;    = -∑_i=1^n m_i [Δ𝐫_i×(Δ𝐫_i ×α)] + -∑_i=1^n m_i [ω×{Δ𝐫_i ×(Δ𝐫_i ×ω)}] … summation distributivity ; τ   = -∑_i=1^n m_i [Δ𝐫_i×(Δ𝐫_i ×α)] + ω×-∑_i=1^n m_i [Δ𝐫_i ×(Δ𝐫_i ×ω)] … ω is not characteristic of particle  P_i</math>
+
+Notice that for any vector <math>𝐮</math>, the following holds:
+<math display="block">-∑_i=1^n m_i [Δ𝐫_i×(Δ𝐫_i ×𝐮)]
+       = -∑_i=1^n m_i ([                 0           -Δr_3,i   Δr_2,i ; Δr_3,i                 0 -Δr_1,i ; -Δr_2,i            Δr_1,i                 0 ] ([                 0           -Δr_3,i   Δr_2,i ; Δr_3,i                 0 -Δr_1,i ; -Δr_2,i            Δr_1,i                 0 ] [ u_1 ; u_2 ; u_3 ]
+        )) … cross-product as matrix multiplication ; [6pt]
+       = -∑_i=1^n m_i ([                 0           -Δr_3,i   Δr_2,i ; Δr_3,i                 0 -Δr_1,i ; -Δr_2,i            Δr_1,i                 0 ] [ -Δr_3,i u_2 + Δr_2,i u_3 ; +Δr_3,i u_1 - Δr_1,i u_3 ; -Δr_2,i u_1 + Δr_1,i u_2 ]) ; [6pt]
+       = -∑_i=1^n m_i [ -Δr_3,i(+Δr_3,i u_1 - Δr_1,i u_3) + Δr_2,i(-Δr_2,i u_1 + Δr_1,i u_2) ; +Δr_3,i(-Δr_3,i u_2 + Δr_2,i u_3) - Δr_1,i(-Δr_2,i u_1 + Δr_1,i u_2) ; -Δr_2,i(-Δr_3,i u_2 + Δr_2,i u_3) + Δr_1,i(+Δr_3,i u_1 - Δr_1,i u_3) ] ; [6pt]
+       = -∑_i=1^n m_i [ -Δr_3,i^2 u_1 + Δr_1,iΔr_3,i u_3 - Δr_2,i^2 u_1 + Δr_1,iΔr_2,i u_2 ; -Δr_3,i^2 u_2 + Δr_2,iΔr_3,i u_3 + Δr_2,iΔr_1,i u_1 - Δr_1,i^2 u_2 ; +Δr_3,iΔr_2,i u_2 - Δr_2,i^2 u_3 + Δr_3,iΔr_1,i u_1 - Δr_1,i^2 u_3 ] ; [6pt]
+       = -∑_i=1^n m_i [ -(Δr_2,i^2 + Δr_3,i^2) u_1 + Δr_1,iΔr_2,i u_2 + Δr_1,iΔr_3,i u_3 ; +Δr_2,iΔr_1,i u_1 - (Δr_1,i^2 + Δr_3,i^2) u_2 + Δr_2,iΔr_3,i u_3 ; +Δr_3,iΔr_1,i u_1 + Δr_3,iΔr_2,i u_2 - (Δr_1,i^2 + Δr_2,i^2) u_3 ] ; [6pt]
+       = -∑_i=1^n m_i [      -(Δr_2,i^2 + Δr_3,i^2)                Δr_1,iΔr_2,i Δr_1,iΔr_3,i ; Δr_2,iΔr_1,i      -(Δr_1,i^2 + Δr_3,i^2) Δr_2,iΔr_3,i ; Δr_3,iΔr_1,i                Δr_3,iΔr_2,i      -(Δr_1,i^2 + Δr_2,i^2) ] [ u_1 ; u_2 ; u_3 ] ;    = -∑_i=1^n m_i [Δr_i]^2 𝐮 ; [6pt]
+  -∑_i=1^n m_i [Δ𝐫_i ×(Δ𝐫_i ×𝐮)]
+       = (-∑_i=1^n m_i [Δr_i]^2) 𝐮 … 𝐮 is not characteristic of  P_i</math>
+
+Finally, the result is used to complete the main proof as follows:
+<math display="block">τ
+       = -∑_i=1^n m_i [Δ𝐫_i ×(Δ𝐫_i ×α)] + ω ×-∑_i=1^n m_i Δ𝐫_i ×(Δ𝐫_i ×ω)] ;    = (-∑_i=1^n m_i [Δr_i]^2) α + ω ×(-∑_i=1^n m_i [Δr_i]^2) ω</math>
 
 Thus, the resultant torque on the rigid system of particles is given by
-__MATH_218__ where __MATH_219__ is the inertia matrix relative to the
+τ = 𝐈_𝐂 α + ω ×𝐈_𝐂 ω, where 𝐈_𝐂 is the inertia matrix relative to the
 center of mass.
 
 Parallel axis theorem
 
 The inertia matrix of a body depends on the choice of the reference
 point. There is a useful relationship between the inertia matrix
-relative to the center of mass __MATH_220__ and the inertia matrix
-relative to another point __MATH_221__. This relationship is called the
+relative to the center of mass 𝐂 and the inertia matrix
+relative to another point 𝐑. This relationship is called the
 parallel axis theorem.
 
-Consider the inertia matrix __MATH_222__ obtained for a rigid system of
-particles measured relative to a reference point __MATH_223__, given by
-__MATH_224__
+Consider the inertia matrix 𝐈_𝐑 obtained for a rigid system of
+particles measured relative to a reference point 𝐑, given by
+𝐈_𝐑 = -∑_i=1^n m_i[𝐫_i - 𝐑]^2.
 
-Let __MATH_225__ be the center of mass of the rigid system, then
-__MATH_226__ where __MATH_227__ is the vector from the center of mass
-__MATH_228__ to the reference point __MATH_229__. Use this equation to
-compute the inertia matrix, __MATH_230__
+Let 𝐂 be the center of mass of the rigid system, then
+𝐑 = (𝐑 - 𝐂) + 𝐂 = 𝐝 + 𝐂, where 𝐝 is the vector from the center of mass
+𝐂 to the reference point 𝐑. Use this equation to
+compute the inertia matrix, 𝐈_𝐑
+ = -∑_i=1^n m_i[𝐫_i - (𝐂 + 𝐝)]^2
+ = -∑_i=1^n m_i[(𝐫_i - 𝐂) - 𝐝]^2.
 
-Distribute over the cross product to obtain __MATH_231__
+Distribute over the cross product to obtain 𝐈_𝐑 =
+              - (∑_i=1^n m_i [𝐫_i - 𝐂]^2)
+              + (∑_i=1^n m_i [𝐫_i - 𝐂])[𝐝]
+  + [𝐝](∑_i=1^n m_i [𝐫_i - 𝐂]) 
+              - (∑_i=1^n m_i) [𝐝]^2.
 
-The first term is the inertia matrix __MATH_232__ relative to the center
+The first term is the inertia matrix 𝐈_𝐂 relative to the center
 of mass. The second and third terms are zero by definition of the center
-of mass __MATH_233__. And the last term is the total mass of the system
-multiplied by the square of the skew-symmetric matrix __MATH_234__
-constructed from __MATH_235__.
+of mass 𝐂. And the last term is the total mass of the system
+multiplied by the square of the skew-symmetric matrix [𝐝]
+constructed from 𝐝.
 
-The result is the parallel axis theorem, __MATH_236__ where __MATH_237__
-is the vector from the center of mass __MATH_238__ to the reference
-point __MATH_239__.
+The result is the parallel axis theorem, 𝐈_𝐑 = 𝐈_𝐂 - M[𝐝]^2, where 𝐝
+is the vector from the center of mass 𝐂 to the reference
+point 𝐑.
 
 Note on the minus sign: By using the skew symmetric matrix of position
 vectors relative to the reference point, the inertia matrix of each
-particle has the form __MATH_240__, which is similar to the __MATH_241__
+particle has the form -m[𝐫]^2, which is similar to the mr^2
 that appears in planar movement. However, to make this to work out
 correctly a minus sign is needed. This minus sign can be absorbed into
-the term __MATH_242__, if desired, by using the skew-symmetry property
-of __MATH_243__.
+the term m[𝐫]^𝖳 [𝐫], if desired, by using the skew-symmetry property
+of [𝐫].
 
 Scalar moment of inertia in a plane
 
-The scalar moment of inertia, __MATH_244__, of a body about a specified
-axis whose direction is specified by the unit vector __MATH_245__ and
-passes through the body at a point __MATH_246__ is as follows:
-__MATH_247__ where __MATH_248__ is the moment of inertia matrix of the
-system relative to the reference point __MATH_249__, and __MATH_250__ is
-the skew symmetric matrix obtained from the vector __MATH_251__.
+The scalar moment of inertia, I_L, of a body about a specified
+axis whose direction is specified by the unit vector 𝐤̂ and
+passes through the body at a point 𝐑 is as follows:
+I_L
+ = 𝐤̂ ·(-∑_i=1^N m_i [Δ𝐫_i]^2 ) 𝐤̂
+ = 𝐤̂ ·𝐈_𝐑 𝐤̂
+ = 𝐤̂^𝖳 𝐈_𝐑 𝐤̂, where 𝐈_𝐑 is the moment of inertia matrix of the
+system relative to the reference point 𝐑, and [Δ𝐫_i] is
+the skew symmetric matrix obtained from the vector Δ𝐫_i = 𝐫_i - 𝐑.
 
-This is derived as follows. Let a rigid assembly of __MATH_252__
-particles, __MATH_253__, have coordinates __MATH_254__. Choose
-__MATH_255__ as a reference point and compute the moment of inertia
-around a line L defined by the unit vector __MATH_256__ through the
-reference point __MATH_257__, __MATH_258__. The perpendicular vector
-from this line to the particle __MATH_259__ is obtained from
-__MATH_260__ by removing the component that projects onto __MATH_261__.
-__MATH_262__ where __MATH_263__ is the identity matrix, so as to avoid
-confusion with the inertia matrix, and __MATH_264__ is the outer product
-matrix formed from the unit vector __MATH_265__ along the line
-__MATH_266__.
+This is derived as follows. Let a rigid assembly of n
+particles, P_i, i = 1, …, n, have coordinates 𝐫_i. Choose
+𝐑 as a reference point and compute the moment of inertia
+around a line L defined by the unit vector 𝐤̂ through the
+reference point 𝐑, 𝐋(t) = 𝐑 + t𝐤̂. The perpendicular vector
+from this line to the particle P_i is obtained from
+Δ𝐫_i by removing the component that projects onto 𝐤̂.
+Δ𝐫_i^⊥=
+  Δ𝐫_i - (𝐤̂ ·Δ𝐫_i)𝐤̂ =
+  (𝐄 - 𝐤̂𝐤̂^𝖳) Δ𝐫_i, where 𝐄 is the identity matrix, so as to avoid
+confusion with the inertia matrix, and 𝐤̂𝐤̂^𝖳 is the outer product
+matrix formed from the unit vector 𝐤̂ along the line
+L.
 
 To relate this scalar moment of inertia to the inertia matrix of the
-body, introduce the skew-symmetric matrix __MATH_267__ such that
-__MATH_268__, then we have the identity __MATH_269__ noting that
-__MATH_270__ is a unit vector.
+body, introduce the skew-symmetric matrix [𝐤̂] such that
+[𝐤̂]𝐲 = 𝐤̂ ×𝐲, then we have the identity -[𝐤̂]^2 ≡|𝐤̂|^2(𝐄 - 𝐤̂𝐤̂^𝖳) =
+   𝐄 - 𝐤̂𝐤̂^𝖳, noting that
+𝐤̂ is a unit vector.
 
-The magnitude squared of the perpendicular vector is __MATH_271__
+The magnitude squared of the perpendicular vector is |Δ𝐫_i^⊥|^2
+       =  (-[𝐤̂]^2 Δ𝐫_i) ·(-[𝐤̂]^2 Δ𝐫_i) ;    =  (𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ·(𝐤̂ ×(𝐤̂ ×Δ𝐫_i))
 
 The simplification of this equation uses the triple scalar product
-identity __MATH_272__ where the dot and the cross products have been
+identity (𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ·(𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ≡((𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ×𝐤̂) ·(𝐤̂ ×Δ𝐫_i), where the dot and the cross products have been
 interchanged. Exchanging products, and simplifying by noting that
-__MATH_273__ and __MATH_274__ are orthogonal: __MATH_275__
+Δ𝐫_i and 𝐤̂ are orthogonal: (𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ·(𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ; =    ((𝐤̂ ×(𝐤̂ ×Δ𝐫_i)) ×𝐤̂) ·(𝐤̂ ×Δ𝐫_i) ; =    (𝐤̂ ×Δ𝐫_i) ·(-Δ𝐫_i ×𝐤̂) ; =    -𝐤̂ ·(Δ𝐫_i ×Δ𝐫_i ×𝐤̂) ; =    -𝐤̂ ·[Δ𝐫_i]^2 𝐤̂.
 
-Thus, the moment of inertia around the line __MATH_276__ through
-__MATH_277__ in the direction __MATH_278__ is obtained from the
-calculation __MATH_279__ where __MATH_280__ is the moment of inertia
-matrix of the system relative to the reference point __MATH_281__.
+Thus, the moment of inertia around the line L through
+𝐑 in the direction 𝐤̂ is obtained from the
+calculation I_L     = ∑_i=1^N m_i |Δ𝐫_i^⊥|^2 ;    = -∑_i=1^N m_i 𝐤̂ ·[Δ𝐫_i]^2𝐤̂
+        = 𝐤̂ ·(-∑_i=1^N m_i [Δ𝐫_i]^2 ) 𝐤̂ ;    = 𝐤̂ ·𝐈_𝐑 𝐤̂
+        = 𝐤̂^𝖳 𝐈_𝐑 𝐤̂, where 𝐈_𝐑 is the moment of inertia
+matrix of the system relative to the reference point 𝐑.
 
 This shows that the inertia matrix can be used to calculate the moment
 of inertia of a body around any specified rotation axis in the body.
@@ -601,51 +696,58 @@ center of mass is most commonly used.
 
 Definition
 
-For a rigid object of __MATH_282__ point masses __MATH_283__, the moment
-of inertia tensor is given by __MATH_284__
+For a rigid object of N point masses m_k, the moment
+of inertia tensor is given by 𝐈 = [ I_11 I_12 I_13; I_21 I_22 I_23; I_31 I_32 I_33 ].
 
-Its components are defined as __MATH_285__ where
+Its components are defined as I_ij  def=  ∑_k=1^N m_k(𝐫_k^2δ_ij - x_i^(k)x_j^(k)) where
 
--   __MATH_286__, __MATH_287__ is equal to 1, 2 or 3 for __MATH_288__,
-    __MATH_289__, and __MATH_290__, respectively,
--   __MATH_291__ is the vector to the point mass __MATH_292__ from the
+-   i, j is equal to 1, 2 or 3 for x,
+    y, and z, respectively,
+-   𝐫_k = (x_1^(k), x_2^(k), x_3^(k)) is the vector to the point mass m_k from the
     point about which the tensor is calculated and
--   __MATH_293__ is the Kronecker delta.
+-   δ_ij is the Kronecker delta.
 
-Note that, by the definition, __MATH_294__ is a symmetric tensor.
+Note that, by the definition, 𝐈 is a symmetric tensor.
 
-The diagonal elements are more succinctly written as __MATH_295__ while
+The diagonal elements are more succinctly written as I_xx     def=  ∑_k=1^N m_k (y_k^2 + z_k^2), ; I_yy     def=  ∑_k=1^N m_k (x_k^2 + z_k^2), ; I_zz     def=  ∑_k=1^N m_k (x_k^2 + y_k^2), while
 the off-diagonal elements, also called the products of inertia, are
-__MATH_296__
+I_xy = I_yx     def=  -∑_k=1^N m_k x_k y_k, ; I_xz = I_zx     def=  -∑_k=1^N m_k x_k z_k, ; I_yz = I_zy     def=  -∑_k=1^N m_k y_k z_k.
 
-Here __MATH_297__ denotes the moment of inertia around the
-__MATH_298__-axis when the objects are rotated around the x-axis,
-__MATH_299__ denotes the moment of inertia around the __MATH_300__-axis
-when the objects are rotated around the __MATH_301__-axis, and so on.
+Here I_xx denotes the moment of inertia around the
+x-axis when the objects are rotated around the x-axis,
+I_xy denotes the moment of inertia around the y-axis
+when the objects are rotated around the x-axis, and so on.
 
 These quantities can be generalized to an object with distributed mass,
 described by a mass density function, in a similar fashion to the scalar
-moment of inertia. One then has __MATH_302__ where __MATH_303__ is their
+moment of inertia. One then has 𝐈 = ∭_V ρ(x,y,z) ( 𝐫^2 𝐄_3 - 𝐫⊗𝐫)  dx   dy   dz, where 𝐫⊗𝐫 is their
 outer product, E₃ is the 3×3 identity matrix, and V is a region of space
 completely containing the object.
 
 Alternatively it can also be written in terms of the angular momentum
-operator __MATH_304__: __MATH_305__
+operator [𝐫]𝐱 = 𝐫×𝐱: 𝐈 = ∭_V ρ(𝐫) [𝐫]^[𝐫]   dV = -∭_Q ρ(𝐫) [𝐫]^2   dV
 
 The inertia tensor can be used in the same way as the inertia matrix to
 compute the scalar moment of inertia about an arbitrary axis in the
-direction __MATH_306__, __MATH_307__ where the dot product is taken with
+direction 𝐧, I_n = 𝐧·𝐈·𝐧, where the dot product is taken with
 the corresponding elements in the component tensors. A product of
-inertia term such as __MATH_308__ is obtained by the computation
-__MATH_309__ and can be interpreted as the moment of inertia around the
-__MATH_310__-axis when the object rotates around the __MATH_311__-axis.
+inertia term such as I_12 is obtained by the computation
+I_12 = 𝐞_1·𝐈·𝐞_2, and can be interpreted as the moment of inertia around the
+x-axis when the object rotates around the y-axis.
 
 The components of tensors of degree two can be assembled into a matrix.
-For the inertia tensor this matrix is given by, __MATH_312__
+For the inertia tensor this matrix is given by, 𝐈    = [                    I_11                    I_12 I_13 ; [1.8ex]
+    I_21                    I_22 I_23 ; [1.8ex]
+    I_31                    I_32                    I_33 ] = [                    I_xx                    I_xy I_xz ; [1.8ex]
+    I_yx                    I_yy I_yz ; [1.8ex]
+    I_zx                    I_zy                    I_zz ] ; [2ex]
+     = ∑_k=1^N [                     m_k (y_k^2 + z_k^2)                           - m_k x_k y_k - m_k x_k z_k ; [1ex]
+    - m_k x_k y_k                     m_k (x_k^2 + z_k^2) - m_k y_k z_k ; [1ex]
+    - m_k x_k z_k                           - m_k y_k z_k                     m_k (x_k^2 + y_k^2) ].
 
 It is common in rigid body mechanics to use notation that explicitly
-identifies the __MATH_313__, __MATH_314__, and __MATH_315__-axes, such
-as __MATH_316__ and __MATH_317__, for the components of the inertia
+identifies the x, y, and z-axes, such
+as I_xx and I_xy, for the components of the inertia
 tensor.
 
 Alternate inertia convention
@@ -654,17 +756,26 @@ There are some CAD and CAE applications such as SolidWorks, Unigraphics
 NX/Siemens NX and MSC Adams that use an alternate convention for the
 products of inertia. According to this convention, the minus sign is
 removed from the product of inertia formulas and instead inserted in the
-inertia matrix: __MATH_318__
+inertia matrix: I_xy = I_yx     def=  ∑_k=1^N m_k x_k y_k, ; I_xz = I_zx     def=  ∑_k=1^N m_k x_k z_k, ; I_yz = I_zy     def=  ∑_k=1^N m_k y_k z_k, ; [3pt]
+  𝐈 = [                     I_11                     I_12 I_13 ; [1.8ex]
+     I_21                     I_22 I_23 ; [1.8ex]
+     I_31                     I_32                     I_33 ]    = [                        I_xx                       -I_xy  -I_xz ; [1.8ex]
+     -I_yx                        I_yy -I_yz ; [1.8ex]
+      -I_zx                       -I_zy                        I_zz ] ; [1ex]
+     =
+  ∑_k=1^N [                     m_k (y_k^2 + z_k^2)                           - m_k x_k y_k - m_k x_k z_k ; [1ex]
+    - m_k x_k y_k                     m_k (x_k^2 + z_k^2) - m_k y_k z_k ; [1ex]
+    - m_k x_k z_k                           - m_k y_k z_k                     m_k (x_k^2 + y_k^2) ].
 
 Determine inertia convention (principal axes method)
 
-If one has the inertia data __MATH_319__ without knowing which inertia
+If one has the inertia data (I_xx, I_yy, I_zz, I_xy, I_xz, I_yz) without knowing which inertia
 convention that has been used, it can be determined if one also has the
 principal axes. With the principal axes method, one makes inertia
 matrices from the following two assumptions:
 
-1.  The standard inertia convention has been used __MATH_320__.
-2.  The alternate inertia convention has been used __MATH_321__.
+1.  The standard inertia convention has been used (I_12 = I_xy, I_13 = I_xz, I_23 = I_yz).
+2.  The alternate inertia convention has been used (I_12 = -I_xy, I_13 = -I_xz, I_23 = -I_yz).
 
 Next, one calculates the eigenvectors for the two matrices. The matrix
 whose eigenvectors are parallel to the principal axes corresponds to the
@@ -672,31 +783,37 @@ inertia convention that has been used.
 
 Derivation of the tensor components
 
-The distance __MATH_322__ of a particle at __MATH_323__ from the axis of
-rotation passing through the origin in the __MATH_324__ direction is
-__MATH_325__, where __MATH_326__ is a unit vector. The moment of inertia
-on the axis is __MATH_327__
+The distance r of a particle at 𝐱 from the axis of
+rotation passing through the origin in the 𝐧̂ direction is
+|𝐱 - (𝐱 ·𝐧̂) 𝐧̂|, where 𝐧̂ is a unit vector. The moment of inertia
+on the axis is I = mr^2 =
+  m(𝐱 - (𝐱·𝐧̂) 𝐧̂)·(𝐱 - (𝐱·𝐧̂) 𝐧̂) =
+  m(𝐱^2 - 2𝐱(𝐱·𝐧̂)𝐧̂ + (𝐱·𝐧̂)^2𝐧̂^2) =
+  m(𝐱^2 - (𝐱·𝐧̂)^2).
 
-Rewrite the equation using matrix transpose: __MATH_328__ where E₃ is
+Rewrite the equation using matrix transpose: I =
+  m(𝐱^𝐱 - 𝐧̂^𝐱𝐱^𝐧̂) =
+  m·𝐧̂^(𝐱^𝐱·𝐄_3 - 𝐱𝐱^)𝐧̂, where E₃ is
 the 3×3 identity matrix.
 
-This leads to a tensor formula for the moment of inertia __MATH_329__
+This leads to a tensor formula for the moment of inertia I =
+  m [ n_1 n_2 n_3 ] [ y^2 + z^2       -xy       -xz;       -yx x^2 + z^2       -yz;       -zx       -zy x^2 + y^2 ] [ n_1; n_2; n_3 ].
 
 For multiple particles, we need only recall that the moment of inertia
 is additive in order to see that this formula is correct.
 
 Inertia tensor of translation
 
-Let __MATH_330__ be the inertia tensor of a body calculated at its
-center of mass, and __MATH_331__ be the displacement vector of the body.
+Let 𝐈_0 be the inertia tensor of a body calculated at its
+center of mass, and 𝐑 be the displacement vector of the body.
 The inertia tensor of the translated body respect to its original center
-of mass is given by: __MATH_332__ where __MATH_333__ is the body's mass,
-E₃ is the 3 × 3 identity matrix, and __MATH_334__ is the outer product.
+of mass is given by: 𝐈 = 𝐈_0 + m[(𝐑·𝐑)𝐄_3 - 𝐑⊗𝐑] where m is the body's mass,
+E₃ is the 3 × 3 identity matrix, and ⊗ is the outer product.
 
 Inertia tensor of rotation
 
-Let __MATH_335__ be the matrix that represents a body's rotation. The
-inertia tensor of the rotated body is given by: __MATH_336__
+Let 𝐑 be the matrix that represents a body's rotation. The
+inertia tensor of the rotated body is given by: 𝐈 = 𝐑𝐈_0𝐑^
 
 Inertia matrix in different reference frames
 
@@ -710,26 +827,26 @@ frame are constant.
 Body frame
 
 Let the body frame inertia matrix relative to the center of mass be
-denoted __MATH_337__, and define the orientation of the body frame
-relative to the inertial frame by the rotation matrix __MATH_338__, such
-that, __MATH_339__ where vectors __MATH_340__ in the body fixed
-coordinate frame have coordinates __MATH_341__ in the inertial frame.
+denoted 𝐈_𝐂^B, and define the orientation of the body frame
+relative to the inertial frame by the rotation matrix 𝐀, such
+that, 𝐱 = 𝐀𝐲, where vectors 𝐲 in the body fixed
+coordinate frame have coordinates 𝐱 in the inertial frame.
 Then, the inertia matrix of the body measured in the inertial frame is
-given by __MATH_342__
+given by 𝐈_𝐂 = 𝐀 𝐈_𝐂^B 𝐀^𝖳.
 
-Notice that __MATH_343__ changes as the body moves, while __MATH_344__
+Notice that 𝐀 changes as the body moves, while 𝐈_𝐂^B
 remains constant.
 
 Principal axes
 
 Measured in the body frame, the inertia matrix is a constant real
 symmetric matrix. A real symmetric matrix has the eigendecomposition
-into the product of a rotation matrix __MATH_345__ and a diagonal matrix
-__MATH_346__, given by __MATH_347__ where __MATH_348__
+into the product of a rotation matrix 𝐐 and a diagonal matrix
+Λ, given by 𝐈_𝐂^B = 𝐐Λ𝐐^𝖳, where Λ = [ I_1   0   0;   0 I_2   0;   0   0 I_3 ].
 
-The columns of the rotation matrix __MATH_349__ define the directions of
-the principal axes of the body, and the constants __MATH_350__,
-__MATH_351__, and __MATH_352__ are called the principal moments of
+The columns of the rotation matrix 𝐐 define the directions of
+the principal axes of the body, and the constants I_1,
+I_2, and I_3 are called the principal moments of
 inertia. This result was first shown by J. J. Sylvester (1852), and is a
 form of Sylvester's law of inertia. When the body has an axis of
 symmetry (sometimes called the figure axis or axis of figure) then the
@@ -748,9 +865,9 @@ can be considered a principal axis, meaning that the moment of inertia
 is the same about any axis.
 
 The principal axes are often aligned with the object's symmetry axes. If
-a rigid body has an axis of symmetry of order __MATH_353__, meaning it
-is symmetrical under rotations of __MATH_354__ about the given axis,
-that axis is a principal axis. When __MATH_355__, the rigid body is a
+a rigid body has an axis of symmetry of order m, meaning it
+is symmetrical under rotations of [[turn (geometry)|360°]]/”m” about the given axis,
+that axis is a principal axis. When m > 2, the rigid body is a
 symmetric top. If a rigid body has at least two symmetry axes that are
 not parallel or perpendicular to each other, it is a spherical top, for
 example, a cube or any other Platonic solid.
@@ -773,17 +890,17 @@ Ellipsoid
 
 The moment of inertia matrix in body-frame coordinates is a quadratic
 form that defines a surface in the body called Poinsot's ellipsoid. Let
-__MATH_356__ be the inertia matrix relative to the center of mass
-aligned with the principal axes, then the surface __MATH_357__ or
-__MATH_358__ defines an ellipsoid in the body frame. Write this equation
-in the form, __MATH_359__ to see that the semi-principal diameters of
-this ellipsoid are given by __MATH_360__
+Λ be the inertia matrix relative to the center of mass
+aligned with the principal axes, then the surface 𝐱^𝖳Λ𝐱 = 1, or
+I_1x^2 + I_2y^2 + I_3z^2 =1, defines an ellipsoid in the body frame. Write this equation
+in the form, (x/1/√(I_1))^2 + (y/1/√(I_2))^2 + (z/1/√(I_3))^2 = 1, to see that the semi-principal diameters of
+this ellipsoid are given by a = 1/√(I_1),   b=1/√(I_2),   c=1/√(I_3).
 
-Let a point __MATH_361__ on this ellipsoid be defined in terms of its
-magnitude and direction, __MATH_362__, where __MATH_363__ is a unit
+Let a point 𝐱 on this ellipsoid be defined in terms of its
+magnitude and direction, 𝐱 = 𝐱𝐧, where 𝐧 is a unit
 vector. Then the relationship presented above, between the inertia
-matrix and the scalar moment of inertia __MATH_364__ around an axis in
-the direction __MATH_365__, yields __MATH_366__
+matrix and the scalar moment of inertia I_𝐧 around an axis in
+the direction 𝐧, yields 𝐱^𝖳Λ𝐱 = 𝐱^2𝐧^𝖳Λ𝐧 = 𝐱^2 I_𝐧 = 1.
 
-Thus, the magnitude of a point __MATH_367__ in the direction
-__MATH_368__ on the inertia ellipsoid is __MATH_369__
+Thus, the magnitude of a point 𝐱 in the direction
+𝐧 on the inertia ellipsoid is 𝐱 = 1/√(I_𝐧).

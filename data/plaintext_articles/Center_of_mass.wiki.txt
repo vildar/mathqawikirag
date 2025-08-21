@@ -37,20 +37,20 @@ space.
 
 A system of particles
 
-In the case of a system of particles __MATH_0__, each with mass
-__MATH_1__ that are located in space with coordinates __MATH_2__, the
-coordinates R of the center of mass satisfy __MATH_3__
+In the case of a system of particles ”P_i”, ”i” = 1, ..., ”n”, each with mass
+m_i that are located in space with coordinates ”'r”'_”i”, ”i” = 1, ..., ”n”, the
+coordinates R of the center of mass satisfy ∑_i=1^n m_i(𝐫_i - 𝐑) = 0.
 
-Solving this equation for R yields the formula __MATH_4__
+Solving this equation for R yields the formula 𝐑=∑_i=1^n m_i 𝐫_i∑_i=1^n m_i .
 
 A continuous volume
 
 If the mass distribution is continuous with the density ρ(r) within a
 solid Q, then the integral of the weighted position coordinates of the
 points in this volume relative to the center of mass R over the volume V
-is zero, that is __MATH_5__
+is zero, that is ∭_Q ρ(𝐫) (𝐫 - 𝐑) dV = 0.
 
-Solve this equation for the coordinates R to obtain __MATH_6__ where M
+Solve this equation for the coordinates R to obtain 𝐑 = 1/M ∭_Qρ(𝐫) 𝐫   dV, where M
 is the total mass in the volume.
 
 If a continuous mass distribution has uniform density, which means that
@@ -60,7 +60,7 @@ the volume.
 Barycentric coordinates
 
 The coordinates R of the center of mass of a two-particle system, P₁ and
-P₂, with masses m₁ and m₂ is given by __MATH_7__
+P₂, with masses m₁ and m₂ is given by 𝐑 = m_1 𝐫_1 + m_2𝐫_2 m_1 + m_2.
 
 Let the percentage of the total mass divided between these two particles
 vary from 100% P₁ and 0% P₂ through 50% P₁ and 50% P₂ to 0% P₁ and 100%
@@ -87,11 +87,11 @@ periodic systems is to treat each coordinate, x and y and/or z, as if it
 were on a circle instead of a line. The calculation takes every
 particle's x coordinate and computes N possible centers of mass,
 
-__MATH_8__
+x̅_n = x̅_0+2πn/N,   n=1, 2,…,N,
 
-where __MATH_9__ is the naïve mass-weighted average position for all
+where x̅_0 is the naïve mass-weighted average position for all
 particles. The true center of mass is then the value in the vector
-__MATH_10__, with the lowest sum of squared arc distances between the
+𝐱̅ = [x̅_1,x̅_2,…,x̅_n], with the lowest sum of squared arc distances between the
 points.
 
 The process can be repeated for all dimensions of the system to
@@ -137,15 +137,15 @@ In physics the benefits of using the center of mass to model a mass
 distribution can be seen by considering the resultant of the gravity
 forces on a continuous body. Consider a body Q of volume V with density
 ρ(r) at each point r in the volume. In a parallel gravity field the
-force f at each point r is given by, __MATH_11__ where dm is the mass at
-the point r, g is the acceleration of gravity, and __MATH_12__ is a unit
+force f at each point r is given by, 𝐟(𝐫) = -dm  g𝐤̂ = -ρ(𝐫)   dV g𝐤̂, where dm is the mass at
+the point r, g is the acceleration of gravity, and 𝐤̂ is a unit
 vector defining the vertical direction.
 
 Choose a reference point R in the volume and compute the resultant force
-and torque at this point, __MATH_13__ and __MATH_14__
+and torque at this point, 𝐅 = ∭_Q 𝐟(𝐫)   dV = ∭_Qρ(𝐫)   dV ( -g 𝐤̂) = -Mg𝐤̂, and 𝐓 =  ∭_Q (𝐫 - 𝐑) ×𝐟(𝐫)   dV = ∭_Q (𝐫 - 𝐑) ×(-gρ(𝐫)   dV   𝐤̂) = (∭_Q ρ(𝐫) (𝐫 - 𝐑) dV ) ×(-g𝐤̂) .
 
 If the reference point R is chosen so that it is the center of mass,
-then __MATH_15__ which means the resultant torque . Because the
+then ∭_Q ρ(𝐫) (𝐫 - 𝐑) dV = 0, which means the resultant torque . Because the
 resultant torque is zero the body will move as though it is a particle
 with its mass concentrated at the center of mass.
 
@@ -161,13 +161,13 @@ simplified by measuring the position and velocity of the particles
 relative to the center of mass. Let the system of particles P_(i), i =
 1, ..., n of masses m_(i) be located at the coordinates r_(i) with
 velocities v_(i). Select a reference point R and compute the relative
-position and velocity vectors, __MATH_16__
+position and velocity vectors, 𝐫_i = (𝐫_i - 𝐑) + 𝐑,   𝐯_i = d/dt(𝐫_i - 𝐑) + 𝐯.
 
 The total linear momentum and angular momentum of the system are
-__MATH_17__ and __MATH_18__
+𝐩 = d/dt(∑_i=1^n m_i (𝐫_i - 𝐑)) + (∑_i=1^n m_i) 𝐯, and 𝐋 = ∑_i=1^n m_i (𝐫_i - 𝐑) ×d/dt(𝐫_i - 𝐑) + (∑_i=1^n m_i ) [𝐑 ×d/dt(𝐫_i - 𝐑) + (𝐫_i - 𝐑) ×𝐯 ] + (∑_i=1^n m_i )𝐑 ×𝐯
 
 If R is chosen as the center of mass these equations simplify to
-__MATH_19__ where m is the total mass of all the particles, p is the
+𝐩 = m𝐯,  𝐋 = ∑_i=1^n m_i (𝐫_i - 𝐑) ×d/dt(𝐫_i - 𝐑) + ∑_i=1^n m_i 𝐑 ×𝐯 where m is the total mass of all the particles, p is the
 linear momentum, and L is the angular momentum.
 
 The law of conservation of momentum predicts that for any system not
@@ -220,15 +220,15 @@ In three dimensions
 An experimental method to locate the three-dimensional coordinates of
 the center of mass begins by supporting the object at three points and
 measuring the forces, F₁, F₂, and F₃ that resist the weight of the
-object, __MATH_20__ (__MATH_21__ is the unit vector in the vertical
+object, 𝐖 = -W𝐤̂ (𝐤̂ is the unit vector in the vertical
 direction). Let r₁, r₂, and r₃ be the position coordinates of the
 support points, then the coordinates R of the center of mass satisfy the
-condition that the resultant torque is zero, __MATH_22__ or __MATH_23__
+condition that the resultant torque is zero, 𝐓 = (𝐫_1 - 𝐑) ×𝐅_1 + (𝐫_2 - 𝐑) ×𝐅_2 + (𝐫_3 - 𝐑) ×𝐅_3 = 0, or 𝐑 ×(-W𝐤̂) = 𝐫_1 ×𝐅_1 + 𝐫_2 ×𝐅_2 + 𝐫_3 ×𝐅_3.
 
 This equation yields the coordinates of the center of mass R* in the
-horizontal plane as, __MATH_24__
+horizontal plane as, 𝐑^* = -1/W 𝐤̂ ×(𝐫_1 ×𝐅_1 + 𝐫_2 ×𝐅_2 + 𝐫_3 ×𝐅_3).
 
-The center of mass lies on the vertical line L, given by __MATH_25__
+The center of mass lies on the vertical line L, given by 𝐋(t) = 𝐑^* + t𝐤̂.
 
 The three-dimensional coordinates of the center of mass are determined
 by performing this experiment twice with the object positioned so that

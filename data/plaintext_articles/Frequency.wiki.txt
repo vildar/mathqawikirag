@@ -24,7 +24,7 @@ simple harmonic motion, the term frequency is defined as the number of
 cycles or repetitions per unit of time. The conventional symbol for
 frequency is f or ν (the Greek letter nu) is also used. The period T is
 the time taken to complete one cycle of an oscillation or rotation. The
-frequency and the period are related by the equation __MATH_0__
+frequency and the period are related by the equation f = 1/T.
 
 The term temporal frequency is used to emphasise that the frequency is
 characterised by the number of occurrences of a repeating event per unit
@@ -70,15 +70,15 @@ Related quantities
     sinusoidal waveform (notably in oscillations and waves), or as the
     rate of change of the argument to the sine function:
 
-    __MATH_1__ __MATH_2__
+    y(t) = sinθ(t)  =  sin(ωt) =  sin(2 π f t) d θ/d t = ω= 2 π f .
     The unit of angular frequency is the radian per second (rad/s) but,
     for discrete-time signals, can also be expressed as radians per
     sampling interval, which is a dimensionless quantity. Angular
-    frequency is frequency multiplied by 2__MATH_3__.
+    frequency is frequency multiplied by 2π.
 
 -   Spatial frequency, denoted here by ξ (xi), is analogous to temporal
     frequency, but with a spatial measurement replacing time
-    measurement, e.g.: __MATH_4__ __MATH_5__
+    measurement, e.g.: y(t) = sinθ(t,x) = sin(ωt + kx) d θ/d x = k = 2 πξ.
     -   Spatial period or wavelength is the spatial analog to temporal
         period.
 
@@ -88,10 +88,10 @@ For periodic waves in nondispersive media (that is, media in which the
 wave speed is independent of frequency), frequency has an inverse
 relationship to the wavelength, λ (lambda). Even in dispersive media,
 the frequency f of a sinusoidal wave is equal to the phase velocity v of
-the wave divided by the wavelength λ of the wave: __MATH_6__
+the wave divided by the wavelength λ of the wave: f = v/λ.
 
 In the special case of electromagnetic waves in vacuum, then , where c
-is the speed of light in vacuum, and this expression becomes __MATH_7__
+is the speed of light in vacuum, and this expression becomes f = c/λ.
 
 When monochromatic waves travel from one medium to another, their
 frequency remains the same—only their wavelength and speed change.
@@ -105,15 +105,15 @@ Counting
 Calculating the frequency of a repeating event is accomplished by
 counting the number of times that event occurs within a specific time
 period, then dividing the count by the period. For example, if 71 events
-occur within 15 seconds the frequency is: __MATH_8__ If the number of
+occur within 15 seconds the frequency is: f = 71/15  s ≈4.73   Hz. If the number of
 counts is not very large, it is more accurate to measure the time
 interval for a predetermined number of occurrences, rather than the
 number of occurrences within a specified time. The latter method
 introduces a random error into the count of between zero and one count,
 so on average half a count. This is called gating error and causes an
-average error in the calculated frequency of __MATH_9__, or a fractional
-error of __MATH_10__ where __MATH_11__ is the timing interval and
-__MATH_12__ is the measured frequency. This error decreases with
+average error in the calculated frequency of Δf = 1/2T_m, or a fractional
+error of Δf/f = 1/2 f T_m where T_m is the timing interval and
+f is the measured frequency. This error decreases with
 frequency, so it is generally a problem at low frequencies where the
 number of counts N is small.
 
@@ -167,14 +167,14 @@ Light
 
 Visible light is an electromagnetic wave, consisting of oscillating
 electric and magnetic fields traveling through space. The frequency of
-the wave determines its color: 400 THz (__MATH_13__ Hz) is red light,
-800 THz (__MATH_14__) is violet light, and between these (in the range
+the wave determines its color: 400 THz ( Hz) is red light,
+800 THz (Hz) is violet light, and between these (in the range
 400–800 THz) are all the other colors of the visible spectrum. An
-electromagnetic wave with a frequency less than __MATH_15__ will be
+electromagnetic wave with a frequency less than Hz will be
 invisible to the human eye; such waves are called infrared (IR)
 radiation. At even lower frequency, the wave is called a microwave, and
 at still lower frequencies it is called a radio wave. Likewise, an
-electromagnetic wave with a frequency higher than __MATH_16__ will also
+electromagnetic wave with a frequency higher than Hz will also
 be invisible to the human eye; such waves are called ultraviolet (UV)
 radiation. Even higher-frequency waves are called X-rays, and higher
 still are gamma rays.
@@ -183,7 +183,7 @@ All of these waves, from the lowest-frequency radio waves to the
 highest-frequency gamma rays, are fundamentally the same, and they are
 all called electromagnetic radiation. They all travel through vacuum at
 the same speed (the speed of light), giving them wavelengths inversely
-proportional to their frequencies. __MATH_17__ where c is the speed of
+proportional to their frequencies. c=fλ, where c is the speed of
 light (c in vacuum or less in other media), f is the frequency and λ is
 the wavelength.
 

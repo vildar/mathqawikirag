@@ -38,7 +38,7 @@ laws of classical mechanics:
 
   ------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   First law:    In an inertial reference frame, an object either remains at rest or continues to move in a straight line at a constant velocity, unless acted upon by a net force.
-  Second law:   In an inertial reference frame, the vector sum of the forces F on an object is equal to the mass m of that object multiplied by the acceleration a of the object: __MATH_0__. If the resultant force __MATH_1__ acting on a body or an object is not equal to zero, the body will have an acceleration __MATH_2__ that is in the same direction as the resultant force.
+  Second law:   In an inertial reference frame, the vector sum of the forces F on an object is equal to the mass m of that object multiplied by the acceleration a of the object: F⃗ = ma⃗. If the resultant force F⃗ acting on a body or an object is not equal to zero, the body will have an acceleration a that is in the same direction as the resultant force.
   Third law:    When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction onto the first body.
   ------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -60,15 +60,15 @@ was first published on July 5, 1687. Newton's three laws are:
 1.  A body at rest will remain at rest, and a body in motion will remain
     in motion unless it is acted upon by an external force. (This is
     known as the law of inertia.)
-2.  Force (__MATH_3__) is equal to the change in momentum per change in
-    time (__MATH_4__). For a constant mass, force equals mass times
-    acceleration (__MATH_5__ ).
+2.  Force (F⃗) is equal to the change in momentum per change in
+    time (Δmv⃗/Δt). For a constant mass, force equals mass times
+    acceleration (F⃗ = ma⃗ ).
 3.  For every action, there is an equal and opposite reaction. (In other
-    words, whenever one body exerts a force __MATH_6__ onto a second
+    words, whenever one body exerts a force F⃗ onto a second
     body, (in some cases, which is standing still) the second body
-    exerts the force __MATH_7__ back onto the first body. __MATH_8__ and
-    __MATH_9__ are equal in magnitude and opposite in direction. So, the
-    body that exerts __MATH_10__ will be pushed backward.)
+    exerts the force -F⃗ back onto the first body. F⃗ and
+    -F⃗ are equal in magnitude and opposite in direction. So, the
+    body that exerts F⃗ will be pushed backward.)
 
 Newton's three laws of motion were the first to accurately provide a
 mathematical model for understanding orbiting bodies in outer space.
@@ -78,9 +78,9 @@ of objects on Earth.
 Relativistic mechanics
 
 Modern kinematics developed with study of electromagnetism and refers
-all velocities __MATH_11__ to their ratio to speed of light __MATH_12__.
+all velocities v to their ratio to speed of light c.
 Velocity is then interpreted as rapidity, the hyperbolic angle
-__MATH_13__ for which the hyperbolic tangent function __MATH_14__.
+φ for which the hyperbolic tangent function tanhφ= v ÷c.
 Acceleration, the change of velocity over time, then changes rapidity
 according to Lorentz transformations. This part of mechanics is special
 relativity. Efforts to incorporate gravity into relativistic mechanics
@@ -228,7 +228,7 @@ of angular momentum of both particles.
 Light
 
 Light moves at a speed of 299,792,458 m/s, or , in a vacuum. The speed
-of light in vacuum (or __MATH_15__) is also the speed of all massless
+of light in vacuum (or c) is also the speed of all massless
 particles and associated fields in a vacuum, and it is the upper limit
 on the speed at which energy, matter, information or causation can
 travel. The speed of light in vacuum is thus the upper limit for speed
@@ -246,7 +246,7 @@ for a well-recognized fundamental constant", as was done for the speed
 of light. A new, but completely equivalent, wording of the metre's
 definition was proposed: "The metre, symbol m, is the unit of length;
 its magnitude is set by fixing the numerical value of the speed of light
-in vacuum to be equal to exactly __MATH_16__ when it is expressed in the
+in vacuum to be equal to exactly 299792458 when it is expressed in the
 SI unit ." This implicit change to the speed of light was one of the
 changes that was incorporated in the 2019 revision of the SI, also
 termed the New SI.

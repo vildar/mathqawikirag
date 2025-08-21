@@ -1,24 +1,24 @@
 Jerk (also known as jolt) is the rate of change of an object's
 acceleration over time. It is a vector quantity (having both magnitude
-and direction). Jerk is most commonly denoted by the symbol __MATH_0__
+and direction). Jerk is most commonly denoted by the symbol j
 and expressed in m/s³ (SI units) or standard gravities per second(g₀/s).
 
 Expressions
 
-As a vector, jerk __MATH_1__ can be expressed as the first time
+As a vector, jerk ”'j”' can be expressed as the first time
 derivative of acceleration, second time derivative of velocity, and
 third time derivative of position:
 
-__MATH_2__
+𝐣(t) = d 𝐚(t)/dt = d^2 𝐯(t)/dt^2 = d^3 𝐫(t)/dt^3
 
 Where:
 
--   __MATH_3__ is acceleration
--   __MATH_4__ is velocity
--   __MATH_5__ is position
--   __MATH_6__ is time.
+-   ”'a”' is acceleration
+-   ”'v”' is velocity
+-   ”'r”' is position
+-   t is time.
 
-Third-order differential equations of the form __MATH_7__ are sometimes
+Third-order differential equations of the form J(...x, ẍ, ẋ, x) = 0 are sometimes
 called jerk equations. When converted to an equivalent system of three
 ordinary first-order non-linear differential equations, jerk equations
 are the minimal setting for solutions showing chaotic behaviour. This
@@ -75,9 +75,9 @@ in a car:
 
 Force, acceleration, and jerk
 
-For a constant mass __MATH_8__, acceleration __MATH_9__ is directly
-proportional to force __MATH_10__ according to Newton's second law of
-motion: __MATH_11__
+For a constant mass m, acceleration a is directly
+proportional to force F according to Newton's second law of
+motion: 𝐅 = m 𝐚
 
 In classical mechanics of rigid bodies, there are no forces associated
 with the derivatives of acceleration; however, physical systems
@@ -107,13 +107,13 @@ Jump-discontinuity in acceleration can be modeled using a Dirac delta
 function in jerk, scaled to the height of the jump. Integrating jerk
 over time across the Dirac delta yields the jump-discontinuity.
 
-For example, consider a path along an arc of radius __MATH_12__, which
+For example, consider a path along an arc of radius r, which
 tangentially connects to a straight line. The whole path is continuous,
 and its pieces are smooth. Now assume a point particle moves with
 constant speed along this path, so its tangential acceleration is zero.
-The centripetal acceleration given by __MATH_13__ is normal to the arc
+The centripetal acceleration given by ”v”^2/”r” is normal to the arc
 and inward. When the particle passes the connection of pieces, it
-experiences a jump-discontinuity in acceleration given by __MATH_14__,
+experiences a jump-discontinuity in acceleration given by ”v”^2/”r”,
 and it undergoes a jerk that can be modeled by a Dirac delta, scaled to
 the jump-discontinuity.
 
@@ -156,14 +156,14 @@ In rotation
 
 Consider a rigid body rotating about a fixed axis in an inertial
 reference frame. If its angular position as a function of time is
-__MATH_15__, the angular velocity, acceleration, and jerk can be
+”θ”(”t”), the angular velocity, acceleration, and jerk can be
 expressed as follows:
 
--   Angular velocity, __MATH_16__, is the time derivative of
-    __MATH_17__.
--   Angular acceleration, __MATH_18__, is the time derivative of
-    __MATH_19__.
--   Angular jerk, __MATH_20__, is the time derivative of __MATH_21__.
+-   Angular velocity, ω(t)=θ̇(t)=dθ(t)/dt, is the time derivative of
+    ”θ”(”t”).
+-   Angular acceleration, α(t)=ω̇(t)=dω(t)/d t, is the time derivative of
+    ”ω”(”t”).
+-   Angular jerk, ζ(t) = α̇(t) =ω̈(t) = ... θ(t), is the time derivative of ”α”(”t”).
 
 Angular acceleration equals the torque acting on the body, divided by
 the body's moment of inertia with respect to the momentary axis of
@@ -171,34 +171,49 @@ rotation. A change in torque results in angular jerk.
 
 The general case of a rotating rigid body can be modeled using kinematic
 screw theory, which includes one axial vector, angular velocity
-__MATH_22__, and one polar vector, linear velocity __MATH_23__. From
+”'Ω”'(”t”), and one polar vector, linear velocity ”'v”'(”t”). From
 this, the angular acceleration is defined as
 
-__MATH_24__
+α(t) = d/d t ω(t)= ω̇(t)
 
-and the angular jerk is given by __MATH_25__
+and the angular jerk is given by ζ(t) = d/dtα(t)=α̇(t) = ω̈(t)
 
 taking the angular acceleration from Angular acceleration#Particle in
-three dimensions as __MATH_26__, we obtain
+three dimensions as α = dω/dt
+= 𝐫×𝐚/r^2 - 2/rdr/dtω, we obtain
 
-__MATH_27__
+ζ = d α /dt =
+1/r^2( 𝐫 ×d 𝐚/dt + d 𝐫/dt ×𝐚 )
+- 2/r^3dr/dt( 𝐫 ×𝐚 ) ; + 2/r^2(dr/dt )^2 ω
+- 2/rd^2r/dt^2 ω
+- 2/rdr/dt d ω /dt
 
-replacing __MATH_28__ we can have the last item as __MATH_29__, and we
+replacing dω/dt we can have the last item as - 2/rdr/dt dω/dt
+   = - 2/rdr/dt ( 𝐫×𝐚/r^2 - 2/rdr/dtω) ;    = - 2/r^3dr/dt ( 𝐫×𝐚 )
++ 4/r^2 (dr/dt )^2 ω, and we
 finally get
 
-__MATH_30__
+ζ = 𝐫×𝐣/r^2
++ 𝐯×𝐚/r^2
+- 4/r^3dr/dt( 𝐫 ×𝐚 )
++ 6/r^2(dr/dt )^2 ω
+- 2/rd^2r/dt^2 ω
 
-or vice versa, replacing __MATH_31__ with __MATH_32__: __MATH_33__
+or vice versa, replacing ( 𝐫 ×𝐚 ) with α: ζ = 𝐫×𝐣/r^2
++ 𝐯×𝐚/r^2
+- 4/rdr/dt α 
+- 2/r^2(dr/dt )^2 ω
+- 2/rd^2r/dt^2 ω
 
 For example, consider a Geneva drive, a device used for creating
 intermittent rotation of a driven wheel (the blue wheel in the
 animation) by continuous rotation of a driving wheel (the red wheel in
 the animation). During one cycle of the driving wheel, the driven
-wheel's angular position __MATH_34__ changes by 90 degrees and then
+wheel's angular position θ changes by 90 degrees and then
 remains constant. Because of the finite thickness of the driving wheel's
 fork (the slot for the driving pin), this device generates a
-discontinuity in the angular acceleration __MATH_35__, and an unbounded
-angular jerk __MATH_36__ in the driven wheel.
+discontinuity in the angular acceleration α, and an unbounded
+angular jerk ζ in the driven wheel.
 
 Jerk does not preclude the Geneva drive from being used in applications
 such as movie projectors and cams. In movie projectors, the film

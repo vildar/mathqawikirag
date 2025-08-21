@@ -77,7 +77,7 @@ Non-SI units accepted for use with SI units include:
 -   the electronvolt (eV), a unit of energy, used to express mass in
     units of eV/c² through mass–energy equivalence
 -   the dalton (Da), equal to 1/12 of the mass of a free carbon-12 atom,
-    approximately kg.
+    approximately __MATH_0__.
 
 Outside the SI system, other units of mass include:
 
@@ -85,11 +85,11 @@ Outside the SI system, other units of mass include:
 -   the pound (lb), a unit of mass (about 0.45 kg), which is used
     alongside the similarly named pound (force) (about 4.5 N), a unit of
     force
--   the Planck mass (about kg), a quantity derived from
+-   the Planck mass (about __MATH_1__), a quantity derived from
     fundamental constants
 -   the solar mass (), defined as the mass of the Sun, primarily used in
     astronomy to compare large masses such as stars or galaxies
-    (≈ kg)
+    (≈ __MATH_2__)
 -   the mass of a particle, as identified with its inverse Compton
     wavelength ()
 -   the mass of a star or black hole, as identified with its
@@ -224,16 +224,16 @@ inertial and gravitational masses m and M, respectively. If the only
 force acting on the object comes from a gravitational field g, the force
 on the object is:
 
-    F = M g.
+    __MATH_3__
 
 Given this force, the acceleration of the object can be determined by
 Newton's second law:
 
-    F = m a.
+    __MATH_4__
 
 Putting these together, the gravitational acceleration is given by:
 
-    a=M/mg.
+    __MATH_5__
 
 This says that the ratio of gravitational to inertial mass of any object
 is equal to some constant K if and only if all objects fall at the same
@@ -304,13 +304,13 @@ Humans, at some early era, realized that the weight of a collection of
 similar objects was directly proportional to the number of objects in
 the collection:
 
-    W_n ∝n,
+    __MATH_6__
 
 where W is the weight of the collection of similar objects and n is the
 number of objects in the collection. Proportionality, by definition,
 implies that two values have a constant ratio:
 
-    W_n/n = W_m/m, or equivalently W_n/W_m = n/m.
+    __MATH_7__, or equivalently __MATH_8__
 
 An early use of this relationship is a balance scale, which balances the
 force of one object's weight against the force of another object's
@@ -330,7 +330,7 @@ collections of the same common mass standard, the carob seed. The ratio
 of a Roman ounce (144 carob seeds) to a Roman pound (1728 carob seeds)
 was:
 
-    ounce/pound = W_144/W_1728 = 144/1728 = 1/12.
+    __MATH_9__
 
 Planetary motion
 
@@ -409,7 +409,7 @@ Galileo found that for an object in free fall, the distance that the
 object has fallen is always proportional to the square of the elapsed
 time:
 
-    Distance ∝Time^2
+    __MATH_10__
 
 Galileo had shown that objects in free fall under the influence of the
 Earth's gravitational field have a constant acceleration, and Galileo's
@@ -469,7 +469,7 @@ Isaac Newton had bridged the gap between Kepler's gravitational mass and
 Galileo's gravitational acceleration, resulting in the discovery of the
 following relationship which governed both of these:
 
-    𝐠=-μ𝐑̂/|𝐑|^2
+    __MATH_12__
 
 where g is the apparent acceleration of a body as it passes through a
 region of space where gravitational fields exist, μ is the gravitational
@@ -553,14 +553,14 @@ Given two objects A and B, of masses M_(A) and M_(B), separated by a
 displacement R_(AB), Newton's law of gravitation states that each object
 exerts a gravitational force on the other, of magnitude
 
-    𝐅_AB=-GM_AM_B𝐑̂_AB/|𝐑_AB|^2,
+    __MATH_13__,
 
 where G is the universal gravitational constant. The above statement may
 be reformulated in the following way: if g is the magnitude at a given
 location in a gravitational field, then the gravitational force on an
 object with gravitational mass M is
 
-    F=Mg.
+    __MATH_14__.
 
 This is the basis by which masses are determined by weighing. In simple
 spring scales, for example, the force F is proportional to the
@@ -601,7 +601,7 @@ In classical mechanics, according to Newton's second law, we say that a
 body has a mass m if, at any instant of time, it obeys the equation of
 motion
 
-    𝐅=m 𝐚,
+    __MATH_15__
 
 where F is the resultant force acting on the body and a is the
 acceleration of the body's centre of mass. For the moment, we will put
@@ -625,7 +625,7 @@ present are the force exerted on m₁ by m₂, which we denote F₁₂, and the
 force exerted on m₂ by m₁, which we denote F₂₁. Newton's second law
 states that
 
-    𝐅_12     =m_1𝐚_1, ; 𝐅_21     =m_2𝐚_2,
+    __MATH_16__
 
 where a₁ and a₂ are the accelerations of m₁ and m₂, respectively.
 Suppose that these accelerations are non-zero, so that the forces
@@ -633,13 +633,13 @@ between the two objects are non-zero. This occurs, for example, if the
 two objects are in the process of colliding with one another. Newton's
 third law then states that
 
-    𝐅_12=-𝐅_21;
+    __MATH_17__
 
 and thus
 
-    m_1=m_2|𝐚_2|/|𝐚_1|.
+    __MATH_18__
 
-If |”'a”'_1| is non-zero, the fraction is well-defined, which allows
+If __MATH_19__ is non-zero, the fraction is well-defined, which allows
 us to measure the inertial mass of m₁. In this case, m₂ is our
 "reference" object, and we can define its mass m as (say) 1 kilogram.
 Then we can measure the mass of any other object in the universe by
@@ -647,11 +647,11 @@ colliding it with the reference object and measuring the accelerations.
 
 Additionally, mass relates a body's momentum p to its linear velocity v:
 
-    𝐩=m𝐯,
+    __MATH_20__,
 
 and the body's kinetic energy K to its velocity:
 
-    K=12m|𝐯|^2.
+    __MATH_21__.
 
 The primary difficulty with Mach's definition of mass is that it fails
 to take into account the potential energy (or binding energy) needed to
@@ -665,7 +665,7 @@ relative accelerations for the proton and neutron in deuterium are
 computed, then the above formula over-estimates the mass m₁ (by 0.239%)
 for the proton in deuterium. At best, Mach's formula can only be used to
 obtain ratios of masses, that is, as m₁ / m₂ =
-|”'a”'_2| / |”'a”'_1|. An additional difficulty was pointed out by
+__MATH_22__ / __MATH_23__. An additional difficulty was pointed out by
 Henri Poincaré, which is that the measurement of instantaneous
 acceleration is impossible: unlike the measurement of time or distance,
 there is no way to measure acceleration with a single measurement; one
@@ -695,11 +695,11 @@ an observer moving along with the object. Relativistic mass is the total
 quantity of energy in a body or system divided by c². The two are
 related by the following equation:
 
-    m_relative=γ(m_rest)
+    __MATH_24__
 
-where γ is the Lorentz factor:
+where __MATH_25__ is the Lorentz factor:
 
-    γ= 1/√(1 - v^2/c^2)
+    __MATH_26__
 
 The invariant mass of systems is the same for observers in all inertial
 frames, while the relativistic mass depends on the observer's frame of
@@ -709,7 +709,7 @@ mass. The rest mass of a body is also related to its energy E and the
 magnitude of its momentum p by the relativistic energy-momentum
 equation:
 
-    (m_rest)c^2=√(E_total^2-(|𝐩|c)^2).
+    __MATH_27__
 
 So long as the system is closed with respect to mass and energy, both
 kinds of mass are conserved in any given frame of reference. The
@@ -726,8 +726,8 @@ Both rest and relativistic mass can be expressed as an energy by
 applying the well-known relationship E = mc², yielding rest energy and
 "relativistic energy" (total system energy) respectively:
 
-    E_rest=(m_rest)c^2
-    E_total=(m_relative)c^2
+    __MATH_28__
+    __MATH_29__
 
 The "relativistic" mass and energy concepts are related to their "rest"
 counterparts, but they do not have the same value as their rest
@@ -752,7 +752,7 @@ the mass from the thermal energy (latent heat) used to melt the ice;
 this follows from the conservation of energy. This number is small but
 not negligible: about 3.7 nanograms. It is given by the latent heat of
 melting ice (334 kJ/kg) divided by the speed of light squared (c² ≈
-m^2/s^2).
+__MATH_30__).
 
 General relativity
 
@@ -776,17 +776,17 @@ In quantum physics
 In classical mechanics, the inert mass of a particle appears in the
 Euler–Lagrange equation as a parameter m:
 
-    d/dt  (   ∂L/∂ẋ_i   )  =  m   ẍ_i .
+    __MATH_31__
 
 After quantization, replacing the position vector x with a wave
 function, the parameter m appears in the kinetic energy operator:
 
-    iħ∂/∂t Ψ(𝐫, t) =  (-ħ^2/2m∇^2 + V(𝐫))Ψ(𝐫, t).
+    __MATH_32__
 
 In the ostensibly covariant (relativistically invariant) Dirac equation,
 and in natural units, this becomes:
 
-    (-iγ^μ∂_μ+ m) ψ= 0
+    __MATH_33__
 
 where the "mass" parameter m is now simply a constant associated with
 the quantum described by the wave function ψ.
@@ -794,7 +794,7 @@ the quantum described by the wave function ψ.
 In the Standard Model of particle physics as developed in the 1960s,
 this term arises from the coupling of the field ψ to an additional field
 Φ, the Higgs field. In the case of fermions, the Higgs mechanism results
-in the replacement of the term mψ in the Lagrangian with G_ψ ψ ϕψ.
+in the replacement of the term mψ in the Lagrangian with __MATH_34__.
 This shifts the explanandum of the value for the mass of each elementary
 particle to the value of the unknown coupling constant G_(ψ).
 
@@ -860,13 +860,13 @@ slower-than-light particles (sometimes called "bradyons" in discussions
 of tachyons) must also apply to tachyons. In particular the
 energy–momentum relation:
 
-    E^2 = p^2c^2 + m^2c^4
+    __MATH_35__
 
 (where p is the relativistic momentum of the bradyon and m is its rest
 mass) should still apply, along with the formula for the total energy of
 a particle:
 
-    E = mc^2/√(1 - v^2/c^2).
+    __MATH_36__
 
 This equation shows that the total energy of a particle (bradyon or
 tachyon) contains a contribution from its rest mass (the "rest

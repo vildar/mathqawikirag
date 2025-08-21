@@ -16,7 +16,7 @@ commonly used.
 
 The fastest possible speed at which energy or information can travel,
 according to special relativity, is the speed of light in vacuum c =
-299792458 metres per second (approximately km/h or mph).
+__MATH_0__ metres per second (approximately __MATH_1__ or __MATH_2__).
 Matter cannot quite reach the speed of light, as this would require an
 infinite amount of energy. In relativity physics, the concept of
 rapidity replaces the classical idea of speed.
@@ -28,8 +28,8 @@ Historical definition
 Italian physicist Galileo Galilei is usually credited with being the
 first to measure speed by considering the distance covered and the time
 it takes. Galileo defined speed as the distance covered per unit of
-time. In equation form, that is v = d/t, where v is speed,
-d is distance, and t is time. A cyclist who covers 30
+time. In equation form, that is __MATH_3__ where __MATH_4__ is speed,
+__MATH_5__ is distance, and __MATH_6__ is time. A cyclist who covers 30
 metres in a time of 2 seconds, for example, has a speed of 15 metres per
 second. Objects in motion often have variations in speed (a car might
 travel along a street at 50 km/h, slow to 0 km/h, and then reach
@@ -46,16 +46,16 @@ travel 50 km. If the vehicle continued at that speed for half an hour,
 it would cover half that distance (25 km). If it continued for only one
 minute, it would cover about 833 m.
 
-In mathematical terms, the instantaneous speed v is defined as
-the magnitude of the instantaneous velocity v, that is, the
-derivative of the position r with respect to time: v = |v| = |ṙ| = |dr/dt| .
+In mathematical terms, the instantaneous speed __MATH_7__ is defined as
+the magnitude of the instantaneous velocity __MATH_8__, that is, the
+derivative of the position __MATH_9__ with respect to time: __MATH_10__
 
-If s is the length of the path (also known as the distance)
-travelled until time t, the speed equals the time derivative
-of s: v = ds/dt.
+If __MATH_11__ is the length of the path (also known as the distance)
+travelled until time __MATH_12__, the speed equals the time derivative
+of __MATH_13__: __MATH_14__
 
 In the special case where the velocity is constant (that is, constant
-speed in a straight line), this can be simplified to v = s/t. The
+speed in a straight line), this can be simplified to __MATH_15__. The
 average speed over a finite time interval is the total distance
 travelled divided by the time duration.
 
@@ -74,7 +74,7 @@ place during shorter time intervals (as it is the entire distance
 covered divided by the total time of travel), and so average speed is
 often quite different from a value of instantaneous speed. If the
 average speed and the time of travel are known, the distance travelled
-can be calculated by rearranging the definition to d = v̅t .
+can be calculated by rearranging the definition to __MATH_16__
 
 Using this equation for an average speed of 80 kilometres per hour on a
 4-hour trip, the distance covered is found to be 320 kilometres.
@@ -113,14 +113,14 @@ Units of speed include:
 -   feet per second (symbol fps or ft/s);
 -   Mach number (dimensionless), speed divided by the speed of sound;
 -   in natural units (dimensionless), speed divided by the speed of
-    light in vacuum (symbol c = m/s).
+    light in vacuum (symbol c = __MATH_17__).
 
 Examples of different speeds
 
   Speed                                                           m/s           ft/s          km/h          mph           Notes
   --------------------------------------------------------------- ------------- ------------- ------------- ------------- ------------------------------------------------------------------------------------------------------------------------------------
-  Global average sea level rise                                   0.00000000011   0.00000000036   0.0000000004   0.00000000025   3.5 mm/year[1]
-  Approximate rate of continental drift                           0.0000000013   0.0000000042   0.0000000045   0.0000000028   4 cm/year. Varies depending on location.
+  Global average sea level rise                                   __MATH_18__   __MATH_19__   __MATH_20__   __MATH_21__   3.5 mm/year[1]
+  Approximate rate of continental drift                           __MATH_22__   __MATH_23__   __MATH_24__   __MATH_25__   4 cm/year. Varies depending on location.
   Speed of a common snail                                         0.001         0.003         0.004         0.002         1 millimetre per second
   A brisk walk                                                    1.7           5.5           6.1           3.8           
   A typical road cyclist                                          4.4           14.4          16            10            Varies widely by person, terrain, bicycle, effort, weather
@@ -137,20 +137,20 @@ Examples of different speeds
   Highest recorded human-powered speed                            37.02         121.5         133.2         82.8          Sam Whittingham in a recumbent bicycle[3]
   Average speed of Human sneeze                                   44.44         145.82        160           99.42         
   Muzzle velocity of a paintball marker                           90            295           320           200           
-  Cruising speed of a Boeing 747-8 passenger jet                  255           836           917           570           Mach 0.85 at ft (m) altitude
+  Cruising speed of a Boeing 747-8 passenger jet                  255           836           917           570           Mach 0.85 at __MATH_26__ (__MATH_27__) altitude
   Speed of a .22 caliber Long Rifle bullet                        326.14        1070          1174.09       729.55        
   The official land speed record                                  341.1         1119.1        1227.98       763           
-  The speed of sound in dry air at sea-level pressure and 20 °C   343           1125   1235   768           Mach 1 by definition. 20 °C = 293.15 kelvins.
-  Muzzle velocity of a 7.62×39mm cartridge                        710           2330   2600   1600   The 7.62×39mm round is a rifle cartridge of Soviet origin
-  Official flight airspeed record for jet engined aircraft        980           3215   3530   2194   Lockheed SR-71 Blackbird
-  Space Shuttle on re-entry                                       7800   25600   28000   17,500        
-  Escape velocity on Earth                                        11200   36700   40000   25000   11.2 km·s⁻¹
-  Voyager 1 relative velocity to the Sun in 2013                  17000   55800   61200   38000   Fastest heliocentric recession speed of any humanmade object.[4] (11 mi/s)
-  Average orbital speed of planet Earth around the Sun            29783   97713   107218   66623   
+  The speed of sound in dry air at sea-level pressure and 20 °C   343           __MATH_28__   __MATH_29__   768           Mach 1 by definition. 20 °C = 293.15 kelvins.
+  Muzzle velocity of a 7.62×39mm cartridge                        710           __MATH_30__   __MATH_31__   __MATH_32__   The 7.62×39mm round is a rifle cartridge of Soviet origin
+  Official flight airspeed record for jet engined aircraft        980           __MATH_33__   __MATH_34__   __MATH_35__   Lockheed SR-71 Blackbird
+  Space Shuttle on re-entry                                       __MATH_36__   __MATH_37__   __MATH_38__   17,500        
+  Escape velocity on Earth                                        __MATH_39__   __MATH_40__   __MATH_41__   __MATH_42__   11.2 km·s⁻¹
+  Voyager 1 relative velocity to the Sun in 2013                  __MATH_43__   __MATH_44__   __MATH_45__   __MATH_46__   Fastest heliocentric recession speed of any humanmade object.[4] (11 mi/s)
+  Average orbital speed of planet Earth around the Sun            __MATH_47__   __MATH_48__   __MATH_49__   __MATH_50__   
   The fastest recorded speed of the Helios probes                 70,220        230,381       252,792       157,078       Recognized as the fastest speed achieved by a man-made spacecraft, achieved in solar orbit.
-  Orbital speed of the Sun relative to the center of the galaxy   251000   823000   904000   561000   
-  Speed of the Galaxy relative to the CMB                         550000   1800000   2000000   1240000   
-  Speed of light in vacuum (symbol c)                             299792458   983571056   1079252848   670616629   Exactly m/s, by definition of the metre
+  Orbital speed of the Sun relative to the center of the galaxy   __MATH_51__   __MATH_52__   __MATH_53__   __MATH_54__   
+  Speed of the Galaxy relative to the CMB                         __MATH_55__   __MATH_56__   __MATH_57__   __MATH_58__   
+  Speed of light in vacuum (symbol c)                             __MATH_59__   __MATH_60__   __MATH_61__   __MATH_62__   Exactly __MATH_63__, by definition of the metre
   Speed                                                           m/s           ft/s          km/h          mph           Notes
 
 Psychology

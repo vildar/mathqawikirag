@@ -7,6 +7,7 @@ import mwparserfromhell
 INPUT_FOLDER = "data/cleaned_articles/"
 OUTPUT_FOLDER = "data/plaintext_articles/"
 PLACEHOLDER_FOLDER = "data/placeholder_articles/"
+PARSED_PLACEHOLDER_FOLDER = "data/parsed_placeholder_articles/"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 os.makedirs(PLACEHOLDER_FOLDER, exist_ok=True)
@@ -180,7 +181,7 @@ def process_file(filepath):
         f.write(text_with_placeholders)
 
     plaintext_path = os.path.join(
-        OUTPUT_FOLDER, os.path.basename(filepath) + ".txt")
+        PARSED_PLACEHOLDER_FOLDER, os.path.basename(filepath) + ".txt")
     pandoc_convert_to_plaintext(placeholder_path, plaintext_path)
 
     with open(plaintext_path, 'r', encoding='utf-8') as f:
@@ -191,7 +192,7 @@ def process_file(filepath):
         plain_text = plain_text.replace(f"__MATH_{i}__", conv)
 
     final_output_path = os.path.join(
-        OUTPUT_FOLDER, os.path.basename(filepath) + ".final.txt")
+        OUTPUT_FOLDER, os.path.basename(filepath) + ".txt")
     with open(final_output_path, 'w', encoding='utf-8') as f:
         f.write(plain_text)
 

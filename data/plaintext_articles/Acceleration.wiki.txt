@@ -11,7 +11,7 @@ described by Newton's second law, is the combined effect of two causes:
 -   that object's mass, depending on the materials out of which it is
     made — magnitude is inversely proportional to the object's mass.
 
-The SI unit for acceleration is metre per second squared (, __MATH_0__).
+The SI unit for acceleration is metre per second squared (, ms^2).
 
 For example, when a vehicle starts from a standstill (zero velocity, in
 an inertial frame of reference) and travels in a straight line at
@@ -41,32 +41,32 @@ Definition and properties
 Average acceleration
 
 An object's average acceleration over a period of time is its change in
-velocity, __MATH_1__, divided by the duration of the period, __MATH_2__.
-Mathematically, __MATH_3__
+velocity, Δ𝐯, divided by the duration of the period, Δt.
+Mathematically, 𝐚̅ = Δ𝐯/Δt.
 
 Instantaneous acceleration
 
 Instantaneous acceleration, meanwhile, is the limit of the average
 acceleration over an infinitesimal interval of time. In the terms of
 calculus, instantaneous acceleration is the derivative of the velocity
-vector with respect to time: __MATH_4__ As acceleration is defined as
-the derivative of velocity, __MATH_5__, with respect to time __MATH_6__
-and velocity is defined as the derivative of position, __MATH_7__, with
+vector with respect to time: 𝐚 = lim_Δt →0 Δ𝐯/Δt = d𝐯/dt. As acceleration is defined as
+the derivative of velocity, ”'v”', with respect to time t
+and velocity is defined as the derivative of position, ”'x”', with
 respect to time, acceleration can be thought of as the second derivative
-of __MATH_8__ with respect to __MATH_9__: __MATH_10__
+of ”'x”' with respect to t: 𝐚 = d𝐯/dt = d^2𝐱/dt^2.
 
 (Here and elsewhere, if motion is in a straight line, vector quantities
 can be substituted by scalars in the equations.)
 
 By the fundamental theorem of calculus, it can be seen that the integral
-of the acceleration function __MATH_11__ is the velocity function
-__MATH_12__; that is, the area under the curve of an acceleration vs.
-time (__MATH_13__ vs. __MATH_14__) graph corresponds to the change of
-velocity. __MATH_15__
+of the acceleration function ”a”(”t”) is the velocity function
+”v”(”t”); that is, the area under the curve of an acceleration vs.
+time (a vs. t) graph corresponds to the change of
+velocity. Δ𝐯 =  ∫𝐚   dt.
 
-Likewise, the integral of the jerk function __MATH_16__, the derivative
+Likewise, the integral of the jerk function ”j”(”t”), the derivative
 of the acceleration function, can be used to find the change of
-acceleration at a certain time: __MATH_17__
+acceleration at a certain time: Δ𝐚 =  ∫𝐣   dt.
 
 Units
 
@@ -88,30 +88,34 @@ condition, is measured by an instrument called an accelerometer.
 In classical mechanics, for a body with constant mass, the (vector)
 acceleration of the body's center of mass is proportional to the net
 force vector (i.e. sum of all forces) acting on it (Newton's second
-law): __MATH_18__ where __MATH_19__ is the net force acting on the body,
-__MATH_20__ is the mass of the body, and __MATH_21__ is the
+law): 𝐅 = m𝐚     𝐚 = 𝐅/m, where ”'F”' is the net force acting on the body,
+m is the mass of the body, and ”'a”' is the
 center-of-mass acceleration. As speeds approach the speed of light,
 relativistic effects become increasingly large.
 
 Tangential and centripetal acceleration
 
 The velocity of a particle moving on a curved path as a function of time
-can be written as: __MATH_22__ with __MATH_23__ equal to the speed of
-travel along the path, and __MATH_24__ a unit vector tangent to the path
+can be written as: 𝐯(t) = v(t) 𝐯(t)/v(t) = v(t) 𝐮_t(t) , with ”v”(”t”) equal to the speed of
+travel along the path, and 𝐮_t = 𝐯(t)/v(t)   , a unit vector tangent to the path
 pointing in the direction of motion at the chosen moment in time. Taking
-into account both the changing speed __MATH_25__ and the changing
-direction of __MATH_26__, the acceleration of a particle moving on a
+into account both the changing speed ”v”(”t”) and the changing
+direction of ”'u”'_”t”, the acceleration of a particle moving on a
 curved path can be written using the chain rule of differentiation for
 the product of two functions of time as:
 
-__MATH_27__
+𝐚     = d 𝐯/dt 
 
-where __MATH_28__ is the unit (inward) normal vector to the particle's
-trajectory (also called the principal normal), and __MATH_29__ is its
+               =  dv/dt 𝐮_t +v(t)d 𝐮_t/dt 
+
+               = dv /dt 𝐮_t + v^2/r𝐮_n ,
+
+where ”'u”'_n is the unit (inward) normal vector to the particle's
+trajectory (also called the principal normal), and ”'r”' is its
 instantaneous radius of curvature based upon the osculating circle at
-time __MATH_30__. The components
+time t. The components
 
-    __MATH_31__
+    𝐚_t = dv /dt 𝐮_t   and  𝐚_c = v^2/r𝐮_n
 
 are called the tangential acceleration and the normal or radial
 acceleration (or centripetal acceleration in circular motion, see also
@@ -133,22 +137,22 @@ A frequently cited example of uniform acceleration is that of an object
 in free fall in a uniform gravitational field. The acceleration of a
 falling body in the absence of resistances to motion is dependent only
 on the gravitational field strength (also called acceleration due to
-gravity). By Newton's second law the force __MATH_32__ acting on a body
-is given by: __MATH_33__
+gravity). By Newton's second law the force 𝐅_𝐠 acting on a body
+is given by: 𝐅_𝐠 = m  𝐠.
 
 Because of the simple analytic properties of the case of constant
 acceleration, there are simple formulas relating the displacement,
 initial and time-dependent velocities, and acceleration to the time
-elapsed: __MATH_34__
+elapsed: 𝐬(t)    = 𝐬_0 + 𝐯_0 t + 12 𝐚t^2 = 𝐬_0 + 12 (𝐯_0 + 𝐯(t)) t ; 𝐯(t)    = 𝐯_0 + 𝐚 t ; v^2(t)    = v_0^2 + 2𝐚 ·[𝐬(t)-𝐬_0],
 
 where
 
--   __MATH_35__ is the elapsed time,
--   __MATH_36__ is the initial displacement from the origin,
--   __MATH_37__ is the displacement from the origin at time __MATH_38__,
--   __MATH_39__ is the initial velocity,
--   __MATH_40__ is the velocity at time __MATH_41__, and
--   __MATH_42__ is the uniform rate of acceleration.
+-   t is the elapsed time,
+-   𝐬_0 is the initial displacement from the origin,
+-   𝐬(t) is the displacement from the origin at time t,
+-   𝐯_0 is the initial velocity,
+-   𝐯(t) is the velocity at time t, and
+-   𝐚 is the uniform rate of acceleration.
 
 In particular, the motion can be resolved into two orthogonal parts, one
 of constant velocity and the other according to the above equations. As
@@ -170,25 +174,25 @@ to the center of the circle. This acceleration constantly changes the
 direction of the velocity to be tangent in the neighbouring point,
 thereby rotating the velocity vector along the circle.
 
--   For a given speed __MATH_43__, the magnitude of this geometrically
+-   For a given speed v, the magnitude of this geometrically
     caused acceleration (centripetal acceleration) is inversely
-    proportional to the radius __MATH_44__ of the circle, and increases
-    as the square of this speed: __MATH_45__
--   For a given angular velocity __MATH_46__, the centripetal
-    acceleration is directly proportional to radius __MATH_47__. This is
-    due to the dependence of velocity __MATH_48__ on the radius
-    __MATH_49__. __MATH_50__
+    proportional to the radius r of the circle, and increases
+    as the square of this speed: a_c = v^2/r .
+-   For a given angular velocity ω, the centripetal
+    acceleration is directly proportional to radius r. This is
+    due to the dependence of velocity v on the radius
+    r. v = ωr.
 
 Expressing centripetal acceleration vector in polar components, where
-__MATH_51__ is a vector from the centre of the circle to the particle
+𝐫 is a vector from the centre of the circle to the particle
 with magnitude equal to this distance, and considering the orientation
-of the acceleration towards the center, yields __MATH_52__
+of the acceleration towards the center, yields 𝐚_𝐜= -v^2/|𝐫|·𝐫/|𝐫| .
 
-As usual in rotations, the speed __MATH_53__ of a particle may be
+As usual in rotations, the speed v of a particle may be
 expressed as an angular speed with respect to a point at the distance
-__MATH_54__ as __MATH_55__
+r as ω= v/r.
 
-Thus __MATH_56__
+Thus 𝐚_𝐜= -ω^2  𝐫 .
 
 This acceleration and the mass of the particle determine the necessary
 centripetal force, directed toward the centre of the circle, as the net
@@ -201,14 +205,14 @@ momentum, a vector tangent to the circle of motion.
 In a nonuniform circular motion, i.e., the speed along the curved path
 is changing, the acceleration has a non-zero component tangential to the
 curve, and is not confined to the principal normal, which directs to the
-center of the osculating circle, that determines the radius __MATH_57__
+center of the osculating circle, that determines the radius r
 for the centripetal acceleration. The tangential component is given by
-the angular acceleration __MATH_58__, i.e., the rate of change
-__MATH_59__ of the angular speed __MATH_60__ times the radius
-__MATH_61__. That is, __MATH_62__
+the angular acceleration α, i.e., the rate of change
+α= ω̇ of the angular speed ω times the radius
+r. That is, a_t = r α.
 
 The sign of the tangential component of the acceleration is determined
-by the sign of the angular acceleration (__MATH_63__), and the tangent
+by the sign of the angular acceleration (α), and the tangent
 is always directed at right angles to the radius vector.
 
 Coordinate systems
@@ -217,12 +221,12 @@ In multi-dimensional Cartesian coordinate systems, acceleration is
 broken up into components that correspond with each dimensional axis of
 the coordinate system. In a two-dimensional system, where there is an
 x-axis and a y-axis, corresponding acceleration components are defined
-as__MATH_64__ __MATH_65__The two-dimensional acceleration vector is then
-defined as __MATH_66__. The magnitude of this vector is found by the
-distance formula as__MATH_67__In three-dimensional systems where there
+asa_x=dv_x/dt=d^2x/dt^2, a_y=dv_y/dt=d^2y/dt^2.The two-dimensional acceleration vector is then
+defined as a=<a_x, a_y>. The magnitude of this vector is found by the
+distance formula as|a|=√(a_x^2+a_y^2).In three-dimensional systems where there
 is an additional z-axis, the corresponding acceleration component is
-defined as__MATH_68__The three-dimensional acceleration vector is
-defined as __MATH_69__ with its magnitude being determined by__MATH_70__
+defined asa_z=dv_z/dt=d^2z/dt^2.The three-dimensional acceleration vector is
+defined as a=<a_x, a_y, a_z> with its magnitude being determined by|a|=√(a_x^2+a_y^2+a_z^2).
 
 Relation to relativity
 

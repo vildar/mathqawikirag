@@ -73,45 +73,44 @@ rotation, except, of course, the identity.
 
 The question of the existence of such a direction is the question of
 existence of an eigenvector for the matrix A representing the rotation.
-Every 2D rotation around the origin through an angle θ in
+Every 2D rotation around the origin through an angle __MATH_0__ in
 counterclockwise direction can be quite simply represented by the
 following matrix:
 
-    A =
-[  cosθ -sinθ;  sinθ  cosθ ]
+    __MATH_1__
 
 A standard eigenvalue determination leads to the characteristic equation
 
-    λ^2 -2 λcosθ+ 1 = 0,
+    __MATH_2__
 
 which has
 
-    cosθ±i sinθ
+    __MATH_3__
 
 as its eigenvalues. Therefore, there is no real eigenvalue whenever
-cosθ≠±1, meaning that no real vector in the plane is kept unchanged
+__MATH_4__, meaning that no real vector in the plane is kept unchanged
 by A.
 
 Rotation angle and axis in 3 dimensions
 
-Knowing that the trace is an invariant, the rotation angle α
-for a proper orthogonal 3×3 rotation matrix A is found by
+Knowing that the trace is an invariant, the rotation angle __MATH_5__
+for a proper orthogonal 3×3 rotation matrix __MATH_6__ is found by
 
-    α=cos^-1(A_11+A_22+A_33-1/2)
+    __MATH_7__
 
 Using the principal arc-cosine, this formula gives a rotation angle
-satisfying 0≤α≤180^∘. The corresponding rotation axis must be defined
+satisfying __MATH_8__. The corresponding rotation axis must be defined
 to point in a direction that limits the rotation angle to not exceed 180
 degrees. (This can always be done because any rotation of more than 180
-degrees about an axis m can always be written as a rotation
-having 0≤α≤180^∘ if the axis is replaced with n=-m.)
+degrees about an axis __MATH_9__ can always be written as a rotation
+having __MATH_10__ if the axis is replaced with __MATH_11__.)
 
-Every proper rotation A in 3D space has an axis of rotation,
-which is defined such that any vector v that is aligned with
+Every proper rotation __MATH_12__ in 3D space has an axis of rotation,
+which is defined such that any vector __MATH_13__ that is aligned with
 the rotation axis will not be affected by rotation. Accordingly,
-A v = v, and the rotation axis therefore corresponds to an
+__MATH_14__, and the rotation axis therefore corresponds to an
 eigenvector of the rotation matrix associated with an eigenvalue of 1.
-As long as the rotation angle α is nonzero (i.e., the rotation
+As long as the rotation angle __MATH_15__ is nonzero (i.e., the rotation
 is not the identity tensor), there is one and only one such direction.
 Because A has only real components, there is at least one real
 eigenvalue, and the remaining two eigenvalues must be complex conjugates
@@ -120,29 +119,29 @@ characteristic polynomial). Knowing that 1 is an eigenvalue, it follows
 that the remaining two eigenvalues are complex conjugates of each other,
 but this does not imply that they are complex—they could be real with
 double multiplicity. In the degenerate case of a rotation angle
-α=180^∘, the remaining two eigenvalues are both equal to −1. In the
+__MATH_16__, the remaining two eigenvalues are both equal to −1. In the
 degenerate case of a zero rotation angle, the rotation matrix is the
 identity, and all three eigenvalues are 1 (which is the only case for
 which the rotation axis is arbitrary).
 
 A spectral analysis is not required to find the rotation axis. If
-n denotes the unit eigenvector aligned with the rotation axis,
-and if α denotes the rotation angle, then it can be shown that
-2sin(α)n={A_32-A_23,A_13-A_31,A_21-A_12}. Consequently, the expense of an eigenvalue analysis can be
+__MATH_17__ denotes the unit eigenvector aligned with the rotation axis,
+and if __MATH_18__ denotes the rotation angle, then it can be shown that
+__MATH_19__. Consequently, the expense of an eigenvalue analysis can be
 avoided by simply normalizing this vector if it has a nonzero magnitude.
 On the other hand, if this vector has a zero magnitude, it means that
-sin(α)=0. In other words, this vector will be zero if and only if the
+__MATH_20__. In other words, this vector will be zero if and only if the
 rotation angle is 0 or 180 degrees, and the rotation axis may be
-assigned in this case by normalizing any column of A+I that has
+assigned in this case by normalizing any column of __MATH_21__ that has
 a nonzero magnitude.
 
-This discussion applies to a proper rotation, and hence A = 1. Any
-improper orthogonal 3x3 matrix B may be written as
-B=-A, in which A is proper orthogonal. That is, any
+This discussion applies to a proper rotation, and hence __MATH_22__. Any
+improper orthogonal 3x3 matrix __MATH_23__ may be written as
+__MATH_24__, in which __MATH_25__ is proper orthogonal. That is, any
 improper orthogonal 3x3 matrix may be decomposed as a proper rotation
 (from which an axis of rotation can be found as described above)
 followed by an inversion (multiplication by −1). It follows that the
-rotation axis of A is also the eigenvector of B
+rotation axis of __MATH_26__ is also the eigenvector of __MATH_27__
 corresponding to an eigenvalue of −1.
 
 Rotation plane
@@ -164,18 +163,18 @@ reflections.
 
 It follows, then, that a proper rotation has some complex eigenvalue.
 Let v be the corresponding eigenvector. Then, as we showed in the
-previous topic, v̅ is also an eigenvector, and v + v̅ and
-i(v - v̅) are such that their scalar product vanishes:
+previous topic, __MATH_28__ is also an eigenvector, and __MATH_29__ and
+__MATH_30__ are such that their scalar product vanishes:
 
-    i (v^T + v̅^T)(v - v̅) = i (v^T v - v̅^T v̅ + v̅^T v - v^T v̅ ) = 0
+    __MATH_31__
 
-because, since v̅^T v̅ is real, it equals its complex conjugate
-v^T v, and v̅^T v and v^T v̅ are both representations of
-the same scalar product between v and v̅.
+because, since __MATH_32__ is real, it equals its complex conjugate
+__MATH_33__, and __MATH_34__ and __MATH_35__ are both representations of
+the same scalar product between __MATH_36__ and __MATH_37__.
 
-This means v + v̅ and i(v - v̅) are orthogonal vectors. Also,
+This means __MATH_38__ and __MATH_39__ are orthogonal vectors. Also,
 they are both real vectors by construction. These vectors span the same
-subspace as v and v̅, which is an invariant subspace
+subspace as __MATH_40__ and __MATH_41__, which is an invariant subspace
 under the application of A. Therefore, they span an invariant plane.
 
 This plane is orthogonal to the invariant axis, which corresponds to the
@@ -187,20 +186,20 @@ Rotation of vectors
 A vector is said to be rotating if it changes its orientation. This
 effect is generally only accompanied when its rate of change vector has
 non-zero perpendicular component to the original vector. This can be
-shown to be the case by considering a vector A⃗ which is
-parameterized by some variable t for which:
+shown to be the case by considering a vector __MATH_42__ which is
+parameterized by some variable __MATH_43__ for which:
 
-d|A⃗|^2 dt=d(A⃗·A⃗) dt ⇒d|A⃗| dt=dA⃗  dt·Â
+__MATH_44__
 
 Which also gives a relation of rate of change of unit vector by taking
-A⃗, to be such a vector: dÂ dt·Â = 0showing that dÂ dt
-vector is perpendicular to the vector, A⃗.
+__MATH_45__, to be such a vector: __MATH_46__showing that __MATH_47__
+vector is perpendicular to the vector, __MATH_48__.
 
 From:
 
-dA⃗ dt = d(|A⃗|Â) dt = d|A⃗| dtÂ+|A⃗|(dÂ dt),
+__MATH_49__,
 
-since the first term is parallel to A⃗ and the second
+since the first term is parallel to __MATH_50__ and the second
 perpendicular to it, we can conclude in general that the parallel and
 perpendicular components of rate of change of a vector independently
 influence only the magnitude or orientation of the vector respectively.
@@ -221,9 +220,9 @@ Physics
 The speed of rotation is given by the angular frequency (rad/s) or
 frequency (turns per time), or period (seconds, days, etc.). The
 time-rate of change of angular frequency is angular acceleration
-(rad/s²), caused by torque. The ratio of torque τ to the
-angular acceleration α is given by the moment of inertia:
-I = τ/α.
+(rad/s²), caused by torque. The ratio of torque __MATH_51__ to the
+angular acceleration __MATH_52__ is given by the moment of inertia:
+__MATH_53__
 
 The angular velocity vector (an axial vector) also describes the
 direction of the axis of rotation. Similarly, the torque is an axial

@@ -23,9 +23,9 @@ However, kinematics is simpler. It concerns only variables derived from
 the positions of objects and time. In circumstances of constant
 acceleration, these simpler equations of motion are usually referred to
 as the SUVAT equations, arising from the definitions of kinematic
-quantities: displacement (”s”), initial velocity (”u”),
-final velocity (”v”), acceleration (”a”), and time
-(”t”).
+quantities: displacement (__MATH_0__), initial velocity (__MATH_1__),
+final velocity (__MATH_2__), acceleration (__MATH_3__), and time
+(__MATH_4__).
 
 A differential equation of motion, usually identified as some physical
 law (for example, F = ma), and applying definitions of physical
@@ -35,28 +35,28 @@ arbitrary constants, the arbitrariness corresponding to a set of
 solutions. A particular solution can be obtained by setting the initial
 values, which fixes the values of the constants.
 
-Stated formally, in general, an equation of motion ”M” is a
-function of the position ”'r”' of the object, its velocity (the
-first time derivative of ”'r”', ”'v”' = ”d””'r”'/”dt”), and its acceleration
-(the second derivative of ”'r”', ”'a”' = ”d”^2”'r”'/”dt”^2), and time
-”t”. Euclidean vectors in 3D are denoted throughout in bold.
-This is equivalent to saying an equation of motion in ”'r”' is a
-second-order ordinary differential equation (ODE) in ”'r”',
+Stated formally, in general, an equation of motion __MATH_5__ is a
+function of the position __MATH_6__ of the object, its velocity (the
+first time derivative of __MATH_7__, __MATH_8__), and its acceleration
+(the second derivative of __MATH_9__, __MATH_10__), and time
+__MATH_11__. Euclidean vectors in 3D are denoted throughout in bold.
+This is equivalent to saying an equation of motion in __MATH_12__ is a
+second-order ordinary differential equation (ODE) in __MATH_13__,
 
-M[𝐫(t),ṙ(t),𝐫̈(t),t]=0 ,
+__MATH_14__
 
-where ”t” is time, and each overdot denotes one time derivative.
-The initial conditions are given by the constant values at ”t” = 0,
+where __MATH_15__ is time, and each overdot denotes one time derivative.
+The initial conditions are given by the constant values at __MATH_16__,
 
-𝐫(0)  ,   ṙ(0)  .
+__MATH_17__
 
-The solution ”'r”'(”t”) to the equation of motion, with specified
-initial values, describes the system for all times ”t” after
-”t” = 0. Other dynamical variables like the momentum ”'p”' of
-the object, or quantities derived from ”'r”' and ”'p”' like
-angular momentum, can be used in place of ”'r”' as the quantity to
+The solution __MATH_18__ to the equation of motion, with specified
+initial values, describes the system for all times __MATH_19__ after
+__MATH_20__. Other dynamical variables like the momentum __MATH_21__ of
+the object, or quantities derived from __MATH_22__ and __MATH_23__ like
+angular momentum, can be used in place of __MATH_24__ as the quantity to
 solve for from some equation of motion, although the position of the
-object at time ”t” is by far the most sought-after quantity.
+object at time __MATH_25__ is by far the most sought-after quantity.
 
 Sometimes, the equation will be linear and is more likely to be exactly
 solvable. In general, the equation will be non-linear, and cannot be
@@ -68,12 +68,12 @@ Kinematic equations for one particle
 
 Kinematic quantities
 
-From the instantaneous position ”'r”' = ”'r”'(”t”), instantaneous meaning at an
-instant value of time ”t”, the instantaneous velocity
-”'v”' = ”'v”'(”t”) and acceleration ”'a”' = ”'a”'(”t”) have the general,
+From the instantaneous position __MATH_26__, instantaneous meaning at an
+instant value of time __MATH_27__, the instantaneous velocity
+__MATH_28__ and acceleration __MATH_29__ have the general,
 coordinate-independent definitions;
 
-𝐯 = d 𝐫/d t  ,   𝐚 = d 𝐯/d t = d^2 𝐫/d t^2
+__MATH_30__
 
 Notice that velocity always points in the direction of motion, in other
 words for a curved path it is the tangent vector. Loosely speaking,
@@ -83,22 +83,22 @@ curvature of the path. Again, loosely speaking, second order derivatives
 are related to curvature.
 
 The rotational analogues are the "angular vector" (angle the particle
-rotates about some axis) ”'θ”' = ”'θ”'(”t”), angular velocity ”'ω”' = ”'ω”'(”t”), and
-angular acceleration ”'α”' = ”'α”'(”t”):
+rotates about some axis) __MATH_31__, angular velocity __MATH_32__, and
+angular acceleration __MATH_33__:
 
-θ = θ𝐧̂  ,  ω = d θ/d t  ,   α= d ω/d t  ,
+__MATH_34__
 
-where ”'n̂”' is a unit vector in the direction of the axis of
-rotation, and ”θ” is the angle the object turns through about
+where __MATH_35__ is a unit vector in the direction of the axis of
+rotation, and __MATH_36__ is the angle the object turns through about
 the axis.
 
 The following relation holds for a point-like particle, orbiting about
-some axis with angular velocity ”'ω”':
+some axis with angular velocity __MATH_37__:
 
-𝐯 = ω×𝐫
+__MATH_38__
 
-where ”'r”' is the position vector of the particle (radial from
-the rotation axis) and ”'v”' the tangential velocity of the
+where __MATH_39__ is the position vector of the particle (radial from
+the rotation axis) and __MATH_40__ the tangential velocity of the
 particle. For a rotating continuum rigid body, these relations hold for
 each point in the rigid body.
 
@@ -118,68 +118,68 @@ line) – only the magnitudes of these vectors are necessary, and because
 the motion is along a straight line, the problem effectively reduces
 from three dimensions to one.
 
-v     = v_0 + a t     [1] ; r     = r_0 + v_0 t + 12 at^2     [2] ; r     = r_0 + 12 ( v+v_0 )t     [3] ; v^2     = v_0^2 + 2a( r - r_0 )     [4] ; r     = r_0 + vt - 12 at^2     [5]
+__MATH_41__
 
 where:
 
--   ”r”_0 is the particle's initial position
--   ”r” is the particle's final position
--   ”v”_0 is the particle's initial velocity
--   ”v” is the particle's final velocity
--   ”a” is the particle's acceleration
--   ”t” is the time interval
+-   __MATH_42__ is the particle's initial position
+-   __MATH_43__ is the particle's final position
+-   __MATH_44__ is the particle's initial velocity
+-   __MATH_45__ is the particle's final velocity
+-   __MATH_46__ is the particle's acceleration
+-   __MATH_47__ is the time interval
 
 Equations [1] and [2] are from integrating the definitions of velocity
-and acceleration, subject to the initial conditions ”'r”'(”t”_0) = ”'r”'_0 and
-”'v”'(”t”_0) = ”'v”'_0;
+and acceleration, subject to the initial conditions __MATH_48__ and
+__MATH_49__;
 
-𝐯     = ∫𝐚 dt = 𝐚t+𝐯_0  ,     [1] ; 𝐫     = ∫(𝐚t+𝐯_0) dt = 𝐚t^2/2+𝐯_0t +𝐫_0  ,     [2]
+__MATH_50__
 
 in magnitudes,
 
-v     = at+v_0  ,     [1] ; r     = at^2/2+v_0t +r_0  .     [2]
+__MATH_51__
 
-Equation [3] involves the average velocity ”'v”' + ”'v”'_0/2. Intuitively, the
+Equation [3] involves the average velocity __MATH_52__. Intuitively, the
 velocity increases linearly, so the average velocity multiplied by time
-is the distance traveled while increasing the velocity from ”'v”'_0
-to ”'v”', as can be illustrated graphically by plotting velocity
+is the distance traveled while increasing the velocity from __MATH_53__
+to __MATH_54__, as can be illustrated graphically by plotting velocity
 against time as a straight line graph. Algebraically, it follows from
 solving [1] for
 
-𝐚 = (𝐯 - 𝐯_0)/t
+__MATH_55__
 
 and substituting into [2]
 
-𝐫 = 𝐫_0 + 𝐯_0 t + t/2(𝐯 - 𝐯_0)  ,
+__MATH_56__
 
 then simplifying to get
 
-𝐫 = 𝐫_0 + t/2(𝐯 + 𝐯_0)
+__MATH_57__
 
 or in magnitudes
 
-r = r_0 + ( v+v_0/2 )t   [3]
+__MATH_58__
 
 From [3],
 
-t = ( r - r_0 )( 2/v+v_0 )
+__MATH_59__
 
-substituting for t in [1]:
+substituting for __MATH_60__ in [1]:
 
-v     = a( r - r_0 )( 2/v+v_0 )+v_0 ; v( v+v_0 )     = 2a( r - r_0 )+v_0( v+v_0 ) ; v^2+vv_0     = 2a( r - r_0 )+v_0v+v_0^2 ; v^2     = v_0^2 + 2a( r - r_0 )     [4]
+__MATH_61__
 
 From [3],
 
-2(r - r_0) - vt = v_0 t
+__MATH_62__
 
 substituting into [2]:
 
-r     = at^2/2 + 2r - 2r_0 - vt + r_0 ; 0     = at^2/2+r - r_0 - vt ; r     = r_0 + vt - at^2/2     [5]
+__MATH_63__
 
 Usually only the first 4 are needed, the fifth is optional.
 
-Here ”a” is constant acceleration, or in the case of bodies
-moving under the influence of gravity, the standard gravity ”g”
+Here __MATH_64__ is constant acceleration, or in the case of bodies
+moving under the influence of gravity, the standard gravity __MATH_65__
 is used. Note that each of the equations contains four of the five
 variables, so in this situation it is sufficient to know three out of
 the five variables to calculate the remaining two.
@@ -187,14 +187,14 @@ the five variables to calculate the remaining two.
 In some programs, such as the IGCSE Physics and IB DP Physics programs
 (international programs but especially popular in the UK and Europe),
 the same formulae would be written with a different set of preferred
-variables. There ”u” replaces ”v”_0 and ”s”
-replaces ”r” - ”r”_0. They are often referred to as the SUVAT equations
-, where "SUVAT" is an acronym from the variables: ”s” =
-displacement, ”u” = initial velocity, ”v” = final
-velocity, ”a” = acceleration, ”t” = time. In these
+variables. There __MATH_66__ replaces __MATH_67__ and __MATH_68__
+replaces __MATH_69__. They are often referred to as the SUVAT equations
+, where "SUVAT" is an acronym from the variables: __MATH_70__ =
+displacement, __MATH_71__ = initial velocity, __MATH_72__ = final
+velocity, __MATH_73__ = acceleration, __MATH_74__ = time. In these
 variables, the equations of motion would be written
 
-v     = u + at     [1] ; s     = ut + 12 at^2     [2] ; s     = 12(u + v)t     [3] ; v^2     = u^2 + 2as     [4] ; s     = vt - 12 at^2     [5]
+__MATH_75__
 
 Constant linear acceleration in any direction
 
@@ -204,31 +204,31 @@ form. The only difference is that the square magnitudes of the
 velocities require the dot product. The derivations are essentially the
 same as in the collinear case,
 
-𝐯     = 𝐚t+𝐯_0     [1] ; 𝐫     = 𝐫_0 + 𝐯_0 t + 12𝐚t^2     [2] ; 𝐫     = 𝐫_0 + 12 (𝐯+𝐯_0) t     [3] ; 𝐯^2     = 𝐯_0^2 + 2𝐚·( 𝐫 - 𝐫_0 )     [4] ; 𝐫     = 𝐫_0 + 𝐯t - 12𝐚t^2     [5] although the Torricelli equation [4] can be derived using
-the distributive property of the dot product as follows: v^2 = 𝐯·𝐯 = (𝐯_0+𝐚t)·(𝐯_0+𝐚t) = v_0^2+2t(𝐚·𝐯_0)+a^2t^2
-(2𝐚)·(𝐫-𝐫_0) = (2𝐚)·(𝐯_0t+12𝐚t^2)=2t(𝐚·𝐯_0)+a^2t^2 = v^2 - v_0^2 ∴v^2 = v_0^2 + 2(𝐚·(𝐫-𝐫_0))
+__MATH_76__ although the Torricelli equation [4] can be derived using
+the distributive property of the dot product as follows: __MATH_77__
+__MATH_78__ __MATH_79__
 
 Applications
 
 Elementary and frequent examples in kinematics involve projectiles, for
 example a ball thrown upwards into the air. Given initial velocity
-”u”, one can calculate how high the ball will travel before it
+__MATH_80__, one can calculate how high the ball will travel before it
 begins to fall. The acceleration is local acceleration of gravity
-”g”. While these quantities appear to be scalars, the direction
+__MATH_81__. While these quantities appear to be scalars, the direction
 of displacement, speed and acceleration is important. They could in fact
-be considered as unidirectional vectors. Choosing ”s” to measure
-up from the ground, the acceleration ”a” must be in fact
-”−g”, since the force of gravity acts downwards and therefore
+be considered as unidirectional vectors. Choosing __MATH_82__ to measure
+up from the ground, the acceleration __MATH_83__ must be in fact
+__MATH_84__, since the force of gravity acts downwards and therefore
 also the acceleration on the ball due to it.
 
-At the highest point, the ball will be at rest: therefore ”v” = 0.
+At the highest point, the ball will be at rest: therefore __MATH_85__.
 Using equation [4] in the set above, we have:
 
-s= v^2 - u^2/-2g.
+__MATH_86__
 
 Substituting and cancelling minus signs gives:
 
-s = u^2/2g.
+__MATH_87__
 
 Constant circular acceleration
 
@@ -236,41 +236,41 @@ The analogues of the above equations can be written for rotation. Again
 these axial vectors must all be parallel to the axis of rotation, so
 only the magnitudes of the vectors are necessary,
 
-ω    = ω_0 + αt ; θ   = θ_0 + ω_0t + 12αt^2 ; θ    = θ_0 + 12(ω_0 + ω)t ; ω^2     = ω_0^2 + 2α(θ- θ_0) ; θ    = θ_0 + ωt - 12αt^2
+__MATH_88__
 
-where ”α” is the constant angular acceleration, ”ω” is
-the angular velocity, ”ω”_0 is the initial angular velocity,
-”θ” is the angle turned through (angular displacement),
-”θ”_0 is the initial angle, and ”t” is the time taken to
+where __MATH_89__ is the constant angular acceleration, __MATH_90__ is
+the angular velocity, __MATH_91__ is the initial angular velocity,
+__MATH_92__ is the angle turned through (angular displacement),
+__MATH_93__ is the initial angle, and __MATH_94__ is the time taken to
 rotate from the initial state to the final state.
 
 General planar motion
 
 These are the kinematic equations for a particle traversing a path in a
-plane, described by position ”'r”' = ”'r”'(”t”). They are simply the time
+plane, described by position __MATH_95__. They are simply the time
 derivatives of the position vector in plane polar coordinates using the
 definitions of physical quantities above for angular velocity
-”ω” and angular acceleration ”α”. These are
+__MATH_96__ and angular acceleration __MATH_97__. These are
 instantaneous quantities which change with time.
 
 The position of the particle is
 
-𝐫 =𝐫( r(t),θ(t) ) = r ê_r
+__MATH_98__
 
-where ”'ê”'_”r” and ”'ê”'_”θ” are the polar unit vectors.
+where __MATH_99__ and __MATH_100__ are the polar unit vectors.
 Differentiating with respect to time gives the velocity
 
-𝐯 = ê_r d r/dt + r ωê_θ
+__MATH_101__
 
-with radial component ”dr”/”dt” and an additional component
-”rω” due to the rotation. Differentiating with respect to time
+with radial component __MATH_102__ and an additional component
+__MATH_103__ due to the rotation. Differentiating with respect to time
 again obtains the acceleration
 
-𝐚 =( d^2 r/dt^2 - rω^2)ê_r + ( r α+ 2 ωdr/dt )ê_θ
+__MATH_104__
 
-which breaks into the radial acceleration ”d”^2”r”/”dt”^2, centripetal
-acceleration –”rω”^2, Coriolis acceleration 2”ω””dr”/”dt”, and
-angular acceleration ”rα”.
+which breaks into the radial acceleration __MATH_105__, centripetal
+acceleration __MATH_106__, Coriolis acceleration __MATH_107__, and
+angular acceleration __MATH_108__.
 
 Special cases of motion described by these equations are summarized
 qualitatively in the table below. Two have already been discussed above,
@@ -328,13 +328,13 @@ acceleration.
 
 General 3D motions
 
-In 3D space, the equations in spherical coordinates (”r”, ”θ”, ”φ”) with
-corresponding unit vectors ”'ê”'_”r”, ”'ê”'_”θ” and ”'ê”'_”φ”,
+In 3D space, the equations in spherical coordinates __MATH_121__ with
+corresponding unit vectors __MATH_122__, __MATH_123__ and __MATH_124__,
 the position, velocity, and acceleration generalize respectively to
 
-𝐫     =𝐫( t ) = r ê_r ; 𝐯     = v ê_r + r dθ/dtê_θ+ r dφ/dt sinθê_φ; 𝐚     = ( a - r(dθ/dt)^2 - r(dφ/dt)^2sin^2θ)ê_r ;     + ( r d^2 θ/dt^2  + 2vdθ/dt - r(dφ/dt)^2sinθcosθ) ê_θ;     + ( rd^2 φ/dt^2  sinθ+ 2v dφ/dt sinθ+ 2 r dθ/dt dφ/dt cosθ) ê_φ
+__MATH_125__
 
-In the case of a constant ”φ” this reduces to the planar
+In the case of a constant __MATH_126__ this reduces to the planar
 equations above.
 
 Dynamic equations of motion
@@ -343,18 +343,18 @@ Newtonian mechanics
 
 The first general equation of motion developed was Newton's second law
 of motion. In its most general form it states the rate of change of
-momentum ”'p”' = ”'p”'(”t”) = ”m””'v”'(”t”) of an object equals the force ”'F”' = ”'F”'(”'x”'(”t”), ”'v”'(”t”), ”t”) acting
+momentum __MATH_127__ of an object equals the force __MATH_128__ acting
 on it,
 
-𝐅 = d𝐩/dt
+__MATH_129__
 
 The force in the equation is not the force the object exerts. Replacing
 momentum by mass times velocity, the law is also written more famously
 as
 
-𝐅 = m𝐚
+__MATH_130__
 
-since ”m” is a constant in Newtonian mechanics.
+since __MATH_131__ is a constant in Newtonian mechanics.
 
 Newton's second law applies to point-like particles, and to all points
 in a rigid body. They also apply to each point in a mass continuum, like
@@ -385,13 +385,13 @@ conservation is always true for an isolated system not subject to
 resultant forces.
 
 For a number of particles (see many body problem), the equation of
-motion for one particle ”i” influenced by other particles is
-d𝐩_i/dt = 𝐅_E + ∑_i ≠j 𝐅_ij
+motion for one particle __MATH_132__ influenced by other particles is
+__MATH_133__
 
-where ”'p”'_”i” is the momentum of particle ”i”,
-”'F”'_”ij” is the force on particle ”i” by particle
-”j”, and ”'F”'_”E” is the resultant external force due to
-any agent not part of system. Particle ”i” does not exert a
+where __MATH_134__ is the momentum of particle __MATH_135__,
+__MATH_136__ is the force on particle __MATH_137__ by particle
+__MATH_138__, and __MATH_139__ is the resultant external force due to
+any agent not part of system. Particle __MATH_140__ does not exert a
 force on itself.
 
 Euler's laws of motion are similar to Newton's laws, but they are
@@ -402,28 +402,28 @@ single equation.
 Newton's second law for rotation takes a similar form to the
 translational case,
 
-τ = d𝐋/dt  ,
+__MATH_141__
 
 by equating the torque acting on the body to the rate of change of its
-angular momentum ”'L”'. Analogous to mass times acceleration, the
-moment of inertia tensor ”'I”' depends on the distribution of
+angular momentum __MATH_142__. Analogous to mass times acceleration, the
+moment of inertia tensor __MATH_143__ depends on the distribution of
 mass about the axis of rotation, and the angular acceleration is the
 rate of change of angular velocity,
 
-τ = 𝐈 α.
+__MATH_144__
 
 Again, these equations apply to point like particles, or at each point
 of a rigid body.
 
 Likewise, for a number of particles, the equation of motion for one
-particle ”i” is
+particle __MATH_145__ is
 
-d𝐋_i/dt = τ_E + ∑_i ≠j τ_ij  ,
+__MATH_146__
 
-where ”'L”'_”i” is the angular momentum of particle ”i”,
-”'τ”'_”ij” the torque on particle ”i” by particle
-”j”, and ”'τ”'_”E” is resultant external torque (due to any
-agent not part of system). Particle ”i” does not exert a torque
+where __MATH_147__ is the angular momentum of particle __MATH_148__,
+__MATH_149__ the torque on particle __MATH_150__ by particle
+__MATH_151__, and __MATH_152__ is resultant external torque (due to any
+agent not part of system). Particle __MATH_153__ does not exert a torque
 on itself.
 
 Applications
@@ -431,99 +431,99 @@ Applications
 Some examples of Newton's law include describing the motion of a simple
 pendulum,
 
-- mgsinθ= md^2 (ℓθ)/dt^2   ⇒  d^2 θ/dt^2 = - g/ℓsinθ ,
+__MATH_154__
 
 and a damped, sinusoidally driven harmonic oscillator,
 
-F_0 sin(ωt) = m(d^2x/dt^2 + 2ζω_0dx/dt + ω_0^2 x ) .
+__MATH_155__
 
 For describing the motion of masses due to gravity, Newton's law of
 gravity can be combined with Newton's second law. For two examples, a
-ball of mass m thrown in the air, in air currents (such as
-wind) described by a vector field of resistive forces ”'R”' = ”'R”'(”'r”', ”t”),
+ball of mass __MATH_156__ thrown in the air, in air currents (such as
+wind) described by a vector field of resistive forces __MATH_157__,
 
-- GmM/|𝐫|^2 ê_r + 𝐑 = md^2 𝐫/d t^2 + 0   ⇒  d^2 𝐫/d t^2 = - GM/|𝐫|^2 ê_r + 𝐀
+__MATH_158__
 
-where ”G” is the gravitational constant, ”M” the mass
-of the Earth, and ”'A”' = ”'R”'/”m” is the acceleration of the projectile due
-to the air currents at position ”'r”' and time t.
+where __MATH_159__ is the gravitational constant, __MATH_160__ the mass
+of the Earth, and __MATH_161__ is the acceleration of the projectile due
+to the air currents at position __MATH_162__ and time __MATH_163__.
 
-The classical -body problem for N particles each interacting
-with each other due to gravity is a set of N nonlinear
+The classical -body problem for __MATH_164__ particles each interacting
+with each other due to gravity is a set of __MATH_165__ nonlinear
 coupled second order ODEs,
 
-d^2𝐫_i/dt^2 = G∑_i≠jm_j/|𝐫_j - 𝐫_i|^3 (𝐫_j - 𝐫_i)
+__MATH_166__
 
-where ”i” = 1, 2, ..., ”N” labels the quantities (mass, position, etc.)
+where __MATH_167__ labels the quantities (mass, position, etc.)
 associated with each particle.
 
 Analytical mechanics
 
 Using all three coordinates of 3D space is unnecessary if there are
-constraints on the system. If the system has ”N” degrees of
-freedom, then one can use a set of ”N” generalized coordinates
-”'q”'(”t”) = [”q”_1(”t”), ”q”_2(”t”) ... ”q_N”(”t”)], to define the configuration of the system. They can be in
+constraints on the system. If the system has __MATH_168__ degrees of
+freedom, then one can use a set of __MATH_169__ generalized coordinates
+__MATH_170__, to define the configuration of the system. They can be in
 the form of arc lengths or angles. They are a considerable
 simplification to describe motion, since they take advantage of the
 intrinsic constraints that limit the system's motion, and the number of
 coordinates is reduced to a minimum. The time derivatives of the
 generalized coordinates are the generalized velocities
 
-𝐪̇ = d𝐪/dt  .
+__MATH_171__
 
 The Euler–Lagrange equations are
 
-d/d t ( ∂L/∂𝐪̇  ) = ∂L/∂𝐪  ,
+__MATH_172__
 
-where the Lagrangian is a function of the configuration ”'q”' and
-its time rate of change ”d””'q”'/”dt” (and possibly time ”t”)
+where the Lagrangian is a function of the configuration __MATH_173__ and
+its time rate of change __MATH_174__ (and possibly time __MATH_175__)
 
-L = L[ 𝐪(t), 𝐪̇(t), t ]  .
+__MATH_176__
 
 Setting up the Lagrangian of the system, then substituting into the
 equations and evaluating the partial derivatives and simplifying, a set
-of coupled ”N” second order ODEs in the coordinates are
+of coupled __MATH_177__ second order ODEs in the coordinates are
 obtained.
 
 Hamilton's equations are
 
-ṗ = -∂H/∂𝐪  ,   𝐪̇ = + ∂H/∂𝐩  ,
+__MATH_178__
 
 where the Hamiltonian
 
-H = H[ 𝐪(t), 𝐩(t), t ]  ,
+__MATH_179__
 
-is a function of the configuration ”'q”' and conjugate
+is a function of the configuration __MATH_180__ and conjugate
 "generalized" momenta
 
-𝐩 = ∂L/∂𝐪̇  ,
+__MATH_181__
 
-in which ∂/∂”'q”' = <big><big>(</big></big>∂/∂”q”_1, ∂/∂”q”_2, …, ∂/∂”q”_”N”<big><big>)</big></big> is a shorthand notation for a vector of partial
+in which __MATH_182__ is a shorthand notation for a vector of partial
 derivatives with respect to the indicated variables (see for example
 matrix calculus for this denominator notation), and possibly time
-”t”,
+__MATH_183__,
 
 Setting up the Hamiltonian of the system, then substituting into the
 equations and evaluating the partial derivatives and simplifying, a set
-of coupled 2”N” first order ODEs in the coordinates ”q_i”
-and momenta ”p_i” are obtained.
+of coupled __MATH_184__ first order ODEs in the coordinates __MATH_185__
+and momenta __MATH_186__ are obtained.
 
 The Hamilton–Jacobi equation is
 
-- ∂S(𝐪,t)/∂t = H(𝐪, 𝐩, t )  .
+__MATH_187__
 
 where
 
-S[𝐪,t] = ∫_t_1^t_2L(𝐪, 𝐪̇, t) dt  ,
+__MATH_188__
 
 is Hamilton's principal function, also called the classical action is a
-functional of ”L”. In this case, the momenta are given by
+functional of __MATH_189__. In this case, the momenta are given by
 
-𝐩 = ∂S /∂𝐪 .
+__MATH_190__
 
 Although the equation has a simple general form, for a given Hamiltonian
-it is actually a single first order non-linear PDE, in ”N” + 1
-variables. The action ”S” allows identification of conserved
+it is actually a single first order non-linear PDE, in __MATH_191__
+variables. The action __MATH_192__ allows identification of conserved
 quantities for mechanical systems, even when the mechanical problem
 itself cannot be solved fully, because any differentiable symmetry of
 the action of a physical system has a corresponding conservation law, a
@@ -532,42 +532,42 @@ theorem due to Emmy Noether.
 All classical equations of motion can be derived from the variational
 principle known as Hamilton's principle of least action
 
-δS = 0  ,
+__MATH_193__
 
 stating the path the system takes through the configuration space is the
-one with the least action ”S”.
+one with the least action __MATH_194__.
 
 Electrodynamics
 
 In electrodynamics, the force on a charged particle of charge
-”q” is the Lorentz force:
+__MATH_195__ is the Lorentz force:
 
-𝐅 = q(𝐄 + 𝐯 ×𝐁)
+__MATH_196__
 
 Combining with Newton's second law gives a first order differential
 equation of motion, in terms of position of the particle:
 
-md^2 𝐫/dt^2 = q(𝐄 + d 𝐫/dt ×𝐁)
+__MATH_197__
 
 or its momentum:
 
-d𝐩/dt = q(𝐄 + 𝐩 ×𝐁/m)
+__MATH_198__
 
 The same equation can be obtained using the Lagrangian (and applying
-Lagrange's equations above) for a charged particle of mass ”m”
-and charge ”q”:
+Lagrange's equations above) for a charged particle of mass __MATH_199__
+and charge __MATH_200__:
 
-L = 1 2 m ṙ·ṙ+q𝐀·𝐫̇ - qϕ
+__MATH_201__
 
-where ”'A”' and ”ϕ” are the electromagnetic scalar and
+where __MATH_202__ and __MATH_203__ are the electromagnetic scalar and
 vector potential fields. The Lagrangian indicates an additional detail:
-the canonical momentum in Lagrangian mechanics is given by: 𝐏 = ∂L/∂𝐫̇ = m 𝐫̇ + q 𝐀
-instead of just ”m””'v”', implying the motion of a charged particle
+the canonical momentum in Lagrangian mechanics is given by: __MATH_204__
+instead of just __MATH_205__, implying the motion of a charged particle
 is fundamentally determined by the mass and charge of the particle. The
 Lagrangian expression was first used to derive the force equation.
 
 Alternatively the Hamiltonian (and substituting into the equations):
-H = (𝐏 - q 𝐀)^2/2m + qϕ can derive the Lorentz force equation.
+__MATH_206__ can derive the Lorentz force equation.
 
 General relativity
 
@@ -577,22 +577,22 @@ The above equations are valid in flat spacetime. In curved spacetime,
 things become mathematically more complicated since there is no straight
 line; this is generalized and replaced by a geodesic of the curved
 spacetime (the shortest length of curve between two points). For curved
-manifolds with a metric tensor ”g”, the metric provides the
+manifolds with a metric tensor __MATH_207__, the metric provides the
 notion of arc length (see line element for details). The differential
 arc length is given by:
 
-ds = √(g_αβ d x^αdx^β)
+__MATH_208__
 
 and the geodesic equation is a second-order differential equation in the
 coordinates. The general solution is a family of geodesics:
 
-d^2 x^μ/ds^2 = - Γ^μ_αβd x^α/dsd x^β/ds
+__MATH_209__
 
-where ”Γ   thinsp;^μ_αβ” is a Christoffel symbol of the second kind, which
+where __MATH_210__ is a Christoffel symbol of the second kind, which
 contains the metric (with respect to the coordinate system).
 
 Given the mass-energy distribution provided by the stress–energy tensor
-”T   thinsp;^αβ”, the Einstein field equations are a set of non-linear
+__MATH_211__, the Einstein field equations are a set of non-linear
 second-order partial differential equations in the metric, and imply the
 curvature of spacetime is equivalent to a gravitational field (see
 equivalence principle). Mass falling in curved spacetime is equivalent
@@ -600,11 +600,11 @@ to a mass falling in a gravitational field - because gravity is a
 fictitious force. The relative acceleration of one geodesic to another
 in curved spacetime is given by the geodesic deviation equation:
 
-D^2ξ^α/ds^2 = -R^α_βγδdx^α/dsξ^γdx^δ/ds
+__MATH_212__
 
-where ”'ξ”'^”α” = ”x”_2^”α” − ”x”_1^”α” is the separation vector between two geodesics,
-”D”/”ds” (not just ”d”/”ds”) is the covariant derivative, and
-”R^α_βγδ” is the Riemann curvature tensor, containing the Christoffel
+where __MATH_213__ is the separation vector between two geodesics,
+__MATH_214__ (not just __MATH_215__) is the covariant derivative, and
+__MATH_216__ is the Riemann curvature tensor, containing the Christoffel
 symbols. In other words, the geodesic deviation equation is the equation
 of motion for masses in curved spacetime, analogous to the Lorentz force
 equation for charges in an electromagnetic field.
@@ -663,22 +663,22 @@ From classical equations of motion and field equations; mechanical,
 gravitational wave, and electromagnetic wave equations can be derived.
 The general linear wave equation in 3D is:
 
-1/v^2∂^2 X/∂t^2 = ∇^2 X
+__MATH_217__
 
-where ”X” = ”X”(”'r”', ”t”) is any mechanical or electromagnetic field amplitude,
+where __MATH_218__ is any mechanical or electromagnetic field amplitude,
 say:
 
 -   the transverse or longitudinal displacement of a vibrating rod,
     wire, cable, membrane etc.,
 -   the fluctuating pressure of a medium, sound pressure,
--   the electric fields ”'E”' or ”'D”', or the magnetic
-    fields ”'B”' or ”'H”',
--   the voltage ”V” or current ”I” in an alternating
+-   the electric fields __MATH_219__ or __MATH_220__, or the magnetic
+    fields __MATH_221__ or __MATH_222__,
+-   the voltage __MATH_223__ or current __MATH_224__ in an alternating
     current circuit,
 
-and ”v” is the phase velocity. Nonlinear equations model the
-dependence of phase velocity on amplitude, replacing ”v” by
-”v”(”X”). There are other linear and nonlinear wave equations for
+and __MATH_225__ is the phase velocity. Nonlinear equations model the
+dependence of phase velocity on amplitude, replacing __MATH_226__ by
+__MATH_227__. There are other linear and nonlinear wave equations for
 very specific applications, see for example the Korteweg–de Vries
 equation.
 
@@ -690,16 +690,16 @@ In quantum mechanics the analogue of the classical equations of motion
 (Newton's law, Euler–Lagrange equation, Hamilton–Jacobi equation, etc.)
 is the Schrödinger equation in its most general form:
 
-iħ∂Ψ/∂t = ĤΨ ,
+__MATH_228__
 
-where ”Ψ” is the wavefunction of the system, ”Ĥ” is
+where __MATH_229__ is the wavefunction of the system, __MATH_230__ is
 the quantum Hamiltonian operator, rather than a function as in classical
-mechanics, and ”ħ” is the Planck constant divided by
-2π. Setting up the Hamiltonian and inserting it into the
+mechanics, and __MATH_231__ is the Planck constant divided by
+2__MATH_232__. Setting up the Hamiltonian and inserting it into the
 equation results in a wave equation, the solution is the wavefunction as
 a function of space and time. The Schrödinger equation itself reduces to
 the Hamilton–Jacobi equation when one considers the correspondence
-principle, in the limit that ”ħ” becomes zero. To compare to
+principle, in the limit that __MATH_233__ becomes zero. To compare to
 measurements, operators for observables must be applied the quantum
 wavefunction according to the experiment performed, leading to either
 wave-like or particle-like results.

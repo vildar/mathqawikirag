@@ -1,13 +1,13 @@
-In physics, angular velocity (symbol __MATH_0__ or __MATH_1__, the
+In physics, angular velocity (symbol ω or ω⃗, the
 lowercase Greek letter omega), also known as the angular frequency
 vector, is a pseudovector representation of how the angular position or
 orientation of an object changes with time, i.e. how quickly an object
 rotates (spins or revolves) around an axis of rotation and how fast the
 axis itself changes direction.
 
-The magnitude of the pseudovector, __MATH_2__, represents the angular
+The magnitude of the pseudovector, ω=ω, represents the angular
 speed (or angular frequency), the angular rate at which the object
-rotates (spins or revolves). The pseudovector direction __MATH_3__ is
+rotates (spins or revolves). The pseudovector direction ω=ω/ω is
 normal to the instantaneous plane of rotation or angular displacement.
 
 There are two types of angular velocity:
@@ -36,9 +36,9 @@ For example, a geostationary satellite completes one orbit per day above
 the equator (360 degrees per 24 hours) has angular velocity magnitude
 (angular speed) ω = 360°/24 h = 15°/h (or 2π rad/24 h ≈ 0.26 rad/h) and
 angular velocity direction (a unit vector) parallel to Earth's rotation
-axis (__MATH_4__, in the geocentric coordinate system). If angle is
+axis (ω̂=Ẑ, in the geocentric coordinate system). If angle is
 measured in radians, the linear velocity is the radius times the angular
-velocity, __MATH_5__. With orbital radius 42,000 km from the Earth's
+velocity, v = rω. With orbital radius 42,000 km from the Earth's
 center, the satellite's tangential speed through space is thus v =
 42,000 km × 0.26/h ≈ 11,000 km/h. The angular velocity is positive since
 the satellite travels prograde with the Earth's rotation (the same
@@ -50,22 +50,22 @@ Orbital angular velocity of a point particle
 
 Particle in two dimensions
 
-In the simplest case of circular motion at radius __MATH_6__, with
-position given by the angular displacement __MATH_7__ from the x-axis,
+In the simplest case of circular motion at radius r, with
+position given by the angular displacement ϕ(t) from the x-axis,
 the orbital angular velocity is the rate of change of angle with respect
-to time: __MATH_8__. If __MATH_9__ is measured in radians, the
+to time: ω= dϕ/dt. If ϕ is measured in radians, the
 arc-length from the positive x-axis around the circle to the particle is
-__MATH_10__, and the linear velocity is __MATH_11__, so that
-__MATH_12__.
+ℓ=rϕ, and the linear velocity is v(t) = dℓ/dt = rω(t), so that
+ω= v/r.
 
 In the general case of a particle moving in the plane, the orbital
 angular velocity is the rate at which the position vector relative to a
 chosen origin "sweeps out" angle. The diagram shows the position vector
-__MATH_13__ from the origin __MATH_14__ to a particle __MATH_15__, with
-its polar coordinates __MATH_16__. (All variables are functions of time
-__MATH_17__.) The particle has linear velocity splitting as __MATH_18__,
-with the radial component __MATH_19__ parallel to the radius, and the
-cross-radial (or tangential) component __MATH_20__ perpendicular to the
+𝐫 from the origin O to a particle P, with
+its polar coordinates (r, ϕ). (All variables are functions of time
+t.) The particle has linear velocity splitting as 𝐯 = 𝐯_+𝐯_⊥,
+with the radial component 𝐯_ parallel to the radius, and the
+cross-radial (or tangential) component 𝐯_⊥ perpendicular to the
 radius. When there is no radial component, the particle moves around the
 origin in a circle; but when there is no cross-radial component, it
 moves in a straight line from the origin. Since radial motion leaves the
@@ -76,26 +76,26 @@ The angular velocity ω is the rate of change of angular position with
 respect to time, which can be computed from the cross-radial velocity
 as:
 
-__MATH_21__
+ω= dϕ/dt = v_⊥/r.
 
-Here the cross-radial speed __MATH_22__ is the signed magnitude of
-__MATH_23__, positive for counter-clockwise motion, negative for
-clockwise. Taking polar coordinates for the linear velocity __MATH_24__
-gives magnitude __MATH_25__ (linear speed) and angle __MATH_26__
-relative to the radius vector; in these terms, __MATH_27__, so that
+Here the cross-radial speed v_⊥ is the signed magnitude of
+𝐯_⊥, positive for counter-clockwise motion, negative for
+clockwise. Taking polar coordinates for the linear velocity 𝐯
+gives magnitude v (linear speed) and angle θ
+relative to the radius vector; in these terms, v_⊥= vsin(θ), so that
 
-__MATH_28__
+ω= vsin(θ)/r.
 
-These formulas may be derived doing __MATH_29__, being __MATH_30__ a
+These formulas may be derived doing 𝐫=(rcos(φ),rsin(φ)), being r a
 function of the distance to the origin with respect to time, and
-__MATH_31__ a function of the angle between the vector and the x axis.
-Then: __MATH_32__ which is equal to: __MATH_33__ (see Unit vector in
+φ a function of the angle between the vector and the x axis.
+Then: d𝐫/dt = (ṙcos(φ) - rφ̇sin(φ), ṙsin(φ) + rφ̇cos(φ)), which is equal to: ṙ(cos(φ), sin(φ)) + rφ̇(-sin(φ), cos(φ)) = ṙr̂ + rφ̇φ̂ (see Unit vector in
 cylindrical coordinates).
 
-Knowing __MATH_34__, we conclude that the radial component of the
-velocity is given by __MATH_35__, because __MATH_36__ is a radial unit
-vector; and the perpendicular component is given by __MATH_37__ because
-__MATH_38__ is a perpendicular unit vector.
+Knowing d𝐫/dt = 𝐯, we conclude that the radial component of the
+velocity is given by ṙ, because r̂ is a radial unit
+vector; and the perpendicular component is given by rφ̇ because
+φ̂ is a perpendicular unit vector.
 
 In two dimensions, angular velocity is a number with plus or minus sign
 indicating orientation, but not pointing in a direction. The sign is
@@ -116,23 +116,23 @@ However, as there are two directions perpendicular to any plane, an
 additional condition is necessary to uniquely specify the direction of
 the angular velocity; conventionally, the right-hand rule is used.
 
-Let the pseudovector __MATH_39__ be the unit vector perpendicular to the
+Let the pseudovector 𝐮 be the unit vector perpendicular to the
 plane spanned by r and v, so that the right-hand rule is satisfied (i.e.
 the instantaneous direction of angular displacement is counter-clockwise
-looking from the top of __MATH_40__). Taking polar coordinates
-__MATH_41__ in this plane, as in the two-dimensional case above, one may
+looking from the top of 𝐮). Taking polar coordinates
+(r,ϕ) in this plane, as in the two-dimensional case above, one may
 define the orbital angular velocity vector as:
 
-    __MATH_42__
+    ω=ω𝐮 = dϕ/dt𝐮=v sin(θ)/r𝐮,
 
 where θ is the angle between r and v. In terms of the cross product,
 this is:
 
-    __MATH_43__
+    ω=𝐫×𝐯/r^2.
 
 From the above equation, one can recover the tangential velocity as:
 
-    __MATH_44__
+    𝐯_⊥ =ω ×𝐫
 
 Spin angular velocity of a rigid body or reference frame 
 
@@ -166,33 +166,33 @@ the usual vector addition (composition of linear movements), and can be
 useful to decompose the rotation as in a gimbal. All components of the
 vector can be calculated as derivatives of the parameters defining the
 moving frames (Euler angles or rotation matrices). As in the general
-case, addition is commutative: __MATH_45__.
+case, addition is commutative: ω_1 + ω_2 = ω_2 + ω_1.
 
-If we choose a reference point __MATH_46__ fixed in a rotating frame,
-the velocity __MATH_47__ of any point in the frame is given by
+If we choose a reference point r_0 fixed in a rotating frame,
+the velocity ṙ of any point in the frame is given by
 
-    __MATH_48__
+    ṙ= ṙ_̇0̇+ ω×(r-r_0)
 
 Components from the basis vectors of a body-fixed frame
 
 Consider a rigid body rotating about a fixed point O. Construct a
 reference frame in the body consisting of an orthonormal set of vectors
-__MATH_49__ fixed to the body and with their common origin at O. The
+𝐞_1, 𝐞_2, 𝐞_3 fixed to the body and with their common origin at O. The
 spin angular velocity vector of both frame and body about O is then
 
-    __MATH_50__
+    ω= (e_1·𝐞_2) 𝐞_3 + (e_2·𝐞_3) 𝐞_1 + (e_3·𝐞_1) 𝐞_2,
 
-where __MATH_51__ is the time rate of change of the frame vector
-__MATH_52__ due to the rotation.
+where e_i= d  𝐞_i/dt is the time rate of change of the frame vector
+𝐞_i, i=1,2,3, due to the rotation.
 
 This formula is incompatible with the expression for orbital angular
 velocity
 
-    __MATH_53__
+    ω=r×v/r^2,
 
 as that formula defines angular velocity for a single point about O,
 while the formula in this section applies to a frame or rigid body. In
-the case of a rigid body a single __MATH_54__ has to account for the
+the case of a rigid body a single ω has to account for the
 motion of all particles in the body.
 
 Components from Euler angles
@@ -211,14 +211,17 @@ on each of these three axes is the derivative of its associated angle
 (which is equivalent to decomposing the instantaneous rotation into
 three instantaneous Euler rotations). Therefore:
 
-    __MATH_55__
+    ω= α̇𝐮_1+β̇𝐮_2+γ̇𝐮_3
 
 This basis is not orthonormal and it is difficult to use, but now the
 velocity vector can be changed to the fixed frame or to the moving frame
 with just a change of bases. For example, changing to the mobile frame:
 
-    __MATH_56__
+    ω=
+(α̇sinβsinγ+ β̇cosγ) i+
+(α̇sinβcosγ- β̇sinγ) j +
+(α̇cosβ+ γ̇) k
 
-where __MATH_57__ are unit vectors for the frame fixed in the moving
+where i, j, k are unit vectors for the frame fixed in the moving
 body. This example has been made using the Z-X-Z convention for Euler
 angles.
