@@ -103,3 +103,5 @@ Desktop.ini
 *.bak
 *.orig
 *.old
+
+node_modules/
