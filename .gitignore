@@ -105,3 +105,4 @@ Desktop.ini
 *.old
 
 node_modules/
+package-lock.json
