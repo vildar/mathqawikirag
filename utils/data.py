@@ -1,86 +1,119 @@
-import pickle
 import os
-import streamlit as st
+import json
+import re
+from typing import List, Tuple
 
 
-def chunk_text(text, max_words=150, overlap=30):
-    """
-    Split text into chunks of max_words length with specified overlap.
-    """
-    words = text.split()
+def is_formula(sentence: str) -> bool:
+    # Heuristic: contains '=', '^', '_', or looks like a formula
+    return bool(re.search(r'(\=|\^|_|\d+\s*[a-zA-Z]+\s*\=)', sentence)) and len(sentence.strip()) < 120
+
+
+def split_sentences(paragraph: str) -> List[str]:
+    # Split by sentence-ending punctuation, keep formulas as part of sentences
+    # This version keeps formulas with their context, not as separate lines
+    sentences = []
+    buffer = ""
+    for line in paragraph.split('\n'):
+        line = line.strip()
+        if not line:
+            continue
+        if is_formula(line):
+            if buffer:
+                sentences.append(buffer.strip())
+                buffer = ""
+            sentences.append(line)
+        else:
+            buffer += (" " if buffer else "") + line
+            # Split at sentence-ending punctuation
+            while True:
+                match = re.search(r'([.!?])\s+', buffer)
+                if not match:
+                    break
+                end = match.end()
+                sentences.append(buffer[:end].strip())
+                buffer = buffer[end:]
+    if buffer:
+        sentences.append(buffer.strip())
+    return sentences
+
+
+def chunk_paragraph(sentences: List[str], chunk_size: int, chunk_overlap: int) -> List[str]:
     chunks = []
-    start = 0
-    while start < len(words):
-        end = start + max_words
-        chunk = " ".join(words[start:end])
-        chunks.append(chunk)
-        start = end - overlap
-        if start < 0:
-            start = 0
+    i = 0
+    while i < len(sentences):
+        chunk = []
+        length = 0
+        # Always include formulas and their context (previous and next sentence)
+        while i < len(sentences) and length < chunk_size:
+            chunk.append(sentences[i])
+            length += len(sentences[i])
+            # If current is formula, add previous and next sentence if available
+            if is_formula(sentences[i]):
+                if i > 0 and sentences[i-1] not in chunk:
+                    chunk.insert(0, sentences[i-1])
+                    length += len(sentences[i-1])
+                if i+1 < len(sentences) and sentences[i+1] not in chunk:
+                    chunk.append(sentences[i+1])
+                    length += len(sentences[i+1])
+            i += 1
+        chunks.append(' '.join(chunk).strip())
+        # Overlap by sentences, not characters
+        i = max(i - chunk_overlap, i)
     return chunks
 
 
-@st.cache_data
-def load_documents_as_chunks(folder_path):
+def load_documents_as_chunks(
+    articles_dir: str,
+    chunk_size: int = 800,
+    chunk_overlap: int = 2,
+    save_path: str = "chunks.json"
+) -> Tuple[List[str], List[str]]:
     """
-    Loads documents and splits each into chunks.
-    Returns:
-        chunk_texts: List[str] of all chunks
-        chunk_doc_ids: List[str] doc_id for each chunk (which document chunk belongs to)
+    Load cleaned wiki articles, chunk them with formula and sentence awareness,
+    and save to JSON with metadata.
     """
-    chunk_texts = []
-    chunk_doc_ids = []
+    all_chunks = []
+    all_ids = []
+    all_metadata = []
 
-    for file_name in os.listdir(folder_path):
-        if file_name.endswith(".txt"):
-            doc_id = file_name.replace(".txt", "")
-            with open(os.path.join(folder_path, file_name), 'r', encoding='utf-8') as f:
-                text = f.read()
-            chunks = chunk_text(text)
-            chunk_texts.extend(chunks)
-            chunk_doc_ids.extend([doc_id] * len(chunks))
+    for filename in os.listdir(articles_dir):
+        if not filename.endswith(".txt"):
+            continue
 
-    return chunk_texts, chunk_doc_ids
+        article_title = os.path.splitext(filename)[0]
 
+        with open(os.path.join(articles_dir, filename), "r", encoding="utf-8") as f:
+            raw_text = f.read()
 
-def save_chunks(chunk_texts, chunk_doc_ids, embeddings, path):
-    with open(path, "wb") as f:
-        pickle.dump((chunk_texts, chunk_doc_ids, embeddings), f)
+        paragraphs = [p for p in raw_text.split('\n\n') if p.strip()]
+        chunk_idx = 0
+        for para in paragraphs:
+            sentences = split_sentences(para)
+            para_chunks = chunk_paragraph(sentences, chunk_size, chunk_overlap)
+            for chunk in para_chunks:
+                chunk_id = f"{article_title}_{chunk_idx}"
+                all_chunks.append(chunk)
+                all_ids.append(chunk_id)
+                all_metadata.append({
+                    "article": article_title,
+                    "chunk_id": chunk_id,
+                })
+                chunk_idx += 1
 
+    # Save chunks to JSON
+    with open(save_path, "w", encoding="utf-8") as f:
+        json.dump(
+            [{"id": cid, "text": txt, "metadata": meta}
+             for cid, txt, meta in zip(all_ids, all_chunks, all_metadata)],
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
 
-def load_chunks(path):
-    if os.path.exists(path):
-        with open(path, "rb") as f:
-            return pickle.load(f)
-    return None, None, None
-
-
-def clean_latex(ans):
-    return ans.strip().removeprefix("$$").removeprefix("$").removesuffix("$$").removesuffix("$").strip()
-
-
-def generate_prompt(query, chunk):
-    return f"""
-        You are a mathematics expert. Given the following user query and context passages, extract or derive the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
-
-        ### User Query:
-        {query}
-
-        ### Contexts:
-        {chunk}
-
-        ### Instructions:
-        - Respond ONLY with the formula (in LaTeX if possible), no explanation.
-        """
+    return all_chunks, all_ids
 
 
-# 1. Map response to context and verify that it exists in the context
-# 2. Evaluate for 100 (4 * 25 articles) formula queries.
-#    Check across LLMs and also verify that they are repeatable. (temp hyperparam)
-# 3. Add 'whether it exists in context' column
-# 4. Evaluate the retrieval phase
-# 5. Modify the chunking mechanism and evaluate
-# 6. Have a context column. Paste the chunk
-# 7. top_k=5 for evaluation of embedders. (experiment before evaluating for 100)
-# 8. More sophisticated chunking mechanism
-# GraphRAG - clustering sentences
+# Example usage
+load_documents_as_chunks(
+    articles_dir="data/plaintext_articles", save_path="data/chunks.json")
