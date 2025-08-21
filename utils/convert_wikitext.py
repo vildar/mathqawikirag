@@ -1,6 +1,8 @@
-import re
-import subprocess
 import os
+import subprocess
+from pylatexenc.latex2text import LatexNodes2Text
+import re
+import mwparserfromhell
 
 INPUT_FOLDER = "data/cleaned_articles/"
 OUTPUT_FOLDER = "data/plaintext_articles/"
@@ -9,85 +11,93 @@ PLACEHOLDER_FOLDER = "data/placeholder_articles/"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 os.makedirs(PLACEHOLDER_FOLDER, exist_ok=True)
 
-# Allowed templates
+# --- Allowed math templates ---
 ALLOWED_TEMPLATES = [
     "abs", "dimanalysis", "equation box 1", "equationnote", "equationref",
-    "math", "math proof", "mvar", "pi", "radic", "sfrac", "sqrt", "sub",
-    "sup", "val", "var", "vec"
+    "math", "math proof", "mvar", "pi", "radic", "sfrac", "frac", "cfrac",
+    "sqrt", "sub", "sup", "val", "var", "vec", "binom", "over", "underline",
+    "overline", "text", "bold", "italic"
 ]
 
-# Multi-line math environments
-MATH_ENVIRONMENTS = ["align", "align*", "equation", "eqnarray"]
+MATH_ENVIRONMENTS = ["align", "align*", "equation", "eqnarray", "eqnarray*"]
 
-# Regex for <math>...</math>
-MATH_TAG_REGEX = re.compile(r'<math[^>]*?>(.*?)</math>', re.DOTALL)
+# --- Template -> LaTeX mapping ---
+TEMPLATE_LATEX_MAP = {
+    "abs": r"\left|{content}\right|",
+    "dimanalysis": r"{content}",
+    "equation box 1": r"{content}",
+    "equationnote": r"{content}",
+    "equationref": r"{content}",
+    "math": r"{content}",
+    "math proof": r"{content}",
+    "mvar": r"{content}",
+    "pi": r"\pi",
+    "radic": r"\sqrt{{{content}}}",
+    "sfrac": r"\frac{{{numerator}}}{{{denominator}}}",
+    "frac": r"\frac{{{numerator}}}{{{denominator}}}",
+    "cfrac": r"\cfrac{{{numerator}}}{{{denominator}}}",
+    "sqrt": r"\sqrt{{{content}}}",
+    "sub": r"{base}_{{{sub}}}",
+    "sup": r"{base}^{{{sup}}}",
+    "val": r"{content}",
+    "var": r"{content}",
+    "vec": r"\vec{{{content}}}",
+    "binom": r"\binom{{{n}}}{{{k}}}",
+    "over": r"{numerator} / {denominator}",
+    "underline": r"\underline{{{content}}}",
+    "overline": r"\overline{{{content}}}",
+    "text": r"\text{{{content}}}",
+    "bold": r"\mathbf{{{content}}}",
+    "italic": r"\mathit{{{content}}}"
+}
 
-# Regex for allowed templates
-TEMPLATE_REGEX = re.compile(
-    r'{{\s*(' + '|'.join(re.escape(t)
-                         for t in ALLOWED_TEMPLATES) + r')\s*\|([^}]*)}}',
-    re.IGNORECASE
-)
+
+def flatten_multiline_environments(latex_expr: str) -> str:
+    for env in MATH_ENVIRONMENTS:
+        pattern = re.compile(
+            rf'\\begin{{{env}}}(.*?)\\end{{{env}}}', re.DOTALL)
+
+        def repl(m):
+            lines = [line.strip()
+                     for line in m.group(1).split(r"\\") if line.strip()]
+            return ' ; '.join(lines)
+        latex_expr = pattern.sub(repl, latex_expr)
+    return latex_expr
+
+
+def convert_latex_to_text(latex_expr: str) -> str:
+    latex_expr = flatten_multiline_environments(latex_expr)
+    return LatexNodes2Text().latex_to_text(latex_expr).strip()
 
 
 def extract_math_blocks(text):
-    """
-    Replace <math> tags and allowed templates with placeholders,
-    and collect their content for normalization.
-    """
+    wikicode = mwparserfromhell.parse(text)
     math_blocks = []
 
-    # Replace <math> tags
-    def math_tag_replacer(match):
-        math_blocks.append(match.group(1).strip())
-        return f"__MATH_{len(math_blocks)-1}__"
+    def process_nodes(wikicode_obj):
+        for node in list(wikicode_obj.nodes):  # iterate over a copy
+            if isinstance(node, mwparserfromhell.nodes.Tag) and node.tag.lower() == 'math':
+                index = len(math_blocks)
+                math_blocks.append(str(node.contents).strip())
+                # Correct replacement
+                wikicode_obj.replace(node, f"__MATH_{index}__")
+            elif isinstance(node, mwparserfromhell.nodes.Template):
+                name = str(node.name).strip().lower()
+                if name in ALLOWED_TEMPLATES:
+                    index = len(math_blocks)
+                    content = ' | '.join(str(p.value).strip()
+                                         for p in node.params)
+                    math_blocks.append(content)
+                    wikicode_obj.replace(node, f"__MATH_{index}__")
+            # Recurse if node has child Wikicode
+            if hasattr(node, 'contents') and isinstance(node.contents, mwparserfromhell.wikicode.Wikicode):
+                process_nodes(node.contents)
 
-    text = MATH_TAG_REGEX.sub(math_tag_replacer, text)
-
-    # Replace allowed templates
-    def template_replacer(match):
-        content = match.group(2).strip()
-        math_blocks.append(content)
-        return f"__MATH_{len(math_blocks)-1}__"
-
-    text = TEMPLATE_REGEX.sub(template_replacer, text)
-
-    return text, math_blocks
-
-
-def normalize_latex(latex_expr: str) -> str:
-    """
-    Normalize LaTeX expressions:
-    - Split multi-line environments
-    - Replace common LaTeX commands with simpler notation
-    """
-    # Handle multi-line environments
-    for env in MATH_ENVIRONMENTS:
-        if latex_expr.startswith(f"\\begin{{{env}}}"):
-            inner = re.sub(
-                rf'\\begin{{{env}}}|\\end{{{env}}}', '', latex_expr, flags=re.DOTALL)
-            parts = [p.strip() for p in inner.split(r"\\") if p.strip()]
-            latex_expr = ' ; '.join(parts)
-
-    # Lightweight replacements
-    replacements = [
-        (r'\\frac{(.+?)}{(.+?)}', r'(\1)/(\2)'),
-        (r'\\cdot|\\times', '*'),
-        (r'\\dot{(.+?)}', r"\1'"),
-        (r'\\ddot{(.+?)}', r"\1''"),
-        (r'\\boldsymbol{(.+?)}', r"\1"),
-        (r'\\mathbf{(.+?)}', r"\1"),
-        (r'\\[a-zA-Z]+', ''),  # remove remaining LaTeX commands
-    ]
-
-    for pat, repl in replacements:
-        latex_expr = re.sub(pat, repl, latex_expr)
-
-    return latex_expr.strip()
+    process_nodes(wikicode)
+    return str(wikicode), math_blocks
 
 
 def pandoc_convert_to_plaintext(input_path, output_path):
-    """Convert placeholder article to plain text using pandoc."""
     result = subprocess.run(
         ['pandoc', '-f', 'mediawiki', '-t', 'plain', input_path, '-o', output_path],
         stdout=subprocess.PIPE, stderr=subprocess.PIPE
@@ -102,38 +112,26 @@ def process_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         original_text = f.read()
 
-    # Step 1: Extract math blocks and replace with placeholders
     text_with_placeholders, math_blocks = extract_math_blocks(original_text)
 
-    # Save intermediate placeholder file
     placeholder_path = os.path.join(
-        PLACEHOLDER_FOLDER, os.path.basename(filepath) + ".nomath"
-    )
+        PLACEHOLDER_FOLDER, os.path.basename(filepath) + ".nomath")
     with open(placeholder_path, 'w', encoding='utf-8') as f:
         f.write(text_with_placeholders)
 
-    # Step 2: Convert placeholder file to plaintext
     plaintext_path = os.path.join(
-        OUTPUT_FOLDER, os.path.basename(filepath) + ".txt"
-    )
+        OUTPUT_FOLDER, os.path.basename(filepath) + ".txt")
     pandoc_convert_to_plaintext(placeholder_path, plaintext_path)
 
-    # Read converted plaintext
     with open(plaintext_path, 'r', encoding='utf-8') as f:
         plain_text = f.read()
 
-    # Step 3: Normalize LaTeX math blocks
-    normalized_blocks = [normalize_latex(m) for m in math_blocks]
+    converted_blocks = [convert_latex_to_text(m) for m in math_blocks]
+    for i, conv in enumerate(converted_blocks):
+        plain_text = plain_text.replace(f"__MATH_{i}__", conv)
 
-    # Step 4: Replace placeholders with normalized LaTeX
-    for i, norm in enumerate(normalized_blocks):
-        placeholder = f"__MATH_{i}__"
-        plain_text = plain_text.replace(placeholder, norm)
-
-    # Save final output
     final_output_path = os.path.join(
-        OUTPUT_FOLDER, os.path.basename(filepath) + ".final.txt"
-    )
+        OUTPUT_FOLDER, os.path.basename(filepath) + ".final.txt")
     with open(final_output_path, 'w', encoding='utf-8') as f:
         f.write(plain_text)
 
