@@ -25,10 +25,10 @@ time is given by
 
     ω= v_⊥/r,
 
-where r is the distance from the origin and v_⊥ is the
-cross-radial component of the instantaneous velocity (i.e. the component
-perpendicular to the position vector), which by convention is positive
-for counter-clockwise motion and negative for clockwise motion.
+where r is the distance from the origin and v_⊥ is
+the cross-radial component of the instantaneous velocity (i.e. the
+component perpendicular to the position vector), which by convention is
+positive for counter-clockwise motion and negative for clockwise motion.
 
 Therefore, the instantaneous angular acceleration α of the particle is
 given by
@@ -42,8 +42,8 @@ calculus, this becomes
 
 In the special case where the particle undergoes circular motion about
 the origin, dv_⊥/dt becomes just the tangential acceleration
-a_⊥, and dr/dt vanishes (since the distance from the origin
-stays constant), so the above equation simplifies to
+a_⊥, and dr/dt vanishes (since the distance from the
+origin stays constant), so the above equation simplifies to
 
     α= a_⊥/r.
 
@@ -61,8 +61,8 @@ Particle in three dimensions
 
 In three dimensions, the orbital angular acceleration is the rate at
 which three-dimensional orbital angular velocity vector changes with
-time. The instantaneous angular velocity vector ω at any point
-in time is given by
+time. The instantaneous angular velocity vector ω at any
+point in time is given by
 
     ω=𝐫 ×𝐯/r^2 ,
 
@@ -79,11 +79,11 @@ the ordinary quotient rule, one gets:
 
     α   = 1/r^2 (𝐫×d𝐯/dt + d𝐫/dt ×𝐯) - 2/r^3dr/dt (𝐫×𝐯) ;    = 1/r^2(𝐫×𝐚 + 𝐯×𝐯) - 2/r^3dr/dt (𝐫×𝐯) ;    = 𝐫×𝐚/r^2 - 2/r^3dr/dt(𝐫×𝐯).
 
-Since 𝐫×𝐯 is just r^2ω, the second term may be rewritten
-as -2/rdr/dt ω. In the case where the distance r of the
-particle from the origin does not change with time (which includes
-circular motion as a subcase), the second term vanishes and the above
-formula simplifies to
+Since 𝐫×𝐯 is just r^2ω, the second term may be
+rewritten as -2/rdr/dt ω. In the case where the distance r
+of the particle from the origin does not change with time (which
+includes circular motion as a subcase), the second term vanishes and the
+above formula simplifies to
 
     α= 𝐫×𝐚/r^2.
 
@@ -96,8 +96,8 @@ Unlike in two dimensions, the angular acceleration in three dimensions
 need not be associated with a change in the angular speed ω= |ω|:
 If the particle's position vector "twists" in space, changing its
 instantaneous plane of angular displacement, the change in the direction
-of the angular velocity ω will still produce a nonzero angular
-acceleration. This cannot not happen if the position vector is
+of the angular velocity ω will still produce a nonzero
+angular acceleration. This cannot not happen if the position vector is
 restricted to a fixed plane, in which case ω has a fixed
 direction perpendicular to the plane.
 
@@ -121,8 +121,8 @@ acceleration by the equation 𝐅 = m𝐚, one may write a similar
 equation connecting torque on a particle to angular acceleration, though
 this relation is necessarily more complicated.
 
-First, substituting 𝐅 = m𝐚 into the above equation for torque, one
-gets
+First, substituting 𝐅 = m𝐚 into the above equation for torque,
+one gets
 
     τ = m(𝐫×𝐚) = mr^2 (𝐫×𝐚/r^2).
 

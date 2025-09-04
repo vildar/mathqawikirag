@@ -61,16 +61,16 @@ arc-length from the positive x-axis around the circle to the particle is
 In the general case of a particle moving in the plane, the orbital
 angular velocity is the rate at which the position vector relative to a
 chosen origin "sweeps out" angle. The diagram shows the position vector
-𝐫 from the origin O to a particle P, with
-its polar coordinates (r, ϕ). (All variables are functions of time
-t.) The particle has linear velocity splitting as 𝐯 = 𝐯_+𝐯_⊥,
-with the radial component 𝐯_ parallel to the radius, and the
-cross-radial (or tangential) component 𝐯_⊥ perpendicular to the
-radius. When there is no radial component, the particle moves around the
-origin in a circle; but when there is no cross-radial component, it
-moves in a straight line from the origin. Since radial motion leaves the
-angle unchanged, only the cross-radial component of linear velocity
-contributes to angular velocity.
+𝐫 from the origin O to a particle P,
+with its polar coordinates (r, ϕ). (All variables are functions of
+time t.) The particle has linear velocity splitting as
+𝐯 = 𝐯_+𝐯_⊥, with the radial component 𝐯_ parallel to the
+radius, and the cross-radial (or tangential) component 𝐯_⊥
+perpendicular to the radius. When there is no radial component, the
+particle moves around the origin in a circle; but when there is no
+cross-radial component, it moves in a straight line from the origin.
+Since radial motion leaves the angle unchanged, only the cross-radial
+component of linear velocity contributes to angular velocity.
 
 The angular velocity ω is the rate of change of angular position with
 respect to time, which can be computed from the cross-radial velocity
@@ -116,12 +116,12 @@ However, as there are two directions perpendicular to any plane, an
 additional condition is necessary to uniquely specify the direction of
 the angular velocity; conventionally, the right-hand rule is used.
 
-Let the pseudovector 𝐮 be the unit vector perpendicular to the
-plane spanned by r and v, so that the right-hand rule is satisfied (i.e.
-the instantaneous direction of angular displacement is counter-clockwise
-looking from the top of 𝐮). Taking polar coordinates
-(r,ϕ) in this plane, as in the two-dimensional case above, one may
-define the orbital angular velocity vector as:
+Let the pseudovector 𝐮 be the unit vector perpendicular to
+the plane spanned by r and v, so that the right-hand rule is satisfied
+(i.e. the instantaneous direction of angular displacement is
+counter-clockwise looking from the top of 𝐮). Taking polar
+coordinates (r,ϕ) in this plane, as in the two-dimensional case
+above, one may define the orbital angular velocity vector as:
 
     ω=ω𝐮 = dϕ/dt𝐮=v sin(θ)/r𝐮,
 

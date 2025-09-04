@@ -45,12 +45,12 @@ example, a body might be free to slide along a track that runs left to
 right, and so its location can be specified by its distance from a
 convenient zero point, or origin, with negative numbers indicating
 positions to the left and positive numbers indicating positions to the
-right. If the body's location as a function of time is s(t), then
-its average velocity over the time interval from t_0 to
-t_1 is Δs/Δt = s(t_1) - s(t_0)/t_1 - t_0.Here, the Greek letter Δ (delta) is
-used, per tradition, to mean "change in". A positive average velocity
-means that the position coordinate s increases over the
-interval in question, a negative average velocity indicates a net
+right. If the body's location as a function of time is s(t),
+then its average velocity over the time interval from t_0 to
+t_1 is Δs/Δt = s(t_1) - s(t_0)/t_1 - t_0.Here, the Greek letter Δ
+(delta) is used, per tradition, to mean "change in". A positive average
+velocity means that the position coordinate s increases over
+the interval in question, a negative average velocity indicates a net
 decrease over that interval, and an average velocity of zero means that
 the body ends the time interval in the same place as it began. Calculus
 gives the means to define an instantaneous velocity, a measure of a
@@ -63,15 +63,16 @@ thought of as the ratio between an infinitesimally small change in
 position ds to the infinitesimally small time interval
 dt over which it occurs. More carefully, the velocity and all
 other derivatives can be defined using the concept of a limit. A
-function f(t) has a limit of L at a given input value
-t_0 if the difference between f and L can be
-made arbitrarily small by choosing an input sufficiently close to
-t_0. One writes, lim_t→t_0 f(t) = L.Instantaneous velocity can be
-defined as the limit of the average velocity as the time interval
-shrinks to zero:ds/dt = lim_Δt →0 s(t + Δt) - s(t)/Δt. Acceleration is to velocity as velocity is
-to position: it is the derivative of the velocity with respect to time.
-Acceleration can likewise be defined as a limit:a = dv/dt = lim_Δt →0v(t+Δt) - v(t)/Δt.Consequently,
-the acceleration is the second derivative of position, often written
+function f(t) has a limit of L at a given input
+value t_0 if the difference between f and
+L can be made arbitrarily small by choosing an input
+sufficiently close to t_0. One writes,
+lim_t→t_0 f(t) = L.Instantaneous velocity can be defined as the limit of the
+average velocity as the time interval shrinks to zero:ds/dt = lim_Δt →0 s(t + Δt) - s(t)/Δt.
+Acceleration is to velocity as velocity is to position: it is the
+derivative of the velocity with respect to time. Acceleration can
+likewise be defined as a limit:a = dv/dt = lim_Δt →0v(t+Δt) - v(t)/Δt.Consequently, the
+acceleration is the second derivative of position, often written
 d^2 s/dt^2.
 
 Position, when thought of as a displacement from an origin point, is a
@@ -79,9 +80,9 @@ vector: a quantity with both magnitude and direction. Velocity and
 acceleration are vector quantities as well. The mathematical tools of
 vector algebra provide the means to describe motion in two, three or
 more dimensions. Vectors are often denoted with an arrow, as in
-s⃗, or in bold typeface, such as s. Often, vectors
-are represented visually as arrows, with the direction of the vector
-being the direction of the arrow, and the magnitude of the vector
+s⃗, or in bold typeface, such as s. Often,
+vectors are represented visually as arrows, with the direction of the
+vector being the direction of the arrow, and the magnitude of the vector
 indicated by the length of the arrow. Numerically, a vector can be
 represented as a list; for example, a body's velocity vector might be
 𝐯 = (3 m/s, 4 m/s), indicating that it is moving at 3 metres per second along
@@ -142,8 +143,8 @@ depends upon the amount of matter contained in a body, the speed at
 which that body is moving, and the direction in which it is moving. In
 modern notation, the momentum of a body is the product of its mass and
 its velocity: 𝐩 = m𝐯   , where all three quantities can change over
-time. In common cases the mass m does not change with time and
-the derivative acts only upon the velocity. Then force equals the
+time. In common cases the mass m does not change with time
+and the derivative acts only upon the velocity. Then force equals the
 product of the mass and the time derivative of the velocity, which is
 the acceleration: 𝐅 = m d𝐯/dt = m𝐚   . As the acceleration is the second
 derivative of position with respect to time, this can also be written
@@ -200,15 +201,15 @@ material bodies carry momentum, and when momentum is defined properly,
 in quantum mechanics as well. In Newtonian mechanics, if two bodies have
 momenta 𝐩_1 and 𝐩_2 respectively, then the total
 momentum of the pair is 𝐩 = 𝐩_1 + 𝐩_2, and the rate of change of
-𝐩 is d𝐩/dt = d𝐩_1/dt + d𝐩_2/dt. By Newton's second law, the first term is the
-total force upon the first body, and the second term is the total force
-upon the second body. If the two bodies are isolated from outside
+𝐩 is d𝐩/dt = d𝐩_1/dt + d𝐩_2/dt. By Newton's second law, the first term is
+the total force upon the first body, and the second term is the total
+force upon the second body. If the two bodies are isolated from outside
 influences, the only force upon the first body can be that from the
 second, and vice versa. By Newton's third law, these forces have equal
 magnitude but opposite direction, so they cancel when added, and
-𝐩 is constant. Alternatively, if 𝐩 is known to be
-constant, it follows that the forces have equal magnitude and opposite
-direction.
+𝐩 is constant. Alternatively, if 𝐩 is known to
+be constant, it follows that the forces have equal magnitude and
+opposite direction.
 
 Candidates for additional laws
 
@@ -245,15 +246,15 @@ acceleration is the same for all bodies, independently of their mass.
 This follows from combining Newton's second law of motion with his law
 of universal gravitation. The latter states that the magnitude of the
 gravitational force from the Earth upon the body is F = GMm/r^2 , where
-m is the mass of the falling body, M is the mass of
-the Earth, G is Newton's constant, and r is the
-distance from the center of the Earth to the body's location, which is
-very nearly the radius of the Earth. Setting this equal to ma,
-the body's mass m cancels from both sides of the equation,
-leaving an acceleration that depends upon G, M, and
-r, and r can be taken to be constant. This
-particular value of acceleration is typically denoted g:
-g = GM/r^2 ≈9.8  m/s^2.
+m is the mass of the falling body, M is the mass
+of the Earth, G is Newton's constant, and r is
+the distance from the center of the Earth to the body's location, which
+is very nearly the radius of the Earth. Setting this equal to
+ma, the body's mass m cancels from both sides of
+the equation, leaving an acceleration that depends upon G,
+M, and r, and r can be taken to be
+constant. This particular value of acceleration is typically denoted
+g: g = GM/r^2 ≈9.8  m/s^2.
 
 If the body is not released from rest but instead launched upwards
 and/or horizontally with nonzero velocity, then free fall becomes
@@ -268,16 +269,17 @@ Uniform circular motion
 
 When a body is in uniform circular motion, the force on it changes the
 direction of its motion but not its speed. For a body moving in a circle
-of radius r at a constant speed v, its acceleration
-has a magnitudea = v^2/rand is directed toward the center of the
-circle. The force required to sustain this acceleration, called the
-centripetal force, is therefore also directed toward the center of the
-circle and has magnitude mv^2/r. Many orbits, such as that of the
-Moon around the Earth, can be approximated by uniform circular motion.
-In such cases, the centripetal force is gravity, and by Newton's law of
-universal gravitation has magnitude GMm/r^2, where M is
-the mass of the larger body being orbited. Therefore, the mass of a body
-can be calculated from observations of another body orbiting around it.
+of radius r at a constant speed v, its
+acceleration has a magnitudea = v^2/rand is directed toward the
+center of the circle. The force required to sustain this acceleration,
+called the centripetal force, is therefore also directed toward the
+center of the circle and has magnitude mv^2/r. Many orbits, such
+as that of the Moon around the Earth, can be approximated by uniform
+circular motion. In such cases, the centripetal force is gravity, and by
+Newton's law of universal gravitation has magnitude GMm/r^2, where
+M is the mass of the larger body being orbited. Therefore,
+the mass of a body can be calculated from observations of another body
+orbiting around it.
 
 Newton's cannonball is a thought experiment that interpolates between
 projectile motion and uniform circular motion. A cannonball that is
@@ -297,18 +299,18 @@ is not slowed by air resistance or obstacles).
 
 Harmonic motion
 
-Consider a body of mass m able to move along the x
-axis, and suppose an equilibrium point exists at the position
-x = 0. That is, at x = 0, the net force upon the body is the
-zero vector, and by Newton's second law, the body will not accelerate.
-If the force upon the body is proportional to the displacement from the
-equilibrium point, and directed to the equilibrium point, then the body
-will perform simple harmonic motion. Writing the force as F = -kx,
-Newton's second law becomes md^2 x/dt^2 = -kx   . This differential equation has
-the solution x(t) = A cosωt + B sinωt where the frequency ω is equal to
-√(k/m), and the constants A and B can be
-calculated knowing, for example, the position and velocity the body has
-at a given time, like t = 0.
+Consider a body of mass m able to move along the
+x axis, and suppose an equilibrium point exists at the
+position x = 0. That is, at x = 0, the net force upon
+the body is the zero vector, and by Newton's second law, the body will
+not accelerate. If the force upon the body is proportional to the
+displacement from the equilibrium point, and directed to the equilibrium
+point, then the body will perform simple harmonic motion. Writing the
+force as F = -kx, Newton's second law becomes md^2 x/dt^2 = -kx   . This
+differential equation has the solution x(t) = A cosωt + B sinωt where the frequency
+ω is equal to √(k/m), and the constants A
+and B can be calculated knowing, for example, the position
+and velocity the body has at a given time, like t = 0.
 
 One reason that the harmonic oscillator is a conceptually important
 example is that it is good approximation for many systems near a stable
@@ -316,12 +318,12 @@ mechanical equilibrium. For example, a pendulum has a stable equilibrium
 in the vertical position: if motionless there, it will remain there, and
 if pushed slightly, it will swing back and forth. Neglecting air
 resistance and friction in the pivot, the force upon the pendulum is
-gravity, and Newton's second law becomes d^2θ/dt^2 = -g/L sinθ,where L is
-the length of the pendulum and θ is its angle from the
-vertical. When the angle θ is small, the sine of θ
-is nearly equal to θ (see small-angle approximation), and so
-this expression simplifies to the equation for a simple harmonic
-oscillator with frequency ω= √(g/L).
+gravity, and Newton's second law becomes d^2θ/dt^2 = -g/L sinθ,where
+L is the length of the pendulum and θ is its
+angle from the vertical. When the angle θ is small, the sine
+of θ is nearly equal to θ (see small-angle
+approximation), and so this expression simplifies to the equation for a
+simple harmonic oscillator with frequency ω= √(g/L).
 
 A harmonic oscillator can be damped, often by friction or viscous drag,
 in which case energy bleeds out of the oscillator and the amplitude of
@@ -337,9 +339,10 @@ interest gains or loses mass because matter is added to or removed from
 it. In such a situation, Newton's laws can be applied to the individual
 pieces of matter, keeping track of which pieces belong to the object of
 interest over time. For instance, if a rocket of mass M(t),
-moving at velocity 𝐯(t), ejects matter at a velocity 𝐮
-relative to the rocket, then 𝐅 = M d𝐯/dt - 𝐮 dM/dt where 𝐅 is the net
-external force (e.g., a planet's gravitational pull).
+moving at velocity 𝐯(t), ejects matter at a velocity
+𝐮 relative to the rocket, then 𝐅 = M d𝐯/dt - 𝐮 dM/dt where
+𝐅 is the net external force (e.g., a planet's gravitational
+pull).
 
 Fan and sail
 
@@ -394,18 +397,18 @@ Significant aspects of the motion of an extended body can be understood
 by imagining the mass of that body concentrated to a single point, known
 as the center of mass. The location of a body's center of mass depends
 upon how that body's material is distributed. For a collection of
-pointlike objects with masses m_1, …, m_N at positions 𝐫_1, …, 𝐫_N, the
-center of mass is located at 𝐑 = ∑_i=1^N m_i 𝐫_i/M, where M is the total
-mass of the collection. In the absence of a net external force, the
-center of mass moves at a constant speed in a straight line. This
-applies, for example, to a collision between two bodies. If the total
-external force is not zero, then the center of mass changes velocity as
-though it were a point body of mass M. This follows from the
-fact that the internal forces within the collection, the forces that the
-objects exert upon each other, occur in balanced pairs by Newton's third
-law. In a system of two bodies with one much more massive than the
-other, the center of mass will approximately coincide with the location
-of the more massive body.
+pointlike objects with masses m_1, …, m_N at positions 𝐫_1, …, 𝐫_N,
+the center of mass is located at 𝐑 = ∑_i=1^N m_i 𝐫_i/M, where M is
+the total mass of the collection. In the absence of a net external
+force, the center of mass moves at a constant speed in a straight line.
+This applies, for example, to a collision between two bodies. If the
+total external force is not zero, then the center of mass changes
+velocity as though it were a point body of mass M. This
+follows from the fact that the internal forces within the collection,
+the forces that the objects exert upon each other, occur in balanced
+pairs by Newton's third law. In a system of two bodies with one much
+more massive than the other, the center of mass will approximately
+coincide with the location of the more massive body.
 
 Rotational analogues of Newton's laws
 
@@ -415,17 +418,18 @@ The analogue of mass is the moment of inertia, the counterpart of
 momentum is angular momentum, and the counterpart of force is torque.
 
 Angular momentum is calculated with respect to a reference point. If the
-displacement vector from a reference point to a body is 𝐫 and
-the body has momentum 𝐩, then the body's angular momentum with
-respect to that point is, using the vector cross product, 𝐋 = 𝐫 ×𝐩.
-Taking the time derivative of the angular momentum gives d𝐋/dt = (d𝐫/dt) ×𝐩 + 𝐫 ×d𝐩/dt = 𝐯 ×m𝐯 +  𝐫 ×𝐅. The
-first term vanishes because 𝐯 and m𝐯 point in the
-same direction. The remaining term is the torque, τ = 𝐫 ×𝐅. When the
-torque is zero, the angular momentum is constant, just as when the force
-is zero, the momentum is constant. The torque can vanish even when the
-force is non-zero, if the body is located at the reference point
-(𝐫 = 0) or if the force 𝐅 and the displacement vector
-𝐫 are directed along the same line.
+displacement vector from a reference point to a body is 𝐫
+and the body has momentum 𝐩, then the body's angular
+momentum with respect to that point is, using the vector cross product,
+𝐋 = 𝐫 ×𝐩. Taking the time derivative of the angular momentum gives
+d𝐋/dt = (d𝐫/dt) ×𝐩 + 𝐫 ×d𝐩/dt = 𝐯 ×m𝐯 +  𝐫 ×𝐅. The first term vanishes because 𝐯 and
+m𝐯 point in the same direction. The remaining term is the
+torque, τ = 𝐫 ×𝐅. When the torque is zero, the angular momentum is
+constant, just as when the force is zero, the momentum is constant. The
+torque can vanish even when the force is non-zero, if the body is
+located at the reference point (𝐫 = 0) or if the force
+𝐅 and the displacement vector 𝐫 are directed
+along the same line.
 
 The angular momentum of a collection of point masses, and thus of an
 extended body, is found by adding the contributions from each of the
@@ -496,10 +500,10 @@ infinitesimal portion depends upon the fluid density, and there is a net
 force upon it if the fluid pressure varies from one side of it to
 another. Accordingly, 𝐚 = 𝐅/m becomes ∂v/∂t + (∇ ·𝐯) 𝐯 = -1/ρ ∇P + 𝐟 , where
 ρ is the density, P is the pressure, and
-𝐟 stands for an external influence like a gravitational pull.
-Incorporating the effect of viscosity turns the Euler equation into a
-Navier–Stokes equation: ∂v/∂t + (∇ ·𝐯) 𝐯 = -1/ρ ∇P + ν∇^2 𝐯 + 𝐟 , where ν is the kinematic
-viscosity.
+𝐟 stands for an external influence like a gravitational
+pull. Incorporating the effect of viscosity turns the Euler equation
+into a Navier–Stokes equation: ∂v/∂t + (∇ ·𝐯) 𝐯 = -1/ρ ∇P + ν∇^2 𝐯 + 𝐟 , where ν is the
+kinematic viscosity.
 
 Singularities
 
@@ -541,9 +545,9 @@ motion at a single instant. It is traditional in Lagrangian mechanics to
 denote position with q and velocity with q̇. The
 simplest example is a massive point particle, the Lagrangian for which
 can be written as the difference between its kinetic and potential
-energies: L(q,q̇) = T - V, where the kinetic energy is T = 1/2mq̇^2 and the
-potential energy is some function of the position, V(q). The
-physical path that the particle will take between an initial point
+energies: L(q,q̇) = T - V, where the kinetic energy is T = 1/2mq̇^2 and
+the potential energy is some function of the position, V(q).
+The physical path that the particle will take between an initial point
 q_i and a final point q_f is the path for which the
 integral of the Lagrangian is "stationary". That is, the physical path
 has the property that small perturbations of it will, to a first
@@ -576,10 +580,10 @@ Hamiltonian, via Hamilton's equations. The simplest example is a point
 mass m constrained to move in a straight line, under the
 effect of a potential. Writing q for the position coordinate
 and p for the body's momentum, the Hamiltonian is
-ℋ(p,q) = p^2/2m + V(q). In this example, Hamilton's equations are dq/dt = ∂ℋ/∂p and
-dp/dt = -∂ℋ/∂q. Evaluating these partial derivatives, the former equation
-becomes dq/dt = p/m, which reproduces the familiar statement that a
-body's momentum is the product of its mass and velocity. The time
+ℋ(p,q) = p^2/2m + V(q). In this example, Hamilton's equations are dq/dt = ∂ℋ/∂p
+and dp/dt = -∂ℋ/∂q. Evaluating these partial derivatives, the former
+equation becomes dq/dt = p/m, which reproduces the familiar statement
+that a body's momentum is the product of its mass and velocity. The time
 derivative of the momentum is dp/dt = -dV/dq, which, upon identifying the
 negative derivative of the potential with the force, is just Newton's
 second law once again.
@@ -598,31 +602,31 @@ The Hamilton–Jacobi equation provides yet another formulation of
 classical mechanics, one which makes it mathematically analogous to wave
 optics. This formulation also uses Hamiltonian functions, but in a
 different way than the formulation described above. The paths taken by
-bodies or collections of bodies are deduced from a function S(𝐪_1,𝐪_2,…,t)
-of positions 𝐪_i and time t. The Hamiltonian is
-incorporated into the Hamilton–Jacobi equation, a differential equation
-for S. Bodies move over time in such a way that their
-trajectories are perpendicular to the surfaces of constant S,
-analogously to how a light ray propagates in the direction perpendicular
-to its wavefront. This is simplest to express for the case of a single
-point mass, in which S is a function S(𝐪,t), and the
-point mass moves in the direction along which S changes most
-steeply. In other words, the momentum of the point mass is the gradient
-of S: 𝐯 = 1/m ∇ S. The Hamilton–Jacobi equation for a point
-mass is - ∂S/∂t = H(𝐪, ∇ S, t ). The relation to Newton's laws can be seen by
-considering a point mass moving in a time-independent potential
-V(𝐪), in which case the Hamilton–Jacobi equation becomes
--∂S/∂t = 1/2m (∇ S)^2 + V(𝐪). Taking the gradient of both sides, this becomes
--∇∂S/∂t = 1/2m ∇ (∇ S)^2 + ∇ V. Interchanging the order of the partial derivatives on the
-left-hand side, and using the power and chain rules on the first term on
-the right-hand side, -∂/∂t∇ S = 1/m (∇ S ·∇) ∇ S + ∇ V. Gathering together the terms that
-depend upon the gradient of S, [∂/∂t + 1/m (∇ S ·∇)] ∇ S = -∇ V. This is another
-re-expression of Newton's second law. The expression in brackets is a
-total or material derivative as mentioned above, in which the first term
-indicates how the function being differentiated changes over time at a
-fixed location, and the second term captures how a moving particle will
-see different values of that function as it travels from place to place:
-[∂/∂t + 1/m (∇ S ·∇)] = [∂/∂t + 𝐯·∇] = d/dt.
+bodies or collections of bodies are deduced from a function
+S(𝐪_1,𝐪_2,…,t) of positions 𝐪_i and time t. The
+Hamiltonian is incorporated into the Hamilton–Jacobi equation, a
+differential equation for S. Bodies move over time in such a
+way that their trajectories are perpendicular to the surfaces of
+constant S, analogously to how a light ray propagates in the
+direction perpendicular to its wavefront. This is simplest to express
+for the case of a single point mass, in which S is a
+function S(𝐪,t), and the point mass moves in the direction along
+which S changes most steeply. In other words, the momentum
+of the point mass is the gradient of S: 𝐯 = 1/m ∇ S. The
+Hamilton–Jacobi equation for a point mass is - ∂S/∂t = H(𝐪, ∇ S, t ). The relation
+to Newton's laws can be seen by considering a point mass moving in a
+time-independent potential V(𝐪), in which case the
+Hamilton–Jacobi equation becomes -∂S/∂t = 1/2m (∇ S)^2 + V(𝐪). Taking the gradient of
+both sides, this becomes -∇∂S/∂t = 1/2m ∇ (∇ S)^2 + ∇ V. Interchanging the order of the
+partial derivatives on the left-hand side, and using the power and chain
+rules on the first term on the right-hand side, -∂/∂t∇ S = 1/m (∇ S ·∇) ∇ S + ∇ V. Gathering
+together the terms that depend upon the gradient of S,
+[∂/∂t + 1/m (∇ S ·∇)] ∇ S = -∇ V. This is another re-expression of Newton's second law. The
+expression in brackets is a total or material derivative as mentioned
+above, in which the first term indicates how the function being
+differentiated changes over time at a fixed location, and the second
+term captures how a moving particle will see different values of that
+function as it travels from place to place: [∂/∂t + 1/m (∇ S ·∇)] = [∂/∂t + 𝐯·∇] = d/dt.
 
 Relation to other physical theories
 
@@ -637,10 +641,10 @@ momentum.
 
 The Langevin equation is a special case of Newton's second law, adapted
 for the case of describing a small object bombarded stochastically by
-even smaller ones. It can be writtenm 𝐚 = -γ𝐯 + ξwhere γ is a
-drag coefficient and ξ is a force that varies randomly from
-instant to instant, representing the net effect of collisions with the
-surrounding particles. This is used to model Brownian motion.
+even smaller ones. It can be writtenm 𝐚 = -γ𝐯 + ξwhere γ is
+a drag coefficient and ξ is a force that varies randomly
+from instant to instant, representing the net effect of collisions with
+the surrounding particles. This is used to model Brownian motion.
 
 Electromagnetism
 
@@ -653,9 +657,9 @@ Newton's law of universal gravitation: the force is proportional to the
 product of the charges, inversely proportional to the square of the
 distance between them, and directed along the straight line between
 them. The Coulomb force that a charge q_1 exerts upon a charge
-q_2 is equal in magnitude to the force that q_2 exerts
-upon q_1, and it points in the exact opposite direction.
-Coulomb's law is thus consistent with Newton's third law.
+q_2 is equal in magnitude to the force that q_2
+exerts upon q_1, and it points in the exact opposite
+direction. Coulomb's law is thus consistent with Newton's third law.
 
 Electromagnetism treats forces as produced by fields acting upon
 charges. The Lorentz force law provides an expression for the force upon
@@ -707,10 +711,10 @@ consequences of this is the fact that the more quickly a body moves, the
 harder it is to accelerate, and so, no matter how much force is applied,
 a body cannot be accelerated to the speed of light. Depending on the
 problem at hand, momentum in special relativity can be represented as a
-three-dimensional vector, 𝐩 = mγ𝐯, where m is the body's
-rest mass and γ is the Lorentz factor, which depends upon the
-body's speed. Alternatively, momentum and force can be represented as
-four-vectors.
+three-dimensional vector, 𝐩 = mγ𝐯, where m is the
+body's rest mass and γ is the Lorentz factor, which depends
+upon the body's speed. Alternatively, momentum and force can be
+represented as four-vectors.
 
 Newton's third law must be modified in special relativity. The third law
 refers to the forces between two bodies at the same moment in time, and

@@ -21,13 +21,13 @@ However, the mass of the IPK and its national copies have been found to drift ov
 Non-SI units accepted for use with SI units include:
 * the [[tonne]] (t) (or "metric ton"), equal to 1000&nbsp;kg
 * the [[Electronvolt (mass)|electronvolt]] (eV), a unit of [[energy]], used to express mass in units of eV/''c''<sup>2</sup> through [[mass–energy equivalence]]
-* the [[Dalton (unit)|dalton]] (Da), equal to 1/12 of the mass of a free [[carbon-12]] atom, approximately __MATH_0__.
+* the [[Dalton (unit)|dalton]] (Da), equal to 1/12 of the mass of a free [[carbon-12]] atom, approximately __MATH_1015__.
 
 Outside the SI system, other units of mass include:
 * the [[slug (unit)|slug]] (sl), an [[Imperial units|Imperial unit]] of mass (about 14.6&nbsp;kg)
 * the [[Pound (mass)|pound]] (lb), a unit of mass (about 0.45&nbsp;kg), which is used alongside the similarly named [[pound (force)]] (about 4.5&nbsp;N), a unit of force
-* the [[Planck mass]] (about __MATH_1__), a quantity derived from fundamental constants
-* the [[solar mass]] (), defined as the mass of the [[Sun]], primarily used in astronomy to compare large masses such as stars or galaxies (≈&nbsp;__MATH_2__)
+* the [[Planck mass]] (about __MATH_1016__), a quantity derived from fundamental constants
+* the [[solar mass]] (), defined as the mass of the [[Sun]], primarily used in astronomy to compare large masses such as stars or galaxies (≈&nbsp;__MATH_1017__)
 * the mass of a particle, as identified with its inverse [[Compton wavelength]] ()
 * the mass of a star or [[black hole]], as identified with its [[Schwarzschild radius]] ().
 
@@ -56,13 +56,13 @@ Although inertial mass, passive gravitational mass and active gravitational mass
 [[Albert Einstein]] developed his [[general theory of relativity]] starting with the assumption that the inertial and passive gravitational masses are the same.  This is known as the [[equivalence principle]].
 
 The particular equivalence often referred to as the "Galilean equivalence principle" or the "[[weak equivalence principle]]" has the most important consequence for freely falling objects. Suppose an object has inertial and gravitational masses ''m'' and ''M'', respectively. If the only force acting on the object comes from a gravitational field ''g'', the force on the object is:
-: __MATH_3__
+: __MATH_1018__
 
 Given this force, the acceleration of the object can be determined by Newton's second law:
-: __MATH_4__
+: __MATH_1019__
 
 Putting these together, the gravitational acceleration is given by:
-: __MATH_5__
+: __MATH_1020__
 
 This says that the ratio of gravitational to inertial mass of any object is equal to some constant ''K'' [[if and only if]] all objects fall at the same rate in a given gravitational field. This phenomenon is referred to as the "universality of free-fall". In addition, the constant ''K'' can be taken as 1 by defining our units appropriately.
 
@@ -86,14 +86,14 @@ The concept of [[wikt:amount|amount]] is very old and [[Prehistoric numerals|pre
 
 
 Humans, at some early era, realized that the weight of a collection of similar objects was [[Proportionality (mathematics)|directly proportional]] to the number of objects in the collection:
-: __MATH_6__
+: __MATH_1021__
 where ''W'' is the weight of the collection of similar objects and ''n'' is the number of objects in the collection. Proportionality, by definition, implies that two values have a constant [[ratio]]:
-: __MATH_7__, or equivalently __MATH_8__
+: __MATH_1022__, or equivalently __MATH_1023__
 
 An early use of this relationship is a [[balance scale]], which balances the force of one object's weight against the force of another object's weight. The two sides of a balance scale are close enough that the objects experience similar gravitational fields.  Hence, if they have similar masses then their weights will also be similar.  This allows the scale, by comparing weights, to also compare masses.
 
 Consequently, historical weight standards were often defined in terms of amounts.  The Romans, for example, used the [[carob]] seed ([[Carat (unit)|carat]] or [[siliqua]]) as a measurement standard.  If an object's weight was equivalent to [http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3138.pdf 1728 carob seeds], then the object was said to weigh one Roman pound.  If, on the other hand, the object's weight was equivalent to [[Ancient Roman units of measurement|144 carob seeds]] then the object was said to weigh one Roman ounce (uncia).  The Roman pound and ounce were both defined in terms of different sized collections of the same common mass standard, the carob seed.  The ratio of a Roman ounce (144 carob seeds) to a Roman pound (1728 carob seeds) was:
-: __MATH_9__
+: __MATH_1024__
 
 === Planetary motion ===
 
@@ -109,7 +109,7 @@ A later experiment was described in Galileo's ''Two New Sciences'' published in 
 :a large vessel of water placed in an elevated position; to the bottom of this vessel was soldered a pipe of small diameter giving a thin jet of water, which we collected in a small glass during the time of each descent, whether for the whole length of the channel or for a part of its length; the water thus collected was weighed, after each descent, on a very accurate balance; the differences and ratios of these weights gave us the differences and ratios of the times, and this with such accuracy that although the operation was repeated many, many times, there was no appreciable discrepancy in the results.
 
 Galileo found that for an object in free fall, the distance that the object has fallen is always proportional to the square of the elapsed time:
-: __MATH_10__
+: __MATH_1025__
 
 Galileo had shown that objects in free fall under the influence of the Earth's gravitational field have a constant acceleration, and Galileo's contemporary, Johannes Kepler, had shown that the planets follow elliptical paths under the influence of the Sun's gravitational mass.  However, Galileo's free fall motions and Kepler's planetary motions remained distinct during Galileo's lifetime.
 
@@ -124,7 +124,7 @@ According to K. M. Browne: "Kepler formed a [distinct] concept of mass ('amount 
 ! [[Semi-major axis]] !! [[Sidereal orbital period]]
 |-
 |0.002 569 [[Astronomical unit|AU]]||0.074 802 [[sidereal year]]
-|rowspan=3|__MATH_11__
+|rowspan=3|__MATH_1026__
 |-
 ! Earth's gravity !! Earth's radius
 |-
@@ -136,7 +136,7 @@ According to K. M. Browne: "Kepler formed a [distinct] concept of mass ('amount 
 [[Robert Hooke]] had published his concept of gravitational forces in 1674, stating that all [[celestial bodies]] have an attraction or gravitating power towards their own centers, and also attract all the other celestial bodies that are within the sphere of their activity. He further stated that gravitational attraction increases by how much nearer the body wrought upon is to its own center. In correspondence with [[Isaac Newton]] from 1679 and 1680, Hooke conjectured that gravitational forces might decrease according to the double of the distance between the two bodies. Hooke urged Newton, who was a pioneer in the development of [[calculus]], to work through the mathematical details of Keplerian orbits to determine if Hooke's hypothesis was correct.  Newton's own investigations verified that Hooke was correct, but due to personal differences between the two men, Newton chose not to reveal this to Hooke.  Isaac Newton kept quiet about his discoveries until 1684, at which time he told a friend, [[Edmond Halley]], that he had solved the problem of gravitational orbits, but had misplaced the solution in his office. After being encouraged by Halley, Newton decided to develop his ideas about gravity and publish all of his findings.  In November 1684, Isaac Newton sent a document to Edmund Halley, now lost but presumed to have been titled ''[[De motu corporum in gyrum]]'' (Latin for "On the motion of bodies in an orbit"). Halley presented Newton's findings to the [[Royal Society]] of London, with a promise that a fuller presentation would follow.  Newton later recorded his ideas in a three-book set, entitled ''[[Philosophiæ Naturalis Principia Mathematica]]'' (English: ''Mathematical Principles of Natural Philosophy'').  The first was received by the Royal Society on 28 April 1685–86; the second on 2 March 1686–87; and the third on 6 April 1686–87.  The Royal Society published Newton's entire collection at their own expense in May 1686–87.
 
 Isaac Newton had bridged the gap between Kepler's gravitational mass and Galileo's gravitational acceleration, resulting in the discovery of the following relationship which governed both of these:
-: __MATH_12__
+: __MATH_1027__
 where '''g''' is the apparent acceleration of a body as it passes through a region of space where gravitational fields exist, ''μ'' is the gravitational mass ([[standard gravitational parameter]]) of the body causing gravitational fields, and '''R''' is the radial coordinate (the distance between the centers of the two bodies).
 
 By finding the exact relationship between a body's gravitational mass and its gravitational field, Newton provided a second method for measuring gravitational mass.  The mass of the Earth can be determined using Kepler's method (from the orbit of Earth's Moon), or it can be determined by measuring the gravitational acceleration on the Earth's surface, and multiplying that by the square of the Earth's radius.  The mass of the Earth is approximately three-millionths of the mass of the Sun.  To date, no other accurate method for measuring gravitational mass has been discovered.
@@ -156,9 +156,9 @@ For example, according to Newton's theory of universal gravitation, each carob s
 Measuring gravitational mass in terms of traditional mass units is simple in principle, but extremely difficult in practice.  According to Newton's theory, all objects produce gravitational fields and it is theoretically possible to collect an immense number of small objects and form them into an enormous gravitating sphere.  However, from a practical standpoint, the gravitational fields of small objects are extremely weak and difficult to measure. Newton's books on universal gravitation were published in the 1680s, but the first successful measurement of the Earth's mass in terms of traditional mass units, the [[Cavendish experiment]], did not occur until 1797, over a hundred years later. [[Henry Cavendish]] found that the Earth's density was 5.448 ± 0.033 times that of water.  As of 2025, the Earth's mass is only known to around five significant figures, whereas [[Standard_gravitational_parameter#Geocentric_gravitational_constant|GM🜨]], the product of Earth's mass and the universal gravitational constant, is known to over nine significant figures.
 
 Given two objects A and B, of masses ''M''<sub>A</sub> and ''M''<sub>B</sub>, separated by a [[Displacement (vector)|displacement]] '''R'''<sub>AB</sub>, Newton's law of gravitation states that each object exerts a gravitational force on the other, of magnitude
-: __MATH_13__,
+: __MATH_1028__,
 where ''G'' is the universal [[gravitational constant]]. The above statement may be reformulated in the following way: if ''g'' is the magnitude at a given location in a gravitational field, then the gravitational force on an object with gravitational mass ''M'' is
-: __MATH_14__.
+: __MATH_1029__.
 This is the basis by which masses are determined by [[weighing]]. In simple [[spring scales]], for example, the force ''F'' is proportional to the displacement of the [[spring (device)|spring]] beneath the weighing pan, as per [[Hooke's law]], and the scales are [[calibration|calibrated]] to take ''g'' into account, allowing the mass ''M'' to be read off. Assuming the gravitational field is equivalent on both sides of the balance, a [[Beam balance|balance]] measures relative weight, giving the relative gravitation mass of each object.
 
 === Inertial mass ===
@@ -168,26 +168,26 @@ Mass was traditionally believed to be a measure of the quantity of matter in a p
 ''Inertial mass'' is the mass of an object measured by its resistance to acceleration. This definition has been championed by [[Ernst Mach]] and has since been developed into the notion of [[Operationalization|operationalism]] by [[Percy W. Bridgman]]. The simple [[classical mechanics]] definition of mass differs slightly from the definition in the theory of [[special relativity]], but the essential meaning is the same.
 
 In classical mechanics, according to [[Newton's second law]], we say that a body has a mass ''m'' if, at any instant of time, it obeys the equation of motion
-: __MATH_15__
+: __MATH_1030__
 where '''F''' is the resultant [[force]] acting on the body and '''a''' is the [[acceleration]] of the body's centre of mass. For the moment, we will put aside the question of what "force acting on the body" actually means.
 
 This equation illustrates how mass relates to the [[inertia]] of a body. Consider two objects with different masses. If we apply an identical force to each, the object with a bigger mass will experience a smaller acceleration, and the object with a smaller mass will experience a bigger acceleration. We might say that the larger mass exerts a greater "resistance" to changing its state of motion in response to the force.
 
 However, this notion of applying "identical" forces to different objects brings us back to the fact that we have not really defined what a force is. We can sidestep this difficulty with the help of [[Newton's third law]], which states that if one object exerts a force on a second object, it will experience an equal and opposite force. To be precise, suppose we have two objects of constant inertial masses ''m''<sub>1</sub> and ''m''<sub>2</sub>. We isolate the two objects from all other physical influences, so that the only forces present are the force exerted on ''m''<sub>1</sub> by ''m''<sub>2</sub>, which we denote '''F'''<sub>12</sub>, and the force exerted on ''m''<sub>2</sub> by ''m''<sub>1</sub>, which we denote '''F'''<sub>21</sub>. Newton's second law states that
-: __MATH_16__
+: __MATH_1031__
 where '''a'''<sub>1</sub> and '''a'''<sub>2</sub> are the accelerations of ''m''<sub>1</sub> and ''m''<sub>2</sub>, respectively. Suppose that these accelerations are non-zero, so that the forces between the two objects are non-zero. This occurs, for example, if the two objects are in the process of colliding with one another. Newton's third law then states that
-: __MATH_17__
+: __MATH_1032__
 and thus
-: __MATH_18__
+: __MATH_1033__
 
-If __MATH_19__ is non-zero, the fraction is well-defined, which allows us to measure the inertial mass of ''m''<sub>1</sub>. In this case, ''m''<sub>2</sub> is our "reference" object, and we can define its mass ''m'' as (say) 1&nbsp;kilogram. Then we can measure the mass of any other object in the universe by colliding it with the reference object and measuring the accelerations.
+If __MATH_1034__ is non-zero, the fraction is well-defined, which allows us to measure the inertial mass of ''m''<sub>1</sub>. In this case, ''m''<sub>2</sub> is our "reference" object, and we can define its mass ''m'' as (say) 1&nbsp;kilogram. Then we can measure the mass of any other object in the universe by colliding it with the reference object and measuring the accelerations.
 
 Additionally, mass relates a body's [[momentum]] '''p''' to its linear [[velocity]] '''v''':
-: __MATH_20__,
+: __MATH_1035__,
 and the body's [[kinetic energy]] ''K'' to its velocity:
-: __MATH_21__.
+: __MATH_1036__.
 
-The primary difficulty with Mach's definition of mass is that it fails to take into account the [[potential energy]] (or [[binding energy]]) needed to bring two masses sufficiently close to one another to perform the measurement of mass. This is most vividly demonstrated by comparing the mass of the [[proton]] in the nucleus of [[deuterium]], to the mass of the proton in free space (which is greater by about 0.239%—this is due to the binding energy of deuterium). Thus, for example, if the reference weight ''m''<sub>2</sub> is taken to be the mass of the neutron in free space, and the relative accelerations for the proton and neutron in deuterium are computed, then the above formula over-estimates the mass ''m''<sub>1</sub> (by 0.239%) for the proton in deuterium.  At best, Mach's formula can only be used to obtain ratios of masses, that is, as ''m''<sub>1</sub>&nbsp;/&nbsp;''m''<sub>2</sub> = __MATH_22__&nbsp;/&nbsp;__MATH_23__.  An additional difficulty was pointed out by [[Henri Poincaré]], which is that the measurement of instantaneous acceleration is impossible: unlike the measurement of time or distance, there is no way to measure acceleration with a single measurement; one must make multiple measurements (of position, time, etc.) and perform a computation to obtain the acceleration.  Poincaré termed this to be an "insurmountable flaw" in the Mach definition of mass.
+The primary difficulty with Mach's definition of mass is that it fails to take into account the [[potential energy]] (or [[binding energy]]) needed to bring two masses sufficiently close to one another to perform the measurement of mass. This is most vividly demonstrated by comparing the mass of the [[proton]] in the nucleus of [[deuterium]], to the mass of the proton in free space (which is greater by about 0.239%—this is due to the binding energy of deuterium). Thus, for example, if the reference weight ''m''<sub>2</sub> is taken to be the mass of the neutron in free space, and the relative accelerations for the proton and neutron in deuterium are computed, then the above formula over-estimates the mass ''m''<sub>1</sub> (by 0.239%) for the proton in deuterium.  At best, Mach's formula can only be used to obtain ratios of masses, that is, as ''m''<sub>1</sub>&nbsp;/&nbsp;''m''<sub>2</sub> = __MATH_1037__&nbsp;/&nbsp;__MATH_1038__.  An additional difficulty was pointed out by [[Henri Poincaré]], which is that the measurement of instantaneous acceleration is impossible: unlike the measurement of time or distance, there is no way to measure acceleration with a single measurement; one must make multiple measurements (of position, time, etc.) and perform a computation to obtain the acceleration.  Poincaré termed this to be an "insurmountable flaw" in the Mach definition of mass.
 
 == Atomic masses ==
 
@@ -198,24 +198,24 @@ Typically, the mass of objects is measured in terms of the kilogram, which since
 === Special relativity ===
 
 In some frameworks of [[special relativity]], physicists have used different definitions of the term. In these frameworks, two kinds of mass are defined: [[rest mass]] (invariant mass), and [[relativistic mass]] (which increases with velocity). Rest mass is the Newtonian mass as measured by an observer moving along with the object.  ''Relativistic mass'' is the total quantity of energy in a body or system divided by [[speed of light|''c'']]<sup>2</sup>. The two are related by the following equation:
-: __MATH_24__
-where __MATH_25__ is the [[Lorentz factor]]:
-: __MATH_26__
+: __MATH_1039__
+where __MATH_1040__ is the [[Lorentz factor]]:
+: __MATH_1041__
 
 The invariant mass of systems is the same for observers in all inertial frames, while the relativistic mass depends on the observer's [[frame of reference]]. In order to formulate the equations of physics such that mass values do not change between observers, it is convenient to use rest mass. The rest mass of a body is also related to its energy ''E'' and the magnitude of its momentum '''p''' by the [[relativistic energy-momentum equation]]:
-: __MATH_27__
+: __MATH_1042__
 
 So long as the system is [[Closed system|closed]] with respect to mass and energy, both kinds of mass are conserved in any given frame of reference. The conservation of mass holds even as some types of particles are converted to others. Matter particles (such as atoms) may be converted to non-matter particles (such as photons of light), but this does not affect the total amount of mass or energy. Although things like heat may not be matter, all types of energy still continue to exhibit mass. Thus, mass and energy do not change into one another in relativity; rather, both are names for the same thing, and neither mass nor energy ''appear'' without the other.
 
 Both rest and relativistic mass can be expressed as an energy by applying the well-known relationship [[Mass–energy equivalence|''E''&nbsp;= ''mc''<sup>2</sup>]], yielding [[rest energy]] and "relativistic energy" (total system energy) respectively:
-: __MATH_28__
-: __MATH_29__
+: __MATH_1043__
+: __MATH_1044__
 
 The "relativistic" mass and energy concepts are related to their "rest" counterparts, but they do not have the same value as their rest counterparts in systems where there is a net momentum. Because the relativistic mass is [[Mass–energy equivalence|proportional to the energy]], it has gradually fallen into disuse among physicists. There is disagreement over whether the concept remains useful [[Pedagogy|pedagogically]].
 
 In bound systems, the [[binding energy]] must often be subtracted from the mass of the unbound system, because binding energy commonly leaves the system at the time it is bound. The mass of the system changes in this process merely because the system was not closed during the binding process, so the energy escaped. For example, the binding energy of [[atomic nuclei]] is often lost in the form of gamma rays when the nuclei are formed, leaving [[nuclide]]s which have less mass than the free particles ([[nucleon]]s) of which they are composed.
 
-[[Mass–energy equivalence]] also holds in macroscopic systems. For example, if one takes exactly one kilogram of ice, and applies heat, the mass of the resulting melt-water will be more than a kilogram: it will include the mass from the [[thermal energy]] ([[latent heat]]) used to melt the ice; this follows from the [[conservation of energy]]. This number is small but not negligible: about 3.7 nanograms. It is given by the [[latent heat]] of melting ice (334 kJ/kg) divided by the speed of light squared (''c''<sup>2</sup> ≈ __MATH_30__).
+[[Mass–energy equivalence]] also holds in macroscopic systems. For example, if one takes exactly one kilogram of ice, and applies heat, the mass of the resulting melt-water will be more than a kilogram: it will include the mass from the [[thermal energy]] ([[latent heat]]) used to melt the ice; this follows from the [[conservation of energy]]. This number is small but not negligible: about 3.7 nanograms. It is given by the [[latent heat]] of melting ice (334 kJ/kg) divided by the speed of light squared (''c''<sup>2</sup> ≈ __MATH_1045__).
 
 === General relativity ===
 
@@ -226,16 +226,16 @@ However, it turns out that it is impossible to find an objective general definit
 == In quantum physics ==
 
 In [[classical mechanics]], the inert mass of a particle appears in the [[Euler–Lagrange equation]] as a parameter ''m'':
-: __MATH_31__
+: __MATH_1046__
 
 After quantization, replacing the position vector ''x'' with a [[wave function]], the parameter ''m'' appears in the [[kinetic energy]] operator:
-: __MATH_32__
+: __MATH_1047__
 
 In the ostensibly [[Covariance and contravariance of vectors#Informal usage|covariant]] (relativistically invariant) [[Dirac equation]], and in [[natural units]], this becomes:
-: __MATH_33__
+: __MATH_1048__
 where the "[[Invariant mass|mass]]" parameter ''m'' is now simply a constant associated with the [[quantum]] described by the wave function ψ.
 
-In the [[Standard Model]] of [[particle physics]] as developed in the 1960s, this term arises from the coupling of the field ψ to an additional field Φ, the [[Higgs field]]. In the case of fermions, the [[Higgs mechanism]] results in the replacement of the term ''m''ψ in the Lagrangian with __MATH_34__. This shifts the [[explanandum]] of the value for the mass of each elementary particle to the value of the unknown [[coupling constant]] ''G''<sub>ψ</sub>.
+In the [[Standard Model]] of [[particle physics]] as developed in the 1960s, this term arises from the coupling of the field ψ to an additional field Φ, the [[Higgs field]]. In the case of fermions, the [[Higgs mechanism]] results in the replacement of the term ''m''ψ in the Lagrangian with __MATH_1049__. This shifts the [[explanandum]] of the value for the mass of each elementary particle to the value of the unknown [[coupling constant]] ''G''<sub>ψ</sub>.
 
 === Tachyonic particles and imaginary (complex) mass ===
 
@@ -248,8 +248,8 @@ Although the notion of a tachyonic [[imaginary number|imaginary]] mass might see
 This is a special case of the general rule, where unstable massive particles are formally described as having a [[complex number|complex]] mass, with the real part being their mass in the usual sense, and the imaginary part being the [[Particle decay#Decay rate|decay rate]] in [[natural units]]. However, in [[quantum field theory]], a particle (a "one-particle state") is roughly defined as a state which is constant over time; i.e., an [[eigenvalue]] of the [[Hamiltonian (quantum mechanics)|Hamiltonian]]. An [[Particle decay|unstable particle]] is a state which is only approximately constant over time; If it exists long enough to be measured, it can be formally described as having a complex mass, with the real part of the mass greater than its imaginary part. If both parts are of the same magnitude, this is interpreted as a [[resonance]] appearing in a scattering process rather than a particle, as it is considered not to exist long enough to be measured independently of the scattering process. In the case of a tachyon, the real part of the mass is zero, and hence no concept of a particle can be attributed to it.
 
 In a [[Lorentz invariant]] theory, the same formulas that apply to ordinary slower-than-light particles (sometimes called "[[bradyon]]s" in discussions of tachyons) must also apply to tachyons. In particular the [[energy–momentum relation]]:
-: __MATH_35__
+: __MATH_1050__
 (where '''p''' is the relativistic [[momentum]] of the bradyon and '''m''' is its [[rest mass]]) should still apply, along with the formula for the total energy of a particle:
-: __MATH_36__
+: __MATH_1051__
 This equation shows that the total energy of a particle (bradyon or tachyon) contains a contribution from its rest mass (the "rest mass–energy") and a contribution from its motion, the kinetic energy.
 When ''v'' is larger than ''c'', the denominator in the equation for the energy is [[imaginary number|"imaginary"]], as the value under the [[square root|radical]] is negative. Because the total [[energy]] must be [[real number|real]], the numerator must ''also'' be imaginary:  i.e. the [[rest mass]] '''m''' must be imaginary, as a pure imaginary number divided by another pure imaginary number is a real number.

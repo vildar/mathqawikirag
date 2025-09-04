@@ -14,22 +14,22 @@ Definition
 Average velocity
 
 The average velocity of an object over a period of time is its change in
-position, Δs, divided by the duration of the period, Δt,
-given mathematically asv̅=Δs/Δt.
+position, Δs, divided by the duration of the period,
+Δt, given mathematically asv̅=Δs/Δt.
 
 Instantaneous velocity
 
 The instantaneous velocity of an object is the limit average velocity as
-the time interval approaches zero. At any particular time ”t”, it
-can be calculated as the derivative of the position with respect to
+the time interval approaches zero. At any particular time ”t”,
+it can be calculated as the derivative of the position with respect to
 time: v = lim_Δt→0 Δs/Δt = ds/dt .
 
 From this derivative equation, in the one-dimensional case it can be
-seen that the area under a velocity vs. time (””'v””' vs. ”t”
-graph) is the displacement, ””'s””'. In calculus terms, the integral
-of the velocity function ””'v””'(”t”) is the displacement function
-””'s””'(”t”). In the figure, this corresponds to the yellow area under the
-curve. s = ∫v  dt .
+seen that the area under a velocity vs. time (””'v””' vs.
+”t” graph) is the displacement, ””'s””'. In calculus
+terms, the integral of the velocity function ””'v””'(”t”) is the
+displacement function ””'s””'(”t”). In the figure, this corresponds to
+the yellow area under the curve. s = ∫v  dt .
 
 Although the concept of an instantaneous velocity might at first seem
 counter-intuitive, it may be thought of as the velocity that the object
@@ -69,8 +69,8 @@ emphasize the distinction from the average velocity. In some
 applications the average velocity of an object might be needed, that is
 to say, the constant velocity that would provide the same resultant
 displacement as a variable velocity in the same time interval,
-”'v”'(”t”), over some time period Δ”t”. Average velocity can be
-calculated as:
+”'v”'(”t”), over some time period Δ”t”. Average velocity can
+be calculated as:
 
     𝐯̅ = Δ𝐱/Δt = ∫_t_0^t_1𝐯(t)dt/t_1-t_0.
 
@@ -79,9 +79,9 @@ of an object. This can be seen by realizing that while distance is
 always strictly increasing, displacement can increase or decrease in
 magnitude as well as change direction.
 
-In terms of a displacement-time (”x” vs. ”t”) graph, the
-instantaneous velocity (or, simply, velocity) can be thought of as the
-slope of the tangent line to the curve at any point, and the average
+In terms of a displacement-time (”x” vs. ”t”) graph,
+the instantaneous velocity (or, simply, velocity) can be thought of as
+the slope of the tangent line to the curve at any point, and the average
 velocity as the slope of the secant line between two points with
 ”t” coordinates equal to the boundaries of the time period for
 the average velocity.
@@ -100,8 +100,8 @@ the speeds v̅ =v_1+v_2+v_3+…+v_nn =1/n∑_i=1^nv_i
     speeds v₁, v₂, v₃,..., v_(n) respectively, then the average speed of
     the particle over the total distance is given as
 
-v̅ =s_1+s_2+s_3+…+s_nt_1+t_2+t_3+…+t_n=s_1+s_2+s_3+…+s_ns_1v_1+s_2v_2+ s_3v_3+…+s_nv_n If ”s”_1 = ”s”_2 = ”s”_3 = ... = ”s”, then average speed is given by the harmonic
-mean of the speeds v̅ = n(1v_1 + 1v_2 + 1v_3 + …+ 1v_n)^-1 =n(∑_i=1^n1/v_i)^-1.
+v̅ =s_1+s_2+s_3+…+s_nt_1+t_2+t_3+…+t_n=s_1+s_2+s_3+…+s_ns_1v_1+s_2v_2+ s_3v_3+…+s_nv_n If ”s”_1 = ”s”_2 = ”s”_3 = ... = ”s”, then average speed is given by the
+harmonic mean of the speeds v̅ = n(1v_1 + 1v_2 + 1v_3 + …+ 1v_n)^-1 =n(∑_i=1^n1/v_i)^-1.
 
 Relationship to acceleration
 
@@ -124,8 +124,8 @@ Constant acceleration
 In the special case of constant acceleration, velocity can be studied
 using the suvat equations. By considering a as being equal to some
 arbitrary constant vector, this shows v = u + at with ””'v””' as
-the velocity at time ”t” and ””'u””' as the velocity at time
-”t” = 0. By combining this equation with the suvat equation
+the velocity at time ”t” and ””'u””' as the velocity at
+time ”t” = 0. By combining this equation with the suvat equation
 ””'x””' = ””'u”'t” + ””'a”'t”^2/2, it is possible to relate the displacement and the average
 velocity by x = (u + v)/2 t = v̅t. It is also possible to derive an expression for
 the velocity independent of time, known as the Torricelli equation, as
@@ -240,8 +240,8 @@ corresponding velocity component is defined as
 
 v_z=dz/dt.
 
-The three-dimensional velocity vector is defined as v=<v_x, v_y, v_z> with its
-magnitude also representing speed and being determined by
+The three-dimensional velocity vector is defined as v=<v_x, v_y, v_z> with
+its magnitude also representing speed and being determined by
 
 |v|=√(v_x^2+v_y^2+v_z^2).
 
@@ -263,23 +263,23 @@ clockwise rotation, in a right-handed coordinate system).
 The radial and traverse velocities can be derived from the Cartesian
 velocity and displacement vectors by decomposing the velocity vector
 into radial and transverse components. The transverse velocity is the
-component of velocity along a circle centered at the origin. v=v_T+v_R
-where
+component of velocity along a circle centered at the origin.
+v=v_T+v_R where
 
 -   v_T is the transverse velocity
 -   v_R is the radial velocity.
 
 The radial speed (or magnitude of the radial velocity) is the dot
 product of the velocity vector and the unit vector in the radial
-direction. v_R = v ·r/|r| = v ·r̂ where r is position and r̂ is
-the radial direction.
+direction. v_R = v ·r/|r| = v ·r̂ where r is position and r̂
+is the radial direction.
 
 The transverse speed (or magnitude of the transverse velocity) is the
 magnitude of the cross product of the unit vector in the radial
 direction and the velocity vector. It is also the dot product of
 velocity and transverse direction, or the product of the angular speed
-ω and the radius (the magnitude of the position). v_T=|r×v|/|r|= v ·t̂=ω|r|
-such that ω=|r×v|/|r|^2.
+ω and the radius (the magnitude of the position).
+v_T=|r×v|/|r|= v ·t̂=ω|r| such that ω=|r×v|/|r|^2.
 
 Angular momentum in scalar form is the mass times the distance to the
 origin times the transverse velocity, or equivalently, the mass times

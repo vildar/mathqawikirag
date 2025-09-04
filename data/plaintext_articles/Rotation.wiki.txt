@@ -111,33 +111,33 @@ which is defined such that any vector v that is aligned with
 the rotation axis will not be affected by rotation. Accordingly,
 A v = v, and the rotation axis therefore corresponds to an
 eigenvector of the rotation matrix associated with an eigenvalue of 1.
-As long as the rotation angle α is nonzero (i.e., the rotation
-is not the identity tensor), there is one and only one such direction.
-Because A has only real components, there is at least one real
-eigenvalue, and the remaining two eigenvalues must be complex conjugates
-of each other (see Eigenvalues and eigenvectors#Eigenvalues and the
-characteristic polynomial). Knowing that 1 is an eigenvalue, it follows
-that the remaining two eigenvalues are complex conjugates of each other,
-but this does not imply that they are complex—they could be real with
-double multiplicity. In the degenerate case of a rotation angle
-α=180^∘, the remaining two eigenvalues are both equal to −1. In the
-degenerate case of a zero rotation angle, the rotation matrix is the
-identity, and all three eigenvalues are 1 (which is the only case for
-which the rotation axis is arbitrary).
+As long as the rotation angle α is nonzero (i.e., the
+rotation is not the identity tensor), there is one and only one such
+direction. Because A has only real components, there is at least one
+real eigenvalue, and the remaining two eigenvalues must be complex
+conjugates of each other (see Eigenvalues and eigenvectors#Eigenvalues
+and the characteristic polynomial). Knowing that 1 is an eigenvalue, it
+follows that the remaining two eigenvalues are complex conjugates of
+each other, but this does not imply that they are complex—they could be
+real with double multiplicity. In the degenerate case of a rotation
+angle α=180^∘, the remaining two eigenvalues are both equal to −1.
+In the degenerate case of a zero rotation angle, the rotation matrix is
+the identity, and all three eigenvalues are 1 (which is the only case
+for which the rotation axis is arbitrary).
 
 A spectral analysis is not required to find the rotation axis. If
-n denotes the unit eigenvector aligned with the rotation axis,
-and if α denotes the rotation angle, then it can be shown that
-2sin(α)n={A_32-A_23,A_13-A_31,A_21-A_12}. Consequently, the expense of an eigenvalue analysis can be
-avoided by simply normalizing this vector if it has a nonzero magnitude.
-On the other hand, if this vector has a zero magnitude, it means that
-sin(α)=0. In other words, this vector will be zero if and only if the
-rotation angle is 0 or 180 degrees, and the rotation axis may be
-assigned in this case by normalizing any column of A+I that has
-a nonzero magnitude.
+n denotes the unit eigenvector aligned with the rotation
+axis, and if α denotes the rotation angle, then it can be
+shown that 2sin(α)n=A_32-A_23,A_13-A_31,A_21-A_12. Consequently, the expense of an eigenvalue
+analysis can be avoided by simply normalizing this vector if it has a
+nonzero magnitude. On the other hand, if this vector has a zero
+magnitude, it means that sin(α)=0. In other words, this vector will
+be zero if and only if the rotation angle is 0 or 180 degrees, and the
+rotation axis may be assigned in this case by normalizing any column of
+A+I that has a nonzero magnitude.
 
-This discussion applies to a proper rotation, and hence A = 1. Any
-improper orthogonal 3x3 matrix B may be written as
+This discussion applies to a proper rotation, and hence A = 1.
+Any improper orthogonal 3x3 matrix B may be written as
 B=-A, in which A is proper orthogonal. That is, any
 improper orthogonal 3x3 matrix may be decomposed as a proper rotation
 (from which an axis of rotation can be found as described above)
@@ -164,19 +164,20 @@ reflections.
 
 It follows, then, that a proper rotation has some complex eigenvalue.
 Let v be the corresponding eigenvector. Then, as we showed in the
-previous topic, v̅ is also an eigenvector, and v + v̅ and
-i(v - v̅) are such that their scalar product vanishes:
+previous topic, v̅ is also an eigenvector, and v + v̅
+and i(v - v̅) are such that their scalar product vanishes:
 
     i (v^T + v̅^T)(v - v̅) = i (v^T v - v̅^T v̅ + v̅^T v - v^T v̅ ) = 0
 
 because, since v̅^T v̅ is real, it equals its complex conjugate
-v^T v, and v̅^T v and v^T v̅ are both representations of
-the same scalar product between v and v̅.
+v^T v, and v̅^T v and v^T v̅ are both representations
+of the same scalar product between v and v̅.
 
 This means v + v̅ and i(v - v̅) are orthogonal vectors. Also,
 they are both real vectors by construction. These vectors span the same
-subspace as v and v̅, which is an invariant subspace
-under the application of A. Therefore, they span an invariant plane.
+subspace as v and v̅, which is an invariant
+subspace under the application of A. Therefore, they span an invariant
+plane.
 
 This plane is orthogonal to the invariant axis, which corresponds to the
 remaining eigenvector of A, with eigenvalue 1, because of the

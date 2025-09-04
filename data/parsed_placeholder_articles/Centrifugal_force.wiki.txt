@@ -4,7 +4,7 @@ objects when viewed in a rotating frame of reference. It appears to be
 directed radially away from the axis of rotation of the frame. The
 magnitude of the centrifugal force F on an object of mass m at the
 perpendicular distance ρ from the axis of a rotating frame of reference
-with angular velocity __MATH_0__ is __MATH_1__.
+with angular velocity __MATH_1167__ is __MATH_1168__.
 
 This fictitious force is often applied to rotating devices, such as
 centrifuges, centrifugal pumps, centrifugal governors, and centrifugal
@@ -174,86 +174,87 @@ relative to an inertial reference frame denoted the stationary frame.
 Time derivatives in a rotating frame
 
 In a rotating frame of reference, the time derivatives of any vector
-function __MATH_2__ of time—such as the velocity and acceleration
+function __MATH_1169__ of time—such as the velocity and acceleration
 vectors of an object—will differ from its time derivatives in the
-stationary frame. If __MATH_3__, __MATH_4__, __MATH_5__ are the
-components of __MATH_6__ with respect to unit vectors __MATH_7__
-directed along the axes of the rotating frame (i.e. __MATH_8__), then
-the first time derivative __MATH_9__ of __MATH_10__ with respect to the
-rotating frame is, by definition, __MATH_11__. If the absolute angular
-velocity of the rotating frame is __MATH_12__ then the derivative
-__MATH_13__ of __MATH_14__ with respect to the stationary frame is
-related to __MATH_15__ by the equation:
+stationary frame. If __MATH_1170__, __MATH_1171__, __MATH_1172__ are the
+components of __MATH_1173__ with respect to unit vectors __MATH_1174__
+directed along the axes of the rotating frame (i.e. __MATH_1175__), then
+the first time derivative __MATH_1176__ of __MATH_1177__ with respect to
+the rotating frame is, by definition, __MATH_1178__. If the absolute
+angular velocity of the rotating frame is __MATH_1179__ then the
+derivative __MATH_1180__ of __MATH_1181__ with respect to the stationary
+frame is related to __MATH_1182__ by the equation:
 
-__MATH_16__
+__MATH_1183__
 
-where __MATH_17__ denotes the vector cross product. In other words, the
-rate of change of __MATH_18__ in the stationary frame is the sum of its
-apparent rate of change in the rotating frame and a rate of rotation
-__MATH_19__ attributable to the motion of the rotating frame. The vector
-__MATH_20__ has magnitude __MATH_21__ equal to the rate of rotation and
-is directed along the axis of rotation according to the right-hand rule.
+where __MATH_1184__ denotes the vector cross product. In other words,
+the rate of change of __MATH_1185__ in the stationary frame is the sum
+of its apparent rate of change in the rotating frame and a rate of
+rotation __MATH_1186__ attributable to the motion of the rotating frame.
+The vector __MATH_1187__ has magnitude __MATH_1188__ equal to the rate
+of rotation and is directed along the axis of rotation according to the
+right-hand rule.
 
 Acceleration
 
-Newton's law of motion for a particle of mass __MATH_22__ written in
+Newton's law of motion for a particle of mass __MATH_1189__ written in
 vector form is:
 
-__MATH_23__
+__MATH_1190__
 
-where __MATH_24__ is the vector sum of the physical forces applied to
-the particle and __MATH_25__ is the absolute acceleration (that is,
+where __MATH_1191__ is the vector sum of the physical forces applied to
+the particle and __MATH_1192__ is the absolute acceleration (that is,
 acceleration in an inertial frame) of the particle, given by:
 
-__MATH_26__
+__MATH_1193__
 
-where __MATH_27__ is the position vector of the particle (not to be
+where __MATH_1194__ is the position vector of the particle (not to be
 confused with radius, as used above.)
 
 By applying the transformation above from the stationary to the rotating
-frame three times (twice to __MATH_28__ and once to __MATH_29__), the
-absolute acceleration of the particle can be written as:
+frame three times (twice to __MATH_1195__ and once to __MATH_1196__),
+the absolute acceleration of the particle can be written as:
 
-__MATH_30__
+__MATH_1197__
 
 Force
 
-The apparent acceleration in the rotating frame is __MATH_31__. An
+The apparent acceleration in the rotating frame is __MATH_1198__. An
 observer unaware of the rotation would expect this to be zero in the
 absence of outside forces. However, Newton's laws of motion apply only
 in the inertial frame and describe dynamics in terms of the absolute
-acceleration __MATH_32__. Therefore, the observer perceives the extra
+acceleration __MATH_1199__. Therefore, the observer perceives the extra
 terms as contributions due to fictitious forces. These terms in the
 apparent acceleration are independent of mass; so it appears that each
 of these fictitious forces, like gravity, pulls on an object in
 proportion to its mass. When these forces are added, the equation of
 motion has the form:
 
-__MATH_33__
+__MATH_1200__
 
 From the perspective of the rotating frame, the additional force terms
 are experienced just like the real external forces and contribute to the
 apparent acceleration. The additional terms on the force side of the
 equation can be recognized as, reading from left to right, the Euler
-force __MATH_34__, the Coriolis force __MATH_35__, and the centrifugal
-force __MATH_36__, respectively. Unlike the other two fictitious forces,
-the centrifugal force always points radially outward from the axis of
-rotation of the rotating frame, with magnitude __MATH_37__, where
-__MATH_38__ is the component of the position vector perpendicular to
-__MATH_39__, and unlike the Coriolis force in particular, it is
-independent of the motion of the particle in the rotating frame. As
-expected, for a non-rotating inertial frame of reference __MATH_40__ the
-centrifugal force and all other fictitious forces disappear. Similarly,
-as the centrifugal force is proportional to the distance from object to
-the axis of rotation of the frame, the centrifugal force vanishes for
-objects that lie upon the axis.
+force __MATH_1201__, the Coriolis force __MATH_1202__, and the
+centrifugal force __MATH_1203__, respectively. Unlike the other two
+fictitious forces, the centrifugal force always points radially outward
+from the axis of rotation of the rotating frame, with magnitude
+__MATH_1204__, where __MATH_1205__ is the component of the position
+vector perpendicular to __MATH_1206__, and unlike the Coriolis force in
+particular, it is independent of the motion of the particle in the
+rotating frame. As expected, for a non-rotating inertial frame of
+reference __MATH_1207__ the centrifugal force and all other fictitious
+forces disappear. Similarly, as the centrifugal force is proportional to
+the distance from object to the axis of rotation of the frame, the
+centrifugal force vanishes for objects that lie upon the axis.
 
 Potential
 
 The centrifugal force per unit mass can also be derived as the gradient
 of a centrifugal potential. For example, the centrifugal potential at
 the perpendicular distance ρ from the axis of a rotating frame of
-reference with angular velocity __MATH_41__ is __MATH_42__ (.)
+reference with angular velocity __MATH_1208__ is __MATH_1209__ (.)
 
 Absolute rotation
 
@@ -342,7 +343,7 @@ In Lagrangian mechanics
 One of these instances occurs in Lagrangian mechanics. Lagrangian
 mechanics formulates mechanics in terms of generalized coordinates
 {q_(k)}, which can be as simple as the usual polar coordinates
-__MATH_43__ or a much more extensive list of variables. Within this
+__MATH_1210__ or a much more extensive list of variables. Within this
 formulation the motion is described in terms of generalized forces,
 using in place of Newton's laws the Euler–Lagrange equations. Among the
 generalized forces, those involving the square of the time derivatives

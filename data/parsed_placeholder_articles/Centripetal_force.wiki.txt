@@ -18,14 +18,15 @@ Formula
 
 From the kinematics of curved motion it is known that an object moving
 at tangential speed v along a path with radius of curvature r
-accelerates toward the center of curvature at a rate __MATH_0__ Here,
-__MATH_1__ is the centripetal acceleration and __MATH_2__ is the
-difference between the velocity vectors at __MATH_3__ and __MATH_4__.
+accelerates toward the center of curvature at a rate __MATH_236__ Here,
+__MATH_237__ is the centripetal acceleration and __MATH_238__ is the
+difference between the velocity vectors at __MATH_239__ and
+__MATH_240__.
 
 By Newton's second law, the cause of acceleration is a net force acting
 on the object, which is proportional to its mass m and its acceleration.
 The force, usually referred to as a centripetal force, has a magnitude
-__MATH_5__ and is, like centripetal acceleration, directed toward the
+__MATH_241__ and is, like centripetal acceleration, directed toward the
 center of curvature of the object's trajectory.
 
 Derivation
@@ -35,31 +36,31 @@ velocity vectors at two instances. In the case of uniform circular
 motion the velocities have constant magnitude. Because each one is
 perpendicular to its respective position vector, simple vector
 subtraction implies two similar isosceles triangles with congruent
-angles – one comprising a base of __MATH_6__ and a leg length of
-__MATH_7__, and the other a base of __MATH_8__ (position vector
-difference) and a leg length of __MATH_9__: __MATH_10__ __MATH_11__
-Therefore, __MATH_12__ can be substituted with __MATH_13__: __MATH_14__
-The direction of the force is toward the center of the circle in which
-the object is moving, or the osculating circle (the circle that best
-fits the local path of the object, if the path is not circular). The
-speed in the formula is squared, so twice the speed needs four times the
-force, at a given radius.
+angles – one comprising a base of __MATH_242__ and a leg length of
+__MATH_243__, and the other a base of __MATH_244__ (position vector
+difference) and a leg length of __MATH_245__: __MATH_246__ __MATH_247__
+Therefore, __MATH_248__ can be substituted with __MATH_249__:
+__MATH_250__ The direction of the force is toward the center of the
+circle in which the object is moving, or the osculating circle (the
+circle that best fits the local path of the object, if the path is not
+circular). The speed in the formula is squared, so twice the speed needs
+four times the force, at a given radius.
 
 This force is also sometimes written in terms of the angular velocity ω
 of the object about the center of the circle, related to the tangential
-velocity by the formula __MATH_15__ so that __MATH_16__
+velocity by the formula __MATH_251__ so that __MATH_252__
 
 Expressed using the orbital period T for one revolution of the circle,
-__MATH_17__ the equation becomes __MATH_18__
+__MATH_253__ the equation becomes __MATH_254__
 
 In particle accelerators, velocity can be very high (close to the speed
 of light in vacuum) so the same rest mass now exerts greater inertia
 (relativistic mass) thereby requiring greater force for the same
-centripetal acceleration, so the equation becomes: __MATH_19__ where
-__MATH_20__ is the Lorentz factor.
+centripetal acceleration, so the equation becomes: __MATH_255__ where
+__MATH_256__ is the Lorentz factor.
 
-Thus the centripetal force is given by: __MATH_21__ which is the rate of
-change of relativistic momentum __MATH_22__.
+Thus the centripetal force is given by: __MATH_257__ which is the rate
+of change of relativistic momentum __MATH_258__.
 
 Analysis of several cases
 
@@ -73,26 +74,26 @@ Here are two approaches to describing this case.
 
 Calculus derivation
 
-In two dimensions, the position vector __MATH_23__, which has magnitude
-(length) __MATH_24__ and directed at an angle __MATH_25__ above the
+In two dimensions, the position vector __MATH_259__, which has magnitude
+(length) __MATH_260__ and directed at an angle __MATH_261__ above the
 x-axis, can be expressed in Cartesian coordinates using the unit vectors
-__MATH_26__ and __MATH_27__: __MATH_28__
+__MATH_262__ and __MATH_263__: __MATH_264__
 
 The assumption of uniform circular motion requires three things:
 
 1.  The object moves only on a circle.
-2.  The radius of the circle __MATH_29__ does not change in time.
-3.  The object moves with constant angular velocity __MATH_30__ around
-    the circle. Therefore, __MATH_31__ where __MATH_32__ is time.
+2.  The radius of the circle __MATH_265__ does not change in time.
+3.  The object moves with constant angular velocity __MATH_266__ around
+    the circle. Therefore, __MATH_267__ where __MATH_268__ is time.
 
-The velocity __MATH_33__ and acceleration __MATH_34__ of the motion are
-the first and second derivatives of position with respect to time:
+The velocity __MATH_269__ and acceleration __MATH_270__ of the motion
+are the first and second derivatives of position with respect to time:
 
-__MATH_35__ __MATH_36__ __MATH_37__
+__MATH_271__ __MATH_272__ __MATH_273__
 
-The term in parentheses is the original expression of __MATH_38__ in
-Cartesian coordinates. Consequently, __MATH_39__ The negative sign shows
-that the acceleration is pointed towards the center of the circle
+The term in parentheses is the original expression of __MATH_274__ in
+Cartesian coordinates. Consequently, __MATH_275__ The negative sign
+shows that the acceleration is pointed towards the center of the circle
 (opposite the radius), hence it is called "centripetal" (i.e.
 "center-seeking"). While objects naturally follow a straight path (due
 to inertia), this centripetal acceleration describes the circular motion
@@ -105,34 +106,34 @@ motion. The rotation itself is represented by the angular velocity
 vector Ω, which is normal to the plane of the orbit (using the
 right-hand rule) and has magnitude given by:
 
-    __MATH_40__
+    __MATH_276__
 
 with θ the angular position at time t. In this subsection, dθ/dt is
 assumed constant, independent of time. The distance traveled dℓ of the
 particle in time dt along the circular path is
 
-    __MATH_41__
+    __MATH_277__
 
 which, by properties of the vector cross product, has magnitude rdθ and
 is in the direction tangent to the circular path.
 
 Consequently,
 
-    __MATH_42__
+    __MATH_278__
 
 In other words,
 
-    __MATH_43__
+    __MATH_279__
 
-Differentiating with respect to time, __MATH_44__
+Differentiating with respect to time, __MATH_280__
 
-Lagrange's formula states: __MATH_45__
+Lagrange's formula states: __MATH_281__
 
 Applying Lagrange's formula with the observation that Ω • r(t) = 0 at
-all times, __MATH_46__
+all times, __MATH_282__
 
 In words, the acceleration is pointing directly opposite to the radial
-displacement r at all times, and has a magnitude: __MATH_47__ where
+displacement r at all times, and has a magnitude: __MATH_283__ where
 vertical bars |...| denote the vector magnitude, which in the case of
 r(t) is simply the radius r of the path. This result agrees with the
 previous section, though the notation is slightly different.
@@ -171,19 +172,19 @@ a circular path. The curved motion is maintained so long as this net
 force provides the centripetal force requisite to the motion.
 
 The horizontal net force on the ball is the horizontal component of the
-force from the road, which has magnitude __MATH_48__. The vertical
+force from the road, which has magnitude __MATH_284__. The vertical
 component of the force from the road must counteract the gravitational
-force: __MATH_49__, which implies __MATH_50__. Substituting into the
-above formula for __MATH_51__ yields a horizontal force to be:
-__MATH_52__
+force: __MATH_285__, which implies __MATH_286__. Substituting into the
+above formula for __MATH_287__ yields a horizontal force to be:
+__MATH_288__
 
 On the other hand, at velocity |v| on a circular path of radius r,
 kinematics says that the force needed to turn the ball continuously into
 the turn is the radially inward centripetal force F_(c) of magnitude:
-__MATH_53__
+__MATH_289__
 
 Consequently, the ball is in a stable path when the angle of the road is
-set to satisfy the condition: __MATH_54__ or, __MATH_55__
+set to satisfy the condition: __MATH_290__ or, __MATH_291__
 
 As the angle of bank θ approaches 90°, the tangent function approaches
 infinity, allowing larger values for |v|²/r. In words, this equation
@@ -208,26 +209,26 @@ demonstrate a derivation strategy based on a polar coordinate system.
 
 Let r(t) be a vector that describes the position of a point mass as a
 function of time. Since we are assuming circular motion, let
-__MATH_56__, where R is a constant (the radius of the circle) and u_(r)
+__MATH_292__, where R is a constant (the radius of the circle) and u_(r)
 is the unit vector pointing from the origin to the point mass. The
 direction of u_(r) is described by θ, the angle between the x-axis and
 the unit vector, measured counterclockwise from the x-axis. The other
 unit vector for polar coordinates, u_(θ) is perpendicular to u_(r) and
 points in the direction of increasing θ. These polar unit vectors can be
 expressed in terms of Cartesian unit vectors in the x and y directions,
-denoted __MATH_57__ and __MATH_58__ respectively: __MATH_59__ and
-__MATH_60__
+denoted __MATH_293__ and __MATH_294__ respectively: __MATH_295__ and
+__MATH_296__
 
-One can differentiate to find velocity: __MATH_61__ where __MATH_62__ is
-the angular velocity __MATH_63__.
+One can differentiate to find velocity: __MATH_297__ where __MATH_298__
+is the angular velocity __MATH_299__.
 
 This result for the velocity matches expectations that the velocity
 should be directed tangentially to the circle, and that the magnitude of
-the velocity should be __MATH_64__. Differentiating again, and noting
-that __MATH_65__ we find that the acceleration, a is: __MATH_66__
+the velocity should be __MATH_300__. Differentiating again, and noting
+that __MATH_301__ we find that the acceleration, a is: __MATH_302__
 
 Thus, the radial and tangential components of the acceleration are:
-__MATH_67__ and __MATH_68__ where __MATH_69__ is the magnitude of the
+__MATH_303__ and __MATH_304__ where __MATH_305__ is the magnitude of the
 velocity (the speed).
 
 These equations express mathematically that, in the case of an object
@@ -246,7 +247,7 @@ plane, as shown next. Polar coordinates in the plane employ a radial
 unit vector u_(ρ) and an angular unit vector u_(θ), as shown above. A
 particle at position r is described by:
 
-__MATH_70__
+__MATH_306__
 
 where the notation ρ is used to describe the distance of the path from
 the origin instead of R to emphasize that this distance is not fixed,
@@ -262,7 +263,7 @@ perimeter of this circle with the same angle θ(t) as r(t).
 
 When the particle moves, its velocity is
 
-    __MATH_71__
+    __MATH_307__
 
 To evaluate the velocity, the derivative of the unit vector u_(ρ) is
 needed. Because u_(ρ) is a unit vector, its magnitude is fixed, and it
@@ -271,11 +272,11 @@ only perpendicular to u_(ρ). When the trajectory r(t) rotates an amount
 dθ, u_(ρ), which points in the same direction as r(t), also rotates by
 dθ. See image above. Therefore, the change in u_(ρ) is
 
-    __MATH_72__
+    __MATH_308__
 
 or
 
-    __MATH_73__
+    __MATH_309__
 
 In a similar fashion, the rate of change of u_(θ) is found. As with
 u_(ρ), u_(θ) is a unit vector and can only rotate without changing size.
@@ -284,30 +285,30 @@ amount dθ, u_(θ), which is orthogonal to r(t), also rotates by dθ. See
 image above. Therefore, the change du_(θ) is orthogonal to u_(θ) and
 proportional to dθ (see image above):
 
-    __MATH_74__
+    __MATH_310__
 
 The equation above shows the sign to be negative: to maintain
 orthogonality, if du_(ρ) is positive with dθ, then du_(θ) must decrease.
 
 Substituting the derivative of u_(ρ) into the expression for velocity:
 
-    __MATH_75__
+    __MATH_311__
 
 To obtain the acceleration, another time differentiation is done:
 
-    __MATH_76__
+    __MATH_312__
 
 Substituting the derivatives of u_(ρ) and u_(θ), the acceleration of the
 particle is:
 
-    __MATH_77__
+    __MATH_313__
 
 As a particular example, if the particle moves in a circle of constant
 radius R, then dρ/dt = 0, v = v_(θ), and:
 
-__MATH_78__
+__MATH_314__
 
-where __MATH_79__
+where __MATH_315__
 
 These results agree with those above for nonuniform circular motion. See
 also the article on non-uniform circular motion. If this acceleration is
@@ -338,7 +339,7 @@ coordinates from the theory of differential forms.
 Distance along the path of the particle is the arc length s, considered
 to be a known function of time.
 
-    __MATH_80__
+    __MATH_316__
 
 A center of curvature is defined at each position s located a distance ρ
 (the radius of curvature) from the curve on a line along the normal
@@ -348,7 +349,7 @@ is determined by the path itself. If the orientation of the tangent
 relative to some starting position is θ(s), then ρ(s) is defined by the
 derivative dθ/ds:
 
-    __MATH_81__
+    __MATH_317__
 
 The radius of curvature usually is taken as positive (that is, as an
 absolute value), while the curvature κ is a signed quantity.
@@ -363,25 +364,25 @@ position s constitutes non-uniform circular motion at that position with
 radius ρ. The local value of the angular rate of rotation then is given
 by:
 
-    __MATH_82__
+    __MATH_318__
 
 with the local speed v given by:
 
-    __MATH_83__
+    __MATH_319__
 
 As for the other examples above, because unit vectors cannot change
 magnitude, their rate of change is always perpendicular to their
 direction (see the left-hand insert in the image above):
 
-    __MATH_84__ __MATH_85__
+    __MATH_320__ __MATH_321__
 
 Consequently, the velocity and acceleration are:
 
-    __MATH_86__
+    __MATH_322__
 
 and using the chain-rule of differentiation:
 
-    __MATH_87__ with the tangential acceleration __MATH_88__
+    __MATH_323__ with the tangential acceleration __MATH_324__
 
 In this local coordinate system, the acceleration resembles the
 expression for nonuniform circular motion with the local radius ρ(s),
@@ -401,35 +402,35 @@ also makes connection with the article on curvature.
 To introduce the unit vectors of the local coordinate system, one
 approach is to begin in Cartesian coordinates and describe the local
 coordinates in terms of these Cartesian coordinates. In terms of arc
-length s, let the path be described as: __MATH_89__
+length s, let the path be described as: __MATH_325__
 
 Then an incremental displacement along the path ds is described by:
-__MATH_90__
+__MATH_326__
 
 where primes are introduced to denote derivatives with respect to s. The
 magnitude of this displacement is ds, showing that:
 
-    __MATH_91__ (Eq. 1)
+    __MATH_327__ (Eq. 1)
 
 This displacement is necessarily a tangent to the curve at s, showing
-that the unit vector tangent to the curve is: __MATH_92__ while the
-outward unit vector normal to the curve is __MATH_93__
+that the unit vector tangent to the curve is: __MATH_328__ while the
+outward unit vector normal to the curve is __MATH_329__
 
 Orthogonality can be verified by showing that the vector dot product is
 zero. The unit magnitude of these vectors is a consequence of Eq. 1.
 Using the tangent vector, the angle θ of the tangent to the curve is
-given by: __MATH_94__ and __MATH_95__
+given by: __MATH_330__ and __MATH_331__
 
 The radius of curvature is introduced completely formally (without need
-for geometric interpretation) as: __MATH_96__
+for geometric interpretation) as: __MATH_332__
 
-The derivative of θ can be found from that for sinθ: __MATH_97__
+The derivative of θ can be found from that for sinθ: __MATH_333__
 
-Now: __MATH_98__ in which the denominator is unity. With this formula
+Now: __MATH_334__ in which the denominator is unity. With this formula
 for the derivative of the sine, the radius of curvature becomes:
-__MATH_99__ where the equivalence of the forms stems from
-differentiation of Eq. 1: __MATH_100__ With these results, the
-acceleration can be found: __MATH_101__ as can be verified by taking the
+__MATH_335__ where the equivalence of the forms stems from
+differentiation of Eq. 1: __MATH_336__ With these results, the
+acceleration can be found: __MATH_337__ as can be verified by taking the
 dot product with the unit vectors u_(t)(s) and u_(n)(s). This result for
 acceleration is the same as that for circular motion based on the radius
 ρ. Using this coordinate system in the inertial frame, it is easy to
@@ -450,45 +451,45 @@ Example: circular motion
 
 To illustrate the above formulas, let x, y be given as:
 
-    __MATH_102__
+    __MATH_338__
 
 Then:
 
-    __MATH_103__
+    __MATH_339__
 
 which can be recognized as a circular path around the origin with radius
 α. The position s = 0 corresponds to [α, 0], or 3 o'clock. To use the
 above formalism, the derivatives are needed:
 
-    __MATH_104__
-    __MATH_105__
+    __MATH_340__
+    __MATH_341__
 
 With these results, one can verify that:
 
-    __MATH_106__
+    __MATH_342__
 
 The unit vectors can also be found:
 
-    __MATH_107__
+    __MATH_343__
 
 which serve to show that s = 0 is located at position [ρ, 0] and s =
 ρπ/2 at [0, ρ], which agrees with the original expressions for x and y.
 In other words, s is measured counterclockwise around the circle from 3
 o'clock. Also, the derivatives of these vectors can be found:
 
-    __MATH_108__
-    __MATH_109__
+    __MATH_344__
+    __MATH_345__
 
 To obtain velocity and acceleration, a time-dependence for s is
 necessary. For counterclockwise motion at variable speed v(t):
 
-    __MATH_110__
+    __MATH_346__
 
 where v(t) is the speed and t is time, and s(t = 0) = 0. Then:
 
-    __MATH_111__
-    __MATH_112__
-    __MATH_113__
+    __MATH_347__
+    __MATH_348__
+    __MATH_349__
 
 where it already is established that α = ρ. This acceleration is the
 standard result for non-uniform circular motion.

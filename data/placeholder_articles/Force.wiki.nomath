@@ -1,4 +1,4 @@
-In [[physics]], a '''force''' is an influence that can cause an [[Physical object|object]] to change its [[velocity]], unless counterbalanced by other forces, or its shape. In mechanics, force makes ideas like ''''pushing'''' or ''''pulling'''' mathematically precise. Because the [[Magnitude (mathematics)|magnitude]] and [[Direction (geometry, geography)|direction]] of a force are both important, force is a [[Euclidean vector|vector]] quantity ('''force vector'''). The [[SI unit]] of force is the [[newton (unit)|newton (N)]], and force is often represented by the symbol __MATH_0__.
+In [[physics]], a '''force''' is an influence that can cause an [[Physical object|object]] to change its [[velocity]], unless counterbalanced by other forces, or its shape. In mechanics, force makes ideas like ''''pushing'''' or ''''pulling'''' mathematically precise. Because the [[Magnitude (mathematics)|magnitude]] and [[Direction (geometry, geography)|direction]] of a force are both important, force is a [[Euclidean vector|vector]] quantity ('''force vector'''). The [[SI unit]] of force is the [[newton (unit)|newton (N)]], and force is often represented by the symbol __MATH_1052__.
 
 Force plays an important role in classical mechanics. The concept of force is central to all three of [[Newton's laws of motion]]. Types of forces often encountered in [[classical mechanics]] include [[Elasticity (physics)|elastic]], [[friction]]al, [[Normal force|contact or "normal" forces]], and [[gravity|gravitational]]. The rotational version of force is [[torque]], which produces [[angular acceleration|changes in the rotational speed]] of an object. In an extended body, each part applies forces on the adjacent parts; the distribution of such forces through the body is the internal [[stress (mechanics)|mechanical stress]]. In the case of multiple forces, if the net force on an extended body is zero the body is in equilibrium.
 
@@ -36,34 +36,34 @@ According to the first law, motion at constant speed in a straight line does not
 [[Newton's second law]] states that the net force acting upon an object is equal to the [[time derivative|rate]] at which its [[momentum]] changes with [[time]]. If the mass of the object is constant, this law implies that the [[acceleration]] of an object is directly [[Proportionality (mathematics)|proportional]] to the net force acting on the object, is in the direction of the net force, and is inversely proportional to the [[mass]] of the object.
 
 A modern statement of Newton's second law is a vector equation:
-__MATH_1__
-where __MATH_2__ is the momentum of the system, and __MATH_3__ is the net ([[Vector (geometric)#Addition and subtraction|vector sum]]) force. If a body is in equilibrium, there is zero ''net'' force by definition (balanced forces may be present nevertheless). In contrast, the second law states that if there is an ''unbalanced'' force acting on an object it will result in the object's momentum changing over time.
+__MATH_1053__
+where __MATH_1054__ is the momentum of the system, and __MATH_1055__ is the net ([[Vector (geometric)#Addition and subtraction|vector sum]]) force. If a body is in equilibrium, there is zero ''net'' force by definition (balanced forces may be present nevertheless). In contrast, the second law states that if there is an ''unbalanced'' force acting on an object it will result in the object's momentum changing over time.
 
 In common engineering applications the mass in a system remains constant allowing as simple algebraic form for the second law. By the definition of momentum,
-__MATH_4__
-where ''m'' is the [[mass]] and __MATH_5__ is the [[velocity]]. If Newton's second law is applied to a system of [[Newton's Laws of Motion#Open systems|constant mass]], ''m'' may be moved outside the derivative operator. The equation then becomes
-__MATH_6__
+__MATH_1056__
+where ''m'' is the [[mass]] and __MATH_1057__ is the [[velocity]]. If Newton's second law is applied to a system of [[Newton's Laws of Motion#Open systems|constant mass]], ''m'' may be moved outside the derivative operator. The equation then becomes
+__MATH_1058__
 By substituting the definition of [[acceleration]], the algebraic version of [[Newton's second law]] is derived:
-__MATH_7__
+__MATH_1059__
 
 === Third law ===
 
-Whenever one body exerts a force on another, the latter simultaneously exerts an equal and opposite force on the first. In vector form, if __MATH_8__ is the force of body 1 on body 2 and __MATH_9__ that of body 2 on body 1, then
-__MATH_10__
-This law is sometimes referred to as the ''action-reaction law'', with __MATH_11__ called the ''action'' and __MATH_12__ the ''[[Reaction (physics)|reaction]]''.
+Whenever one body exerts a force on another, the latter simultaneously exerts an equal and opposite force on the first. In vector form, if __MATH_1060__ is the force of body 1 on body 2 and __MATH_1061__ that of body 2 on body 1, then
+__MATH_1062__
+This law is sometimes referred to as the ''action-reaction law'', with __MATH_1063__ called the ''action'' and __MATH_1064__ the ''[[Reaction (physics)|reaction]]''.
 
 Newton's third law is a result of applying [[symmetry]] to situations where forces can be attributed to the presence of different objects. The third law means that all forces are ''interactions'' between different bodies. and thus that there is no such thing as a unidirectional force or a force that acts on only one body.
 
 In a system composed of object 1 and object 2, the net force on the system due to their mutual interactions is zero:
-__MATH_13__
+__MATH_1065__
 More generally, in a [[closed system]] of particles, all internal forces are balanced. The particles may accelerate with respect to each other but the [[center of mass]] of the system will not accelerate. If an external force acts on the system, it will make the center of mass accelerate in proportion to the magnitude of the external force divided by the mass of the system.
 
-Combining Newton's second and third laws, it is possible to show that the [[Conservation of momentum|linear momentum of a system is conserved]] in any [[closed system]]. In a system of two particles, if __MATH_14__ is the momentum of object 1 and __MATH_15__ the momentum of object 2, then
-__MATH_16__
+Combining Newton's second and third laws, it is possible to show that the [[Conservation of momentum|linear momentum of a system is conserved]] in any [[closed system]]. In a system of two particles, if __MATH_1066__ is the momentum of object 1 and __MATH_1067__ the momentum of object 2, then
+__MATH_1068__
 Using similar arguments, this can be generalized to a system with an arbitrary number of particles. In general, as long as all forces are due to the interaction of objects with mass, it is possible to define a system such that net momentum is never lost nor gained.
 
 === Defining "force" ===
-Some textbooks use Newton's second law as a ''definition'' of force. However, for the equation __MATH_17__ for a constant mass __MATH_18__ to then have any predictive content, it must be combined with further information. Moreover, inferring that a force is present because a body is accelerating is only valid in an inertial frame of reference. The question of which aspects of Newton's laws to take as definitions and which to regard as holding physical content has been answered in various ways, which ultimately do not affect how the theory is used in practice. Notable physicists, philosophers and mathematicians who have sought a more explicit definition of the concept of force include [[Ernst Mach]] and [[Walter Noll]].
+Some textbooks use Newton's second law as a ''definition'' of force. However, for the equation __MATH_1069__ for a constant mass __MATH_1070__ to then have any predictive content, it must be combined with further information. Moreover, inferring that a force is present because a body is accelerating is only valid in an inertial frame of reference. The question of which aspects of Newton's laws to take as definitions and which to regard as holding physical content has been answered in various ways, which ultimately do not affect how the theory is used in practice. Notable physicists, philosophers and mathematicians who have sought a more explicit definition of the concept of force include [[Ernst Mach]] and [[Walter Noll]].
 
 == Combining forces ==
 
@@ -100,20 +100,20 @@ Some forces are consequences of the fundamental ones. In such situations, ideali
 
 === Gravitational force or Gravity ===
 
-What we now call gravity was not identified as a universal force until the work of Isaac Newton. Before Newton, the tendency for objects to fall towards the Earth was not understood to be related to the motions of celestial objects. Galileo was instrumental in describing the characteristics of falling objects by determining that the [[acceleration]] of every object in [[free-fall]] was constant and independent of the mass of the object. Today, this [[Gravitational acceleration|acceleration due to gravity]] towards the surface of the Earth is usually designated as __MATH_19__ and has a magnitude of about 9.81 [[meter]]s per second squared (this measurement is taken from sea level and may vary depending on location), and points toward the center of the Earth. This observation means that the force of gravity on an object at the Earth's surface is directly proportional to the object's mass. Thus an object that has a mass of __MATH_20__ will experience a force:
-__MATH_21__
+What we now call gravity was not identified as a universal force until the work of Isaac Newton. Before Newton, the tendency for objects to fall towards the Earth was not understood to be related to the motions of celestial objects. Galileo was instrumental in describing the characteristics of falling objects by determining that the [[acceleration]] of every object in [[free-fall]] was constant and independent of the mass of the object. Today, this [[Gravitational acceleration|acceleration due to gravity]] towards the surface of the Earth is usually designated as __MATH_1071__ and has a magnitude of about 9.81 [[meter]]s per second squared (this measurement is taken from sea level and may vary depending on location), and points toward the center of the Earth. This observation means that the force of gravity on an object at the Earth's surface is directly proportional to the object's mass. Thus an object that has a mass of __MATH_1072__ will experience a force:
+__MATH_1073__
 
 For an object in free-fall, this force is unopposed and the net force on the object is its weight. For objects not in free-fall, the force of gravity is opposed by the reaction forces applied by their supports. For example, a person standing on the ground experiences zero net force, since a [[normal force]] (a reaction force) is exerted by the ground upward on the person that counterbalances his weight that is directed downward.
 
 Newton's contribution to gravitational theory was to unify the motions of heavenly bodies, which Aristotle had assumed were in a natural state of constant motion, with falling motion observed on the Earth. He proposed a [[Newton's law of gravity|law of gravity]] that could account for the celestial motions that had been described earlier using [[Kepler's laws of planetary motion]].
 
-Newton came to realize that the effects of gravity might be observed in different ways at larger distances. In particular, Newton determined that the acceleration of the Moon around the Earth could be ascribed to the same force of gravity if the acceleration due to gravity decreased as an [[inverse square law]]. Further, Newton realized that the acceleration of a body due to gravity is proportional to the mass of the other attracting body. Combining these ideas gives a formula that relates the mass (__MATH_22__) and the radius (__MATH_23__) of the Earth to the gravitational acceleration:
-__MATH_24__
-where the vector direction is given by __MATH_25__, is the [[unit vector]] directed outward from the center of the Earth.
+Newton came to realize that the effects of gravity might be observed in different ways at larger distances. In particular, Newton determined that the acceleration of the Moon around the Earth could be ascribed to the same force of gravity if the acceleration due to gravity decreased as an [[inverse square law]]. Further, Newton realized that the acceleration of a body due to gravity is proportional to the mass of the other attracting body. Combining these ideas gives a formula that relates the mass (__MATH_1074__) and the radius (__MATH_1075__) of the Earth to the gravitational acceleration:
+__MATH_1076__
+where the vector direction is given by __MATH_1077__, is the [[unit vector]] directed outward from the center of the Earth.
 
-In this equation, a dimensional constant __MATH_26__ is used to describe the relative strength of gravity. This constant has come to be known as the [[Newtonian constant of gravitation]], though its value was unknown in Newton's lifetime. Not until 1798 was [[Henry Cavendish]] able to make the first measurement of __MATH_27__ using a [[torsion balance]]; this was widely reported in the press as a measurement of the mass of the Earth since knowing __MATH_28__ could allow one to solve for the Earth's mass given the above equation. Newton realized that since all celestial bodies followed the same [[Kepler's laws|laws of motion]], his law of gravity had to be universal. Succinctly stated, [[Newton's law of gravitation]] states that the force on a spherical object of mass __MATH_29__ due to the gravitational pull of mass __MATH_30__ is
-__MATH_31__
-where __MATH_32__ is the distance between the two objects' centers of mass and __MATH_33__ is the unit vector pointed in the direction away from the center of the first object toward the center of the second object.
+In this equation, a dimensional constant __MATH_1078__ is used to describe the relative strength of gravity. This constant has come to be known as the [[Newtonian constant of gravitation]], though its value was unknown in Newton's lifetime. Not until 1798 was [[Henry Cavendish]] able to make the first measurement of __MATH_1079__ using a [[torsion balance]]; this was widely reported in the press as a measurement of the mass of the Earth since knowing __MATH_1080__ could allow one to solve for the Earth's mass given the above equation. Newton realized that since all celestial bodies followed the same [[Kepler's laws|laws of motion]], his law of gravity had to be universal. Succinctly stated, [[Newton's law of gravitation]] states that the force on a spherical object of mass __MATH_1081__ due to the gravitational pull of mass __MATH_1082__ is
+__MATH_1083__
+where __MATH_1084__ is the distance between the two objects' centers of mass and __MATH_1085__ is the unit vector pointed in the direction away from the center of the first object toward the center of the second object.
 
 This formula was powerful enough to stand as the basis for all subsequent descriptions of motion within the [[Solar System]] until the 20th century. During that time, sophisticated methods of [[perturbation analysis]] were invented to calculate the deviations of [[orbit]]s due to the influence of multiple bodies on a [[planet]], [[moon]], [[comet]], or [[asteroid]]. The formalism was exact enough to allow mathematicians to predict the existence of the planet [[Neptune]] before it was observed.
 
@@ -122,10 +122,10 @@ This formula was powerful enough to stand as the basis for all subsequent descri
 The [[electrostatic force]] was first described in 1784 by Coulomb as a force that existed intrinsically between two [[electric charge|charges]]. The properties of the electrostatic force were that it varied as an [[inverse square law]] directed in the [[polar coordinates|radial direction]], was both attractive and repulsive (there was intrinsic [[Electrical polarity|polarity]]), was independent of the mass of the charged objects, and followed the [[superposition principle]]. [[Coulomb's law]] unifies all these observations into one succinct statement.
 
 Subsequent mathematicians and physicists found the construct of the ''[[electric field]]'' to be useful for determining the electrostatic force on an electric charge at any point in space. The electric field was based on using a hypothetical "[[test charge]]" anywhere in space and then using Coulomb's Law to determine the electrostatic force. Thus the electric field anywhere in space is defined as
-__MATH_34__
-where __MATH_35__ is the magnitude of the hypothetical test charge. Similarly, the idea of the ''[[magnetic field]]'' was introduced to express how magnets can influence one another at a distance. The [[Lorentz force|Lorentz force law]] gives the force upon a body with charge __MATH_36__ due to electric and magnetic fields:
-__MATH_37__
-where __MATH_38__ is the electromagnetic force, __MATH_39__ is the electric field at the body's location, __MATH_40__ is the magnetic field, and __MATH_41__ is the [[velocity]] of the particle. The magnetic contribution to the Lorentz force is the [[cross product]] of the velocity vector with the magnetic field.
+__MATH_1086__
+where __MATH_1087__ is the magnitude of the hypothetical test charge. Similarly, the idea of the ''[[magnetic field]]'' was introduced to express how magnets can influence one another at a distance. The [[Lorentz force|Lorentz force law]] gives the force upon a body with charge __MATH_1088__ due to electric and magnetic fields:
+__MATH_1089__
+where __MATH_1090__ is the electromagnetic force, __MATH_1091__ is the electric field at the body's location, __MATH_1092__ is the magnetic field, and __MATH_1093__ is the [[velocity]] of the particle. The magnetic contribution to the Lorentz force is the [[cross product]] of the velocity vector with the magnetic field.
 
 The origin of electric and magnetic fields would not be fully explained until 1864 when [[James Clerk Maxwell]] unified a number of earlier theories into a set of 20 scalar equations, which were later reformulated into 4 vector equations by [[Oliver Heaviside]] and [[Josiah Willard Gibbs]]. These "[[Maxwell's equations]]" fully described the sources of the fields as being stationary and moving charges, and the interactions of the fields themselves. This led Maxwell to discover that electric and magnetic fields could be "self-generating" through a [[wave]] that traveled at a speed that he calculated to be the [[speed of light]]. This insight united the nascent fields of electromagnetic theory with [[optics]] and led directly to a complete description of the [[electromagnetic spectrum]].
 
@@ -137,13 +137,13 @@ When objects are in contact, the force directly between them is called the norma
 
 Friction is a force that opposes relative motion of two bodies. At the macroscopic scale, the frictional force is directly related to the normal force at the point of contact. There are two broad classifications of frictional forces: [[static friction]] and [[kinetic friction]].
 
-The static friction force (__MATH_42__) will exactly oppose forces applied to an object parallel to a surface up to the limit specified by the [[coefficient of static friction]] (__MATH_43__) multiplied by the normal force (__MATH_44__). In other words, the magnitude of the static friction force satisfies the inequality:
-__MATH_45__
+The static friction force (__MATH_1094__) will exactly oppose forces applied to an object parallel to a surface up to the limit specified by the [[coefficient of static friction]] (__MATH_1095__) multiplied by the normal force (__MATH_1096__). In other words, the magnitude of the static friction force satisfies the inequality:
+__MATH_1097__
 
-The kinetic friction force (__MATH_46__) is typically independent of both the forces applied and the movement of the object. Thus, the magnitude of the force equals:
-__MATH_47__
+The kinetic friction force (__MATH_1098__) is typically independent of both the forces applied and the movement of the object. Thus, the magnitude of the force equals:
+__MATH_1099__
 
-where __MATH_48__ is the [[coefficient of kinetic friction]]. The coefficient of kinetic friction is normally less than the coefficient of static friction.
+where __MATH_1100__ is the [[coefficient of kinetic friction]]. The coefficient of kinetic friction is normally less than the coefficient of static friction.
 
 === Tension ===
 
@@ -151,32 +151,32 @@ Tension forces can be modeled using ideal strings that are massless, frictionles
 
 === Spring ===
 
-A simple elastic force acts to return a [[Spring (device)|spring]] to its natural length. An [[ideal spring]] is taken to be massless, frictionless, unbreakable, and infinitely stretchable. Such springs exert forces that push when contracted, or pull when extended, in proportion to the [[displacement field (mechanics)|displacement]] of the spring from its equilibrium position. This linear relationship was described by [[Robert Hooke]] in 1676, for whom [[Hooke's law]] is named. If __MATH_49__ is the displacement, the force exerted by an ideal spring equals:
-__MATH_50__
-where __MATH_51__ is the spring constant (or force constant), which is particular to the spring. The minus sign accounts for the tendency of the force to act in opposition to the applied load.
+A simple elastic force acts to return a [[Spring (device)|spring]] to its natural length. An [[ideal spring]] is taken to be massless, frictionless, unbreakable, and infinitely stretchable. Such springs exert forces that push when contracted, or pull when extended, in proportion to the [[displacement field (mechanics)|displacement]] of the spring from its equilibrium position. This linear relationship was described by [[Robert Hooke]] in 1676, for whom [[Hooke's law]] is named. If __MATH_1101__ is the displacement, the force exerted by an ideal spring equals:
+__MATH_1102__
+where __MATH_1103__ is the spring constant (or force constant), which is particular to the spring. The minus sign accounts for the tendency of the force to act in opposition to the applied load.
 
 === Centripetal ===
 
 For an object in [[uniform circular motion]], the net force acting on the object equals:
-__MATH_52__
-where __MATH_53__ is the mass of the object, __MATH_54__ is the velocity of the object and __MATH_55__ is the distance to the center of the circular path and __MATH_56__ is the [[unit vector]] pointing in the radial direction outwards from the center. This means that the net force felt by the object is always directed toward the center of the curving path. Such forces act perpendicular to the velocity vector associated with the motion of an object, and therefore do not change the [[speed]] of the object (magnitude of the velocity), but only the direction of the velocity vector. More generally, the net force that accelerates an object can be resolved into a component that is perpendicular to the path, and one that is tangential to the path. This yields both the tangential force, which accelerates the object by either slowing it down or speeding it up, and the radial (centripetal) force, which changes its direction.
+__MATH_1104__
+where __MATH_1105__ is the mass of the object, __MATH_1106__ is the velocity of the object and __MATH_1107__ is the distance to the center of the circular path and __MATH_1108__ is the [[unit vector]] pointing in the radial direction outwards from the center. This means that the net force felt by the object is always directed toward the center of the curving path. Such forces act perpendicular to the velocity vector associated with the motion of an object, and therefore do not change the [[speed]] of the object (magnitude of the velocity), but only the direction of the velocity vector. More generally, the net force that accelerates an object can be resolved into a component that is perpendicular to the path, and one that is tangential to the path. This yields both the tangential force, which accelerates the object by either slowing it down or speeding it up, and the radial (centripetal) force, which changes its direction.
 
 === Continuum mechanics ===
 
 Newton's laws and Newtonian mechanics in general were first developed to describe how forces affect idealized [[point particle]]s rather than three-dimensional objects. In real life, matter has extended structure and forces that act on one part of an object might affect other parts of an object. For situations where lattice holding together the atoms in an object is able to flow, contract, expand, or otherwise change shape, the theories of [[continuum mechanics]] describe the way forces affect the material. For example, in extended [[fluid mechanics|fluids]], differences in [[pressure]] result in forces being directed along the pressure [[gradient]]s as follows:
-__MATH_57__
+__MATH_1109__
 
-where __MATH_58__ is the volume of the object in the fluid and __MATH_59__ is the [[scalar function]] that describes the pressure at all locations in space. Pressure gradients and differentials result in the [[buoyancy|buoyant force]] for fluids suspended in gravitational fields, winds in [[atmospheric science]], and the [[lift (physics)|lift]] associated with [[aerodynamics]] and [[flight]].
+where __MATH_1110__ is the volume of the object in the fluid and __MATH_1111__ is the [[scalar function]] that describes the pressure at all locations in space. Pressure gradients and differentials result in the [[buoyancy|buoyant force]] for fluids suspended in gravitational fields, winds in [[atmospheric science]], and the [[lift (physics)|lift]] associated with [[aerodynamics]] and [[flight]].
 
 A specific instance of such a force that is associated with [[dynamic pressure]] is fluid resistance: a body force that resists the motion of an object through a fluid due to [[viscosity]]. For so-called "[[Drag (physics)#Very low Reynolds numbers – Stokes' drag|Stokes' drag]]" the force is approximately proportional to the velocity, but opposite in direction:
-__MATH_60__
+__MATH_1112__
 where:
-* __MATH_61__ is a constant that depends on the properties of the fluid and the dimensions of the object (usually the [[Cross section (geometry)|cross-sectional area]]), and
-* __MATH_62__ is the velocity of the object.
+* __MATH_1113__ is a constant that depends on the properties of the fluid and the dimensions of the object (usually the [[Cross section (geometry)|cross-sectional area]]), and
+* __MATH_1114__ is the velocity of the object.
 
 More formally, forces in [[continuum mechanics]] are fully described by a [[Stress (mechanics)|stress]] [[tensor]] with terms that are roughly defined as
-__MATH_63__
-where __MATH_64__ is the relevant cross-sectional area for the volume for which the stress tensor is being calculated. This formalism includes pressure terms associated with forces that act normal to the cross-sectional area (the [[matrix diagonal]]s of the tensor) as well as [[Shear stress|shear]] terms associated with forces that act [[Parallel (geometry)|parallel]] to the cross-sectional area (the off-diagonal elements). The stress tensor accounts for forces that cause all [[strain (physics)|strains]] (deformations) including also [[tensile stress]]es and [[compression (physical)|compressions]].
+__MATH_1115__
+where __MATH_1116__ is the relevant cross-sectional area for the volume for which the stress tensor is being calculated. This formalism includes pressure terms associated with forces that act normal to the cross-sectional area (the [[matrix diagonal]]s of the tensor) as well as [[Shear stress|shear]] terms associated with forces that act [[Parallel (geometry)|parallel]] to the cross-sectional area (the off-diagonal elements). The stress tensor accounts for forces that cause all [[strain (physics)|strains]] (deformations) including also [[tensile stress]]es and [[compression (physical)|compressions]].
 
 === Fictitious ===
 
@@ -187,49 +187,49 @@ In [[general relativity]], [[gravity]] becomes a fictitious force that arises in
 == Concepts derived from force ==
 === Rotation and torque ===
 
-Forces that cause extended objects to rotate are associated with [[torque]]s. Mathematically, the torque of a force __MATH_65__ is defined relative to an arbitrary reference point as the [[cross product]]:
-__MATH_66__
-where __MATH_67__ is the [[position vector]] of the force application point relative to the reference point.
+Forces that cause extended objects to rotate are associated with [[torque]]s. Mathematically, the torque of a force __MATH_1117__ is defined relative to an arbitrary reference point as the [[cross product]]:
+__MATH_1118__
+where __MATH_1119__ is the [[position vector]] of the force application point relative to the reference point.
 
 Torque is the rotation equivalent of force in the same way that [[angle]] is the rotational equivalent for [[position (vector)|position]], [[angular velocity]] for [[velocity]], and [[angular momentum]] for [[momentum]]. As a consequence of Newton's first law of motion, there exists [[rotational inertia]] that ensures that all bodies maintain their angular momentum unless acted upon by an unbalanced torque. Likewise, Newton's second law of motion can be used to derive an analogous equation for the instantaneous [[angular acceleration]] of the rigid body:
-__MATH_68__
+__MATH_1120__
 where
-* __MATH_69__ is the [[moment of inertia]] of the body
-* __MATH_70__ is the angular acceleration of the body.
+* __MATH_1121__ is the [[moment of inertia]] of the body
+* __MATH_1122__ is the angular acceleration of the body.
 
 This provides a definition for the moment of inertia, which is the rotational equivalent for mass. In more advanced treatments of mechanics, where the rotation over a time interval is described, the moment of inertia must be substituted by the [[Moment of inertia tensor|tensor]] that, when properly analyzed, fully determines the characteristics of rotations including [[precession]] and [[nutation]].
 
 Equivalently, the differential form of Newton's second law provides an alternative definition of torque:
-__MATH_71__
-where __MATH_72__ is the angular momentum of the particle.
+__MATH_1123__
+where __MATH_1124__ is the angular momentum of the particle.
 
 Newton's third law of motion requires that all objects exerting torques themselves experience equal and opposite torques, and therefore also directly implies the [[conservation of angular momentum]] for closed systems that experience rotations and [[revolution (geometry)|revolution]]s through the action of internal torques.
 
 === Yank ===
 The '''yank''' is defined as the rate of change of force
-:__MATH_73__
+:__MATH_1125__
 The term is used in biomechanical analysis, athletic assessment and robotic control. The second ("tug"), third ("snatch"), fourth ("shake"), and higher derivatives are rarely used.
 
 === Kinematic integrals ===
 
 Forces can be used to define a number of physical concepts by [[integration (calculus)|integrating]] with respect to [[kinematics|kinematic variables]]. For example, integrating with respect to time gives the definition of [[Impulse (physics)|impulse]]:
-__MATH_74__
+__MATH_1126__
 which by Newton's second law must be equivalent to the change in momentum (yielding the [[Impulse momentum theorem]]).
 
 Similarly, integrating with respect to position gives a definition for the [[work (physics)|work done]] by a force:
-__MATH_75__
+__MATH_1127__
 which is equivalent to changes in [[kinetic energy]] (yielding the [[work energy theorem]]).
 
-[[Power (physics)|Power]] ''P'' is the rate of change d''W''/d''t'' of the work ''W'', as the [[trajectory]] is extended by a position change __MATH_76__ in a time interval d''t'':
-__MATH_77__
+[[Power (physics)|Power]] ''P'' is the rate of change d''W''/d''t'' of the work ''W'', as the [[trajectory]] is extended by a position change __MATH_1128__ in a time interval d''t'':
+__MATH_1129__
 so
-__MATH_78__
-with __MATH_79__ the [[velocity]].
+__MATH_1130__
+with __MATH_1131__ the [[velocity]].
 
 === Potential energy ===
 
-Instead of a force, often the mathematically related concept of a [[potential energy]] field is used. For instance, the gravitational force acting upon an object can be seen as the action of the [[gravitational field]] that is present at the object's location. Restating mathematically the definition of energy (via the definition of [[Mechanical work|work]]), a potential [[scalar field]] __MATH_80__ is defined as that field whose [[gradient]] is equal and opposite to the force produced at every point:
-__MATH_81__
+Instead of a force, often the mathematically related concept of a [[potential energy]] field is used. For instance, the gravitational force acting upon an object can be seen as the action of the [[gravitational field]] that is present at the object's location. Restating mathematically the definition of energy (via the definition of [[Mechanical work|work]]), a potential [[scalar field]] __MATH_1132__ is defined as that field whose [[gradient]] is equal and opposite to the force produced at every point:
+__MATH_1133__
 
 Forces can be classified as [[Conservative force|conservative]] or nonconservative. Conservative forces are equivalent to the gradient of a [[potential]] while nonconservative forces are not.
 
@@ -237,19 +237,19 @@ Forces can be classified as [[Conservative force|conservative]] or nonconservati
 
 A conservative force that acts on a [[closed system]] has an associated mechanical work that allows energy to convert only between [[kinetic energy|kinetic]] or [[potential energy|potential]] forms. This means that for a closed system, the net [[mechanical energy]] is conserved whenever a conservative force acts on the system. The force, therefore, is related directly to the difference in potential energy between two different locations in space, and can be considered to be an artifact of the potential field in the same way that the direction and amount of a flow of water can be considered to be an artifact of the [[contour map]] of the elevation of an area.
 
-Conservative forces include [[gravity]], the [[Electromagnetism|electromagnetic]] force, and the [[Hooke's law|spring]] force. Each of these forces has models that are dependent on a position often given as a [[radius|radial vector]] __MATH_82__ emanating from [[spherical symmetry|spherically symmetric]] potentials. Examples of this follow:
+Conservative forces include [[gravity]], the [[Electromagnetism|electromagnetic]] force, and the [[Hooke's law|spring]] force. Each of these forces has models that are dependent on a position often given as a [[radius|radial vector]] __MATH_1134__ emanating from [[spherical symmetry|spherically symmetric]] potentials. Examples of this follow:
 
 For gravity:
-__MATH_83__
-where __MATH_84__ is the [[gravitational constant]], and __MATH_85__ is the mass of object ''n''.
+__MATH_1135__
+where __MATH_1136__ is the [[gravitational constant]], and __MATH_1137__ is the mass of object ''n''.
 
 For electrostatic forces:
-__MATH_86__
-where __MATH_87__ is [[Permittivity|electric permittivity of free space]], and __MATH_88__ is the [[electric charge]] of object ''n''.
+__MATH_1138__
+where __MATH_1139__ is [[Permittivity|electric permittivity of free space]], and __MATH_1140__ is the [[electric charge]] of object ''n''.
 
 For spring forces:
-__MATH_89__
-where __MATH_90__ is the [[spring constant]].
+__MATH_1141__
+where __MATH_1142__ is the [[spring constant]].
 
 For certain physical scenarios, it is impossible to model forces as being due to a simple gradient of potentials. This is often due a macroscopic statistical average of [[Microstate (statistical mechanics)|microstates]]. For example, static friction is caused by the gradients of numerous electrostatic potentials between the [[atom]]s, but manifests as a force model that is independent of any macroscale position vector. Nonconservative forces other than friction include other [[contact force]]s, [[Tension (physics)|tension]], [[Physical compression|compression]], and [[drag (physics)|drag]]. For any sufficiently detailed description, all these forces are the results of conservative ones since each of these macroscopic forces are the net results of the gradients of microscopic potentials.
 
@@ -272,21 +272,21 @@ At the beginning of the 20th century, new physical ideas emerged to explain expe
 === Special theory of relativity ===
 
 In the [[special theory of relativity]], mass and [[energy]] are equivalent (as can be seen by calculating the work required to accelerate an object). When an object's velocity increases, so does its energy and hence its mass equivalent (inertia). It thus requires more force to accelerate it the same amount than it did at a lower velocity. Newton's second law,
-__MATH_91__
-remains valid because it is a mathematical definition. But for momentum to be conserved at  relativistic relative velocity, __MATH_92__, momentum must be redefined as:
-__MATH_93__
-where __MATH_94__ is the [[rest mass]] and __MATH_95__ the [[speed of light]].
+__MATH_1143__
+remains valid because it is a mathematical definition. But for momentum to be conserved at  relativistic relative velocity, __MATH_1144__, momentum must be redefined as:
+__MATH_1145__
+where __MATH_1146__ is the [[rest mass]] and __MATH_1147__ the [[speed of light]].
 
-The expression relating force and acceleration for a particle with constant non-zero [[rest mass]] __MATH_96__ moving in the __MATH_97__ direction at velocity __MATH_98__ is:
-__MATH_99__
+The expression relating force and acceleration for a particle with constant non-zero [[rest mass]] __MATH_1148__ moving in the __MATH_1149__ direction at velocity __MATH_1150__ is:
+__MATH_1151__
 where
-__MATH_100__
-is called the [[Lorentz factor]]. The Lorentz factor increases steeply as the relative velocity approaches the speed of light.  Consequently, the greater and greater force must be applied to produce the same acceleration at extreme velocity. The relative velocity cannot reach __MATH_101__.
-If __MATH_102__ is very small compared to __MATH_103__, then __MATH_104__ is very close to 1 and
-__MATH_105__
+__MATH_1152__
+is called the [[Lorentz factor]]. The Lorentz factor increases steeply as the relative velocity approaches the speed of light.  Consequently, the greater and greater force must be applied to produce the same acceleration at extreme velocity. The relative velocity cannot reach __MATH_1153__.
+If __MATH_1154__ is very small compared to __MATH_1155__, then __MATH_1156__ is very close to 1 and
+__MATH_1157__
 is a close approximation. Even for use in relativity, one can restore the form of
-__MATH_106__
-through the use of [[four-vectors]]. This relation is correct in relativity when __MATH_107__ is the [[four-force]], __MATH_108__ is the [[invariant mass]], and __MATH_109__ is the [[four-acceleration]].
+__MATH_1158__
+through the use of [[four-vectors]]. This relation is correct in relativity when __MATH_1159__ is the [[four-force]], __MATH_1160__ is the [[invariant mass]], and __MATH_1161__ is the [[four-acceleration]].
 
 The [[general relativity|''general'' theory of relativity]] incorporates a more radical departure from the Newtonian way of thinking about force, specifically gravitational force. This reimagining of the nature of gravity is described more fully [[#Gravitational|below]].
 
@@ -344,15 +344,15 @@ The fundamental theories for forces developed from the [[Unified field theory|un
 |align="center"|Mesons
 |-
 |style="background-color:#FFFFF6"|Strength in the scale of quarks:
-|align="center"|__MATH_110__
-|align="center"|__MATH_111__
+|align="center"|__MATH_1162__
+|align="center"|__MATH_1163__
 |align="center"|1
 |align="center"|60
 |<small>Not applicable <br />to quarks</small>
 |-
 |style="background-color:#FFFFF6"|Strength in the scale of <br />protons/neutrons:
-|align="center"|__MATH_112__
-|align="center"|__MATH_113__
+|align="center"|__MATH_1164__
+|align="center"|__MATH_1165__
 |align="center"|1
 |align="center"|<small>Not applicable <br />to hadrons</small>
 |align="center"|20
@@ -376,4 +376,4 @@ The strong force is today understood to represent the [[Fundamental interaction|
 
 === Weak nuclear ===
 
-Unique among the fundamental interactions, the weak nuclear force creates no bound states. The weak force is due to the exchange of the heavy [[W and Z bosons]]. Since the weak force is mediated by two types of bosons, it can be divided into two types of interaction or "[[Feynman diagram|vertices]]" — [[charged current]], involving the electrically charged W<sup>+</sup> and W<sup>−</sup> bosons, and [[neutral current]], involving electrically neutral Z<sup>0</sup> bosons. The most familiar effect of weak interaction is [[beta decay]] (of neutrons in atomic nuclei) and the associated [[radioactivity]]. This is a type of charged-current interaction. The word "weak" derives from the fact that the field strength is some 10<sup>13</sup> times less than that of the [[strong force]]. Still, it is stronger than gravity over short distances. A consistent electroweak theory has also been developed, which shows that electromagnetic forces and the weak force are indistinguishable at a temperatures in excess of approximately __MATH_114__. Such temperatures occurred in the plasma collisions in the early moments of the [[Big Bang]].
+Unique among the fundamental interactions, the weak nuclear force creates no bound states. The weak force is due to the exchange of the heavy [[W and Z bosons]]. Since the weak force is mediated by two types of bosons, it can be divided into two types of interaction or "[[Feynman diagram|vertices]]" — [[charged current]], involving the electrically charged W<sup>+</sup> and W<sup>−</sup> bosons, and [[neutral current]], involving electrically neutral Z<sup>0</sup> bosons. The most familiar effect of weak interaction is [[beta decay]] (of neutrons in atomic nuclei) and the associated [[radioactivity]]. This is a type of charged-current interaction. The word "weak" derives from the fact that the field strength is some 10<sup>13</sup> times less than that of the [[strong force]]. Still, it is stronger than gravity over short distances. A consistent electroweak theory has also been developed, which shows that electromagnetic forces and the weak force are indistinguishable at a temperatures in excess of approximately __MATH_1166__. Such temperatures occurred in the plasma collisions in the early moments of the [[Big Bang]].

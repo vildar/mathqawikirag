@@ -137,28 +137,28 @@ inversely proportional to the mass of the object.
 
 A modern statement of Newton's second law is a vector equation:
 𝐅 = d𝐩/dt, where 𝐩 is the momentum of the system, and
-𝐅 is the net (vector sum) force. If a body is in equilibrium,
-there is zero net force by definition (balanced forces may be present
-nevertheless). In contrast, the second law states that if there is an
-unbalanced force acting on an object it will result in the object's
-momentum changing over time.
+𝐅 is the net (vector sum) force. If a body is in
+equilibrium, there is zero net force by definition (balanced forces may
+be present nevertheless). In contrast, the second law states that if
+there is an unbalanced force acting on an object it will result in the
+object's momentum changing over time.
 
 In common engineering applications the mass in a system remains constant
 allowing as simple algebraic form for the second law. By the definition
 of momentum, 𝐅 = d𝐩/dt = d(m𝐯)/dt, where m is the mass and 𝐯 is the
 velocity. If Newton's second law is applied to a system of constant
 mass, m may be moved outside the derivative operator. The equation then
-becomes 𝐅 = md𝐯/dt. By substituting the definition of acceleration, the
-algebraic version of Newton's second law is derived: 𝐅 =m𝐚.
+becomes 𝐅 = md𝐯/dt. By substituting the definition of acceleration,
+the algebraic version of Newton's second law is derived: 𝐅 =m𝐚.
 
 Third law
 
 Whenever one body exerts a force on another, the latter simultaneously
 exerts an equal and opposite force on the first. In vector form, if
-𝐅_1,2 is the force of body 1 on body 2 and 𝐅_2,1 that of body
-2 on body 1, then 𝐅_1,2=-𝐅_2,1. This law is sometimes referred to as the
-action-reaction law, with 𝐅_1,2 called the action and -𝐅_2,1
-the reaction.
+𝐅_1,2 is the force of body 1 on body 2 and 𝐅_2,1 that of
+body 2 on body 1, then 𝐅_1,2=-𝐅_2,1. This law is sometimes referred to
+as the action-reaction law, with 𝐅_1,2 called the action and
+-𝐅_2,1 the reaction.
 
 Newton's third law is a result of applying symmetry to situations where
 forces can be attributed to the presence of different objects. The third
@@ -177,26 +177,26 @@ the system.
 
 Combining Newton's second and third laws, it is possible to show that
 the linear momentum of a system is conserved in any closed system. In a
-system of two particles, if 𝐩_1 is the momentum of object 1 and
-𝐩_2 the momentum of object 2, then d𝐩_1/dt + d𝐩_2/dt= 𝐅_1,2 + 𝐅_2,1 = 0 . Using similar
-arguments, this can be generalized to a system with an arbitrary number
-of particles. In general, as long as all forces are due to the
+system of two particles, if 𝐩_1 is the momentum of object 1
+and 𝐩_2 the momentum of object 2, then d𝐩_1/dt + d𝐩_2/dt= 𝐅_1,2 + 𝐅_2,1 = 0 . Using
+similar arguments, this can be generalized to a system with an arbitrary
+number of particles. In general, as long as all forces are due to the
 interaction of objects with mass, it is possible to define a system such
 that net momentum is never lost nor gained.
 
 Defining "force"
 
 Some textbooks use Newton's second law as a definition of force.
-However, for the equation 𝐅 = m𝐚 for a constant mass m to
-then have any predictive content, it must be combined with further
-information. Moreover, inferring that a force is present because a body
-is accelerating is only valid in an inertial frame of reference. The
-question of which aspects of Newton's laws to take as definitions and
-which to regard as holding physical content has been answered in various
-ways, which ultimately do not affect how the theory is used in practice.
-Notable physicists, philosophers and mathematicians who have sought a
-more explicit definition of the concept of force include Ernst Mach and
-Walter Noll.
+However, for the equation 𝐅 = m𝐚 for a constant mass
+m to then have any predictive content, it must be combined
+with further information. Moreover, inferring that a force is present
+because a body is accelerating is only valid in an inertial frame of
+reference. The question of which aspects of Newton's laws to take as
+definitions and which to regard as holding physical content has been
+answered in various ways, which ultimately do not affect how the theory
+is used in practice. Notable physicists, philosophers and mathematicians
+who have sought a more explicit definition of the concept of force
+include Ernst Mach and Walter Noll.
 
 Combining forces
 
@@ -347,13 +347,13 @@ of celestial objects. Galileo was instrumental in describing the
 characteristics of falling objects by determining that the acceleration
 of every object in free-fall was constant and independent of the mass of
 the object. Today, this acceleration due to gravity towards the surface
-of the Earth is usually designated as 𝐠 and has a magnitude of
-about 9.81 meters per second squared (this measurement is taken from sea
-level and may vary depending on location), and points toward the center
-of the Earth. This observation means that the force of gravity on an
-object at the Earth's surface is directly proportional to the object's
-mass. Thus an object that has a mass of m will experience a
-force: 𝐅 = m𝐠.
+of the Earth is usually designated as 𝐠 and has a magnitude
+of about 9.81 meters per second squared (this measurement is taken from
+sea level and may vary depending on location), and points toward the
+center of the Earth. This observation means that the force of gravity on
+an object at the Earth's surface is directly proportional to the
+object's mass. Thus an object that has a mass of m will
+experience a force: 𝐅 = m𝐠.
 
 For an object in free-fall, this force is unopposed and the net force on
 the object is its weight. For objects not in free-fall, the force of
@@ -380,21 +380,21 @@ gravitational acceleration: 𝐠=-Gm_⊕/R_⊕^2 r, where the vector direction i
 given by r, is the unit vector directed outward from the
 center of the Earth.
 
-In this equation, a dimensional constant G is used to describe
-the relative strength of gravity. This constant has come to be known as
-the Newtonian constant of gravitation, though its value was unknown in
-Newton's lifetime. Not until 1798 was Henry Cavendish able to make the
-first measurement of G using a torsion balance; this was
-widely reported in the press as a measurement of the mass of the Earth
-since knowing G could allow one to solve for the Earth's mass
-given the above equation. Newton realized that since all celestial
-bodies followed the same laws of motion, his law of gravity had to be
-universal. Succinctly stated, Newton's law of gravitation states that
-the force on a spherical object of mass m_1 due to the
-gravitational pull of mass m_2 is 𝐅=-Gm_1m_2/r^2 r, where r
-is the distance between the two objects' centers of mass and r
-is the unit vector pointed in the direction away from the center of the
-first object toward the center of the second object.
+In this equation, a dimensional constant G is used to
+describe the relative strength of gravity. This constant has come to be
+known as the Newtonian constant of gravitation, though its value was
+unknown in Newton's lifetime. Not until 1798 was Henry Cavendish able to
+make the first measurement of G using a torsion balance;
+this was widely reported in the press as a measurement of the mass of
+the Earth since knowing G could allow one to solve for the
+Earth's mass given the above equation. Newton realized that since all
+celestial bodies followed the same laws of motion, his law of gravity
+had to be universal. Succinctly stated, Newton's law of gravitation
+states that the force on a spherical object of mass m_1 due to
+the gravitational pull of mass m_2 is 𝐅=-Gm_1m_2/r^2 r, where
+r is the distance between the two objects' centers of mass
+and r is the unit vector pointed in the direction away from
+the center of the first object toward the center of the second object.
 
 This formula was powerful enough to stand as the basis for all
 subsequent descriptions of motion within the Solar System until the 20th
@@ -419,16 +419,16 @@ electric field to be useful for determining the electrostatic force on
 an electric charge at any point in space. The electric field was based
 on using a hypothetical "test charge" anywhere in space and then using
 Coulomb's Law to determine the electrostatic force. Thus the electric
-field anywhere in space is defined as 𝐄 = 𝐅 q, where q is
-the magnitude of the hypothetical test charge. Similarly, the idea of
+field anywhere in space is defined as 𝐄 = 𝐅 q, where q
+is the magnitude of the hypothetical test charge. Similarly, the idea of
 the magnetic field was introduced to express how magnets can influence
 one another at a distance. The Lorentz force law gives the force upon a
 body with charge q due to electric and magnetic fields:
-𝐅 = q(𝐄 + 𝐯 ×𝐁), where 𝐅 is the electromagnetic force, 𝐄
-is the electric field at the body's location, 𝐁 is the
-magnetic field, and 𝐯 is the velocity of the particle. The
-magnetic contribution to the Lorentz force is the cross product of the
-velocity vector with the magnetic field.
+𝐅 = q(𝐄 + 𝐯 ×𝐁), where 𝐅 is the electromagnetic force,
+𝐄 is the electric field at the body's location,
+𝐁 is the magnetic field, and 𝐯 is the velocity
+of the particle. The magnetic contribution to the Lorentz force is the
+cross product of the velocity vector with the magnetic field.
 
 The origin of electric and magnetic fields would not be fully explained
 until 1864 when James Clerk Maxwell unified a number of earlier theories
@@ -464,8 +464,8 @@ friction.
 The static friction force (𝐅_sf) will exactly oppose forces
 applied to an object parallel to a surface up to the limit specified by
 the coefficient of static friction (μ_sf) multiplied by the
-normal force (𝐅_N). In other words, the magnitude of the static
-friction force satisfies the inequality: 0 ≤𝐅_sf ≤μ_sf 𝐅_N.
+normal force (𝐅_N). In other words, the magnitude of the
+static friction force satisfies the inequality: 0 ≤𝐅_sf ≤μ_sf 𝐅_N.
 
 The kinetic friction force (F_kf) is typically independent of
 both the forces applied and the movement of the object. Thus, the
@@ -503,27 +503,28 @@ contracted, or pull when extended, in proportion to the displacement of
 the spring from its equilibrium position. This linear relationship was
 described by Robert Hooke in 1676, for whom Hooke's law is named. If
 Δx is the displacement, the force exerted by an ideal spring
-equals: 𝐅=-k Δ𝐱, where k is the spring constant (or force
-constant), which is particular to the spring. The minus sign accounts
-for the tendency of the force to act in opposition to the applied load.
+equals: 𝐅=-k Δ𝐱, where k is the spring constant (or
+force constant), which is particular to the spring. The minus sign
+accounts for the tendency of the force to act in opposition to the
+applied load.
 
 Centripetal
 
 For an object in uniform circular motion, the net force acting on the
-object equals: 𝐅 = - mv^2/rr, where m is the mass of the object,
-v is the velocity of the object and r is the
-distance to the center of the circular path and r is the unit
-vector pointing in the radial direction outwards from the center. This
-means that the net force felt by the object is always directed toward
-the center of the curving path. Such forces act perpendicular to the
-velocity vector associated with the motion of an object, and therefore
-do not change the speed of the object (magnitude of the velocity), but
-only the direction of the velocity vector. More generally, the net force
-that accelerates an object can be resolved into a component that is
-perpendicular to the path, and one that is tangential to the path. This
-yields both the tangential force, which accelerates the object by either
-slowing it down or speeding it up, and the radial (centripetal) force,
-which changes its direction.
+object equals: 𝐅 = - mv^2/rr, where m is the mass of the
+object, v is the velocity of the object and r is
+the distance to the center of the circular path and r is the
+unit vector pointing in the radial direction outwards from the center.
+This means that the net force felt by the object is always directed
+toward the center of the curving path. Such forces act perpendicular to
+the velocity vector associated with the motion of an object, and
+therefore do not change the speed of the object (magnitude of the
+velocity), but only the direction of the velocity vector. More
+generally, the net force that accelerates an object can be resolved into
+a component that is perpendicular to the path, and one that is
+tangential to the path. This yields both the tangential force, which
+accelerates the object by either slowing it down or speeding it up, and
+the radial (centripetal) force, which changes its direction.
 
 Continuum mechanics
 
@@ -609,8 +610,8 @@ analyzed, fully determines the characteristics of rotations including
 precession and nutation.
 
 Equivalently, the differential form of Newton's second law provides an
-alternative definition of torque: τ= d𝐋/dt, where 𝐋 is the
-angular momentum of the particle.
+alternative definition of torque: τ= d𝐋/dt, where 𝐋 is
+the angular momentum of the particle.
 
 Newton's third law of motion requires that all objects exerting torques
 themselves experience equal and opposite torques, and therefore also
@@ -637,8 +638,8 @@ integrating with respect to time gives the definition of impulse:
 change in momentum (yielding the Impulse momentum theorem).
 
 Similarly, integrating with respect to position gives a definition for
-the work done by a force: W= ∫_𝐱_1^𝐱_2 𝐅 ·d𝐱, which is equivalent to changes in
-kinetic energy (yielding the work energy theorem).
+the work done by a force: W= ∫_𝐱_1^𝐱_2 𝐅 ·d𝐱, which is equivalent to changes
+in kinetic energy (yielding the work energy theorem).
 
 Power P is the rate of change dW/dt of the work W, as the trajectory is
 extended by a position change d𝐱 in a time interval dt:
@@ -682,7 +683,8 @@ For electrostatic forces: 𝐅_e = q_1 q_2/4 πε_0 r^2 r, where ε_0 is electri
 permittivity of free space, and q_n is the electric charge of
 object n.
 
-For spring forces: 𝐅_s = -krr, where k is the spring constant.
+For spring forces: 𝐅_s = -krr, where k is the spring
+constant.
 
 For certain physical scenarios, it is impossible to model forces as
 being due to a simple gradient of potentials. This is often due a
@@ -756,17 +758,18 @@ m_0 is the rest mass and c the speed of light.
 
 The expression relating force and acceleration for a particle with
 constant non-zero rest mass m moving in the x
-direction at velocity v is: 𝐅 = (γ^3 m a_x, γm a_y, γm a_z), where γ= 1/√(1 - v^2/c^2). is
-called the Lorentz factor. The Lorentz factor increases steeply as the
-relative velocity approaches the speed of light. Consequently, the
-greater and greater force must be applied to produce the same
-acceleration at extreme velocity. The relative velocity cannot reach
-c. If v is very small compared to c,
-then γ is very close to 1 and 𝐅 = m𝐚 is a close
-approximation. Even for use in relativity, one can restore the form of
-F^μ= mA^μ through the use of four-vectors. This relation is correct
-in relativity when F^μ is the four-force, m is the
-invariant mass, and A^μ is the four-acceleration.
+direction at velocity v is: 𝐅 = (γ^3 m a_x, γm a_y, γm a_z), where
+γ= 1/√(1 - v^2/c^2). is called the Lorentz factor. The Lorentz factor increases
+steeply as the relative velocity approaches the speed of light.
+Consequently, the greater and greater force must be applied to produce
+the same acceleration at extreme velocity. The relative velocity cannot
+reach c. If v is very small compared to
+c, then γ is very close to 1 and 𝐅 = m𝐚
+is a close approximation. Even for use in relativity, one can restore
+the form of F^μ= mA^μ through the use of four-vectors. This relation
+is correct in relativity when F^μ is the four-force,
+m is the invariant mass, and A^μ is the
+four-acceleration.
 
 The general theory of relativity incorporates a more radical departure
 from the Newtonian way of thinking about force, specifically
@@ -901,12 +904,12 @@ observation.
 | mediating:  | (not yet    |             |             |             |
 |             | observed)   |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
-| Strength in | _           | _           | 1           | 60          |
-| the scale   | _MATH_110__ | _MATH_111__ |             |             |
+| Strength in | __          | __          | 1           | 60          |
+| the scale   | MATH_1162__ | MATH_1163__ |             |             |
 | of quarks:  |             |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
-| Strength in | _           | _           | 1           | Not         |
-| the scale   | _MATH_112__ | _MATH_113__ |             | applicable  |
+| Strength in | __          | __          | 1           | Not         |
+| the scale   | MATH_1164__ | MATH_1165__ |             | applicable  |
 | of          |             |             |             | to hadrons  |
 | proton      |             |             |             |             |
 | s/neutrons: |             |             |             |             |

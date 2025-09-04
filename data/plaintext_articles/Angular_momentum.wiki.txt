@@ -11,12 +11,12 @@ limits the possible motion of a system, but it does not uniquely
 determine it.
 
 The three-dimensional angular momentum for a point particle is
-classically represented as a pseudovector ”'r”' × ”'p”', the cross product
-of the particle's position vector ”'r”' (relative to some origin)
-and its momentum vector; the latter is ”'p”' = ”m””'v”' in Newtonian
-mechanics. Unlike linear momentum, angular momentum depends on where
-this origin is chosen, since the particle's position is measured from
-it.
+classically represented as a pseudovector ”'r”' × ”'p”', the cross
+product of the particle's position vector ”'r”' (relative to
+some origin) and its momentum vector; the latter is ”'p”' = ”m””'v”' in
+Newtonian mechanics. Unlike linear momentum, angular momentum depends on
+where this origin is chosen, since the particle's position is measured
+from it.
 
 Angular momentum is an extensive quantity; that is, the total angular
 momentum of any composite system is the sum of the angular momenta of
@@ -44,12 +44,12 @@ Examples
 
 The trivial case of the angular momentum L of a body in an
 orbit is given by L = 2 πM f r^2 where M is the mass of the
-orbiting object, f is the orbit's frequency and r is
-the orbit's radius.
+orbiting object, f is the orbit's frequency and
+r is the orbit's radius.
 
 The angular momentum L of a uniform rigid sphere rotating
-around its axis, instead, is given by L = 4/5 πM f r^2 where M is
-the sphere's mass, f is the frequency of rotation and
+around its axis, instead, is given by L = 4/5 πM f r^2 where M
+is the sphere's mass, f is the frequency of rotation and
 r is the sphere's radius.
 
 Thus, for example, the orbital angular momentum of the Earth with
@@ -58,14 +58,14 @@ angular momentum is about 7.05 × 10³³ kg⋅m²⋅s⁻¹.
 
 In the case of a uniform rigid sphere rotating around its axis, if,
 instead of its mass, its density is known, the angular momentum
-L is given by L = 16/15 π^2 ρf r^5 where ρ is the sphere's
-density, f is the frequency of rotation and r is the
-sphere's radius.
+L is given by L = 16/15 π^2 ρf r^5 where ρ is the
+sphere's density, f is the frequency of rotation and
+r is the sphere's radius.
 
 In the simplest case of a spinning disk, the angular momentum
-L is given by L = πM f r^2 where M is the disk's
-mass, f is the frequency of rotation and r is the
-disk's radius.
+L is given by L = πM f r^2 where M is the
+disk's mass, f is the frequency of rotation and
+r is the disk's radius.
 
 If instead the disk rotates about its diameter (e.g. coin toss), its
 angular momentum L is given by L = 1/2 πM f r^2
@@ -100,9 +100,9 @@ discard the vector nature of angular momentum, and treat it as a scalar
 (more precisely, a pseudoscalar). Angular momentum can be considered a
 rotational analog of linear momentum. Thus, where linear momentum
 p is proportional to mass m and linear speed
-p = mv, angular momentum L is proportional to moment of
-inertia I and angular speed ω measured in radians
-per second. L = Iω.
+p = mv, angular momentum L is proportional to moment
+of inertia I and angular speed ω measured in
+radians per second. L = Iω.
 
 Unlike mass, which depends only on amount of matter, moment of inertia
 depends also on the position of the axis of rotation and the
@@ -113,21 +113,22 @@ L should be referred to as the angular momentum relative to
 that center.
 
 In the case of circular motion of a single particle, we can use
-I = r^2m and ω= v/r to expand angular momentum as L = r^2 m ·v/r,
-reducing to: L = rmv,
+I = r^2m and ω= v/r to expand angular momentum as
+L = r^2 m ·v/r, reducing to: L = rmv,
 
 the product of the radius of rotation r and the linear
-momentum of the particle p = mv, where v= rω is the linear
-(tangential) speed.
+momentum of the particle p = mv, where v= rω is the
+linear (tangential) speed.
 
 This simple analysis can also apply to non-circular motion if one uses
 the component of the motion perpendicular to the radius vector:
 L = rmv_⊥, where v_⊥= vsin(θ) is the perpendicular component of the
-motion. Expanding, L = rmvsin(θ), rearranging, L = rsin(θ)mv, and reducing,
-angular momentum can also be expressed, L = r_⊥mv, where r_⊥= rsin(θ) is
-the length of the moment arm, a line dropped perpendicularly from the
-origin onto the path of the particle. It is this definition,
-(length of moment arm) × (linear momentum), to which the term moment of momentum refers.
+motion. Expanding, L = rmvsin(θ), rearranging, L = rsin(θ)mv, and
+reducing, angular momentum can also be expressed, L = r_⊥mv, where
+r_⊥= rsin(θ) is the length of the moment arm, a line dropped
+perpendicularly from the origin onto the path of the particle. It is
+this definition, (length of moment arm) × (linear momentum), to which the term moment of momentum
+refers.
 
 Scalar angular momentum from Lagrangian mechanics
 
@@ -135,8 +136,8 @@ Another approach is to define angular momentum as the conjugate momentum
 (also called canonical momentum) of the angular coordinate ϕ
 expressed in the Lagrangian of the mechanical system. Consider a
 mechanical system with a mass m constrained to move in a
-circle of radius r in the absence of any external force field.
-The kinetic energy of the system is T = 12mr^2 ω^2 = 12mr^2 ϕ̇^2.
+circle of radius r in the absence of any external force
+field. The kinetic energy of the system is T = 12mr^2 ω^2 = 12mr^2 ϕ̇^2.
 
 And the potential energy is U = 0.
 
@@ -169,23 +170,23 @@ can be expressed as: 𝐋 = Iω, where
 
 This can be expanded, reduced, and by the rules of vector algebra,
 rearranged: 𝐋    = (r^2m)(𝐫×𝐯/r^2) ;    = m(𝐫×𝐯) ;    = 𝐫×m𝐯 ;    = 𝐫×𝐩, which is the cross product of the position
-vector 𝐫 and the linear momentum 𝐩 = m𝐯 of the particle.
-By the definition of the cross product, the 𝐋 vector is
-perpendicular to both 𝐫 and 𝐩. It is directed
-perpendicular to the plane of angular displacement, as indicated by the
-right-hand rule – so that the angular velocity is seen as
-counter-clockwise from the head of the vector. Conversely, the
+vector 𝐫 and the linear momentum 𝐩 = m𝐯 of the
+particle. By the definition of the cross product, the 𝐋
+vector is perpendicular to both 𝐫 and 𝐩. It is
+directed perpendicular to the plane of angular displacement, as
+indicated by the right-hand rule – so that the angular velocity is seen
+as counter-clockwise from the head of the vector. Conversely, the
 𝐋 vector defines the plane in which 𝐫 and
 𝐩 lie.
 
 By defining a unit vector û perpendicular to the plane of
-angular displacement, a scalar angular speed ω results, where
-ωû = ω, and ω= v_⊥/r, where v_⊥ is the perpendicular
-component of the motion, as above.
+angular displacement, a scalar angular speed ω results,
+where ωû = ω, and ω= v_⊥/r, where v_⊥ is the
+perpendicular component of the motion, as above.
 
 The two-dimensional scalar equations of the previous section can thus be
-given direction: 𝐋    = Iω ;    = Iωû ;    = (r^2m)ωû ;    = rmv_⊥û ;    = r_⊥mvû, and 𝐋 = rmvû for circular motion, where
-all of the motion is perpendicular to the radius r.
+given direction: 𝐋    = Iω ;    = Iωû ;    = (r^2m)ωû ;    = rmv_⊥û ;    = r_⊥mvû, and 𝐋 = rmvû for circular motion,
+where all of the motion is perpendicular to the radius r.
 
 In the spherical coordinate system the angular momentum vector expresses
 as
@@ -215,17 +216,17 @@ wheel's radius, its momentum turning the lever about the center point.
 This imaginary lever is known as the moment arm. It has the effect of
 multiplying the momentum's effort in proportion to its length, an effect
 known as a moment. Hence, the particle's momentum referred to a
-particular point, (moment arm) ×(amount of inertia) ×(amount of displacement)   =moment of (inertia⋅displacement) ; length ×mass ×velocity    = moment of momentum ; r ×m ×v    = L is the angular momentum, sometimes called,
-as here, the moment of momentum of the particle versus that particular
-center point. The equation L = rmv combines a moment (a mass
-m turning moment arm r) with a linear (straight-line
-equivalent) speed v. Linear speed referred to the central
-point is simply the product of the distance r and the angular
-speed ω versus the point: v=rω, another moment. Hence,
-angular momentum contains a double moment: L = rmr ω. Simplifying
-slightly, L = r^2 mω, the quantity r^2m is the particle's moment
-of inertia, sometimes called the second moment of mass. It is a measure
-of rotational inertia.
+particular point, (moment arm) ×(amount of inertia) ×(amount of displacement)   =moment of (inertia⋅displacement) ; length ×mass ×velocity    = moment of momentum ; r ×m ×v    = L is the angular momentum, sometimes
+called, as here, the moment of momentum of the particle versus that
+particular center point. The equation L = rmv combines a moment (a
+mass m turning moment arm r) with a linear
+(straight-line equivalent) speed v. Linear speed referred to
+the central point is simply the product of the distance r
+and the angular speed ω versus the point: v=rω,
+another moment. Hence, angular momentum contains a double moment:
+L = rmr ω. Simplifying slightly, L = r^2 mω, the quantity
+r^2m is the particle's moment of inertia, sometimes called the
+second moment of mass. It is a measure of rotational inertia.
 
 The above analogy of the translational momentum and rotational momentum
 can be expressed in vector form:
@@ -267,10 +268,10 @@ momentum, can be simplified by, I=k^2m,where k is the
 radius of gyration, the distance from the axis at which the entire mass
 m may be considered as concentrated.
 
-Similarly, for a point mass m the moment of inertia is defined
-as, I=r^2mwhere r is the radius of the point mass from
-the center of rotation, and for any collection of particles m_i
-as the sum, ∑_i I_i = ∑_i r_i^2m_i .
+Similarly, for a point mass m the moment of inertia is
+defined as, I=r^2mwhere r is the radius of the point
+mass from the center of rotation, and for any collection of particles
+m_i as the sum, ∑_i I_i = ∑_i r_i^2m_i .
 
 Angular momentum's dependence on position and shape is reflected in its
 units versus linear momentum: kg⋅m²/s or N⋅m⋅s for angular momentum
@@ -328,15 +329,15 @@ The conservation of angular momentum is used in analyzing central force
 motion. If the net force on some body is directed always toward some
 point, the center, then there is no torque on the body with respect to
 the center, as all of the force is directed along the radius vector, and
-none is perpendicular to the radius. Mathematically, torque τ = 𝐫 ×𝐅 = 0,
-because in this case 𝐫 and 𝐅 are parallel vectors.
-Therefore, the angular momentum of the body about the center is
-constant. This is the case with gravitational attraction in the orbits
-of planets and satellites, where the gravitational force is always
-directed toward the primary body and orbiting bodies conserve angular
-momentum by exchanging distance and velocity as they move about the
-primary. Central force motion is also used in the analysis of the Bohr
-model of the atom.
+none is perpendicular to the radius. Mathematically, torque
+τ = 𝐫 ×𝐅 = 0, because in this case 𝐫 and 𝐅 are
+parallel vectors. Therefore, the angular momentum of the body about the
+center is constant. This is the case with gravitational attraction in
+the orbits of planets and satellites, where the gravitational force is
+always directed toward the primary body and orbiting bodies conserve
+angular momentum by exchanging distance and velocity as they move about
+the primary. Central force motion is also used in the analysis of the
+Bohr model of the atom.
 
 For a planet, angular momentum is distributed between the spin of the
 planet and its revolution in its orbit, and these are often exchanged by
@@ -440,10 +441,10 @@ coordinates:S([x_i];t_1,t_2)≡∫_t_1^t_2d t(1/2md x_i/d t d x_i/d t-V(x_i))whe
 over the index. If the action is invariant of an infinitesimal
 transformation, it can be mathematically stated as: δS = S([x_i+δx_i];t_1,t_2)-S([x_i];t_1,t_2) =0.
 
-Under the transformation, x_i →x_i + δx_i, the action becomes: S([x_i+δx_i];t_1,t_2)=∫_t_1^t_2d t(1/2md(x_i+δx_i)/d td(x_i+δx_i)/d t-V(x_i+δx_i))
-where we can employ the expansion of the terms up-to first order in
-δx_i: d(x_i+δx_i)/d t d( x_i+δx_i)/ d t     ≃d x_i/d t d x_i/d t-2d^2x_i/d t^2δx_i+2d/d t(δx_id x_i/d t) ; V(x_i+δx_i)     ≃V(x_i)+δx_i∂V/∂x_igiving the following change in action:
-S[x_i+δx_i]≃S[x_i]+∫_t_1^t_2d t δx_i(- ∂V/∂x_i-md^2x_i/d t^2)+m∫_t_1^t_2d td/d t(δx_id x_i/d t).
+Under the transformation, x_i →x_i + δx_i, the action becomes:
+S([x_i+δx_i];t_1,t_2)=∫_t_1^t_2d t(1/2md(x_i+δx_i)/d td(x_i+δx_i)/d t-V(x_i+δx_i)) where we can employ the expansion of the terms up-to first
+order in δx_i: d(x_i+δx_i)/d t d( x_i+δx_i)/ d t     ≃d x_i/d t d x_i/d t-2d^2x_i/d t^2δx_i+2d/d t(δx_id x_i/d t) ; V(x_i+δx_i)     ≃V(x_i)+δx_i∂V/∂x_igiving the following change in
+action: S[x_i+δx_i]≃S[x_i]+∫_t_1^t_2d t δx_i(- ∂V/∂x_i-md^2x_i/d t^2)+m∫_t_1^t_2d td/d t(δx_id x_i/d t).
 
 Since all rotations can be expressed as matrix exponential of
 skew-symmetric matrices, i.e. as R(n̂,θ) = e^M θ where M is a
@@ -453,8 +454,8 @@ up-to first order of infinitesimal angle of rotation, δθ as:
 δx_i  =  M_ij x_j δθ.
 
 Combining the equation of motion and rotational invariance of action, we
-get from the above equations that:0=δS=∫_t_1^t_2d td/d t(md x_i/d tδx_i)= M_i j δθ   m  x_jd x_i/d t|_t_1^t_2Since this is true for any
-matrix M_ij that satisfies M_ij = - M_ji    , it results in the
+get from the above equations that:0=δS=∫_t_1^t_2d td/d t(md x_i/d tδx_i)= M_i j δθ   m  x_jd x_i/d t|_t_1^t_2Since this is true for
+any matrix M_ij that satisfies M_ij = - M_ji    , it results in the
 conservation of the following quantity: ℓ_ij(t) := m(x_i dx_j/dt-x_j dx_i/dt), as ℓ_ij(t_1)=ℓ_ij(t_2).
 This corresponds to the conservation of angular momentum throughout the
 motion.
@@ -467,18 +468,18 @@ angle around the same axis. For example, L_z, the angular
 momentum around the z axis, is: L_z = ∂L/∂θ̇_z where L is the
 Lagrangian and θ_z is the angle around the z axis.
 
-Note that θ̇_z, the time derivative of the angle, is the angular
-velocity ω_z. Ordinarily, the Lagrangian depends on the angular
-velocity through the kinetic energy: The latter can be written by
-separating the velocity to its radial and tangential part, with the
-tangential part at the x-y plane, around the z-axis, being equal to:
-∑_i 12m_i v_T_i^2 = ∑_i 12 m_i (x_i^2 + y_i^2)  ω_z_i^2 where the subscript i stands for the i-th body, and m,
-v_(T) and ω_(z) stand for mass, tangential velocity around the z-axis
-and angular velocity around that axis, respectively.
+Note that θ̇_z, the time derivative of the angle, is the
+angular velocity ω_z. Ordinarily, the Lagrangian depends on
+the angular velocity through the kinetic energy: The latter can be
+written by separating the velocity to its radial and tangential part,
+with the tangential part at the x-y plane, around the z-axis, being
+equal to: ∑_i 12m_i v_T_i^2 = ∑_i 12 m_i (x_i^2 + y_i^2)  ω_z_i^2 where the subscript i stands for the i-th body,
+and m, v_(T) and ω_(z) stand for mass, tangential velocity around the
+z-axis and angular velocity around that axis, respectively.
 
 For a body that is not point-like, with density ρ, we have instead:
-1/2∫ρ(x,y,z) (x_i^2 + y_i^2)  ω_z_i^2 dx dy = 1/2 I_z_i   ω_z_i^2 where integration runs over the area of the body, and I_(z)
-is the moment of inertia around the z-axis.
+1/2∫ρ(x,y,z) (x_i^2 + y_i^2)  ω_z_i^2 dx dy = 1/2 I_z_i   ω_z_i^2 where integration runs over the area of the body, and
+I_(z) is the moment of inertia around the z-axis.
 
 Thus, assuming the potential energy does not depend on ω_(z) (this
 assumption may fail for electromagnetic systems), we have the angular
@@ -568,8 +569,9 @@ rotating rigid bodies such as a gyroscope or a rocky planet. For a
 continuous mass distribution with density function ρ(r), a differential
 volume element dV with position vector r within the mass has a mass
 element dm = ρ(r)dV. Therefore, the infinitesimal angular momentum of
-this element is: d𝐋 = 𝐫×dm 𝐯 = 𝐫×ρ(𝐫) dV 𝐯 = dV 𝐫×ρ(𝐫) 𝐯 and integrating this differential over the
-volume of the entire mass gives its total angular momentum: 𝐋=∫_V dV 𝐫×ρ(𝐫) 𝐯
+this element is: d𝐋 = 𝐫×dm 𝐯 = 𝐫×ρ(𝐫) dV 𝐯 = dV 𝐫×ρ(𝐫) 𝐯 and integrating this differential over
+the volume of the entire mass gives its total angular momentum:
+𝐋=∫_V dV 𝐫×ρ(𝐫) 𝐯
 
 In the derivation which follows, integrals similar to this can replace
 the sums for the case of continuous mass.
@@ -582,16 +584,16 @@ their motion into components about their own center of mass and about
 the origin. Given,
 
 -   m_i is the mass of particle i,
--   𝐑_i is the position vector of particle i w.r.t.
-    the origin,
+-   𝐑_i is the position vector of particle i
+    w.r.t. the origin,
 -   𝐕_i is the velocity of particle i w.r.t. the
     origin,
--   𝐑 is the position vector of the center of mass w.r.t. the
-    origin,
+-   𝐑 is the position vector of the center of mass w.r.t.
+    the origin,
 -   𝐕 is the velocity of the center of mass w.r.t. the
     origin,
--   𝐫_i is the position vector of particle i w.r.t.
-    the center of mass,
+-   𝐫_i is the position vector of particle i
+    w.r.t. the center of mass,
 -   𝐯_i is the velocity of particle i w.r.t. the
     center of mass,
 
@@ -616,9 +618,9 @@ Expanding 𝐕_i,
 
 It can be shown that (see sidebar),
 
-  -------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------------------------------------
   Prove that ∑_i m_i𝐫_i = 0 𝐫_i    = 𝐑_i - 𝐑 ; m_i𝐫_i    = m_i(𝐑_i - 𝐑) ; ∑_i m_i𝐫_i    = ∑_i m_i(𝐑_i - 𝐑) ;    = ∑_i (m_i𝐑_i - m_i𝐑) ;    = ∑_i m_i𝐑_i - ∑_i m_i𝐑 ;    = ∑_i m_i𝐑_i - ( ∑_i m_i ) 𝐑 ;    = ∑_i m_i𝐑_i - M𝐑 which, by the definition of the center of mass, is 0, and similarly for ∑_i m_i 𝐯_i.
-  -------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------------------------------------
 
     ∑_i m_i𝐫_i = 0 and ∑_i m_i𝐯_i = 0,
 
@@ -652,15 +654,15 @@ inertia I and angular velocity ω,
 Single particle case
 
 In the case of a single particle moving about the arbitrary origin,
-𝐫_i    = 𝐯_i = 0, ; 𝐫    = 𝐑, ; 𝐯    = 𝐕, ; m    = M, ∑_i 𝐫_i ×m_i𝐯_i = 0, ∑_i I_iω_i = 0, and equations (2) and
-(3) for total angular momentum reduce to, 𝐋 = 𝐑 ×m𝐕 = I_Rω_R.
+𝐫_i    = 𝐯_i = 0, ; 𝐫    = 𝐑, ; 𝐯    = 𝐕, ; m    = M, ∑_i 𝐫_i ×m_i𝐯_i = 0, ∑_i I_iω_i = 0, and equations (2)
+and (3) for total angular momentum reduce to, 𝐋 = 𝐑 ×m𝐕 = I_Rω_R.
 
 Case of a fixed center of mass
 
 For the case of the center of mass fixed in space with respect to the
 origin, 𝐕 = 0, 𝐑 ×M𝐕 = 0, I_Rω_R = 0, and equations
-(2) and (3) for total angular momentum reduce to,
-𝐋 = ∑_i 𝐫_i ×m_i𝐯_i = ∑_i I_iω_i.
+(2) and (3) for total angular momentum reduce
+to, 𝐋 = ∑_i 𝐫_i ×m_i𝐯_i = ∑_i I_iω_i.
 
 Angular momentum in general relativity
 
@@ -673,11 +675,11 @@ conserved locally for general curved spacetimes, unless they have
 rotational symmetry; whereas globally the notion of angular momentum
 itself only makes sense if the spacetime is asymptotically flat. If the
 spacetime is only axially symmetric like for the Kerr metric, the total
-angular momentum is not conserved but p_ϕ is conserved which is
-related to the invariance of rotating around the symmetry-axis, where
-note that p_ϕ=g_ϕμp^μ=mg_μϕ dX^μ/dτ where g_μν is the metric, m=√(|p_μp^μ|) is
-the rest mass, dX^μ/dτ is the four-velocity, and X^μ=(t,r,θ,ϕ) is
-the four-position in spherical coordinates.
+angular momentum is not conserved but p_ϕ is conserved which
+is related to the invariance of rotating around the symmetry-axis, where
+note that p_ϕ=g_ϕμp^μ=mg_μϕ dX^μ/dτ where g_μν is the metric, m=√(|p_μp^μ|)
+is the rest mass, dX^μ/dτ is the four-velocity, and X^μ=(t,r,θ,ϕ)
+is the four-position in spherical coordinates.
 
 In classical mechanics, the angular momentum of a particle can be
 reinterpreted as a plane element: 𝐋 = 𝐫 ∧𝐩  , in which the exterior
@@ -771,13 +773,13 @@ values. For any system, the following restrictions on measurement
 results apply, where ħ is the reduced Planck constant and
 n̂ is any Euclidean vector such as x, y, or z:
 
-  ------------------------------ ----------------------------------
-  If you measure...              The result can be...
-  L_n̂                   …, -2ħ, -ħ, 0, ħ, 2ħ, …
+  -------------------------------- ------------------------------------
+  If you measure...                The result can be...
+  L_n̂                    …, -2ħ, -ħ, 0, ħ, 2ħ, …
   S_n̂ or J_n̂   …, -3/2ħ, -ħ, -1/2ħ, 0, 1/2ħ, ħ, 3/2ħ, …
-  L^2 ; =    L_x^2 + L_y^2 + L_z^2                   [ħ^2 n(n + 1)], where n = 0, 1, 2, …
+  L^2 ; =    L_x^2 + L_y^2 + L_z^2                    [ħ^2 n(n + 1)], where n = 0, 1, 2, …
   S^2 or J^2   [ħ^2 n(n + 1)], where n = 0, 12, 1, 32, …
-  ------------------------------ ----------------------------------
+  -------------------------------- ------------------------------------
 
 The reduced Planck constant ħ is tiny by everyday standards,
 about 10⁻³⁴ J s, and therefore this quantization does not noticeably
@@ -792,15 +794,15 @@ his Schrödinger equation.
 
 Uncertainty
 
-In the definition 𝐋=𝐫×𝐩, six operators are involved: The position
-operators r_x, r_y, r_z, and the momentum
-operators p_x, p_y, p_z. However, the
-Heisenberg uncertainty principle tells us that it is not possible for
-all six of these quantities to be known simultaneously with arbitrary
-precision. Therefore, there are limits to what can be known or measured
-about a particle's angular momentum. It turns out that the best that one
-can do is to simultaneously measure both the angular momentum vector's
-magnitude and its component along one axis.
+In the definition 𝐋=𝐫×𝐩, six operators are involved: The
+position operators r_x, r_y, r_z, and the
+momentum operators p_x, p_y, p_z. However,
+the Heisenberg uncertainty principle tells us that it is not possible
+for all six of these quantities to be known simultaneously with
+arbitrary precision. Therefore, there are limits to what can be known or
+measured about a particle's angular momentum. It turns out that the best
+that one can do is to simultaneously measure both the angular momentum
+vector's magnitude and its component along one axis.
 
 The uncertainty is closely related to the fact that different components
 of an angular momentum operator do not commute, for example
@@ -814,8 +816,8 @@ classical mechanics: 𝐋=𝐫×𝐩, but total angular momentum J is
 defined in a different, more basic way: J is defined as the "generator
 of rotations". More specifically, J is defined so that the operator
 R(n̂,ϕ) ≡exp(-i/ħϕ  𝐉·𝐧̂) is the rotation operator that takes any system and rotates
-it by angle ϕ about the axis 𝐧̂. (The "exp" in the
-formula refers to operator exponential.) To put this the other way
+it by angle ϕ about the axis 𝐧̂. (The "exp" in
+the formula refers to operator exponential.) To put this the other way
 around, whatever our quantum Hilbert space is, we expect that the
 rotation group SO(3) will act on it. There is then an associated action
 of the Lie algebra so(3) of SO(3); the operators describing the action

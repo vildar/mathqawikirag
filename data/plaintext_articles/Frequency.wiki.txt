@@ -91,7 +91,8 @@ the frequency f of a sinusoidal wave is equal to the phase velocity v of
 the wave divided by the wavelength λ of the wave: f = v/λ.
 
 In the special case of electromagnetic waves in vacuum, then , where c
-is the speed of light in vacuum, and this expression becomes f = c/λ.
+is the speed of light in vacuum, and this expression becomes
+f = c/λ.
 
 When monochromatic waves travel from one medium to another, their
 frequency remains the same—only their wavelength and speed change.
@@ -111,11 +112,11 @@ interval for a predetermined number of occurrences, rather than the
 number of occurrences within a specified time. The latter method
 introduces a random error into the count of between zero and one count,
 so on average half a count. This is called gating error and causes an
-average error in the calculated frequency of Δf = 1/2T_m, or a fractional
-error of Δf/f = 1/2 f T_m where T_m is the timing interval and
-f is the measured frequency. This error decreases with
-frequency, so it is generally a problem at low frequencies where the
-number of counts N is small.
+average error in the calculated frequency of Δf = 1/2T_m, or a
+fractional error of Δf/f = 1/2 f T_m where T_m is the timing
+interval and f is the measured frequency. This error
+decreases with frequency, so it is generally a problem at low
+frequencies where the number of counts N is small.
 
 Stroboscope
 

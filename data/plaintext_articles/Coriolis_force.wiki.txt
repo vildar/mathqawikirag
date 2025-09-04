@@ -57,22 +57,22 @@ for the rotation and thus formation of cyclones .
 Formula
 
 In Newtonian mechanics, the equation of motion for an object in an
-inertial reference frame is: 𝐅 = m𝐚 where 𝐅 is the vector
-sum of the physical forces acting on the object, m is the mass
-of the object, and 𝐚 is the acceleration of the object relative
-to the inertial reference frame.
+inertial reference frame is: 𝐅 = m𝐚 where 𝐅 is the
+vector sum of the physical forces acting on the object, m is
+the mass of the object, and 𝐚 is the acceleration of the
+object relative to the inertial reference frame.
 
 Transforming this equation to a reference frame rotating about a fixed
-axis through the origin with angular velocity ω having variable
-rotation rate, the equation takes the form: 𝐅'    =
-𝐅 - md ω/dt×𝐫' - 2m ω×𝐯' - mω ×(ω ×𝐫') ;     = m𝐚' where the prime
-(') variables denote coordinates of the rotating reference frame (not a
-derivative) and:
+axis through the origin with angular velocity ω having
+variable rotation rate, the equation takes the form: 𝐅'    =
+𝐅 - md ω/dt×𝐫' - 2m ω×𝐯' - mω ×(ω ×𝐫') ;     = m𝐚' where
+the prime (') variables denote coordinates of the rotating reference
+frame (not a derivative) and:
 
 -   𝐅 is the vector sum of the physical forces acting on the
     object
--   ω is the angular velocity of the rotating reference frame
-    relative to the inertial frame
+-   ω is the angular velocity of the rotating reference
+    frame relative to the inertial frame
 -   𝐫 ' is the position vector of the object relative to the
     rotating reference frame
 -   𝐯 ' is the velocity of the object relative to the rotating
@@ -91,10 +91,10 @@ are, reading from left to right:
 
 As seen in these formulas the Euler and centrifugal forces depend on the
 position vector 𝐫 ' of the object, while the Coriolis force
-depends on the object's velocity 𝐯 ' as measured in the rotating
-reference frame. As expected, for a non-rotating inertial frame of
-reference (ω=0) the Coriolis force and all other fictitious forces
-disappear.
+depends on the object's velocity 𝐯 ' as measured in the
+rotating reference frame. As expected, for a non-rotating inertial frame
+of reference (ω=0) the Coriolis force and all other fictitious
+forces disappear.
 
 Direction of Coriolis force for simple cases
 
@@ -254,8 +254,8 @@ This component is orthogonal to the velocity over the Earth surface and
 is given by the expression ω  v  2   sinϕ where
 
 -   ω is the spin rate of the Earth
--   ϕ is the latitude, positive in the northern hemisphere and
-    negative in the southern hemisphere
+-   ϕ is the latitude, positive in the northern hemisphere
+    and negative in the southern hemisphere
 
 In the northern hemisphere, where the latitude is positive, this
 acceleration, as viewed from above, is to the right of the direction of
@@ -358,10 +358,10 @@ An air or water mass moving with speed v subject only to the
 Coriolis force travels in a circular trajectory called an inertial
 circle. Since the force is directed at right angles to the motion of the
 particle, it moves with a constant speed around a circle whose radius
-R is given by: R = v/f where f is the Coriolis
-parameter 2 Ωsinφ, introduced above (where φ is the
-latitude). The time taken for the mass to complete a full circle is
-therefore 2π/f. The Coriolis parameter typically has a
+R is given by: R = v/f where f is the
+Coriolis parameter 2 Ωsinφ, introduced above (where φ
+is the latitude). The time taken for the mass to complete a full circle
+is therefore 2π/f. The Coriolis parameter typically has a
 mid-latitude value of about 10⁻⁴ s⁻¹; hence for a typical atmospheric
 speed of , the radius is with a period of about 17 hours. For an ocean
 current with a typical speed of , the radius of an inertial circle is .
@@ -371,11 +371,11 @@ hemisphere.
 
 If the rotating system is a parabolic turntable, then f is
 constant and the trajectories are exact circles. On a rotating planet,
-f varies with latitude and the paths of particles do not form
-exact circles. Since the parameter f varies as the sine of the
-latitude, the radius of the oscillations associated with a given speed
-are smallest at the poles (latitude of ±90°), and increase toward the
-equator.
+f varies with latitude and the paths of particles do not
+form exact circles. Since the parameter f varies as the sine
+of the latitude, the radius of the oscillations associated with a given
+speed are smallest at the poles (latitude of ±90°), and increase toward
+the equator.
 
 Other terrestrial effects
 
@@ -530,10 +530,10 @@ it and waiting for at least 24 hours for the water to settle. Under
 these precise laboratory conditions, he demonstrated the effect and
 consistent counterclockwise rotation. The experiment required extreme
 precision, since the acceleration due to Coriolis effect is only
-3×10^-7 that of gravity. The vortex was measured by a cross made of
-two slivers of wood pinned above the draining hole. It takes 20 minutes
-to drain, and the cross starts turning only around 15 minutes. At the
-end it is turning at 1 rotation every 3 to 4 seconds.
+3×10^-7 that of gravity. The vortex was measured by a cross made
+of two slivers of wood pinned above the draining hole. It takes 20
+minutes to drain, and the cross starts turning only around 15 minutes.
+At the end it is turning at 1 rotation every 3 to 4 seconds.
 
 He reported that,
 
@@ -577,11 +577,12 @@ A_X = -2 ω( V_Y cosθ_lat sinϕ_az + V_Z  sinθ_lat ) A_Y = 2 ω( V_X cosθ_lat
     acceleration to the right.
 -   V_X, down-range velocity.
 -   V_Y, vertical velocity with positive indicating upward.
--   V_Z, cross-range velocity with positive indicating velocity
-    to the right.
+-   V_Z, cross-range velocity with positive indicating
+    velocity to the right.
 -   ω = 0.00007292 rad/sec, angular velocity of the earth
     (based on a sidereal day).
--   θ_lat, latitude with positive indicating Northern hemisphere.
+-   θ_lat, latitude with positive indicating Northern
+    hemisphere.
 -   ϕ_az, azimuth measured clockwise from due North.
 
 Visualization

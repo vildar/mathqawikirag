@@ -1,6 +1,6 @@
 '''Angular momentum''' (sometimes called '''moment of momentum''' or '''rotational momentum''') is the [[rotational]] analog of [[Momentum|linear momentum]]. It is an important [[physical quantity]] because it is a [[Conservation law|conserved quantity]]&nbsp;– the total angular momentum of a [[closed system]] remains constant.  Angular momentum has both a [[direction (geometry)|direction]] and a magnitude, and both are conserved.  [[Bicycle and motorcycle dynamics|Bicycles and motorcycles]], [[flying disc]]s, [[Rifling|rifled bullets]], and [[gyroscope]]s owe their useful properties to conservation of angular momentum.  Conservation of angular momentum is also why [[hurricane]]s form spirals and [[neutron star]]s have high rotational rates.  In general, conservation limits the possible motion of a system, but it does not uniquely determine it.
 
-The three-dimensional angular momentum for a [[point particle]] is classically represented as a [[pseudovector]] __MATH_0__, the [[cross product]] of the particle's [[position vector]] __MATH_1__ (relative to some origin) and its [[momentum vector]]; the latter is __MATH_2__ in [[Newtonian mechanics]]. Unlike linear momentum, angular momentum depends on where this origin is chosen, since the particle's position is measured from it.
+The three-dimensional angular momentum for a [[point particle]] is classically represented as a [[pseudovector]] __MATH_2417__, the [[cross product]] of the particle's [[position vector]] __MATH_2418__ (relative to some origin) and its [[momentum vector]]; the latter is __MATH_2419__ in [[Newtonian mechanics]]. Unlike linear momentum, angular momentum depends on where this origin is chosen, since the particle's position is measured from it.
 
 Angular momentum is an [[Intensive and extensive properties|extensive quantity]]; that is, the total angular momentum of any composite system is the sum of the angular momenta of its constituent parts. For a [[Continuum mechanics|continuous]]&nbsp;[[rigid body]] or a [[fluid]], the total angular momentum is the [[volume integral]] of angular momentum density (angular momentum per unit volume in the limit as volume shrinks to zero) over the entire body.
 
@@ -9,26 +9,26 @@ Similar to conservation of linear momentum, where it is conserved if there is no
 The change in angular momentum for a particular interaction is called '''angular impulse''', sometimes '''twirl'''. Angular impulse is the angular analog of (linear) [[Impulse (physics)|impulse]].
 
 == Examples ==
-The trivial case of the angular momentum __MATH_3__ of a body in an orbit is given by
-__MATH_4__
-where __MATH_5__ is the [[mass]] of the orbiting object, __MATH_6__ is the orbit's [[frequency]] and __MATH_7__ is the orbit's radius.
+The trivial case of the angular momentum __MATH_2420__ of a body in an orbit is given by
+__MATH_2421__
+where __MATH_2422__ is the [[mass]] of the orbiting object, __MATH_2423__ is the orbit's [[frequency]] and __MATH_2424__ is the orbit's radius.
 
-The angular momentum __MATH_8__ of a uniform rigid sphere rotating around its axis, instead, is given by
-__MATH_9__
-where __MATH_10__ is the sphere's mass, __MATH_11__ is the frequency of rotation and __MATH_12__ is the sphere's radius.
+The angular momentum __MATH_2425__ of a uniform rigid sphere rotating around its axis, instead, is given by
+__MATH_2426__
+where __MATH_2427__ is the sphere's mass, __MATH_2428__ is the frequency of rotation and __MATH_2429__ is the sphere's radius.
 
 Thus, for example, the orbital angular momentum of the [[Earth]] with respect to the Sun is about 2.66 × 10<sup>40</sup> kg⋅m<sup>2</sup>⋅s<sup>−1</sup>, while its rotational angular momentum is about 7.05 × 10<sup>33</sup> kg⋅m<sup>2</sup>⋅s<sup>−1</sup>.
 
-In the case of a uniform rigid sphere rotating around its axis, if, instead of its mass, its [[density]] is known, the angular momentum __MATH_13__ is given by
-__MATH_14__
-where __MATH_15__ is the sphere's [[density]], __MATH_16__ is the frequency of rotation and __MATH_17__ is the sphere's radius.
+In the case of a uniform rigid sphere rotating around its axis, if, instead of its mass, its [[density]] is known, the angular momentum __MATH_2430__ is given by
+__MATH_2431__
+where __MATH_2432__ is the sphere's [[density]], __MATH_2433__ is the frequency of rotation and __MATH_2434__ is the sphere's radius.
 
-In the simplest case of a spinning disk, the angular momentum __MATH_18__ is given by
-__MATH_19__
-where __MATH_20__ is the disk's mass, __MATH_21__ is the frequency of rotation and __MATH_22__ is the disk's radius.
+In the simplest case of a spinning disk, the angular momentum __MATH_2435__ is given by
+__MATH_2436__
+where __MATH_2437__ is the disk's mass, __MATH_2438__ is the frequency of rotation and __MATH_2439__ is the disk's radius.
 
-If instead the disk rotates about its diameter (e.g. coin toss), its angular momentum __MATH_23__ is given by
-__MATH_24__
+If instead the disk rotates about its diameter (e.g. coin toss), its angular momentum __MATH_2440__ is given by
+__MATH_2441__
 
 == Definition in classical mechanics ==
 
@@ -36,77 +36,77 @@ Just as for [[angular velocity]], there are two special types of angular [[momen
 
 === Orbital angular momentum in two dimensions ===
 
-Angular momentum is a [[Euclidean vector|vector]] quantity (more precisely, a [[pseudovector]]) that represents the product of a body's [[moment of inertia|rotational inertia]] and [[angular velocity|rotational velocity]] (in radians/sec) about a particular axis. However, if the particle's trajectory lies in a single [[plane (geometry)|plane]], it is sufficient to discard the vector nature of angular momentum, and treat it as a [[scalar (mathematics)|scalar]] (more precisely, a [[pseudoscalar]]). Angular momentum can be considered a rotational analog of linear momentum. Thus, where linear momentum __MATH_25__ is proportional to [[mass]] __MATH_26__ and [[speed|linear speed]] 
-__MATH_27__
-angular momentum __MATH_28__ is proportional to [[moment of inertia]] __MATH_29__ and [[angular frequency|angular speed]] __MATH_30__ measured in radians per second.
-__MATH_31__
+Angular momentum is a [[Euclidean vector|vector]] quantity (more precisely, a [[pseudovector]]) that represents the product of a body's [[moment of inertia|rotational inertia]] and [[angular velocity|rotational velocity]] (in radians/sec) about a particular axis. However, if the particle's trajectory lies in a single [[plane (geometry)|plane]], it is sufficient to discard the vector nature of angular momentum, and treat it as a [[scalar (mathematics)|scalar]] (more precisely, a [[pseudoscalar]]). Angular momentum can be considered a rotational analog of linear momentum. Thus, where linear momentum __MATH_2442__ is proportional to [[mass]] __MATH_2443__ and [[speed|linear speed]] 
+__MATH_2444__
+angular momentum __MATH_2445__ is proportional to [[moment of inertia]] __MATH_2446__ and [[angular frequency|angular speed]] __MATH_2447__ measured in radians per second.
+__MATH_2448__
 
-Unlike mass, which depends only on amount of matter, moment of inertia depends also on the position of the axis of rotation and the distribution of the matter. Unlike linear velocity, which does not depend upon the choice of origin, orbital angular velocity is always measured with respect to a fixed origin. Therefore, strictly speaking, __MATH_32__ should be referred to as the angular momentum ''relative to that center''.
+Unlike mass, which depends only on amount of matter, moment of inertia depends also on the position of the axis of rotation and the distribution of the matter. Unlike linear velocity, which does not depend upon the choice of origin, orbital angular velocity is always measured with respect to a fixed origin. Therefore, strictly speaking, __MATH_2449__ should be referred to as the angular momentum ''relative to that center''.
 
-In the case of circular motion of a single particle, we can use __MATH_33__ and __MATH_34__ to expand angular momentum as __MATH_35__ reducing to:
-__MATH_36__
+In the case of circular motion of a single particle, we can use __MATH_2450__ and __MATH_2451__ to expand angular momentum as __MATH_2452__ reducing to:
+__MATH_2453__
 
-the product of the [[radius]] of rotation __MATH_37__ and the linear momentum of the particle __MATH_38__, where __MATH_39__ is the [[Speed#Tangential speed|linear (tangential) speed]].
+the product of the [[radius]] of rotation __MATH_2454__ and the linear momentum of the particle __MATH_2455__, where __MATH_2456__ is the [[Speed#Tangential speed|linear (tangential) speed]].
 
 This simple analysis can also apply to non-circular motion if one uses the component of the motion [[perpendicular]] to the [[radius vector]]:
-__MATH_40__
-where __MATH_41__ is the perpendicular component of the motion. Expanding, __MATH_42__ rearranging, __MATH_43__ and reducing, angular momentum can also be expressed,
-__MATH_44__
-where __MATH_45__ is the length of the [[torque#Moment arm formula|''moment arm'']], a line dropped perpendicularly from the origin onto the path of the particle. It is this definition, __MATH_46__, to which the term ''moment of momentum'' refers.
+__MATH_2457__
+where __MATH_2458__ is the perpendicular component of the motion. Expanding, __MATH_2459__ rearranging, __MATH_2460__ and reducing, angular momentum can also be expressed,
+__MATH_2461__
+where __MATH_2462__ is the length of the [[torque#Moment arm formula|''moment arm'']], a line dropped perpendicularly from the origin onto the path of the particle. It is this definition, __MATH_2463__, to which the term ''moment of momentum'' refers.
 
 === Scalar angular momentum from Lagrangian mechanics ===
-Another approach is to define angular momentum as the conjugate momentum (also called '''canonical momentum''') of the angular coordinate __MATH_47__ expressed in the [[Lagrangian mechanics|Lagrangian]] of the mechanical system. Consider a mechanical system with a mass __MATH_48__ constrained to move in a circle of radius __MATH_49__ in the absence of any external force field. The kinetic energy of the system is
-__MATH_50__
+Another approach is to define angular momentum as the conjugate momentum (also called '''canonical momentum''') of the angular coordinate __MATH_2464__ expressed in the [[Lagrangian mechanics|Lagrangian]] of the mechanical system. Consider a mechanical system with a mass __MATH_2465__ constrained to move in a circle of radius __MATH_2466__ in the absence of any external force field. The kinetic energy of the system is
+__MATH_2467__
 
 And the potential energy is
-__MATH_51__
+__MATH_2468__
 
 Then the Lagrangian is
-__MATH_52__
+__MATH_2469__
 
-The ''generalized momentum'' "canonically conjugate to" the coordinate __MATH_53__ is defined by
-__MATH_54__
+The ''generalized momentum'' "canonically conjugate to" the coordinate __MATH_2470__ is defined by
+__MATH_2471__
 
 === Orbital angular momentum in three dimensions ===
 
 To completely define orbital angular momentum in [[Three-dimensional space|three dimensions]], it is required to know the rate at which the position vector sweeps out an angle, the direction perpendicular to the instantaneous plane of [[angular displacement]], and the [[mass]] involved, as well as how this mass is distributed in space. By retaining this [[Euclidean vector|vector]] nature of angular momentum, the general nature of the equations is also retained, and can describe any sort of three-dimensional [[Motion (physics)|motion]] about the center of rotation – [[Circular motion|circular]], [[Linear motion|linear]], or otherwise. In [[vector notation]], the orbital angular momentum of a [[point particle]] in motion about the origin can be expressed as:
-__MATH_55__
+__MATH_2472__
 where
-* __MATH_56__ is the [[moment of inertia]] for a [[Point particle|point mass]],
-* __MATH_57__ is the orbital [[angular velocity]] of the particle about the origin,
-* __MATH_58__ is the position vector of the particle relative to the origin, and __MATH_59__,
-* __MATH_60__ is the linear velocity of the particle relative to the origin, and
-* __MATH_61__ is the mass of the particle.
+* __MATH_2473__ is the [[moment of inertia]] for a [[Point particle|point mass]],
+* __MATH_2474__ is the orbital [[angular velocity]] of the particle about the origin,
+* __MATH_2475__ is the position vector of the particle relative to the origin, and __MATH_2476__,
+* __MATH_2477__ is the linear velocity of the particle relative to the origin, and
+* __MATH_2478__ is the mass of the particle.
 
 This can be expanded, reduced, and by the rules of [[vector calculus|vector algebra]], rearranged:
-__MATH_62__
-which is the [[cross product]] of the position vector __MATH_63__ and the linear momentum __MATH_64__ of the particle. By the definition of the cross product, the __MATH_65__ vector is [[perpendicular]] to both __MATH_66__ and __MATH_67__. It is directed perpendicular to the plane of angular displacement, as indicated by the [[right-hand rule]] – so that the angular velocity is seen as [[clockwise|counter-clockwise]] from the head of the vector. Conversely, the __MATH_68__ vector defines the [[Plane (geometry)|plane]] in which __MATH_69__ and __MATH_70__ lie.
+__MATH_2479__
+which is the [[cross product]] of the position vector __MATH_2480__ and the linear momentum __MATH_2481__ of the particle. By the definition of the cross product, the __MATH_2482__ vector is [[perpendicular]] to both __MATH_2483__ and __MATH_2484__. It is directed perpendicular to the plane of angular displacement, as indicated by the [[right-hand rule]] – so that the angular velocity is seen as [[clockwise|counter-clockwise]] from the head of the vector. Conversely, the __MATH_2485__ vector defines the [[Plane (geometry)|plane]] in which __MATH_2486__ and __MATH_2487__ lie.
 
-By defining a [[unit vector]] __MATH_71__ perpendicular to the plane of angular displacement, a [[angular frequency|scalar angular speed]] __MATH_72__ results, where
-__MATH_73__ and
-__MATH_74__ where __MATH_75__ is the perpendicular component of the motion, as above.
+By defining a [[unit vector]] __MATH_2488__ perpendicular to the plane of angular displacement, a [[angular frequency|scalar angular speed]] __MATH_2489__ results, where
+__MATH_2490__ and
+__MATH_2491__ where __MATH_2492__ is the perpendicular component of the motion, as above.
 
 The two-dimensional scalar equations of the previous section can thus be given direction:
-__MATH_76__
-and __MATH_77__ for circular motion, where all of the motion is perpendicular to the radius __MATH_78__.
+__MATH_2493__
+and __MATH_2494__ for circular motion, where all of the motion is perpendicular to the radius __MATH_2495__.
 
 In the [[spherical coordinate system]]  the angular momentum vector expresses as
-: __MATH_79__
+: __MATH_2496__
 
 == Analogy to linear momentum ==
 Angular momentum can be described as the rotational analog of [[linear momentum]]. Like linear momentum it involves elements of [[mass]] and [[Displacement (vector)|displacement]]. Unlike linear momentum it also involves elements of [[Position (vector)|position]] and [[shape]].
 
 Many problems in physics involve matter in motion about some certain point in space, be it in actual rotation about it, or simply moving past it, where it is desired to know what effect the moving matter has on the point—can it exert energy upon it or perform work about it? [[Energy]], the ability to do [[Work (physics)|work]], can be stored in matter by setting it in motion—a combination of its [[inertia]] and its displacement. Inertia is measured by its [[mass]], and displacement by its [[velocity]]. Their product,
-__MATH_80__
+__MATH_2497__
 is the matter's [[momentum]]. Referring this momentum to a central point introduces a complication: the momentum is not applied to the point directly. For instance, a particle of matter at the outer edge of a wheel is, in effect, at the end of a [[lever]] of the same length as the wheel's radius, its momentum turning the lever about the center point. This imaginary lever is known as the ''moment arm''. It has the effect of multiplying the momentum's effort in proportion to its length, an effect known as a [[Moment (physics)|''moment''.]] Hence, the particle's momentum referred to a particular point,
-__MATH_81__
-is the ''angular momentum'', sometimes called, as here, the ''moment of momentum'' of the particle versus that particular center point. The equation __MATH_82__ combines a moment (a mass __MATH_83__ turning moment arm __MATH_84__) with a linear (straight-line equivalent) speed __MATH_85__. Linear speed referred to the central point is simply the product of the distance __MATH_86__ and the angular speed __MATH_87__ versus the point: __MATH_88__ another moment. Hence, angular momentum contains a double moment: __MATH_89__ Simplifying slightly, __MATH_90__ the quantity __MATH_91__ is the particle's [[moment of inertia]], sometimes called the second moment of mass. It is a measure of rotational inertia.
+__MATH_2498__
+is the ''angular momentum'', sometimes called, as here, the ''moment of momentum'' of the particle versus that particular center point. The equation __MATH_2499__ combines a moment (a mass __MATH_2500__ turning moment arm __MATH_2501__) with a linear (straight-line equivalent) speed __MATH_2502__. Linear speed referred to the central point is simply the product of the distance __MATH_2503__ and the angular speed __MATH_2504__ versus the point: __MATH_2505__ another moment. Hence, angular momentum contains a double moment: __MATH_2506__ Simplifying slightly, __MATH_2507__ the quantity __MATH_2508__ is the particle's [[moment of inertia]], sometimes called the second moment of mass. It is a measure of rotational inertia.
 
 
 
 The above analogy of the translational momentum and rotational momentum can be expressed in vector form:
-* __MATH_92__ for linear motion
-* __MATH_93__ for rotation
+* __MATH_2509__ for linear motion
+* __MATH_2510__ for rotation
 
 The direction of momentum is related to the direction of the velocity for linear movement. The direction of angular momentum is related to the angular velocity of the rotation.
 
@@ -118,11 +118,11 @@ For a [[rigid body]], for instance a wheel or an asteroid, the orientation of ro
 For a collection of objects revolving about a center, for instance all of the bodies of the [[Solar System]], the orientations may be somewhat organized, as is the Solar System, with most of the bodies' axes lying close to the system's axis. Their orientations may also be completely random.
 
 In brief, the more mass and the farther it is from the center of rotation (the longer the [[Torque#Moment arm formula|moment arm]]), the greater the moment of inertia, and therefore the greater the angular momentum for a given [[angular velocity]]. In many cases the [[moment of inertia]], and hence the angular momentum, can be simplified by,
-__MATH_94__where __MATH_95__ is the [[radius of gyration]], the distance from the axis at which the entire mass __MATH_96__ may be considered as concentrated.
+__MATH_2511__where __MATH_2512__ is the [[radius of gyration]], the distance from the axis at which the entire mass __MATH_2513__ may be considered as concentrated.
 
-Similarly, for a [[Point particle|point mass]] __MATH_97__ the [[moment of inertia]] is defined as,
-__MATH_98__where __MATH_99__ is the [[radius]] of the point mass from the center of rotation, and for any collection of particles __MATH_100__ as the sum,
-__MATH_101__
+Similarly, for a [[Point particle|point mass]] __MATH_2514__ the [[moment of inertia]] is defined as,
+__MATH_2515__where __MATH_2516__ is the [[radius]] of the point mass from the center of rotation, and for any collection of particles __MATH_2517__ as the sum,
+__MATH_2518__
 
 Angular momentum's dependence on position and shape is reflected in its [[Units of measurement|units]] versus linear momentum: kg⋅m<sup>2</sup>/s or N⋅m⋅s for angular momentum versus [[SI derived unit|kg⋅m/s]] or [[SI derived unit|N⋅s]] for linear momentum. When calculating angular momentum as the product of the moment of inertia times the angular velocity, the angular velocity must be expressed in radians per second, where the radian assumes the dimensionless value of unity. (When performing dimensional analysis, it may be productive to use [[Dimensional analysis#Siano's extension: orientational analysis|orientational analysis]] which treats radians as a base unit, but this is not done in the [[International system of units]]). The units if angular momentum can be interpreted as [[torque]]⋅time. An object with angular momentum of  can be reduced to zero angular velocity by an angular [[Impulse (physics)|impulse]] of .
 
@@ -131,14 +131,14 @@ The [[Plane (geometry)|plane]] [[perpendicular]] to the axis of angular momentum
 === Angular momentum and torque ===
 
 [[Newton's laws of motion#Newton's second law|Newton's second law of motion]] can be expressed mathematically,
-__MATH_102__
+__MATH_2519__
 or [[force]] = [[mass]] × [[acceleration]]. The rotational equivalent for point particles may be derived as follows:
-__MATH_103__
+__MATH_2520__
 which means that the torque (i.e. the time [[derivative]] of the angular momentum) is
-__MATH_104__
+__MATH_2521__
 
-Because the moment of inertia is __MATH_105__, it follows that __MATH_106__, and __MATH_107__ which, reduces to
-__MATH_108__
+Because the moment of inertia is __MATH_2522__, it follows that __MATH_2523__, and __MATH_2524__ which, reduces to
+__MATH_2525__
 This is the rotational analog of Newton's second law. Note that the torque is not necessarily proportional or parallel to the [[angular acceleration]] (as one might expect). The reason for this is that the moment of inertia of a particle can change with time, something that cannot occur for ordinary mass.
 
 == Conservation of angular momentum <span class="anchor" id="conservation_of_angr_mntm_anchor"></span> ==
@@ -150,7 +150,7 @@ A rotational analog of [[Newton's laws of motion#Newton's third law|Newton's thi
 
 Seen another way, a rotational analogue of [[Newton's laws of motion#Newton's first law|Newton's first law of motion]] might be written, "A rigid body continues in a state of uniform rotation unless acted upon by an external influence." Thus ''with no external influence to act upon it, the original angular momentum of the system remains constant''.
 
-The conservation of angular momentum is used in analyzing [[Classical central-force problem|''central force motion'']]. If the net force on some body is directed always toward some point, the ''center'', then there is no torque on the body with respect to the center, as all of the force is directed along the [[Position (vector)|radius vector]], and none is [[perpendicular]] to the radius. Mathematically, torque __MATH_109__ because in this case __MATH_110__ and __MATH_111__ are parallel vectors. Therefore, the angular momentum of the body about the center is constant. This is the case with [[gravity|gravitational attraction]] in the [[orbit]]s of [[planet]]s and [[satellite]]s, where the gravitational force is always directed toward the primary body and orbiting bodies conserve angular momentum by exchanging distance and velocity as they move about the primary. Central force motion is also used in the analysis of the [[Bohr model]] of the [[atom]].
+The conservation of angular momentum is used in analyzing [[Classical central-force problem|''central force motion'']]. If the net force on some body is directed always toward some point, the ''center'', then there is no torque on the body with respect to the center, as all of the force is directed along the [[Position (vector)|radius vector]], and none is [[perpendicular]] to the radius. Mathematically, torque __MATH_2526__ because in this case __MATH_2527__ and __MATH_2528__ are parallel vectors. Therefore, the angular momentum of the body about the center is constant. This is the case with [[gravity|gravitational attraction]] in the [[orbit]]s of [[planet]]s and [[satellite]]s, where the gravitational force is always directed toward the primary body and orbiting bodies conserve angular momentum by exchanging distance and velocity as they move about the primary. Central force motion is also used in the analysis of the [[Bohr model]] of the [[atom]].
 
 For a planet, angular momentum is distributed between the spin of the planet and its revolution in its orbit, and these are often exchanged by various mechanisms. The conservation of angular momentum in the [[Lunar theory|Earth–Moon system]] results in the transfer of angular momentum from Earth to Moon, due to [[Tidal acceleration|tidal torque]] the Moon exerts on the Earth. This in turn results in the slowing down of the rotation rate of Earth, at about 65.7 nanoseconds per day, and in gradual increase of the radius of Moon's orbit, at about 3.82&nbsp;centimeters per year.
 
@@ -169,94 +169,94 @@ Conservation is not always a full explanation for the dynamics of a system but i
 While angular momentum total conservation can be understood separately from [[Newton's laws of motion]] as stemming from [[Noether's theorem]] in systems symmetric under rotations, it can also be understood simply as an efficient method of calculation of results that can also be otherwise arrived at directly from Newton's second law, together with laws governing the forces of nature (such as Newton's third law, [[Maxwell's equations]] and [[Lorentz force]]). Indeed, given initial conditions of position and velocity for every point, and the forces at such a condition, one may use Newton's second law to calculate the second derivative of position, and solving for this gives full information on the development of the physical system with time. Note, however, that this is no longer true in [[quantum mechanics]], due to the existence of [[Spin (physics)|particle spin]], which is an angular momentum that cannot be described by the cumulative effect of point-like motions in space.
 
 As an example, consider decreasing of the [[moment of inertia]], e.g. when a [[figure skating|figure skater]] is pulling in their hands, speeding up the circular motion. In terms of angular momentum conservation, we have, for angular momentum ''L'', moment of inertia ''I'' and angular velocity ''ω'':
-__MATH_112__
+__MATH_2529__
 
 Using this, we see that the change requires an energy of:
-__MATH_113__
+__MATH_2530__
 so that a decrease in the moment of inertia requires investing energy.
 
 This can be compared to the work done as calculated using Newton's laws. Each point in the rotating body is accelerating, at each point of time, with radial acceleration of:
-__MATH_114__
+__MATH_2531__
 
 Let us observe a point of mass ''m'', whose position vector relative to the center of motion is perpendicular to the z-axis at a given point of time, and is at a distance ''z''. The [[centripetal force]] on this point, keeping the circular motion, is:
-__MATH_115__
+__MATH_2532__
 
 Thus the work required for moving this point to a distance ''dz'' farther from the center of motion is:
-__MATH_116__
+__MATH_2533__
 
 For a non-pointlike body one must integrate over this, with ''m'' replaced by the mass density per unit ''z''. This gives:
-__MATH_117__
+__MATH_2534__
 which is exactly the energy required for keeping the angular momentum conserved.
 
 Note, that the above calculation can also be performed per mass, using [[kinematics]] only. Thus the phenomena of figure skater accelerating tangential velocity while pulling their hands in, can be understood as follows in layman's language: The skater's palms are not moving in a straight line, so they are constantly accelerating inwards, but do not gain additional speed because the accelerating is always done when their motion inwards is zero. However, this is different when pulling the palms closer to the body: The acceleration due to rotation now increases the speed; but because of the rotation, the increase in speed does not translate to a significant speed inwards, but to an increase of the rotation speed.
 
 === Stationary-action principle ===
-In classical mechanics it can be shown that the rotational invariance of action functionals implies conservation of angular momentum. The action is defined in classical physics as a functional of positions, __MATH_118__ often represented by the use of square brackets, and the final and initial times. It assumes the following form in cartesian coordinates:__MATH_119__where the repeated indices indicate summation over the index. If the action is invariant of an infinitesimal transformation, it can be mathematically stated as: __MATH_120__.
+In classical mechanics it can be shown that the rotational invariance of action functionals implies conservation of angular momentum. The action is defined in classical physics as a functional of positions, __MATH_2535__ often represented by the use of square brackets, and the final and initial times. It assumes the following form in cartesian coordinates:__MATH_2536__where the repeated indices indicate summation over the index. If the action is invariant of an infinitesimal transformation, it can be mathematically stated as: __MATH_2537__.
 
-Under the transformation, __MATH_121__, the action becomes:
-__MATH_122__
-where we can employ the expansion of the terms up-to first order in __MATH_123__:
-__MATH_124__giving the following change in action:
-__MATH_125__
+Under the transformation, __MATH_2538__, the action becomes:
+__MATH_2539__
+where we can employ the expansion of the terms up-to first order in __MATH_2540__:
+__MATH_2541__giving the following change in action:
+__MATH_2542__
 
-Since all rotations can be expressed as [[3D rotation group#Exponential map|matrix exponential]] of skew-symmetric matrices, i.e. as __MATH_126__ where __MATH_127__ is a skew-symmetric matrix and __MATH_128__ is angle of rotation, we can express the change of coordinates due to the rotation __MATH_129__, up-to first order of infinitesimal angle of rotation, __MATH_130__ as:
-__MATH_131__
+Since all rotations can be expressed as [[3D rotation group#Exponential map|matrix exponential]] of skew-symmetric matrices, i.e. as __MATH_2543__ where __MATH_2544__ is a skew-symmetric matrix and __MATH_2545__ is angle of rotation, we can express the change of coordinates due to the rotation __MATH_2546__, up-to first order of infinitesimal angle of rotation, __MATH_2547__ as:
+__MATH_2548__
 
-Combining the equation of motion and '''rotational invariance of action''', we get from the above equations that:__MATH_132__Since this is true for any matrix __MATH_133__ that satisfies __MATH_134__ it results in the conservation of the following quantity:
-__MATH_135__
-as __MATH_136__. This corresponds to the conservation of angular momentum throughout the motion.
+Combining the equation of motion and '''rotational invariance of action''', we get from the above equations that:__MATH_2549__Since this is true for any matrix __MATH_2550__ that satisfies __MATH_2551__ it results in the conservation of the following quantity:
+__MATH_2552__
+as __MATH_2553__. This corresponds to the conservation of angular momentum throughout the motion.
 
 === Lagrangian formalism ===
-In [[Lagrangian mechanics]], angular momentum for rotation around a given axis, is the [[conjugate momentum]] of the [[generalized coordinate]] of the angle around the same axis. For example, __MATH_137__, the angular momentum around the z axis, is:
-__MATH_138__
-where __MATH_139__ is the Lagrangian and __MATH_140__ is the angle around the z axis.
+In [[Lagrangian mechanics]], angular momentum for rotation around a given axis, is the [[conjugate momentum]] of the [[generalized coordinate]] of the angle around the same axis. For example, __MATH_2554__, the angular momentum around the z axis, is:
+__MATH_2555__
+where __MATH_2556__ is the Lagrangian and __MATH_2557__ is the angle around the z axis.
 
-Note that __MATH_141__, the time derivative of the angle, is the [[angular velocity]] __MATH_142__. Ordinarily, the Lagrangian depends on the angular velocity through the kinetic energy: The latter can be written by separating the velocity to its radial and tangential part, with the tangential part at the x-y plane, around the z-axis, being equal to:
-__MATH_143__
+Note that __MATH_2558__, the time derivative of the angle, is the [[angular velocity]] __MATH_2559__. Ordinarily, the Lagrangian depends on the angular velocity through the kinetic energy: The latter can be written by separating the velocity to its radial and tangential part, with the tangential part at the x-y plane, around the z-axis, being equal to:
+__MATH_2560__
 where the subscript i stands for the i-th body, and ''m'', ''v''<sub>''T''</sub> and ''ω''<sub>''z''</sub> stand for mass, tangential velocity around the z-axis and angular velocity around that axis, respectively.
 
 For a body that is not point-like, with density ''ρ'', we have instead:
-__MATH_144__
+__MATH_2561__
 where integration runs over the area of the body, and ''I''<sub>z</sub> is the moment of inertia around the z-axis.
 
 Thus, assuming the potential energy does not depend on  ''ω''<sub>''z''</sub> (this assumption may fail for electromagnetic systems), we have the angular momentum of the ''i''th object:
-__MATH_145__
+__MATH_2562__
 
 We have thus far rotated each object by a separate angle; we may also define an overall angle ''θ''<sub>z</sub> by which we rotate the whole system, thus rotating also each object around the z-axis, and have the overall angular momentum:
-__MATH_146__
+__MATH_2563__
 
 From [[Euler–Lagrange equation]]s it then follows that:
-__MATH_147__
+__MATH_2564__
 
 Since the lagrangian is dependent upon the angles of the object only through the potential, we have:
-__MATH_148__
+__MATH_2565__
 which is the torque on the ''i''th object.
 
-Suppose the system is invariant to rotations, so that the potential is independent of an overall rotation by the angle ''θ''<sub>z</sub> (thus it may depend on the angles of objects only through their differences, in the form __MATH_149__). We therefore get for the total angular momentum:
-__MATH_150__
+Suppose the system is invariant to rotations, so that the potential is independent of an overall rotation by the angle ''θ''<sub>z</sub> (thus it may depend on the angles of objects only through their differences, in the form __MATH_2566__). We therefore get for the total angular momentum:
+__MATH_2567__
 And thus the angular momentum around the z-axis is conserved.
 
 This analysis can be repeated separately for each axis, giving conversation of the angular momentum vector. However, the angles around the three axes cannot be treated simultaneously as generalized coordinates, since they are not independent; in particular, two angles per point suffice to determine its position. While it is true that in the case of a rigid body, fully describing it requires, in addition to three [[Translational symmetry|translational]] degrees of freedom, also specification of three rotational degrees of freedom; however these cannot be defined as rotations around the [[Cartesian coordinate system|Cartesian axes]] (see [[Euler angles]]). This caveat is reflected in quantum mechanics in the non-trivial [[commutation relation]]s of the different components of the [[angular momentum operator]].
 
 === Hamiltonian formalism ===
 Equivalently, in [[Hamiltonian mechanics]] the Hamiltonian can be described as a function of the angular momentum. As before, the part of the kinetic energy related to rotation around the z-axis for the ''i''th object is:
-__MATH_151__
-which is analogous to the energy dependence upon momentum along the z-axis, __MATH_152__.
+__MATH_2568__
+which is analogous to the energy dependence upon momentum along the z-axis, __MATH_2569__.
 
 Hamilton's equations relate the angle around the z-axis to its conjugate momentum, the angular momentum around the same axis:
-__MATH_153__
+__MATH_2570__
 
 The first equation gives
-__MATH_154__
+__MATH_2571__
 
 And so we get the same results as in the Lagrangian formalism.
 
 Note, that for combining all axes together, we write the kinetic energy as:
-__MATH_155__
+__MATH_2572__
 where ''p''<sub>r</sub> is the momentum in the radial direction, and the [[moment of inertia#Inertia matrix in different reference frames|moment of inertia is a 3-dimensional matrix]]; bold letters stand for 3-dimensional vectors.
 
 For point-like bodies we have:
-__MATH_156__
+__MATH_2573__
 
 This form of the kinetic energy part of the Hamiltonian is useful in analyzing [[central potential]] problems, and is easily transformed to a [[quantum mechanical]] work frame (e.g. in the [[hydrogen atom]] problem).
 
@@ -265,104 +265,104 @@ This form of the kinetic energy part of the Hamiltonian is useful in analyzing [
 While in classical mechanics the language of angular momentum can be replaced by Newton's laws of motion, it is particularly useful for motion in [[central potential]] such as planetary motion in the solar system. Thus, the orbit of a planet in the solar system is defined by its energy, angular momentum and angles of the orbit major axis relative to a coordinate frame.
 
 In astrodynamics and [[celestial mechanics]], a quantity closely related to angular momentum is defined as
-__MATH_157__
-called ''[[specific angular momentum]]''. Note that __MATH_158__ [[Mass]] is often unimportant in orbital mechanics calculations, because motion of a body is determined by [[gravity]]. The primary body of the system is often so much larger than any bodies in motion about it that the gravitational effect of the smaller bodies on it can be neglected; it maintains, in effect, constant velocity. The motion of all bodies is affected by its gravity in the same way, regardless of mass, and therefore all move approximately the same way under the same conditions.
+__MATH_2574__
+called ''[[specific angular momentum]]''. Note that __MATH_2575__ [[Mass]] is often unimportant in orbital mechanics calculations, because motion of a body is determined by [[gravity]]. The primary body of the system is often so much larger than any bodies in motion about it that the gravitational effect of the smaller bodies on it can be neglected; it maintains, in effect, constant velocity. The motion of all bodies is affected by its gravity in the same way, regardless of mass, and therefore all move approximately the same way under the same conditions.
 
 == Solid bodies ==
 Angular momentum is also an extremely useful concept for describing rotating rigid bodies such as a [[gyroscope]] or a rocky planet.
 For a continuous mass distribution with [[density]] function ''ρ''('''r'''), a differential [[volume element]] ''dV'' with [[position vector]] '''r''' within the mass has a mass element ''dm'' = ''ρ''('''r''')''dV''. Therefore, the [[infinitesimal]] angular momentum of this element is:
-__MATH_159__
+__MATH_2576__
 and [[volume integral|integrating]] this [[differential (infinitesimal)|differential]] over the volume of the entire mass gives its total angular momentum:
-__MATH_160__
+__MATH_2577__
 
 In the derivation which follows, integrals similar to this can replace the sums for the case of continuous mass.
 
 === Collection of particles ===
 
 For a collection of particles in motion about an arbitrary origin, it is informative to develop the equation of angular momentum by resolving their motion into components about their own center of mass and about the origin. Given,
-* __MATH_161__ is the mass of particle __MATH_162__,
-* __MATH_163__ is the position vector of particle __MATH_164__ w.r.t. the origin,
-* __MATH_165__ is the velocity of particle __MATH_166__ w.r.t. the origin,
-* __MATH_167__ is the position vector of the center of mass w.r.t. the origin,
-* __MATH_168__ is the velocity of the center of mass w.r.t. the origin,
-* __MATH_169__ is the position vector of particle __MATH_170__ w.r.t. the center of mass,
-* __MATH_171__ is the velocity of particle __MATH_172__ w.r.t. the center of mass,
+* __MATH_2578__ is the mass of particle __MATH_2579__,
+* __MATH_2580__ is the position vector of particle __MATH_2581__ w.r.t. the origin,
+* __MATH_2582__ is the velocity of particle __MATH_2583__ w.r.t. the origin,
+* __MATH_2584__ is the position vector of the center of mass w.r.t. the origin,
+* __MATH_2585__ is the velocity of the center of mass w.r.t. the origin,
+* __MATH_2586__ is the position vector of particle __MATH_2587__ w.r.t. the center of mass,
+* __MATH_2588__ is the velocity of particle __MATH_2589__ w.r.t. the center of mass,
 
 The total mass of the particles is simply their sum,
-__MATH_173__
+__MATH_2590__
 
 The position vector of the center of mass is defined by,
-__MATH_174__
+__MATH_2591__
 
 By inspection,
-: __MATH_175__ and __MATH_176__
+: __MATH_2592__ and __MATH_2593__
 
 The total angular momentum of the collection of particles is the sum of the angular momentum of each particle,
-__MATH_177__
+__MATH_2594__
 
-Expanding __MATH_178__,
-: __MATH_179__
+Expanding __MATH_2595__,
+: __MATH_2596__
 
-Expanding __MATH_180__,
-: __MATH_181__
+Expanding __MATH_2597__,
+: __MATH_2598__
 
 It can be shown that (see sidebar),
 {| class="toccolours" style="float:right; margin-left:0.5em; margin-right:0.5em; font-size:84%; background:white; color:black; width:30em; max-width:30%;" cellspacing="5"
 | style="text-align:center;" |
-'''Prove that''' __MATH_182__
-__MATH_183__
-which, by the definition of the center of mass, is __MATH_184__ and similarly for __MATH_185__
+'''Prove that''' __MATH_2599__
+__MATH_2600__
+which, by the definition of the center of mass, is __MATH_2601__ and similarly for __MATH_2602__
 |}
-: __MATH_186__ and __MATH_187__
+: __MATH_2603__ and __MATH_2604__
 therefore the second and third terms vanish,
-: __MATH_188__
+: __MATH_2605__
 
 The first term can be rearranged,
-: __MATH_189__
+: __MATH_2606__
 and total angular momentum for the collection of particles is finally,
-__MATH_190__
+__MATH_2607__
 
 The first term is the angular momentum of the center of mass relative to the origin. Similar to ''{{section link|#Single particle}}'', below, it is the angular momentum of one particle of mass ''M'' at the center of mass moving with velocity '''V'''. The second term is the angular momentum of the particles moving relative to the center of mass, similar to ''{{section link|#Fixed center of mass}}'', below. The result is general—the motion of the particles is not restricted to rotation or revolution about the origin or center of mass. The particles need not be individual masses, but can be elements of a continuous distribution, such as a solid body.
 
-Rearranging equation (__MATH_191__) by vector identities, multiplying both terms by "one", and grouping appropriately,
-__MATH_192__
-gives the total angular momentum of the system of particles in terms of [[moment of inertia]] __MATH_193__ and [[angular velocity]] __MATH_194__,
+Rearranging equation (__MATH_2608__) by vector identities, multiplying both terms by "one", and grouping appropriately,
+__MATH_2609__
+gives the total angular momentum of the system of particles in terms of [[moment of inertia]] __MATH_2610__ and [[angular velocity]] __MATH_2611__,
 
-__MATH_195__
+__MATH_2612__
 
 ==== Single particle case ====
 In the case of a single particle moving about the arbitrary origin,
-__MATH_196__
-__MATH_197__
-__MATH_198__ and equations (__MATH_199__) and (__MATH_200__) for total angular momentum reduce to,
-__MATH_201__
+__MATH_2613__
+__MATH_2614__
+__MATH_2615__ and equations (__MATH_2616__) and (__MATH_2617__) for total angular momentum reduce to,
+__MATH_2618__
 
 ==== Case of a fixed center of mass ====
 For the case of the center of mass fixed in space with respect to the origin,
-__MATH_202__
-__MATH_203__
-__MATH_204__ and equations (__MATH_205__) and (__MATH_206__) for total angular momentum reduce to,
-__MATH_207__
+__MATH_2619__
+__MATH_2620__
+__MATH_2621__ and equations (__MATH_2622__) and (__MATH_2623__) for total angular momentum reduce to,
+__MATH_2624__
 
 
 == Angular momentum in general relativity ==
 
-In modern (20th century) theoretical physics, angular momentum (not including any intrinsic angular momentum – see [[#Angular momentum in quantum mechanics|below]]) is described using a different formalism, instead of a classical [[pseudovector]]. In this formalism, angular momentum is the [[2-form]] [[Noether charge]] associated with rotational invariance. As a result, angular momentum is generally not conserved locally for general [[curved space]]times, unless they have rotational symmetry; whereas globally the notion of angular momentum itself only makes sense if the spacetime is asymptotically flat. If the spacetime is only axially symmetric like for the [[Kerr metric]], the total angular momentum is not conserved but __MATH_208__ is conserved which is related to the invariance of rotating around the symmetry-axis, where note that __MATH_209__ where __MATH_210__ is the [[Metric tensor (general relativity)|metric]], __MATH_211__ is the [[rest mass]], __MATH_212__ is the [[four-velocity]], and __MATH_213__ is the four-position in spherical coordinates.
+In modern (20th century) theoretical physics, angular momentum (not including any intrinsic angular momentum – see [[#Angular momentum in quantum mechanics|below]]) is described using a different formalism, instead of a classical [[pseudovector]]. In this formalism, angular momentum is the [[2-form]] [[Noether charge]] associated with rotational invariance. As a result, angular momentum is generally not conserved locally for general [[curved space]]times, unless they have rotational symmetry; whereas globally the notion of angular momentum itself only makes sense if the spacetime is asymptotically flat. If the spacetime is only axially symmetric like for the [[Kerr metric]], the total angular momentum is not conserved but __MATH_2625__ is conserved which is related to the invariance of rotating around the symmetry-axis, where note that __MATH_2626__ where __MATH_2627__ is the [[Metric tensor (general relativity)|metric]], __MATH_2628__ is the [[rest mass]], __MATH_2629__ is the [[four-velocity]], and __MATH_2630__ is the four-position in spherical coordinates.
 
 In classical mechanics, the angular momentum of a particle can be reinterpreted as a plane element:
-__MATH_214__
+__MATH_2631__
 in which the [[exterior product]] (∧) replaces the [[cross product]] (×) (these products have similar characteristics but are nonequivalent). This has the advantage of a clearer geometric interpretation as a plane element, defined using the vectors '''x''' and '''p''', and the expression is true in any number of dimensions. In Cartesian coordinates:
-__MATH_215__
+__MATH_2632__
 or more compactly in index notation:
-__MATH_216__
+__MATH_2633__
 
 The angular velocity can also be defined as an anti-symmetric second order tensor, with components ''ω<sub>ij</sub>''. The relation between the two anti-symmetric tensors is given by the moment of inertia which must now be a fourth order tensor:
-__MATH_217__
+__MATH_2634__
 
 Again, this equation in '''L''' and '''''ω''''' as tensors is true in any number of dimensions. This equation also appears in the [[geometric algebra]] formalism, in which '''L''' and '''''ω''''' are bivectors, and the moment of inertia is a mapping between them.
 
 In [[relativistic mechanics]], the [[relativistic angular momentum]] of a particle is expressed as an [[antisymmetric tensor|anti-symmetric tensor]] of second order:
-__MATH_218__
+__MATH_2635__
 in terms of [[four-vector]]s, namely the [[four-position]] ''X'' and the [[four-momentum]] ''P'', and absorbs the above '''L''' together with the [[moment of mass]], i.e., the product of the relativistic mass of the particle and its [[center of mass]], which can be thought of as describing the motion of its center of mass, since mass–energy is conserved.
 
 In each of the above cases, for a system of particles the total angular momentum is just the sum of the individual particle angular momenta, and the center of mass is for the system.
@@ -373,7 +373,7 @@ In [[quantum mechanics]], angular momentum (like other quantities) is expressed 
 
 === Spin, orbital, and total angular momentum ===
 
-The classical definition of angular momentum as __MATH_219__ can be carried over to quantum mechanics, by reinterpreting '''r''' as the quantum [[position operator]] and '''p''' as the quantum [[momentum operator]]. '''L''' is then an [[Operator (physics)|operator]], specifically called the ''[[angular momentum operator|orbital angular momentum operator]]''. The components of the angular momentum operator satisfy the commutation relations of the [[lie algebra|Lie algebra]] [[3D rotation group|SO(3)]]. Indeed, these operators are precisely the infinitesimal action of the rotation group on the quantum [[Hilbert space]]. (See also the discussion below of the angular momentum operators as the generators of rotations.)
+The classical definition of angular momentum as __MATH_2636__ can be carried over to quantum mechanics, by reinterpreting '''r''' as the quantum [[position operator]] and '''p''' as the quantum [[momentum operator]]. '''L''' is then an [[Operator (physics)|operator]], specifically called the ''[[angular momentum operator|orbital angular momentum operator]]''. The components of the angular momentum operator satisfy the commutation relations of the [[lie algebra|Lie algebra]] [[3D rotation group|SO(3)]]. Indeed, these operators are precisely the infinitesimal action of the rotation group on the quantum [[Hilbert space]]. (See also the discussion below of the angular momentum operators as the generators of rotations.)
 
 However, in quantum physics, there is another type of angular momentum, called ''spin angular momentum'', represented by the spin operator '''S'''. Spin is often depicted as a particle literally spinning around an axis, but this is a misleading and inaccurate picture: spin is an intrinsic property of a particle, unrelated to any sort of motion in space and fundamentally different from orbital angular momentum. All [[elementary particle]]s have a characteristic spin (possibly zero), and almost all [[elementary particle]]s have nonzero spin. For example [[electron]]s have "spin 1/2" (this actually means "spin [[reduced Planck constant|ħ]]/2"), [[photon]]s have "spin 1" (this actually means "spin ħ"), and [[Pion|pi-mesons]] have spin 0.
 
@@ -383,60 +383,60 @@ In molecules the total angular momentum '''F''' is the sum of the rovibronic (or
 
 === Quantization ===
 
-In [[quantum mechanics]], angular momentum is [[angular momentum quantization|quantized]] – that is, it cannot vary continuously, but only in "[[Quantum number|quantum leaps]]" between certain allowed values. For any system, the following restrictions on measurement results apply, where __MATH_220__ is the [[reduced Planck constant]] and __MATH_221__ is any [[Euclidean vector]] such as x, y, or z:
+In [[quantum mechanics]], angular momentum is [[angular momentum quantization|quantized]] – that is, it cannot vary continuously, but only in "[[Quantum number|quantum leaps]]" between certain allowed values. For any system, the following restrictions on measurement results apply, where __MATH_2637__ is the [[reduced Planck constant]] and __MATH_2638__ is any [[Euclidean vector]] such as x, y, or z:
 {| class="wikitable"
 |-
 | '''If you [[measurement in quantum mechanics|measure]]...'''
 | '''The result can be...'''
 |-
-| __MATH_222__
-| __MATH_223__
+| __MATH_2639__
+| __MATH_2640__
 |-
-| __MATH_224__ or __MATH_225__
-| __MATH_226__
+| __MATH_2641__ or __MATH_2642__
+| __MATH_2643__
 |-
-| __MATH_227__
-| __MATH_228__, where __MATH_229__
+| __MATH_2644__
+| __MATH_2645__, where __MATH_2646__
 |-
-| __MATH_230__ or __MATH_231__
-| __MATH_232__, where __MATH_233__
+| __MATH_2647__ or __MATH_2648__
+| __MATH_2649__, where __MATH_2650__
 |}
 
-The [[reduced Planck constant]] __MATH_234__ is tiny by everyday standards, about 10<sup>−34</sup> [[Joule-second|J s]], and therefore this quantization does not noticeably affect the angular momentum of macroscopic objects. However, it is very important in the microscopic world. For example, the structure of [[electron shell]]s and subshells in chemistry is significantly affected by the quantization of angular momentum.
+The [[reduced Planck constant]] __MATH_2651__ is tiny by everyday standards, about 10<sup>−34</sup> [[Joule-second|J s]], and therefore this quantization does not noticeably affect the angular momentum of macroscopic objects. However, it is very important in the microscopic world. For example, the structure of [[electron shell]]s and subshells in chemistry is significantly affected by the quantization of angular momentum.
 
 Quantization of angular momentum was first postulated by [[Niels Bohr]] in [[Bohr model|his model]] of the atom and was later predicted by [[Erwin Schrödinger]] in his [[Schrödinger equation#Quantization|Schrödinger equation]].
 
 === Uncertainty ===
-In the definition __MATH_235__, six operators are involved: The [[position operator]]s __MATH_236__, __MATH_237__, __MATH_238__, and the [[momentum operator]]s __MATH_239__, __MATH_240__, __MATH_241__. However, the [[uncertainty principle|Heisenberg uncertainty principle]] tells us that it is not possible for all six of these quantities to be known simultaneously with arbitrary precision. Therefore, there are limits to what can be known or measured about a particle's angular momentum. It turns out that the best that one can do is to simultaneously measure both the angular momentum vector's [[magnitude (vector)|magnitude]] and its component along one axis.
+In the definition __MATH_2652__, six operators are involved: The [[position operator]]s __MATH_2653__, __MATH_2654__, __MATH_2655__, and the [[momentum operator]]s __MATH_2656__, __MATH_2657__, __MATH_2658__. However, the [[uncertainty principle|Heisenberg uncertainty principle]] tells us that it is not possible for all six of these quantities to be known simultaneously with arbitrary precision. Therefore, there are limits to what can be known or measured about a particle's angular momentum. It turns out that the best that one can do is to simultaneously measure both the angular momentum vector's [[magnitude (vector)|magnitude]] and its component along one axis.
 
-The uncertainty is closely related to the fact that different components of an angular momentum operator do not [[commutator|commute]], for example __MATH_242__. (For the precise [[commutation relation]]s, see [[angular momentum operator]].)
+The uncertainty is closely related to the fact that different components of an angular momentum operator do not [[commutator|commute]], for example __MATH_2659__. (For the precise [[commutation relation]]s, see [[angular momentum operator]].)
 
 === Total angular momentum as generator of rotations ===
-As mentioned above, orbital angular momentum '''L''' is defined as in classical mechanics: __MATH_243__, but ''total'' angular momentum '''J''' is defined in a different, more basic way: '''J''' is defined as the "generator of rotations". More specifically, '''J''' is defined so that the operator
-__MATH_244__
-is the [[Rotation operator (quantum mechanics)|rotation operator]] that takes any system and rotates it by angle __MATH_245__ about the axis __MATH_246__. (The "exp" in the formula refers to [[matrix exponential|operator exponential]].) To put this the other way around, whatever our quantum Hilbert space is, we expect that the [[rotation group SO(3)]] will act on it. There is then an associated action of the Lie algebra so(3) of SO(3); the operators describing the action of so(3) on our Hilbert space are the (total) angular momentum operators.
+As mentioned above, orbital angular momentum '''L''' is defined as in classical mechanics: __MATH_2660__, but ''total'' angular momentum '''J''' is defined in a different, more basic way: '''J''' is defined as the "generator of rotations". More specifically, '''J''' is defined so that the operator
+__MATH_2661__
+is the [[Rotation operator (quantum mechanics)|rotation operator]] that takes any system and rotates it by angle __MATH_2662__ about the axis __MATH_2663__. (The "exp" in the formula refers to [[matrix exponential|operator exponential]].) To put this the other way around, whatever our quantum Hilbert space is, we expect that the [[rotation group SO(3)]] will act on it. There is then an associated action of the Lie algebra so(3) of SO(3); the operators describing the action of so(3) on our Hilbert space are the (total) angular momentum operators.
 
 The relationship between the angular momentum operator and the rotation operators is the same as the relationship between [[Lie algebra]]s and [[Lie group]]s in mathematics. The close relationship between angular momentum and rotations is reflected in [[Noether's theorem]] that proves that angular momentum is conserved whenever the laws of physics are rotationally invariant.
 
 == Angular momentum in electrodynamics ==
 
 When describing the motion of a [[charged particle]] in an [[electromagnetic field]], the [[canonical momentum]] '''P''' (derived from the [[Lagrangian mechanics|Lagrangian]] for this system) is not [[gauge invariant]]. As a consequence, the canonical angular momentum '''L''' = '''r''' × '''P''' is not gauge invariant either. Instead, the momentum that is physical, the so-called ''kinetic momentum'' (used throughout this article), is (in [[SI units]])
-__MATH_247__
+__MATH_2664__
 where ''e'' is the [[electric charge]] of the particle and '''A''' the [[magnetic vector potential]] of the electromagnetic field. The gauge-invariant angular momentum, that is ''kinetic angular momentum'', is given by
-__MATH_248__
+__MATH_2665__
 
 The interplay with quantum mechanics is discussed further in the article on [[canonical commutation relation]]s.
 
 == Angular momentum in optics ==
 In ''classical Maxwell electrodynamics'' the [[Poynting vector]]
 is a linear momentum density of electromagnetic field.
-__MATH_249__
+__MATH_2666__
 
-The angular momentum density vector __MATH_250__ is given by a vector product
+The angular momentum density vector __MATH_2667__ is given by a vector product
 as in classical mechanics:
-__MATH_251__
+__MATH_2668__
 
-The above identities are valid ''locally'', i.e. in each space point __MATH_252__ in a given moment __MATH_253__.
+The above identities are valid ''locally'', i.e. in each space point __MATH_2669__ in a given moment __MATH_2670__.
 
 == Angular momentum in nature and the cosmos ==
 

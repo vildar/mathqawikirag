@@ -43,34 +43,34 @@ with respect to the axis.
 
 Formula
 
-For motion in a circle of radius __MATH_0__, the circumference of the
-circle is __MATH_1__. If the period for one rotation is __MATH_2__, the
-angular rate of rotation, also known as angular velocity, __MATH_3__ is:
-__MATH_4__ and the units are radians/second.
+For motion in a circle of radius __MATH_37__, the circumference of the
+circle is __MATH_38__. If the period for one rotation is __MATH_39__,
+the angular rate of rotation, also known as angular velocity,
+__MATH_40__ is: __MATH_41__ and the units are radians/second.
 
-The speed of the object traveling the circle is: __MATH_5__
+The speed of the object traveling the circle is: __MATH_42__
 
-The angle __MATH_6__ swept out in a time __MATH_7__ is: __MATH_8__
+The angle __MATH_43__ swept out in a time __MATH_44__ is: __MATH_45__
 
-The angular acceleration, __MATH_9__, of the particle is: __MATH_10__
+The angular acceleration, __MATH_46__, of the particle is: __MATH_47__
 
-In the case of uniform circular motion, __MATH_11__ will be zero.
+In the case of uniform circular motion, __MATH_48__ will be zero.
 
-The acceleration due to change in the direction is: __MATH_12__
+The acceleration due to change in the direction is: __MATH_49__
 
 The centripetal and centrifugal force can also be found using
-acceleration: __MATH_13__
+acceleration: __MATH_50__
 
 The vector relationships are shown in Figure 1. The axis of rotation is
-shown as a vector __MATH_14__ perpendicular to the plane of the orbit
-and with a magnitude __MATH_15__. The direction of __MATH_16__ is chosen
+shown as a vector __MATH_51__ perpendicular to the plane of the orbit
+and with a magnitude __MATH_52__. The direction of __MATH_53__ is chosen
 using the right-hand rule. With this convention for depicting rotation,
-the velocity is given by a vector cross product as __MATH_17__ which is
-a vector perpendicular to both __MATH_18__ and __MATH_19__, tangential
-to the orbit, and of magnitude __MATH_20__. Likewise, the acceleration
-is given by __MATH_21__ which is a vector perpendicular to both
-__MATH_22__ and __MATH_23__ of magnitude __MATH_24__ and directed
-exactly opposite to __MATH_25__.
+the velocity is given by a vector cross product as __MATH_54__ which is
+a vector perpendicular to both __MATH_55__ and __MATH_56__, tangential
+to the orbit, and of magnitude __MATH_57__. Likewise, the acceleration
+is given by __MATH_58__ which is a vector perpendicular to both
+__MATH_59__ and __MATH_60__ of magnitude __MATH_61__ and directed
+exactly opposite to __MATH_62__.
 
 In the simplest case the speed, mass, and radius are constant.
 
@@ -78,7 +78,7 @@ Consider a body of one kilogram, moving in a circle of radius one metre,
 with an angular velocity of one radian per second.
 
 -   The speed is 1 metre per second.
--   The inward acceleration is 1 metre per square second, __MATH_26__.
+-   The inward acceleration is 1 metre per square second, __MATH_63__.
 -   It is subject to a centripetal force of 1 kilogram metre per square
     second, which is 1 newton.
 -   The momentum of the body is 1 kg·m·s⁻¹.
@@ -86,72 +86,72 @@ with an angular velocity of one radian per second.
 -   The angular momentum is 1 kg·m²·s⁻¹.
 -   The kinetic energy is 0.5 joule.
 -   The circumference of the orbit is 2 (~6.283) metres.
--   The period of the motion is 2__MATH_27__ seconds.
--   The frequency is (2__MATH_28__)⁻¹ hertz.
+-   The period of the motion is 2__MATH_64__ seconds.
+-   The frequency is (2__MATH_65__)⁻¹ hertz.
 
 In polar coordinates
 
 During circular motion, the body moves on a curve that can be described
-in the polar coordinate system as a fixed distance __MATH_29__ from the
+in the polar coordinate system as a fixed distance __MATH_66__ from the
 center of the orbit taken as the origin, oriented at an angle
-__MATH_30__ from some reference direction. See Figure 4. The
-displacement vector __MATH_31__ is the radial vector from the origin to
-the particle location: __MATH_32__ where __MATH_33__ is the unit vector
-parallel to the radius vector at time __MATH_34__ and pointing away from
+__MATH_67__ from some reference direction. See Figure 4. The
+displacement vector __MATH_68__ is the radial vector from the origin to
+the particle location: __MATH_69__ where __MATH_70__ is the unit vector
+parallel to the radius vector at time __MATH_71__ and pointing away from
 the origin. It is convenient to introduce the unit vector orthogonal to
-__MATH_35__ as well, namely __MATH_36__. It is customary to orient
-__MATH_37__ to point in the direction of travel along the orbit.
+__MATH_72__ as well, namely __MATH_73__. It is customary to orient
+__MATH_74__ to point in the direction of travel along the orbit.
 
-The velocity is the time derivative of the displacement: __MATH_38__
+The velocity is the time derivative of the displacement: __MATH_75__
 
 Because the radius of the circle is constant, the radial component of
-the velocity is zero. The unit vector __MATH_39__ has a time-invariant
+the velocity is zero. The unit vector __MATH_76__ has a time-invariant
 magnitude of unity, so as time varies its tip always lies on a circle of
-unit radius, with an angle __MATH_40__ the same as the angle of
-__MATH_41__. If the particle displacement rotates through an angle
-__MATH_42__ in time __MATH_43__, so does __MATH_44__, describing an arc
-on the unit circle of magnitude __MATH_45__. See the unit circle at the
-left of Figure 4. Hence: __MATH_46__ where the direction of the change
-must be perpendicular to __MATH_47__ (or, in other words, along
-__MATH_48__) because any change __MATH_49__ in the direction of
-__MATH_50__ would change the size of __MATH_51__. The sign is positive
-because an increase in __MATH_52__ implies the object and __MATH_53__
-have moved in the direction of __MATH_54__. Hence the velocity becomes:
-__MATH_55__
+unit radius, with an angle __MATH_77__ the same as the angle of
+__MATH_78__. If the particle displacement rotates through an angle
+__MATH_79__ in time __MATH_80__, so does __MATH_81__, describing an arc
+on the unit circle of magnitude __MATH_82__. See the unit circle at the
+left of Figure 4. Hence: __MATH_83__ where the direction of the change
+must be perpendicular to __MATH_84__ (or, in other words, along
+__MATH_85__) because any change __MATH_86__ in the direction of
+__MATH_87__ would change the size of __MATH_88__. The sign is positive
+because an increase in __MATH_89__ implies the object and __MATH_90__
+have moved in the direction of __MATH_91__. Hence the velocity becomes:
+__MATH_92__
 
 The acceleration of the body can also be broken into radial and
 tangential components. The acceleration is the time derivative of the
-velocity: __MATH_56__
+velocity: __MATH_93__
 
-The time derivative of __MATH_57__ is found the same way as for
-__MATH_58__. Again, __MATH_59__ is a unit vector and its tip traces a
-unit circle with an angle that is __MATH_60__. Hence, an increase in
-angle __MATH_61__ by __MATH_62__ implies __MATH_63__ traces an arc of
-magnitude __MATH_64__, and as __MATH_65__ is orthogonal to __MATH_66__,
-we have: __MATH_67__ where a negative sign is necessary to keep
-__MATH_68__ orthogonal to __MATH_69__. (Otherwise, the angle between
-__MATH_70__ and __MATH_71__ would decrease with an increase in
-__MATH_72__.) See the unit circle at the left of Figure 4. Consequently,
-the acceleration is: __MATH_73__
+The time derivative of __MATH_94__ is found the same way as for
+__MATH_95__. Again, __MATH_96__ is a unit vector and its tip traces a
+unit circle with an angle that is __MATH_97__. Hence, an increase in
+angle __MATH_98__ by __MATH_99__ implies __MATH_100__ traces an arc of
+magnitude __MATH_101__, and as __MATH_102__ is orthogonal to
+__MATH_103__, we have: __MATH_104__ where a negative sign is necessary
+to keep __MATH_105__ orthogonal to __MATH_106__. (Otherwise, the angle
+between __MATH_107__ and __MATH_108__ would decrease with an increase in
+__MATH_109__.) See the unit circle at the left of Figure 4.
+Consequently, the acceleration is: __MATH_110__
 
 The centripetal acceleration is the radial component, which is directed
-radially inward: __MATH_74__ while the tangential component changes the
-magnitude of the velocity: __MATH_75__
+radially inward: __MATH_111__ while the tangential component changes the
+magnitude of the velocity: __MATH_112__
 
 Using complex numbers
 
 Circular motion can be described using complex numbers. Let the
-__MATH_76__ axis be the real axis and the __MATH_77__ axis be the
+__MATH_113__ axis be the real axis and the __MATH_114__ axis be the
 imaginary axis. The position of the body can then be given as
-__MATH_78__, a complex "vector": __MATH_79__ where __MATH_80__ is the
-imaginary unit, and __MATH_81__ is the argument of the complex number as
-a function of time, __MATH_82__.
+__MATH_115__, a complex "vector": __MATH_116__ where __MATH_117__ is the
+imaginary unit, and __MATH_118__ is the argument of the complex number
+as a function of time, __MATH_119__.
 
-Since the radius is constant: __MATH_83__ where a dot indicates
+Since the radius is constant: __MATH_120__ where a dot indicates
 differentiation in respect of time.
 
-With this notation, the velocity becomes: __MATH_84__ and the
-acceleration becomes: __MATH_85__
+With this notation, the velocity becomes: __MATH_121__ and the
+acceleration becomes: __MATH_122__
 
 The first term is opposite in direction to the displacement vector and
 the second is perpendicular to it, just like the earlier results shown
@@ -161,32 +161,32 @@ Velocity
 
 Figure 1 illustrates velocity and acceleration vectors for uniform
 motion at four different points in the orbit. Because the velocity
-__MATH_86__ is tangent to the circular path, no two velocities point in
+__MATH_123__ is tangent to the circular path, no two velocities point in
 the same direction. Although the object has a constant speed, its
 direction is always changing. This change in velocity is caused by an
-acceleration __MATH_87__, whose magnitude is (like that of the velocity)
-held constant, but whose direction also is always changing. The
-acceleration points radially inwards (centripetally) and is
+acceleration __MATH_124__, whose magnitude is (like that of the
+velocity) held constant, but whose direction also is always changing.
+The acceleration points radially inwards (centripetally) and is
 perpendicular to the velocity. This acceleration is known as centripetal
 acceleration.
 
-For a path of radius __MATH_88__, when an angle __MATH_89__ is swept
-out, the distance traveled on the periphery of the orbit is __MATH_90__.
-Therefore, the speed of travel around the orbit is __MATH_91__ where the
-angular rate of rotation is __MATH_92__. (By rearrangement,
-__MATH_93__.) Thus, __MATH_94__ is a constant, and the velocity vector
-__MATH_95__ also rotates with constant magnitude __MATH_96__, at the
-same angular rate __MATH_97__.
+For a path of radius __MATH_125__, when an angle __MATH_126__ is swept
+out, the distance traveled on the periphery of the orbit is
+__MATH_127__. Therefore, the speed of travel around the orbit is
+__MATH_128__ where the angular rate of rotation is __MATH_129__. (By
+rearrangement, __MATH_130__.) Thus, __MATH_131__ is a constant, and the
+velocity vector __MATH_132__ also rotates with constant magnitude
+__MATH_133__, at the same angular rate __MATH_134__.
 
 Relativistic circular motion
 
 In this case, the three-acceleration vector is perpendicular to the
-three-velocity vector, __MATH_98__ and the square of proper
+three-velocity vector, __MATH_135__ and the square of proper
 acceleration, expressed as a scalar invariant, the same in all reference
-frames, __MATH_99__ becomes the expression for circular motion,
-__MATH_100__ or, taking the positive square root and using the
+frames, __MATH_136__ becomes the expression for circular motion,
+__MATH_137__ or, taking the positive square root and using the
 three-acceleration, we arrive at the proper acceleration for circular
-motion: __MATH_101__
+motion: __MATH_138__
 
 Acceleration
 
@@ -194,9 +194,9 @@ The left-hand circle in Figure 2 is the orbit showing the velocity
 vectors at two adjacent times. On the right, these two velocities are
 moved so their tails coincide. Because speed is constant, the velocity
 vectors on the right sweep out a circle as time advances. For a swept
-angle __MATH_102__ the change in __MATH_103__ is a vector at right
-angles to __MATH_104__ and of magnitude __MATH_105__, which in turn
-means that the magnitude of the acceleration is given by __MATH_106__
+angle __MATH_139__ the change in __MATH_140__ is a vector at right
+angles to __MATH_141__ and of magnitude __MATH_142__, which in turn
+means that the magnitude of the acceleration is given by __MATH_143__
 
 +-------+-------+-------+-------+-------+-------+-------+-------+
 | c     | 1 m/s | 2 m/s | 5 m/s | 1     | 2     | 5     | 10    |
@@ -340,15 +340,15 @@ be achieved if the rotating body does not have a homogeneous mass
 distribution.
 
 One can deduce the formulae of speed, acceleration and jerk, assuming
-that all the variables depend on __MATH_107__: __MATH_108__ __MATH_109__
-__MATH_110__ __MATH_111__ __MATH_112__
+that all the variables depend on __MATH_144__: __MATH_145__ __MATH_146__
+__MATH_147__ __MATH_148__ __MATH_149__
 
-__MATH_113__
+__MATH_150__
 
-__MATH_114__
+__MATH_151__
 
-Further transformations may involve __MATH_115__ and their corresponding
-derivatives: __MATH_116__
+Further transformations may involve __MATH_152__ and their corresponding
+derivatives: __MATH_153__
 
 Applications
 
@@ -358,7 +358,7 @@ upon an object traveling in a circle is the centripetal force. In a
 non-uniform circular motion, there are additional forces acting on the
 object due to a non-zero tangential acceleration. Although there are
 forces acting upon the object, the sum of all the forces acting on the
-object will have to be equal to the centripetal force. __MATH_117__
+object will have to be equal to the centripetal force. __MATH_154__
 
 Radial acceleration is used when calculating the total force. Tangential
 acceleration is not used in calculating total force because it is not
@@ -368,24 +368,24 @@ radial acceleration. Since the sum of all forces is the centripetal
 force, drawing centripetal force into a free body diagram is not
 necessary and usually not recommended.
 
-Using __MATH_118__, we can draw free body diagrams to list all the
-forces acting on an object and then set it equal to __MATH_119__.
+Using __MATH_155__, we can draw free body diagrams to list all the
+forces acting on an object and then set it equal to __MATH_156__.
 Afterward, we can solve for whatever is unknown (this can be mass,
 velocity, radius of curvature, coefficient of friction, normal force,
 etc.). For example, the visual above showing an object at the top of a
-semicircle would be expressed as __MATH_120__.
+semicircle would be expressed as __MATH_157__.
 
 In a uniform circular motion, the total acceleration of an object in a
 circular path is equal to the radial acceleration. Due to the presence
 of tangential acceleration in a non uniform circular motion, that does
 not hold true any more. To find the total acceleration of an object in a
 non uniform circular, find the vector sum of the tangential acceleration
-and the radial acceleration. __MATH_121__
+and the radial acceleration. __MATH_158__
 
-Radial acceleration is still equal to __MATH_122__. Tangential
+Radial acceleration is still equal to __MATH_159__. Tangential
 acceleration is simply the derivative of the speed at any given point:
-__MATH_123__. This root sum of squares of separate radial and tangential
+__MATH_160__. This root sum of squares of separate radial and tangential
 accelerations is only correct for circular motion; for general motion
-within a plane with polar coordinates __MATH_124__, the Coriolis term
-__MATH_125__ should be added to __MATH_126__, whereas radial
-acceleration then becomes __MATH_127__.
+within a plane with polar coordinates __MATH_161__, the Coriolis term
+__MATH_162__ should be added to __MATH_163__, whereas radial
+acceleration then becomes __MATH_164__.

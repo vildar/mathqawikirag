@@ -13,8 +13,8 @@ In [[digital signal processing]], the frequency may be normalized by the [[sampl
 
 === Circular motion ===
 
-In a rotating or orbiting object, there is a relation between distance from the axis, __MATH_0__, [[tangential speed]], __MATH_1__, and the angular frequency of the rotation. During one period, __MATH_2__, a body in circular motion travels a distance __MATH_3__. This distance is also equal to the circumference of the path traced out by the body, __MATH_4__. Setting these two quantities equal, and recalling the link between period and angular frequency we obtain: __MATH_5__ Circular motion on the unit circle is given by
-__MATH_6__
+In a rotating or orbiting object, there is a relation between distance from the axis, __MATH_2671__, [[tangential speed]], __MATH_2672__, and the angular frequency of the rotation. During one period, __MATH_2673__, a body in circular motion travels a distance __MATH_2674__. This distance is also equal to the circumference of the path traced out by the body, __MATH_2675__. Setting these two quantities equal, and recalling the link between period and angular frequency we obtain: __MATH_2676__ Circular motion on the unit circle is given by
+__MATH_2677__
 where:
 * ''ω'' is the angular frequency (SI unit: [[radians per second]]),
 * ''T'' is the [[Frequency|period]] (SI unit: [[second]]s),
@@ -23,7 +23,7 @@ where:
 === Oscillations of a spring ===
 
 An object attached to a spring can [[Oscillation|oscillate]]. If the spring is assumed to be ideal and massless with no damping, then the motion is [[Harmonic oscillator|simple and harmonic]] with an angular frequency given by
-__MATH_7__
+__MATH_2678__
 where
 * ''k'' is the [[spring constant]],
 * ''m'' is the mass of the object.
@@ -31,20 +31,20 @@ where
 ''ω'' is referred to as the natural angular frequency (sometimes be denoted as ''ω''<sub>0</sub>).
 
 As the object oscillates, its acceleration can be calculated by
-__MATH_8__
+__MATH_2679__
 where ''x'' is displacement from an equilibrium position.
 
 Using standard frequency ''f'', this equation would be
-__MATH_9__
+__MATH_2680__
 
 === LC circuits ===
 The resonant angular frequency in a series [[LC circuit]] equals the square root of the [[multiplicative inverse|reciprocal]] of the product of the [[capacitance]] (''C'', with SI unit [[farad]]) and the [[inductance]] of the circuit (''L'', with SI unit [[Henry (unit)|henry]]):
-__MATH_10__
+__MATH_2681__
 
 Adding series resistance (for example, due to the resistance of the wire in a coil) does not change the resonant frequency of the series LC circuit. For a parallel tuned circuit, the above equation is often a useful approximation, but the resonant frequency does depend on the losses of parallel elements.
 
 == Terminology ==
-Although angular frequency is often loosely referred to as frequency, it differs from frequency by a factor of 2__MATH_11__, which potentially leads confusion when the distinction is not made clear.
+Although angular frequency is often loosely referred to as frequency, it differs from frequency by a factor of 2__MATH_2682__, which potentially leads confusion when the distinction is not made clear.
 
 == References and notes ==
 

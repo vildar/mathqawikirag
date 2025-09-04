@@ -57,26 +57,26 @@ for the rotation and thus formation of cyclones .
 Formula
 
 In Newtonian mechanics, the equation of motion for an object in an
-inertial reference frame is: __MATH_0__ where __MATH_1__ is the vector
-sum of the physical forces acting on the object, __MATH_2__ is the mass
-of the object, and __MATH_3__ is the acceleration of the object relative
-to the inertial reference frame.
+inertial reference frame is: __MATH_1629__ where __MATH_1630__ is the
+vector sum of the physical forces acting on the object, __MATH_1631__ is
+the mass of the object, and __MATH_1632__ is the acceleration of the
+object relative to the inertial reference frame.
 
 Transforming this equation to a reference frame rotating about a fixed
-axis through the origin with angular velocity __MATH_4__ having variable
-rotation rate, the equation takes the form: __MATH_5__ where the prime
-(') variables denote coordinates of the rotating reference frame (not a
-derivative) and:
+axis through the origin with angular velocity __MATH_1633__ having
+variable rotation rate, the equation takes the form: __MATH_1634__ where
+the prime (') variables denote coordinates of the rotating reference
+frame (not a derivative) and:
 
--   __MATH_6__ is the vector sum of the physical forces acting on the
+-   __MATH_1635__ is the vector sum of the physical forces acting on the
     object
--   __MATH_7__ is the angular velocity of the rotating reference frame
-    relative to the inertial frame
--   __MATH_8__ is the position vector of the object relative to the
+-   __MATH_1636__ is the angular velocity of the rotating reference
+    frame relative to the inertial frame
+-   __MATH_1637__ is the position vector of the object relative to the
     rotating reference frame
--   __MATH_9__ is the velocity of the object relative to the rotating
+-   __MATH_1638__ is the velocity of the object relative to the rotating
     reference frame
--   __MATH_10__ is the acceleration of the object relative to the
+-   __MATH_1639__ is the acceleration of the object relative to the
     rotating reference frame
 
 The fictitious forces as they are perceived in the rotating frame act as
@@ -84,16 +84,16 @@ additional forces that contribute to the apparent acceleration just like
 the real external forces. The fictitious force terms of the equation
 are, reading from left to right:
 
--   Euler force, __MATH_11__
--   Coriolis force, __MATH_12__
--   centrifugal force, __MATH_13__
+-   Euler force, __MATH_1640__
+-   Coriolis force, __MATH_1641__
+-   centrifugal force, __MATH_1642__
 
 As seen in these formulas the Euler and centrifugal forces depend on the
-position vector __MATH_14__ of the object, while the Coriolis force
-depends on the object's velocity __MATH_15__ as measured in the rotating
-reference frame. As expected, for a non-rotating inertial frame of
-reference __MATH_16__ the Coriolis force and all other fictitious forces
-disappear.
+position vector __MATH_1643__ of the object, while the Coriolis force
+depends on the object's velocity __MATH_1644__ as measured in the
+rotating reference frame. As expected, for a non-rotating inertial frame
+of reference __MATH_1645__ the Coriolis force and all other fictitious
+forces disappear.
 
 Direction of Coriolis force for simple cases
 
@@ -159,8 +159,8 @@ The time, space, and velocity scales are important in determining the
 importance of the Coriolis force. Whether rotation is important in a
 system can be determined by its Rossby number (Ro), which is the ratio
 of the velocity, U, of a system to the product of the Coriolis
-parameter, __MATH_17__, and the length scale, L, of the motion:
-__MATH_18__ Hence, it is the ratio of inertial to Coriolis forces; a
+parameter, __MATH_1646__, and the length scale, L, of the motion:
+__MATH_1647__ Hence, it is the ratio of inertial to Coriolis forces; a
 small Rossby number indicates a system is strongly affected by Coriolis
 forces, and a large Rossby number indicates a system in which inertial
 forces dominate. For example, in tornadoes, the Rossby number is large,
@@ -248,13 +248,13 @@ applied.
 Applied to the Earth
 
 The acceleration affecting the motion of air "sliding" over the Earth's
-surface is the horizontal component of the Coriolis term __MATH_19__
+surface is the horizontal component of the Coriolis term __MATH_1648__
 This component is orthogonal to the velocity over the Earth surface and
-is given by the expression __MATH_20__ where
+is given by the expression __MATH_1649__ where
 
--   __MATH_21__ is the spin rate of the Earth
--   __MATH_22__ is the latitude, positive in the northern hemisphere and
-    negative in the southern hemisphere
+-   __MATH_1650__ is the spin rate of the Earth
+-   __MATH_1651__ is the latitude, positive in the northern hemisphere
+    and negative in the southern hemisphere
 
 In the northern hemisphere, where the latitude is positive, this
 acceleration, as viewed from above, is to the right of the direction of
@@ -268,13 +268,13 @@ axis horizontally due east, the y axis horizontally due north and the z
 axis vertically upwards. The rotation vector, velocity of movement and
 Coriolis acceleration expressed in this local coordinate system [listing
 components in the order east (e), north (n) and upward (u)] are:
-__MATH_23__ __MATH_24__ When considering atmospheric or oceanic
+__MATH_1652__ __MATH_1653__ When considering atmospheric or oceanic
 dynamics, the vertical velocity is small, and the vertical component of
-the Coriolis acceleration (__MATH_25__) is small compared with the
+the Coriolis acceleration (__MATH_1654__) is small compared with the
 acceleration due to gravity (g, approximately near Earth's surface). For
 such cases, only the horizontal (east and north) components matter. The
 restriction of the above to the horizontal plane is (setting v_(u) = 0):
-__MATH_26__ where __MATH_27__ is called the Coriolis parameter.
+__MATH_1655__ where __MATH_1656__ is called the Coriolis parameter.
 
 By setting v_(n) = 0, it can be seen immediately that (for positive φ
 and ω) a movement due east results in an acceleration due south;
@@ -284,8 +284,8 @@ looking along the direction of the movement causing the acceleration,
 the acceleration always is turned 90° to the right (for positive φ) and
 of the same size regardless of the horizontal orientation.
 
-In the case of equatorial motion, setting φ = 0° yields: __MATH_28__
-__MATH_29__ Ω in this case is parallel to the north-south axis.
+In the case of equatorial motion, setting φ = 0° yields: __MATH_1657__
+__MATH_1658__ Ω in this case is parallel to the north-south axis.
 
 Accordingly, an eastward motion (that is, in the same direction as the
 rotation of the sphere) provides an upward acceleration known as the
@@ -352,14 +352,14 @@ the weak Coriolis effect present in this region.
 
 Inertial circles
 
-An air or water mass moving with speed __MATH_30__ subject only to the
+An air or water mass moving with speed __MATH_1659__ subject only to the
 Coriolis force travels in a circular trajectory called an inertial
 circle. Since the force is directed at right angles to the motion of the
 particle, it moves with a constant speed around a circle whose radius
-__MATH_31__ is given by: __MATH_32__ where __MATH_33__ is the Coriolis
-parameter __MATH_34__, introduced above (where __MATH_35__ is the
-latitude). The time taken for the mass to complete a full circle is
-therefore __MATH_36__. The Coriolis parameter typically has a
+__MATH_1660__ is given by: __MATH_1661__ where __MATH_1662__ is the
+Coriolis parameter __MATH_1663__, introduced above (where __MATH_1664__
+is the latitude). The time taken for the mass to complete a full circle
+is therefore __MATH_1665__. The Coriolis parameter typically has a
 mid-latitude value of about 10⁻⁴ s⁻¹; hence for a typical atmospheric
 speed of , the radius is with a period of about 17 hours. For an ocean
 current with a typical speed of , the radius of an inertial circle is .
@@ -367,13 +367,13 @@ These inertial circles are clockwise in the northern hemisphere (where
 trajectories are bent to the right) and anticlockwise in the southern
 hemisphere.
 
-If the rotating system is a parabolic turntable, then __MATH_37__ is
+If the rotating system is a parabolic turntable, then __MATH_1666__ is
 constant and the trajectories are exact circles. On a rotating planet,
-__MATH_38__ varies with latitude and the paths of particles do not form
-exact circles. Since the parameter __MATH_39__ varies as the sine of the
-latitude, the radius of the oscillations associated with a given speed
-are smallest at the poles (latitude of ±90°), and increase toward the
-equator.
+__MATH_1667__ varies with latitude and the paths of particles do not
+form exact circles. Since the parameter __MATH_1668__ varies as the sine
+of the latitude, the radius of the oscillations associated with a given
+speed are smallest at the poles (latitude of ±90°), and increase toward
+the equator.
 
 Other terrestrial effects
 
@@ -430,7 +430,7 @@ image below illustrates the three cases as viewed by an observer at rest
 in a (near) inertial frame from a fixed point above the North Pole along
 the Earth's axis of rotation; the train is denoted by a few red pixels,
 fixed at the left side in the leftmost picture, moving in the others
-__MATH_40__
+__MATH_1669__
 
 1.  The train travels toward the west: In that case, it moves against
     the direction of rotation. Therefore, on the Earth's rotating frame
@@ -528,10 +528,10 @@ it and waiting for at least 24 hours for the water to settle. Under
 these precise laboratory conditions, he demonstrated the effect and
 consistent counterclockwise rotation. The experiment required extreme
 precision, since the acceleration due to Coriolis effect is only
-__MATH_41__ that of gravity. The vortex was measured by a cross made of
-two slivers of wood pinned above the draining hole. It takes 20 minutes
-to drain, and the cross starts turning only around 15 minutes. At the
-end it is turning at 1 rotation every 3 to 4 seconds.
+__MATH_1670__ that of gravity. The vortex was measured by a cross made
+of two slivers of wood pinned above the draining hole. It takes 20
+minutes to drain, and the cross starts turning only around 15 minutes.
+At the end it is turning at 1 rotation every 3 to 4 seconds.
 
 He reported that,
 
@@ -566,21 +566,22 @@ in all three directions, latitude, and azimuth. The directions are
 typically downrange (the direction that the gun is initially pointing),
 vertical, and cross-range.
 
-__MATH_42__ __MATH_43__ __MATH_44__ where
+__MATH_1671__ __MATH_1672__ __MATH_1673__ where
 
--   __MATH_45__, down-range acceleration.
--   __MATH_46__, vertical acceleration with positive indicating
+-   __MATH_1674__, down-range acceleration.
+-   __MATH_1675__, vertical acceleration with positive indicating
     acceleration upward.
--   __MATH_47__, cross-range acceleration with positive indicating
+-   __MATH_1676__, cross-range acceleration with positive indicating
     acceleration to the right.
--   __MATH_48__, down-range velocity.
--   __MATH_49__, vertical velocity with positive indicating upward.
--   __MATH_50__, cross-range velocity with positive indicating velocity
-    to the right.
--   __MATH_51__ = 0.00007292 rad/sec, angular velocity of the earth
+-   __MATH_1677__, down-range velocity.
+-   __MATH_1678__, vertical velocity with positive indicating upward.
+-   __MATH_1679__, cross-range velocity with positive indicating
+    velocity to the right.
+-   __MATH_1680__ = 0.00007292 rad/sec, angular velocity of the earth
     (based on a sidereal day).
--   __MATH_52__, latitude with positive indicating Northern hemisphere.
--   __MATH_53__, azimuth measured clockwise from due North.
+-   __MATH_1681__, latitude with positive indicating Northern
+    hemisphere.
+-   __MATH_1682__, azimuth measured clockwise from due North.
 
 Visualization
 

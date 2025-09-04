@@ -45,46 +45,47 @@ example, a body might be free to slide along a track that runs left to
 right, and so its location can be specified by its distance from a
 convenient zero point, or origin, with negative numbers indicating
 positions to the left and positive numbers indicating positions to the
-right. If the body's location as a function of time is __MATH_0__, then
-its average velocity over the time interval from __MATH_1__ to
-__MATH_2__ is __MATH_3__Here, the Greek letter __MATH_4__ (delta) is
-used, per tradition, to mean "change in". A positive average velocity
-means that the position coordinate __MATH_5__ increases over the
-interval in question, a negative average velocity indicates a net
+right. If the body's location as a function of time is __MATH_2026__,
+then its average velocity over the time interval from __MATH_2027__ to
+__MATH_2028__ is __MATH_2029__Here, the Greek letter __MATH_2030__
+(delta) is used, per tradition, to mean "change in". A positive average
+velocity means that the position coordinate __MATH_2031__ increases over
+the interval in question, a negative average velocity indicates a net
 decrease over that interval, and an average velocity of zero means that
 the body ends the time interval in the same place as it began. Calculus
 gives the means to define an instantaneous velocity, a measure of a
 body's speed and direction of movement at a single moment of time,
 rather than over an interval. One notation for the instantaneous
-velocity is to replace __MATH_6__ with the symbol __MATH_7__, for
-example,__MATH_8__This denotes that the instantaneous velocity is the
+velocity is to replace __MATH_2032__ with the symbol __MATH_2033__, for
+example,__MATH_2034__This denotes that the instantaneous velocity is the
 derivative of the position with respect to time. It can roughly be
 thought of as the ratio between an infinitesimally small change in
-position __MATH_9__ to the infinitesimally small time interval
-__MATH_10__ over which it occurs. More carefully, the velocity and all
+position __MATH_2035__ to the infinitesimally small time interval
+__MATH_2036__ over which it occurs. More carefully, the velocity and all
 other derivatives can be defined using the concept of a limit. A
-function __MATH_11__ has a limit of __MATH_12__ at a given input value
-__MATH_13__ if the difference between __MATH_14__ and __MATH_15__ can be
-made arbitrarily small by choosing an input sufficiently close to
-__MATH_16__. One writes, __MATH_17__Instantaneous velocity can be
-defined as the limit of the average velocity as the time interval
-shrinks to zero:__MATH_18__ Acceleration is to velocity as velocity is
-to position: it is the derivative of the velocity with respect to time.
-Acceleration can likewise be defined as a limit:__MATH_19__Consequently,
-the acceleration is the second derivative of position, often written
-__MATH_20__.
+function __MATH_2037__ has a limit of __MATH_2038__ at a given input
+value __MATH_2039__ if the difference between __MATH_2040__ and
+__MATH_2041__ can be made arbitrarily small by choosing an input
+sufficiently close to __MATH_2042__. One writes,
+__MATH_2043__Instantaneous velocity can be defined as the limit of the
+average velocity as the time interval shrinks to zero:__MATH_2044__
+Acceleration is to velocity as velocity is to position: it is the
+derivative of the velocity with respect to time. Acceleration can
+likewise be defined as a limit:__MATH_2045__Consequently, the
+acceleration is the second derivative of position, often written
+__MATH_2046__.
 
 Position, when thought of as a displacement from an origin point, is a
 vector: a quantity with both magnitude and direction. Velocity and
 acceleration are vector quantities as well. The mathematical tools of
 vector algebra provide the means to describe motion in two, three or
 more dimensions. Vectors are often denoted with an arrow, as in
-__MATH_21__, or in bold typeface, such as __MATH_22__. Often, vectors
-are represented visually as arrows, with the direction of the vector
-being the direction of the arrow, and the magnitude of the vector
+__MATH_2047__, or in bold typeface, such as __MATH_2048__. Often,
+vectors are represented visually as arrows, with the direction of the
+vector being the direction of the arrow, and the magnitude of the vector
 indicated by the length of the arrow. Numerically, a vector can be
 represented as a list; for example, a body's velocity vector might be
-__MATH_23__, indicating that it is moving at 3 metres per second along
+__MATH_2049__, indicating that it is moving at 3 metres per second along
 the horizontal axis and 4 metres per second along the vertical axis. The
 same motion described in a different coordinate system will be
 represented by different numbers, and vector algebra can be used to
@@ -141,20 +142,20 @@ By "motion", Newton meant the quantity now called momentum, which
 depends upon the amount of matter contained in a body, the speed at
 which that body is moving, and the direction in which it is moving. In
 modern notation, the momentum of a body is the product of its mass and
-its velocity: __MATH_24__ where all three quantities can change over
-time. In common cases the mass __MATH_25__ does not change with time and
-the derivative acts only upon the velocity. Then force equals the
+its velocity: __MATH_2050__ where all three quantities can change over
+time. In common cases the mass __MATH_2051__ does not change with time
+and the derivative acts only upon the velocity. Then force equals the
 product of the mass and the time derivative of the velocity, which is
-the acceleration: __MATH_26__ As the acceleration is the second
+the acceleration: __MATH_2052__ As the acceleration is the second
 derivative of position with respect to time, this can also be written
-__MATH_27__
+__MATH_2053__
 
 Newton's second law, in modern form, states that the time derivative of
-the momentum is the force: __MATH_28__ When applied to systems of
+the momentum is the force: __MATH_2054__ When applied to systems of
 variable mass, the equation above is only valid only for a fixed set of
-particles. Applying the derivative as in __MATH_29__ can lead to
+particles. Applying the derivative as in __MATH_2055__ can lead to
 incorrect results. For example, the momentum of a water jet system must
-include the momentum of the ejected water: __MATH_30__
+include the momentum of the ejected water: __MATH_2056__
 
 The forces acting on a body add as vectors, and so the total force on a body depends upon both the magnitudes and the directions of the individual forces. When the net force on a body is equal to zero, then by Newton's second law, the body does not accelerate, and it is said to be in mechanical equilibrium. A state of mechanical equilibrium is stable if, when the position of the body is changed slightly, the body remains near that equilibrium. Otherwise, the equilibrium is unstable.
 
@@ -171,7 +172,7 @@ accelerating. This is sometimes regarded as a potential tautology —
 acceleration implies force, force implies acceleration. To go beyond
 tautology, an equation detailing the force might also be specified, like
 Newton's law of universal gravitation. By inserting such an expression
-for __MATH_31__ into Newton's second law, an equation with predictive
+for __MATH_2057__ into Newton's second law, an equation with predictive
 power can be written. Newton's second law has also been regarded as
 setting out a research program for physics, establishing that important
 goals of the subject are to identify the forces present in nature and to
@@ -198,17 +199,17 @@ conservation of momentum. The latter remains true even in cases where
 Newton's statement does not, for instance when force fields as well as
 material bodies carry momentum, and when momentum is defined properly,
 in quantum mechanics as well. In Newtonian mechanics, if two bodies have
-momenta __MATH_32__ and __MATH_33__ respectively, then the total
-momentum of the pair is __MATH_34__, and the rate of change of
-__MATH_35__ is __MATH_36__ By Newton's second law, the first term is the
-total force upon the first body, and the second term is the total force
-upon the second body. If the two bodies are isolated from outside
+momenta __MATH_2058__ and __MATH_2059__ respectively, then the total
+momentum of the pair is __MATH_2060__, and the rate of change of
+__MATH_2061__ is __MATH_2062__ By Newton's second law, the first term is
+the total force upon the first body, and the second term is the total
+force upon the second body. If the two bodies are isolated from outside
 influences, the only force upon the first body can be that from the
 second, and vice versa. By Newton's third law, these forces have equal
 magnitude but opposite direction, so they cancel when added, and
-__MATH_37__ is constant. Alternatively, if __MATH_38__ is known to be
-constant, it follows that the forces have equal magnitude and opposite
-direction.
+__MATH_2063__ is constant. Alternatively, if __MATH_2064__ is known to
+be constant, it follows that the forces have equal magnitude and
+opposite direction.
 
 Candidates for additional laws
 
@@ -244,16 +245,16 @@ proportional to the square of the elapsed time. Importantly, the
 acceleration is the same for all bodies, independently of their mass.
 This follows from combining Newton's second law of motion with his law
 of universal gravitation. The latter states that the magnitude of the
-gravitational force from the Earth upon the body is __MATH_39__ where
-__MATH_40__ is the mass of the falling body, __MATH_41__ is the mass of
-the Earth, __MATH_42__ is Newton's constant, and __MATH_43__ is the
-distance from the center of the Earth to the body's location, which is
-very nearly the radius of the Earth. Setting this equal to __MATH_44__,
-the body's mass __MATH_45__ cancels from both sides of the equation,
-leaving an acceleration that depends upon __MATH_46__, __MATH_47__, and
-__MATH_48__, and __MATH_49__ can be taken to be constant. This
-particular value of acceleration is typically denoted __MATH_50__:
-__MATH_51__
+gravitational force from the Earth upon the body is __MATH_2065__ where
+__MATH_2066__ is the mass of the falling body, __MATH_2067__ is the mass
+of the Earth, __MATH_2068__ is Newton's constant, and __MATH_2069__ is
+the distance from the center of the Earth to the body's location, which
+is very nearly the radius of the Earth. Setting this equal to
+__MATH_2070__, the body's mass __MATH_2071__ cancels from both sides of
+the equation, leaving an acceleration that depends upon __MATH_2072__,
+__MATH_2073__, and __MATH_2074__, and __MATH_2075__ can be taken to be
+constant. This particular value of acceleration is typically denoted
+__MATH_2076__: __MATH_2077__
 
 If the body is not released from rest but instead launched upwards
 and/or horizontally with nonzero velocity, then free fall becomes
@@ -261,23 +262,24 @@ projectile motion. When air resistance can be neglected, projectiles
 follow parabola-shaped trajectories, because gravity affects the body's
 vertical motion and not its horizontal. At the peak of the projectile's
 trajectory, its vertical velocity is zero, but its acceleration is
-__MATH_52__ downwards, as it is at all times. Setting the wrong vector
+__MATH_2078__ downwards, as it is at all times. Setting the wrong vector
 equal to zero is a common confusion among physics students.
 
 Uniform circular motion
 
 When a body is in uniform circular motion, the force on it changes the
 direction of its motion but not its speed. For a body moving in a circle
-of radius __MATH_53__ at a constant speed __MATH_54__, its acceleration
-has a magnitude__MATH_55__and is directed toward the center of the
-circle. The force required to sustain this acceleration, called the
-centripetal force, is therefore also directed toward the center of the
-circle and has magnitude __MATH_56__. Many orbits, such as that of the
-Moon around the Earth, can be approximated by uniform circular motion.
-In such cases, the centripetal force is gravity, and by Newton's law of
-universal gravitation has magnitude __MATH_57__, where __MATH_58__ is
-the mass of the larger body being orbited. Therefore, the mass of a body
-can be calculated from observations of another body orbiting around it.
+of radius __MATH_2079__ at a constant speed __MATH_2080__, its
+acceleration has a magnitude__MATH_2081__and is directed toward the
+center of the circle. The force required to sustain this acceleration,
+called the centripetal force, is therefore also directed toward the
+center of the circle and has magnitude __MATH_2082__. Many orbits, such
+as that of the Moon around the Earth, can be approximated by uniform
+circular motion. In such cases, the centripetal force is gravity, and by
+Newton's law of universal gravitation has magnitude __MATH_2083__, where
+__MATH_2084__ is the mass of the larger body being orbited. Therefore,
+the mass of a body can be calculated from observations of another body
+orbiting around it.
 
 Newton's cannonball is a thought experiment that interpolates between
 projectile motion and uniform circular motion. A cannonball that is
@@ -297,18 +299,18 @@ is not slowed by air resistance or obstacles).
 
 Harmonic motion
 
-Consider a body of mass __MATH_59__ able to move along the __MATH_60__
-axis, and suppose an equilibrium point exists at the position
-__MATH_61__. That is, at __MATH_62__, the net force upon the body is the
-zero vector, and by Newton's second law, the body will not accelerate.
-If the force upon the body is proportional to the displacement from the
-equilibrium point, and directed to the equilibrium point, then the body
-will perform simple harmonic motion. Writing the force as __MATH_63__,
-Newton's second law becomes __MATH_64__ This differential equation has
-the solution __MATH_65__ where the frequency __MATH_66__ is equal to
-__MATH_67__, and the constants __MATH_68__ and __MATH_69__ can be
-calculated knowing, for example, the position and velocity the body has
-at a given time, like __MATH_70__.
+Consider a body of mass __MATH_2085__ able to move along the
+__MATH_2086__ axis, and suppose an equilibrium point exists at the
+position __MATH_2087__. That is, at __MATH_2088__, the net force upon
+the body is the zero vector, and by Newton's second law, the body will
+not accelerate. If the force upon the body is proportional to the
+displacement from the equilibrium point, and directed to the equilibrium
+point, then the body will perform simple harmonic motion. Writing the
+force as __MATH_2089__, Newton's second law becomes __MATH_2090__ This
+differential equation has the solution __MATH_2091__ where the frequency
+__MATH_2092__ is equal to __MATH_2093__, and the constants __MATH_2094__
+and __MATH_2095__ can be calculated knowing, for example, the position
+and velocity the body has at a given time, like __MATH_2096__.
 
 One reason that the harmonic oscillator is a conceptually important
 example is that it is good approximation for many systems near a stable
@@ -316,12 +318,12 @@ mechanical equilibrium. For example, a pendulum has a stable equilibrium
 in the vertical position: if motionless there, it will remain there, and
 if pushed slightly, it will swing back and forth. Neglecting air
 resistance and friction in the pivot, the force upon the pendulum is
-gravity, and Newton's second law becomes __MATH_71__where __MATH_72__ is
-the length of the pendulum and __MATH_73__ is its angle from the
-vertical. When the angle __MATH_74__ is small, the sine of __MATH_75__
-is nearly equal to __MATH_76__ (see small-angle approximation), and so
-this expression simplifies to the equation for a simple harmonic
-oscillator with frequency __MATH_77__.
+gravity, and Newton's second law becomes __MATH_2097__where
+__MATH_2098__ is the length of the pendulum and __MATH_2099__ is its
+angle from the vertical. When the angle __MATH_2100__ is small, the sine
+of __MATH_2101__ is nearly equal to __MATH_2102__ (see small-angle
+approximation), and so this expression simplifies to the equation for a
+simple harmonic oscillator with frequency __MATH_2103__.
 
 A harmonic oscillator can be damped, often by friction or viscous drag,
 in which case energy bleeds out of the oscillator and the amplitude of
@@ -336,10 +338,11 @@ though it may be rearranged. It can be the case that an object of
 interest gains or loses mass because matter is added to or removed from
 it. In such a situation, Newton's laws can be applied to the individual
 pieces of matter, keeping track of which pieces belong to the object of
-interest over time. For instance, if a rocket of mass __MATH_78__,
-moving at velocity __MATH_79__, ejects matter at a velocity __MATH_80__
-relative to the rocket, then __MATH_81__ where __MATH_82__ is the net
-external force (e.g., a planet's gravitational pull).
+interest over time. For instance, if a rocket of mass __MATH_2104__,
+moving at velocity __MATH_2105__, ejects matter at a velocity
+__MATH_2106__ relative to the rocket, then __MATH_2107__ where
+__MATH_2108__ is the net external force (e.g., a planet's gravitational
+pull).
 
 Fan and sail
 
@@ -369,7 +372,7 @@ kinetic energy. In many cases of interest, the net work done by a force
 when a body moves in a closed loop — starting at a point, moving along
 some trajectory, and returning to the initial point — is zero. If this
 is the case, then the force can be written in terms of the gradient of a
-function called a scalar potential: __MATH_83__ This is true for many
+function called a scalar potential: __MATH_2109__ This is true for many
 forces including that of gravity, but not for friction; indeed, almost
 any problem in a mechanics textbook that does not involve friction can
 be expressed in this way. The fact that the force can be written in this
@@ -394,18 +397,18 @@ Significant aspects of the motion of an extended body can be understood
 by imagining the mass of that body concentrated to a single point, known
 as the center of mass. The location of a body's center of mass depends
 upon how that body's material is distributed. For a collection of
-pointlike objects with masses __MATH_84__ at positions __MATH_85__, the
-center of mass is located at __MATH_86__ where __MATH_87__ is the total
-mass of the collection. In the absence of a net external force, the
-center of mass moves at a constant speed in a straight line. This
-applies, for example, to a collision between two bodies. If the total
-external force is not zero, then the center of mass changes velocity as
-though it were a point body of mass __MATH_88__. This follows from the
-fact that the internal forces within the collection, the forces that the
-objects exert upon each other, occur in balanced pairs by Newton's third
-law. In a system of two bodies with one much more massive than the
-other, the center of mass will approximately coincide with the location
-of the more massive body.
+pointlike objects with masses __MATH_2110__ at positions __MATH_2111__,
+the center of mass is located at __MATH_2112__ where __MATH_2113__ is
+the total mass of the collection. In the absence of a net external
+force, the center of mass moves at a constant speed in a straight line.
+This applies, for example, to a collision between two bodies. If the
+total external force is not zero, then the center of mass changes
+velocity as though it were a point body of mass __MATH_2114__. This
+follows from the fact that the internal forces within the collection,
+the forces that the objects exert upon each other, occur in balanced
+pairs by Newton's third law. In a system of two bodies with one much
+more massive than the other, the center of mass will approximately
+coincide with the location of the more massive body.
 
 Rotational analogues of Newton's laws
 
@@ -415,17 +418,18 @@ The analogue of mass is the moment of inertia, the counterpart of
 momentum is angular momentum, and the counterpart of force is torque.
 
 Angular momentum is calculated with respect to a reference point. If the
-displacement vector from a reference point to a body is __MATH_89__ and
-the body has momentum __MATH_90__, then the body's angular momentum with
-respect to that point is, using the vector cross product, __MATH_91__
-Taking the time derivative of the angular momentum gives __MATH_92__ The
-first term vanishes because __MATH_93__ and __MATH_94__ point in the
-same direction. The remaining term is the torque, __MATH_95__ When the
-torque is zero, the angular momentum is constant, just as when the force
-is zero, the momentum is constant. The torque can vanish even when the
-force is non-zero, if the body is located at the reference point
-(__MATH_96__) or if the force __MATH_97__ and the displacement vector
-__MATH_98__ are directed along the same line.
+displacement vector from a reference point to a body is __MATH_2115__
+and the body has momentum __MATH_2116__, then the body's angular
+momentum with respect to that point is, using the vector cross product,
+__MATH_2117__ Taking the time derivative of the angular momentum gives
+__MATH_2118__ The first term vanishes because __MATH_2119__ and
+__MATH_2120__ point in the same direction. The remaining term is the
+torque, __MATH_2121__ When the torque is zero, the angular momentum is
+constant, just as when the force is zero, the momentum is constant. The
+torque can vanish even when the force is non-zero, if the body is
+located at the reference point (__MATH_2122__) or if the force
+__MATH_2123__ and the displacement vector __MATH_2124__ are directed
+along the same line.
 
 The angular momentum of a collection of point masses, and thus of an
 extended body, is found by adding the contributions from each of the
@@ -484,22 +488,22 @@ Newton's laws can be applied to fluids by considering a fluid as
 composed of infinitesimal pieces, each exerting forces upon neighboring
 pieces. The Euler momentum equation is an expression of Newton's second
 law adapted to fluid dynamics. A fluid is described by a velocity field,
-i.e., a function __MATH_99__ that assigns a velocity vector to each
+i.e., a function __MATH_2125__ that assigns a velocity vector to each
 point in space and time. A small object being carried along by the fluid
 flow can change velocity for two reasons: first, because the velocity
 field at its position is changing over time, and second, because it
 moves to a new location where the velocity field has a different value.
 Consequently, when Newton's second law is applied to an infinitesimal
-portion of fluid, the acceleration __MATH_100__ has two terms, a
+portion of fluid, the acceleration __MATH_2126__ has two terms, a
 combination known as a total or material derivative. The mass of an
 infinitesimal portion depends upon the fluid density, and there is a net
 force upon it if the fluid pressure varies from one side of it to
-another. Accordingly, __MATH_101__ becomes __MATH_102__ where
-__MATH_103__ is the density, __MATH_104__ is the pressure, and
-__MATH_105__ stands for an external influence like a gravitational pull.
-Incorporating the effect of viscosity turns the Euler equation into a
-Navier–Stokes equation: __MATH_106__ where __MATH_107__ is the kinematic
-viscosity.
+another. Accordingly, __MATH_2127__ becomes __MATH_2128__ where
+__MATH_2129__ is the density, __MATH_2130__ is the pressure, and
+__MATH_2131__ stands for an external influence like a gravitational
+pull. Incorporating the effect of viscosity turns the Euler equation
+into a Navier–Stokes equation: __MATH_2132__ where __MATH_2133__ is the
+kinematic viscosity.
 
 Singularities
 
@@ -538,20 +542,20 @@ Lagrangian
 Lagrangian mechanics differs from the Newtonian formulation by
 considering entire trajectories at once rather than predicting a body's
 motion at a single instant. It is traditional in Lagrangian mechanics to
-denote position with __MATH_108__ and velocity with __MATH_109__. The
+denote position with __MATH_2134__ and velocity with __MATH_2135__. The
 simplest example is a massive point particle, the Lagrangian for which
 can be written as the difference between its kinetic and potential
-energies: __MATH_110__ where the kinetic energy is __MATH_111__ and the
-potential energy is some function of the position, __MATH_112__. The
-physical path that the particle will take between an initial point
-__MATH_113__ and a final point __MATH_114__ is the path for which the
+energies: __MATH_2136__ where the kinetic energy is __MATH_2137__ and
+the potential energy is some function of the position, __MATH_2138__.
+The physical path that the particle will take between an initial point
+__MATH_2139__ and a final point __MATH_2140__ is the path for which the
 integral of the Lagrangian is "stationary". That is, the physical path
 has the property that small perturbations of it will, to a first
 approximation, not change the integral of the Lagrangian. Calculus of
 variations provides the mathematical tools for finding this path.
 Applying the calculus of variations to the task of finding the path
-yields the Euler–Lagrange equation for the particle, __MATH_115__
-Evaluating the partial derivatives of the Lagrangian gives __MATH_116__
+yields the Euler–Lagrange equation for the particle, __MATH_2141__
+Evaluating the partial derivatives of the Lagrangian gives __MATH_2142__
 which is a restatement of Newton's second law. The left-hand side is the
 time derivative of the momentum, and the right-hand side is the force,
 represented in terms of the potential energy.
@@ -573,14 +577,14 @@ of the positions and the momenta of all the bodies making up the system,
 and it may also depend explicitly upon time. The time derivatives of the
 position and momentum variables are given by partial derivatives of the
 Hamiltonian, via Hamilton's equations. The simplest example is a point
-mass __MATH_117__ constrained to move in a straight line, under the
-effect of a potential. Writing __MATH_118__ for the position coordinate
-and __MATH_119__ for the body's momentum, the Hamiltonian is
-__MATH_120__ In this example, Hamilton's equations are __MATH_121__ and
-__MATH_122__ Evaluating these partial derivatives, the former equation
-becomes __MATH_123__ which reproduces the familiar statement that a
-body's momentum is the product of its mass and velocity. The time
-derivative of the momentum is __MATH_124__ which, upon identifying the
+mass __MATH_2143__ constrained to move in a straight line, under the
+effect of a potential. Writing __MATH_2144__ for the position coordinate
+and __MATH_2145__ for the body's momentum, the Hamiltonian is
+__MATH_2146__ In this example, Hamilton's equations are __MATH_2147__
+and __MATH_2148__ Evaluating these partial derivatives, the former
+equation becomes __MATH_2149__ which reproduces the familiar statement
+that a body's momentum is the product of its mass and velocity. The time
+derivative of the momentum is __MATH_2150__ which, upon identifying the
 negative derivative of the potential with the force, is just Newton's
 second law once again.
 
@@ -598,31 +602,31 @@ The Hamilton–Jacobi equation provides yet another formulation of
 classical mechanics, one which makes it mathematically analogous to wave
 optics. This formulation also uses Hamiltonian functions, but in a
 different way than the formulation described above. The paths taken by
-bodies or collections of bodies are deduced from a function __MATH_125__
-of positions __MATH_126__ and time __MATH_127__. The Hamiltonian is
-incorporated into the Hamilton–Jacobi equation, a differential equation
-for __MATH_128__. Bodies move over time in such a way that their
-trajectories are perpendicular to the surfaces of constant __MATH_129__,
-analogously to how a light ray propagates in the direction perpendicular
-to its wavefront. This is simplest to express for the case of a single
-point mass, in which __MATH_130__ is a function __MATH_131__, and the
-point mass moves in the direction along which __MATH_132__ changes most
-steeply. In other words, the momentum of the point mass is the gradient
-of __MATH_133__: __MATH_134__ The Hamilton–Jacobi equation for a point
-mass is __MATH_135__ The relation to Newton's laws can be seen by
-considering a point mass moving in a time-independent potential
-__MATH_136__, in which case the Hamilton–Jacobi equation becomes
-__MATH_137__ Taking the gradient of both sides, this becomes
-__MATH_138__ Interchanging the order of the partial derivatives on the
-left-hand side, and using the power and chain rules on the first term on
-the right-hand side, __MATH_139__ Gathering together the terms that
-depend upon the gradient of __MATH_140__, __MATH_141__ This is another
-re-expression of Newton's second law. The expression in brackets is a
-total or material derivative as mentioned above, in which the first term
-indicates how the function being differentiated changes over time at a
-fixed location, and the second term captures how a moving particle will
-see different values of that function as it travels from place to place:
-__MATH_142__
+bodies or collections of bodies are deduced from a function
+__MATH_2151__ of positions __MATH_2152__ and time __MATH_2153__. The
+Hamiltonian is incorporated into the Hamilton–Jacobi equation, a
+differential equation for __MATH_2154__. Bodies move over time in such a
+way that their trajectories are perpendicular to the surfaces of
+constant __MATH_2155__, analogously to how a light ray propagates in the
+direction perpendicular to its wavefront. This is simplest to express
+for the case of a single point mass, in which __MATH_2156__ is a
+function __MATH_2157__, and the point mass moves in the direction along
+which __MATH_2158__ changes most steeply. In other words, the momentum
+of the point mass is the gradient of __MATH_2159__: __MATH_2160__ The
+Hamilton–Jacobi equation for a point mass is __MATH_2161__ The relation
+to Newton's laws can be seen by considering a point mass moving in a
+time-independent potential __MATH_2162__, in which case the
+Hamilton–Jacobi equation becomes __MATH_2163__ Taking the gradient of
+both sides, this becomes __MATH_2164__ Interchanging the order of the
+partial derivatives on the left-hand side, and using the power and chain
+rules on the first term on the right-hand side, __MATH_2165__ Gathering
+together the terms that depend upon the gradient of __MATH_2166__,
+__MATH_2167__ This is another re-expression of Newton's second law. The
+expression in brackets is a total or material derivative as mentioned
+above, in which the first term indicates how the function being
+differentiated changes over time at a fixed location, and the second
+term captures how a moving particle will see different values of that
+function as it travels from place to place: __MATH_2168__
 
 Relation to other physical theories
 
@@ -637,10 +641,10 @@ momentum.
 
 The Langevin equation is a special case of Newton's second law, adapted
 for the case of describing a small object bombarded stochastically by
-even smaller ones. It can be written__MATH_143__where __MATH_144__ is a
-drag coefficient and __MATH_145__ is a force that varies randomly from
-instant to instant, representing the net effect of collisions with the
-surrounding particles. This is used to model Brownian motion.
+even smaller ones. It can be written__MATH_2169__where __MATH_2170__ is
+a drag coefficient and __MATH_2171__ is a force that varies randomly
+from instant to instant, representing the net effect of collisions with
+the surrounding particles. This is used to model Brownian motion.
 
 Electromagnetism
 
@@ -652,26 +656,26 @@ electrically charged bodies has much the same mathematical form as
 Newton's law of universal gravitation: the force is proportional to the
 product of the charges, inversely proportional to the square of the
 distance between them, and directed along the straight line between
-them. The Coulomb force that a charge __MATH_146__ exerts upon a charge
-__MATH_147__ is equal in magnitude to the force that __MATH_148__ exerts
-upon __MATH_149__, and it points in the exact opposite direction.
-Coulomb's law is thus consistent with Newton's third law.
+them. The Coulomb force that a charge __MATH_2172__ exerts upon a charge
+__MATH_2173__ is equal in magnitude to the force that __MATH_2174__
+exerts upon __MATH_2175__, and it points in the exact opposite
+direction. Coulomb's law is thus consistent with Newton's third law.
 
 Electromagnetism treats forces as produced by fields acting upon
 charges. The Lorentz force law provides an expression for the force upon
 a charged body that can be plugged into Newton's second law in order to
 calculate its acceleration. According to the Lorentz force law, a
 charged body in an electric field experiences a force in the direction
-of that field, a force proportional to its charge __MATH_150__ and to
+of that field, a force proportional to its charge __MATH_2176__ and to
 the strength of the electric field. In addition, a moving charged body
 in a magnetic field experiences a force that is also proportional to its
 charge, in a direction perpendicular to both the field and the body's
-direction of motion. Using the vector cross product,__MATH_151__ If the
-electric field vanishes (__MATH_152__), then the force will be
+direction of motion. Using the vector cross product,__MATH_2177__ If the
+electric field vanishes (__MATH_2178__), then the force will be
 perpendicular to the charge's motion, just as in the case of uniform
 circular motion studied above, and the charge will circle (or more
 generally move in a helix) around the magnetic field lines at the
-cyclotron frequency __MATH_153__. Mass spectrometry works by applying
+cyclotron frequency __MATH_2179__. Mass spectrometry works by applying
 electric and/or magnetic fields to moving charges and measuring the
 resulting acceleration, which by the Lorentz force law yields the
 mass-to-charge ratio.
@@ -707,10 +711,10 @@ consequences of this is the fact that the more quickly a body moves, the
 harder it is to accelerate, and so, no matter how much force is applied,
 a body cannot be accelerated to the speed of light. Depending on the
 problem at hand, momentum in special relativity can be represented as a
-three-dimensional vector, __MATH_154__, where __MATH_155__ is the body's
-rest mass and __MATH_156__ is the Lorentz factor, which depends upon the
-body's speed. Alternatively, momentum and force can be represented as
-four-vectors.
+three-dimensional vector, __MATH_2180__, where __MATH_2181__ is the
+body's rest mass and __MATH_2182__ is the Lorentz factor, which depends
+upon the body's speed. Alternatively, momentum and force can be
+represented as four-vectors.
 
 Newton's third law must be modified in special relativity. The third law
 refers to the forces between two bodies at the same moment in time, and

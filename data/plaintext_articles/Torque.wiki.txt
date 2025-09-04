@@ -1,12 +1,12 @@
 In physics and mechanics, torque is the rotational analogue of linear
 force. It is also referred to as the moment of force (also abbreviated
-to moment). The symbol for torque is typically τ, the lowercase
-Greek letter tau. When being referred to as moment of force, it is
-commonly denoted by M. Just as a linear force is a push or a
-pull applied to a body, a torque can be thought of as a twist applied to
-an object with respect to a chosen point; for example, driving a screw
-uses torque to force it into an object, which is applied by the
-screwdriver rotating around its axis to the drives on the head.
+to moment). The symbol for torque is typically τ, the
+lowercase Greek letter tau. When being referred to as moment of force,
+it is commonly denoted by M. Just as a linear force is a push
+or a pull applied to a body, a torque can be thought of as a twist
+applied to an object with respect to a chosen point; for example,
+driving a screw uses torque to force it into an object, which is applied
+by the screwdriver rotating around its axis to the drives on the head.
 
 Historical terminology
 
@@ -52,8 +52,8 @@ arm vectors. In symbols:
 
 where
 
--   τ is the torque vector and τ is the magnitude of
-    the torque;
+-   τ is the torque vector and τ is the magnitude
+    of the torque;
 -   𝐫 is the position vector (a vector from the point about
     which the torque is being measured to the point where the force is
     applied), and r is the magnitude of the position vector;
@@ -61,8 +61,8 @@ where
     vector, and F_(⊥) is the amount of force directed perpendicularly to
     the position of the particle;
 -   × denotes the cross product, which produces a vector that
-    is perpendicular both to ”'r”' and to ”'F”' following the
-    right-hand rule;
+    is perpendicular both to ”'r”' and to ”'F”' following
+    the right-hand rule;
 -   θ is the angle between the force vector and the lever arm
     vector.
 
@@ -189,9 +189,9 @@ to an elemental linear displacement d𝐬
 
 W = ∫_s_1^s_2 𝐅 ·d𝐬
 
-However, the infinitesimal linear displacement d𝐬 is related to
-a corresponding angular displacement dθ and the radius vector
-𝐫 as
+However, the infinitesimal linear displacement d𝐬 is related
+to a corresponding angular displacement dθ and the radius
+vector 𝐫 as
 
 d𝐬 = dθ×𝐫
 
@@ -349,19 +349,19 @@ Static equilibrium
 For an object to be in static equilibrium, not only must the sum of the
 forces be zero, but also the sum of the torques (moments) about any
 point. For a two-dimensional situation with horizontal and vertical
-forces, the sum of the forces requirement is two equations: Σ”H” = 0
-and Σ”V” = 0, and the torque a third equation: Σ”τ” = 0. That is,
-to solve statically determinate equilibrium problems in two-dimensions,
-three equations are used.
+forces, the sum of the forces requirement is two equations:
+Σ”H” = 0 and Σ”V” = 0, and the torque a third equation:
+Σ”τ” = 0. That is, to solve statically determinate equilibrium
+problems in two-dimensions, three equations are used.
 
 Net force versus torque
 
 When the net force on the system is zero, the torque measured from any
 point in space is the same. For example, the torque on a
 current-carrying loop in a uniform magnetic field is the same regardless
-of the point of reference. If the net force 𝐅 is not zero, and
-τ_1 is the torque measured from 𝐫_1, then the torque
-measured from 𝐫_2 is τ_2 = τ_1 + (𝐫_2 - 𝐫_1) ×𝐅
+of the point of reference. If the net force 𝐅 is not zero,
+and τ_1 is the torque measured from 𝐫_1, then the
+torque measured from 𝐫_2 is τ_2 = τ_1 + (𝐫_2 - 𝐫_1) ×𝐅
 
 Machine torque
 

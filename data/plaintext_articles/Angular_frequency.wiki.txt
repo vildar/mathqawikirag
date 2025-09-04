@@ -29,13 +29,13 @@ Examples
 Circular motion
 
 In a rotating or orbiting object, there is a relation between distance
-from the axis, r, tangential speed, v, and the angular
-frequency of the rotation. During one period, T, a body in
-circular motion travels a distance vT. This distance is also
-equal to the circumference of the path traced out by the body,
-2πr. Setting these two quantities equal, and recalling the link
-between period and angular frequency we obtain: ω= v/r. Circular
-motion on the unit circle is given by ω= 2 π/T = 2 πf , where:
+from the axis, r, tangential speed, v, and the
+angular frequency of the rotation. During one period, T, a
+body in circular motion travels a distance vT. This distance
+is also equal to the circumference of the path traced out by the body,
+2πr. Setting these two quantities equal, and recalling the
+link between period and angular frequency we obtain: ω= v/r.
+Circular motion on the unit circle is given by ω= 2 π/T = 2 πf , where:
 
 -   ω is the angular frequency (SI unit: radians per second),
 -   T is the period (SI unit: seconds),

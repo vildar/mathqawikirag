@@ -2,7 +2,7 @@ In [[mechanics]], '''acceleration''' is the [[Rate (mathematics)|rate]] of chang
 * the net balance of all external [[force]]s acting onto that object — magnitude is [[Direct proportionality|directly proportional]] to this net resulting force;
 * that object's [[mass]], depending on the materials out of which it is made — magnitude is [[Inverse proportionality|inversely proportional]] to the object's mass.
 
-The [[International System of Units|SI]] unit for acceleration is [[metre per second squared]] (, __MATH_0__).
+The [[International System of Units|SI]] unit for acceleration is [[metre per second squared]] (, __MATH_165__).
 
 For example, when a [[vehicle]] starts from a [[Wikt:standstill|standstill]] (zero velocity, in an [[inertial frame of reference]]) and travels in a straight line at increasing speeds, it is accelerating in the direction of travel. If the vehicle turns, an acceleration occurs toward the new direction and changes its motion vector.  The acceleration of the vehicle in its current direction of motion is called a linear (or tangential during [[circular motion]]s) acceleration, the [[reaction (physics)|reaction]] to which the passengers on board experience as a force pushing them back into their seats. When changing direction, the effecting acceleration is called radial (or centripetal during circular motions) acceleration, the reaction to which the passengers experience as a [[centrifugal force]]. If the speed of the vehicle decreases, this is an acceleration in the opposite direction of the velocity vector (mathematically a [[negative number|negative]], if the movement is unidimensional and the velocity is positive), sometimes called '''deceleration''' or '''retardation''', and passengers experience the reaction to deceleration as an [[inertia]]l force pushing them forward.  Such negative accelerations are often achieved by [[retrorocket]] burning in [[spacecraft]]. Both acceleration and deceleration are treated the same, as they are both changes in velocity. Each of these accelerations (tangential, radial, deceleration) is felt by passengers until their relative (differential) velocity are neutralised in [[frame of reference|reference]] to the acceleration due to change in speed.
 
@@ -10,23 +10,23 @@ For example, when a [[vehicle]] starts from a [[Wikt:standstill|standstill]] (ze
 
 ===Average acceleration===
 
-An object's average acceleration over a period of [[time in physics|time]] is its change in [[velocity]], __MATH_1__, divided by the duration of the period, __MATH_2__. Mathematically,
-__MATH_3__
+An object's average acceleration over a period of [[time in physics|time]] is its change in [[velocity]], __MATH_166__, divided by the duration of the period, __MATH_167__. Mathematically,
+__MATH_168__
 
 ===Instantaneous acceleration===
 
 Instantaneous acceleration, meanwhile, is the [[limit of a function|limit]] of the average acceleration over an [[infinitesimal]] interval of time. In the terms of [[calculus]], instantaneous acceleration is the [[derivative]] of the velocity vector with respect to time:
-__MATH_4__
-As acceleration is defined as the derivative of velocity, __MATH_5__, with respect to time __MATH_6__ and velocity is defined as the derivative of position, __MATH_7__, with respect to time, acceleration can be thought of as the [[second derivative]] of __MATH_8__ with respect to __MATH_9__:
-__MATH_10__
+__MATH_169__
+As acceleration is defined as the derivative of velocity, __MATH_170__, with respect to time __MATH_171__ and velocity is defined as the derivative of position, __MATH_172__, with respect to time, acceleration can be thought of as the [[second derivative]] of __MATH_173__ with respect to __MATH_174__:
+__MATH_175__
 
 (Here and elsewhere, if [[Rectilinear motion|motion is in a straight line]], [[Euclidean vector|vector]] quantities can be substituted by [[Scalar (physics)|scalars]] in the equations.)
 
-By the [[fundamental theorem of calculus]], it can be seen that the [[integral]] of the acceleration function __MATH_11__ is the velocity function __MATH_12__; that is, the area under the curve of an acceleration vs. time (__MATH_13__ vs. __MATH_14__) graph corresponds to the change of velocity.
-__MATH_15__
+By the [[fundamental theorem of calculus]], it can be seen that the [[integral]] of the acceleration function __MATH_176__ is the velocity function __MATH_177__; that is, the area under the curve of an acceleration vs. time (__MATH_178__ vs. __MATH_179__) graph corresponds to the change of velocity.
+__MATH_180__
 
-Likewise, the integral of the [[Jerk (physics)|jerk]] function __MATH_16__, the derivative of the acceleration function, can be used to find  the change of acceleration at a certain time:
-__MATH_17__
+Likewise, the integral of the [[Jerk (physics)|jerk]] function __MATH_181__, the derivative of the acceleration function, can be used to find  the change of acceleration at a certain time:
+__MATH_182__
 
 ===Units===
 Acceleration has the [[dimensional analysis|dimensions]] of velocity (L/T) divided by time, i.e. [[length|L]] [[time|T]]<sup>−2</sup>. The [[International System of Units|SI]] unit of acceleration is the [[metre per second squared]] (m s<sup>−2</sup>); or "metre per second per second", as the velocity in metres per second changes by the acceleration value, every second.
@@ -37,21 +37,21 @@ An object moving in a circular motion—such as a satellite orbiting the Earth�
 [[Proper acceleration]], the acceleration of a body relative to a free-fall condition, is measured by an instrument called an [[accelerometer]].
 
 In [[classical mechanics]], for a body with constant mass, the (vector) acceleration of the body's center of mass is proportional to the net [[force]] vector (i.e. sum of all forces) acting on it ([[Newton's laws of motion#Newton's second law|Newton's second law]]):
-__MATH_18__
-where __MATH_19__ is the net force acting on the body, __MATH_20__ is  the [[mass]] of the body, and __MATH_21__ is the center-of-mass acceleration. As speeds approach the [[speed of light]], [[Special relativity|relativistic effects]] become increasingly large.
+__MATH_183__
+where __MATH_184__ is the net force acting on the body, __MATH_185__ is  the [[mass]] of the body, and __MATH_186__ is the center-of-mass acceleration. As speeds approach the [[speed of light]], [[Special relativity|relativistic effects]] become increasingly large.
 
 == Tangential and centripetal acceleration ==
 
 The velocity of a particle moving on a curved path as a [[function (mathematics)|function]] of time can be written as:
-__MATH_22__
-with __MATH_23__ equal to the speed of travel along the path, and
-__MATH_24__
-a [[Differential geometry of curves#Tangent vector|unit vector tangent]] to the path pointing in the direction of motion at the chosen moment in time. Taking into account both the changing speed __MATH_25__ and the changing direction of __MATH_26__, the acceleration of a particle moving on a curved path can be written using the [[chain rule]] of differentiation for the product of two functions of time as:
+__MATH_187__
+with __MATH_188__ equal to the speed of travel along the path, and
+__MATH_189__
+a [[Differential geometry of curves#Tangent vector|unit vector tangent]] to the path pointing in the direction of motion at the chosen moment in time. Taking into account both the changing speed __MATH_190__ and the changing direction of __MATH_191__, the acceleration of a particle moving on a curved path can be written using the [[chain rule]] of differentiation for the product of two functions of time as:
 
-__MATH_27__
+__MATH_192__
 
-where __MATH_28__ is the  unit (inward) [[Differential geometry of curves#Normal or curvature vector|normal vector]] to the particle's trajectory (also called ''the principal normal''), and __MATH_29__ is its instantaneous [[Curvature#Curvature of plane curves|radius of curvature]] based upon the [[Osculating circle#Mathematical description|osculating circle]] at time __MATH_30__. The components
-:__MATH_31__
+where __MATH_193__ is the  unit (inward) [[Differential geometry of curves#Normal or curvature vector|normal vector]] to the particle's trajectory (also called ''the principal normal''), and __MATH_194__ is its instantaneous [[Curvature#Curvature of plane curves|radius of curvature]] based upon the [[Osculating circle#Mathematical description|osculating circle]] at time __MATH_195__. The components
+:__MATH_196__
 are called the [[tangential acceleration]] and the normal or radial acceleration (or centripetal acceleration in circular motion, see also [[circular motion]] and [[centripetal force]]), respectively.
 
 Geometrical analysis of three-dimensional space curves, which explains tangent, (principal) normal and binormal, is described by the [[Frenet–Serret formulas]].
@@ -62,19 +62,19 @@ Geometrical analysis of three-dimensional space curves, which explains tangent, 
 
 ''Uniform'' or ''constant'' acceleration is a type of motion in which the [[velocity]] of an object changes by an equal amount in every equal time period.
 
-A frequently cited example of uniform acceleration is that of an object in [[free fall]] in a uniform gravitational field. The acceleration of a falling body in the absence of resistances to motion is dependent only on the [[gravitational field]] strength [[standard gravity|{{math|g}}]] (also called ''acceleration due to gravity''). By [[Newton's second law]] the [[force]] __MATH_32__ acting on a body is given by:
-__MATH_33__
+A frequently cited example of uniform acceleration is that of an object in [[free fall]] in a uniform gravitational field. The acceleration of a falling body in the absence of resistances to motion is dependent only on the [[gravitational field]] strength [[standard gravity|{{math|g}}]] (also called ''acceleration due to gravity''). By [[Newton's second law]] the [[force]] __MATH_197__ acting on a body is given by:
+__MATH_198__
 
 Because of the simple analytic properties of the case of constant acceleration, there are simple formulas relating the [[Displacement (vector)|displacement]], initial and time-dependent [[velocity|velocities]], and acceleration to the [[time in physics|time elapsed]]:
-__MATH_34__
+__MATH_199__
 
 where
-* __MATH_35__ is the elapsed time,
-* __MATH_36__ is the initial displacement from the origin,
-* __MATH_37__ is the displacement from the origin at time __MATH_38__,
-* __MATH_39__ is the initial velocity,
-* __MATH_40__ is the velocity at time __MATH_41__, and
-* __MATH_42__ is the uniform rate of acceleration.
+* __MATH_200__ is the elapsed time,
+* __MATH_201__ is the initial displacement from the origin,
+* __MATH_202__ is the displacement from the origin at time __MATH_203__,
+* __MATH_204__ is the initial velocity,
+* __MATH_205__ is the velocity at time __MATH_206__, and
+* __MATH_207__ is the uniform rate of acceleration.
 
 In particular, the motion can be resolved into two orthogonal parts, one of constant velocity and the other according to the above equations.  As [[Galileo]] showed, the net result is parabolic motion, which describes, e.g., the trajectory of a projectile in vacuum near the surface of Earth.
 
@@ -82,25 +82,25 @@ In particular, the motion can be resolved into two orthogonal parts, one of cons
 
 In uniform [[circular motion]], that is moving with constant ''speed'' along a circular path, a particle experiences an acceleration resulting from the change of the direction of the velocity vector, while its magnitude remains constant. The derivative of the location of a point on a curve with respect to time, i.e. its velocity, turns out to be always exactly tangential to the curve, respectively orthogonal to the radius in this point. Since in uniform motion the velocity in the tangential direction does not change, the acceleration must be in radial direction, pointing to the center of the circle. This acceleration constantly changes the direction of the velocity to be tangent in the neighbouring point, thereby rotating the velocity vector along the circle.
 
-* For a given speed __MATH_43__, the magnitude of this geometrically caused acceleration (centripetal acceleration) is inversely proportional to the radius __MATH_44__ of the circle, and increases as the square of this speed: __MATH_45__
-* For a given [[angular velocity]] __MATH_46__, the centripetal acceleration is directly proportional to radius __MATH_47__. This is due to the dependence of velocity __MATH_48__ on the radius __MATH_49__. __MATH_50__
-Expressing centripetal acceleration vector in polar components, where __MATH_51__ is a vector from the centre of the circle to the particle with magnitude equal to this distance, and considering the orientation of the acceleration towards the center, yields
-__MATH_52__
+* For a given speed __MATH_208__, the magnitude of this geometrically caused acceleration (centripetal acceleration) is inversely proportional to the radius __MATH_209__ of the circle, and increases as the square of this speed: __MATH_210__
+* For a given [[angular velocity]] __MATH_211__, the centripetal acceleration is directly proportional to radius __MATH_212__. This is due to the dependence of velocity __MATH_213__ on the radius __MATH_214__. __MATH_215__
+Expressing centripetal acceleration vector in polar components, where __MATH_216__ is a vector from the centre of the circle to the particle with magnitude equal to this distance, and considering the orientation of the acceleration towards the center, yields
+__MATH_217__
 
-As usual in rotations, the speed __MATH_53__ of a particle may be expressed as an [[angular velocity|''angular speed'']] with respect to a point at the distance __MATH_54__ as
-__MATH_55__
+As usual in rotations, the speed __MATH_218__ of a particle may be expressed as an [[angular velocity|''angular speed'']] with respect to a point at the distance __MATH_219__ as
+__MATH_220__
 
-Thus __MATH_56__
+Thus __MATH_221__
 
 This acceleration and the mass of the particle determine the necessary [[centripetal force]], directed ''toward'' the centre of the circle, as the net force acting on this particle to keep it in this uniform circular motion. The so-called '[[centrifugal force]]', appearing to act outward on the body, is a so-called [[pseudo force]] experienced in the [[frame of reference]] of the body in circular motion, due to the body's [[linear momentum]], a vector tangent to the circle of motion.
 
-In a nonuniform circular motion, i.e., the speed along the curved path is changing, the acceleration has a non-zero component tangential to the curve, and is not confined to the [[Principal normal vector|principal normal]], which directs to the center of the osculating circle, that determines the radius __MATH_57__ for the centripetal acceleration. The tangential component is given by the angular acceleration __MATH_58__, i.e., the rate of change __MATH_59__ of the angular speed __MATH_60__ times the radius __MATH_61__. That is,
-__MATH_62__
+In a nonuniform circular motion, i.e., the speed along the curved path is changing, the acceleration has a non-zero component tangential to the curve, and is not confined to the [[Principal normal vector|principal normal]], which directs to the center of the osculating circle, that determines the radius __MATH_222__ for the centripetal acceleration. The tangential component is given by the angular acceleration __MATH_223__, i.e., the rate of change __MATH_224__ of the angular speed __MATH_225__ times the radius __MATH_226__. That is,
+__MATH_227__
 
-The sign of the tangential component of the acceleration is determined by the sign of the [[angular acceleration]] (__MATH_63__), and the tangent is always directed at right angles to the radius vector.
+The sign of the tangential component of the acceleration is determined by the sign of the [[angular acceleration]] (__MATH_228__), and the tangent is always directed at right angles to the radius vector.
 
 == Coordinate systems ==
-In multi-dimensional [[Cartesian coordinate system]]s, acceleration is broken up into components that correspond with each dimensional axis of the coordinate system. In a two-dimensional system, where there is an x-axis and a y-axis, corresponding acceleration components are defined as__MATH_64__ __MATH_65__The two-dimensional acceleration vector is then defined as __MATH_66__. The magnitude of this vector is found by the [[Euclidean distance|distance formula]] as__MATH_67__In three-dimensional systems where there is an additional z-axis, the corresponding acceleration component is defined as__MATH_68__The three-dimensional acceleration vector is defined as __MATH_69__ with its magnitude being determined by__MATH_70__
+In multi-dimensional [[Cartesian coordinate system]]s, acceleration is broken up into components that correspond with each dimensional axis of the coordinate system. In a two-dimensional system, where there is an x-axis and a y-axis, corresponding acceleration components are defined as__MATH_229__ __MATH_230__The two-dimensional acceleration vector is then defined as __MATH_231__. The magnitude of this vector is found by the [[Euclidean distance|distance formula]] as__MATH_232__In three-dimensional systems where there is an additional z-axis, the corresponding acceleration component is defined as__MATH_233__The three-dimensional acceleration vector is defined as __MATH_234__ with its magnitude being determined by__MATH_235__
 
 == Relation to relativity ==
 

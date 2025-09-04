@@ -1,12 +1,12 @@
 In physics and mechanics, torque is the rotational analogue of linear
 force. It is also referred to as the moment of force (also abbreviated
-to moment). The symbol for torque is typically __MATH_0__, the lowercase
-Greek letter tau. When being referred to as moment of force, it is
-commonly denoted by __MATH_1__. Just as a linear force is a push or a
-pull applied to a body, a torque can be thought of as a twist applied to
-an object with respect to a chosen point; for example, driving a screw
-uses torque to force it into an object, which is applied by the
-screwdriver rotating around its axis to the drives on the head.
+to moment). The symbol for torque is typically __MATH_945__, the
+lowercase Greek letter tau. When being referred to as moment of force,
+it is commonly denoted by __MATH_946__. Just as a linear force is a push
+or a pull applied to a body, a torque can be thought of as a twist
+applied to an object with respect to a chosen point; for example,
+driving a screw uses torque to force it into an object, which is applied
+by the screwdriver rotating around its axis to the drives on the head.
 
 Historical terminology
 
@@ -48,22 +48,22 @@ connecting the point about which the torque is being measured to the
 point of force application, and the angle between the force and lever
 arm vectors. In symbols:
 
-__MATH_2__
+__MATH_947__
 
 where
 
--   __MATH_3__ is the torque vector and __MATH_4__ is the magnitude of
-    the torque;
--   __MATH_5__ is the position vector (a vector from the point about
+-   __MATH_948__ is the torque vector and __MATH_949__ is the magnitude
+    of the torque;
+-   __MATH_950__ is the position vector (a vector from the point about
     which the torque is being measured to the point where the force is
     applied), and r is the magnitude of the position vector;
--   __MATH_6__ is the force vector, F is the magnitude of the force
+-   __MATH_951__ is the force vector, F is the magnitude of the force
     vector, and F_(⊥) is the amount of force directed perpendicularly to
     the position of the particle;
--   __MATH_7__ denotes the cross product, which produces a vector that
-    is perpendicular both to __MATH_8__ and to __MATH_9__ following the
-    right-hand rule;
--   __MATH_10__ is the angle between the force vector and the lever arm
+-   __MATH_952__ denotes the cross product, which produces a vector that
+    is perpendicular both to __MATH_953__ and to __MATH_954__ following
+    the right-hand rule;
+-   __MATH_955__ is the angle between the force vector and the lever arm
     vector.
 
 The SI unit for torque is the newton-metre (N⋅m). For more on the units
@@ -74,45 +74,45 @@ Relationship with the angular momentum
 The net torque on a body determines the rate of change of the body's
 angular momentum,
 
-__MATH_11__
+__MATH_956__
 
 where L is the angular momentum vector and t is time. For the motion of
 a point particle,
 
-__MATH_12__
+__MATH_957__
 
-where __MATH_13__ is the moment of inertia and ω is the orbital angular
+where __MATH_958__ is the moment of inertia and ω is the orbital angular
 velocity pseudovector. It follows that
 
-__MATH_14__
+__MATH_959__
 
-using the derivative of a vector is__MATH_15__This equation is the
+using the derivative of a vector is__MATH_960__This equation is the
 rotational analogue of Newton's second law for point particles, and is
 valid for any type of trajectory. In some simple cases like a rotating
 disc, where only the moment of inertia on rotating axis is, the
-rotational Newton's second law can be__MATH_16__where __MATH_17__.
+rotational Newton's second law can be__MATH_961__where __MATH_962__.
 
 Proof of the equivalence of definitions
 
 The definition of angular momentum for a single point particle is:
-__MATH_18__ where p is the particle's linear momentum and r is the
+__MATH_963__ where p is the particle's linear momentum and r is the
 position vector from the origin. The time-derivative of this is:
 
-__MATH_19__
+__MATH_964__
 
 This result can easily be proven by splitting the vectors into
 components and applying the product rule. But because the rate of change
-of linear momentum is force __MATH_20__ and the rate of change of
-position is velocity __MATH_21__,
+of linear momentum is force __MATH_965__ and the rate of change of
+position is velocity __MATH_966__,
 
-__MATH_22__
+__MATH_967__
 
-The cross product of momentum __MATH_23__ with its associated velocity
-__MATH_24__ is zero because velocity and momentum are parallel, so the
+The cross product of momentum __MATH_968__ with its associated velocity
+__MATH_969__ is zero because velocity and momentum are parallel, so the
 second term vanishes. Therefore, torque on a particle is equal to the
 first derivative of its angular momentum with respect to time. If
 multiple forces are applied, according Newton's second law it follows
-that__MATH_25__
+that__MATH_970__
 
 This is a general proof for point particles, but it can be generalized
 to a system of point particles by applying the above proof to each of
@@ -125,7 +125,7 @@ Derivatives of torque
 
 In physics, rotatum is the derivative of torque with respect to time
 
-  __MATH_26__
+  __MATH_971__
 
 where τ is torque.
 
@@ -137,13 +137,13 @@ rotatum, even if sometimes various proposals have been made.
 Using the cross product definition of torque, an alternative expression
 for rotatum is:
 
-  __MATH_27__
+  __MATH_972__
 
-Because the rate of change of force is yank __MATH_28__ and the rate of
-change of position is velocity __MATH_29__, the expression can be
+Because the rate of change of force is yank __MATH_973__ and the rate of
+change of position is velocity __MATH_974__, the expression can be
 further simplified to:
 
-  __MATH_30__
+  __MATH_975__
 
 Relationship with power and energy
 
@@ -153,7 +153,7 @@ work. Similarly, if torque is allowed to act through an angular
 displacement, it is doing work. Mathematically, for rotation about a
 fixed axis through the center of mass, the work W can be expressed as
 
-__MATH_31__
+__MATH_976__
 
 where τ is torque, and θ₁ and θ₂ represent (respectively) the initial
 and final angular positions of the body.
@@ -161,16 +161,16 @@ and final angular positions of the body.
 It follows from the work–energy principle that W also represents the
 change in the rotational kinetic energy E_(r) of the body, given by
 
-__MATH_32__
+__MATH_977__
 
 where I is the moment of inertia of the body and ω is its angular speed.
 
 Power is the work per unit time, given by
 
-__MATH_33__
+__MATH_978__
 
 where P is power, τ'' is torque,ω'' is the angular velocity, and
-__MATH_34__ represents the scalar product.
+__MATH_979__ represents the scalar product.
 
 Algebraically, the equation may be rearranged to compute torque for a
 given angular speed and power output. The power injected by the torque
@@ -183,31 +183,31 @@ resulting acceleration, if any).
 Proof
 
 The work done by a variable force acting over a finite linear
-displacement __MATH_35__ is given by integrating the force with respect
-to an elemental linear displacement __MATH_36__
+displacement __MATH_980__ is given by integrating the force with respect
+to an elemental linear displacement __MATH_981__
 
-__MATH_37__
+__MATH_982__
 
-However, the infinitesimal linear displacement __MATH_38__ is related to
-a corresponding angular displacement __MATH_39__ and the radius vector
-__MATH_40__ as
+However, the infinitesimal linear displacement __MATH_983__ is related
+to a corresponding angular displacement __MATH_984__ and the radius
+vector __MATH_985__ as
 
-__MATH_41__
+__MATH_986__
 
-Substitution in the above expression for work, , gives __MATH_42__
+Substitution in the above expression for work, , gives __MATH_987__
 
 The expression inside the integral is a scalar triple product
-__MATH_43__, but as per the definition of torque, and since the
+__MATH_988__, but as per the definition of torque, and since the
 parameter of integration has been changed from linear displacement to
 angular displacement, the equation becomes
 
-__MATH_44__
+__MATH_989__
 
 If the torque and the angular displacement are in the same direction,
 then the scalar product reduces to a product of magnitudes; i.e.,
-__MATH_45__ giving
+__MATH_990__ giving
 
-__MATH_46__
+__MATH_991__
 
 Principle of moments
 
@@ -216,17 +216,17 @@ confused with the geometrical theorem of the same name) states that the
 resultant torques due to several forces applied to about a point is
 equal to the sum of the contributing torques:
 
-__MATH_47__
+__MATH_992__
 
 From this it follows that the torques resulting from N number of forces
 acting around a pivot on an object are balanced when
 
-__MATH_48__
+__MATH_993__
 
 Units
 
 Torque has the dimension of force times distance, symbolically
-__MATH_49__ and those fundamental dimensions are the same as that for
+__MATH_994__ and those fundamental dimensions are the same as that for
 energy or work. Official SI literature indicates newton-metre, is
 properly denoted N⋅m, as the unit for torque; although this is
 dimensionally equivalent to the joule, which is not used for torque. In
@@ -250,19 +250,19 @@ Conversion to other units
 A conversion factor may be necessary when using different units of power
 or torque. For example, if rotational speed (unit: revolution per minute
 or second) is used in place of angular speed (unit: radian per second),
-we must multiply by 2__MATH_50__ radians per revolution. In the
+we must multiply by 2__MATH_995__ radians per revolution. In the
 following formulas, P is power, τ is torque, and ν (Greek letter nu) is
 rotational speed.
 
-__MATH_51__
+__MATH_996__
 
 Showing units:
 
-__MATH_52__
+__MATH_997__
 
 Dividing by 60 seconds per minute gives us the following.
 
-__MATH_53__
+__MATH_998__
 
 where rotational speed is in revolutions per minute (rpm, rev/min).
 
@@ -270,7 +270,7 @@ Some people (e.g., American automotive engineers) use horsepower
 (mechanical) for power, foot-pounds (lbf⋅ft) for torque and rpm for
 rotational speed. This results in the formula changing to:
 
-__MATH_54__
+__MATH_999__
 
 The constant below (in foot-pounds per minute) changes with the
 definition of the horsepower; for example, using metric horsepower, it
@@ -290,16 +290,16 @@ By the definition of torque: torque = radius × force. We can rearrange
 this to determine force = torque ÷ radius. These two values can be
 substituted into the definition of power:
 
-__MATH_55__
+__MATH_1000__
 
 The radius r and time t have dropped out of the equation. However,
 angular speed must be in radians per unit of time, by the assumed direct
 relationship between linear speed and angular speed at the beginning of
 the derivation. If the rotational speed is measured in revolutions per
 unit of time, the linear speed and distance are increased
-proportionately by 2__MATH_56__ in the above derivation to give:
+proportionately by 2__MATH_1001__ in the above derivation to give:
 
-__MATH_57__
+__MATH_1002__
 
 If torque is in newton-metres and rotational speed in revolutions per
 second, the above equation gives power in newton-metres per second or
@@ -309,9 +309,9 @@ power in foot pounds-force per minute. The horsepower form of the
 equation is then derived by applying the conversion factor
 33,000 ft⋅lbf/min per horsepower:
 
-__MATH_58__
+__MATH_1003__
 
-because __MATH_59__
+because __MATH_1004__
 
 Special cases and other facts
 
@@ -320,7 +320,7 @@ Moment arm formula
 A very useful special case, often given as the definition of torque in
 fields other than physics, is as follows:
 
-__MATH_60__
+__MATH_1005__
 
 The construction of the "moment arm" is shown in the figure to the
 right, along with the vectors r and F mentioned above. The problem with
@@ -332,7 +332,7 @@ the centre, and torque will be a maximum for the given force. The
 equation for the magnitude of a torque, arising from a perpendicular
 force:
 
-__MATH_61__
+__MATH_1006__
 
 For example, if a person places a force of 10 N at the terminal end of a
 wrench that is 0.5 m long (or a force of 10 N acting 0.5 m from the
@@ -345,19 +345,19 @@ Static equilibrium
 For an object to be in static equilibrium, not only must the sum of the
 forces be zero, but also the sum of the torques (moments) about any
 point. For a two-dimensional situation with horizontal and vertical
-forces, the sum of the forces requirement is two equations: __MATH_62__
-and __MATH_63__, and the torque a third equation: __MATH_64__. That is,
-to solve statically determinate equilibrium problems in two-dimensions,
-three equations are used.
+forces, the sum of the forces requirement is two equations:
+__MATH_1007__ and __MATH_1008__, and the torque a third equation:
+__MATH_1009__. That is, to solve statically determinate equilibrium
+problems in two-dimensions, three equations are used.
 
 Net force versus torque
 
 When the net force on the system is zero, the torque measured from any
 point in space is the same. For example, the torque on a
 current-carrying loop in a uniform magnetic field is the same regardless
-of the point of reference. If the net force __MATH_65__ is not zero, and
-__MATH_66__ is the torque measured from __MATH_67__, then the torque
-measured from __MATH_68__ is __MATH_69__
+of the point of reference. If the net force __MATH_1010__ is not zero,
+and __MATH_1011__ is the torque measured from __MATH_1012__, then the
+torque measured from __MATH_1013__ is __MATH_1014__
 
 Machine torque
 

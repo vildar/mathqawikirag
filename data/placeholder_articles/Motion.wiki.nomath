@@ -15,8 +15,8 @@ In physics, the motion of  bodies is described through two related sets of [[sci
 |In an [[inertial reference frame]], an object either remains at rest or continues to move in a straight line at a constant [[velocity]], unless acted upon by a [[net force]].
 |-
 |Second law:
-|In an [[inertial reference frame]], the vector [[Vector sum|sum]] of the [[forces]] F on an object is equal to the [[mass]] ''m'' of that object multiplied by the [[acceleration]] a of the object: __MATH_0__.
-If the resultant force __MATH_1__ acting on a body or an object is not equal to zero, the body will have an acceleration __MATH_2__ that is in the same direction as the resultant force.
+|In an [[inertial reference frame]], the vector [[Vector sum|sum]] of the [[forces]] F on an object is equal to the [[mass]] ''m'' of that object multiplied by the [[acceleration]] a of the object: __MATH_350__.
+If the resultant force __MATH_351__ acting on a body or an object is not equal to zero, the body will have an acceleration __MATH_352__ that is in the same direction as the resultant force.
 |-
 |Third law:
 |When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction onto the first body.
@@ -28,13 +28,13 @@ Classical mechanics is used for describing the motion of [[macroscopic]] objects
 
 Classical mechanics is fundamentally based on [[Newton's laws of motion]]. These laws describe the relationship between the forces acting on a body and the motion of that body. They were first compiled by [[Isaac Newton|Sir Isaac Newton]] in his work ''[[Philosophiæ Naturalis Principia Mathematica]]'', which was first published on July 5, 1687. Newton's three laws are:
 # A [[Physical body|body]] at rest will remain at rest, and a body in motion will remain in motion unless it is acted upon by an external force. (This is known as the law of [[inertia]].)
-# Force (__MATH_3__) is equal to the change in momentum per change in time (__MATH_4__). For a constant mass, force equals mass times acceleration (__MATH_5__ ).
-# For every action, there is an equal and opposite reaction. (In other words, whenever one body exerts a force __MATH_6__ onto a second body, (in some cases, which is standing still) the second body exerts the force __MATH_7__ back onto the first body. __MATH_8__ and __MATH_9__ are equal in magnitude and opposite in direction. So, the body that exerts __MATH_10__ will be pushed backward.)
+# Force (__MATH_353__) is equal to the change in momentum per change in time (__MATH_354__). For a constant mass, force equals mass times acceleration (__MATH_355__ ).
+# For every action, there is an equal and opposite reaction. (In other words, whenever one body exerts a force __MATH_356__ onto a second body, (in some cases, which is standing still) the second body exerts the force __MATH_357__ back onto the first body. __MATH_358__ and __MATH_359__ are equal in magnitude and opposite in direction. So, the body that exerts __MATH_360__ will be pushed backward.)
 
 Newton's three laws of motion were the first to accurately provide a mathematical model for understanding [[orbit]]ing bodies in [[outer space]]. This explanation unified the motion of celestial bodies and the motion of objects on Earth.
 
 === Relativistic mechanics ===
-Modern kinematics developed with study of [[electromagnetism]] and refers all velocities __MATH_11__ to their ratio to [[speed of light]] __MATH_12__. Velocity is then interpreted as [[rapidity]], the [[hyperbolic angle]] __MATH_13__ for which the [[hyperbolic tangent function]] __MATH_14__. [[Acceleration]], the change of velocity over time, then changes rapidity according to [[Lorentz transformation]]s. This part of mechanics is [[special relativity]]. Efforts to incorporate [[gravity]] into relativistic mechanics were made by [[W. K. Clifford#Premonition of relativity|W. K. Clifford]] and [[Albert Einstein]]. The development used [[differential geometry]] to describe a curved universe with gravity; the study is called [[general relativity]].
+Modern kinematics developed with study of [[electromagnetism]] and refers all velocities __MATH_361__ to their ratio to [[speed of light]] __MATH_362__. Velocity is then interpreted as [[rapidity]], the [[hyperbolic angle]] __MATH_363__ for which the [[hyperbolic tangent function]] __MATH_364__. [[Acceleration]], the change of velocity over time, then changes rapidity according to [[Lorentz transformation]]s. This part of mechanics is [[special relativity]]. Efforts to incorporate [[gravity]] into relativistic mechanics were made by [[W. K. Clifford#Premonition of relativity|W. K. Clifford]] and [[Albert Einstein]]. The development used [[differential geometry]] to describe a curved universe with gravity; the study is called [[general relativity]].
 
 === Quantum mechanics ===
 [[Quantum mechanics]] is a set of principles describing [[Physical systems|physical reality]] at the atomic level of matter ([[molecule]]s and [[atom]]s) and the [[subatomic particle]]s ([[electron]]s, [[proton]]s, [[neutron]]s, and even smaller [[elementary particle]]s such as [[quark]]s). These descriptions include the simultaneous wave-like and particle-like behavior of both [[matter]] and [[radiation]] energy as described in the [[wave–particle duality]].
@@ -76,11 +76,11 @@ Within the standard [[atomic orbital model]], [[electron]]s exist in a region ar
 
 == Light ==
 
-Light moves at a speed of 299,792,458&nbsp;m/s, or , in a vacuum. The speed of light in vacuum (or __MATH_15__) is also the speed of all [[massless particle]]s and associated [[field (physics)|fields]] in a vacuum, and it is the upper limit on the speed at which energy, matter, information or [[Causality (physics)|causation]] can travel. The speed of light in vacuum is thus the upper limit for speed for all physical systems.
+Light moves at a speed of 299,792,458&nbsp;m/s, or , in a vacuum. The speed of light in vacuum (or __MATH_365__) is also the speed of all [[massless particle]]s and associated [[field (physics)|fields]] in a vacuum, and it is the upper limit on the speed at which energy, matter, information or [[Causality (physics)|causation]] can travel. The speed of light in vacuum is thus the upper limit for speed for all physical systems.
 
 In addition, the speed of light is an [[invariant (physics)|invariant]] quantity: it has the same value, irrespective of the position or speed of the observer. This property makes the speed of light ''c'' a natural measurement unit for speed and a [[physical constant|fundamental constant]] of nature.
 
-In 2019, the speed of light was redefined alongside all seven SI base units using what it calls "the explicit-constant formulation", where each "unit is defined indirectly by specifying explicitly an exact value for a well-recognized fundamental constant", as was done for the speed of light. A new, but completely equivalent, wording of the metre's definition was proposed: "The metre, symbol m, is the unit of length; its magnitude is set by fixing the numerical value of the speed of light in vacuum to be equal to exactly __MATH_16__ when it is expressed in the SI unit ." This implicit change to the speed of light was one of the changes that was incorporated in the [[2019 revision of the SI]], also termed the ''New SI''.
+In 2019, the speed of light was redefined alongside all seven SI base units using what it calls "the explicit-constant formulation", where each "unit is defined indirectly by specifying explicitly an exact value for a well-recognized fundamental constant", as was done for the speed of light. A new, but completely equivalent, wording of the metre's definition was proposed: "The metre, symbol m, is the unit of length; its magnitude is set by fixing the numerical value of the speed of light in vacuum to be equal to exactly __MATH_366__ when it is expressed in the SI unit ." This implicit change to the speed of light was one of the changes that was incorporated in the [[2019 revision of the SI]], also termed the ''New SI''.
 
 === Superluminal motion ===
 

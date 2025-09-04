@@ -26,7 +26,6 @@ def split_sentences(paragraph: str) -> List[str]:
             i += 1
             continue
 
-        # Section headers stay alone
         if is_section_header(line):
             if buffer:
                 sentences.append(buffer.strip())

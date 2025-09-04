@@ -122,8 +122,8 @@ This equation can be solved exactly for any driving force, using the
 solutions z(t) that satisfy the unforced equation d^2z/dt^2 + 2ζω_0dz/dt + ω_0^2 z = 0,
 
 and which can be expressed as damped sinusoidal oscillations:
-z(t) = A e^-ζω_0 t sin( √(1 - ζ^2) ω_0 t + φ), in the case where ”ζ” ≤ 1. The amplitude A and phase φ
-determine the behavior needed to match the initial conditions.
+z(t) = A e^-ζω_0 t sin( √(1 - ζ^2) ω_0 t + φ), in the case where ”ζ” ≤ 1. The amplitude A and phase
+φ determine the behavior needed to match the initial conditions.
 
 Step input
 
@@ -148,21 +148,22 @@ the response maximum.
 
 Sinusoidal driving force
 
-In the case of a sinusoidal driving force: d^2x/dt^2 + 2ζω_0dx/dt + ω_0^2 x = 1/m F_0 sin(ωt), where F_0
-is the driving amplitude, and ω is the driving frequency for a
-sinusoidal driving mechanism. This type of system appears in AC-driven
-RLC circuits (resistor–inductor–capacitor) and driven spring systems
-having internal mechanical resistance or external air resistance.
+In the case of a sinusoidal driving force: d^2x/dt^2 + 2ζω_0dx/dt + ω_0^2 x = 1/m F_0 sin(ωt), where
+F_0 is the driving amplitude, and ω is the driving
+frequency for a sinusoidal driving mechanism. This type of system
+appears in AC-driven RLC circuits (resistor–inductor–capacitor) and
+driven spring systems having internal mechanical resistance or external
+air resistance.
 
 The general solution is a sum of a transient solution that depends on
 initial conditions, and a steady state that is independent of initial
 conditions and depends only on the driving amplitude F_0,
-driving frequency ω, undamped angular frequency ω_0,
-and the damping ratio ζ.
+driving frequency ω, undamped angular frequency
+ω_0, and the damping ratio ζ.
 
 The steady-state solution is proportional to the driving force with an
-induced phase change φ: x(t) = F_0/m Z_m ω sin(ωt + φ), where Z_m = √((2ω_0ζ)^2 + 1/ω^2 (ω_0^2 - ω^2)^2) is the
-absolute value of the impedance or linear response function, and
+induced phase change φ: x(t) = F_0/m Z_m ω sin(ωt + φ), where Z_m = √((2ω_0ζ)^2 + 1/ω^2 (ω_0^2 - ω^2)^2) is
+the absolute value of the impedance or linear response function, and
 φ= arctan(2ωω_0ζ/ω^2 - ω_0^2 ) + nπ
 
 is the phase of the oscillation relative to the driving force. The phase
@@ -192,8 +193,8 @@ external drive force (pushes) being applied, by changing the moment of
 inertia of the swing by rocking back and forth ("pumping") or
 alternately standing and squatting, in rhythm with the swing's
 oscillations. The varying of the parameters drives the system. Examples
-of parameters that may be varied are its resonance frequency ω
-and damping β.
+of parameters that may be varied are its resonance frequency
+ω and damping β.
 
 Parametric oscillators are used in many applications. The classical
 varactor parametric oscillator oscillates when the diode's capacitance
@@ -207,7 +208,8 @@ especially in the radio and microwave frequency range. Thermal noise is
 minimal, since a reactance (not a resistance) is varied. Another common
 use is frequency conversion, e.g., conversion from audio to radio
 frequencies. For example, the Optical parametric oscillator converts an
-input laser wave into two output waves of lower frequency (ω_s, ω_i).
+input laser wave into two output waves of lower frequency
+(ω_s, ω_i).
 
 Parametric resonance occurs in a mechanical system when a system is
 parametrically excited and oscillates at one of its resonant
@@ -218,12 +220,12 @@ instability phenomenon.
 
 Universal oscillator equation
 
-The equation d^2q/d τ^2 + 2 ζdq/dτ + q = 0 is known as the universal oscillator equation,
-since all second-order linear oscillatory systems can be reduced to this
-form. This is done through nondimensionalization.
+The equation d^2q/d τ^2 + 2 ζdq/dτ + q = 0 is known as the universal oscillator
+equation, since all second-order linear oscillatory systems can be
+reduced to this form. This is done through nondimensionalization.
 
-If the forcing function is ”f”(”t”) = cos(”ωt”) = cos(”ωt_cτ”) = cos(”ωτ”), where ”ω” = ”ωt”_”c”, the equation
-becomes d^2q/d τ^2 + 2 ζdq/dτ + q = cos(ωτ).
+If the forcing function is ”f”(”t”) = cos(”ωt”) = cos(”ωt_cτ”) = cos(”ωτ”), where ”ω” = ”ωt”_”c”, the
+equation becomes d^2q/d τ^2 + 2 ζdq/dτ + q = cos(ωτ).
 
 The solution to this differential equation contains two parts: the
 "transient" and the "steady-state".
@@ -264,7 +266,7 @@ Amplitude part
 Squaring both equations and adding them together gives . 
  A^2 (1-ω^2)^2    = cos^2φ
 
- (2 ζωA)^2    = sin^2φ }
+ (2 ζωA)^2    = sin^2φ 
 ⇒A^2[(1 - ω^2)^2 + (2 ζω)^2] = 1.
 
 Therefore, A = A(ζ, ω) = ( -sinφ/2 ζω ) 1/√((1 - ω^2)^2 + (2 ζω)^2).
@@ -300,8 +302,8 @@ and electronics. If analogous parameters on the same line in the table
 are given numerically equal values, the behavior of the oscillatorstheir
 output waveform, resonant frequency, damping factor, etc.are the same.
 
-  Translational mechanical                   Rotational mechanical             Series RLC circuit         Parallel RLC circuit
-  ------------------------------------------ --------------------------------- -------------------------- ---------------------------------
+  Translational mechanical                     Rotational mechanical               Series RLC circuit           Parallel RLC circuit
+  -------------------------------------------- ----------------------------------- ---------------------------- -----------------------------------
   Position x                       Angle θ                 Charge q         Flux linkage φ
   Velocity dx/dt                       Angular velocity dθ/dt      Current dq/dt        Voltage dφ/dt
   Mass m                           Moment of inertia I     Inductance L     Capacitance C
@@ -309,12 +311,12 @@ output waveform, resonant frequency, damping factor, etc.are the same.
   Spring constant k                Torsion constant μ      Elastance 1/C      Magnetic reluctance 1/L
   Damping c                        Rotational friction Γ   Resistance R     Conductance G = 1/R
   Drive force F(t)                    Drive torque τ(t)          Voltage v        Current i
-  Undamped resonant frequency f_n:                                                                
+  Undamped resonant frequency f_n:                                                                    
   1/2π√(k/m)                                1/2π√(μ/I)                       1/2π√(1/LC)                1/2π√(1/LC)
-  Damping ratio ζ:                                                                              
+  Damping ratio ζ:                                                                                  
   c/2√(1/km)                                Γ/2√(1/Iμ)                       R/2√(C/L)                G/2√(L/C)
-  Differential equation:                                                                                  
-  m ẍ + c ẋ + kx = F                               I θ̈+ Γθ̇+ μθ= τ                      L q̈ + R q̇ + q/C = v               C φ̈+ G φ̇+ φ/L = i
+  Differential equation:                                                                                        
+  m ẍ + c ẋ + kx = F                                I θ̈+ Γθ̇+ μθ= τ                       L q̈ + R q̇ + q/C = v                C φ̈+ G φ̇+ φ/L = i
 
 Application to a conservative force
 
@@ -336,8 +338,8 @@ V(x) = V(x_0) + V'(x_0) ·(x - x_0) + 12 V”(x_0) ·(x - x_0)^2 + O(x - x_0)^3.
 Because V(x_0) is a minimum, the first derivative evaluated at
 x_0 must be zero, so the linear term drops out: V(x) = V(x_0) + 12 V”(x_0) ·(x - x_0)^2 + O(x - x_0)^3.
 
-The constant term ”V”(”x”_0) is arbitrary and thus may be dropped, and
-a coordinate transformation allows the form of the simple harmonic
+The constant term ”V”(”x”_0) is arbitrary and thus may be dropped,
+and a coordinate transformation allows the form of the simple harmonic
 oscillator to be retrieved: V(x) ≈12 V”(0) ·x^2 = 12 k x^2.
 
 Thus, given an arbitrary potential-energy function V(x) with a
@@ -357,17 +359,17 @@ If the maximal displacement of the pendulum is small, we can use the
 approximation sinθ≈θ and instead consider the equation
 d^2θ/dt^2 + g/lθ= 0.
 
-The general solution to this differential equation is θ(t) = A cos(√(g/l) t + φ), where
-A and φ are constants that depend on the initial
-conditions. Using as initial conditions θ(0) = θ_0 and θ̇(0) = 0,
-the solution is given by θ(t) = θ_0 cos(√(g/l) t), where θ_0 is the largest
-angle attained by the pendulum (that is, θ_0 is the amplitude
-of the pendulum). The period, the time for one complete oscillation, is
-given by the expression τ= 2π√(%s/%s)lg = 2π/ω, which is a good approximation of
-the actual period when θ_0 is small. Notice that in this
-approximation the period τ is independent of the amplitude
-θ_0. In the above equation, ω represents the angular
-frequency.
+The general solution to this differential equation is θ(t) = A cos(√(g/l) t + φ),
+where A and φ are constants that depend on the
+initial conditions. Using as initial conditions θ(0) = θ_0 and
+θ̇(0) = 0, the solution is given by θ(t) = θ_0 cos(√(g/l) t), where
+θ_0 is the largest angle attained by the pendulum (that is,
+θ_0 is the amplitude of the pendulum). The period, the time
+for one complete oscillation, is given by the expression τ= 2π√(
+which is a good approximation of the actual period when θ_0 is
+small. Notice that in this approximation the period τ is
+independent of the amplitude θ_0. In the above equation,
+ω represents the angular frequency.
 
 Spring/mass system
 
@@ -383,8 +385,8 @@ position), and so prevents the mass from flying off to infinity.
 
 By using either force balance or an energy method, it can be readily
 shown that the motion of this system is given by the following
-differential equation: F(t) = -kx(t) = m d^2/d t^2 x(t) = ma, the latter being Newton's second law
-of motion.
+differential equation: F(t) = -kx(t) = m d^2/d t^2 x(t) = ma, the latter being Newton's second
+law of motion.
 
 If the initial displacement is A, and there is no initial velocity, the
 solution of this equation is given by x(t) = A cos( √(k/m) t ).
@@ -411,24 +413,24 @@ the mass.
 
 Definition of terms
 
-  Symbol         Definition                                       Dimensions     SI units
-  -------------- ------------------------------------------------ -------------- ----------
+  Symbol          Definition                                       Dimensions      SI units
+  --------------- ------------------------------------------------ --------------- ----------
   a   Acceleration of mass                             𝖫𝖳^-2   m/s²
   A   Peak amplitude of oscillation                    𝖫   m
   c   Viscous damping coefficient                      𝖬𝖳^-1   N·s/m
   f   Frequency                                        𝖳^-1   Hz
   F   Drive force                                      𝖬𝖫𝖳^-2   N
   g   Acceleration of gravity at the Earth's surface   𝖫𝖳^-2   m/s²
-  i   Imaginary unit, i^2 = -1                     —              —
+  i   Imaginary unit, i^2 = -1                    —               —
   k   Spring constant                                  𝖬𝖳^-2   N/m
   μ   Torsion Spring constant                          𝖬𝖫^2𝖳^-2   Nm/rad
   m, M   Mass                                             𝖬   kg
-  Q   Quality factor                                   —              —
+  Q   Quality factor                                   —               —
   T   Period of oscillation                            𝖳   s
   t   Time                                             𝖳   s
   U   Potential energy stored in oscillator            𝖬𝖫^2𝖳^-2   J
   x   Position of mass                                 𝖫   m
-  ζ   Damping ratio                                    —              —
-  φ   Phase shift                                      —              rad
+  ζ   Damping ratio                                    —               —
+  φ   Phase shift                                      —               rad
   ω   Angular frequency                                𝖳^-1   rad/s
   ω_0   Natural resonant angular frequency               𝖳^-1   rad/s

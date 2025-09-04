@@ -44,9 +44,9 @@ with respect to the axis.
 Formula
 
 For motion in a circle of radius r, the circumference of the
-circle is ”C” = 2”πr”. If the period for one rotation is T, the
-angular rate of rotation, also known as angular velocity, ω is:
-ω= 2 π/T = 2πf = dθ/dt and the units are radians/second.
+circle is ”C” = 2”πr”. If the period for one rotation is T,
+the angular rate of rotation, also known as angular velocity,
+ω is: ω= 2 π/T = 2πf = dθ/dt and the units are radians/second.
 
 The speed of the object traveling the circle is: v = 2 πr/T = ωr
 
@@ -127,12 +127,12 @@ The time derivative of u_θ(t) is found the same way as for
 u_R(t). Again, u_θ(t) is a unit vector and its tip traces a
 unit circle with an angle that is ”π”/2 + ”θ”. Hence, an increase in
 angle ”dθ” by 𝐫(t) implies u_θ(t) traces an arc of
-magnitude ”dθ”, and as u_θ(t) is orthogonal to u_R(t),
-we have: d u_θ/dt = -d θ/dt u_R(t) = -ωu_R(t)   , where a negative sign is necessary to keep
-u_θ(t) orthogonal to u_R(t). (Otherwise, the angle between
-u_θ(t) and u_R(t) would decrease with an increase in
-”dθ”.) See the unit circle at the left of Figure 4. Consequently,
-the acceleration is: 𝐚(t)    = R ( d ω/dt u_θ(t) + ωd u_θ/dt ) ;    = R d ω/dt u_θ(t) - ω^2 R u_R(t)  .
+magnitude ”dθ”, and as u_θ(t) is orthogonal to
+u_R(t), we have: d u_θ/dt = -d θ/dt u_R(t) = -ωu_R(t)   , where a negative sign is necessary
+to keep u_θ(t) orthogonal to u_R(t). (Otherwise, the angle
+between u_θ(t) and u_R(t) would decrease with an increase in
+”dθ”.) See the unit circle at the left of Figure 4.
+Consequently, the acceleration is: 𝐚(t)    = R ( d ω/dt u_θ(t) + ωd u_θ/dt ) ;    = R d ω/dt u_θ(t) - ω^2 R u_R(t)  .
 
 The centripetal acceleration is the radial component, which is directed
 radially inward: 𝐚_R(t) = -ω^2 R u_R(t)   , while the tangential component changes the
@@ -144,8 +144,8 @@ Circular motion can be described using complex numbers. Let the
 x axis be the real axis and the y axis be the
 imaginary axis. The position of the body can then be given as
 z, a complex "vector": z = x + iy = R(cos[θ(t)] + i sin[θ(t)]) = Re^iθ(t) , where ”i” is the
-imaginary unit, and θ(t) is the argument of the complex number as
-a function of time, t.
+imaginary unit, and θ(t) is the argument of the complex number
+as a function of time, t.
 
 Since the radius is constant: Ṙ = R̈ = 0   , where a dot indicates
 differentiation in respect of time.
@@ -169,19 +169,19 @@ motion at four different points in the orbit. Because the velocity
 ”'v”' is tangent to the circular path, no two velocities point in
 the same direction. Although the object has a constant speed, its
 direction is always changing. This change in velocity is caused by an
-acceleration ”'a”', whose magnitude is (like that of the velocity)
-held constant, but whose direction also is always changing. The
-acceleration points radially inwards (centripetally) and is
+acceleration ”'a”', whose magnitude is (like that of the
+velocity) held constant, but whose direction also is always changing.
+The acceleration points radially inwards (centripetally) and is
 perpendicular to the velocity. This acceleration is known as centripetal
 acceleration.
 
 For a path of radius r, when an angle θ is swept
-out, the distance traveled on the periphery of the orbit is ”s” = ”rθ”.
-Therefore, the speed of travel around the orbit is v = r dθ/dt = rω, where the
-angular rate of rotation is ”ω”. (By rearrangement,
-”ω” = ”v”/”r”.) Thus, ”v” is a constant, and the velocity vector
-”'v”' also rotates with constant magnitude ”v”, at the
-same angular rate ”ω”.
+out, the distance traveled on the periphery of the orbit is
+”s” = ”rθ”. Therefore, the speed of travel around the orbit is
+v = r dθ/dt = rω, where the angular rate of rotation is ”ω”. (By
+rearrangement, ”ω” = ”v”/”r”.) Thus, ”v” is a constant, and the
+velocity vector ”'v”' also rotates with constant magnitude
+”v”, at the same angular rate ”ω”.
 
 Relativistic circular motion
 

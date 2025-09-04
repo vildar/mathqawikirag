@@ -2,9 +2,9 @@ In Newtonian mechanics, momentum (: momenta or momentums; more
 specifically linear momentum or translational momentum) is the product
 of the mass and velocity of an object. It is a vector quantity,
 possessing a magnitude and a direction. If ”m” is an object's
-mass and ”'v”' is its velocity (also a vector quantity), then the
-object's momentum ”'p”' (from Latin pellere "push, drive") is:
-𝐩 = m 𝐯. In the International System of Units (SI), the unit of
+mass and ”'v”' is its velocity (also a vector quantity), then
+the object's momentum ”'p”' (from Latin pellere "push, drive")
+is: 𝐩 = m 𝐯. In the International System of Units (SI), the unit of
 measurement of momentum is the kilogram metre per second (kg⋅m/s), which
 is dimensionally equivalent to the newton-second.
 
@@ -47,8 +47,8 @@ Single particle
 
 The momentum of a particle is conventionally represented by the letter
 ”p”. It is the product of two quantities, the particle's mass
-(represented by the letter ”m”) and its velocity (”v”):
-p = m v.
+(represented by the letter ”m”) and its velocity
+(”v”): p = m v.
 
 The unit of momentum is the product of the units of mass and velocity.
 In SI units, if the mass is in kilograms and the velocity is in meters
@@ -75,9 +75,9 @@ weighted sum of their positions: r_cm = m_1 r_1 + m_2 r_2 + ⋯/m_1 + m_2 + ⋯ 
 
 If one or more of the particles is moving, the center of mass of the
 system will generally be moving as well (unless the system is in pure
-rotation around it). If the total mass of the particles is m,
-and the center of mass is moving at velocity v_cm, the momentum
-of the system is:
+rotation around it). If the total mass of the particles is
+m, and the center of mass is moving at velocity
+v_cm, the momentum of the system is:
 
 p= mv_cm.
 
@@ -173,8 +173,8 @@ reference, in the second, it is moving at speed
 
 v' = dx'/dt = v-u .
 
-Since u does not change, the second reference frame is also an
-inertial frame and the accelerations are the same:
+Since u does not change, the second reference frame is also
+an inertial frame and the accelerations are the same:
 
 a' = dv'/dt = a .
 
@@ -219,17 +219,17 @@ dissipation.
 
 A head-on elastic collision between two bodies can be represented by
 velocities in one dimension, along a line passing through the bodies. If
-the velocities are v_A1 and v_B1 before the collision and
-v_A2 and v_B2 after, the equations expressing conservation
-of momentum and kinetic energy are:
+the velocities are v_A1 and v_B1 before the collision
+and v_A2 and v_B2 after, the equations expressing
+conservation of momentum and kinetic energy are:
 
 m_A v_A1 + m_B v_B1    = m_A v_A2 + m_B v_B2 ; 12 m_A v_A1^2 + 12 m_B v_B1^2    = 12 m_A v_A2^2 + 12 m_B v_B2^2 .
 
 A change of reference frame can simplify analysis of a collision. For
 example, suppose there are two bodies of equal mass m, one
 stationary and one approaching the other at a speed v (as in
-the figure). The center of mass is moving at speed v/2 and both
-bodies are moving towards it at speed v/2. Because of the
+the figure). The center of mass is moving at speed v/2 and
+both bodies are moving towards it at speed v/2. Because of the
 symmetry, after the collision both must be moving away from the center
 of mass at the same speed. Adding the speed of the center of mass to
 both, we find that the body that was moving is now stopped and the other
@@ -263,15 +263,15 @@ In a perfectly inelastic collision (such as a bug hitting a windshield),
 both bodies have the same motion afterwards. A head-on inelastic
 collision between two bodies can be represented by velocities in one
 dimension, along a line passing through the bodies. If the velocities
-are v_A1 and v_B1 before the collision then in a perfectly
-inelastic collision both bodies will be travelling with velocity
-v_2 after the collision. The equation expressing
-conservation of momentum is:
+are v_A1 and v_B1 before the collision then in a
+perfectly inelastic collision both bodies will be travelling with
+velocity v_2 after the collision. The equation
+expressing conservation of momentum is:
 
 m_A v_A1 + m_B v_B1    = ( m_A + m_B ) v_2 .
 
-If one body is motionless to begin with (e.g. v_B1 = 0), the equation
-for conservation of momentum is
+If one body is motionless to begin with (e.g. v_B1 = 0), the
+equation for conservation of momentum is
 
 m_A v_A1 = ( m_A + m_B ) v_2 ,
 
@@ -306,9 +306,9 @@ Multiple dimensions
 
 Real motion has both direction and velocity and must be represented by a
 vector. In a coordinate system with x, y, z axes, velocity has
-components v_x in the x-direction, v_y in the
-y-direction, v_z in the z-direction. The
-vector is represented by a boldface symbol:
+components v_x in the x-direction, v_y
+in the y-direction, v_z in the
+z-direction. The vector is represented by a boldface symbol:
 
 𝐯 = (v_x,v_y,v_z ).
 
@@ -318,9 +318,9 @@ boldface symbol:
 𝐩 = (p_x,p_y,p_z ).
 
 The equations in the previous sections, work in vector form if the
-scalars p and v are replaced by vectors ”'p”'
-and ”'v”'. Each vector equation represents three scalar equations.
-For example,
+scalars p and v are replaced by vectors
+”'p”' and ”'v”'. Each vector equation represents three
+scalar equations. For example,
 
 𝐩= m 𝐯
 
@@ -350,11 +350,11 @@ The concept of momentum plays a fundamental role in explaining the
 behavior of variable-mass objects such as a rocket ejecting fuel or a
 star accreting gas. In analyzing such an object, one treats the object's
 mass as a function that varies with time: m(t). The momentum of
-the object at time t is therefore p(t) = m(t)v(t). One might then
-try to invoke Newton's second law of motion by saying that the external
-force F on the object is related to its momentum p(t)
-by F = dp/dt, but this is incorrect, as is the related expression
-found by applying the product rule to d(mv)/dt:
+the object at time t is therefore p(t) = m(t)v(t). One might
+then try to invoke Newton's second law of motion by saying that the
+external force F on the object is related to its momentum
+p(t) by F = dp/dt, but this is incorrect, as is the related
+expression found by applying the product rule to d(mv)/dt:
 
 F = m(t) dv/dt + v(t) dm/dt. (incorrect)
 
@@ -364,8 +364,8 @@ objects. The correct equation is
 F = m(t) dv/dt - u dm/dt,
 
 where u is the velocity of the ejected/accreted mass as seen
-in the object's rest frame. This is distinct from v, which is
-the velocity of the object itself as seen in an inertial frame.
+in the object's rest frame. This is distinct from v, which
+is the velocity of the object itself as seen in an inertial frame.
 
 This equation is derived by keeping track of both the momentum of the
 object as well as the momentum of the ejected/accreted mass
@@ -408,22 +408,24 @@ d/dt(∂ℒ /∂q̇_j) - ∂ℒ/∂q_j = 0 .
 
 If a coordinate q_i is not a Cartesian coordinate, the
 associated generalized momentum component p_i does not
-necessarily have the dimensions of linear momentum. Even if q_i
-is a Cartesian coordinate, p_i will not be the same as the
-mechanical momentum if the potential depends on velocity. Some sources
-represent the kinematic momentum by the symbol ”'Π”'.
+necessarily have the dimensions of linear momentum. Even if
+q_i is a Cartesian coordinate, p_i will not be the
+same as the mechanical momentum if the potential depends on velocity.
+Some sources represent the kinematic momentum by the symbol
+”'Π”'.
 
 In this mathematical framework, a generalized momentum is associated
 with the generalized coordinates. Its components are defined as
 
 p_j = ∂ℒ /∂q̇_j .
 
-Each component p_j is said to be the conjugate momentum for the
-coordinate q_j.
+Each component p_j is said to be the conjugate momentum for
+the coordinate q_j.
 
-Now if a given coordinate q_i does not appear in the Lagrangian
-(although its time derivative might appear), then p_j is
-constant. This is the generalization of the conservation of momentum.
+Now if a given coordinate q_i does not appear in the
+Lagrangian (although its time derivative might appear), then
+p_j is constant. This is the generalization of the
+conservation of momentum.
 
 Even if the generalized coordinates are just the ordinary spatial
 coordinates, the conjugate momenta are not necessarily the ordinary
@@ -471,8 +473,8 @@ materials must be approximated by a continuum in which, at each point,
 there is a particle or fluid parcel that is assigned the average of the
 properties of atoms in a small region nearby. In particular, it has a
 density ρ and velocity ”'v”' that depend on time
-t and position ”'r”'. The momentum per unit volume is
-ρ”'v”'.
+t and position ”'r”'. The momentum per unit volume
+is ρ”'v”'.
 
 Consider a column of water in hydrostatic equilibrium. All the forces on
 the water are in balance and the water is motionless. On any given drop
@@ -482,8 +484,8 @@ unit volume is ρ”'g”', where ”'g”' is the gravitational
 acceleration. The second force is the sum of all the forces exerted on
 its surface by the surrounding water. The force from below is greater
 than the force from above by just the amount needed to balance gravity.
-The normal force per unit area is the pressure p. The average
-force per unit volume inside the droplet is the gradient of the
+The normal force per unit area is the pressure p. The
+average force per unit volume inside the droplet is the gradient of the
 pressure, so the force balance equation is
 
 -∇p +ρ𝐠 = 0 .
@@ -498,7 +500,8 @@ D/Dt ≡∂/∂t  + 𝐯·∇ .
 Applied to any physical quantity, the material derivative includes the
 rate of change at a point and the changes due to advection as fluid is
 carried past the point. Per unit volume, the rate of change in momentum
-is equal to ρ”D””'v”'/”D”t. This is equal to the net force on the droplet.
+is equal to ρ”D””'v”'/”D”t. This is equal to the net force on the
+droplet.
 
 Forces that can change the momentum of a droplet include the gradient of
 the pressure and gravity, as above. In addition, surface forces can
@@ -506,9 +509,10 @@ deform the droplet. In the simplest case, a shear stress τ,
 exerted by a force parallel to the surface of the droplet, is
 proportional to the rate of deformation or strain rate. Such a shear
 stress occurs if the fluid has a velocity gradient because the fluid is
-moving faster on one side than another. If the speed in the x
-direction varies with z, the tangential force in direction
-x per unit area normal to the z direction is
+moving faster on one side than another. If the speed in the
+x direction varies with z, the tangential force
+in direction x per unit area normal to the z
+direction is
 
 σ_zx = -μ∂v_x/∂z ,
 
@@ -550,11 +554,11 @@ can be obtained for propagation of pressure (P-waves) and shear
 (S-waves).
 
 The flux, or transport per unit area, of a momentum component
-ρv_j by a velocity v_i is equal to ρv_jv_j. In the
-linear approximation that leads to the above acoustic equation, the time
-average of this flux is zero. However, nonlinear effects can give rise
-to a nonzero average. It is possible for momentum flux to occur even
-though the wave itself does not have a mean momentum.
+ρv_j by a velocity v_i is equal to ρv_jv_j. In
+the linear approximation that leads to the above acoustic equation, the
+time average of this flux is zero. However, nonlinear effects can give
+rise to a nonzero average. It is possible for momentum flux to occur
+even though the wave itself does not have a mean momentum.
 
 In electromagnetics
 
@@ -577,14 +581,14 @@ while in relativistic mechanics this becomes
 
 𝐏 = γm𝐯 + q𝐀.
 
-The quantity V = q”'A”' is sometimes called the potential momentum. It
-is the momentum due to the interaction of the particle with the
+The quantity V = q”'A”' is sometimes called the potential momentum.
+It is the momentum due to the interaction of the particle with the
 electromagnetic fields. The name is an analogy with the potential energy
-U = qφ, which is the energy due to the interaction of the particle
-with the electromagnetic fields. These quantities form a four-vector, so
-the analogy is consistent; besides, the concept of potential momentum is
-important in explaining the so-called hidden momentum of the
-electromagnetic fields.
+U = qφ, which is the energy due to the interaction of the
+particle with the electromagnetic fields. These quantities form a
+four-vector, so the analogy is consistent; besides, the concept of
+potential momentum is important in explaining the so-called hidden
+momentum of the electromagnetic fields.
 
 Conservation
 
@@ -671,11 +675,12 @@ operator can be written as
 
 𝐩=ħi∇=-iħ∇ ,
 
-where ∇ is the gradient operator, ħ is the reduced
-Planck constant, and i is the imaginary unit. This is a
-commonly encountered form of the momentum operator, though the momentum
-operator in other bases can take other forms. For example, in momentum
-space the momentum operator is represented by the eigenvalue equation
+where ∇ is the gradient operator, ħ is the
+reduced Planck constant, and i is the imaginary unit. This
+is a commonly encountered form of the momentum operator, though the
+momentum operator in other bases can take other forms. For example, in
+momentum space the momentum operator is represented by the eigenvalue
+equation
 
 𝐩ψ(p) = pψ(p) ,
 
@@ -764,10 +769,10 @@ is invariant under Lorentz transformations (in this expression and in
 what follows the metric signature has been used, different authors use
 different conventions). Mathematically this invariance can be ensured in
 one of two ways: by treating the four-vectors as Euclidean vectors and
-multiplying time by [[Imaginary unit|√(−1)]]; or by keeping time a real quantity and
-embedding the vectors in a Minkowski space. In a Minkowski space, the
-scalar product of two four-vectors ”'U”' = (U_0, U_1, U_2, U_3) and ”'V”' = (V_0, V_1, V_2, V_3) is
-defined as
+multiplying time by [[Imaginary unit|√(−1)]]; or by keeping time a real quantity
+and embedding the vectors in a Minkowski space. In a Minkowski space,
+the scalar product of two four-vectors ”'U”' = (U_0, U_1, U_2, U_3) and ”'V”' = (V_0, V_1, V_2, V_3)
+is defined as
 
 𝐔 ·𝐕 =  U_0 V_0 - U_1 V_1 - U_2 V_2 - U_3 V_3 .
 
@@ -780,8 +785,8 @@ and the (contravariant) four-momentum is
 
 𝐏 = m_0𝐔 ,
 
-where m_0 is the invariant mass. If ”'R”' = (ct, x, y, z) (in Minkowski
-space), then
+where m_0 is the invariant mass. If ”'R”' = (ct, x, y, z) (in
+Minkowski space), then
 
 𝐏 = γm_0 (c,𝐯) = (m c, 𝐩) .
 
@@ -918,8 +923,8 @@ John Jennings
 In 1721, John Jennings published Miscellanea, where the momentum in its
 current mathematical sense is attested, five years before the final
 edition of Newton's . Momentum M or "quantity of motion" was
-being defined for students as "a rectangle", the product of Q
-and V, where Q is "quantity of material" and
-V is "velocity", s/t.
+being defined for students as "a rectangle", the product of
+Q and V, where Q is "quantity of
+material" and V is "velocity", s/t.
 
 In 1728, the Cyclopedia states:

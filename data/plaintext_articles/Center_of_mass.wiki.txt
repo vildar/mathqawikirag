@@ -38,8 +38,8 @@ space.
 A system of particles
 
 In the case of a system of particles ”P_i”, ”i” = 1, ..., ”n”, each with mass
-m_i that are located in space with coordinates ”'r”'_”i”, ”i” = 1, ..., ”n”, the
-coordinates R of the center of mass satisfy ∑_i=1^n m_i(𝐫_i - 𝐑) = 0.
+m_i that are located in space with coordinates ”'r”'_”i”, ”i” = 1, ..., ”n”,
+the coordinates R of the center of mass satisfy ∑_i=1^n m_i(𝐫_i - 𝐑) = 0.
 
 Solving this equation for R yields the formula 𝐑=∑_i=1^n m_i 𝐫_i∑_i=1^n m_i .
 
@@ -50,8 +50,8 @@ solid Q, then the integral of the weighted position coordinates of the
 points in this volume relative to the center of mass R over the volume V
 is zero, that is ∭_Q ρ(𝐫) (𝐫 - 𝐑) dV = 0.
 
-Solve this equation for the coordinates R to obtain 𝐑 = 1/M ∭_Qρ(𝐫) 𝐫   dV, where M
-is the total mass in the volume.
+Solve this equation for the coordinates R to obtain 𝐑 = 1/M ∭_Qρ(𝐫) 𝐫   dV, where
+M is the total mass in the volume.
 
 If a continuous mass distribution has uniform density, which means that
 ρ is constant, then the center of mass is the same as the centroid of
@@ -137,9 +137,9 @@ In physics the benefits of using the center of mass to model a mass
 distribution can be seen by considering the resultant of the gravity
 forces on a continuous body. Consider a body Q of volume V with density
 ρ(r) at each point r in the volume. In a parallel gravity field the
-force f at each point r is given by, 𝐟(𝐫) = -dm  g𝐤̂ = -ρ(𝐫)   dV g𝐤̂, where dm is the mass at
-the point r, g is the acceleration of gravity, and 𝐤̂ is a unit
-vector defining the vertical direction.
+force f at each point r is given by, 𝐟(𝐫) = -dm  g𝐤̂ = -ρ(𝐫)   dV g𝐤̂, where dm is the mass
+at the point r, g is the acceleration of gravity, and 𝐤̂ is a
+unit vector defining the vertical direction.
 
 Choose a reference point R in the volume and compute the resultant force
 and torque at this point, 𝐅 = ∭_Q 𝐟(𝐫)   dV = ∭_Qρ(𝐫)   dV ( -g 𝐤̂) = -Mg𝐤̂, and 𝐓 =  ∭_Q (𝐫 - 𝐑) ×𝐟(𝐫)   dV = ∭_Q (𝐫 - 𝐑) ×(-gρ(𝐫)   dV   𝐤̂) = (∭_Q ρ(𝐫) (𝐫 - 𝐑) dV ) ×(-g𝐤̂) .
@@ -223,7 +223,8 @@ measuring the forces, F₁, F₂, and F₃ that resist the weight of the
 object, 𝐖 = -W𝐤̂ (𝐤̂ is the unit vector in the vertical
 direction). Let r₁, r₂, and r₃ be the position coordinates of the
 support points, then the coordinates R of the center of mass satisfy the
-condition that the resultant torque is zero, 𝐓 = (𝐫_1 - 𝐑) ×𝐅_1 + (𝐫_2 - 𝐑) ×𝐅_2 + (𝐫_3 - 𝐑) ×𝐅_3 = 0, or 𝐑 ×(-W𝐤̂) = 𝐫_1 ×𝐅_1 + 𝐫_2 ×𝐅_2 + 𝐫_3 ×𝐅_3.
+condition that the resultant torque is zero, 𝐓 = (𝐫_1 - 𝐑) ×𝐅_1 + (𝐫_2 - 𝐑) ×𝐅_2 + (𝐫_3 - 𝐑) ×𝐅_3 = 0, or
+𝐑 ×(-W𝐤̂) = 𝐫_1 ×𝐅_1 + 𝐫_2 ×𝐅_2 + 𝐫_3 ×𝐅_3.
 
 This equation yields the coordinates of the center of mass R* in the
 horizontal plane as, 𝐑^* = -1/W 𝐤̂ ×(𝐫_1 ×𝐅_1 + 𝐫_2 ×𝐅_2 + 𝐫_3 ×𝐅_3).

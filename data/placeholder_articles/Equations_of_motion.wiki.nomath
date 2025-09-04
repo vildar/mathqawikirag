@@ -3,19 +3,19 @@ In [[physics]], '''equations of motion''' are [[equation]]s that describe the be
 ==Types==
 There are two main descriptions of motion: dynamics and [[kinematics]]. Dynamics is general, since the momenta, [[force]]s and [[energy]] of the [[particles]] are taken into account. In this instance, sometimes the term ''dynamics'' refers to the differential equations that the system satisfies (e.g., [[Newton's second law]] or [[Euler–Lagrange equations]]), and sometimes to the solutions to those equations.
 
-However, kinematics is simpler. It concerns only variables derived from the positions of objects and time. In circumstances of constant acceleration, these simpler equations of motion are usually referred to as the [[#Constant translational acceleration in a straight line|SUVAT<!---THERE ARE NUMEROUS NAMES - PLEASE LEAVE THESE EQUATIONS AS "SUVAT" ---> equations]], arising from the definitions of [[kinematic quantity|kinematic quantities]]: displacement (__MATH_0__), initial velocity (__MATH_1__), final velocity (__MATH_2__), acceleration (__MATH_3__), and time (__MATH_4__).
+However, kinematics is simpler. It concerns only variables derived from the positions of objects and time. In circumstances of constant acceleration, these simpler equations of motion are usually referred to as the [[#Constant translational acceleration in a straight line|SUVAT<!---THERE ARE NUMEROUS NAMES - PLEASE LEAVE THESE EQUATIONS AS "SUVAT" ---> equations]], arising from the definitions of [[kinematic quantity|kinematic quantities]]: displacement (__MATH_2183__), initial velocity (__MATH_2184__), final velocity (__MATH_2185__), acceleration (__MATH_2186__), and time (__MATH_2187__).
 
 A differential equation of motion, usually identified as some [[physical law]] (for example, F = ma), and applying definitions of [[physical quantities]], is used to set up an equation to solve a kinematics problem. Solving the differential equation will lead to a general solution with arbitrary constants, the arbitrariness corresponding to a set of solutions. A particular solution can be obtained by setting the [[Initial value problem|initial value]]s, which fixes the values of the constants.
 
-Stated formally, in general, an equation of motion __MATH_5__ is a [[function (mathematics)|function]] of the [[Position (vector)|position]] __MATH_6__ of the object, its [[velocity]] (the first time [[derivative]] of __MATH_7__, __MATH_8__), and its acceleration (the second [[derivative]] of __MATH_9__, __MATH_10__), and time __MATH_11__. [[Euclidean vector]]s in 3D are denoted throughout in bold. This is equivalent to saying an equation of motion in __MATH_12__ is a second-order [[ordinary differential equation]] (ODE) in __MATH_13__,
+Stated formally, in general, an equation of motion __MATH_2188__ is a [[function (mathematics)|function]] of the [[Position (vector)|position]] __MATH_2189__ of the object, its [[velocity]] (the first time [[derivative]] of __MATH_2190__, __MATH_2191__), and its acceleration (the second [[derivative]] of __MATH_2192__, __MATH_2193__), and time __MATH_2194__. [[Euclidean vector]]s in 3D are denoted throughout in bold. This is equivalent to saying an equation of motion in __MATH_2195__ is a second-order [[ordinary differential equation]] (ODE) in __MATH_2196__,
 
-__MATH_14__
+__MATH_2197__
 
-where __MATH_15__ is time, and each overdot denotes one [[time derivative]]. The [[Initial value problem|initial conditions]] are given by the ''constant'' values at __MATH_16__,
+where __MATH_2198__ is time, and each overdot denotes one [[time derivative]]. The [[Initial value problem|initial conditions]] are given by the ''constant'' values at __MATH_2199__,
 
-__MATH_17__
+__MATH_2200__
 
-The solution __MATH_18__ to the equation of motion, with specified initial values, describes the system for all times __MATH_19__ after __MATH_20__. Other dynamical variables like the [[momentum]] __MATH_21__ of the object, or quantities derived from __MATH_22__ and __MATH_23__ like [[angular momentum]], can be used in place of __MATH_24__ as the quantity to solve for from some equation of motion, although the position of the object at time __MATH_25__ is by far the most sought-after quantity.
+The solution __MATH_2201__ to the equation of motion, with specified initial values, describes the system for all times __MATH_2202__ after __MATH_2203__. Other dynamical variables like the [[momentum]] __MATH_2204__ of the object, or quantities derived from __MATH_2205__ and __MATH_2206__ like [[angular momentum]], can be used in place of __MATH_2207__ as the quantity to solve for from some equation of motion, although the position of the object at time __MATH_2208__ is by far the most sought-after quantity.
 
 Sometimes, the equation will be [[linear differential equation|linear]] and is more likely to be exactly solvable. In general, the equation will be [[Non-linear differential equation|non-linear]], and cannot be solved exactly so a variety of approximations must be used. The solutions to nonlinear equations may show [[Chaos theory|chaotic]] behavior depending on how ''sensitive'' the system is to the initial conditions.
 
@@ -23,23 +23,23 @@ Sometimes, the equation will be [[linear differential equation|linear]] and is m
 
 ===Kinematic quantities===
 
-From the [[instantaneous]] position __MATH_26__, instantaneous meaning at an instant value of time __MATH_27__, the instantaneous velocity __MATH_28__ and acceleration __MATH_29__ have the general, coordinate-independent definitions;
+From the [[instantaneous]] position __MATH_2209__, instantaneous meaning at an instant value of time __MATH_2210__, the instantaneous velocity __MATH_2211__ and acceleration __MATH_2212__ have the general, coordinate-independent definitions;
 
-__MATH_30__
+__MATH_2213__
 
 Notice that velocity always points in the direction of motion, in other words for a curved path it is the [[tangent vector]]. Loosely speaking, first order derivatives are related to tangents of curves. Still for curved paths, the acceleration is directed towards the [[center of curvature]] of the path. Again, loosely speaking, second order derivatives are related to curvature.
 
-The rotational analogues are the "angular vector" (angle the particle rotates about some axis) __MATH_31__, angular velocity __MATH_32__, and angular acceleration __MATH_33__:
+The rotational analogues are the "angular vector" (angle the particle rotates about some axis) __MATH_2214__, angular velocity __MATH_2215__, and angular acceleration __MATH_2216__:
 
-__MATH_34__
+__MATH_2217__
 
-where __MATH_35__ is a [[unit vector]] in the direction of the axis of rotation, and __MATH_36__ is the angle the object turns through about the axis.
+where __MATH_2218__ is a [[unit vector]] in the direction of the axis of rotation, and __MATH_2219__ is the angle the object turns through about the axis.
 
-The following relation holds for a point-like particle, orbiting about some axis with angular velocity __MATH_37__:
+The following relation holds for a point-like particle, orbiting about some axis with angular velocity __MATH_2220__:
 
-__MATH_38__
+__MATH_2221__
 
-where __MATH_39__ is the position vector of the particle (radial from the rotation axis) and __MATH_40__ the tangential velocity of the particle. For a rotating continuum [[rigid body]], these relations hold for each point in the rigid body.
+where __MATH_2222__ is the position vector of the particle (radial from the rotation axis) and __MATH_2223__ the tangential velocity of the particle. For a rotating continuum [[rigid body]], these relations hold for each point in the rigid body.
 
 ===Uniform acceleration===
 
@@ -49,146 +49,146 @@ The differential equation of motion for a particle of constant or uniform accele
 <!---THERE ARE NUMEROUS NAMES - PLEASE LEAVE THESE EQUATIONS AS "SUVAT" --->
 These equations apply to a particle moving linearly, in three dimensions in a straight line with constant [[acceleration]]. Since the position, velocity, and acceleration are collinear (parallel, and lie on the same line) – only the magnitudes of these vectors are necessary, and because the motion is along a straight line, the problem effectively reduces from three dimensions to one.
 
-__MATH_41__
+__MATH_2224__
 
 where:
-*__MATH_42__ is the particle's initial [[Position (vector)|position]]
-*__MATH_43__ is the particle's final position
-*__MATH_44__ is the particle's initial [[velocity]]
-*__MATH_45__ is the particle's final velocity
-*__MATH_46__ is the particle's [[acceleration]]
-*__MATH_47__ is the [[Time in physics|time interval]]
+*__MATH_2225__ is the particle's initial [[Position (vector)|position]]
+*__MATH_2226__ is the particle's final position
+*__MATH_2227__ is the particle's initial [[velocity]]
+*__MATH_2228__ is the particle's final velocity
+*__MATH_2229__ is the particle's [[acceleration]]
+*__MATH_2230__ is the [[Time in physics|time interval]]
 
 
 
-Equations [1] and [2] are from integrating the definitions of velocity and acceleration, subject to the initial conditions __MATH_48__ and __MATH_49__;
+Equations [1] and [2] are from integrating the definitions of velocity and acceleration, subject to the initial conditions __MATH_2231__ and __MATH_2232__;
 
-__MATH_50__
+__MATH_2233__
 
 in magnitudes,
 
-__MATH_51__
+__MATH_2234__
 
-Equation [3] involves the average velocity __MATH_52__. Intuitively, the velocity increases linearly, so the average velocity multiplied by time is the distance traveled while increasing the velocity from __MATH_53__ to __MATH_54__, as can be illustrated graphically by plotting velocity against time as a straight line graph. Algebraically, it follows from solving [1] for
+Equation [3] involves the average velocity __MATH_2235__. Intuitively, the velocity increases linearly, so the average velocity multiplied by time is the distance traveled while increasing the velocity from __MATH_2236__ to __MATH_2237__, as can be illustrated graphically by plotting velocity against time as a straight line graph. Algebraically, it follows from solving [1] for
 
-__MATH_55__
+__MATH_2238__
 
 and substituting into [2]
 
-__MATH_56__
+__MATH_2239__
 
 then simplifying to get
 
-__MATH_57__
+__MATH_2240__
 
 or in magnitudes
 
-__MATH_58__
+__MATH_2241__
 
 From [3],
 
-__MATH_59__
+__MATH_2242__
 
-substituting for __MATH_60__ in [1]:
+substituting for __MATH_2243__ in [1]:
 
-__MATH_61__
+__MATH_2244__
 
 From [3],
 
-__MATH_62__
+__MATH_2245__
 
 substituting into [2]:
 
-__MATH_63__
+__MATH_2246__
 
 Usually only the first 4 are needed, the fifth is optional.
 
 
 
-Here __MATH_64__ is ''constant'' acceleration, or in the case of bodies moving under the influence of [[gravity]], the [[standard gravity]] __MATH_65__ is used. Note that each of the equations contains four of the five variables, so in this situation it is sufficient to know three out of the five variables to calculate the remaining two.
+Here __MATH_2247__ is ''constant'' acceleration, or in the case of bodies moving under the influence of [[gravity]], the [[standard gravity]] __MATH_2248__ is used. Note that each of the equations contains four of the five variables, so in this situation it is sufficient to know three out of the five variables to calculate the remaining two.
 
-In some programs, such as the [[International General Certificate of Secondary Education|IGCSE]] Physics and [[IB Diploma Programme|IB DP]] [[IB Group 4 subjects|Physics]] programs (international programs but especially popular in the UK and Europe), the same formulae would be written with a different set of preferred variables. There __MATH_66__ replaces __MATH_67__ and __MATH_68__ replaces __MATH_69__. They are often referred to as the '''SUVAT equations'''<!--boldface per WP:R#PLA-->, where "SUVAT" is an [[acronym]] from the variables: __MATH_70__ = displacement, __MATH_71__ = initial velocity, __MATH_72__ = final velocity, __MATH_73__ = acceleration, __MATH_74__ = time. In these variables, the equations of motion would be written
+In some programs, such as the [[International General Certificate of Secondary Education|IGCSE]] Physics and [[IB Diploma Programme|IB DP]] [[IB Group 4 subjects|Physics]] programs (international programs but especially popular in the UK and Europe), the same formulae would be written with a different set of preferred variables. There __MATH_2249__ replaces __MATH_2250__ and __MATH_2251__ replaces __MATH_2252__. They are often referred to as the '''SUVAT equations'''<!--boldface per WP:R#PLA-->, where "SUVAT" is an [[acronym]] from the variables: __MATH_2253__ = displacement, __MATH_2254__ = initial velocity, __MATH_2255__ = final velocity, __MATH_2256__ = acceleration, __MATH_2257__ = time. In these variables, the equations of motion would be written
 
-__MATH_75__
+__MATH_2258__
 
 ====Constant linear acceleration in any direction====
 
 <!---THERE ARE NUMEROUS NAMES - PLEASE LEAVE THESE EQUATIONS AS "SUVAT" --->
 The initial position, initial velocity, and acceleration vectors need not be collinear, and the equations of motion take an almost identical form. The only difference is that the square magnitudes of the velocities require the [[dot product]]. The derivations are essentially the same as in the collinear case,
 
-__MATH_76__
+__MATH_2259__
 although the [[Torricelli equation]] [4] can be derived using the [[distributive property]] of the dot product as follows:
-__MATH_77__
-__MATH_78__
-__MATH_79__
+__MATH_2260__
+__MATH_2261__
+__MATH_2262__
 
 ====Applications====
 
-Elementary and frequent examples in kinematics involve [[projectile]]s, for example a ball thrown upwards into the air. Given initial velocity __MATH_80__, one can calculate how high the ball will travel before it begins to fall. The acceleration is local acceleration of gravity __MATH_81__. While these quantities appear to be [[scalar (physics)|scalars]], the direction of displacement, speed and acceleration is important. They could in fact be considered as unidirectional vectors. Choosing __MATH_82__ to measure up from the ground, the acceleration __MATH_83__ must be in fact __MATH_84__, since the force of [[gravity]] acts downwards and therefore also the acceleration on the ball due to it.
+Elementary and frequent examples in kinematics involve [[projectile]]s, for example a ball thrown upwards into the air. Given initial velocity __MATH_2263__, one can calculate how high the ball will travel before it begins to fall. The acceleration is local acceleration of gravity __MATH_2264__. While these quantities appear to be [[scalar (physics)|scalars]], the direction of displacement, speed and acceleration is important. They could in fact be considered as unidirectional vectors. Choosing __MATH_2265__ to measure up from the ground, the acceleration __MATH_2266__ must be in fact __MATH_2267__, since the force of [[gravity]] acts downwards and therefore also the acceleration on the ball due to it.
 
-At the highest point, the ball will be at rest: therefore __MATH_85__. Using equation [4] in the set above, we have:
+At the highest point, the ball will be at rest: therefore __MATH_2268__. Using equation [4] in the set above, we have:
 
-__MATH_86__
+__MATH_2269__
 
 Substituting and cancelling minus signs gives:
 
-__MATH_87__
+__MATH_2270__
 
 ====Constant circular acceleration====
 
 The analogues of the above equations can be written for [[rotation]]. Again these axial vectors must all be parallel to the axis of rotation, so only the magnitudes of the vectors are necessary,
 
-__MATH_88__
+__MATH_2271__
 
-where __MATH_89__ is the constant [[angular acceleration]], __MATH_90__ is the [[angular velocity]], __MATH_91__ is the initial angular velocity, __MATH_92__ is the angle turned through ([[angular displacement]]), __MATH_93__ is the initial angle, and __MATH_94__ is the time taken to rotate from the initial state to the final state.
+where __MATH_2272__ is the constant [[angular acceleration]], __MATH_2273__ is the [[angular velocity]], __MATH_2274__ is the initial angular velocity, __MATH_2275__ is the angle turned through ([[angular displacement]]), __MATH_2276__ is the initial angle, and __MATH_2277__ is the time taken to rotate from the initial state to the final state.
 
 ===General planar motion===
 
-These are the kinematic equations for a particle traversing a path in a plane, described by position __MATH_95__. They are simply the time derivatives of the position vector in plane [[polar coordinates]] using the definitions of physical quantities above for angular velocity __MATH_96__ and angular acceleration __MATH_97__. These are instantaneous quantities which change with time.
+These are the kinematic equations for a particle traversing a path in a plane, described by position __MATH_2278__. They are simply the time derivatives of the position vector in plane [[polar coordinates]] using the definitions of physical quantities above for angular velocity __MATH_2279__ and angular acceleration __MATH_2280__. These are instantaneous quantities which change with time.
 
 The position of the particle is
 
-__MATH_98__
+__MATH_2281__
 
-where __MATH_99__ and __MATH_100__ are the [[Polar coordinate system#Vector calculus|polar]] unit vectors. Differentiating with respect to time gives the velocity
+where __MATH_2282__ and __MATH_2283__ are the [[Polar coordinate system#Vector calculus|polar]] unit vectors. Differentiating with respect to time gives the velocity
 
-__MATH_101__
+__MATH_2284__
 
-with radial component __MATH_102__ and an additional component __MATH_103__ due to the rotation. Differentiating with respect to time again obtains the acceleration 
+with radial component __MATH_2285__ and an additional component __MATH_2286__ due to the rotation. Differentiating with respect to time again obtains the acceleration 
 
-__MATH_104__
+__MATH_2287__
 
-which breaks into the radial acceleration __MATH_105__, [[centripetal acceleration]] __MATH_106__, [[Coriolis acceleration]] __MATH_107__, and angular acceleration __MATH_108__.
+which breaks into the radial acceleration __MATH_2288__, [[centripetal acceleration]] __MATH_2289__, [[Coriolis acceleration]] __MATH_2290__, and angular acceleration __MATH_2291__.
 
 Special cases of motion described by these equations are summarized qualitatively in the table below. Two have already been discussed above, in the cases that either the radial components or the angular components are zero, and the non-zero component of motion describes uniform acceleration.
 
 {| class="wikitable"
 |-
 !scope="col" width="20%"| '''State of motion'''
-!scope="col" width="20%"| Constant __MATH_109__
-!scope="col" width="20%"| __MATH_110__ linear in __MATH_111__
-!scope="col" width="20%"| __MATH_112__ quadratic in __MATH_113__
+!scope="col" width="20%"| Constant __MATH_2292__
+!scope="col" width="20%"| __MATH_2293__ linear in __MATH_2294__
+!scope="col" width="20%"| __MATH_2295__ quadratic in __MATH_2296__
 !scope="col" width="20%"| ''r'' non-linear in ''t''
 |-
-! Constant __MATH_114__
+! Constant __MATH_2297__
 || Stationary
 || Uniform translation (constant translational velocity)
 || Uniform translational acceleration
 || Non-uniform translation
 |-
-! __MATH_115__ linear in __MATH_116__
+! __MATH_2298__ linear in __MATH_2299__
 || Uniform angular motion in a circle (constant angular velocity)
 || Uniform angular motion in a spiral, constant radial velocity
 || Angular motion in a spiral, constant radial acceleration
 || Angular motion in a spiral, varying radial acceleration
 |-
-!__MATH_117__ quadratic in __MATH_118__
+!__MATH_2300__ quadratic in __MATH_2301__
 || Uniform angular acceleration in a circle
 || Uniform angular acceleration in a spiral, constant radial velocity
 || Uniform angular acceleration in a spiral, constant radial acceleration
 || Uniform angular acceleration in a spiral, varying radial acceleration
 |-
-! __MATH_119__ non-linear in __MATH_120__
+! __MATH_2302__ non-linear in __MATH_2303__
 || Non-uniform angular acceleration in a circle
 || Non-uniform angular acceleration in a spiral, constant radial velocity
 || Non-uniform angular acceleration in a spiral, constant radial acceleration
@@ -198,25 +198,25 @@ Special cases of motion described by these equations are summarized qualitativel
 
 ===General 3D motions===
 
-In 3D space, the equations in spherical coordinates __MATH_121__ with corresponding unit vectors __MATH_122__, __MATH_123__ and __MATH_124__, the position, velocity, and acceleration generalize respectively to
+In 3D space, the equations in spherical coordinates __MATH_2304__ with corresponding unit vectors __MATH_2305__, __MATH_2306__ and __MATH_2307__, the position, velocity, and acceleration generalize respectively to
 
-__MATH_125__
+__MATH_2308__
 
-In the case of a constant __MATH_126__ this reduces to the planar equations above.
+In the case of a constant __MATH_2309__ this reduces to the planar equations above.
 
 ==Dynamic equations of motion==
 
 ===Newtonian mechanics===
 
-The first general equation of motion developed was [[Newton's second law]] of motion.  In its most general form it states the rate of change of momentum __MATH_127__ of an object equals the force __MATH_128__ acting on it,
+The first general equation of motion developed was [[Newton's second law]] of motion.  In its most general form it states the rate of change of momentum __MATH_2310__ of an object equals the force __MATH_2311__ acting on it,
 
-__MATH_129__
+__MATH_2312__
 
 The force in the equation is ''not'' the force the object exerts. Replacing momentum by mass times velocity, the law is also written more famously as
 
-__MATH_130__
+__MATH_2313__
 
-since __MATH_131__ is a constant in [[Newtonian mechanics]].
+since __MATH_2314__ is a constant in [[Newtonian mechanics]].
 
 Newton's second law applies to point-like particles, and to all points in a [[rigid body]]. They also apply to each point in a mass continuum, like deformable solids or fluids, but the motion of the system must be accounted for; see [[material derivative]]. In the case the mass is not constant, it is not sufficient to use the [[product rule]] for the time derivative on the mass and velocity, and Newton's second law requires some modification consistent with [[conservation of momentum]]; see [[variable-mass system]].
 
@@ -224,148 +224,148 @@ It may be simple to write down the equations of motion in vector form using Newt
 
 The momentum form is preferable since this is readily generalized to more complex systems, such as [[special relativity|special]] and [[general relativity]] (see [[four-momentum]]). It can also be used with the momentum conservation. However, Newton's laws are not more fundamental than momentum conservation, because Newton's laws are merely consistent with the fact that zero resultant force acting on an object implies constant momentum, while a resultant force implies the momentum is not constant. Momentum conservation is always true for an isolated system not subject to resultant forces.
 
-For a number of particles (see [[many body problem]]), the equation of motion for one particle __MATH_132__ influenced by other particles is
-__MATH_133__
+For a number of particles (see [[many body problem]]), the equation of motion for one particle __MATH_2315__ influenced by other particles is
+__MATH_2316__
 
-where __MATH_134__ is the momentum of particle __MATH_135__, __MATH_136__ is the force on particle __MATH_137__ by particle __MATH_138__, and __MATH_139__ is the resultant external force due to any agent not part of system. Particle __MATH_140__ does not exert a force on itself.
+where __MATH_2317__ is the momentum of particle __MATH_2318__, __MATH_2319__ is the force on particle __MATH_2320__ by particle __MATH_2321__, and __MATH_2322__ is the resultant external force due to any agent not part of system. Particle __MATH_2323__ does not exert a force on itself.
 
 [[Euler's laws of motion]] are similar to Newton's laws, but they are applied specifically to the motion of [[rigid body|rigid bodies]]. The [[Newton–Euler equations]] combine the forces and torques acting on a rigid body into a single equation.
 
 Newton's second law for rotation takes a similar form to the translational case,
 
-__MATH_141__
+__MATH_2324__
 
-by equating the [[torque]] acting on the body to the rate of change of its [[angular momentum]] __MATH_142__. Analogous to mass times acceleration, the [[moment of inertia]] [[tensor]] __MATH_143__ depends on the distribution of mass about the axis of rotation, and the angular acceleration is the rate of change of angular velocity,
+by equating the [[torque]] acting on the body to the rate of change of its [[angular momentum]] __MATH_2325__. Analogous to mass times acceleration, the [[moment of inertia]] [[tensor]] __MATH_2326__ depends on the distribution of mass about the axis of rotation, and the angular acceleration is the rate of change of angular velocity,
 
-__MATH_144__
+__MATH_2327__
 
 Again, these equations apply to point like particles, or at each point of a rigid body.
 
-Likewise, for a number of particles, the equation of motion for one particle __MATH_145__ is
+Likewise, for a number of particles, the equation of motion for one particle __MATH_2328__ is
 
-__MATH_146__
+__MATH_2329__
 
-where __MATH_147__ is the angular momentum of particle __MATH_148__, __MATH_149__ the torque on particle __MATH_150__ by particle __MATH_151__, and __MATH_152__ is resultant external torque (due to any agent not part of system). Particle __MATH_153__ does not exert a torque on itself.
+where __MATH_2330__ is the angular momentum of particle __MATH_2331__, __MATH_2332__ the torque on particle __MATH_2333__ by particle __MATH_2334__, and __MATH_2335__ is resultant external torque (due to any agent not part of system). Particle __MATH_2336__ does not exert a torque on itself.
 
 ===Applications===
 
 Some examples of Newton's law include describing the motion of a [[simple pendulum]],
 
-__MATH_154__
+__MATH_2337__
 
 and a [[Harmonic oscillator#Sinusoidal driving force|damped, sinusoidally driven harmonic oscillator]],
 
-__MATH_155__
+__MATH_2338__
 
-For describing the motion of masses due to gravity, [[Newton's law of gravity]] can be combined with Newton's second law. For two examples, a ball of mass __MATH_156__ thrown in the air, in air currents (such as wind) described by a vector field of resistive forces __MATH_157__,
+For describing the motion of masses due to gravity, [[Newton's law of gravity]] can be combined with Newton's second law. For two examples, a ball of mass __MATH_2339__ thrown in the air, in air currents (such as wind) described by a vector field of resistive forces __MATH_2340__,
 
-__MATH_158__
+__MATH_2341__
 
-where __MATH_159__ is the [[gravitational constant]], __MATH_160__ the mass of the Earth, and __MATH_161__ is the acceleration of the projectile due to the air currents at position __MATH_162__ and time __MATH_163__.
+where __MATH_2342__ is the [[gravitational constant]], __MATH_2343__ the mass of the Earth, and __MATH_2344__ is the acceleration of the projectile due to the air currents at position __MATH_2345__ and time __MATH_2346__.
 
-The classical [[many body problem|{{mvar|N}}-body problem]] for __MATH_164__ particles each interacting with each other due to gravity is a set of __MATH_165__ nonlinear coupled second order ODEs,
+The classical [[many body problem|{{mvar|N}}-body problem]] for __MATH_2347__ particles each interacting with each other due to gravity is a set of __MATH_2348__ nonlinear coupled second order ODEs,
 
-__MATH_166__
+__MATH_2349__
 
-where __MATH_167__ labels the quantities (mass, position, etc.) associated with each particle.
+where __MATH_2350__ labels the quantities (mass, position, etc.) associated with each particle.
 
 ==Analytical mechanics==
 
-Using all three coordinates of 3D space is unnecessary if there are constraints on the system. If the system has __MATH_168__ [[degrees of freedom (mechanics)|degrees of freedom]], then one can use a set of __MATH_169__ [[generalized coordinates]] __MATH_170__, to define the configuration of the system. They can be in the form of [[arc length]]s or [[angle]]s. They are a considerable simplification to describe motion, since they take advantage of the intrinsic constraints that limit the system's motion, and the number of coordinates is reduced to a minimum. The [[time derivative]]s of the generalized coordinates are the ''generalized velocities''
+Using all three coordinates of 3D space is unnecessary if there are constraints on the system. If the system has __MATH_2351__ [[degrees of freedom (mechanics)|degrees of freedom]], then one can use a set of __MATH_2352__ [[generalized coordinates]] __MATH_2353__, to define the configuration of the system. They can be in the form of [[arc length]]s or [[angle]]s. They are a considerable simplification to describe motion, since they take advantage of the intrinsic constraints that limit the system's motion, and the number of coordinates is reduced to a minimum. The [[time derivative]]s of the generalized coordinates are the ''generalized velocities''
 
-__MATH_171__
+__MATH_2354__
 
 The [[Lagrangian mechanics|Euler–Lagrange equations]] are
 
-__MATH_172__
+__MATH_2355__
 
-where the ''Lagrangian'' is a function of the configuration __MATH_173__ and its time rate of change __MATH_174__ (and possibly time __MATH_175__)
+where the ''Lagrangian'' is a function of the configuration __MATH_2356__ and its time rate of change __MATH_2357__ (and possibly time __MATH_2358__)
 
-__MATH_176__
+__MATH_2359__
 
-Setting up the Lagrangian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled __MATH_177__ second order [[ordinary differential equation|ODE]]s in the coordinates are obtained.
+Setting up the Lagrangian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled __MATH_2360__ second order [[ordinary differential equation|ODE]]s in the coordinates are obtained.
 
 [[Hamiltonian mechanics|Hamilton's equations]] are
 
-__MATH_178__
+__MATH_2361__
 
 where the Hamiltonian
 
-__MATH_179__
+__MATH_2362__
 
-is a function of the configuration __MATH_180__ and conjugate ''[[Canonical coordinates|"generalized" momenta]]''
+is a function of the configuration __MATH_2363__ and conjugate ''[[Canonical coordinates|"generalized" momenta]]''
 
-__MATH_181__
+__MATH_2364__
 
-in which __MATH_182__ is a shorthand notation for a vector of [[partial derivative]]s with respect to the indicated variables (see for example [[matrix calculus#Scope|matrix calculus]] for this denominator notation), and possibly time __MATH_183__,
+in which __MATH_2365__ is a shorthand notation for a vector of [[partial derivative]]s with respect to the indicated variables (see for example [[matrix calculus#Scope|matrix calculus]] for this denominator notation), and possibly time __MATH_2366__,
 
-Setting up the Hamiltonian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled __MATH_184__ first order ODEs in the coordinates __MATH_185__ and momenta __MATH_186__ are obtained.
+Setting up the Hamiltonian of the system, then substituting into the equations and evaluating the partial derivatives and simplifying, a set of coupled __MATH_2367__ first order ODEs in the coordinates __MATH_2368__ and momenta __MATH_2369__ are obtained.
 
 The [[Hamilton–Jacobi equation]] is
 
-__MATH_187__
+__MATH_2370__
 
 where
 
-__MATH_188__
+__MATH_2371__
 
-is ''Hamilton's principal function'', also called the ''[[action (physics)|classical action]]'' is a [[functional (mathematics)|functional]] of __MATH_189__. In this case, the momenta are given by
+is ''Hamilton's principal function'', also called the ''[[action (physics)|classical action]]'' is a [[functional (mathematics)|functional]] of __MATH_2372__. In this case, the momenta are given by
 
-__MATH_190__
+__MATH_2373__
 
-Although the equation has a simple general form, for a given Hamiltonian it is actually a single first order ''[[Non-linear differential equation|non-linear]]'' [[partial differential equation|PDE]], in __MATH_191__ variables. The action __MATH_192__ allows identification of conserved quantities for mechanical systems, even when the mechanical problem itself cannot be solved fully, because any [[derivative|differentiable]] [[Symmetry in physics|symmetry]] of the [[action (physics)|action]] of a physical system has a corresponding [[Conservation law (physics)|conservation law]], a theorem due to [[Emmy Noether]].
+Although the equation has a simple general form, for a given Hamiltonian it is actually a single first order ''[[Non-linear differential equation|non-linear]]'' [[partial differential equation|PDE]], in __MATH_2374__ variables. The action __MATH_2375__ allows identification of conserved quantities for mechanical systems, even when the mechanical problem itself cannot be solved fully, because any [[derivative|differentiable]] [[Symmetry in physics|symmetry]] of the [[action (physics)|action]] of a physical system has a corresponding [[Conservation law (physics)|conservation law]], a theorem due to [[Emmy Noether]].
 
 All classical equations of motion can be derived from the [[variational principle]] known as [[Principle of least action|Hamilton's principle of least action]]
 
-__MATH_193__
+__MATH_2376__
 
-stating the path the system takes through the [[Configuration space (physics)|configuration space]] is the one with the least action __MATH_194__.
+stating the path the system takes through the [[Configuration space (physics)|configuration space]] is the one with the least action __MATH_2377__.
 
 ==Electrodynamics==
 
-In electrodynamics, the force on a charged particle of charge __MATH_195__ is the [[Lorentz force]]:
+In electrodynamics, the force on a charged particle of charge __MATH_2378__ is the [[Lorentz force]]:
 
-__MATH_196__
+__MATH_2379__
 
 Combining with Newton's second law gives a first order differential equation of motion, in terms of position of the particle:
 
-__MATH_197__
+__MATH_2380__
 
 or its momentum:
 
-__MATH_198__
+__MATH_2381__
 
-The same equation can be obtained using the [[Lagrangian mechanics|Lagrangian]] (and applying Lagrange's equations above) for a charged particle of mass __MATH_199__ and charge __MATH_200__:
+The same equation can be obtained using the [[Lagrangian mechanics|Lagrangian]] (and applying Lagrange's equations above) for a charged particle of mass __MATH_2382__ and charge __MATH_2383__:
 
-__MATH_201__
+__MATH_2384__
 
-where __MATH_202__ and __MATH_203__ are the electromagnetic [[electrical potential|scalar]] and [[magnetic vector potential|vector]] potential fields. The Lagrangian indicates an additional detail: the [[canonical momentum]] in Lagrangian mechanics is given by:
-__MATH_204__
-instead of just __MATH_205__, implying the motion of a charged particle is fundamentally determined by the mass and charge of the particle. The Lagrangian expression was first used to derive the force equation.
+where __MATH_2385__ and __MATH_2386__ are the electromagnetic [[electrical potential|scalar]] and [[magnetic vector potential|vector]] potential fields. The Lagrangian indicates an additional detail: the [[canonical momentum]] in Lagrangian mechanics is given by:
+__MATH_2387__
+instead of just __MATH_2388__, implying the motion of a charged particle is fundamentally determined by the mass and charge of the particle. The Lagrangian expression was first used to derive the force equation.
 
 Alternatively the Hamiltonian (and substituting into the equations):
-__MATH_206__
+__MATH_2389__
 can derive the Lorentz force equation.
 
 ==General relativity==
 
 ===Geodesic equation of motion===
 
-The above equations are valid in flat spacetime. In [[curved space|curved]] [[spacetime]], things become mathematically more complicated since there is no straight line; this is generalized and replaced by a ''[[geodesic]]'' of the curved spacetime (the shortest length of curve between two points). For curved [[manifold]]s with a [[metric tensor]] __MATH_207__, the metric provides the notion of arc length (see [[line element]] for details).  The [[differential (infinitesimal)|differential]] arc length is given by:
+The above equations are valid in flat spacetime. In [[curved space|curved]] [[spacetime]], things become mathematically more complicated since there is no straight line; this is generalized and replaced by a ''[[geodesic]]'' of the curved spacetime (the shortest length of curve between two points). For curved [[manifold]]s with a [[metric tensor]] __MATH_2390__, the metric provides the notion of arc length (see [[line element]] for details).  The [[differential (infinitesimal)|differential]] arc length is given by:
 
-__MATH_208__
+__MATH_2391__
 
 and the geodesic equation is a second-order differential equation in the coordinates.  The general solution is a family of geodesics:
 
-__MATH_209__
+__MATH_2392__
 
-where __MATH_210__ is a [[Christoffel symbols#Christoffel symbols of the second kind (symmetric definition)|Christoffel symbol of the second kind]], which contains the metric (with respect to the coordinate system).
+where __MATH_2393__ is a [[Christoffel symbols#Christoffel symbols of the second kind (symmetric definition)|Christoffel symbol of the second kind]], which contains the metric (with respect to the coordinate system).
 
-Given the [[mass-energy equivalence|mass-energy]] distribution provided by the [[stress–energy tensor]] __MATH_211__, the [[Einstein field equations]] are a set of non-linear second-order partial differential equations in the metric, and imply the curvature of spacetime is equivalent to a gravitational field (see [[equivalence principle]]). Mass falling in curved spacetime is equivalent to a mass falling in a gravitational field - because [[Fictitious force#Gravity as a fictitious force|gravity is a fictitious force]]. The ''relative acceleration'' of one geodesic to another in curved spacetime is given by the ''[[geodesic deviation equation]]'':
+Given the [[mass-energy equivalence|mass-energy]] distribution provided by the [[stress–energy tensor]] __MATH_2394__, the [[Einstein field equations]] are a set of non-linear second-order partial differential equations in the metric, and imply the curvature of spacetime is equivalent to a gravitational field (see [[equivalence principle]]). Mass falling in curved spacetime is equivalent to a mass falling in a gravitational field - because [[Fictitious force#Gravity as a fictitious force|gravity is a fictitious force]]. The ''relative acceleration'' of one geodesic to another in curved spacetime is given by the ''[[geodesic deviation equation]]'':
 
-__MATH_212__
+__MATH_2395__
 
-where __MATH_213__ is the separation vector between two geodesics, __MATH_214__ (''not'' just __MATH_215__) is the [[covariant derivative]], and __MATH_216__ is the [[Riemann curvature tensor]], containing the Christoffel symbols. In other words, the geodesic deviation equation is the equation of motion for masses in curved spacetime, analogous to the Lorentz force equation for charges in an electromagnetic field.
+where __MATH_2396__ is the separation vector between two geodesics, __MATH_2397__ (''not'' just __MATH_2398__) is the [[covariant derivative]], and __MATH_2399__ is the [[Riemann curvature tensor]], containing the Christoffel symbols. In other words, the geodesic deviation equation is the equation of motion for masses in curved spacetime, analogous to the Lorentz force equation for charges in an electromagnetic field.
 
 For flat spacetime, the metric is a constant tensor so the Christoffel symbols vanish, and the geodesic equation has the solutions of straight lines. This is also the limiting case when masses move according to [[Newton's law of gravity]].
 
@@ -395,16 +395,16 @@ Equations of wave motion are called ''[[wave equation]]s''. The solutions to a w
 
 From classical equations of motion and field equations; mechanical, [[gravitational wave]], and [[electromagnetic wave]] equations can be derived. The general linear wave equation in 3D is:
 
-__MATH_217__
+__MATH_2400__
 
-where __MATH_218__ is any mechanical or electromagnetic field amplitude, say:
+where __MATH_2401__ is any mechanical or electromagnetic field amplitude, say:
 
 * the [[Transverse wave|transverse]] or [[Longitudinal wave|longitudinal]] [[Displacement (vector)|displacement]] of a vibrating rod, wire, cable, membrane etc.,
 * the fluctuating [[pressure]] of a medium, [[sound pressure]],
-* the [[electric field]]s __MATH_219__ or __MATH_220__, or the [[magnetic field]]s __MATH_221__ or __MATH_222__,
-* the [[voltage]] __MATH_223__ or [[Electric current|current]] __MATH_224__ in an [[alternating current]] circuit,
+* the [[electric field]]s __MATH_2402__ or __MATH_2403__, or the [[magnetic field]]s __MATH_2404__ or __MATH_2405__,
+* the [[voltage]] __MATH_2406__ or [[Electric current|current]] __MATH_2407__ in an [[alternating current]] circuit,
 
-and __MATH_225__ is the [[phase velocity]]. Nonlinear equations model the dependence of phase velocity on amplitude, replacing __MATH_226__ by __MATH_227__. There are other linear and nonlinear wave equations for very specific applications, see for example the [[Korteweg–de Vries equation]].
+and __MATH_2408__ is the [[phase velocity]]. Nonlinear equations model the dependence of phase velocity on amplitude, replacing __MATH_2409__ by __MATH_2410__. There are other linear and nonlinear wave equations for very specific applications, see for example the [[Korteweg–de Vries equation]].
 
 ===Quantum theory===
 
@@ -412,9 +412,9 @@ In quantum theory, the wave and field concepts both appear.
 
 In [[quantum mechanics]] the analogue of the classical equations of motion (Newton's law, Euler–Lagrange equation, Hamilton–Jacobi equation, etc.) is the [[Schrödinger equation]] in its most general form:
 
-__MATH_228__
+__MATH_2411__
 
-where __MATH_229__ is the [[wavefunction]] of the system, __MATH_230__ is the quantum [[Hamiltonian operator]], rather than a function as in classical mechanics, and __MATH_231__ is the [[Planck constant]] divided by 2__MATH_232__. Setting up the Hamiltonian and inserting it into the equation results in a wave equation, the solution is the wavefunction as a function of space and time. The Schrödinger equation itself reduces to the Hamilton–Jacobi equation when one considers the [[correspondence principle]], in the limit that __MATH_233__ becomes zero. To compare to measurements, operators for observables must be applied the quantum wavefunction according to the experiment performed, leading to either [[wave-particle duality| wave-like or particle-like]] results.
+where __MATH_2412__ is the [[wavefunction]] of the system, __MATH_2413__ is the quantum [[Hamiltonian operator]], rather than a function as in classical mechanics, and __MATH_2414__ is the [[Planck constant]] divided by 2__MATH_2415__. Setting up the Hamiltonian and inserting it into the equation results in a wave equation, the solution is the wavefunction as a function of space and time. The Schrödinger equation itself reduces to the Hamilton–Jacobi equation when one considers the [[correspondence principle]], in the limit that __MATH_2416__ becomes zero. To compare to measurements, operators for observables must be applied the quantum wavefunction according to the experiment performed, leading to either [[wave-particle duality| wave-like or particle-like]] results.
 
 Throughout all aspects of quantum theory, relativistic or non-relativistic, there are [[mathematical formulation of quantum mechanics|various formulations]] alternative to the Schrödinger equation that govern the time evolution and behavior of a quantum system, for instance: 
 *the [[Heisenberg picture|Heisenberg equation of motion]] resembles the time evolution of classical observables as functions of position, momentum, and time, if one replaces dynamical observables by their [[operator (physics)|quantum operators]] and the classical [[Poisson bracket]] by the [[commutator]], 

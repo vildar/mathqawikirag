@@ -665,8 +665,8 @@ relative accelerations for the proton and neutron in deuterium are
 computed, then the above formula over-estimates the mass m₁ (by 0.239%)
 for the proton in deuterium. At best, Mach's formula can only be used to
 obtain ratios of masses, that is, as m₁ / m₂ =
-|”'a”'_2| / |”'a”'_1|. An additional difficulty was pointed out by
-Henri Poincaré, which is that the measurement of instantaneous
+|”'a”'_2| / |”'a”'_1|. An additional difficulty was pointed out
+by Henri Poincaré, which is that the measurement of instantaneous
 acceleration is impossible: unlike the measurement of time or distance,
 there is no way to measure acceleration with a single measurement; one
 must make multiple measurements (of position, time, etc.) and perform a

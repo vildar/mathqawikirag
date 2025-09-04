@@ -20,7 +20,8 @@ From the kinematics of curved motion it is known that an object moving
 at tangential speed v along a path with radius of curvature r
 accelerates toward the center of curvature at a rate a_c = lim_Δt →0 Δv/Δt,   a_c = v^2/r Here,
 a_c is the centripetal acceleration and Δv is the
-difference between the velocity vectors at t+Δt and t.
+difference between the velocity vectors at t+Δt and
+t.
 
 By Newton's second law, the cause of acceleration is a net force acting
 on the object, which is proportional to its mass m and its acceleration.
@@ -38,12 +39,12 @@ subtraction implies two similar isosceles triangles with congruent
 angles – one comprising a base of Δv and a leg length of
 v, and the other a base of Δr (position vector
 difference) and a leg length of r: |Δv|/v = |Δr|/r |Δv| = v/r|Δr|
-Therefore, |Δv| can be substituted with v/r |Δr|: a_c = lim_Δt →0 |Δv|/Δt = v/r lim_Δt →0 |Δr|/Δt = v^2/r
-The direction of the force is toward the center of the circle in which
-the object is moving, or the osculating circle (the circle that best
-fits the local path of the object, if the path is not circular). The
-speed in the formula is squared, so twice the speed needs four times the
-force, at a given radius.
+Therefore, |Δv| can be substituted with v/r |Δr|:
+a_c = lim_Δt →0 |Δv|/Δt = v/r lim_Δt →0 |Δr|/Δt = v^2/r The direction of the force is toward the center of the
+circle in which the object is moving, or the osculating circle (the
+circle that best fits the local path of the object, if the path is not
+circular). The speed in the formula is squared, so twice the speed needs
+four times the force, at a given radius.
 
 This force is also sometimes written in terms of the angular velocity ω
 of the object about the center of the circle, related to the tangential
@@ -58,8 +59,8 @@ of light in vacuum) so the same rest mass now exerts greater inertia
 centripetal acceleration, so the equation becomes: F_c = γm v^2/r where
 γ= 1/√(1-v^2/c^2) is the Lorentz factor.
 
-Thus the centripetal force is given by: F_c = γm v ω which is the rate of
-change of relativistic momentum γm v.
+Thus the centripetal force is given by: F_c = γm v ω which is the rate
+of change of relativistic momentum γm v.
 
 Analysis of several cases
 
@@ -85,14 +86,14 @@ The assumption of uniform circular motion requires three things:
 3.  The object moves with constant angular velocity ω around
     the circle. Therefore, θ= ωt where t is time.
 
-The velocity v and acceleration a of the motion are
-the first and second derivatives of position with respect to time:
+The velocity v and acceleration a of the motion
+are the first and second derivatives of position with respect to time:
 
 r = r cos(ωt) x + r sin(ωt) y, v = ṙ = - r ωsin(ωt) x + r ωcos(ωt) y, a = r̈ = - ω^2 (r cos(ωt) x + r sin(ωt) y).
 
 The term in parentheses is the original expression of r in
-Cartesian coordinates. Consequently, a = - ω^2 r. The negative sign shows
-that the acceleration is pointed towards the center of the circle
+Cartesian coordinates. Consequently, a = - ω^2 r. The negative sign
+shows that the acceleration is pointed towards the center of the circle
 (opposite the radius), hence it is called "centripetal" (i.e.
 "center-seeking"). While objects naturally follow a straight path (due
 to inertia), this centripetal acceleration describes the circular motion
@@ -218,8 +219,8 @@ expressed in terms of Cartesian unit vectors in the x and y directions,
 denoted i and j respectively: 𝐮_r = cosθ i + sinθ j and
 𝐮_θ= - sinθ i + cosθ j.
 
-One can differentiate to find velocity: 𝐯    = r d 𝐮_r/dt ;    = r d/dt ( cosθ i + sinθ j) ;    = r d θ/dt d/d θ ( cosθ i + sinθ j) ;     = r d θ/dt ( -sinθ i + cosθ j) ;     = r dθ/dt 𝐮_θ;     = ωr 𝐮_θ where ω is
-the angular velocity ”dθ”/”dt”.
+One can differentiate to find velocity: 𝐯    = r d 𝐮_r/dt ;    = r d/dt ( cosθ i + sinθ j) ;    = r d θ/dt d/d θ ( cosθ i + sinθ j) ;     = r d θ/dt ( -sinθ i + cosθ j) ;     = r dθ/dt 𝐮_θ;     = ωr 𝐮_θ where ω
+is the angular velocity ”dθ”/”dt”.
 
 This result for the velocity matches expectations that the velocity
 should be directed tangentially to the circle, and that the magnitude of
@@ -461,11 +462,11 @@ which can be recognized as a circular path around the origin with radius
 above formalism, the derivatives are needed:
 
     y^'(s) = coss/α  ;  x^'(s) = -sins/α  ,
-    y^''(s) = -1/αsins/α  ;  x^''(s) = -1/αcoss/α  .
+    y^”(s) = -1/αsins/α  ;  x^”(s) = -1/αcoss/α  .
 
 With these results, one can verify that:
 
-    x^'(s)^2 + y^'(s)^2 = 1  ;  1/ρ = y^''(s)x^'(s)-y^'(s)x^''(s) = 1/α  .
+    x^'(s)^2 + y^'(s)^2 = 1  ;  1/ρ = y^”(s)x^'(s)-y^'(s)x^”(s) = 1/α  .
 
 The unit vectors can also be found:
 

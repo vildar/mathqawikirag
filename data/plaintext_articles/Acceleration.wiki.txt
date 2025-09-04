@@ -11,7 +11,8 @@ described by Newton's second law, is the combined effect of two causes:
 -   that object's mass, depending on the materials out of which it is
     made — magnitude is inversely proportional to the object's mass.
 
-The SI unit for acceleration is metre per second squared (, ms^2).
+The SI unit for acceleration is metre per second squared (,
+ms^2).
 
 For example, when a vehicle starts from a standstill (zero velocity, in
 an inertial frame of reference) and travels in a straight line at
@@ -41,8 +42,8 @@ Definition and properties
 Average acceleration
 
 An object's average acceleration over a period of time is its change in
-velocity, Δ𝐯, divided by the duration of the period, Δt.
-Mathematically, 𝐚̅ = Δ𝐯/Δt.
+velocity, Δ𝐯, divided by the duration of the period,
+Δt. Mathematically, 𝐚̅ = Δ𝐯/Δt.
 
 Instantaneous acceleration
 
@@ -50,10 +51,11 @@ Instantaneous acceleration, meanwhile, is the limit of the average
 acceleration over an infinitesimal interval of time. In the terms of
 calculus, instantaneous acceleration is the derivative of the velocity
 vector with respect to time: 𝐚 = lim_Δt →0 Δ𝐯/Δt = d𝐯/dt. As acceleration is defined as
-the derivative of velocity, ”'v”', with respect to time t
-and velocity is defined as the derivative of position, ”'x”', with
-respect to time, acceleration can be thought of as the second derivative
-of ”'x”' with respect to t: 𝐚 = d𝐯/dt = d^2𝐱/dt^2.
+the derivative of velocity, ”'v”', with respect to time
+t and velocity is defined as the derivative of position,
+”'x”', with respect to time, acceleration can be thought of as
+the second derivative of ”'x”' with respect to t:
+𝐚 = d𝐯/dt = d^2𝐱/dt^2.
 
 (Here and elsewhere, if motion is in a straight line, vector quantities
 can be substituted by scalars in the equations.)
@@ -88,8 +90,8 @@ condition, is measured by an instrument called an accelerometer.
 In classical mechanics, for a body with constant mass, the (vector)
 acceleration of the body's center of mass is proportional to the net
 force vector (i.e. sum of all forces) acting on it (Newton's second
-law): 𝐅 = m𝐚     𝐚 = 𝐅/m, where ”'F”' is the net force acting on the body,
-m is the mass of the body, and ”'a”' is the
+law): 𝐅 = m𝐚     𝐚 = 𝐅/m, where ”'F”' is the net force acting on the
+body, m is the mass of the body, and ”'a”' is the
 center-of-mass acceleration. As speeds approach the speed of light,
 relativistic effects become increasingly large.
 
@@ -97,12 +99,12 @@ Tangential and centripetal acceleration
 
 The velocity of a particle moving on a curved path as a function of time
 can be written as: 𝐯(t) = v(t) 𝐯(t)/v(t) = v(t) 𝐮_t(t) , with ”v”(”t”) equal to the speed of
-travel along the path, and 𝐮_t = 𝐯(t)/v(t)   , a unit vector tangent to the path
-pointing in the direction of motion at the chosen moment in time. Taking
-into account both the changing speed ”v”(”t”) and the changing
-direction of ”'u”'_”t”, the acceleration of a particle moving on a
-curved path can be written using the chain rule of differentiation for
-the product of two functions of time as:
+travel along the path, and 𝐮_t = 𝐯(t)/v(t)   , a unit vector tangent to the
+path pointing in the direction of motion at the chosen moment in time.
+Taking into account both the changing speed ”v”(”t”) and the
+changing direction of ”'u”'_”t”, the acceleration of a particle
+moving on a curved path can be written using the chain rule of
+differentiation for the product of two functions of time as:
 
 𝐚     = d 𝐯/dt 
 
@@ -149,7 +151,8 @@ where
 
 -   t is the elapsed time,
 -   𝐬_0 is the initial displacement from the origin,
--   𝐬(t) is the displacement from the origin at time t,
+-   𝐬(t) is the displacement from the origin at time
+    t,
 -   𝐯_0 is the initial velocity,
 -   𝐯(t) is the velocity at time t, and
 -   𝐚 is the uniform rate of acceleration.
@@ -179,8 +182,8 @@ thereby rotating the velocity vector along the circle.
     proportional to the radius r of the circle, and increases
     as the square of this speed: a_c = v^2/r .
 -   For a given angular velocity ω, the centripetal
-    acceleration is directly proportional to radius r. This is
-    due to the dependence of velocity v on the radius
+    acceleration is directly proportional to radius r. This
+    is due to the dependence of velocity v on the radius
     r. v = ωr.
 
 Expressing centripetal acceleration vector in polar components, where
@@ -221,12 +224,13 @@ In multi-dimensional Cartesian coordinate systems, acceleration is
 broken up into components that correspond with each dimensional axis of
 the coordinate system. In a two-dimensional system, where there is an
 x-axis and a y-axis, corresponding acceleration components are defined
-asa_x=dv_x/dt=d^2x/dt^2, a_y=dv_y/dt=d^2y/dt^2.The two-dimensional acceleration vector is then
-defined as a=<a_x, a_y>. The magnitude of this vector is found by the
-distance formula as|a|=√(a_x^2+a_y^2).In three-dimensional systems where there
-is an additional z-axis, the corresponding acceleration component is
-defined asa_z=dv_z/dt=d^2z/dt^2.The three-dimensional acceleration vector is
-defined as a=<a_x, a_y, a_z> with its magnitude being determined by|a|=√(a_x^2+a_y^2+a_z^2).
+asa_x=dv_x/dt=d^2x/dt^2, a_y=dv_y/dt=d^2y/dt^2.The two-dimensional acceleration vector is
+then defined as a=<a_x, a_y>. The magnitude of this vector is found by
+the distance formula as|a|=√(a_x^2+a_y^2).In three-dimensional systems where
+there is an additional z-axis, the corresponding acceleration component
+is defined asa_z=dv_z/dt=d^2z/dt^2.The three-dimensional acceleration vector is
+defined as a=<a_x, a_y, a_z> with its magnitude being determined
+by|a|=√(a_x^2+a_y^2+a_z^2).
 
 Relation to relativity
 

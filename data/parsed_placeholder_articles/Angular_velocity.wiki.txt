@@ -1,13 +1,13 @@
-In physics, angular velocity (symbol __MATH_0__ or __MATH_1__, the
+In physics, angular velocity (symbol __MATH_887__ or __MATH_888__, the
 lowercase Greek letter omega), also known as the angular frequency
 vector, is a pseudovector representation of how the angular position or
 orientation of an object changes with time, i.e. how quickly an object
 rotates (spins or revolves) around an axis of rotation and how fast the
 axis itself changes direction.
 
-The magnitude of the pseudovector, __MATH_2__, represents the angular
+The magnitude of the pseudovector, __MATH_889__, represents the angular
 speed (or angular frequency), the angular rate at which the object
-rotates (spins or revolves). The pseudovector direction __MATH_3__ is
+rotates (spins or revolves). The pseudovector direction __MATH_890__ is
 normal to the instantaneous plane of rotation or angular displacement.
 
 There are two types of angular velocity:
@@ -36,9 +36,9 @@ For example, a geostationary satellite completes one orbit per day above
 the equator (360 degrees per 24 hours) has angular velocity magnitude
 (angular speed) ω = 360°/24 h = 15°/h (or 2π rad/24 h ≈ 0.26 rad/h) and
 angular velocity direction (a unit vector) parallel to Earth's rotation
-axis (__MATH_4__, in the geocentric coordinate system). If angle is
+axis (__MATH_891__, in the geocentric coordinate system). If angle is
 measured in radians, the linear velocity is the radius times the angular
-velocity, __MATH_5__. With orbital radius 42,000 km from the Earth's
+velocity, __MATH_892__. With orbital radius 42,000 km from the Earth's
 center, the satellite's tangential speed through space is thus v =
 42,000 km × 0.26/h ≈ 11,000 km/h. The angular velocity is positive since
 the satellite travels prograde with the Earth's rotation (the same
@@ -50,52 +50,52 @@ Orbital angular velocity of a point particle
 
 Particle in two dimensions
 
-In the simplest case of circular motion at radius __MATH_6__, with
-position given by the angular displacement __MATH_7__ from the x-axis,
+In the simplest case of circular motion at radius __MATH_893__, with
+position given by the angular displacement __MATH_894__ from the x-axis,
 the orbital angular velocity is the rate of change of angle with respect
-to time: __MATH_8__. If __MATH_9__ is measured in radians, the
+to time: __MATH_895__. If __MATH_896__ is measured in radians, the
 arc-length from the positive x-axis around the circle to the particle is
-__MATH_10__, and the linear velocity is __MATH_11__, so that
-__MATH_12__.
+__MATH_897__, and the linear velocity is __MATH_898__, so that
+__MATH_899__.
 
 In the general case of a particle moving in the plane, the orbital
 angular velocity is the rate at which the position vector relative to a
 chosen origin "sweeps out" angle. The diagram shows the position vector
-__MATH_13__ from the origin __MATH_14__ to a particle __MATH_15__, with
-its polar coordinates __MATH_16__. (All variables are functions of time
-__MATH_17__.) The particle has linear velocity splitting as __MATH_18__,
-with the radial component __MATH_19__ parallel to the radius, and the
-cross-radial (or tangential) component __MATH_20__ perpendicular to the
-radius. When there is no radial component, the particle moves around the
-origin in a circle; but when there is no cross-radial component, it
-moves in a straight line from the origin. Since radial motion leaves the
-angle unchanged, only the cross-radial component of linear velocity
-contributes to angular velocity.
+__MATH_900__ from the origin __MATH_901__ to a particle __MATH_902__,
+with its polar coordinates __MATH_903__. (All variables are functions of
+time __MATH_904__.) The particle has linear velocity splitting as
+__MATH_905__, with the radial component __MATH_906__ parallel to the
+radius, and the cross-radial (or tangential) component __MATH_907__
+perpendicular to the radius. When there is no radial component, the
+particle moves around the origin in a circle; but when there is no
+cross-radial component, it moves in a straight line from the origin.
+Since radial motion leaves the angle unchanged, only the cross-radial
+component of linear velocity contributes to angular velocity.
 
 The angular velocity ω is the rate of change of angular position with
 respect to time, which can be computed from the cross-radial velocity
 as:
 
-__MATH_21__
+__MATH_908__
 
-Here the cross-radial speed __MATH_22__ is the signed magnitude of
-__MATH_23__, positive for counter-clockwise motion, negative for
-clockwise. Taking polar coordinates for the linear velocity __MATH_24__
-gives magnitude __MATH_25__ (linear speed) and angle __MATH_26__
-relative to the radius vector; in these terms, __MATH_27__, so that
+Here the cross-radial speed __MATH_909__ is the signed magnitude of
+__MATH_910__, positive for counter-clockwise motion, negative for
+clockwise. Taking polar coordinates for the linear velocity __MATH_911__
+gives magnitude __MATH_912__ (linear speed) and angle __MATH_913__
+relative to the radius vector; in these terms, __MATH_914__, so that
 
-__MATH_28__
+__MATH_915__
 
-These formulas may be derived doing __MATH_29__, being __MATH_30__ a
+These formulas may be derived doing __MATH_916__, being __MATH_917__ a
 function of the distance to the origin with respect to time, and
-__MATH_31__ a function of the angle between the vector and the x axis.
-Then: __MATH_32__ which is equal to: __MATH_33__ (see Unit vector in
+__MATH_918__ a function of the angle between the vector and the x axis.
+Then: __MATH_919__ which is equal to: __MATH_920__ (see Unit vector in
 cylindrical coordinates).
 
-Knowing __MATH_34__, we conclude that the radial component of the
-velocity is given by __MATH_35__, because __MATH_36__ is a radial unit
-vector; and the perpendicular component is given by __MATH_37__ because
-__MATH_38__ is a perpendicular unit vector.
+Knowing __MATH_921__, we conclude that the radial component of the
+velocity is given by __MATH_922__, because __MATH_923__ is a radial unit
+vector; and the perpendicular component is given by __MATH_924__ because
+__MATH_925__ is a perpendicular unit vector.
 
 In two dimensions, angular velocity is a number with plus or minus sign
 indicating orientation, but not pointing in a direction. The sign is
@@ -116,23 +116,23 @@ However, as there are two directions perpendicular to any plane, an
 additional condition is necessary to uniquely specify the direction of
 the angular velocity; conventionally, the right-hand rule is used.
 
-Let the pseudovector __MATH_39__ be the unit vector perpendicular to the
-plane spanned by r and v, so that the right-hand rule is satisfied (i.e.
-the instantaneous direction of angular displacement is counter-clockwise
-looking from the top of __MATH_40__). Taking polar coordinates
-__MATH_41__ in this plane, as in the two-dimensional case above, one may
-define the orbital angular velocity vector as:
+Let the pseudovector __MATH_926__ be the unit vector perpendicular to
+the plane spanned by r and v, so that the right-hand rule is satisfied
+(i.e. the instantaneous direction of angular displacement is
+counter-clockwise looking from the top of __MATH_927__). Taking polar
+coordinates __MATH_928__ in this plane, as in the two-dimensional case
+above, one may define the orbital angular velocity vector as:
 
-    __MATH_42__
+    __MATH_929__
 
 where θ is the angle between r and v. In terms of the cross product,
 this is:
 
-    __MATH_43__
+    __MATH_930__
 
 From the above equation, one can recover the tangential velocity as:
 
-    __MATH_44__
+    __MATH_931__
 
 Spin angular velocity of a rigid body or reference frame 
 
@@ -166,33 +166,33 @@ the usual vector addition (composition of linear movements), and can be
 useful to decompose the rotation as in a gimbal. All components of the
 vector can be calculated as derivatives of the parameters defining the
 moving frames (Euler angles or rotation matrices). As in the general
-case, addition is commutative: __MATH_45__.
+case, addition is commutative: __MATH_932__.
 
-If we choose a reference point __MATH_46__ fixed in a rotating frame,
-the velocity __MATH_47__ of any point in the frame is given by
+If we choose a reference point __MATH_933__ fixed in a rotating frame,
+the velocity __MATH_934__ of any point in the frame is given by
 
-    __MATH_48__
+    __MATH_935__
 
 Components from the basis vectors of a body-fixed frame
 
 Consider a rigid body rotating about a fixed point O. Construct a
 reference frame in the body consisting of an orthonormal set of vectors
-__MATH_49__ fixed to the body and with their common origin at O. The
+__MATH_936__ fixed to the body and with their common origin at O. The
 spin angular velocity vector of both frame and body about O is then
 
-    __MATH_50__
+    __MATH_937__
 
-where __MATH_51__ is the time rate of change of the frame vector
-__MATH_52__ due to the rotation.
+where __MATH_938__ is the time rate of change of the frame vector
+__MATH_939__ due to the rotation.
 
 This formula is incompatible with the expression for orbital angular
 velocity
 
-    __MATH_53__
+    __MATH_940__
 
 as that formula defines angular velocity for a single point about O,
 while the formula in this section applies to a frame or rigid body. In
-the case of a rigid body a single __MATH_54__ has to account for the
+the case of a rigid body a single __MATH_941__ has to account for the
 motion of all particles in the body.
 
 Components from Euler angles
@@ -211,14 +211,14 @@ on each of these three axes is the derivative of its associated angle
 (which is equivalent to decomposing the instantaneous rotation into
 three instantaneous Euler rotations). Therefore:
 
-    __MATH_55__
+    __MATH_942__
 
 This basis is not orthonormal and it is difficult to use, but now the
 velocity vector can be changed to the fixed frame or to the moving frame
 with just a change of bases. For example, changing to the mobile frame:
 
-    __MATH_56__
+    __MATH_943__
 
-where __MATH_57__ are unit vectors for the frame fixed in the moving
+where __MATH_944__ are unit vectors for the frame fixed in the moving
 body. This example has been made using the Z-X-Z convention for Euler
 angles.

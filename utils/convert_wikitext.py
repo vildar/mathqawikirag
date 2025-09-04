@@ -1,9 +1,14 @@
 import os
 import subprocess
-from pylatexenc.latex2text import LatexNodes2Text
+from pylatexenc.latex2text import MacroTextSpec
+from pylatexenc import latex2text
 import re
 import mwparserfromhell
+import json
 
+GLOBAL_MATH_COUNTER = 0
+GLOBAL_MATH_MAP = {}
+GLOBAL_MATH_JSON_PATH = "data/math_blocks.json"
 INPUT_FOLDER = "data/cleaned_articles/"
 OUTPUT_FOLDER = "data/plaintext_articles/"
 PLACEHOLDER_FOLDER = "data/placeholder_articles/"
@@ -52,6 +57,29 @@ TEMPLATE_LATEX_MAP = {
     "italic": r"\mathit{{{content}}}"
 }
 
+# Custom macro because it was struggling to figure out how to deal with \\frac
+
+
+def frac_macro_repl(n, l2tobj):
+    """
+    n: node representing \frac
+    l2tobj: LatexNodes2Text instance
+    """
+    args = [l2tobj.nodelist_to_text([arg]) for arg in n.nodeargd.argnlist]
+    return f"({args[0]})/({args[1]})"
+
+
+l2t_context_db = latex2text.get_default_latex_context_db()
+l2t_context_db.add_context_category(
+    'my-fractions',
+    macros=[
+        MacroTextSpec('frac', simplify_repl=frac_macro_repl)
+    ]
+)
+
+# Create the converter using the custom context
+latex_converter = latex2text.LatexNodes2Text(latex_context=l2t_context_db)
+
 
 def flatten_multiline_environments(latex_expr: str) -> str:
     for env in MATH_ENVIRONMENTS:
@@ -68,7 +96,7 @@ def flatten_multiline_environments(latex_expr: str) -> str:
 
 def convert_latex_to_text(latex_expr: str) -> str:
     latex_expr = flatten_multiline_environments(latex_expr)
-    return LatexNodes2Text().latex_to_text(latex_expr).strip()
+    return latex_converter.latex_to_text(latex_expr).strip()
 
 
 def template_to_latex(template, prev_text=""):
@@ -133,29 +161,33 @@ def template_to_latex(template, prev_text=""):
     return latex
 
 
-def extract_math_blocks(text):
+def extract_math_blocks(text, start_index):
     wikicode = mwparserfromhell.parse(text)
-    math_blocks = []
+    index_counter = start_index  # start from the given index
 
     def process_nodes(wikicode_obj):
-        for node in list(wikicode_obj.nodes):  # iterate over a copy
+        nonlocal index_counter
+        for node in list(wikicode_obj.nodes):
             if isinstance(node, mwparserfromhell.nodes.Tag) and node.tag.lower() == 'math':
-                index = len(math_blocks)
-                math_blocks.append(str(node.contents).strip())
-                wikicode_obj.replace(node, f"__MATH_{index}__")
+                placeholder = f"__MATH_{index_counter}__"
+                readable = convert_latex_to_text(str(node.contents).strip())
+                GLOBAL_MATH_MAP[placeholder] = readable
+                wikicode_obj.replace(node, placeholder)
+                index_counter += 1
             elif isinstance(node, mwparserfromhell.nodes.Template):
                 name = str(node.name).strip().lower()
                 if name in ALLOWED_TEMPLATES:
-                    index = len(math_blocks)
                     latex_content = template_to_latex(node)
-                    math_blocks.append(latex_content)
-                    wikicode_obj.replace(node, f"__MATH_{index}__")
-            # Recurse if node has child Wikicode
+                    readable = convert_latex_to_text(latex_content)
+                    placeholder = f"__MATH_{index_counter}__"
+                    GLOBAL_MATH_MAP[placeholder] = readable
+                    wikicode_obj.replace(node, placeholder)
+                    index_counter += 1
             if hasattr(node, 'contents') and isinstance(node.contents, mwparserfromhell.wikicode.Wikicode):
                 process_nodes(node.contents)
 
     process_nodes(wikicode)
-    return str(wikicode), math_blocks
+    return str(wikicode), index_counter
 
 
 def pandoc_convert_to_plaintext(input_path, output_path):
@@ -169,17 +201,23 @@ def pandoc_convert_to_plaintext(input_path, output_path):
 
 
 def process_file(filepath):
+    global GLOBAL_MATH_COUNTER
+
     print(f"Processing {filepath}")
     with open(filepath, 'r', encoding='utf-8') as f:
         original_text = f.read()
 
-    text_with_placeholders, math_blocks = extract_math_blocks(original_text)
+    # Replace math with placeholders and update global map
+    text_with_placeholders, GLOBAL_MATH_COUNTER = extract_math_blocks(
+        original_text, GLOBAL_MATH_COUNTER)
 
+    # Save no-math placeholder file (optional)
     placeholder_path = os.path.join(
         PLACEHOLDER_FOLDER, os.path.basename(filepath) + ".nomath")
     with open(placeholder_path, 'w', encoding='utf-8') as f:
         f.write(text_with_placeholders)
 
+    # Convert placeholder text to plain text via pandoc
     plaintext_path = os.path.join(
         PARSED_PLACEHOLDER_FOLDER, os.path.basename(filepath) + ".txt")
     pandoc_convert_to_plaintext(placeholder_path, plaintext_path)
@@ -187,9 +225,10 @@ def process_file(filepath):
     with open(plaintext_path, 'r', encoding='utf-8') as f:
         plain_text = f.read()
 
-    converted_blocks = [convert_latex_to_text(m) for m in math_blocks]
-    for i, conv in enumerate(converted_blocks):
-        plain_text = plain_text.replace(f"__MATH_{i}__", conv)
+    # Replace global math placeholders with converted text
+    for placeholder, latex in GLOBAL_MATH_MAP.items():
+        plain_text = plain_text.replace(
+            placeholder, convert_latex_to_text(latex))
 
     final_output_path = os.path.join(
         OUTPUT_FOLDER, os.path.basename(filepath) + ".txt")
@@ -203,6 +242,11 @@ def main():
     for filename in os.listdir(INPUT_FOLDER):
         if filename.endswith(".wiki"):
             process_file(os.path.join(INPUT_FOLDER, filename))
+
+    # Save the global math map to a single JSON file
+    with open(GLOBAL_MATH_JSON_PATH, 'w', encoding='utf-8') as f:
+        json.dump(GLOBAL_MATH_MAP, f, indent=2, ensure_ascii=False)
+    print(f"\nSaved global math block map to {GLOBAL_MATH_JSON_PATH}")
 
 
 if __name__ == "__main__":

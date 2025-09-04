@@ -14,22 +14,22 @@ Definition
 Average velocity
 
 The average velocity of an object over a period of time is its change in
-position, __MATH_0__, divided by the duration of the period, __MATH_1__,
-given mathematically as__MATH_2__
+position, __MATH_385__, divided by the duration of the period,
+__MATH_386__, given mathematically as__MATH_387__
 
 Instantaneous velocity
 
 The instantaneous velocity of an object is the limit average velocity as
-the time interval approaches zero. At any particular time __MATH_3__, it
-can be calculated as the derivative of the position with respect to
-time: __MATH_4__
+the time interval approaches zero. At any particular time __MATH_388__,
+it can be calculated as the derivative of the position with respect to
+time: __MATH_389__
 
 From this derivative equation, in the one-dimensional case it can be
-seen that the area under a velocity vs. time (__MATH_5__ vs. __MATH_6__
-graph) is the displacement, __MATH_7__. In calculus terms, the integral
-of the velocity function __MATH_8__ is the displacement function
-__MATH_9__. In the figure, this corresponds to the yellow area under the
-curve. __MATH_10__
+seen that the area under a velocity vs. time (__MATH_390__ vs.
+__MATH_391__ graph) is the displacement, __MATH_392__. In calculus
+terms, the integral of the velocity function __MATH_393__ is the
+displacement function __MATH_394__. In the figure, this corresponds to
+the yellow area under the curve. __MATH_395__
 
 Although the concept of an instantaneous velocity might at first seem
 counter-intuitive, it may be thought of as the velocity that the object
@@ -69,21 +69,21 @@ emphasize the distinction from the average velocity. In some
 applications the average velocity of an object might be needed, that is
 to say, the constant velocity that would provide the same resultant
 displacement as a variable velocity in the same time interval,
-__MATH_11__, over some time period __MATH_12__. Average velocity can be
-calculated as:
+__MATH_396__, over some time period __MATH_397__. Average velocity can
+be calculated as:
 
-    __MATH_13__
+    __MATH_398__
 
 The average velocity is always less than or equal to the average speed
 of an object. This can be seen by realizing that while distance is
 always strictly increasing, displacement can increase or decrease in
 magnitude as well as change direction.
 
-In terms of a displacement-time (__MATH_14__ vs. __MATH_15__) graph, the
-instantaneous velocity (or, simply, velocity) can be thought of as the
-slope of the tangent line to the curve at any point, and the average
+In terms of a displacement-time (__MATH_399__ vs. __MATH_400__) graph,
+the instantaneous velocity (or, simply, velocity) can be thought of as
+the slope of the tangent line to the curve at any point, and the average
 velocity as the slope of the secant line between two points with
-__MATH_16__ coordinates equal to the boundaries of the time period for
+__MATH_401__ coordinates equal to the boundaries of the time period for
 the average velocity.
 
 Special cases
@@ -91,17 +91,17 @@ Special cases
 -   When a particle moves with different uniform speeds v₁, v₂, v₃, ...,
     v_(n) in different time intervals t₁, t₂, t₃, ..., t_(n)
     respectively, then average speed over the total time of journey is
-    given as __MATH_17__
+    given as __MATH_402__
 
-If __MATH_18__, then average speed is given by the arithmetic mean of
-the speeds __MATH_19__
+If __MATH_403__, then average speed is given by the arithmetic mean of
+the speeds __MATH_404__
 
 -   When a particle moves different distances s₁, s₂, s₃,..., s_(n) with
     speeds v₁, v₂, v₃,..., v_(n) respectively, then the average speed of
     the particle over the total distance is given as
 
-__MATH_20__ If __MATH_21__, then average speed is given by the harmonic
-mean of the speeds __MATH_22__
+__MATH_405__ If __MATH_406__, then average speed is given by the
+harmonic mean of the speeds __MATH_407__
 
 Relationship to acceleration
 
@@ -109,27 +109,27 @@ Although velocity is defined as the rate of change of position, it is
 often common to start with an expression for an object's acceleration.
 As seen by the three green tangent lines in the figure, an object's
 instantaneous acceleration at a point in time is the slope of the line
-tangent to the curve of a __MATH_23__ graph at that point. In other
+tangent to the curve of a __MATH_408__ graph at that point. In other
 words, instantaneous acceleration is defined as the derivative of
-velocity with respect to time: __MATH_24__
+velocity with respect to time: __MATH_409__
 
-From there, velocity is expressed as the area under an __MATH_25__
+From there, velocity is expressed as the area under an __MATH_410__
 acceleration vs. time graph. As above, this is done using the concept of
 the integral:
 
-__MATH_26__
+__MATH_411__
 
 Constant acceleration
 
 In the special case of constant acceleration, velocity can be studied
 using the suvat equations. By considering a as being equal to some
-arbitrary constant vector, this shows __MATH_27__ with __MATH_28__ as
-the velocity at time __MATH_29__ and __MATH_30__ as the velocity at time
-__MATH_31__. By combining this equation with the suvat equation
-__MATH_32__, it is possible to relate the displacement and the average
-velocity by __MATH_33__ It is also possible to derive an expression for
+arbitrary constant vector, this shows __MATH_412__ with __MATH_413__ as
+the velocity at time __MATH_414__ and __MATH_415__ as the velocity at
+time __MATH_416__. By combining this equation with the suvat equation
+__MATH_417__, it is possible to relate the displacement and the average
+velocity by __MATH_418__ It is also possible to derive an expression for
 the velocity independent of time, known as the Torricelli equation, as
-follows: __MATH_34__ __MATH_35__ __MATH_36__ where __MATH_37__ etc.
+follows: __MATH_419__ __MATH_420__ __MATH_421__ where __MATH_422__ etc.
 
 The above equations are valid for both Newtonian mechanics and special
 relativity. Where Newtonian mechanics and special relativity differ is
@@ -146,12 +146,12 @@ Momentum
 
 In classical mechanics, Newton's second law defines momentum, p, as a
 vector that is the product of an object's mass and velocity, given
-mathematically as__MATH_38__where m is the mass of the object.
+mathematically as__MATH_423__where m is the mass of the object.
 
 Kinetic energy
 
 The kinetic energy of a moving object is dependent on its velocity and
-is given by the equation__MATH_39__where E_(k) is the kinetic energy.
+is given by the equation__MATH_424__where E_(k) is the kinetic energy.
 Kinetic energy is a scalar quantity as it depends on the square of the
 velocity.
 
@@ -159,13 +159,13 @@ Drag (fluid resistance)
 
 In fluid dynamics, drag is a force acting opposite to the relative
 motion of any object moving with respect to a surrounding fluid. The
-drag force, __MATH_40__, is dependent on the square of velocity and is
-given as__MATH_41__where
+drag force, __MATH_425__, is dependent on the square of velocity and is
+given as__MATH_426__where
 
--   __MATH_42__ is the density of the fluid,
--   __MATH_43__ is the speed of the object relative to the fluid,
--   __MATH_44__ is the cross sectional area, and
--   __MATH_45__ is the drag coefficient – a dimensionless number.
+-   __MATH_427__ is the density of the fluid,
+-   __MATH_428__ is the speed of the object relative to the fluid,
+-   __MATH_429__ is the cross sectional area, and
+-   __MATH_430__ is the drag coefficient – a dimensionless number.
 
 Escape velocity
 
@@ -174,7 +174,7 @@ from a massive body such as Earth. It represents the kinetic energy
 that, when added to the object's gravitational potential energy (which
 is always negative), is equal to zero. The general formula for the
 escape velocity of an object at a distance r from the center of a planet
-with mass M is__MATH_46__where G is the gravitational constant and g is
+with mass M is__MATH_431__where G is the gravitational constant and g is
 the gravitational acceleration. The escape velocity from Earth's surface
 is about 11 200 m/s, and is irrespective of the direction of the object.
 This makes "escape velocity" somewhat of a misnomer, as the more correct
@@ -185,7 +185,7 @@ base body as long as it does not intersect with something in its path.
 The Lorentz factor of special relativity
 
 In special relativity, the dimensionless Lorentz factor appears
-frequently, and is given by__MATH_47__where γ is the Lorentz factor and
+frequently, and is given by__MATH_432__where γ is the Lorentz factor and
 c is the speed of light.
 
 Relative velocity
@@ -198,9 +198,9 @@ physics deal with the relative motion of two or more particles.
 Consider an object A moving with velocity vector v and an object B with
 velocity vector w; these absolute velocities are typically expressed in
 the same inertial reference frame. Then, the velocity of object A object
-B is defined as the difference of the two velocity vectors: __MATH_48__
+B is defined as the difference of the two velocity vectors: __MATH_433__
 Similarly, the relative velocity of object B moving with velocity w'',
-relative to object A moving with velocityv'' is: __MATH_49__ Usually,
+relative to object A moving with velocityv'' is: __MATH_434__ Usually,
 the inertial frame chosen is that in which the latter of the two
 mentioned objects is in rest.
 
@@ -212,8 +212,8 @@ frame.
 Scalar velocities
 
 In the one-dimensional case, the velocities are scalars and the equation
-is either: __MATH_50__ if the two objects are moving in opposite
-directions, or: __MATH_51__ if the two objects are moving in the same
+is either: __MATH_435__ if the two objects are moving in opposite
+directions, or: __MATH_436__ if the two objects are moving in the same
 direction.
 
 Coordinate systems
@@ -225,29 +225,29 @@ into components that correspond with each dimensional axis of the
 coordinate system. In a two-dimensional system, where there is an x-axis
 and a y-axis, corresponding velocity components are defined as
 
-__MATH_52__
+__MATH_437__
 
-__MATH_53__
+__MATH_438__
 
-The two-dimensional velocity vector is then defined as __MATH_54__. The
+The two-dimensional velocity vector is then defined as __MATH_439__. The
 magnitude of this vector represents speed and is found by the distance
 formula as
 
-__MATH_55__
+__MATH_440__
 
 In three-dimensional systems where there is an additional z-axis, the
 corresponding velocity component is defined as
 
-__MATH_56__
+__MATH_441__
 
-The three-dimensional velocity vector is defined as __MATH_57__ with its
-magnitude also representing speed and being determined by
+The three-dimensional velocity vector is defined as __MATH_442__ with
+its magnitude also representing speed and being determined by
 
-__MATH_58__
+__MATH_443__
 
 While some textbooks use subscript notation to define Cartesian
-components of velocity, others use __MATH_59__, __MATH_60__, and
-__MATH_61__ for the __MATH_62__-, __MATH_63__-, and __MATH_64__-axes
+components of velocity, others use __MATH_444__, __MATH_445__, and
+__MATH_446__ for the __MATH_447__-, __MATH_448__-, and __MATH_449__-axes
 respectively.
 
 Polar coordinates
@@ -263,34 +263,34 @@ clockwise rotation, in a right-handed coordinate system).
 The radial and traverse velocities can be derived from the Cartesian
 velocity and displacement vectors by decomposing the velocity vector
 into radial and transverse components. The transverse velocity is the
-component of velocity along a circle centered at the origin. __MATH_65__
-where
+component of velocity along a circle centered at the origin.
+__MATH_450__ where
 
--   __MATH_66__ is the transverse velocity
--   __MATH_67__ is the radial velocity.
+-   __MATH_451__ is the transverse velocity
+-   __MATH_452__ is the radial velocity.
 
 The radial speed (or magnitude of the radial velocity) is the dot
 product of the velocity vector and the unit vector in the radial
-direction. __MATH_68__ where __MATH_69__ is position and __MATH_70__ is
-the radial direction.
+direction. __MATH_453__ where __MATH_454__ is position and __MATH_455__
+is the radial direction.
 
 The transverse speed (or magnitude of the transverse velocity) is the
 magnitude of the cross product of the unit vector in the radial
 direction and the velocity vector. It is also the dot product of
 velocity and transverse direction, or the product of the angular speed
-__MATH_71__ and the radius (the magnitude of the position). __MATH_72__
-such that __MATH_73__
+__MATH_456__ and the radius (the magnitude of the position).
+__MATH_457__ such that __MATH_458__
 
 Angular momentum in scalar form is the mass times the distance to the
 origin times the transverse velocity, or equivalently, the mass times
 the distance squared times the angular speed. The sign convention for
-angular momentum is the same as that for angular velocity. __MATH_74__
+angular momentum is the same as that for angular velocity. __MATH_459__
 where
 
--   __MATH_75__ is mass
--   __MATH_76__
+-   __MATH_460__ is mass
+-   __MATH_461__
 
-The expression __MATH_77__ is known as moment of inertia. If forces are
+The expression __MATH_462__ is known as moment of inertia. If forces are
 in the radial direction only with an inverse square dependence, as in
 the case of a gravitational orbit, angular momentum is constant, and
 transverse speed is inversely proportional to the distance, angular
