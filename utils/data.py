@@ -150,10 +150,14 @@ def merge_continuation_paragraphs(paragraphs: List[str]) -> List[str]:
 
 def load_documents_as_chunks(
     articles_dir: str,
+    math_json_path: str,
     chunk_size: int = 8,
     chunk_overlap: int = 2,
     save_path: str = "chunks.json"
 ) -> Tuple[List[str], List[str]]:
+    with open(math_json_path, "r", encoding="utf-8") as f:
+        math_map = json.load(f)
+
     all_chunks = []
     all_ids = []
     all_metadata = []
@@ -166,6 +170,10 @@ def load_documents_as_chunks(
 
         with open(os.path.join(articles_dir, filename), "r", encoding="utf-8") as f:
             raw_text = f.read()
+
+        # Replace placeholders with readable math before splitting
+        for placeholder, formula in math_map.items():
+            raw_text = raw_text.replace(placeholder, formula)
 
         paragraphs = [p for p in raw_text.split('\n\n') if p.strip()]
         paragraphs = merge_continuation_paragraphs(paragraphs)
@@ -199,5 +207,5 @@ def load_documents_as_chunks(
 
 if __name__ == "__main__":
     load_documents_as_chunks(
-        articles_dir="data/parsed_placeholder_articles", save_path="data/chunks.json"
+        articles_dir="data/parsed_placeholder_articles", math_json_path="data/math_blocks.json", save_path="data/chunks.json"
     )
