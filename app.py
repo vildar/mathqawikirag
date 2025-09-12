@@ -1,9 +1,12 @@
 import streamlit as st
-from utils import embed_documents, embed_queries, compute_similarity, evaluate_retrieval, load_documents_as_chunks, index_in_chromadb, display_chromadb_contents, Constants, load_chunks, save_chunks, clean_latex, generate_prompt
+from utils import embed_documents, embed_queries, compute_similarity, evaluate_retrieval, load_documents_as_chunks, index_in_chromadb, Constants, load_chunks, save_chunks, clean_latex, generate_prompt
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import requests
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.set_page_config(layout="wide")
 st.title("MathQA RAG")
@@ -16,9 +19,12 @@ with st.spinner("Chunking and embedding wikipedia articles..."):
         Constants.VECTOR_CHUNKS)
     if chunk_texts is None or chunk_doc_ids is None or vectors_cache is None:
         chunk_texts, chunk_doc_ids = load_documents_as_chunks(
-            Constants.ARTICLES_DIR)
+            articles_dir="data/parsed_placeholder_articles", math_json_path="data/math_blocks.json", save_path="data/chunks.json"
+        )
+        print("Here after chunks created")
         vectors_cache = embed_documents(
             Constants.EMBEDDERS[Constants.MPNET], chunk_texts)
+        print("POST embed")
         save_chunks(chunk_texts, chunk_doc_ids,
                     vectors_cache, Constants.VECTOR_CHUNKS)
     st.success(f"{len(chunk_texts)} chunks loaded from 25 Wikipedia articles.")

@@ -1,6 +1,8 @@
 import os
 import json
 import re
+import pickle
+import streamlit as st
 from typing import List, Tuple
 
 
@@ -148,6 +150,7 @@ def merge_continuation_paragraphs(paragraphs: List[str]) -> List[str]:
     return merged
 
 
+@st.cache_data
 def load_documents_as_chunks(
     articles_dir: str,
     math_json_path: str,
@@ -205,7 +208,32 @@ def load_documents_as_chunks(
     return all_chunks, all_ids
 
 
-if __name__ == "__main__":
-    load_documents_as_chunks(
-        articles_dir="data/parsed_placeholder_articles", math_json_path="data/math_blocks.json", save_path="data/chunks.json"
-    )
+def save_chunks(chunk_texts, chunk_doc_ids, embeddings, path):
+    with open(path, "wb") as f:
+        pickle.dump((chunk_texts, chunk_doc_ids, embeddings), f)
+
+
+def load_chunks(path):
+    if os.path.exists(path):
+        with open(path, "rb") as f:
+            return pickle.load(f)
+    return None, None, None
+
+
+def clean_latex(ans):
+    return ans.strip().removeprefix("$$").removeprefix("$").removesuffix("$$").removesuffix("$").strip()
+
+
+def generate_prompt(query, chunk):
+    return f"""
+        You are a mathematics expert. Given the following user query and context passages, extract or derive the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
+
+        ### User Query:
+        {query}
+
+        ### Contexts:
+        {chunk}
+
+        ### Instructions:
+        - Respond ONLY with the formula (in LaTeX if possible), no explanation.
+        """

@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 class Constants:
     # DIRECTORIES
     ARTICLES_DIR = "wikipedia_articles/"
+    CHUNKS_PATH = "data/chunks.json"
     VECTOR_CHUNKS = "data/chunks.pkl"
 
     # EVALUATION
