@@ -1,0 +1,380 @@
+[
+  {
+    "article_id": "Centrifugal_force.wiki.txt",
+    "formulas": [
+      { "name": "Radial acceleration", "formula": "a = d^2r/dt^2" },
+      {
+        "name": "General acceleration in rotating frame",
+        "formula": "a = d^2r/dt^2 = d/dt(dr/dt + ω×r) = d^2r/dt^2 + ω×dr/dt + dω/dt×r + ω×(dr/dt + ω×r) = d^2r/dt^2 + dω/dt×r + 2ω×dr/dt + ω×(ω×r)"
+      },
+      {
+        "name": "Second derivative of position vector",
+        "formula": "[d^2r/dt^2]"
+      },
+      { "name": "Acceleration vector form", "formula": "d^2r/dt^2" }
+    ]
+  },
+  {
+    "article_id": "Angular_velocity.wiki.txt",
+    "formulas": [
+      { "name": "Tangential velocity", "formula": "v(t) = dℓ/dt = rω(t)" },
+      {
+        "name": "Perpendicular velocity component",
+        "formula": "v_⊥ = v sin(θ)"
+      },
+      {
+        "name": "Angular velocity from velocity relation",
+        "formula": "ω = v sin(θ)/r"
+      },
+      {
+        "name": "Polar coordinate position vector",
+        "formula": "r = (r cos(φ), r sin(φ))"
+      }
+    ]
+  },
+  {
+    "article_id": "Frequency.wiki.txt",
+    "formulas": [
+      {
+        "name": "Simple harmonic oscillation",
+        "formula": "y(t) = sin θ(t) = sin(ωt) = sin(2πft)"
+      },
+      { "name": "Traveling wave equation", "formula": "y(t,x) = sin(ωt + kx)" },
+      { "name": "Frequency resolution", "formula": "Δf = 1/(2T_m)" },
+      { "name": "Frequency-period relation", "formula": "f = 1/T" }
+    ]
+  },
+  {
+    "article_id": "Work_(physics).wiki.txt",
+    "formulas": [
+      {
+        "name": "Work as force-displacement product",
+        "formula": "W = Fs = (10 N)(2 m) = 20 J"
+      },
+      { "name": "Work with angular dependence", "formula": "W = F cos(θ) s" },
+      {
+        "name": "Work as integral of power",
+        "formula": "W = ∫ F(t)·v(t) dt = ∫ P(t) dt"
+      },
+      { "name": "Work done by torque", "formula": "W = ∫ τ φ̇ dt = τ(φ₂ - φ₁)" }
+    ]
+  },
+  {
+    "article_id": "Coriolis_force.wiki.txt",
+    "formulas": [
+      {
+        "name": "Equation of motion in rotating frame",
+        "formula": "F' = F - m dω/dt × r' - 2m ω×v' - m ω×(ω×r') = ma'"
+      },
+      { "name": "Coriolis force", "formula": "F_c = -2m (ω×v')" },
+      { "name": "Centrifugal force", "formula": "F_cf = -m ω×(ω×r')" },
+      { "name": "No rotation condition", "formula": "(ω = 0)" }
+    ]
+  },
+  {
+    "article_id": "Angular_frequency.wiki.txt",
+    "formulas": [
+      {
+        "name": "Angular frequency of spring-mass oscillator",
+        "formula": "ω = √(k/m)"
+      },
+      {
+        "name": "Oscillator acceleration relation",
+        "formula": "a = -(2πf)^2 x"
+      },
+      { "name": "Angular frequency of LC circuit", "formula": "ω = √(1/LC)" },
+      { "name": "Angular frequency in circular motion", "formula": "ω = v/r" }
+    ]
+  },
+  {
+    "article_id": "Acceleration.wiki.txt",
+    "formulas": [
+      {
+        "name": "Velocity vector decomposition",
+        "formula": "v(t) = v(t) e_t(t)"
+      },
+      { "name": "Unit tangent vector", "formula": "e_t = v(t)/|v(t)|" },
+      {
+        "name": "Acceleration decomposition into tangential and normal components",
+        "formula": "a = dv/dt e_t + v^2/r e_n"
+      },
+      {
+        "name": "Kinematic equations of motion",
+        "formula": "r(t) = r₀ + v₀t + ½at² ; v(t) = v₀ + at ; v²(t) = v₀² + 2a·(r - r₀)"
+      }
+    ]
+  },
+  {
+    "article_id": "Center_of_mass.wiki.txt",
+    "formulas": [
+      {
+        "name": "Discrete center of mass condition",
+        "formula": "Σ m_i(r_i - R) = 0"
+      },
+      {
+        "name": "Continuous center of mass condition",
+        "formula": "∭ ρ(r)(r - R) dV = 0"
+      },
+      {
+        "name": "Center of mass position vector",
+        "formula": "R = (1/M) ∭ ρ(r) r dV"
+      },
+      { "name": "Gravitational force density", "formula": "f(r) = -ρ(r) g ê_z" }
+    ]
+  },
+  {
+    "article_id": "Circular_motion.wiki.txt",
+    "formulas": [
+      {
+        "name": "Centripetal acceleration in vector form",
+        "formula": "a = ω×v = ω×(ω×r)"
+      },
+      {
+        "name": "Position vector in polar coordinates",
+        "formula": "r(t) = R u_R(t)"
+      },
+      { "name": "Radial unit vector", "formula": "u_R(t)" },
+      { "name": "Radial unit vector (repeated)", "formula": "u_R(t)" }
+    ]
+  },
+  {
+    "article_id": "Moment_of_inertia.wiki.txt",
+    "formulas": [
+      {
+        "name": "Torque-angular acceleration relation",
+        "formula": "τ = r×F = r×(m α×r) = I α ê"
+      },
+      {
+        "name": "Angular momentum relation",
+        "formula": "L = r×p = r×(m ω×r) = I ω ê"
+      },
+      { "name": "Rotational kinetic energy", "formula": "E_K = ½ I ω²" },
+      {
+        "name": "Natural frequency of physical pendulum",
+        "formula": "ω_n = √(mg r/I_P)"
+      }
+    ]
+  },
+  {
+    "article_id": "Velocity.wiki.txt",
+    "formulas": [
+      {
+        "name": "Average velocity (integral form)",
+        "formula": "v̄ = Δr/Δt = ∫ v(t) dt / (t₁ - t₀)"
+      },
+      {
+        "name": "Harmonic mean velocity (path dependent)",
+        "formula": "v̄ = (s₁ + s₂ + … + s_n) / (t₁ + t₂ + … + t_n)"
+      },
+      {
+        "name": "Harmonic mean of velocities",
+        "formula": "v̄ = n / (Σ (1/v_i))"
+      },
+      {
+        "name": "Equation of uniformly accelerated motion",
+        "formula": "x = (u + v)/2 t = v̄ t"
+      }
+    ]
+  },
+  {
+    "article_id": "Newton's_laws_of_motion.wiki.txt",
+    "formulas": [
+      { "name": "Displacement as function of time", "formula": "s(t)" },
+      {
+        "name": "Average velocity definition",
+        "formula": "Δs/Δt = (s(t₁) - s(t₀))/(t₁ - t₀)"
+      },
+      { "name": "General force function", "formula": "f(t)" },
+      { "name": "Limit of a function", "formula": "lim (t→t₀) f(t) = L" }
+    ]
+  },
+  {
+    "article_id": "Angular_acceleration.wiki.txt",
+    "formulas": [
+      {
+        "name": "Angular acceleration from tangential velocity",
+        "formula": "α = d/dt (v_⊥/r)"
+      },
+      {
+        "name": "Angular acceleration from position and velocity vectors",
+        "formula": "α = d/dt (r×v / r²)"
+      },
+      {
+        "name": "General angular acceleration expression",
+        "formula": "α = (r×a)/r² - 2(dr/dt)(r×v)/r³"
+      },
+      {
+        "name": "Torque-angular acceleration relation",
+        "formula": "τ = m(r×a) = I α"
+      }
+    ]
+  },
+  {
+    "article_id": "Centripetal_force.wiki.txt",
+    "formulas": [
+      { "name": "Centripetal force", "formula": "F_c = m r (2π/T)²" },
+      { "name": "Lorentz factor", "formula": "γ = 1/√(1 - v²/c²)" },
+      {
+        "name": "Position in Cartesian coordinates",
+        "formula": "r = r cos(θ) x + r sin(θ) y"
+      },
+      {
+        "name": "Position in Cartesian coordinates with time",
+        "formula": "r = r cos(ωt) x + r sin(ωt) y"
+      }
+    ]
+  },
+  {
+    "article_id": "Jerk_(physics).wiki.txt",
+    "formulas": [
+      {
+        "name": "Jerk definition",
+        "formula": "j(t) = da(t)/dt = d²v(t)/dt² = d³r(t)/dt³"
+      },
+      { "name": "Constraint condition", "formula": "J(...x, ẍ, …) = 0" },
+      {
+        "name": "Angular velocity definition",
+        "formula": "ω(t) = θ̇(t) = dθ(t)/dt"
+      },
+      {
+        "name": "Angular acceleration definition",
+        "formula": "α(t) = ω̇(t) = dω(t)/dt"
+      }
+    ]
+  },
+  {
+    "article_id": "Mass.wiki.txt",
+    "formulas": [
+      { "name": "Kinetic energy", "formula": "K = ½ m |v|²" },
+      { "name": "Relativistic mass", "formula": "m_relative = γ m_rest" },
+      { "name": "Lorentz factor", "formula": "γ = 1/√(1 - v²/c²)" },
+      {
+        "name": "Relativistic energy-momentum relation",
+        "formula": "(m_rest c²)² = E_total² - (|p|c)²"
+      }
+    ]
+  },
+  {
+    "article_id": "Harmonic_oscillator.wiki.txt",
+    "formulas": [
+      {
+        "name": "Harmonic oscillator equation",
+        "formula": "F = m d²x/dt² = -kx"
+      },
+      {
+        "name": "Solution of harmonic oscillator",
+        "formula": "x(t) = A sin(ωt + φ)"
+      },
+      { "name": "Angular frequency of oscillator", "formula": "ω = √(k/m)" },
+      {
+        "name": "Damped harmonic oscillator",
+        "formula": "F = -kx - c dx/dt = m d²x/dt²"
+      }
+    ]
+  },
+  {
+    "article_id": "Torque.wiki.txt",
+    "formulas": [
+      {
+        "name": "Net torque in rotating rigid body",
+        "formula": "τ_net = I ω̇ + ω×(I ω)"
+      },
+      { "name": "Rotational kinetic energy", "formula": "E_r = ½ I ω²" },
+      { "name": "Power from torque and angular speed", "formula": "P = τ·ω" },
+      { "name": "Horsepower formula", "formula": "P ≈ τ·RPM/5252" }
+    ]
+  },
+  {
+    "article_id": "Speed.wiki.txt",
+    "formulas": [
+      { "name": "Speed in kilometers per hour", "formula": "km/h" },
+      { "name": "Average speed definition", "formula": "v = d/t" },
+      {
+        "name": "Magnitude of velocity vector",
+        "formula": "v = |v| = |dr/dt|"
+      },
+      { "name": "Instantaneous speed", "formula": "v = ds/dt" }
+    ]
+  },
+  {
+    "article_id": "Motion.wiki.txt",
+    "formulas": [
+      { "name": "Newton’s second law", "formula": "F⃗ = ma⃗" },
+      { "name": "Rate of change of momentum", "formula": "Δ(mv⃗)/Δt" },
+      {
+        "name": "Force as product of mass and acceleration",
+        "formula": "F⃗ = ma⃗"
+      },
+      { "name": "Action-reaction pair", "formula": "-F⃗" }
+    ]
+  },
+  {
+    "article_id": "Equations_of_motion.wiki.txt",
+    "formulas": [
+      {
+        "name": "General equation of motion",
+        "formula": "M[r(t), v(t), a(t), t] = 0"
+      },
+      { "name": "Position as function of time", "formula": "r = r(t)" },
+      { "name": "Velocity as function of time", "formula": "v = v(t)" },
+      { "name": "Acceleration as function of time", "formula": "a = a(t)" }
+    ]
+  },
+  {
+    "article_id": "Angular_momentum.wiki.txt",
+    "formulas": [
+      { "name": "Moment of inertia for point mass", "formula": "I = mr²" },
+      {
+        "name": "Perpendicular velocity component",
+        "formula": "v_⊥ = v sin(θ)"
+      },
+      {
+        "name": "Angular momentum (general form)",
+        "formula": "L = rmv sin(θ)"
+      },
+      {
+        "name": "Angular momentum (component form)",
+        "formula": "L = r sin(θ) mv"
+      }
+    ]
+  },
+  {
+    "article_id": "Force.wiki.txt",
+    "formulas": [
+      {
+        "name": "Force as time derivative of momentum",
+        "formula": "F = dp/dt = d(mv)/dt"
+      },
+      {
+        "name": "Newton’s law of gravitation",
+        "formula": "F = -G m₁ m₂ / r² r̂"
+      },
+      { "name": "Lorentz force", "formula": "F = q(E + v×B)" },
+      { "name": "Potential energy function", "formula": "U(r)" }
+    ]
+  },
+  {
+    "article_id": "Momentum.wiki.txt",
+    "formulas": [
+      { "name": "Force as function of time", "formula": "F(t)" },
+      { "name": "Impulse-momentum theorem", "formula": "Δp = J = ∫ F(t) dt" },
+      { "name": "Force from momentum change", "formula": "F = d(mv)/dt = ma" },
+      { "name": "Conservation of momentum", "formula": "d/dt (p₁ + p₂) = 0" }
+    ]
+  },
+  {
+    "article_id": "Rotation.wiki.txt",
+    "formulas": [
+      {
+        "name": "Rotation angle from matrix trace",
+        "formula": "α = cos⁻¹((A₁₁ + A₂₂ + A₃₃ - 1)/2)"
+      },
+      {
+        "name": "Rotation axis from skew-symmetric matrix",
+        "formula": "2 sin(α) n = {A₃₂ - A₂₃, A₁₃ - A₃₁, A₂₁ - A₁₂}"
+      },
+      { "name": "Condition for zero rotation", "formula": "sin(α) = 0" },
+      { "name": "Centered vector deviation", "formula": "i(v - v̄)" }
+    ]
+  }
+]

@@ -42,7 +42,7 @@ for doc_id, doc_text in zip(results['ids'], results['documents']):
 
 
 tab1, tab2, tab3 = st.tabs(
-    ["MathQA", "Embedder Evaluation", "LLM Evaluation"])
+    ["MathQA", "Embedder Evaluation", "Retrieval Evaluation"])
 
 with tab1:
     st.header("Ask a Question")
@@ -99,3 +99,30 @@ with tab2:
             metrics_table["MRR"].append(round(metrics["MRR"], 4))
 
         st.table(metrics_table)
+
+# with tab3:
+#     st.header("Evaluate Retrieval Phase")
+#     st.write("This section evaluates the retrieval pipeline using a single embedder.")
+
+#     embedder_name = Constants.EMBEDDERS[Constants.MPNET]
+#     top_k = 5
+
+#     if st.button("Run Retrieval Evaluation"):
+#         st.write(
+#             f"Evaluating retrieval with {embedder_name} and top_k={top_k}...")
+
+#         embedder = Constants.EMBEDDERS[embedder_name]
+
+#         chunk_vectors = embed_documents(embedder, chunk_texts)
+#         query_list = list(Constants.QUERIES.keys())
+#         query_vectors = embed_queries(embedder, query_list)
+
+#         sim_matrix = compute_similarity(query_vectors, chunk_vectors)
+
+#         metrics = evaluate_retrieval(
+#             sim_matrix, query_list, chunk_doc_ids, Constants.QUERIES, top_k=top_k
+#         )
+
+#         st.subheader("Retrieval Evaluation Metrics")
+#         st.write(f"nDCG: {metrics['nDCG']:.4f}")
+#         st.write(f"MRR: {metrics['MRR']:.4f}")
