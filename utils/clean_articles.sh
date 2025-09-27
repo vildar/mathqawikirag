@@ -1,0 +1,1 @@
+rm data/plaintext_articles/* && rm data/placeholder_articles/*

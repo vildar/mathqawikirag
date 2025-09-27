@@ -1,0 +1,109 @@
+In [[physics]], '''motion''' is when an object changes its [[Position (geometry)|position]] with respect to a reference point in a given [[time]]. Motion is mathematically described in terms of [[Displacement (geometry)|displacement]], [[distance]], [[velocity]], [[acceleration]], [[speed]], and [[frame of reference]] to an observer, measuring the change in position of the body relative to that frame with a change in time. The branch of physics describing the motion of objects without reference to their cause is called ''[[kinematics]]'', while the branch studying [[force]]s and their effect on motion is called ''[[dynamics (mechanics)|dynamics]]''.
+
+If an object is not in motion relative to a given frame of reference, it is said to be ''at rest'', ''motionless'', ''immobile'', ''[[wikt:stationary|stationary]]'', or to have a constant or [[time-invariant]] position with reference to its surroundings. Modern physics holds that, as there is no absolute frame of reference, [[Isaac Newton]]'s concept of ''[[Absolute space and time|absolute motion]]'' cannot be determined. Everything in the universe can be considered to be in motion.
+
+Motion applies to various physical systems: objects, bodies, [[matter]] [[Particle|particles]], matter fields, [[radiation]], radiation fields, radiation particles, [[curvature]], and [[Spacetime|space-time]]. One can also speak of the motion of images, shapes, and boundaries. In general, the term motion signifies a continuous change in the position or configuration of a physical system in space. For example, one can talk about the motion of a wave or the motion of a [[quantum]] particle, where the configuration consists of the probabilities of the wave or particle occupying specific positions.
+
+== Equations of motion ==
+
+Can
+
+== Laws of motion ==
+In physics, the motion of  bodies is described through two related sets of [[scientific law|laws]] of mechanics. [[Classical mechanics]] for super atomic (larger than an atom) objects (such as [[car]]s, [[projectile]]s, [[planet]]s, [[Cell (biology)|cells]], and [[human]]s) and [[quantum mechanic]]s for [[atom]]ic and [[subatomic particle|sub-atomic]] objects (such as [[helium]], [[protons]], and [[electrons]]). Historically, Newton and Euler formulated [[Newton's laws of motion|three laws of classical mechanics]]:
+{| class="wikitable"
+|First law:
+|In an [[inertial reference frame]], an object either remains at rest or continues to move in a straight line at a constant [[velocity]], unless acted upon by a [[net force]].
+|-
+|Second law:
+|In an [[inertial reference frame]], the vector [[Vector sum|sum]] of the [[forces]] F on an object is equal to the [[mass]] ''m'' of that object multiplied by the [[acceleration]] a of the object: <math>\vec{F} = m\vec{a} </math>.
+If the resultant force <math>\vec{F}</math> acting on a body or an object is not equal to zero, the body will have an acceleration <math>a</math> that is in the same direction as the resultant force.
+|-
+|Third law:
+|When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction onto the first body.
+|}
+
+=== Classical mechanics ===
+
+Classical mechanics is used for describing the motion of [[macroscopic]] objects moving at speeds significantly slower than the speed of light, from [[projectiles]] to parts of [[machinery]], as well as [[astronomical objects]], such as [[spacecraft]], [[planets]], [[star]]s, and [[Galaxy|galaxies]]. It produces very accurate results within these domains and is one of the oldest and largest scientific descriptions in [[science]], [[engineering]], and [[technology]].
+
+Classical mechanics is fundamentally based on [[Newton's laws of motion]]. These laws describe the relationship between the forces acting on a body and the motion of that body. They were first compiled by [[Isaac Newton|Sir Isaac Newton]] in his work ''[[Philosophiæ Naturalis Principia Mathematica]]'', which was first published on July 5, 1687. Newton's three laws are:
+# A [[Physical body|body]] at rest will remain at rest, and a body in motion will remain in motion unless it is acted upon by an external force. (This is known as the law of [[inertia]].)
+# Force (<math>\vec{F}</math>) is equal to the change in momentum per change in time (<math> \frac{\Delta m\vec{v}}{\Delta t}</math>). For a constant mass, force equals mass times acceleration (<math>\vec{F} = m\vec{a} </math> ).
+# For every action, there is an equal and opposite reaction. (In other words, whenever one body exerts a force <math>\vec{F}</math> onto a second body, (in some cases, which is standing still) the second body exerts the force <math>-\vec{F}</math> back onto the first body. <math>\vec{F}</math> and <math>-\vec{F}</math> are equal in magnitude and opposite in direction. So, the body that exerts <math>\vec{F}</math> will be pushed backward.)
+
+Newton's three laws of motion were the first to accurately provide a mathematical model for understanding [[orbit]]ing bodies in [[outer space]]. This explanation unified the motion of celestial bodies and the motion of objects on Earth.
+
+=== Relativistic mechanics ===
+Modern kinematics developed with study of [[electromagnetism]] and refers all velocities <math>v</math> to their ratio to [[speed of light]] <math>c</math>. Velocity is then interpreted as [[rapidity]], the [[hyperbolic angle]] <math>\varphi</math> for which the [[hyperbolic tangent function]] <math>\tanh \varphi = v \div c</math>. [[Acceleration]], the change of velocity over time, then changes rapidity according to [[Lorentz transformation]]s. This part of mechanics is [[special relativity]]. Efforts to incorporate [[gravity]] into relativistic mechanics were made by [[W. K. Clifford#Premonition of relativity|W. K. Clifford]] and [[Albert Einstein]]. The development used [[differential geometry]] to describe a curved universe with gravity; the study is called [[general relativity]].
+
+=== Quantum mechanics ===
+[[Quantum mechanics]] is a set of principles describing [[Physical systems|physical reality]] at the atomic level of matter ([[molecule]]s and [[atom]]s) and the [[subatomic particle]]s ([[electron]]s, [[proton]]s, [[neutron]]s, and even smaller [[elementary particle]]s such as [[quark]]s). These descriptions include the simultaneous wave-like and particle-like behavior of both [[matter]] and [[radiation]] energy as described in the [[wave–particle duality]].
+
+In classical mechanics, accurate [[measurement]]s and [[prediction]]s of the state of objects can be calculated, such as [[Absolute location|location]] and [[velocity]]. In quantum mechanics, due to the [[uncertainty principle|Heisenberg uncertainty principle]], the complete state of a subatomic particle, such as its location and velocity, cannot be simultaneously determined.
+
+In addition to describing the motion of atomic level phenomena, quantum mechanics is useful in understanding some large-scale phenomena such as [[superfluidity]], [[superconductivity]], and [[biological system]]s, including the function of [[Olfactory receptor|smell receptors]] and the [[protein structure|structures of protein]].
+
+== Orders of magnitude ==
+Humans, like all known things in the universe, are in constant motion; however, aside from obvious movements of the various external [[anatomy|body]] parts and [[animal locomotion|locomotion]], humans are in motion in a variety of ways that are more difficult to [[Motion perception|perceive]]. Many of these "imperceptible motions" are only perceivable with the help of special tools and careful observation. The larger scales of imperceptible motions are difficult for humans to perceive for two reasons: [[Newton's laws of motion]] (particularly the third), which prevents the feeling of motion on a mass to which the observer is connected, and the lack of an obvious [[frame of reference]] that would allow individuals to easily see that they are moving. The smaller scales of these motions are too small to be detected conventionally with human [[sense]]s.
+
+=== Universe ===
+[[Spacetime]] (the fabric of the universe) is [[Metric expansion of space|expanding]], meaning everything in the [[universe]] is stretching, like a [[rubber band]]. This motion is the most obscure, not involving physical movement but a fundamental change in the universe's nature. The primary source of verification of this expansion was provided by [[Edwin Hubble]] who demonstrated that all galaxies and distant astronomical objects were moving away from Earth, known as [[Hubble's law]], predicted by a universal expansion.
+
+=== Galaxy ===
+The [[Milky Way Galaxy]] is moving through [[space]] and many astronomers believe the velocity of this motion to be approximately  relative to the observed locations of other nearby galaxies. Another reference frame is provided by the [[Cosmic microwave background]]. This frame of reference indicates that the Milky Way is moving at around .
+
+=== Sun and Solar System ===
+
+The Milky Way is [[rotation|rotating]] around its [[density|dense]] [[Galactic Center]], thus the [[Sun]] is moving in a circle within the [[galaxy]]'s [[gravity]]. Away from the central bulge, or outer rim, the typical stellar [[velocity]] is between . All planets and their moons move with the Sun. Thus, the [[Solar System]] is in motion.
+
+=== Earth ===
+The Earth is [[rotation|rotating]] or spinning around its [[Axis of rotation|axis]]. This is evidenced by [[day]] and [[night]], at the equator the earth has an eastward velocity of . The Earth is also [[orbit]]ing around the [[Sun]] in an [[orbital revolution]]. A complete orbit around the Sun takes one [[year]], or about 365&nbsp;days; it averages a speed of about .
+
+=== Continents ===
+The Theory of [[Plate tectonic]]s tells us that the [[continent]]s are drifting on [[convection current]]s within the [[Mantle (geology)|mantle]], causing them to move across the surface of the [[planet]] at the slow speed of approximately  per year. However, the velocities of plates range widely. The fastest-moving plates are the oceanic plates, with the [[Cocos Plate]] advancing at a rate of  per year and the [[Pacific Plate]] moving  per year. At the other extreme, the slowest-moving plate is the [[Eurasian Plate]], progressing at a typical rate of about  per year.
+
+=== Internal body ===
+The human [[heart]] is regularly contracting to move [[blood]] throughout the body. Through larger veins and arteries in the body, blood has been found to travel at approximately 0.33&nbsp;m/s. Though considerable variation exists, and peak flows in the [[venae cavae]] have been found between . additionally, the [[smooth muscle]]s of hollow internal [[viscera|organs]] are moving. The most familiar would be the occurrence of [[peristalsis]], which is where digested [[food]] is forced throughout the [[digestive tract]]. Though different foods travel through the body at different rates, an average speed through the human [[small intestine]] is . The human [[lymphatic system]] is also constantly causing movements of excess [[fluids]], [[lipids]], and immune system related products around the body. The lymph fluid has been found to move through a lymph capillary of the [[human skin|skin]] at approximately 0.0000097&nbsp;m/s.
+
+=== Cells ===
+The [[cell (biology)|cells]] of the [[human body]] have many structures and organelles that move throughout them. [[Cytoplasmic streaming]] is a way in which cells move molecular substances throughout the [[cytoplasm]], various [[motor proteins]] work as [[molecular motors]] within a cell and move along the surface of various cellular substrates such as [[microtubules]], and motor proteins are typically powered by the [[hydrolysis]] of [[adenosine triphosphate]] (ATP), and convert chemical energy into mechanical work. [[Vesicle (biology)|Vesicles]] propelled by motor proteins have been found to have a velocity of approximately 0.00000152&nbsp;m/s.
+
+=== Particles ===
+According to the [[laws of thermodynamics]], all [[Subatomic particle|particles]] of [[matter]] are in constant random motion as long as the [[temperature]] is above [[absolute zero]]. Thus the [[molecule]]s and [[atom]]s that make up the human body are vibrating, colliding, and moving. This motion can be detected as temperature; higher temperatures, which represent greater [[kinetic energy]] in the particles, feel warm to humans who sense the thermal energy transferring from the object being touched to their nerves. Similarly, when lower temperature objects are touched, the senses perceive the transfer of heat away from the body as a feeling of cold.
+
+=== Subatomic particles ===
+Within the standard [[atomic orbital model]], [[electron]]s exist in a region around the nucleus of each atom. This region is called the [[electron cloud]]. According to [[Bohr model|Bohr's model]] of the atom, electrons have a high [[Electron velocity|velocity]], and the larger the nucleus they are orbiting the faster they would need to move. If electrons were to move about the electron cloud in strict paths the same way planets orbit the Sun, then electrons would be required to do so at speeds that would far exceed the speed of light. However, there is no reason that one must confine oneself to this strict conceptualization (that electrons move in paths the same way macroscopic objects do), rather one can conceptualize electrons to be 'particles' that capriciously exist within the bounds of the electron cloud. Inside the [[atomic nucleus]], the [[proton]]s and [[neutron]]s are also probably moving around due to the electrical repulsion of the protons and the presence of [[angular momentum]] of both particles.
+
+== Light ==
+
+Light moves at a speed of 299,792,458&nbsp;m/s, or , in a vacuum. The speed of light in vacuum (or <math>c</math>) is also the speed of all [[massless particle]]s and associated [[field (physics)|fields]] in a vacuum, and it is the upper limit on the speed at which energy, matter, information or [[Causality (physics)|causation]] can travel. The speed of light in vacuum is thus the upper limit for speed for all physical systems.
+
+In addition, the speed of light is an [[invariant (physics)|invariant]] quantity: it has the same value, irrespective of the position or speed of the observer. This property makes the speed of light ''c'' a natural measurement unit for speed and a [[physical constant|fundamental constant]] of nature.
+
+In 2019, the speed of light was redefined alongside all seven SI base units using what it calls "the explicit-constant formulation", where each "unit is defined indirectly by specifying explicitly an exact value for a well-recognized fundamental constant", as was done for the speed of light. A new, but completely equivalent, wording of the metre's definition was proposed: "The metre, symbol m, is the unit of length; its magnitude is set by fixing the numerical value of the speed of light in vacuum to be equal to exactly {{Val|299792458}} when it is expressed in the SI unit ." This implicit change to the speed of light was one of the changes that was incorporated in the [[2019 revision of the SI]], also termed the ''New SI''.
+
+=== Superluminal motion ===
+
+Some motion appears to an observer to exceed the speed of light. Bursts of energy moving out along the [[relativistic jet]]s emitted from these objects can have a [[proper motion]] that appears greater than the speed of light. All of these sources are thought to contain a [[black hole]], responsible for the ejection of mass at high velocities. [[Light echo]]es can also produce apparent superluminal motion. This occurs owing to how motion is often calculated at long distances; oftentimes calculations fail to account for the fact that the speed of light is finite. When measuring the movement of distant objects across the sky, there is a large time delay between what has been observed and what has occurred, due to the large distance the light from the distant object has to travel to reach us. The error in the above naive calculation comes from the fact that when an object has a component of velocity directed towards the Earth, as the object moves closer to the Earth that time delay becomes smaller. This means that the apparent speed as calculated above is ''greater'' than the actual speed. Correspondingly, if the object is moving away from the Earth, the above calculation underestimates the actual speed.
+
+== Types of motion ==
+* [[Simple harmonic motion]] – motion in which the body oscillates in such a way that the restoring force acting on it is directly proportional to the body's displacement. Mathematically Force is directly proportional to the negative of displacement. Negative sign signifies the restoring nature of the force. (e.g., that of a [[pendulum]]).
+* [[Linear motion]] – motion that follows a straight [[Line (geometry)|linear]] path, and whose [[displacement (vector)|displacement]] is exactly the same as its [[trajectory]]. [Also known as [[rectilinear motion]]]
+* [[Reciprocating motion|Reciprocal motion]]
+* [[Brownian motion]] – the random movement of very small particles
+* [[Circular motion]]
+* [[Rotational motion|Rotatory motion]] – a motion about a fixed point. (e.g. [[Ferris wheel]]).
+* [[Curvilinear motion]] – It is defined as the motion along a curved path that may be planar or in three dimensions.
+* [[Rolling]] motion – (as of the wheel of a bicycle)
+* [[Oscillatory]] – (swinging from side to side)
+* [[Vibration|Vibratory motion]]
+* Combination (or simultaneous) motions – Combination of two or more above listed motions
+* [[Projectile motion]] – uniform horizontal motion + vertical accelerated motion
+
+== Fundamental motions ==
+* [[Linear motion]]
+* [[Circular motion]]
+* [[Oscillation]]
+* [[Wave]]
+* [[Relative motion]]
+* [[Rotary motion]]

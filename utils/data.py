@@ -1,46 +1,211 @@
-import pickle
 import os
+import json
+import re
+import pickle
 import streamlit as st
+from typing import List, Tuple
 
 
-def chunk_text(text, max_words=150, overlap=30):
-    """
-    Split text into chunks of max_words length with specified overlap.
-    """
-    words = text.split()
+def is_section_header(line: str) -> bool:
+    """Detect if a line is a section header (title-like)."""
+    return bool(re.match(r'^[A-Z][A-Za-z\s]+$', line.strip())) and len(line.split()) < 6
+
+
+def is_math_placeholder(text: str) -> bool:
+    """Detect if text is a math placeholder like __MATH_1__."""
+    return bool(re.fullmatch(r'__MATH_\d+__', text.strip()))
+
+
+def split_sentences(paragraph: str) -> List[str]:
+    sentences = []
+    buffer = ""
+    lines = paragraph.split('\n')
+    i = 0
+
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
+            continue
+
+        if is_section_header(line):
+            if buffer:
+                sentences.append(buffer.strip())
+                buffer = ""
+            sentences.append(line)
+            i += 1
+            continue
+
+        if is_math_placeholder(line):
+            # Case 1: previous buffer exists → merge into it
+            if buffer:
+                buffer += " " + line
+            # Case 2: previous sentence ends with colon → merge into it
+            elif sentences and sentences[-1].endswith(":"):
+                sentences[-1] += " " + line
+            # Case 3: otherwise attach to next line
+            else:
+                if i + 1 < len(lines):
+                    lines[i + 1] = line + " " + lines[i + 1]
+                else:
+                    buffer = line
+            i += 1
+            continue
+
+        # Merge bullet points or continuation lines
+        if line.startswith(("-", "*")) or (i > 0 and lines[i - 1].rstrip().endswith(":")):
+            buffer += (" " if buffer else "") + line
+            i += 1
+            continue
+
+        # Normal sentence accumulation
+        buffer += (" " if buffer else "") + line
+        while True:
+            match = re.search(r'([.!?])\s+', buffer)
+            if not match:
+                break
+            end = match.end()
+            sentences.append(buffer[:end].strip())
+            buffer = buffer[end:]
+        i += 1
+
+    if buffer:
+        sentences.append(buffer.strip())
+
+    return sentences
+
+
+def chunk_paragraph(sentences: List[str], chunk_size: int, chunk_overlap: int) -> List[str]:
+    """Split sentences into overlapping chunks."""
     chunks = []
-    start = 0
-    while start < len(words):
-        end = start + max_words
-        chunk = " ".join(words[start:end])
-        chunks.append(chunk)
-        start = end - overlap
-        if start < 0:
-            start = 0
+    i = 0
+    while i < len(sentences):
+        window = sentences[i:i + chunk_size]
+        if window:
+            chunks.append(' '.join(window).strip())
+        i += max(1, chunk_size - chunk_overlap)
     return chunks
 
 
+def clean_chunks(chunks: List[str]) -> List[str]:
+    """
+    Post-process chunks:
+    - Merge math-only placeholders into context.
+    - Merge bullet points / continuation lines into previous.
+    """
+    merged = []
+    for i, chunk in enumerate(chunks):
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+
+        # Merge math-only placeholders
+        if is_math_placeholder(chunk):
+            if merged:  # attach to previous
+                merged[-1] += " " + chunk
+            elif i + 1 < len(chunks):  # attach to next
+                chunks[i + 1] = chunk + " " + chunks[i + 1]
+            else:
+                merged.append(chunk)  # fallback
+            continue
+
+        # Merge bullet points / numbered lists
+        if chunk.startswith(("-", "*")) or re.match(r'^\d+[.)]\s', chunk):
+            if merged:
+                merged[-1] += " " + chunk
+            else:
+                merged.append(chunk)
+            continue
+
+        merged.append(chunk)
+    return merged
+
+
+def merge_continuation_paragraphs(paragraphs: List[str]) -> List[str]:
+    merged = []
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+
+        if merged:
+            prev = merged[-1].rstrip()
+            prev_ends_sentence = bool(re.search(r'[.!?]"?$', prev))
+
+            starts_lowercase = para and para[0].islower()
+            is_formula_like = (
+                is_math_placeholder(para)
+                or para.startswith(("$$", "\\["))
+                or para.endswith(("$$", "\\]"))
+            )
+            is_bullet = para.startswith(
+                ("-", "*")) or re.match(r'^\d+[.)]\s', para)
+
+            if (not prev_ends_sentence) or starts_lowercase or is_formula_like or is_bullet:
+                merged[-1] = prev + " " + para
+                continue
+
+        merged.append(para)
+
+    return merged
+
+
 @st.cache_data
-def load_documents_as_chunks(folder_path):
-    """
-    Loads documents and splits each into chunks.
-    Returns:
-        chunk_texts: List[str] of all chunks
-        chunk_doc_ids: List[str] doc_id for each chunk (which document chunk belongs to)
-    """
-    chunk_texts = []
-    chunk_doc_ids = []
+def load_documents_as_chunks(
+    articles_dir: str,
+    math_json_path: str,
+    chunk_size: int = 8,
+    chunk_overlap: int = 2,
+    save_path: str = "chunks.json"
+) -> Tuple[List[str], List[str]]:
+    with open(math_json_path, "r", encoding="utf-8") as f:
+        math_map = json.load(f)
 
-    for file_name in os.listdir(folder_path):
-        if file_name.endswith(".txt"):
-            doc_id = file_name.replace(".txt", "")
-            with open(os.path.join(folder_path, file_name), 'r', encoding='utf-8') as f:
-                text = f.read()
-            chunks = chunk_text(text)
-            chunk_texts.extend(chunks)
-            chunk_doc_ids.extend([doc_id] * len(chunks))
+    all_chunks = []
+    all_ids = []
+    all_metadata = []
 
-    return chunk_texts, chunk_doc_ids
+    for filename in os.listdir(articles_dir):
+        if not filename.endswith(".txt"):
+            continue
+
+        article_title = os.path.splitext(filename)[0]
+
+        with open(os.path.join(articles_dir, filename), "r", encoding="utf-8") as f:
+            raw_text = f.read()
+
+        # Replace placeholders with readable math before splitting
+        for placeholder, formula in math_map.items():
+            raw_text = raw_text.replace(placeholder, formula)
+
+        paragraphs = [p for p in raw_text.split('\n\n') if p.strip()]
+        paragraphs = merge_continuation_paragraphs(paragraphs)
+        chunk_idx = 0
+        for para in paragraphs:
+            sentences = split_sentences(para)
+            para_chunks = chunk_paragraph(sentences, chunk_size, chunk_overlap)
+            para_chunks = clean_chunks(para_chunks)
+
+            for chunk in para_chunks:
+                chunk_id = f"{article_title}_{chunk_idx}"
+                all_chunks.append(chunk)
+                all_ids.append(chunk_id)
+                all_metadata.append({
+                    "article": article_title,
+                    "chunk_id": chunk_id
+                })
+                chunk_idx += 1
+
+    with open(save_path, "w", encoding="utf-8") as f:
+        json.dump(
+            [{"id": cid, "text": txt, "metadata": meta}
+             for cid, txt, meta in zip(all_ids, all_chunks, all_metadata)],
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    return all_chunks, all_ids
 
 
 def save_chunks(chunk_texts, chunk_doc_ids, embeddings, path):
@@ -61,7 +226,7 @@ def clean_latex(ans):
 
 def generate_prompt(query, chunk):
     return f"""
-        You are a mathematics expert. Given the following user query and context passages, extract or derive the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
+        You are a mathematics expert. Given the following user query and context passages, extract the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
 
         ### User Query:
         {query}
@@ -70,17 +235,5 @@ def generate_prompt(query, chunk):
         {chunk}
 
         ### Instructions:
-        - Respond ONLY with the formula (in LaTeX if possible), no explanation.
+        - Respond ONLY with the formula (in plaintext), no explanation.
         """
-
-
-# 1. Map response to context and verify that it exists in the context
-# 2. Evaluate for 100 (4 * 25 articles) formula queries.
-#    Check across LLMs and also verify that they are repeatable. (temp hyperparam)
-# 3. Add 'whether it exists in context' column
-# 4. Evaluate the retrieval phase
-# 5. Modify the chunking mechanism and evaluate
-# 6. Have a context column. Paste the chunk
-# 7. top_k=5 for evaluation of embedders. (experiment before evaluating for 100)
-# 8. More sophisticated chunking mechanism
-# GraphRAG - clustering sentences

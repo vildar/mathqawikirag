@@ -1,0 +1,150 @@
+In physics, angular acceleration (symbol α, alpha) is the time rate of
+change of angular velocity. Following the two types of angular velocity,
+spin angular velocity and orbital angular velocity, the respective types
+of angular acceleration are: spin angular acceleration, involving a
+rigid body about an axis of rotation intersecting the body's centroid;
+and orbital angular acceleration, involving a point particle and an
+external axis.
+
+Angular acceleration has physical dimensions of angle per time squared,
+measured in SI units of radians per second squared (rads⁻²). In two
+dimensions, angular acceleration is a pseudoscalar whose sign is taken
+to be positive if the angular speed increases counterclockwise or
+decreases clockwise, and is taken to be negative if the angular speed
+increases clockwise or decreases counterclockwise. In three dimensions,
+angular acceleration is a pseudovector.
+
+Orbital angular acceleration of a point particle
+
+Particle in two dimensions
+
+In two dimensions, the orbital angular acceleration is the rate at which
+the two-dimensional orbital angular velocity of the particle about the
+origin changes. The instantaneous angular velocity ω at any point in
+time is given by
+
+    ω= v_⊥/r,
+
+where r is the distance from the origin and v_⊥ is
+the cross-radial component of the instantaneous velocity (i.e. the
+component perpendicular to the position vector), which by convention is
+positive for counter-clockwise motion and negative for clockwise motion.
+
+Therefore, the instantaneous angular acceleration α of the particle is
+given by
+
+    α= d/dt (v_⊥/r).
+
+Expanding the right-hand-side using the product rule from differential
+calculus, this becomes
+
+    α= 1/r dv_⊥/dt - v_⊥/r^2 dr/dt.
+
+In the special case where the particle undergoes circular motion about
+the origin, dv_⊥/dt becomes just the tangential acceleration
+a_⊥, and dr/dt vanishes (since the distance from the
+origin stays constant), so the above equation simplifies to
+
+    α= a_⊥/r.
+
+In two dimensions, angular acceleration is a number with plus or minus
+sign indicating orientation, but not pointing in a direction. The sign
+is conventionally taken to be positive if the angular speed increases in
+the counter-clockwise direction or decreases in the clockwise direction,
+and the sign is taken negative if the angular speed increases in the
+clockwise direction or decreases in the counter-clockwise direction.
+Angular acceleration then may be termed a pseudoscalar, a numerical
+quantity which changes sign under a parity inversion, such as inverting
+one axis or switching the two axes.
+
+Particle in three dimensions
+
+In three dimensions, the orbital angular acceleration is the rate at
+which three-dimensional orbital angular velocity vector changes with
+time. The instantaneous angular velocity vector ω at any
+point in time is given by
+
+    ω=𝐫 ×𝐯/r^2 ,
+
+where 𝐫 is the particle's position vector, r its
+distance from the origin, and 𝐯 its velocity vector.
+
+Therefore, the orbital angular acceleration is the vector α
+defined by
+
+    α= d/dt (𝐫 ×𝐯/r^2).
+
+Expanding this derivative using the product rule for cross-products and
+the ordinary quotient rule, one gets:
+
+    α   = 1/r^2 (𝐫×d𝐯/dt + d𝐫/dt ×𝐯) - 2/r^3dr/dt (𝐫×𝐯) ;    = 1/r^2(𝐫×𝐚 + 𝐯×𝐯) - 2/r^3dr/dt (𝐫×𝐯) ;    = 𝐫×𝐚/r^2 - 2/r^3dr/dt(𝐫×𝐯).
+
+Since 𝐫×𝐯 is just r^2ω, the second term may be
+rewritten as -2/rdr/dt ω. In the case where the distance r
+of the particle from the origin does not change with time (which
+includes circular motion as a subcase), the second term vanishes and the
+above formula simplifies to
+
+    α= 𝐫×𝐚/r^2.
+
+From the above equation, one can recover the cross-radial acceleration
+in this special case as:
+
+    𝐚_⊥ = α ×𝐫.
+
+Unlike in two dimensions, the angular acceleration in three dimensions
+need not be associated with a change in the angular speed ω= |ω|:
+If the particle's position vector "twists" in space, changing its
+instantaneous plane of angular displacement, the change in the direction
+of the angular velocity ω will still produce a nonzero
+angular acceleration. This cannot not happen if the position vector is
+restricted to a fixed plane, in which case ω has a fixed
+direction perpendicular to the plane.
+
+The angular acceleration vector is more properly called a pseudovector:
+It has three components which transform under rotations in the same way
+as the Cartesian coordinates of a point do, but which do not transform
+like Cartesian coordinates under reflections.
+
+Relation to torque
+
+The net torque on a point particle is defined to be the pseudovector
+
+    τ = 𝐫 ×𝐅,
+
+where 𝐅 is the net force on the particle.
+
+Torque is the rotational analogue of force: it induces change in the
+rotational state of a system, just as force induces change in the
+translational state of a system. As force on a particle is connected to
+acceleration by the equation 𝐅 = m𝐚, one may write a similar
+equation connecting torque on a particle to angular acceleration, though
+this relation is necessarily more complicated.
+
+First, substituting 𝐅 = m𝐚 into the above equation for torque,
+one gets
+
+    τ = m(𝐫×𝐚) = mr^2 (𝐫×𝐚/r^2).
+
+From the previous section:
+
+    α=𝐫×𝐚/r^2-2/r dr/dtω,
+
+where α is orbital angular acceleration and ω is
+orbital angular velocity. Therefore:
+
+    τ = mr^2 (α+2/r dr/dtω) 
+=mr^2 α+2mrdr/dtω.
+
+In the special case of constant distance r of the particle
+from the origin (dr  dt = 0), the second term in the above equation
+vanishes and the above equation simplifies to
+
+    τ = mr^2α,
+
+which can be interpreted as a "rotational analogue" to 𝐅 = m𝐚,
+where the quantity mr^2 (known as the moment of inertia of the
+particle) plays the role of the mass m. However, unlike
+𝐅 = m𝐚, this equation does not apply to an arbitrary trajectory,
+only to a trajectory contained within a spherical shell about the
+origin.

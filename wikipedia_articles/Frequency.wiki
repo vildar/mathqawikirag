@@ -1,0 +1,232 @@
+{{Short description|Number of occurrences or cycles per unit time}}
+{{Redirect|Frequencies|the film|Frequencies (film){{!}}''Frequencies'' (film)|the album|Frequencies (album){{!}}''Frequencies'' (album)|other uses|Frequency (disambiguation)}}
+{{more citations needed|date=May 2025}}
+{{Infobox physical quantity
+| name = Frequency
+| image = ลูกตุ้มธรรมชาติ.gif
+| caption = A [[pendulum]] making 25 complete [[oscillations]] in 60&nbsp;s, a frequency of 0.41{{overline|6}}&nbsp;[[Hertz|Hz]]
+| unit = [[hertz]] (Hz)
+| otherunits = 
+ {{ublist
+  | cycle per second (cps)
+  | [[revolution per minute]] (rpm or r/min)
+ }}
+| symbols = {{math|''f'', ''&nu;''}}
+| baseunits = [[Second|s]]<sup>−1</sup>
+| dimension = wikidata
+| derivations =
+ {{ublist
+  | {{math|1=''f'' = 1 / ''T''}}
+ }}
+}}
+
+'''Frequency''' is the number of occurrences of a repeating event per [[unit of time]].<ref>{{cite web|url=http://www.merriam-webster.com/dictionary/frequency|title=Definition of FREQUENCY|access-date=3 October 2016}}</ref> Frequency is an important parameter used in science and engineering to specify the rate of [[oscillation|oscillatory]] and [[vibration|vibratory]] phenomena, such as mechanical vibrations, [[audio signal]]s ([[sound]]), [[radio wave]]s, and [[light]].
+
+The interval of time between events is called the '''period'''. It is the [[Multiplicative inverse|reciprocal]] of the frequency.<ref>{{cite web|url=http://www.merriam-webster.com/dictionary/period|title=Definition of PERIOD|access-date=3 October 2016}}</ref>  For example, if a heart beats at a frequency of 120 times per minute (2&nbsp;hertz), its period is one half of a second.
+
+Special definitions of frequency are used in certain contexts, such as the [[angular frequency]] in rotational or cyclical properties, when the rate of angular progress is measured. [[Spatial frequency]] is defined for properties that vary or cccur repeatedly in geometry or space.
+
+The unit of measurement of frequency in the [[International System of Units]] (SI) is the [[hertz]], having the symbol Hz. 
+
+== Definitions and units {{anchor|Definitions|Units|Definition|Unit}} ==
+[[File:Pendulum-no-text.gif|thumb|A [[pendulum]] with a period of 2.8&nbsp;s and a frequency of 0.36&nbsp;[[Hertz|Hz]]]]
+For cyclical phenomena such as [[oscillation]]s, [[wave]]s, or for examples of [[simple harmonic motion]], the term ''frequency'' is defined as the number of cycles or repetitions per unit of time. The conventional symbol for frequency is ''f'' or ''ν'' (the Greek letter [[Nu (letter)|nu]]) is also used.{{sfn|Serway|Faughn|1989|p=346}} The ''period'' ''T'' is the time taken to complete one cycle of an oscillation or rotation. The frequency and the period are related by the equation{{sfn|Serway|Faughn|1989|p=354}}
+<math display=block qid=Q11652>f = \frac{1}{T}.</math>
+
+The term ''temporal frequency'' is used to emphasise that the frequency is characterised by the number of occurrences of a repeating event per unit time.
+
+The [[SI]] unit of frequency is the [[hertz]] (Hz),{{sfn|Serway|Faughn|1989|p=354}} named after the German physicist [[Heinrich Hertz]] by the [[International Electrotechnical Commission]] in 1930. It was adopted by the [[CGPM]] (Conférence générale des poids et mesures) in 1960, officially replacing the previous name, ''[[cycle per second]]'' (cps). The SI unit for the period, as for all measurements of time, is the [[second]].<ref>{{cite web |title=Resolution 12 of the 11th CGPM (1960) |url=https://www.bipm.org/en/CGPM/db/11/12/ |publisher=BIPM (International Bureau of Weights and Measures) |access-date=21 January 2021 |archive-date=8 April 2020 |archive-url=https://web.archive.org/web/20200408155740/https://www.bipm.org/en/CGPM/db/11/12/ |url-status=dead }}</ref> A traditional unit of frequency used with rotating mechanical devices, where it is termed ''[[rotational frequency]]'', is [[revolution per minute]], abbreviated r/min or rpm.{{refn|{{cite journal|title=Special Publication 811: NIST Guide to the SI, Chapter 8|journal=NIST |date=28 January 2016 |url=https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8|access-date=2022-11-08}}}}  Sixty rpm is equivalent to one hertz.{{sfn|Davies|1997|p=275}}
+
+== Period versus frequency ==
+As a matter of convenience, longer and slower waves, such as [[ocean surface wave]]s, are more typically described by wave period rather than frequency.{{sfn|Young|1999|p=7}} Short and fast waves, like [[sound|audio]] and radio, are usually described by their frequency. Some commonly used conversions are listed below:
+
+{| class="wikitable"
+|-
+! Frequency
+! Period
+|-
+| 1&nbsp;mHz (10<sup>−3</sup>&nbsp;Hz)
+| 1&nbsp;ks (10<sup>3</sup>&nbsp;s)
+|-
+| 1&nbsp;Hz (10<sup>0</sup>&nbsp;Hz)
+| 1&nbsp;s (10<sup>0</sup>&nbsp;s)
+|-
+| 1&nbsp;kHz (10<sup>3</sup>&nbsp;Hz)
+| 1&nbsp;ms (10<sup>−3</sup>&nbsp;s)
+|-
+| 1&nbsp;MHz (10<sup>6</sup>&nbsp;Hz)
+| 1&nbsp;μs (10<sup>−6</sup>&nbsp;s)
+|-
+| 1&nbsp;GHz (10<sup>9</sup>&nbsp;Hz)
+| 1&nbsp;ns (10<sup>−9</sup>&nbsp;s)
+|-
+| 1&nbsp;THz (10<sup>12</sup>&nbsp;Hz)
+| 1&nbsp;ps (10<sup>−12</sup>&nbsp;s)
+|-
+|}
+
+== Related quantities ==
+[[File:Commutative diagram of harmonic wave properties.svg|thumb|Diagram of the relationship between the different types of frequency and other wave properties.  In this diagram, ''x'' is the input to the function represented by the arrow.]]
+* [[Rotational frequency]], usually denoted by the Greek letter [[Nu (letter)|''ν'']] (nu), is defined as the instantaneous rate of change of the [[number of rotations]], ''N'', with respect to time: {{nowrap|''ν'' {{=}} d''N''/d''t'';}} it is a type of frequency applied to [[rotational motion]].
+* [[Angular frequency]], usually denoted by the Greek letter [[Omega (letter)|''ω'']] (omega), is defined as the rate of change of [[angular displacement]] (during rotation), [[Theta|''θ'']] (theta), or the rate of change of the [[phase (waves)|phase]] of a [[Sine wave|sinusoid]]al waveform (notably in oscillations and waves), or as the rate of change of the [[Argument of a function|argument]] to the [[sine function]]: 
+:<math display="block">y(t) = \sin \theta(t)  =  \sin(\omega t) =  \sin(2 \mathrm{\pi} f t)</math> <math display="block" qid=Q161635>\frac{\mathrm{d} \theta}{\mathrm{d} t} = \omega = 2 \mathrm{\pi} f .</math> 
+: The unit of angular frequency is the [[radian]] per second (rad/s) but, for [[discrete-time signal]]s, can also be expressed as radians per [[sampling interval]], which is a [[dimensionless quantity]]. Angular frequency is frequency multiplied by 2{{pi}}.
+* [[Spatial frequency]], denoted here by ''[[ξ]]'' (xi), is analogous to temporal frequency, but with a spatial measurement replacing time measurement,{{refn|1=The term ''spatial period'', sometimes used in place of ''[[wavelength]]'', analogously corresponds to the (temporal) period.<ref>{{cite web |last1=Boreman |first1=Glenn D. |title=Spatial Frequency |url=https://spie.org/publications/tt52_12_spatial_frequency?SSO=1 |publisher=[[SPIE]] |access-date=22 January 2021}}</ref>|group=note}} e.g.: <math display="block">y(t) = \sin \theta(t,x) = \sin(\omega t + kx)</math> <math display="block" qid=Q192510>\frac{\mathrm{d} \theta}{\mathrm{d} x} = k = 2 \pi \xi.</math>
+** [[Spatial period]] or wavelength is the spatial analog to temporal period.
+
+== In wave propagation {{anchor|Frequency of waves}} ==
+{{unreferenced section|date=May 2025}}
+{{Further|Wave propagation}}
+<!-- This section is linked from [[Hearing impairment]] -->
+For periodic waves in [[Dispersion relation|nondispersive media]] (that is, media in which the wave speed is independent of frequency), frequency has an inverse relationship to the [[wavelength]], ''λ'' ([[lambda]]). Even in dispersive media, the frequency ''f'' of a [[Sine wave|sinusoidal wave]] is equal to the [[phase velocity]] ''v'' of the wave [[division (mathematics)|divided]] by the wavelength ''λ'' of the wave:
+<math display=block>
+f = \frac{v}{\lambda}.
+</math>
+
+In the [[special case]] of electromagnetic waves in [[vacuum]], then {{nowrap|1=''v'' = ''c''}}, where ''c'' is the [[speed of light]] in vacuum, and this expression becomes
+<math display=block>
+f = \frac{c}{\lambda}.
+</math>
+
+When [[monochromatic radiation|monochromatic waves]] travel from one [[medium (optics)|medium]] to another, their frequency remains the same—only their wavelength and [[phase speed|speed]] change.
+
+== Measurement ==
+{{unreferenced|section|date=May 2025}}
+{{See also|Frequency meter}}
+
+Measurement of frequency can be done in the following ways:
+
+=== Counting ===
+Calculating the frequency of a repeating event is accomplished by counting the number of times that event occurs within a specific time period, then dividing the count by the period. For example, if 71 events occur within 15 seconds the frequency is:
+<math display=block>f = \frac{71}{15 \,\text{s}} \approx 4.73 \, \text{Hz}.</math>
+If the number of counts is not very large, it is more accurate to measure the time interval for a predetermined number of occurrences, rather than the number of occurrences within a specified time.{{cn|date=April 2024}} The latter method introduces a [[random error]] into the count of between zero and one count, so on [[average]] half a count. This is called ''gating error'' and causes an average error in the calculated frequency of <math display="inline">\Delta f = \frac{1}{2T_\text{m}}</math>, or a fractional error of <math display="inline">\frac{\Delta f}{f} = \frac{1}{2 f T_\text{m}}</math> where <math>T_\text{m}</math> is the timing interval and <math>f</math> is the measured frequency. This error decreases with frequency, so it is generally a problem at low frequencies where the number of counts ''N'' is small.
+
+{{multiple image
+| align = right
+| direction = vertical
+| header   = 
+| image1   = Resonant reed frequency meter.jpg
+| caption1 = 
+| image2   = Czestosciomierz-49.9Hz.jpg
+| caption2 = 
+| width    = 300
+| footer   = A resonant-reed frequency meter, an obsolete device used from about 1900 to the 1940s for measuring the frequency of alternating current.  It consists of a strip of metal with reeds of graduated lengths, vibrated by an [[electromagnet]].  When the unknown frequency is applied to the electromagnet, the reed which is [[resonance|resonant]] at that frequency will vibrate with large amplitude, visible next to the scale.
+}}
+
+=== Stroboscope ===
+An old method of measuring the frequency of rotating or vibrating objects is to use a [[stroboscope]]. This is an intense repetitively flashing light ([[strobe light]]) whose frequency can be adjusted with a calibrated timing circuit. The strobe light is pointed at the rotating object and the frequency adjusted up and down. When the frequency of the strobe equals the frequency of the rotating or vibrating object, the object completes one cycle of oscillation and returns to its original position between the flashes of light, so when illuminated by the strobe the object appears stationary. Then the frequency can be read from the calibrated readout on the stroboscope. A downside of this method is that an object rotating at an integer multiple of the strobing frequency will also appear stationary.
+
+=== Frequency counter ===
+{{main|Frequency counter}}
+[[File:Frequency counter.jpg|thumb|left|Modern frequency counter]]
+
+Higher frequencies are usually measured with a [[frequency counter]]. This is an [[electronic instrumentation|electronic instrument]] which measures the frequency of an applied repetitive electronic [[signal (electronics)|signal]] and displays the result in hertz on a [[digital display]]. It uses [[digital logic]] to count the number of cycles during a time interval established by a precision [[quartz clock|quartz]] time base. Cyclic processes that are not electrical, such as the rotation rate of a shaft, mechanical vibrations, or [[sound wave]]s, can be converted to a repetitive electronic signal by [[transducer]]s and the signal applied to a frequency counter. As of 2018, frequency counters can cover the range up to about 100&nbsp;GHz. This represents the limit of direct counting methods; frequencies above this must be measured by indirect methods.
+
+=== Heterodyne methods ===
+Above the range of frequency counters, frequencies of electromagnetic signals are often measured indirectly utilizing [[heterodyning]] ([[frequency changer|frequency conversion]]). A reference signal of a known frequency near the unknown frequency is mixed with the unknown frequency in a nonlinear mixing device such as a [[diode]]. This creates a [[heterodyne]] or "beat" signal at the difference between the two frequencies.  If the two signals are close together in frequency the heterodyne is low enough to be measured by a frequency counter. This process only measures the difference between the unknown frequency and the reference frequency. To convert higher frequencies, several stages of heterodyning can be used. Current research is extending this method to infrared and light frequencies ([[optical heterodyne detection]]).
+
+== Examples ==
+
+=== Light ===
+{{main article|Light|Electromagnetic radiation}}
+<!--Linked from [[Neil Harbisson]]-->
+[[File:EM spectrum.svg|thumb|upright=2|Complete spectrum of [[electromagnetic radiation]] with the visible portion highlighted]]
+
+Visible light is an [[electromagnetic wave]], consisting of oscillating [[electric field|electric]] and [[magnetic field]]s traveling through space. The frequency of the wave determines its color: 400 THz ({{val|4|e=14|ul=}} Hz) is red light, 800 THz ({{val|8|e=14|u=Hz}}) is violet light, and between these (in the range 400–800 THz) are all the other colors of the [[visible spectrum]]. An electromagnetic wave with a frequency less than {{val|4|e=14|u=Hz}} will be invisible to the human eye; such waves are called [[infrared]] (IR) radiation. At even lower frequency, the wave is called a [[microwave]], and at still lower frequencies it is called a [[radio wave]]. Likewise, an electromagnetic wave with a frequency higher than {{val|8|e=14|u=Hz}} will also be invisible to the human eye; such waves are called [[ultraviolet]] (UV) radiation. Even higher-frequency waves are called [[X-ray]]s, and higher still are [[gamma ray]]s.
+
+All of these waves, from the lowest-frequency radio waves to the highest-frequency gamma rays, are fundamentally the same, and they are all called [[electromagnetic radiation]]. They all travel through vacuum at the same speed (the speed of light), giving them wavelengths inversely proportional to their frequencies.
+<math display=block qid=Q2111>\displaystyle c=f\lambda,</math>
+where ''c'' is the speed of light (''c'' in vacuum or less in other media), ''f'' is the frequency and ''λ'' is the wavelength.
+
+In [[Dispersion (optics)|dispersive media]], such as glass, the speed depends somewhat on frequency, so the wavelength is not quite inversely proportional to frequency.
+
+=== Sound ===
+{{main article|Audio frequency}}
+[[File:Ultrasound range diagram.svg|thumb|upright=1.7|The [[sound wave]] spectrum, with rough guide of some applications]]
+
+Sound propagates as mechanical vibration waves of pressure and displacement, in air or other substances.<ref>{{cite web|url=http://www.merriam-webster.com/dictionary/sound|title=Definition of SOUND|access-date=3 October 2016}}</ref> In general, frequency components of a sound determine its "color", its [[timbre]]. When speaking about the frequency (in singular) of a sound, it means the property that most determines its [[Pitch (music)|pitch]].<ref>{{Cite book|last1= Pilhofer |first1=Michael |title=Music Theory for Dummies|url=https://books.google.com/books?id=CxcviUw4KX8C|year=2007|publisher=For Dummies|page=97|isbn= 978-0-470-16794-6}}</ref>
+
+The frequencies an ear can hear are limited to a [[threshold of hearing|specific range of frequencies]].  The [[audible frequency]] range for humans is typically given as being between about 20&nbsp;Hz and 20,000&nbsp;Hz (20&nbsp;kHz), though the high frequency limit usually reduces with age. Other [[species]] have different hearing ranges. For example, some dog breeds can perceive vibrations up to 60,000&nbsp;Hz.<ref name="Physics Factbook">
+{{cite web
+| url=https://hypertextbook.com/facts/2003/TimCondon.shtml
+| title=Frequency range of dog hearing
+| first=Tim
+| last=Condon
+| year=2003
+| website=The Physics Factbook
+| editor-last=Elert
+| editor-first=Glenn
+| accessdate=2008-10-22
+}}</ref>
+
+In many media, such as air, the [[speed of sound]] is approximately independent of frequency, so the wavelength of the sound waves (distance between repetitions) is approximately inversely proportional to frequency.
+
+=== Line current ===
+{{main article|Utility frequency}}
+In [[Europe]], [[Africa]], [[Australia]], southern [[South America]], most of [[Asia]], and [[Russia]], the frequency of the [[alternating current]] in [[mains electricity|household electrical outlets]] is 50&nbsp;Hz (close to the [[Musical note|tone]] G), whereas in [[North America]] and northern South America, the frequency of the alternating current in household electrical outlets is 60&nbsp;Hz (between the tones B{{music|♭}} and B; that is, a [[minor third]] above the European frequency). The frequency of the '[[mains hum|hum]]' in an [[audio recording]] can show in which of these general regions the recording was made.
+
+== Aperiodic frequency ==
+'''Aperiodic frequency''' is the [[rate (mathematics)|rate]] of incidence or occurrence of non-[[Periodic function|cyclic]] phenomena, including random processes such as [[radioactive decay]]. It is expressed with the unit [[reciprocal second]] (s<sup>−1</sup>)<ref>{{Cite book |title=Mechatronic Systems, Sensors, and Actuators: Fundamentals and Modeling |last=Lombardi |first=Michael A. |publisher=CRC Press |year=2007 |isbn=9781420009002 |editor-last=Bishop |editor-first=Robert H. |location=Austin |language=en|chapter=Fundamentals of Time and Frequency}}</ref> or, in the case of radioactivity, with the unit [[becquerel]].<ref>{{cite report | last1=Newell | first1=David B | last2=Tiesinga | first2=Eite | title=The international system of units (SI) | publisher=National Institute of Standards and Technology | publication-place=Gaithersburg, MD | year=2019 | doi=10.6028/nist.sp.330-2019 | url = https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.330-2019.pdf}} sub§2.3.4, Table 4.</ref>
+
+It is defined as a [[rate (mathematics)|rate]], {{nowrap|1=''f'' = ''N''/Δ''t''}}, involving the [[number of entities]] counted or the number of [[Event (philosophy)|event]]s happened (''N'') during a given [[Time|time duration]] (Δ''t'');<ref>{{Cite web |title=SI Brochure |url=https://www.bipm.org/en/publications/si-brochure |access-date=2025-04-24 |website=BIPM |language=en-US}}</ref> it is a [[physical quantity]] of type [[temporal rate]].
+
+== See also ==
+{{See also|Frequency (disambiguation)|Category:Units of frequency}}
+{{cols|colwidth=20em}}
+* [[Audio frequency]]
+* [[Bandwidth (signal processing)]]
+* [[Chirp]]
+* [[Cutoff frequency]]
+* [[Downsampling]]
+* [[Electronic filter]]
+* [[Fourier analysis]]
+* [[Frequency band]]
+* [[Frequency converter]]
+* [[Frequency domain]]
+* [[Frequency distribution]]
+* [[Frequency extender]]
+* [[Frequency grid]]
+* [[Frequency level]]
+* [[Frequency modulation]]
+* [[Frequency spectrum]]
+* [[Interaction frequency]]
+* [[Least-squares spectral analysis]]
+* [[Natural frequency]]
+* [[Negative frequency]]
+* [[Periodicity (disambiguation)]]
+* [[Pink noise]]
+* [[Preselector]]
+* [[Radar signal characteristics]]
+* [[Radio frequency]]
+* [[Signaling (telecommunications)]]
+* [[Spread spectrum]]
+* [[Spectral component]]
+* [[Transverter]]
+* [[Upsampling]]
+* [[Orders of magnitude (frequency)]]
+{{colend}}
+
+== Notes ==
+{{Reflist|group=note}}
+
+== References ==
+{{Reflist|1}}
+
+== Sources ==
+* {{cite book |last = Davies |first = A. |publisher = Springer |year = 1997 |location = New York |isbn = 978-0-412-61320-3 |url = https://books.google.com/books?id=j2mN2aIs2YIC&pg=RA1-PA275 |title = Handbook of Condition Monitoring: Techniques and Methodology}}
+* {{cite book |last1=Serway |first1=Raymond A. |last2=Faughn |first2=Jerry S. |title=College Physics |date=1989 |publisher=Thomson/Brooks-Cole |location=London |isbn=978-05344-0-814-5 |url=https://archive.org/details/collegephysics00serw/mode/2up?q=frequency |url-access=registration }}
+* {{cite book |last=Young |first=Ian R. |title=Wind Generated Ocean Waves |series=Elsevere Ocean Engineering |volume=2 |publisher=Elsevier |location=Oxford |year=1999 |isbn=978-0-08-043317-2 |url=https://books.google.com/books?id=ph7GKZZGjyYC&q=ocean+waves}}
+
+== Further reading ==
+* {{Cite book | last=Giancoli | first=D.C. | title=Physics for Scientists and Engineers | publisher=Prentice Hall | year=1988 | edition=2nd | isbn=978-0-13-669201-0 |ref=none}}
+
+== External links ==
+{{Wiktionary|frequency|often}}
+* [http://www.sengpielaudio.com/calculator-notenames.htm Keyboard frequencies = naming of notes – The English and American system versus the German system]
+* [http://onlinetonegenerator.com A frequency generator with sound, useful for hearing tests]
+
+{{Acoustics}}
+{{Portal bar|Physics}}
+{{Authority control}}
+
+[[Category:Frequency|*]]

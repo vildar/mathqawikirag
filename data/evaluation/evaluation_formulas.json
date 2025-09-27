@@ -1,0 +1,227 @@
+[
+    {
+        "article_id": "Centrifugal_force.wiki.txt",
+        "formulas": [
+            "a=d^2r/dt^2  ,",
+            "a    =d^2r/dt^2 = d/dtdr/dt = d/dt ( [dr/dt] + \u03c9 \u00d7r ) ;    = [ d^2 r/dt^2 ] + \u03c9\u00d7[ d r/dt ] + d \u03c9/dt\u00d7r + \u03c9 \u00d7dr/dt ;    = [ d^2 r/dt^2 ] + \u03c9\u00d7[ d r/dt ] + d \u03c9/dt\u00d7r + \u03c9 \u00d7( [dr/dt] + \u03c9 \u00d7r ) ;    = [ d^2 r/dt^2 ] + d \u03c9/dt\u00d7r + 2 \u03c9\u00d7[ d r/dt ] + \u03c9\u00d7( \u03c9 \u00d7r)  .",
+            "[d^2r /dt^2]",
+            "d^2r /dt^2"
+        ]
+    },
+    {
+        "article_id": "Angular_velocity.wiki.txt",
+        "formulas": [
+            "v(t) = d\u2113/dt = r\u03c9(t)",
+            "v_\u22a5= vsin(\u03b8)",
+            "\u03c9= vsin(\u03b8)/r.",
+            "\ud835\udc2b=(rcos(\u03c6),rsin(\u03c6))"
+        ]
+    },
+    {
+        "article_id": "Frequency.wiki.txt",
+        "formulas": [
+            "y(t) = sin\u03b8(t)  =  sin(\u03c9t) =  sin(2 \u03c0 f t)",
+            "y(t) = sin\u03b8(t,x) = sin(\u03c9t + kx)",
+            "\u0394f = 1/2T_m",
+            "f = 1/T."
+        ]
+    },
+    {
+        "article_id": "Work_(physics).wiki.txt",
+        "formulas": [
+            "\u201dW\u201d = \u201dFs\u201d = (10 N) (2 m) = 20 J",
+            "\u201dF\u201d cos(\u201d\u03b8\u201d)",
+            "W = \u222b_t_1^t_2\ud835\udc05(t)\u00b7\ud835\udc2f(t)dt = \u222b_t_1^t_2P(t)dt.",
+            "W = \u222b_t_1^t_2 \u03c4\u03d5\u0307   dt = \u03c4(\u03d5_2 - \u03d5_1)."
+        ]
+    },
+    {
+        "article_id": "Coriolis_force.wiki.txt",
+        "formulas": [
+            "\ud835\udc05'    =\n\ud835\udc05 - md \u03c9/dt\u00d7\ud835\udc2b' - 2m \u03c9\u00d7\ud835\udc2f' - m\u03c9 \u00d7(\u03c9 \u00d7\ud835\udc2b') ;     = m\ud835\udc1a'",
+            "-2m ( \u03c9 \u00d7\ud835\udc2f')",
+            "-m\u03c9 \u00d7(\u03c9 \u00d7\ud835\udc2b')",
+            "(\u03c9=0)"
+        ]
+    },
+    {
+        "article_id": "Angular_frequency.wiki.txt",
+        "formulas": [
+            "\u03c9= \u221a(k/m),",
+            "a = -(2 \u03c0f)^2 x.",
+            "\u03c9= \u221a(1/LC).",
+            "\u03c9= v/r."
+        ]
+    },
+    {
+        "article_id": "Acceleration.wiki.txt",
+        "formulas": [
+            "\ud835\udc2f(t) = v(t) \ud835\udc2f(t)/v(t) = v(t) \ud835\udc2e_t(t) ,",
+            "\ud835\udc2e_t = \ud835\udc2f(t)/v(t)   ,",
+            "\ud835\udc1a     = d \ud835\udc2f/dt \n\n               =  dv/dt \ud835\udc2e_t +v(t)d \ud835\udc2e_t/dt \n\n               = dv /dt \ud835\udc2e_t + v^2/r\ud835\udc2e_n ,",
+            "\ud835\udc2c(t)    = \ud835\udc2c_0 + \ud835\udc2f_0 t + 12 \ud835\udc1at^2 = \ud835\udc2c_0 + 12 (\ud835\udc2f_0 + \ud835\udc2f(t)) t ; \ud835\udc2f(t)    = \ud835\udc2f_0 + \ud835\udc1a t ; v^2(t)    = v_0^2 + 2\ud835\udc1a \u00b7[\ud835\udc2c(t)-\ud835\udc2c_0],"
+        ]
+    },
+    {
+        "article_id": "Center_of_mass.wiki.txt",
+        "formulas": [
+            "\u2211_i=1^n m_i(\ud835\udc2b_i - \ud835\udc11) = 0.",
+            "\u222d_Q \u03c1(\ud835\udc2b) (\ud835\udc2b - \ud835\udc11) dV = 0.",
+            "\ud835\udc11 = 1/M \u222d_Q\u03c1(\ud835\udc2b) \ud835\udc2b   dV,",
+            "\ud835\udc1f(\ud835\udc2b) = -dm  g\ud835\udc24\u0302 = -\u03c1(\ud835\udc2b)   dV g\ud835\udc24\u0302,"
+        ]
+    },
+    {
+        "article_id": "Circular_motion.wiki.txt",
+        "formulas": [
+            "\ud835\udc1a = \u03c9\u00d7\ud835\udc2f = \u03c9\u00d7( \u03c9\u00d7\ud835\udc2b ) ,",
+            "\ud835\udc2b(t) = R u_R(t) ,",
+            "u_R(t)",
+            "u_R(t)"
+        ]
+    },
+    {
+        "article_id": "Moment_of_inertia.wiki.txt",
+        "formulas": [
+            "\u03c4\n       = \ud835\udc2b \u00d7\ud835\udc05\n     = \ud835\udc2b \u00d7(m \u03b1 \u00d7\ud835\udc2b) ;    = m ((\ud835\udc2b \u00b7\ud835\udc2b) \u03b1 - (\ud835\udc2b \u00b7\u03b1) \ud835\udc2b) ;    = mr^2 \u03b1\n     = I\u03b1\ud835\udc24\u0302,",
+            "\ud835\udc0b\n       = \ud835\udc2b \u00d7\ud835\udc29\n     = \ud835\udc2b \u00d7(m\u03c9 \u00d7\ud835\udc2b) ;     = m((\ud835\udc2b \u00b7\ud835\udc2b)\u03c9 - (\ud835\udc2b \u00b7\u03c9)\ud835\udc2b) ;    = mr^2 \u03c9\n     = I\u03c9\ud835\udc24\u0302,",
+            "E_K = 1/2 m \ud835\udc2f \u00b7\ud835\udc2f = 1/2 (mr^2)\u03c9^2 = 1/2I\u03c9^2.",
+            "\u03c9_n = \u221a(mgr/I_P),"
+        ]
+    },
+    {
+        "article_id": "Velocity.wiki.txt",
+        "formulas": [
+            "\ud835\udc2f\u0305 = \u0394\ud835\udc31/\u0394t = \u222b_t_0^t_1\ud835\udc2f(t)dt/t_1-t_0.",
+            "v\u0305 =s_1+s_2+s_3+\u2026+s_nt_1+t_2+t_3+\u2026+t_n=s_1+s_2+s_3+\u2026+s_ns_1v_1+s_2v_2+ s_3v_3+\u2026+s_nv_n",
+            "v\u0305 = n(1v_1 + 1v_2 + 1v_3 + \u2026+ 1v_n)^-1 =n(\u2211_i=1^n1/v_i)^-1.",
+            "x = (u + v)/2 t = v\u0305t."
+        ]
+    },
+    {
+        "article_id": "Newton's_laws_of_motion.wiki.txt",
+        "formulas": [
+            "s(t)",
+            "\u0394s/\u0394t = s(t_1) - s(t_0)/t_1 - t_0.",
+            "f(t)",
+            "lim_t\u2192t_0 f(t) = L."
+        ]
+    },
+    {
+        "article_id": "Angular_acceleration.wiki.txt",
+        "formulas": [
+            "\u03b1= d/dt (v_\u22a5/r).",
+            "\u03b1= d/dt (\ud835\udc2b \u00d7\ud835\udc2f/r^2).",
+            "\u03b1   = 1/r^2 (\ud835\udc2b\u00d7d\ud835\udc2f/dt + d\ud835\udc2b/dt \u00d7\ud835\udc2f) - 2/r^3dr/dt (\ud835\udc2b\u00d7\ud835\udc2f) ;    = 1/r^2(\ud835\udc2b\u00d7\ud835\udc1a + \ud835\udc2f\u00d7\ud835\udc2f) - 2/r^3dr/dt (\ud835\udc2b\u00d7\ud835\udc2f) ;    = \ud835\udc2b\u00d7\ud835\udc1a/r^2 - 2/r^3dr/dt(\ud835\udc2b\u00d7\ud835\udc2f).",
+            "\u03c4 = m(\ud835\udc2b\u00d7\ud835\udc1a) = mr^2 (\ud835\udc2b\u00d7\ud835\udc1a/r^2)."
+        ]
+    },
+    {
+        "article_id": "Centripetal_force.wiki.txt",
+        "formulas": [
+            "F_c = m r (2\u03c0/T)^2.",
+            "\u03b3= 1/\u221a(1-v^2/c^2)",
+            "r = r cos(\u03b8) x + r sin(\u03b8) y.",
+            "r = r cos(\u03c9t) x + r sin(\u03c9t) y,"
+        ]
+    },
+    {
+        "article_id": "Jerk_(physics).wiki.txt",
+        "formulas": [
+            "\ud835\udc23(t) = d \ud835\udc1a(t)/dt = d^2 \ud835\udc2f(t)/dt^2 = d^3 \ud835\udc2b(t)/dt^3",
+            "J(...x, \u1e8d, \u1e8b, x) = 0",
+            "\u03c9(t)=\u03b8\u0307(t)=d\u03b8(t)/dt",
+            "\u03b1(t)=\u03c9\u0307(t)=d\u03c9(t)/d t"
+        ]
+    },
+    {
+        "article_id": "Mass.wiki.txt",
+        "formulas": [
+            "K=12m|\ud835\udc2f|^2",
+            "m_relative=\u03b3(m_rest)",
+            "\u03b3= 1/\u221a(1 - v^2/c^2)",
+            "(m_rest)c^2=\u221a(E_total^2-(|\ud835\udc29|c)^2)."
+        ]
+    },
+    {
+        "article_id": "Harmonic_oscillator.wiki.txt",
+        "formulas": [
+            "F = m a = m d^2x/dt^2 = m\u1e8d = -k x.",
+            "x(t) = A sin(\u03c9t + \u03c6),",
+            "\u03c9= \u221a(k/m).",
+            "F = - kx - cdx/dt = m d^2x/dt^2,"
+        ]
+    },
+    {
+        "article_id": "Torque.wiki.txt",
+        "formulas": [
+            "\u03c4_net = I_1\u03c9\u0307_\u03071\u0307\u00ea_\u03021\u0302 + I_2\u03c9\u0307_\u03072\u0307\u00ea_\u03022\u0302 + I_3\u03c9\u0307_\u03073\u0307\u00ea_\u03023\u0302 + I_1\u03c9_1d\u00ea_\u03021\u0302/dt + I_2\u03c9_2d\u00ea_\u03022\u0302/dt + I_3\u03c9_3d\u00ea_\u03023\u0302/dt\n= I\u03c9\u0307 + \u03c9\u00d7(I\u03c9)",
+            "E_r = 12I\u03c9^2,",
+            "power     = force \u00b7linear distance/time ; [6pt]\n    = (torque r ) \u00b7(r \u00b7angular speed \u00b7t)/t ; [6pt]\n    = torque \u00b7angular speed.",
+            "power     = torque \u00b72 \u03c0\u00b7rotational speed \u00b7ft\u00b7lbf/min \u00b7horsepower/33,000 \u00b7ft\u00b7lbf/min ; [6pt]\n    \u2248torque \u00b7RPM/5,252"
+        ]
+    },
+    {
+        "article_id": "Speed.wiki.txt",
+        "formulas": [
+            "km/h",
+            "v = d/t,",
+            "v = |v| = |\u1e59| = |dr/dt| .",
+            "v = ds/dt."
+        ]
+    },
+    {
+        "article_id": "Motion.wiki.txt",
+        "formulas": [
+            "F\u20d7 = ma\u20d7",
+            "\u0394mv\u20d7/\u0394t",
+            "F\u20d7 = ma\u20d7",
+            "-F\u20d7"
+        ]
+    },
+    {
+        "article_id": "Equations_of_motion.wiki.txt",
+        "formulas": [
+            "M[\ud835\udc2b(t),\u1e59(t),\ud835\udc2b\u0308(t),t]=0 ,",
+            "\u201d'r\u201d' = \u201d'r\u201d'(\u201dt\u201d)",
+            "\u201d'v\u201d' = \u201d'v\u201d'(\u201dt\u201d)",
+            "\u201d'a\u201d' = \u201d'a\u201d'(\u201dt\u201d)"
+        ]
+    },
+    {
+        "article_id": "Angular_momentum.wiki.txt",
+        "formulas": [
+            "I = r^2m",
+            "v_\u22a5= vsin(\u03b8)",
+            "L = rmvsin(\u03b8),",
+            "L = rsin(\u03b8)mv,"
+        ]
+    },
+    {
+        "article_id": "Force.wiki.txt",
+        "formulas": [
+            "\ud835\udc05 = d\ud835\udc29/dt = d(m\ud835\udc2f)/dt,",
+            "\ud835\udc05=-Gm_1m_2/r^2 r,",
+            "\ud835\udc05 = q(\ud835\udc04 + \ud835\udc2f \u00d7\ud835\udc01),",
+            "U(\ud835\udc2b)"
+        ]
+    },
+    {
+        "article_id": "Momentum.wiki.txt",
+        "formulas": [
+            "F(t)",
+            "\u0394p = J = \u222b_t_1^t_2 F(t)  dt .",
+            "F = d(mv)/dt = mdv/dt = m a,",
+            "d/d t (p_1 + p_2)= 0."
+        ]
+    },
+    {
+        "article_id": "Rotation.wiki.txt",
+        "formulas": [
+            "\u03b1=cos^-1(A_11+A_22+A_33-1/2)",
+            "2sin(\u03b1)n={A_32-A_23,A_13-A_31,A_21-A_12}",
+            "sin(\u03b1)=0",
+            "i(v - v\u0305)"
+        ]
+    }
+]

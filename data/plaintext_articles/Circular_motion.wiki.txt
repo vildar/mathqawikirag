@@ -1,0 +1,418 @@
+In physics, circular motion is movement of an object along the
+circumference of a circle or rotation along a circular arc. It can be
+uniform, with a constant rate of rotation and constant tangential speed,
+or non-uniform with a changing rate of rotation. The rotation around a
+fixed axis of a three-dimensional body involves the circular motion of
+its parts. The equations of motion describe the movement of the center
+of mass of a body, which remains at a constant distance from the axis of
+rotation. In circular motion, the distance between the body and a fixed
+point on its surface remains the same, i.e., the body is assumed rigid.
+
+Examples of circular motion include: special satellite orbits around the
+Earth (circular orbits), a ceiling fan's blades rotating around a hub, a
+stone that is tied to a rope and is being swung in circles, a car
+turning through a curve in a race track, an electron moving
+perpendicular to a uniform magnetic field, and a gear turning inside a
+mechanism.
+
+Since the object's velocity vector is constantly changing direction, the
+moving object is undergoing acceleration by a centripetal force in the
+direction of the center of rotation. Without this acceleration, the
+object would move in a straight line, according to Newton's laws of
+motion.
+
+Uniform circular motion
+
+In physics, uniform circular motion describes the motion of a body
+traversing a circular path at a constant speed. Since the body describes
+circular motion, its distance from the axis of rotation remains constant
+at all times. Though the body's speed is constant, its velocity is not
+constant: velocity, a vector quantity, depends on both the body's speed
+and its direction of travel. This changing velocity indicates the
+presence of an acceleration; this centripetal acceleration is of
+constant magnitude and directed at all times toward the axis of
+rotation. This acceleration is, in turn, produced by a centripetal force
+which is also constant in magnitude and directed toward the axis of
+rotation.
+
+In the case of rotation around a fixed axis of a rigid body that is not
+negligibly small compared to the radius of the path, each particle of
+the body describes a uniform circular motion with the same angular
+velocity, but with velocity and acceleration varying with the position
+with respect to the axis.
+
+Formula
+
+For motion in a circle of radius r, the circumference of the
+circle is ”C” = 2”πr”. If the period for one rotation is T,
+the angular rate of rotation, also known as angular velocity,
+ω is: ω= 2 π/T = 2πf = dθ/dt and the units are radians/second.
+
+The speed of the object traveling the circle is: v = 2 πr/T = ωr
+
+The angle θ swept out in a time t is: θ= 2 πt/T = ωt
+
+The angular acceleration, α, of the particle is: α= dω/dt
+
+In the case of uniform circular motion, α will be zero.
+
+The acceleration due to change in the direction is: a_c = v^2/r = ω^2 r
+
+The centripetal and centrifugal force can also be found using
+acceleration: F_c = ṗ ṁ = 0= ma_c = mv^2/r
+
+The vector relationships are shown in Figure 1. The axis of rotation is
+shown as a vector ””'ω””' perpendicular to the plane of the orbit
+and with a magnitude ”ω” = ”dθ” / ”dt”. The direction of ””'ω””' is chosen
+using the right-hand rule. With this convention for depicting rotation,
+the velocity is given by a vector cross product as 𝐯 = ω×𝐫 , which is
+a vector perpendicular to both ””'ω””' and ”'r”'(”t”), tangential
+to the orbit, and of magnitude ”ω” ”r”. Likewise, the acceleration
+is given by 𝐚 = ω×𝐯 = ω×( ω×𝐫 ) , which is a vector perpendicular to both
+””'ω””' and ”'v”'(”t”) of magnitude ”ω” |”'v”'| = ”ω”^2 ”r” and directed
+exactly opposite to ”'r”'(”t”).
+
+In the simplest case the speed, mass, and radius are constant.
+
+Consider a body of one kilogram, moving in a circle of radius one metre,
+with an angular velocity of one radian per second.
+
+-   The speed is 1 metre per second.
+-   The inward acceleration is 1 metre per square second, ”v”i sup|2/”r”.
+-   It is subject to a centripetal force of 1 kilogram metre per square
+    second, which is 1 newton.
+-   The momentum of the body is 1 kg·m·s⁻¹.
+-   The moment of inertia is 1 kg·m².
+-   The angular momentum is 1 kg·m²·s⁻¹.
+-   The kinetic energy is 0.5 joule.
+-   The circumference of the orbit is 2 (~6.283) metres.
+-   The period of the motion is 2π seconds.
+-   The frequency is (2π)⁻¹ hertz.
+
+In polar coordinates
+
+During circular motion, the body moves on a curve that can be described
+in the polar coordinate system as a fixed distance ”R” from the
+center of the orbit taken as the origin, oriented at an angle
+”θ”(”t”) from some reference direction. See Figure 4. The
+displacement vector 𝐫 is the radial vector from the origin to
+the particle location: 𝐫(t) = R u_R(t) , where u_R(t) is the unit vector
+parallel to the radius vector at time t and pointing away from
+the origin. It is convenient to introduce the unit vector orthogonal to
+u_R(t) as well, namely u_θ(t). It is customary to orient
+u_θ(t) to point in the direction of travel along the orbit.
+
+The velocity is the time derivative of the displacement: 𝐯(t) = d/dt 𝐫(t) = d R/dt u_R(t) + R d u_R/dt   .
+
+Because the radius of the circle is constant, the radial component of
+the velocity is zero. The unit vector u_R(t) has a time-invariant
+magnitude of unity, so as time varies its tip always lies on a circle of
+unit radius, with an angle θ the same as the angle of
+𝐫(t). If the particle displacement rotates through an angle
+”dθ” in time ”dt”, so does u_R(t), describing an arc
+on the unit circle of magnitude ”dθ”. See the unit circle at the
+left of Figure 4. Hence: d u_R/dt = d θ/dt u_θ(t)   , where the direction of the change
+must be perpendicular to u_R(t) (or, in other words, along
+u_θ(t)) because any change du_R(t) in the direction of
+u_R(t) would change the size of u_R(t). The sign is positive
+because an increase in ”dθ” implies the object and u_R(t)
+have moved in the direction of u_θ(t). Hence the velocity becomes:
+𝐯(t) = d/dt 𝐫(t) = Rd u_R/dt = R d θ/dt u_θ(t) = R ωu_θ(t)   .
+
+The acceleration of the body can also be broken into radial and
+tangential components. The acceleration is the time derivative of the
+velocity: 𝐚(t)    = d/dt 𝐯(t) = d/dt (R ωu_θ(t) ) ;    = R ( d ω/dt u_θ(t) + ωd u_θ/dt )   .
+
+The time derivative of u_θ(t) is found the same way as for
+u_R(t). Again, u_θ(t) is a unit vector and its tip traces a
+unit circle with an angle that is ”π”/2 + ”θ”. Hence, an increase in
+angle ”dθ” by 𝐫(t) implies u_θ(t) traces an arc of
+magnitude ”dθ”, and as u_θ(t) is orthogonal to
+u_R(t), we have: d u_θ/dt = -d θ/dt u_R(t) = -ωu_R(t)   , where a negative sign is necessary
+to keep u_θ(t) orthogonal to u_R(t). (Otherwise, the angle
+between u_θ(t) and u_R(t) would decrease with an increase in
+”dθ”.) See the unit circle at the left of Figure 4.
+Consequently, the acceleration is: 𝐚(t)    = R ( d ω/dt u_θ(t) + ωd u_θ/dt ) ;    = R d ω/dt u_θ(t) - ω^2 R u_R(t)  .
+
+The centripetal acceleration is the radial component, which is directed
+radially inward: 𝐚_R(t) = -ω^2 R u_R(t)   , while the tangential component changes the
+magnitude of the velocity: 𝐚_θ(t) = R d ω/dt u_θ(t) = d R ω/dt u_θ(t) = d |𝐯(t)|/dt u_θ(t)   .
+
+Using complex numbers
+
+Circular motion can be described using complex numbers. Let the
+x axis be the real axis and the y axis be the
+imaginary axis. The position of the body can then be given as
+z, a complex "vector": z = x + iy = R(cos[θ(t)] + i sin[θ(t)]) = Re^iθ(t) , where ”i” is the
+imaginary unit, and θ(t) is the argument of the complex number
+as a function of time, t.
+
+Since the radius is constant: Ṙ = R̈ = 0   , where a dot indicates
+differentiation in respect of time.
+
+With this notation, the velocity becomes: v = ż
+  = d/dt(R e^iθ[t])
+  = R d/dt(e^iθ[t])
+  = R e^iθ(t) d/dt (i θ[t] )
+  = iRθ̇(t) e^iθ(t)
+  = iωR e^iθ(t) = iωz and the
+acceleration becomes: a    = v̇ = iω̇ z + iωż = (iω̇ - ω^2)z ;    = (iω̇ - ω^2 ) R e^iθ(t) ;    = -ω^2 R e^iθ(t) + ω̇ e^iπ/2 R e^iθ(t)   .
+
+The first term is opposite in direction to the displacement vector and
+the second is perpendicular to it, just like the earlier results shown
+before.
+
+Velocity
+
+Figure 1 illustrates velocity and acceleration vectors for uniform
+motion at four different points in the orbit. Because the velocity
+”'v”' is tangent to the circular path, no two velocities point in
+the same direction. Although the object has a constant speed, its
+direction is always changing. This change in velocity is caused by an
+acceleration ”'a”', whose magnitude is (like that of the
+velocity) held constant, but whose direction also is always changing.
+The acceleration points radially inwards (centripetally) and is
+perpendicular to the velocity. This acceleration is known as centripetal
+acceleration.
+
+For a path of radius r, when an angle θ is swept
+out, the distance traveled on the periphery of the orbit is
+”s” = ”rθ”. Therefore, the speed of travel around the orbit is
+v = r dθ/dt = rω, where the angular rate of rotation is ”ω”. (By
+rearrangement, ”ω” = ”v”/”r”.) Thus, ”v” is a constant, and the
+velocity vector ”'v”' also rotates with constant magnitude
+”v”, at the same angular rate ”ω”.
+
+Relativistic circular motion
+
+In this case, the three-acceleration vector is perpendicular to the
+three-velocity vector, 𝐮 ·𝐚 = 0. and the square of proper
+acceleration, expressed as a scalar invariant, the same in all reference
+frames, α^2 = γ^4 a^2 + γ^6 (𝐮 ·𝐚)^2/c^2, becomes the expression for circular motion,
+α^2 = γ^4 a^2. or, taking the positive square root and using the
+three-acceleration, we arrive at the proper acceleration for circular
+motion: α= γ^2 v^2/r.
+
+Acceleration
+
+The left-hand circle in Figure 2 is the orbit showing the velocity
+vectors at two adjacent times. On the right, these two velocities are
+moved so their tails coincide. Because speed is constant, the velocity
+vectors on the right sweep out a circle as time advances. For a swept
+angle ”dθ” = ”ω” ”dt” the change in ”'v”' is a vector at right
+angles to ”'v”' and of magnitude ”v” ”dθ”, which in turn
+means that the magnitude of the acceleration is given by a_c = v dθ/dt = vω= v^2/r
+
++-------+-------+-------+-------+-------+-------+-------+-------+
+| c     | 1 m/s | 2 m/s | 5 m/s | 1     | 2     | 5     | 10    |
+| olspa | 3.6   | 7.2   | 18    | 0 m/s | 0 m/s | 0 m/s | 0 m/s |
+| n="2" |  km/h |  km/h |  km/h | 36    | 72    | 180   | 360   |
+| r     | 2.    | 4.    | 1     |  km/h |  km/h |  km/h |  km/h |
+| owspa | 2 mph | 5 mph | 1 mph | 2     | 4     | 11    | 22    |
+| n="2" |       |       |       | 2 mph | 5 mph | 0 mph | 0 mph |
++=======+=======+=======+=======+=======+=======+=======+=======+
+| Slow  |       | Bi    |       | City  |       | Aerob |       |
+| walk  |       | cycle |       | car   |       | atics |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 10 cm | Labor | 10    | 40    | 250   | 1.0   | 4.0   | 25    |
+| 3.9   | atory |  m/s² |  m/s² |  m/s² | km/s² | km/s² | km/s² |
+| in    | centr | 1.0 g | 4.1 g | 25 g  | 100 g | 410 g | 2500  |
+|       | ifuge |       |       |       |       |       | g     |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 20 cm |       | 5.0   | 20    | 130   | 500   | 2.0   | 13    |
+| 7.9   |       |  m/s² |  m/s² |  m/s² |  m/s² | km/s² | km/s² |
+| in    |       | 0.51  | 2.0 g | 13 g  | 51 g  | 200 g | 1300  |
+|       |       | g     |       |       |       |       | g     |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 50 cm |       | 2.0   | 8.0   | 50    | 200   | 800   | 5.0   |
+| 1     |       |  m/s² |  m/s² |  m/s² |  m/s² |  m/s² | km/s² |
+| .6 ft |       | 0.20  | 0.82  | 5.1 g | 20 g  | 82 g  | 510 g |
+|       |       | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 1 m   | Playg | 1.0   | 4.0   | 25    | 100   | 400   | 2.5   |
+| 3     | round |  m/s² |  m/s² |  m/s² |  m/s² |  m/s² | km/s² |
+| .3 ft | car   | 0.10  | 0.41  | 2.5 g | 10 g  | 41 g  | 250 g |
+|       | ousel | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 2 m   |       | 500   | 2.0   | 13    | 50    | 200   | 1.3   |
+| 6     |       | mm/s² |  m/s² |  m/s² |  m/s² |  m/s² | km/s² |
+| .6 ft |       | 0.051 | 0.20  | 1.3 g | 5.1 g | 20 g  | 130 g |
+|       |       | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 5 m   |       | 200   | 800   | 5.0   | 20    | 80    | 500   |
+| 16 ft |       | mm/s² | mm/s² |  m/s² |  m/s² |  m/s² |  m/s² |
+|       |       | 0.020 | 0.082 | 0.51  | 2.0 g | 8.2 g | 51 g  |
+|       |       | g     | g     | g     |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 10 m  | Roll  | 100   | 400   | 2.5   | 10    | 40    | 250   |
+| 33 ft | er-co | mm/s² | mm/s² |  m/s² |  m/s² |  m/s² |  m/s² |
+|       | aster | 0.010 | 0.041 | 0.25  | 1.0 g | 4.1 g | 25 g  |
+|       | ver   | g     | g     | g     |       |       |       |
+|       | tical |       |       |       |       |       |       |
+|       | loop  |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 20 m  |       | 50    | 200   | 1.3   | 5.0   | 20    | 130   |
+| 66 ft |       | mm/s² | mm/s² |  m/s² |  m/s² |  m/s² |  m/s² |
+|       |       | 0     | 0.020 | 0.13  | 0.51  | 2 g   | 13 g  |
+|       |       | .0051 | g     | g     | g     |       |       |
+|       |       | g     |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 50 m  |       | 20    | 80    | 500   | 2.0   | 8.0   | 50    |
+| 1     |       | mm/s² | mm/s² | mm/s² |  m/s² |  m/s² |  m/s² |
+| 60 ft |       | 0     | 0     | 0.051 | 0.20  | 0.82  | 5.1 g |
+|       |       | .0020 | .0082 | g     | g     | g     |       |
+|       |       | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 100 m | Fr    | 10    | 40    | 250   | 1.0   | 4.0   | 25    |
+| 3     | eeway | mm/s² | mm/s² | mm/s² |  m/s² |  m/s² |  m/s² |
+| 30 ft | on    | 0     | 0     | 0.025 | 0.10  | 0.41  | 2.5 g |
+|       | -ramp | .0010 | .0041 | g     | g     | g     |       |
+|       |       | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 200 m |       | 5.0   | 20    | 130   | 500   | 2.0   | 13    |
+| 6     |       | mm/s² | mm/s² |  m/s² | mm/s² |  m/s² |  m/s² |
+| 60 ft |       | 0.    | 0     | 0.013 | 0.051 | 0.20  | 1.3 g |
+|       |       | 00051 | .0020 | g     | g     | g     |       |
+|       |       | g     | g     |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 500 m |       | 2.0   | 8.0   | 50    | 200   | 800   | 5.0   |
+| 16    |       | mm/s² | mm/s² | mm/s² | mm/s² | mm/s² |  m/s² |
+| 00 ft |       | 0.    | 0.    | 0     | 0.020 | 0.082 | 0.51  |
+|       |       | 00020 | 00082 | .0051 | g     | g     | g     |
+|       |       | g     | g     | g     |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| 1 km  | High- | 1.0   | 4.0   | 25    | 100   | 400   | 2.5   |
+| 33    | speed | mm/s² | mm/s² | mm/s² | mm/s² | mm/s² |  m/s² |
+| 00 ft | ra    | 0.    | 0.    | 0     | 0.010 | 0.041 | 0.25  |
+|       | ilway | 00010 | 00041 | .0025 | g     | g     | g     |
+|       |       | g     | g     | g     |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+
+: Centripetal acceleration for some values of radius and magnitude of
+velocity
+
+Non-uniform circular motion
+
+In non-uniform circular motion, an object moves in a circular path with
+varying speed. Since the speed is changing, there is tangential
+acceleration in addition to normal acceleration.
+
+The net acceleration is directed towards the interior of the circle (but
+does not pass through its center).
+
+The net acceleration may be resolved into two components: tangential
+acceleration and centripetal acceleration. Unlike tangential
+acceleration, centripetal acceleration is present in both uniform and
+non-uniform circular motion.
+
+In non-uniform circular motion, the normal force does not always point
+to the opposite direction of weight.
+
+The normal force is actually the sum of the radial and tangential
+forces. The component of weight force is responsible for the tangential
+force (when we neglect friction). The centripetal force is due to the
+change in the direction of velocity.
+
+The normal force and weight may also point in the same direction. Both
+forces can point downwards, yet the object will remain in a circular
+path without falling down.
+
+The normal force can point downwards. Considering that the object is a
+person sitting inside a plane moving in a circle, the two forces (weight
+and normal force) will point down only when the plane reaches the top of
+the circle. The reason for this is that the normal force is the sum of
+the tangential force and centripetal force. The tangential force is zero
+at the top (as no work is performed when the motion is perpendicular to
+the direction of force). Since weight is perpendicular to the direction
+of motion of the object at the top of the circle and the centripetal
+force points downwards, the normal force will point down as well.
+
+From a logical standpoint, a person travelling in that plane will be
+upside down at the top of the circle. At that moment, the person's seat
+is actually pushing down on the person, which is the normal force.
+
+The reason why an object does not fall down when subjected to only
+downward forces is a simple one. Once an object is thrown into the air,
+there is only the downward gravitational force that acts on the object.
+That does not mean that once an object is thrown into the air, it will
+fall instantly. The velocity of the object keeps it up in the air. The
+first of Newton's laws of motion states that an object's inertia keeps
+it in motion; since the object in the air has a velocity, it will tend
+to keep moving in that direction.
+
+A varying angular speed for an object moving in a circular path can also
+be achieved if the rotating body does not have a homogeneous mass
+distribution.
+
+One can deduce the formulae of speed, acceleration and jerk, assuming
+that all the variables depend on t: 𝐫 = R 𝐮_R u_R = ω𝐮_θ
+u_θ = -ω𝐮_R 𝐯 = d/dt 𝐫 = r
+= Ṙ 𝐮_R + R ω𝐮_θ 𝐚 = d/dt 𝐯 =  v
+= R̈ 𝐮_R
++ (Ṙ ω𝐮_θ
++ Ṙ ω𝐮_θ )
++ R ω̇𝐮_θ
+- R  ω^2 𝐮_R
+
+𝐣 = d/dt 𝐚 = a
+= ̈̇R 𝐮_R 
++ R̈ ω𝐮_θ
+
++ (2R̈ ω𝐮_θ
++ 2Ṙ ω̇𝐮_θ
+- 2Ṙ ω^2𝐮_R )
+
++ Ṙ ω̇𝐮_θ
++ R ω̈𝐮_θ
+- R ω̇ω𝐮_R
+
+- Ṙ  ω^2 𝐮_R
+- R  2ω̇ω𝐮_R
+- R  ω^3 𝐮_θ
+
+𝐣
+= ( ̈̇R - 3Ṙ ω^2 - 3R ω̇ω) 𝐮_R 
++ ( 3 R̈ ω+ 3Ṙ ω̇+ R ω̈- R  ω^3 ) 𝐮_θ
+
+Further transformations may involve curvature = c = 1/R, ω= v/R = vc and their corresponding
+derivatives: Ṙ    = -ċ/c^2 ; R̈    = 2(ċ)^2/c^3 - c̈/c^2 ; ω̇   = v̇ R - Ṙ v/R^2 = v̇ c + v ċ.
+
+Applications
+
+Solving applications dealing with non-uniform circular motion involves
+force analysis. With a uniform circular motion, the only force acting
+upon an object traveling in a circle is the centripetal force. In a
+non-uniform circular motion, there are additional forces acting on the
+object due to a non-zero tangential acceleration. Although there are
+forces acting upon the object, the sum of all the forces acting on the
+object will have to be equal to the centripetal force. F_net    = ma ;    = ma_r ;    = mv^2/r ;    = F_c
+
+Radial acceleration is used when calculating the total force. Tangential
+acceleration is not used in calculating total force because it is not
+responsible for keeping the object in a circular path. The only
+acceleration responsible for keeping an object moving in a circle is the
+radial acceleration. Since the sum of all forces is the centripetal
+force, drawing centripetal force into a free body diagram is not
+necessary and usually not recommended.
+
+Using F_net = F_c, we can draw free body diagrams to list all the
+forces acting on an object and then set it equal to F_c.
+Afterward, we can solve for whatever is unknown (this can be mass,
+velocity, radius of curvature, coefficient of friction, normal force,
+etc.). For example, the visual above showing an object at the top of a
+semicircle would be expressed as F_c = n + mg.
+
+In a uniform circular motion, the total acceleration of an object in a
+circular path is equal to the radial acceleration. Due to the presence
+of tangential acceleration in a non uniform circular motion, that does
+not hold true any more. To find the total acceleration of an object in a
+non uniform circular, find the vector sum of the tangential acceleration
+and the radial acceleration. √(a_r^2 + a_t^2) = a
+
+Radial acceleration is still equal to v^2/r. Tangential
+acceleration is simply the derivative of the speed at any given point:
+a_t = dv/dt. This root sum of squares of separate radial and tangential
+accelerations is only correct for circular motion; for general motion
+within a plane with polar coordinates (r, θ), the Coriolis term
+a_c = 2 (dr/dt)(dθ/dt) should be added to a_t, whereas radial
+acceleration then becomes a_r = -v^2/r + d^2 r/dt^2.
