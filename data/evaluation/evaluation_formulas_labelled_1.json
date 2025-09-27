@@ -1,0 +1,265 @@
+[
+  {
+    "article_id": "Centrifugal_force.wiki.txt",
+    "formulas": [
+      { "name": "Centrifugal Acceleration", "formula": "a_c = -ω²r" },
+      {
+        "name": "Centrifugal Force",
+        "formula": "F_c = mω²r"
+      },
+      {
+        "name": "Centrifugal Potential in Rotating Frame",
+        "formula": "V = -1/2 mω²r²"
+      }
+    ]
+  },
+  {
+    "article_id": "Coriolis_force.wiki.txt",
+    "formulas": [
+      { "name": "Coriolis Force", "formula": "F_C = 2m(Ω × v)" },
+      { "name": "Coriolis Acceleration", "formula": "a_C = 2(Ω × v)" },
+      { "name": "Rossby Number", "formula": "Ro = U/(Lf)" },
+      { "name": "Coriolis Parameter", "formula": "f = 2Ωsinφ" }
+    ]
+  },
+  {
+    "article_id": "Angular_velocity.wiki.txt",
+    "formulas": [
+      { "name": "Angular Velocity", "formula": "ω = Δθ/Δt" },
+      { "name": "Angular Velocity Vector", "formula": "ω = r × v/|r|²" },
+      {
+        "name": "Earth's Angular Velocity",
+        "formula": "ω_E = 7.2921 × 10⁻⁵ rad/s"
+      },
+      { "name": "Relation to Linear Velocity", "formula": "v = ω × r" }
+    ]
+  },
+  {
+    "article_id": "Acceleration.wiki.txt",
+    "formulas": [
+      { "name": "Average Acceleration", "formula": "a_avg = Δv/Δt" },
+      { "name": "Instantaneous Acceleration", "formula": "a = dv/dt" },
+      { "name": "Centripetal Acceleration", "formula": "a_c = v²/r" },
+      { "name": "Tangential Acceleration", "formula": "a_t = rα" }
+    ]
+  },
+  {
+    "article_id": "Centripetal_force.wiki.txt",
+    "formulas": [
+      { "name": "Centripetal Force", "formula": "F_c = mv²/r" },
+      {
+        "name": "Centripetal Force with Angular Velocity",
+        "formula": "F_c = mω²r"
+      },
+      { "name": "Centripetal Acceleration", "formula": "a_c = v²/r" },
+      {
+        "name": "Centripetal Force in Terms of Period",
+        "formula": "F_c = 4π²mr/T²"
+      }
+    ]
+  },
+  {
+    "article_id": "Angular_momentum.wiki.txt",
+    "formulas": [
+      { "name": "Angular Momentum", "formula": "L = r × p" },
+      { "name": "Angular Momentum of a Rigid Body", "formula": "L = Iω" },
+      { "name": "Torque and Angular Momentum", "formula": "τ = dL/dt" },
+      { "name": "Angular Momentum for Point Mass", "formula": "L = mvr sinθ" }
+    ]
+  },
+  {
+    "article_id": "Angular_acceleration.wiki.txt",
+    "formulas": [
+      { "name": "Angular Acceleration", "formula": "α = Δω/Δt" },
+      { "name": "Relation to Torque", "formula": "τ = Iα" },
+      {
+        "name": "Angular Acceleration in Terms of Linear",
+        "formula": "α = a_t/r"
+      },
+      {
+        "name": "Angular Acceleration for Uniform Circular Motion",
+        "formula": "α = 0"
+      }
+    ]
+  },
+  {
+    "article_id": "Angular_frequency.wiki.txt",
+    "formulas": [
+      { "name": "Angular Frequency", "formula": "ω = 2πf" },
+      { "name": "Relation to Period", "formula": "ω = 2π/T" },
+      { "name": "Simple Harmonic Motion", "formula": "ω = √(k/m)" },
+      { "name": "Damped Oscillator", "formula": "ω' = √(ω₀² - β²)" }
+    ]
+  },
+  {
+    "article_id": "Circular_motion.wiki.txt",
+    "formulas": [
+      { "name": "Circumference", "formula": "C = 2πr" },
+      { "name": "Angular Displacement", "formula": "θ = s/r" },
+      { "name": "Centripetal Acceleration", "formula": "a_c = v²/r" },
+      { "name": "Period of Rotation", "formula": "T = 2πr/v" }
+    ]
+  },
+  {
+    "article_id": "Center_of_mass.wiki.txt",
+    "formulas": [
+      { "name": "Center of Mass for Particles", "formula": "R = (Σm_i r_i)/M" },
+      {
+        "name": "Center of Mass for Continuous Body",
+        "formula": "R = (1/M) ∫ r dm"
+      },
+      { "name": "Velocity of Center of Mass", "formula": "V = (Σm_i v_i)/M" },
+      {
+        "name": "Acceleration of Center of Mass",
+        "formula": "A = (Σm_i a_i)/M"
+      }
+    ]
+  },
+  {
+    "article_id": "Equations_of_motion.wiki.txt",
+    "formulas": [
+      { "name": "First Equation of Motion", "formula": "v = u + at" },
+      { "name": "Second Equation of Motion", "formula": "s = ut + 1/2 at²" },
+      { "name": "Third Equation of Motion", "formula": "v² = u² + 2as" },
+      {
+        "name": "Fourth Equation of Motion (Displacement in nth second)",
+        "formula": "s_n = u + a/2 (2n - 1)"
+      }
+    ]
+  },
+  {
+    "article_id": "Force.wiki.txt",
+    "formulas": [
+      { "name": "Newton's Second Law", "formula": "F = ma" },
+      { "name": "Gravitational Force", "formula": "F = G m₁m₂/r²" },
+      { "name": "Frictional Force", "formula": "F_f = μN" },
+      { "name": "Spring Force", "formula": "F = -kx" }
+    ]
+  },
+  {
+    "article_id": "Frequency.wiki.txt",
+    "formulas": [
+      { "name": "Frequency", "formula": "f = 1/T" },
+      { "name": "Angular Frequency", "formula": "ω = 2πf" },
+      { "name": "Wave Frequency", "formula": "f = v/λ" },
+      { "name": "Doppler Effect", "formula": "f' = f(v ± v_o)/(v ∓ v_s)" }
+    ]
+  },
+  {
+    "article_id": "Harmonic_oscillator.wiki.txt",
+    "formulas": [
+      { "name": "Simple Harmonic Motion", "formula": "F = -kx" },
+      { "name": "Angular Frequency of SHM", "formula": "ω = √(k/m)" },
+      { "name": "Displacement in SHM", "formula": "x(t) = A cos(ωt + φ)" },
+      { "name": "Energy in SHM", "formula": "E = 1/2 kA²" }
+    ]
+  },
+  {
+    "article_id": "Jerk_(physics).wiki.txt",
+    "formulas": [
+      { "name": "Jerk", "formula": "j = da/dt" },
+      { "name": "Jerk as Third Derivative", "formula": "j = d³x/dt³" },
+      { "name": "Jolt", "formula": "s = dj/dt" },
+      { "name": "Jerk in Circular Motion", "formula": "j = rα" }
+    ]
+  },
+  {
+    "article_id": "Mass.wiki.txt",
+    "formulas": [
+      { "name": "Mass-Energy Equivalence", "formula": "E = mc²" },
+      { "name": "Newton's Second Law", "formula": "F = ma" },
+      { "name": "Gravitational Force", "formula": "F = G m₁m₂/r²" },
+      { "name": "Momentum", "formula": "p = mv" }
+    ]
+  },
+  {
+    "article_id": "Moment_of_inertia.wiki.txt",
+    "formulas": [
+      { "name": "Moment of Inertia", "formula": "I = mr²" },
+      { "name": "Moment of Inertia for Rod", "formula": "I = 1/12 ML²" },
+      { "name": "Moment of Inertia for Disk", "formula": "I = 1/2 MR²" },
+      { "name": "Parallel Axis Theorem", "formula": "I = I_CM + Md²" }
+    ]
+  },
+  {
+    "article_id": "Momentum.wiki.txt",
+    "formulas": [
+      { "name": "Linear Momentum", "formula": "p = mv" },
+      { "name": "Impulse", "formula": "J = FΔt" },
+      { "name": "Conservation of Momentum", "formula": "p_initial = p_final" },
+      { "name": "Relativistic Momentum", "formula": "p = γmv" }
+    ]
+  },
+  {
+    "article_id": "Motion.wiki.txt",
+    "formulas": [
+      { "name": "Displacement", "formula": "Δx = x_f - x_i" },
+      { "name": "Average Velocity", "formula": "v_avg = Δx/Δt" },
+      { "name": "Average Acceleration", "formula": "a_avg = Δv/Δt" },
+      { "name": "Instantaneous Velocity", "formula": "v = dx/dt" }
+    ]
+  },
+  {
+    "article_id": "Newton's_laws_of_motion.wiki.txt",
+    "formulas": [
+      { "name": "Newton's Second Law", "formula": "F = ma" },
+      { "name": "Law of Universal Gravitation", "formula": "F = G m₁m₂/r²" },
+      { "name": "Newton's First Law", "formula": "ΣF = 0 → v = constant" },
+      { "name": "Newton's Third Law", "formula": "F_AB = -F_BA" }
+    ]
+  },
+  {
+    "article_id": "Rotation.wiki.txt",
+    "formulas": [
+      { "name": "Rotational Kinetic Energy", "formula": "KE_rot = 1/2 Iω²" },
+      { "name": "Rotational Inertia", "formula": "I = mr²" },
+      { "name": "Torque", "formula": "τ = r × F" },
+      { "name": "Angular Momentum", "formula": "L = Iω" }
+    ]
+  },
+  {
+    "article_id": "Speed.wiki.txt",
+    "formulas": [
+      { "name": "Average Speed", "formula": "v_avg = Δd/Δt" },
+      { "name": "Instantaneous Velocity", "formula": "v = dx/dt" },
+      { "name": "Speed of Light", "formula": "c = 299,792,458 m/s" },
+      {
+        "name": "Relativistic Speed Addition",
+        "formula": "w = (u + v)/(1 + uv/c²)"
+      }
+    ]
+  },
+  {
+    "article_id": "Torque.wiki.txt",
+    "formulas": [
+      { "name": "Torque", "formula": "τ = r × F" },
+      { "name": "Magnitude of Torque", "formula": "τ = rF sinθ" },
+      {
+        "name": "Net Torque and Angular Acceleration",
+        "formula": "τ_net = Iα"
+      },
+      { "name": "Work Done by Torque", "formula": "W = ∫ τ dθ" }
+    ]
+  },
+  {
+    "article_id": "Velocity.wiki.txt",
+    "formulas": [
+      { "name": "Average Velocity", "formula": "v_avg = Δx/Δt" },
+      { "name": "Instantaneous Velocity", "formula": "v = dx/dt" },
+      {
+        "name": "Relativistic Velocity Addition",
+        "formula": "w = (u + v)/(1 + uv/c²)"
+      },
+      { "name": "Escape Velocity", "formula": "v_e = √(2GM/r)" }
+    ]
+  },
+  {
+    "article_id": "Work_(physics).wiki.txt",
+    "formulas": [
+      { "name": "Work Done", "formula": "W = F • d" },
+      { "name": "Work Done by a Variable Force", "formula": "W = ∫ F • dx" },
+      { "name": "Kinetic Energy", "formula": "KE = 1/2 mv²" },
+      { "name": "Power", "formula": "P = W/Δt" }
+    ]
+  }
+]

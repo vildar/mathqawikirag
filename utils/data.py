@@ -226,7 +226,7 @@ def clean_latex(ans):
 
 def generate_prompt(query, chunk):
     return f"""
-        You are a mathematics expert. Given the following user query and context passages, extract or derive the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
+        You are a mathematics expert. Given the following user query and context passages, extract the mathematical formula that answers the query, using only the information in the context. If the formula is described in words, convert it to a mathematical equation.
 
         ### User Query:
         {query}
@@ -235,5 +235,5 @@ def generate_prompt(query, chunk):
         {chunk}
 
         ### Instructions:
-        - Respond ONLY with the formula (in LaTeX if possible), no explanation.
+        - Respond ONLY with the formula (in plaintext), no explanation.
         """

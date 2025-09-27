@@ -1,7 +1,7 @@
 import json
 import random
 
-with open("data/evaluation/evaluation_formulas_labelled.json", "r") as f:
+with open("data/evaluation/evaluation_formulas_labelled_1.json", "r") as f:
     formulas = json.load(f)
 
 templates = [

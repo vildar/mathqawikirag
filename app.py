@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 from utils import embed_documents, embed_queries, compute_similarity, evaluate_retrieval, load_documents_as_chunks, index_in_chromadb, Constants, load_chunks, save_chunks, clean_latex, generate_prompt
 import numpy as np
@@ -5,6 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 import os
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 
@@ -42,7 +44,7 @@ for doc_id, doc_text in zip(results['ids'], results['documents']):
 
 
 tab1, tab2, tab3 = st.tabs(
-    ["MathQA", "Embedder Evaluation", "Retrieval Evaluation"])
+    ["MathQA", "Embedder Evaluation", "MathQA Evaluation"])
 
 with tab1:
     st.header("Ask a Question")
@@ -54,11 +56,17 @@ with tab1:
         mpnet_model = Constants.EMBEDDERS[Constants.MPNET]
         query_vec = embed_queries(mpnet_model, [user_query])
         sims = cosine_similarity(query_vec, vectors_cache)[0]
-        best_idx = int(np.argmax(sims))
-        best_chunk = chunk_texts[best_idx]
+
+        # Top-k chunks instead of best chunk
+        top_indices = np.argsort(sims)[-3:][::-1]
+        top_chunks = [chunk_texts[i] for i in top_indices]
+        combined_context = "\n\n".join(top_chunks)
+
+        # best_idx = int(np.argmax(sims))
+        # best_chunk = chunk_texts[best_idx]
         payload = {
             "model": os.environ[Constants.LLM_NAME],
-            "prompt": generate_prompt(user_query, best_chunk),
+            "prompt": generate_prompt(user_query, combined_context),
             "stream": False
         }
         response = requests.post(
@@ -67,14 +75,17 @@ with tab1:
             'response', "Sorry, I couldn't generate a response.")
         st.caption("LLM Answer")
         st.latex(clean_latex(answer))
-        st.text_area("Context", best_chunk, height=150, disabled=True)
+        st.text_area("Context", combined_context, height=150, disabled=True)
 
 with tab2:
     if st.button("Run Evaluation"):
+        with open("data/evaluation/evaluation_queries.json", "r") as f:
+            queries = json.load(f)
+
         results = {}
         vectors_cache = {}
 
-        query_list = list(Constants.QUERIES.keys())
+        query_list = list(queries.keys())
 
         for name, model in Constants.EMBEDDERS.items():
             st.write(f"Evaluating: {name}")
@@ -84,7 +95,7 @@ with tab2:
 
             sim_matrix = compute_similarity(query_vectors, chunk_vectors)
             metrics = evaluate_retrieval(
-                sim_matrix, query_list, chunk_doc_ids, Constants.QUERIES)
+                sim_matrix, query_list, chunk_doc_ids, query_list)
             results[name] = metrics
 
         st.subheader("Evaluation Results")
@@ -100,29 +111,66 @@ with tab2:
 
         st.table(metrics_table)
 
-# with tab3:
-#     st.header("Evaluate Retrieval Phase")
-#     st.write("This section evaluates the retrieval pipeline using a single embedder.")
 
-#     embedder_name = Constants.EMBEDDERS[Constants.MPNET]
-#     top_k = 5
+with tab3:
+    st.header("Llama3.1:8b Evaluation on Queries")
 
-#     if st.button("Run Retrieval Evaluation"):
-#         st.write(
-#             f"Evaluating retrieval with {embedder_name} and top_k={top_k}...")
+    if st.button("Run LLM Evaluation"):
+        with open("data/evaluation/evaluation_queries.json", "r") as f:
+            queries = json.load(f)
 
-#         embedder = Constants.EMBEDDERS[embedder_name]
+        results_data = {
+            "formula": [],
+            "context": [],
+            "contains in context": [],
+            "LLM Answer": [],
+            "Ground Truth": []
+        }
 
-#         chunk_vectors = embed_documents(embedder, chunk_texts)
-#         query_list = list(Constants.QUERIES.keys())
-#         query_vectors = embed_queries(embedder, query_list)
+        mpnet_model = Constants.EMBEDDERS[Constants.MPNET]
+        query_list = list(queries.keys())
 
-#         sim_matrix = compute_similarity(query_vectors, chunk_vectors)
+        query_vectors = embed_queries(mpnet_model, query_list)
+        sim_matrix = compute_similarity(query_vectors, vectors_cache)
 
-#         metrics = evaluate_retrieval(
-#             sim_matrix, query_list, chunk_doc_ids, Constants.QUERIES, top_k=top_k
-#         )
+        for i, query in enumerate(query_list):
+            sims = sim_matrix[i]
+            # top_k=3 chunks
+            top_idx = np.argsort(sims)[::-1][:3]
+            top_contexts = [chunk_texts[j] for j in top_idx]
 
-#         st.subheader("Retrieval Evaluation Metrics")
-#         st.write(f"nDCG: {metrics['nDCG']:.4f}")
-#         st.write(f"MRR: {metrics['MRR']:.4f}")
+            combined_context = "\n---\n".join(top_contexts)
+            payload = {
+                "model": os.environ[Constants.LLM_NAME],
+                "prompt": generate_prompt(query, combined_context),
+                "stream": False
+            }
+            response = requests.post(
+                os.environ[Constants.OLLAMA_URL], json=payload
+            )
+            answer = response.json().get('response', "No answer")
+
+            results_data["formula"].append(query)
+            results_data["context"].append(combined_context)
+            results_data["contains in context"].append("")
+            results_data["LLM Answer"].append(answer)
+            results_data["Ground Truth"].append(queries[query])
+            st.text(f"Finished query {i}: {query}")
+
+        df = pd.DataFrame(results_data)
+        csv_path = "llama3.1:8b_mathqa_eval_results.csv"
+        df.to_csv(csv_path, index=False)
+
+        st.success("Evaluation complete!")
+        st.download_button(
+            label="Download Results CSV",
+            data=df.to_csv(index=False),
+            file_name="llm_eval_results.csv",
+            mime="text/csv"
+        )
+
+        st.subheader("Results Preview")
+        st.dataframe(df)
+
+
+# How can you extend the research to formulas(RAG) asking questions that yield a formula in the end.
